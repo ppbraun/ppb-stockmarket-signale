@@ -1,0 +1,35 @@
+name: Signal Check
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # alle 30 Minuten
+  workflow_dispatch:          # erlaubt manuellen Start über den "Actions"-Tab
+
+permissions:
+  contents: write             # nötig, damit der Job data/last_state.json aktualisieren darf
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Signale prüfen
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/check_signals.py
+
+      - name: Aktualisierten Stand speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/last_state.json
+          git diff --staged --quiet || git commit -m "Update signal state"
+          git push
