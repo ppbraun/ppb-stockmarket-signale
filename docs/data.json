@@ -1,18 +1,23 @@
 {
-  "generated_at": "2026-08-13T12:05:54.963796+00:00",
+  "generated_at": "2026-08-13T15:36:52.727271+00:00",
   "newsTopics": [
     {
-      "topic": "Schifffahrt / Lieferketten",
-      "vol": 163,
+      "topic": "Fed-Zinspolitik",
+      "vol": 250,
       "pct": 100
     },
     {
-      "topic": "Zölle / Handelskonflikt",
-      "vol": 0,
-      "pct": 0
+      "topic": "Gesundheit / FDA-Zulassungen",
+      "vol": 183,
+      "pct": 73
     },
     {
-      "topic": "Fed-Zinspolitik",
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 163,
+      "pct": 65
+    },
+    {
+      "topic": "Zölle / Handelskonflikt",
       "vol": 0,
       "pct": 0
     },
@@ -38,11 +43,6 @@
     },
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "Gesundheit / FDA-Zulassungen",
       "vol": 0,
       "pct": 0
     },
@@ -92,7 +92,7 @@
       "name": "Lockheed Martin",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
       "politician": null,
       "track": null,
@@ -106,7 +106,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -116,7 +117,7 @@
       "ethics": [
         "Rüstung"
       ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "DELL",
@@ -268,7 +269,7 @@
       "name": "Coinbase Global",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
       "politician": null,
       "track": null,
@@ -282,7 +283,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -290,7 +292,7 @@
       },
       "topic": "Krypto-Regulierung",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     }
   ]
 }
