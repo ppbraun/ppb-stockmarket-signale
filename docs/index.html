@@ -1,10 +1,600 @@
-ppb-stockmarket-signale/
-├── docs/
-│   └── index.html          ← das Dashboard (für GitHub Pages)
-├── scripts/
-│   └── check_signals.py    ← holt Daten, berechnet Score, sendet Telegram-Nachricht
-├── data/
-│   └── last_state.json     ← letzter bekannter Stand, für den Abgleich
-└── .github/
-    └── workflows/
-        └── check.yml       ← der Cron-Job (z. B. alle 30 Min.)
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark">
+<title>PPB Stockmarket-Signale</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root{
+    --ink: #14181F;
+    --ink-soft: #1B212B;
+    --paper: #EFE9DC;
+    --paper-dim: #DCD4C0;
+    --amber: #3F8C7D;
+    --amber-bright: #5FB8A3;
+    --verify: #7A9E5C;
+    --alert: #A14B5C;
+    --blue: #6F84B8;
+    --conflict: #9B7FBF;
+    --line: rgba(239,233,220,0.12);
+    --line-strong: rgba(239,233,220,0.24);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    background: var(--ink);
+    color: var(--paper);
+    font-family: 'IBM Plex Sans', sans-serif;
+    min-height: 100vh;
+    padding: 32px 24px 60px;
+  }
+  .wrap{ max-width: 1080px; margin: 0 auto; }
+
+  header{
+    display:flex; justify-content:space-between; align-items:flex-end;
+    border-bottom: 1px solid var(--line-strong);
+    padding-bottom: 18px; margin-bottom: 20px;
+    flex-wrap: wrap; gap: 12px;
+  }
+  header h1{
+    font-family:'Newsreader', serif; font-weight:600; font-size: 27px; letter-spacing:-0.01em;
+  }
+  header .sub{ font-size: 12.5px; color: rgba(239,233,220,0.5); margin-top:4px; font-family:'IBM Plex Mono', monospace;}
+  .stamp{
+    font-family:'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing:0.1em;
+    border: 1.5px solid var(--amber); color: var(--amber-bright);
+    padding: 5px 10px; border-radius: 3px; text-transform: uppercase; white-space:nowrap;
+  }
+
+  .banner{
+    background: var(--ink-soft); border:1px solid var(--line); border-left: 3px solid var(--amber);
+    padding: 12px 16px; margin-bottom: 20px; border-radius: 4px;
+    font-size: 12.5px; line-height:1.55; color: rgba(239,233,220,0.75);
+  }
+  .banner b{ color: var(--paper); }
+
+  .controls{
+    display:flex; align-items:center; justify-content:space-between; gap:16px;
+    margin-bottom: 16px; flex-wrap:wrap;
+  }
+  @media (max-width: 640px){
+    .controls{ flex-direction:column; align-items:stretch; gap:12px; }
+    .segment{ width:100%; }
+  }
+  .toggle-wrap{ display:flex; align-items:center; gap:10px; font-size:13px; min-height:44px; }
+  .toggle{
+    width:42px; height:24px; border-radius:14px; background: var(--paper-dim); opacity:0.3;
+    position:relative; cursor:pointer; transition: all .2s ease; flex-shrink:0;
+  }
+  .toggle.on{ background: var(--verify); opacity:1; }
+  .toggle::after{
+    content:''; position:absolute; width:18px; height:18px; border-radius:50%;
+    background: var(--ink); top:3px; left:3px; transition: all .2s ease;
+  }
+  .toggle.on::after{ left:21px; background: var(--paper); }
+  .broker-note{ font-size:11.5px; color: rgba(239,233,220,0.4); font-family:'IBM Plex Mono', monospace; }
+
+  .segment{ display:flex; border:1px solid var(--line-strong); border-radius:6px; overflow:hidden; }
+  .segment-opt{
+    font-family:'IBM Plex Mono', monospace; font-size:11.5px; padding:10px 14px; cursor:pointer;
+    color: rgba(239,233,220,0.5); transition: all .15s ease; border-right:1px solid var(--line-strong);
+    min-height:44px; display:flex; align-items:center; flex:1; justify-content:center; white-space:nowrap;
+  }
+  .segment-opt:last-child{ border-right:none; }
+  .segment-opt.active{ background: var(--amber); color: var(--ink); font-weight:600; }
+  .segment-opt:not(.active):hover{ color: var(--paper); }
+
+  /* Table */
+  .table-card{
+    background: var(--ink-soft); border:1px solid var(--line); border-radius:6px; overflow:hidden;
+  }
+  table{ width:100%; border-collapse: collapse; }
+  thead th{
+    text-align:left; font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:0.08em;
+    text-transform:uppercase; color: rgba(239,233,220,0.4); font-weight:500;
+    padding: 12px 14px; border-bottom: 1px solid var(--line-strong);
+  }
+  tbody tr{ border-bottom: 1px solid var(--line); cursor:default; transition: background .12s ease; }
+  tbody tr:hover{ background: rgba(239,233,220,0.03); }
+  tbody tr:last-child{ border-bottom:none; }
+  td{ padding: 13px 14px; vertical-align: middle; font-size: 13px; }
+
+  .tk-cell{ display:flex; align-items:center; gap:10px; }
+  .tk{ font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:14px; width:48px; flex-shrink:0; }
+  .tk-name{ font-size:12px; color: rgba(239,233,220,0.55); }
+  .market-tag{
+    font-family:'IBM Plex Mono', monospace; font-size:9px; padding:2px 6px; border-radius:3px;
+    border:1px solid var(--line-strong); color: rgba(239,233,220,0.45); letter-spacing:0.04em;
+  }
+  .market-tag.eu{ border-color: rgba(122,147,201,0.5); color: var(--blue); }
+
+  .broker-check{
+    font-size:11px; font-family:'IBM Plex Mono', monospace; color: var(--verify);
+    display:flex; align-items:center; gap:4px; white-space:nowrap;
+  }
+  .broker-check.no{ color: rgba(239,233,220,0.3); }
+
+  .score-cell{ display:flex; align-items:center; gap:10px; }
+  .score-num{ font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:14px; color: var(--amber-bright); width:20px; }
+  .score-bar-track{ width: 60px; height:6px; border-radius:3px; background: var(--paper-dim); opacity:0.15; overflow:hidden; }
+  .score-bar-fill{ height:100%; border-radius:3px; background: var(--amber); }
+
+  .badges{ display:flex; gap:5px; flex-wrap:wrap; }
+  .badge{
+    font-family:'IBM Plex Mono', monospace; font-size:10px; padding:3px 7px; border-radius:10px;
+    border:1px solid; white-space:nowrap;
+  }
+  .badge.congress{ border-color: var(--amber); color: var(--amber-bright); }
+  .badge.insider{ border-color: var(--verify); color: var(--verify); }
+  .badge.macro{ border-color: var(--blue); color: var(--blue); }
+  .badge.predict{ border-color: var(--alert); color: var(--alert); }
+  .badge.conflict{ border-color: var(--conflict); color: var(--conflict); background: rgba(155,127,209,0.1); }
+  .badge.off{ border-color: var(--line-strong); color: rgba(239,233,220,0.25); }
+
+  .track-note{
+    font-family:'IBM Plex Mono', monospace; font-size:10px; color: rgba(239,233,220,0.4);
+    margin-top:6px;
+  }
+
+  .reaction-value{
+    font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:13px; white-space:nowrap;
+  }
+  .reaction-value.up{ color: var(--verify); }
+  .reaction-value.down{ color: var(--alert); }
+
+  .why-cell{ font-size:12px; color: rgba(239,233,220,0.6); max-width:200px; line-height:1.4; }
+  .card-head{ display:contents; }
+  .card-head-left{ display:contents; }
+  .card-head-right{ display:none; }
+  .card-fresh{ font-family:'IBM Plex Mono', monospace; font-size:10px; color: rgba(239,233,220,0.4); white-space:nowrap; }
+  .card-chevron{ display:none; }
+
+  .ethics-chip{
+    display:inline-flex; align-items:center; gap:5px;
+    font-family:'IBM Plex Mono', monospace; font-size:10px; padding:3px 8px; border-radius:3px;
+    background: rgba(161,75,92,0.14); border:1px solid rgba(161,75,92,0.55); color:#CB8494;
+    white-space:nowrap;
+  }
+  .ethics-none{ font-size:11px; color: rgba(239,233,220,0.2); font-family:'IBM Plex Mono', monospace; }
+  tr.flagged{ box-shadow: inset 3px 0 0 var(--alert); }
+  tr.conflicted{ box-shadow: inset 3px 0 0 var(--conflict); }
+  tr.flagged.conflicted{ box-shadow: inset 3px 0 0 var(--alert), inset 6px 0 0 var(--conflict); }
+
+  .legend-row{
+    display:flex; gap:16px; flex-wrap:wrap; font-size:11px; color: rgba(239,233,220,0.5);
+    margin-top:14px; font-family:'IBM Plex Mono', monospace;
+  }
+  .legend-row span{ display:inline-flex; align-items:center; gap:6px; }
+  .dot{ width:7px; height:7px; border-radius:50%; }
+
+  /* News panel */
+  .news-card{
+    background: var(--ink-soft); border:1px solid var(--line); border-radius:6px;
+    padding: 16px 18px; margin-bottom: 20px;
+  }
+  .news-card-title{
+    font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:0.08em;
+    color: rgba(239,233,220,0.4); text-transform:uppercase; margin-bottom:12px;
+    display:flex; justify-content:space-between; align-items:center;
+  }
+  .news-grid{ display:grid; grid-template-columns: 1fr 1fr; gap: 6px 24px; }
+  @media (max-width: 640px){ .news-grid{ grid-template-columns: 1fr; } }
+  .news-grid.collapsed .news-row:nth-child(n+4){ display:none; }
+  .news-toggle{
+    display:block; width:100%; text-align:center; margin-top:12px; padding:8px;
+    font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:0.05em;
+    color: var(--amber-bright); background:none; border:1px dashed var(--line-strong); border-radius:4px;
+    cursor:pointer; text-transform:uppercase;
+  }
+  .news-toggle:hover{ border-color: var(--amber); }
+  .news-row{ padding: 7px 0; border-top:1px solid var(--line); }
+  .news-row:nth-child(-n+2){ border-top:none; }
+  .news-top{ display:flex; justify-content:space-between; font-size:12px; margin-bottom:5px; }
+  .news-topic{ font-weight:500; }
+  .news-vol{ font-family:'IBM Plex Mono', monospace; color: rgba(239,233,220,0.4); font-size:10.5px; }
+  .news-bar-track{ height:5px; background: var(--paper-dim); opacity:0.15; border-radius:3px; overflow:hidden; }
+  .news-bar-fill{ height:100%; border-radius:3px; }
+
+  footer{
+    margin-top: 28px; padding-top:16px; border-top:1px solid var(--line);
+    font-size: 11px; color: rgba(239,233,220,0.4); line-height:1.6;
+    font-family:'IBM Plex Mono', monospace;
+  }
+
+  @media (max-width: 480px){
+    body{ padding: 20px 14px 48px; }
+    header h1{ font-size:22px; }
+    .stamp{ font-size:9.5px; padding:4px 8px; }
+    .banner{ font-size:12px; padding:10px 12px; }
+    .news-card{ padding:14px; }
+  }
+
+  @media (max-width: 680px){
+    .table-card{ border:none; background:transparent; }
+    table, thead, tbody, tr, td{ display:block; width:100%; }
+    thead{ display:none; }
+    tbody tr{
+      background: var(--ink-soft); border:1px solid var(--line); border-radius:6px;
+      margin-bottom:10px; padding:0; box-shadow:none !important; overflow:hidden;
+      border-left:1px solid var(--line);
+    }
+    tbody tr.flagged{ border-left:3px solid var(--alert); }
+    tbody tr.conflicted{ border-left:3px solid var(--conflict); }
+    tbody tr.flagged.conflicted{ border-left:3px solid var(--alert); border-right:3px solid var(--conflict); }
+    tbody tr:hover{ background: var(--ink-soft); }
+
+    /* Compact header row: always visible */
+    .card-head{ display:flex; align-items:center; justify-content:space-between; gap:10px; padding:14px 16px; cursor:pointer; }
+    .card-head-left{ display:block; min-width:0; flex:1; }
+    .card-head-right{ display:flex; align-items:center; gap:10px; flex-shrink:0; }
+    .card-chevron{
+      display:block; font-family:'IBM Plex Mono', monospace; font-size:11px; color: rgba(239,233,220,0.4);
+      transition: transform .2s ease; flex-shrink:0;
+    }
+    tr.expanded .card-chevron{ transform: rotate(180deg); }
+
+    /* Detail cells: hidden until expanded */
+    td{
+      padding: 8px 16px; border-top:none !important; font-size:13px;
+      display:flex; align-items:center; justify-content:space-between; gap:12px; text-align:right;
+    }
+    td::before{
+      content: attr(data-label); font-family:'IBM Plex Mono', monospace; font-size:10px;
+      text-transform:uppercase; letter-spacing:0.06em; color: rgba(239,233,220,0.4);
+      text-align:left; flex-shrink:0;
+    }
+    td.detail{ display:none; }
+    tr.expanded td.detail{ display:flex; }
+    td.detail[data-label="Score"]{ display:none !important; }
+    tr.expanded td.detail:first-of-type{ border-top:1px solid var(--line) !important; padding-top:12px; margin-top:2px; }
+    td.detail:last-child{ padding-bottom:16px; flex-direction:column; align-items:flex-start; text-align:left; }
+    td.detail:last-child::before{ margin-bottom:4px; }
+    .why-cell{ max-width:none; }
+    .badges{ justify-content:flex-end; }
+    .broker-check{ margin-left:auto; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div>
+      <h1>PPB Stockmarket-Signale</h1>
+      <div class="sub">USA & Europa · alle Signale · sortiert nach Konvergenz</div>
+    </div>
+    <div class="stamp">Demo-Daten · keine Anlageberatung</div>
+  </header>
+
+  <div class="banner">
+    <b>Wie das zu lesen ist:</b> Jede Zeile ist ein Ticker, jede Spalte ein unabhängiges öffentliches Signal. Politiker- und Insider-Badges zeigen Richtung (▲ Kauf / ▼ Verkauf) und Alter der Meldung. Die Spalte "Reaktion" zeigt die Kursbewegung seit dem ersten Signal — hilft einzuschätzen, ob der Markt es schon eingepreist hat. ⚡ markiert gegenläufige Signale, ⚠ ethisch sensible Sektoren. Sortiert nach Score, absteigend.
+  </div>
+
+  <div class="news-card">
+    <div class="news-card-title">
+      <span>Aktuelle Nachrichtenlagen — globales Volumen nach Thema, 48h (GDELT)</span>
+      <span style="color:rgba(239,233,220,0.3)">11 Themenfelder</span>
+    </div>
+    <div class="news-grid collapsed" id="newsGrid"><!-- injected --></div>
+    <button class="news-toggle" id="newsToggle">Alle 11 Themen anzeigen</button>
+  </div>
+
+  <div class="controls">
+    <div class="segment" id="marketSegment">
+      <div class="segment-opt active" data-market="all">Alle Märkte</div>
+      <div class="segment-opt" data-market="us">USA</div>
+      <div class="segment-opt" data-market="eu">Europa</div>
+    </div>
+    <div class="segment" id="sortSegment">
+      <div class="segment-opt active" data-sort="score">Nach Score</div>
+      <div class="segment-opt" data-sort="fresh">Nach Aktualität</div>
+    </div>
+    <div class="toggle-wrap">
+      <div class="toggle on" id="brokerToggle"></div>
+      <span>Nur bei TR / Zero handelbar</span>
+    </div>
+    <div class="toggle-wrap">
+      <div class="toggle" id="ethicsToggle"></div>
+      <span>Ethisch gekennzeichnete ausblenden</span>
+    </div>
+  </div>
+  <div class="broker-note" style="margin: -8px 0 16px;">
+    Politiker-Signale gibt es strukturell fast nur für US-Titel (STOCK Act erzwingt Meldung binnen 45 Tagen) — für Europa fehlt ein Äquivalent bislang. Insider-Käufe funktionieren dagegen auf beiden Seiten: USA über SEC Form 4, EU über BaFin Directors' Dealings (Meldung binnen 2 Werktagen).
+  </div>
+
+  <div class="table-card">
+    <table>
+      <thead>
+        <tr>
+          <th>Ticker</th>
+          <th>Handelbar</th>
+          <th>Ethik</th>
+          <th>Score</th>
+          <th>Reaktion</th>
+          <th>Signale</th>
+          <th>Nachrichtenlage</th>
+          <th>Warum relevant</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <!-- rows injected -->
+      </tbody>
+    </table>
+  </div>
+
+  <div class="legend-row">
+    <span><span class="dot" style="background:var(--amber)"></span> Politiker-Trade (nur USA — STOCK Act)</span>
+    <span><span class="dot" style="background:var(--verify)"></span> Insider-Kauf (SEC Form 4 / BaFin Directors' Dealings)</span>
+    <span><span class="dot" style="background:var(--blue)"></span> Makro-Aufmerksamkeit (GDELT, global)</span>
+    <span><span class="dot" style="background:var(--alert)"></span> Prediction-Market-Ausschlag (v. a. USA)</span>
+    <span><span class="dot" style="background:var(--conflict)"></span> ⚡ = gegenläufige Signale</span>
+    <span><span class="dot" style="background:var(--alert); opacity:0.6"></span> ⚠ = ethisch sensibler Sektor</span>
+  </div>
+
+  <footer>
+    Alle Werte sind Platzhalter zur Demonstration des Konzepts. Handelbarkeit bei Trade Republic/Zero anhand grober Marktkapitalisierungs-Heuristik simuliert, kein Live-Abgleich mit dem tatsächlichen Handelsangebot. Kein Echtzeit-Datenabruf, keine Anlageberatung. Konvergenz mehrerer öffentlicher Signale ist kein verlässlicher Prädiktor für künftige Kursentwicklung.
+  </footer>
+
+</div>
+
+<script>
+  const newsTopics = [
+    { topic:"Zölle / Handelskonflikt", vol:2840, pct:88, color:"#3F8C7D" },
+    { topic:"Fed-Zinspolitik", vol:2310, pct:74, color:"#6F84B8" },
+    { topic:"Edelmetalle / Goldminen", vol:1960, pct:64, color:"#5FB8A3" },
+    { topic:"Verteidigung / Rüstung", vol:1510, pct:51, color:"#A14B5C" },
+    { topic:"KI-Infrastruktur", vol:1140, pct:39, color:"#6F84B8" },
+    { topic:"Halbleiter / Chips", vol:1080, pct:37, color:"#7A9E5C" },
+    { topic:"Energie / Öl & Gas", vol:870, pct:29, color:"#3F8C7D" },
+    { topic:"Gesundheit / FDA-Zulassungen", vol:740, pct:25, color:"#7A9E5C" },
+    { topic:"Schifffahrt / Lieferketten", vol:610, pct:21, color:"#6F84B8" },
+    { topic:"Krypto-Regulierung", vol:540, pct:19, color:"#5FB8A3" },
+    { topic:"Cybersecurity", vol:390, pct:14, color:"#A14B5C" },
+  ];
+
+  const data = [
+    { tk:"NEM", name:"Newmont Corp.", broker:true, market:"us", score:4, reaction:9.4, politician:"Sen. R. Boozman", track:"+21%",
+      sig:{ congress:{active:true, dir:"Kauf", age:"11T"}, insider:{active:true, dir:"Kauf", age:"2T", src:"SEC"}, macro:{active:true, age:"18Std"}, predict:{active:true, age:"3T"} },
+      topic:"Edelmetalle / Goldminen", ethics:[], why:"Kongress- & Insider-Kauf plus steigende Nachrichtenaufmerksamkeit zu Edelmetallen im selben Fenster." },
+
+    { tk:"LMT", name:"Lockheed Martin", broker:true, market:"us", score:3, reaction:4.1, politician:"Rep. J. Gottheimer", track:"+9%",
+      sig:{ congress:{active:true, dir:"Kauf", age:"6T"}, insider:{active:true, dir:"Kauf", age:"1T", src:"SEC"}, macro:{active:true, age:"24Std"}, predict:{active:false} },
+      topic:"Verteidigung / Rüstung", ethics:["Rüstung"], why:"Politiker- und Insiderkauf treffen auf steigende Verteidigungs-Berichterstattung." },
+
+    { tk:"DELL", name:"Dell Technologies", broker:true, market:"us", score:2, reaction:2.8, politician:"Rep. R. Khanna", track:"-3%",
+      sig:{ congress:{active:true, dir:"Kauf", age:"14T"}, insider:{active:false}, macro:{active:true, age:"36Std"}, predict:{active:false} },
+      topic:"KI-Infrastruktur", ethics:[], why:"Politiker-Kauf, begleitet von leicht erhöhter KI-Infrastruktur-Aufmerksamkeit. Track-Record des Politikers ist unterdurchschnittlich." },
+
+    { tk:"CVX", name:"Chevron", broker:true, market:"us", score:2, reaction:-1.6, politician:"Sen. K. Loeffler", track:"+5%",
+      sig:{ congress:{active:true, dir:"Kauf", age:"9T"}, insider:{active:false}, macro:{active:false}, predict:{active:true, age:"2T"} },
+      topic:"Energie / Öl & Gas", ethics:["Fossile Energie"], why:"Politiker-Kauf plus Verschiebung in einem Energie-bezogenen Prediction Market — Kurs bislang trotzdem im Minus." },
+
+    { tk:"RTX", name:"RTX Corporation", broker:true, market:"us", score:2, reaction:3.3, politician:null, track:null,
+      sig:{ congress:{active:false}, insider:{active:true, dir:"Kauf", age:"4T", src:"SEC"}, macro:{active:true, age:"30Std"}, predict:{active:false} },
+      topic:"Verteidigung / Rüstung", ethics:["Rüstung"], why:"Insider-Kauf eines Direktors, parallel steigende Rüstungs-Nachrichten." },
+
+    { tk:"NVDA", name:"Nvidia Corp.", broker:true, market:"us", score:3, reaction:7.7, politician:"Sen. R. Boozman", track:"+21%",
+      sig:{ congress:{active:true, dir:"Kauf", age:"5T"}, insider:{active:false}, macro:{active:true, age:"12Std"}, predict:{active:true, age:"1T"} },
+      topic:"Halbleiter / Chips", ethics:[], why:"Politiker-Kauf, hohe Chip-Nachrichtenlage und Ausschlag in einem Handels-Prediction-Market." },
+
+    { tk:"UNH", name:"UnitedHealth Group", broker:true, market:"us", score:2, reaction:-4.2, politician:null, track:null,
+      sig:{ congress:{active:false}, insider:{active:true, dir:"Kauf", age:"3T", src:"SEC"}, macro:{active:true, age:"40Std"}, predict:{active:false} },
+      topic:"Gesundheit / FDA-Zulassungen", ethics:[], why:"Insider-Kauf, begleitet von erhöhter Berichterstattung zu Zulassungsverfahren — Kurs bisher trotzdem rückläufig." },
+
+    { tk:"MOS", name:"Mosaic Company", broker:true, market:"us", score:2, reaction:-2.1, politician:"Rep. R. Khanna", track:"-3%",
+      sig:{ congress:{active:true, dir:"Kauf", age:"19T"}, insider:{active:true, dir:"Verkauf", age:"5T", src:"SEC"}, macro:{active:false}, predict:{active:true, age:"6T"} },
+      topic:"Zölle / Handelskonflikt", ethics:[], why:"Politiker kauft, während ein Insider im selben Fenster verkauft — gegensätzliches Signal, besondere Vorsicht angebracht." },
+
+    { tk:"COIN", name:"Coinbase Global", broker:true, market:"us", score:2, reaction:5.9, politician:null, track:null,
+      sig:{ congress:{active:false}, insider:{active:true, dir:"Kauf", age:"2T", src:"SEC"}, macro:{active:true, age:"20Std"}, predict:{active:false} },
+      topic:"Krypto-Regulierung", ethics:[], why:"Insider-Kauf parallel zu steigender Nachrichtenlage bei Krypto-Regulierung." },
+
+    { tk:"GEO", name:"GEO Group", broker:false, market:"us", score:2, reaction:1.2, politician:"Rep. J. Gottheimer", track:"+9%",
+      sig:{ congress:{active:true, dir:"Kauf", age:"23T"}, insider:{active:false}, macro:{active:true, age:"44Std"}, predict:{active:false} },
+      topic:"Migrationspolitik / Justizvollzug", ethics:["Private Gefängnisse"], why:"Politiker-Kauf plus steigende Berichterstattung zu Abschiebehaft — bei TR/Zero derzeit nicht gelistet." },
+
+    { tk:"PLTR", name:"Palantir", broker:true, market:"us", score:1, reaction:0.4, politician:null, track:null,
+      sig:{ congress:{active:false}, insider:{active:false}, macro:{active:true, age:"16Std"}, predict:{active:false} },
+      topic:"Cybersecurity", ethics:["Überwachungstechnologie"], why:"Nur erhöhte Medienaufmerksamkeit, keine bestätigten Trades." },
+
+    { tk:"ZIM", name:"ZIM Integrated Shipping", broker:false, market:"us", score:1, reaction:3.0, politician:null, track:null,
+      sig:{ congress:{active:false}, insider:{active:true, dir:"Kauf", age:"7T", src:"SEC"}, macro:{active:false}, predict:{active:false} },
+      topic:"Schifffahrt / Lieferketten", ethics:[], why:"Einzelner Insider-Kauf — bei TR/Zero derzeit nicht gelistet." },
+
+    { tk:"ANET", name:"Arista Networks", broker:false, market:"us", score:1, reaction:-0.8, politician:null, track:null,
+      sig:{ congress:{active:false}, insider:{active:true, dir:"Kauf", age:"8T", src:"SEC"}, macro:{active:false}, predict:{active:false} },
+      topic:"KI-Infrastruktur", ethics:[], why:"Einzelner Insider-Kauf, sonst kein weiteres Signal — bei TR/Zero derzeit nicht gelistet." },
+
+    { tk:"RHM", name:"Rheinmetall AG", broker:true, market:"eu", score:2, reaction:5.8, politician:null, track:null,
+      sig:{ congress:{active:false}, insider:{active:true, dir:"Kauf", age:"1T", src:"BaFin"}, macro:{active:true, age:"24Std"}, predict:{active:false} },
+      topic:"Verteidigung / Rüstung", ethics:["Rüstung"], why:"BaFin-Directors'-Dealings-Kauf eines Vorstandsmitglieds, parallel hohe Rüstungs-Nachrichtenlage. Kein Politiker-Signal möglich — in Deutschland nicht meldepflichtig." },
+
+    { tk:"SAP", name:"SAP SE", broker:true, market:"eu", score:2, reaction:1.9, politician:null, track:null,
+      sig:{ congress:{active:false}, insider:{active:true, dir:"Kauf", age:"2T", src:"BaFin"}, macro:{active:true, age:"12Std"}, predict:{active:false} },
+      topic:"KI-Infrastruktur", ethics:[], why:"BaFin-Meldung eines Aufsichtsratsmitglieds trifft auf steigende KI-Infrastruktur-Berichterstattung." },
+
+    { tk:"DTE", name:"Deutsche Telekom", broker:true, market:"eu", score:1, reaction:0.6, politician:null, track:null,
+      sig:{ congress:{active:false}, insider:{active:false}, macro:{active:true, age:"30Std"}, predict:{active:false} },
+      topic:"Cybersecurity", ethics:[], why:"Nur erhöhte Medienaufmerksamkeit, keine gemeldeten Directors' Dealings." },
+
+    { tk:"BAS", name:"BASF SE", broker:true, market:"eu", score:2, reaction:-3.4, politician:null, track:null,
+      sig:{ congress:{active:false}, insider:{active:true, dir:"Verkauf", age:"3T", src:"BaFin"}, macro:{active:true, age:"20Std"}, predict:{active:false} },
+      topic:"Zölle / Handelskonflikt", ethics:[], why:"BaFin-Meldung: Vorstandsmitglied verkauft im Fenster steigender Zoll-Berichterstattung — eher Warnsignal als Kaufanlass." },
+  ];
+
+  function sigBadge(s, cls, label){
+    if(!s || !s.active) return `<span class="badge off">${label}</span>`;
+    const dirMark = s.dir ? (s.dir === "Kauf" ? " ▲" : " ▼") : "";
+    const srcStr = s.src ? ` (${s.src})` : "";
+    const ageStr = s.age ? ` · ${s.age}` : "";
+    return `<span class="badge ${cls}">${label}${srcStr}${dirMark}${ageStr}</span>`;
+  }
+
+  function reactionHtml(val){
+    const up = val >= 0;
+    const cls = up ? "up" : "down";
+    const arrow = up ? "▲" : "▼";
+    return `<span class="reaction-value ${cls}">${arrow} ${Math.abs(val).toFixed(1)}%</span>`;
+  }
+
+  function isConflict(d){
+    return d.sig.congress.active && d.sig.insider.active && d.sig.congress.dir && d.sig.insider.dir
+      && d.sig.congress.dir !== d.sig.insider.dir;
+  }
+
+  function parseAgeHours(ageStr){
+    if(!ageStr) return Infinity;
+    if(ageStr.includes('Std')) return parseInt(ageStr, 10);
+    if(ageStr.includes('T')) return parseInt(ageStr, 10) * 24;
+    return Infinity;
+  }
+
+  function freshestHours(d){
+    return Math.min(
+      d.sig.congress.active ? parseAgeHours(d.sig.congress.age) : Infinity,
+      d.sig.insider.active ? parseAgeHours(d.sig.insider.age) : Infinity,
+      d.sig.macro.active ? parseAgeHours(d.sig.macro.age) : Infinity,
+      d.sig.predict.active ? parseAgeHours(d.sig.predict.age) : Infinity
+    );
+  }
+
+  function freshLabel(hours){
+    if(hours === Infinity) return "—";
+    if(hours < 24) return `vor ${hours} Std.`;
+    return `vor ${Math.round(hours/24)} T.`;
+  }
+
+  function render(filterBroker, hideEthics, market, sortMode){
+    const body = document.getElementById('tableBody');
+    let rows = data
+      .filter(d => !filterBroker || d.broker)
+      .filter(d => !hideEthics || d.ethics.length === 0)
+      .filter(d => market === 'all' || d.market === market);
+
+    rows = sortMode === 'fresh'
+      ? rows.sort((a,b) => freshestHours(a) - freshestHours(b))
+      : rows.sort((a,b) => b.score - a.score);
+
+    body.innerHTML = rows.map(d => {
+      const conflict = isConflict(d);
+      const rowClass = [d.ethics.length ? 'flagged' : '', conflict ? 'conflicted' : ''].join(' ').trim();
+      const activeCount = ['congress','insider','macro','predict'].filter(k => d.sig[k].active).length;
+      const fresh = freshLabel(freshestHours(d));
+      return `
+      <tr class="${rowClass}">
+        <td data-label="Ticker">
+          <div class="card-head" onclick="this.closest('tr').classList.toggle('expanded')">
+            <div class="card-head-left">
+              <div class="tk-cell">
+                <div class="tk">${d.tk}</div>
+                <div>
+                  <div class="tk-name">${d.name}</div>
+                  <span class="market-tag ${d.market === 'eu' ? 'eu' : ''}">${d.market === 'eu' ? 'EU' : 'US'}</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-head-right">
+              <div class="score-cell">
+                <div class="score-num">${d.score}</div>
+                <div class="score-bar-track"><div class="score-bar-fill" style="width:${d.score*25}%"></div></div>
+              </div>
+              <span class="card-fresh">${activeCount}/4 · ${fresh}</span>
+              <span class="card-chevron">▼</span>
+            </div>
+          </div>
+        </td>
+        <td data-label="Handelbar" class="detail">
+          <div class="broker-check ${d.broker ? '' : 'no'}">${d.broker ? '✓ TR / Zero' : '— nicht gelistet'}</div>
+        </td>
+        <td data-label="Ethik" class="detail">
+          ${d.ethics.length
+            ? d.ethics.map(e => `<span class="ethics-chip">⚠ ${e}</span>`).join(' ')
+            : '<span class="ethics-none">—</span>'}
+        </td>
+        <td data-label="Score" class="detail">
+          <div class="score-cell">
+            <div class="score-num">${d.score}</div>
+            <div class="score-bar-track"><div class="score-bar-fill" style="width:${d.score*25}%"></div></div>
+          </div>
+        </td>
+        <td data-label="Reaktion" class="detail">${reactionHtml(d.reaction)}</td>
+        <td data-label="Signale" class="detail">
+          <div class="badges">
+            ${sigBadge(d.sig.congress, 'congress', 'Politik')}
+            ${sigBadge(d.sig.insider, 'insider', 'Insider')}
+            ${sigBadge(d.sig.macro, 'macro', 'Makro')}
+            ${sigBadge(d.sig.predict, 'predict', 'Predict')}
+            ${conflict ? '<span class="badge conflict">⚡ Gegenläufig</span>' : ''}
+          </div>
+          ${d.sig.congress.active && d.track ? `<div class="track-note">${d.politician} · Track-Record: Ø ${d.track}</div>` : ''}
+        </td>
+        <td data-label="Nachrichtenlage" class="detail" style="font-size:12px; color:rgba(239,233,220,0.6); white-space:nowrap;">${d.topic}</td>
+        <td data-label="Warum relevant" class="detail why-cell">${d.why}</td>
+      </tr>
+    `;
+    }).join('');
+  }
+
+  function renderNews(){
+    const grid = document.getElementById('newsGrid');
+    grid.innerHTML = newsTopics.map(n => `
+      <div class="news-row">
+        <div class="news-top"><span class="news-topic">${n.topic}</span><span class="news-vol">${n.vol.toLocaleString('de-DE')} Artikel</span></div>
+        <div class="news-bar-track"><div class="news-bar-fill" style="width:${n.pct}%; background:${n.color};"></div></div>
+      </div>
+    `).join('');
+  }
+
+  const brokerToggle = document.getElementById('brokerToggle');
+  const ethicsToggle = document.getElementById('ethicsToggle');
+  const marketSegment = document.getElementById('marketSegment');
+  const sortSegment = document.getElementById('sortSegment');
+  const newsToggle = document.getElementById('newsToggle');
+  const newsGrid = document.getElementById('newsGrid');
+  let filterBroker = true;
+  let hideEthics = false;
+  let market = 'all';
+  let sortMode = 'score';
+
+  brokerToggle.addEventListener('click', () => {
+    filterBroker = !filterBroker;
+    brokerToggle.classList.toggle('on', filterBroker);
+    render(filterBroker, hideEthics, market, sortMode);
+  });
+
+  ethicsToggle.addEventListener('click', () => {
+    hideEthics = !hideEthics;
+    ethicsToggle.classList.toggle('on', hideEthics);
+    render(filterBroker, hideEthics, market, sortMode);
+  });
+
+  marketSegment.querySelectorAll('.segment-opt').forEach(opt => {
+    opt.addEventListener('click', () => {
+      marketSegment.querySelectorAll('.segment-opt').forEach(o => o.classList.remove('active'));
+      opt.classList.add('active');
+      market = opt.dataset.market;
+      render(filterBroker, hideEthics, market, sortMode);
+    });
+  });
+
+  sortSegment.querySelectorAll('.segment-opt').forEach(opt => {
+    opt.addEventListener('click', () => {
+      sortSegment.querySelectorAll('.segment-opt').forEach(o => o.classList.remove('active'));
+      opt.classList.add('active');
+      sortMode = opt.dataset.sort;
+      render(filterBroker, hideEthics, market, sortMode);
+    });
+  });
+
+  newsToggle.addEventListener('click', () => {
+    const isCollapsed = newsGrid.classList.toggle('collapsed');
+    newsToggle.textContent = isCollapsed ? 'Alle 11 Themen anzeigen' : 'Weniger anzeigen';
+  });
+
+  render(true, false, 'all', 'score');
+  renderNews();
+</script>
+</body>
+</html>
