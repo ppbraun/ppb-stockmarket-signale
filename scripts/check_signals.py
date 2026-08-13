@@ -15,6 +15,7 @@ Nutzt nur die Python-Standardbibliothek — kein pip install noetig.
 """
 
 import os
+import re
 import csv
 import io
 import json
@@ -22,6 +23,7 @@ import time
 import datetime
 import urllib.parse
 import urllib.request
+import urllib.error
 import xml.etree.ElementTree as ET
 
 GDELT_URL = "https://api.gdeltproject.org/api/v2/doc/doc"
@@ -89,12 +91,29 @@ def http_get_text(url, headers=None):
 # GDELT
 # ---------------------------------------------------------------------------
 
-def gdelt_search(query, timespan="2d", maxrecords=250):
+def gdelt_search(query, timespan="2d", maxrecords=250, retries=3):
     params = {"query": query, "mode": "ArtList", "maxrecords": maxrecords,
               "timespan": timespan, "format": "json"}
     url = GDELT_URL + "?" + urllib.parse.urlencode(params)
-    data = http_get_json(url, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
-    return data.get("articles", [])
+
+    last_error = None
+    for attempt in range(retries):
+        try:
+            data = http_get_json(url, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
+            return data.get("articles", [])
+        except urllib.error.HTTPError as e:
+            last_error = e
+            if e.code == 429:
+                wait = 8 * (attempt + 1)
+                print(f"  GDELT-Rate-Limit (429), warte {wait}s und versuche erneut ...")
+                time.sleep(wait)
+                continue
+            raise
+        except Exception as e:
+            last_error = e
+            print(f"  GDELT-Anfrage fehlgeschlagen ({e}), warte 5s ...")
+            time.sleep(5)
+    raise last_error
 
 
 def gdelt_count(query, timespan="2d"):
@@ -128,16 +147,30 @@ def gdelt_freshest_hours(articles):
 def load_sp500():
     text = http_get_text(SP500_CSV_URL, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
     reader = csv.DictReader(io.StringIO(text))
+
+    fieldnames = reader.fieldnames or []
+    if "CIK" not in fieldnames or "Symbol" not in fieldnames:
+        print(f"Unerwartete Spalten in der S&P-500-Datei: {fieldnames}")
+        print(f"Erste 300 Zeichen der Antwort: {text[:300]!r}")
+        return {}
+
     companies = {}
+    skipped = 0
     for row in reader:
-        cik_raw = (row.get("CIK") or "").strip()
-        if not cik_raw:
+        cik_raw = (row.get("CIK") or "")
+        cik_digits = re.sub(r"[^0-9]", "", cik_raw)
+        if not cik_digits:
+            skipped += 1
             continue
-        companies[int(cik_raw)] = {
-            "tk": row.get("Symbol", "").strip(),
-            "name": row.get("Security", "").strip(),
-            "sector": row.get("GICS Sector", "").strip(),
+        companies[int(cik_digits)] = {
+            "tk": (row.get("Symbol") or "").strip(),
+            "name": (row.get("Security") or "").strip(),
+            "sector": (row.get("GICS Sector") or "").strip(),
         }
+
+    if skipped:
+        print(f"{skipped} S&P-500-Zeilen ohne verwertbare CIK übersprungen.")
+    print(f"S&P-500-Liste geladen: {len(companies)} Firmen.")
     return companies
 
 
@@ -310,7 +343,7 @@ def check_topics():
         if crossed or jumped:
             alerts.append(f"🟢 <b>{topic}</b>: {count} Artikel (zuletzt {old_count})")
 
-        time.sleep(1)
+        time.sleep(3)
 
     save_state(new_state)
 
@@ -381,7 +414,7 @@ def build_ticker_signals_auto():
         except Exception as e:
             print(f"  Insider-Check fehlgeschlagen: {e}")
 
-        time.sleep(1)
+        time.sleep(3)
 
         macro = {"active": False}
         try:
@@ -399,7 +432,7 @@ def build_ticker_signals_auto():
         except Exception as e:
             print(f"  Makro-Check fehlgeschlagen: {e}")
 
-        time.sleep(1)
+        time.sleep(3)
 
         active_count = sum([insider["active"], macro["active"]])
         why_parts = []
