@@ -270,7 +270,7 @@
   </header>
 
   <div class="banner">
-    <b>Wie das zu lesen ist:</b> Jede Zeile ist ein Ticker, jede Spalte ein unabhängiges öffentliches Signal. <b>Insider (SEC Form 4)</b> und <b>Makro (GDELT)</b> sind echte, live aktualisierte Daten für eine feste Watchlist von 8 US-Titeln. <b>Politik</b> und <b>Predict</b> sind noch nicht angebunden (zeigen "—") — der Score fällt dadurch bewusst niedriger aus als bei vollständig verfügbaren Signalen. ⚠ markiert ethisch sensible Sektoren.
+    <b>Wie das zu lesen ist:</b> Jede Zeile ist ein Ticker, jede Spalte ein unabhängiges öffentliches Signal. Die Ticker-Auswahl ist <b>vollautomatisch</b>: Schnittmenge aus S&P-500-Mitgliedern und allen SEC-Form-4-Insiderfilings des letzten Handelstags — keine manuelle Liste. <b>Insider (SEC Form 4)</b> und <b>Makro (GDELT)</b> sind echte Daten. <b>Politik</b> und <b>Predict</b> sind noch nicht angebunden (zeigen "—") — der Score fällt dadurch bewusst niedriger aus. ⚠ markiert ethisch sensible Sektoren.
   </div>
 
   <div class="news-card">
@@ -335,7 +335,7 @@
   </div>
 
   <footer>
-    Alle Werte sind Platzhalter zur Demonstration des Konzepts. Handelbarkeit bei Trade Republic/Zero anhand grober Marktkapitalisierungs-Heuristik simuliert, kein Live-Abgleich mit dem tatsächlichen Handelsangebot. Kein Echtzeit-Datenabruf, keine Anlageberatung. Konvergenz mehrerer öffentlicher Signale ist kein verlässlicher Prädiktor für künftige Kursentwicklung.
+    Insider- und Makro-Signale sind live und automatisch ermittelt (S&P 500 × SEC-Tagesindex, GDELT). Handelbarkeit bei Trade Republic/Zero standardmäßig angenommen (S&P-500-Titel sind praktisch immer gelistet), kein Live-Abgleich mit dem tatsächlichen Handelsangebot. Keine Anlageberatung. Konvergenz mehrerer öffentlicher Signale ist kein verlässlicher Prädiktor für künftige Kursentwicklung.
   </footer>
 
 </div>
@@ -417,6 +417,18 @@
     rows = sortMode === 'fresh'
       ? rows.sort((a,b) => freshestHours(a) - freshestHours(b))
       : rows.sort((a,b) => b.score - a.score);
+
+    if(rows.length === 0){
+      body.innerHTML = `
+        <tr>
+          <td colspan="8" style="padding:32px 16px; text-align:center; color:rgba(239,233,220,0.4); font-size:13px;">
+            Keine Treffer für diese Filter. ${data.length === 0
+              ? 'An diesem Handelstag hat entweder kein S&P-500-Titel ein Form-4-Filing gehabt, oder der letzte Datenlauf ist noch nicht durch.'
+              : 'Andere Filter-Kombination probieren (z. B. Markt oder Ethik-Ausblendung zurücksetzen).'}
+          </td>
+        </tr>`;
+      return;
+    }
 
     body.innerHTML = rows.map(d => {
       const conflict = isConflict(d);
