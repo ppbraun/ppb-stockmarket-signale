@@ -264,12 +264,13 @@
     <div>
       <h1>PPB Stockmarket-Signale</h1>
       <div class="sub">USA & Europa · alle Signale · sortiert nach Konvergenz</div>
+      <div class="sub" id="dataStatus" style="margin-top:2px;">Lade Live-Daten …</div>
     </div>
-    <div class="stamp">Demo-Daten · keine Anlageberatung</div>
+    <div class="stamp">Live: Insider + Makro · Rest folgt · keine Anlageberatung</div>
   </header>
 
   <div class="banner">
-    <b>Wie das zu lesen ist:</b> Jede Zeile ist ein Ticker, jede Spalte ein unabhängiges öffentliches Signal. Politiker- und Insider-Badges zeigen Richtung (▲ Kauf / ▼ Verkauf) und Alter der Meldung. Die Spalte "Reaktion" zeigt die Kursbewegung seit dem ersten Signal — hilft einzuschätzen, ob der Markt es schon eingepreist hat. ⚡ markiert gegenläufige Signale, ⚠ ethisch sensible Sektoren. Sortiert nach Score, absteigend.
+    <b>Wie das zu lesen ist:</b> Jede Zeile ist ein Ticker, jede Spalte ein unabhängiges öffentliches Signal. <b>Insider (SEC Form 4)</b> und <b>Makro (GDELT)</b> sind echte, live aktualisierte Daten für eine feste Watchlist von 8 US-Titeln. <b>Politik</b> und <b>Predict</b> sind noch nicht angebunden (zeigen "—") — der Score fällt dadurch bewusst niedriger aus als bei vollständig verfügbaren Signalen. ⚠ markiert ethisch sensible Sektoren.
   </div>
 
   <div class="news-card">
@@ -340,89 +341,28 @@
 </div>
 
 <script>
-  const newsTopics = [
-    { topic:"Zölle / Handelskonflikt", vol:2840, pct:88, color:"#3F8C7D" },
-    { topic:"Fed-Zinspolitik", vol:2310, pct:74, color:"#6F84B8" },
-    { topic:"Edelmetalle / Goldminen", vol:1960, pct:64, color:"#5FB8A3" },
-    { topic:"Verteidigung / Rüstung", vol:1510, pct:51, color:"#A14B5C" },
-    { topic:"KI-Infrastruktur", vol:1140, pct:39, color:"#6F84B8" },
-    { topic:"Halbleiter / Chips", vol:1080, pct:37, color:"#7A9E5C" },
-    { topic:"Energie / Öl & Gas", vol:870, pct:29, color:"#3F8C7D" },
-    { topic:"Gesundheit / FDA-Zulassungen", vol:740, pct:25, color:"#7A9E5C" },
-    { topic:"Schifffahrt / Lieferketten", vol:610, pct:21, color:"#6F84B8" },
-    { topic:"Krypto-Regulierung", vol:540, pct:19, color:"#5FB8A3" },
-    { topic:"Cybersecurity", vol:390, pct:14, color:"#A14B5C" },
+  // Fallback: wird nur genutzt, falls data.json noch nicht existiert oder nicht ladbar ist.
+  const FALLBACK_NEWS_TOPICS = [
+    { topic:"Zölle / Handelskonflikt", vol:0, pct:0, color:"#3F8C7D" },
   ];
+  const FALLBACK_DATA = [];
 
-  const data = [
-    { tk:"NEM", name:"Newmont Corp.", broker:true, market:"us", score:4, reaction:9.4, politician:"Sen. R. Boozman", track:"+21%",
-      sig:{ congress:{active:true, dir:"Kauf", age:"11T"}, insider:{active:true, dir:"Kauf", age:"2T", src:"SEC"}, macro:{active:true, age:"18Std"}, predict:{active:true, age:"3T"} },
-      topic:"Edelmetalle / Goldminen", ethics:[], why:"Kongress- & Insider-Kauf plus steigende Nachrichtenaufmerksamkeit zu Edelmetallen im selben Fenster." },
+  const TOPIC_COLORS = {
+    "Zölle / Handelskonflikt": "#3F8C7D",
+    "Fed-Zinspolitik": "#6F84B8",
+    "Edelmetalle / Goldminen": "#5FB8A3",
+    "Verteidigung / Rüstung": "#A14B5C",
+    "KI-Infrastruktur": "#6F84B8",
+    "Halbleiter / Chips": "#7A9E5C",
+    "Energie / Öl & Gas": "#3F8C7D",
+    "Gesundheit / FDA-Zulassungen": "#7A9E5C",
+    "Schifffahrt / Lieferketten": "#6F84B8",
+    "Krypto-Regulierung": "#5FB8A3",
+    "Cybersecurity": "#A14B5C",
+  };
 
-    { tk:"LMT", name:"Lockheed Martin", broker:true, market:"us", score:3, reaction:4.1, politician:"Rep. J. Gottheimer", track:"+9%",
-      sig:{ congress:{active:true, dir:"Kauf", age:"6T"}, insider:{active:true, dir:"Kauf", age:"1T", src:"SEC"}, macro:{active:true, age:"24Std"}, predict:{active:false} },
-      topic:"Verteidigung / Rüstung", ethics:["Rüstung"], why:"Politiker- und Insiderkauf treffen auf steigende Verteidigungs-Berichterstattung." },
-
-    { tk:"DELL", name:"Dell Technologies", broker:true, market:"us", score:2, reaction:2.8, politician:"Rep. R. Khanna", track:"-3%",
-      sig:{ congress:{active:true, dir:"Kauf", age:"14T"}, insider:{active:false}, macro:{active:true, age:"36Std"}, predict:{active:false} },
-      topic:"KI-Infrastruktur", ethics:[], why:"Politiker-Kauf, begleitet von leicht erhöhter KI-Infrastruktur-Aufmerksamkeit. Track-Record des Politikers ist unterdurchschnittlich." },
-
-    { tk:"CVX", name:"Chevron", broker:true, market:"us", score:2, reaction:-1.6, politician:"Sen. K. Loeffler", track:"+5%",
-      sig:{ congress:{active:true, dir:"Kauf", age:"9T"}, insider:{active:false}, macro:{active:false}, predict:{active:true, age:"2T"} },
-      topic:"Energie / Öl & Gas", ethics:["Fossile Energie"], why:"Politiker-Kauf plus Verschiebung in einem Energie-bezogenen Prediction Market — Kurs bislang trotzdem im Minus." },
-
-    { tk:"RTX", name:"RTX Corporation", broker:true, market:"us", score:2, reaction:3.3, politician:null, track:null,
-      sig:{ congress:{active:false}, insider:{active:true, dir:"Kauf", age:"4T", src:"SEC"}, macro:{active:true, age:"30Std"}, predict:{active:false} },
-      topic:"Verteidigung / Rüstung", ethics:["Rüstung"], why:"Insider-Kauf eines Direktors, parallel steigende Rüstungs-Nachrichten." },
-
-    { tk:"NVDA", name:"Nvidia Corp.", broker:true, market:"us", score:3, reaction:7.7, politician:"Sen. R. Boozman", track:"+21%",
-      sig:{ congress:{active:true, dir:"Kauf", age:"5T"}, insider:{active:false}, macro:{active:true, age:"12Std"}, predict:{active:true, age:"1T"} },
-      topic:"Halbleiter / Chips", ethics:[], why:"Politiker-Kauf, hohe Chip-Nachrichtenlage und Ausschlag in einem Handels-Prediction-Market." },
-
-    { tk:"UNH", name:"UnitedHealth Group", broker:true, market:"us", score:2, reaction:-4.2, politician:null, track:null,
-      sig:{ congress:{active:false}, insider:{active:true, dir:"Kauf", age:"3T", src:"SEC"}, macro:{active:true, age:"40Std"}, predict:{active:false} },
-      topic:"Gesundheit / FDA-Zulassungen", ethics:[], why:"Insider-Kauf, begleitet von erhöhter Berichterstattung zu Zulassungsverfahren — Kurs bisher trotzdem rückläufig." },
-
-    { tk:"MOS", name:"Mosaic Company", broker:true, market:"us", score:2, reaction:-2.1, politician:"Rep. R. Khanna", track:"-3%",
-      sig:{ congress:{active:true, dir:"Kauf", age:"19T"}, insider:{active:true, dir:"Verkauf", age:"5T", src:"SEC"}, macro:{active:false}, predict:{active:true, age:"6T"} },
-      topic:"Zölle / Handelskonflikt", ethics:[], why:"Politiker kauft, während ein Insider im selben Fenster verkauft — gegensätzliches Signal, besondere Vorsicht angebracht." },
-
-    { tk:"COIN", name:"Coinbase Global", broker:true, market:"us", score:2, reaction:5.9, politician:null, track:null,
-      sig:{ congress:{active:false}, insider:{active:true, dir:"Kauf", age:"2T", src:"SEC"}, macro:{active:true, age:"20Std"}, predict:{active:false} },
-      topic:"Krypto-Regulierung", ethics:[], why:"Insider-Kauf parallel zu steigender Nachrichtenlage bei Krypto-Regulierung." },
-
-    { tk:"GEO", name:"GEO Group", broker:false, market:"us", score:2, reaction:1.2, politician:"Rep. J. Gottheimer", track:"+9%",
-      sig:{ congress:{active:true, dir:"Kauf", age:"23T"}, insider:{active:false}, macro:{active:true, age:"44Std"}, predict:{active:false} },
-      topic:"Migrationspolitik / Justizvollzug", ethics:["Private Gefängnisse"], why:"Politiker-Kauf plus steigende Berichterstattung zu Abschiebehaft — bei TR/Zero derzeit nicht gelistet." },
-
-    { tk:"PLTR", name:"Palantir", broker:true, market:"us", score:1, reaction:0.4, politician:null, track:null,
-      sig:{ congress:{active:false}, insider:{active:false}, macro:{active:true, age:"16Std"}, predict:{active:false} },
-      topic:"Cybersecurity", ethics:["Überwachungstechnologie"], why:"Nur erhöhte Medienaufmerksamkeit, keine bestätigten Trades." },
-
-    { tk:"ZIM", name:"ZIM Integrated Shipping", broker:false, market:"us", score:1, reaction:3.0, politician:null, track:null,
-      sig:{ congress:{active:false}, insider:{active:true, dir:"Kauf", age:"7T", src:"SEC"}, macro:{active:false}, predict:{active:false} },
-      topic:"Schifffahrt / Lieferketten", ethics:[], why:"Einzelner Insider-Kauf — bei TR/Zero derzeit nicht gelistet." },
-
-    { tk:"ANET", name:"Arista Networks", broker:false, market:"us", score:1, reaction:-0.8, politician:null, track:null,
-      sig:{ congress:{active:false}, insider:{active:true, dir:"Kauf", age:"8T", src:"SEC"}, macro:{active:false}, predict:{active:false} },
-      topic:"KI-Infrastruktur", ethics:[], why:"Einzelner Insider-Kauf, sonst kein weiteres Signal — bei TR/Zero derzeit nicht gelistet." },
-
-    { tk:"RHM", name:"Rheinmetall AG", broker:true, market:"eu", score:2, reaction:5.8, politician:null, track:null,
-      sig:{ congress:{active:false}, insider:{active:true, dir:"Kauf", age:"1T", src:"BaFin"}, macro:{active:true, age:"24Std"}, predict:{active:false} },
-      topic:"Verteidigung / Rüstung", ethics:["Rüstung"], why:"BaFin-Directors'-Dealings-Kauf eines Vorstandsmitglieds, parallel hohe Rüstungs-Nachrichtenlage. Kein Politiker-Signal möglich — in Deutschland nicht meldepflichtig." },
-
-    { tk:"SAP", name:"SAP SE", broker:true, market:"eu", score:2, reaction:1.9, politician:null, track:null,
-      sig:{ congress:{active:false}, insider:{active:true, dir:"Kauf", age:"2T", src:"BaFin"}, macro:{active:true, age:"12Std"}, predict:{active:false} },
-      topic:"KI-Infrastruktur", ethics:[], why:"BaFin-Meldung eines Aufsichtsratsmitglieds trifft auf steigende KI-Infrastruktur-Berichterstattung." },
-
-    { tk:"DTE", name:"Deutsche Telekom", broker:true, market:"eu", score:1, reaction:0.6, politician:null, track:null,
-      sig:{ congress:{active:false}, insider:{active:false}, macro:{active:true, age:"30Std"}, predict:{active:false} },
-      topic:"Cybersecurity", ethics:[], why:"Nur erhöhte Medienaufmerksamkeit, keine gemeldeten Directors' Dealings." },
-
-    { tk:"BAS", name:"BASF SE", broker:true, market:"eu", score:2, reaction:-3.4, politician:null, track:null,
-      sig:{ congress:{active:false}, insider:{active:true, dir:"Verkauf", age:"3T", src:"BaFin"}, macro:{active:true, age:"20Std"}, predict:{active:false} },
-      topic:"Zölle / Handelskonflikt", ethics:[], why:"BaFin-Meldung: Vorstandsmitglied verkauft im Fenster steigender Zoll-Berichterstattung — eher Warnsignal als Kaufanlass." },
-  ];
+  let newsTopics = FALLBACK_NEWS_TOPICS;
+  let data = FALLBACK_DATA;
 
   function sigBadge(s, cls, label){
     if(!s || !s.active) return `<span class="badge off">${label}</span>`;
@@ -433,6 +373,7 @@
   }
 
   function reactionHtml(val){
+    if(val === null || val === undefined) return `<span class="reaction-value" style="color:rgba(239,233,220,0.3)">—</span>`;
     const up = val >= 0;
     const cls = up ? "up" : "down";
     const arrow = up ? "▲" : "▼";
@@ -539,12 +480,15 @@
 
   function renderNews(){
     const grid = document.getElementById('newsGrid');
-    grid.innerHTML = newsTopics.map(n => `
+    grid.innerHTML = newsTopics.map(n => {
+      const color = TOPIC_COLORS[n.topic] || "#6F84B8";
+      return `
       <div class="news-row">
         <div class="news-top"><span class="news-topic">${n.topic}</span><span class="news-vol">${n.vol.toLocaleString('de-DE')} Artikel</span></div>
-        <div class="news-bar-track"><div class="news-bar-fill" style="width:${n.pct}%; background:${n.color};"></div></div>
+        <div class="news-bar-track"><div class="news-bar-fill" style="width:${n.pct}%; background:${color};"></div></div>
       </div>
-    `).join('');
+    `;
+    }).join('');
   }
 
   const brokerToggle = document.getElementById('brokerToggle');
@@ -593,8 +537,43 @@
     newsToggle.textContent = isCollapsed ? 'Alle 11 Themen anzeigen' : 'Weniger anzeigen';
   });
 
-  render(true, false, 'all', 'score');
-  renderNews();
+  async function loadLiveData(){
+    const statusEl = document.getElementById('dataStatus');
+    try {
+      const res = await fetch('data.json', { cache: 'no-store' });
+      if(!res.ok) throw new Error('data.json nicht erreichbar (' + res.status + ')');
+      const payload = await res.json();
+
+      newsTopics = (payload.newsTopics || []).map(n => ({ ...n }));
+      data = (payload.tickers || []).map(d => ({
+        ...d,
+        ethics: d.ethics || [],
+        sig: {
+          congress: d.sig?.congress || { active: false },
+          insider: d.sig?.insider || { active: false },
+          macro: d.sig?.macro || { active: false },
+          predict: d.sig?.predict || { active: false },
+        },
+      }));
+
+      if(statusEl){
+        const genAt = payload.generated_at ? new Date(payload.generated_at) : null;
+        statusEl.textContent = genAt
+          ? `Live-Daten · Stand ${genAt.toLocaleString('de-DE')}`
+          : 'Live-Daten geladen';
+      }
+    } catch (err) {
+      console.warn('Konnte data.json nicht laden, zeige Platzhalter:', err);
+      if(statusEl) statusEl.textContent = 'Noch keine Live-Daten — data.json fehlt oder Cron-Job lief noch nicht';
+      newsTopics = FALLBACK_NEWS_TOPICS;
+      data = FALLBACK_DATA;
+    }
+
+    render(filterBroker, hideEthics, market, sortMode);
+    renderNews();
+  }
+
+  loadLiveData();
 </script>
 </body>
 </html>
