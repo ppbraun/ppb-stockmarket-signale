@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T16:36:57.423225+00:00",
+  "generated_at": "2026-08-13T20:16:14.625490+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -8,8 +8,8 @@
     },
     {
       "topic": "Halbleiter / Chips",
-      "vol": 233,
-      "pct": 93
+      "vol": 228,
+      "pct": 91
     },
     {
       "topic": "Gesundheit / FDA-Zulassungen",
@@ -23,8 +23,8 @@
     },
     {
       "topic": "Cybersecurity",
-      "vol": 122,
-      "pct": 49
+      "vol": 124,
+      "pct": 50
     },
     {
       "topic": "Krypto-Regulierung",
@@ -92,7 +92,7 @@
       "name": "Alliant Energy",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": null,
       "politician": null,
       "track": null,
@@ -106,8 +106,7 @@
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "2Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -115,14 +114,14 @@
       },
       "topic": "Utilities",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "ALL",
       "name": "Allstate",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": null,
       "politician": null,
       "track": null,
@@ -136,8 +135,7 @@
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "5Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -145,7 +143,7 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "AMP",
@@ -384,7 +382,7 @@
       "name": "Boeing",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
       "politician": null,
       "track": null,
@@ -398,7 +396,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "0Std"
         },
         "predict": {
           "active": false
@@ -406,7 +405,7 @@
       },
       "topic": "Industrials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BSX",
@@ -559,7 +558,7 @@
       "name": "CrowdStrike",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": null,
       "politician": null,
       "track": null,
@@ -573,8 +572,7 @@
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "1Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -582,7 +580,7 @@
       },
       "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "DDOG",
