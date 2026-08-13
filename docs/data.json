@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T20:16:14.625490+00:00",
+  "generated_at": "2026-08-13T22:57:07.378650+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -8,28 +8,28 @@
     },
     {
       "topic": "Halbleiter / Chips",
-      "vol": 228,
-      "pct": 91
+      "vol": 221,
+      "pct": 88
     },
     {
       "topic": "Gesundheit / FDA-Zulassungen",
-      "vol": 183,
-      "pct": 73
+      "vol": 203,
+      "pct": 81
     },
     {
       "topic": "Schifffahrt / Lieferketten",
-      "vol": 163,
+      "vol": 162,
       "pct": 65
     },
     {
       "topic": "Cybersecurity",
-      "vol": 124,
-      "pct": 50
+      "vol": 122,
+      "pct": 49
     },
     {
       "topic": "Krypto-Regulierung",
-      "vol": 22,
-      "pct": 9
+      "vol": 29,
+      "pct": 12
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -208,7 +208,7 @@
       "name": "Amgen",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
       "politician": null,
       "track": null,
@@ -222,7 +222,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -230,7 +231,7 @@
       },
       "topic": "Health Care",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "APTV",
@@ -247,7 +248,7 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "1Std",
           "src": "SEC"
         },
         "macro": {
@@ -363,7 +364,7 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "1Std",
           "src": "SEC"
         },
         "macro": {
@@ -382,7 +383,7 @@
       "name": "Boeing",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": null,
       "politician": null,
       "track": null,
@@ -396,8 +397,7 @@
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "0Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -405,7 +405,7 @@
       },
       "topic": "Industrials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BSX",
@@ -427,7 +427,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -500,7 +500,7 @@
       "name": "Cisco",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
       "politician": null,
       "track": null,
@@ -514,7 +514,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "0Std"
         },
         "predict": {
           "active": false
@@ -522,7 +523,7 @@
       },
       "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "FIX",
@@ -587,7 +588,7 @@
       "name": "Datadog",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
       "politician": null,
       "track": null,
@@ -601,7 +602,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -609,7 +611,7 @@
       },
       "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "FANG",
