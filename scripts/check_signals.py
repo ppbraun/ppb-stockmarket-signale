@@ -1,19 +1,22 @@
 """
-PPB Stockmarket-Signale — Signal-Check & Dashboard-Datenversorgung
+PPB Stockmarket-Signale — Signal-Check & Dashboard-Datenversorgung (automatisch)
 
 Macht zwei Dinge in einem Lauf:
 1. Prueft das GDELT-Nachrichtenvolumen pro Thema, vergleicht es mit dem letzten
    Stand und schickt bei Auffaelligkeiten eine Telegram-Nachricht.
-2. Holt fuer eine feste Watchlist echte Insider-Signale (SEC Form 4) und
-   Makro-Signale (GDELT, firmenbezogen) und schreibt sie nach docs/data.json,
-   von wo das Dashboard sie laedt.
+2. Ermittelt VOLLAUTOMATISCH relevante Ticker: Schnittmenge aus S&P-500-Mitgliedern
+   (offen gepflegte Liste) und allen SEC-Form-4-Filings des letzten Handelstags
+   (offizieller SEC-Bulk-Index). Fuer jeden Treffer werden echte Insider- und
+   Makro-Signale ermittelt und nach docs/data.json geschrieben.
 
-Politiker-Trades und Prediction Markets sind hier bewusst NICHT enthalten,
+Politiker-Trades und Prediction Markets sind bewusst NICHT enthalten,
 weil dafuer (noch) keine kostenlosen, offiziellen APIs angebunden sind.
 Nutzt nur die Python-Standardbibliothek — kein pip install noetig.
 """
 
 import os
+import csv
+import io
 import json
 import time
 import datetime
@@ -24,14 +27,19 @@ import xml.etree.ElementTree as ET
 GDELT_URL = "https://api.gdeltproject.org/api/v2/doc/doc"
 SEC_TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"
 SEC_SUBMISSIONS_URL = "https://data.sec.gov/submissions/CIK{cik}.json"
+SP500_CSV_URL = "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv"
 STATE_PATH = "data/last_state.json"
 DASHBOARD_DATA_PATH = "docs/data.json"
 
 # SEC verlangt einen aussagekraeftigen User-Agent mit Kontakt — bei Bedarf anpassen.
 SEC_HEADERS = {"User-Agent": "PPB Stockmarket-Signale contact@example.com"}
 
+MAX_CANDIDATES = 20            # Obergrenze, damit ein Lauf nicht zu lange dauert
+MACRO_ARTICLE_THRESHOLD = 15
+INSIDER_LOOKBACK_DAYS = 14
+
 # ---------------------------------------------------------------------------
-# Themenfelder fuer den Makro-Puls (News-Panel)
+# Themenfelder fuer den Makro-Puls (News-Panel) — unveraendert
 # ---------------------------------------------------------------------------
 TOPICS = {
     "Zölle / Handelskonflikt": "tariffs OR \"trade war\"",
@@ -49,34 +57,20 @@ TOPICS = {
 THRESHOLD_COUNT = 200
 THRESHOLD_JUMP_PCT = 50
 
-# ---------------------------------------------------------------------------
-# Watchlist fuer die echten Ticker-Signale (Insider + Makro)
-# ---------------------------------------------------------------------------
-WATCHLIST = [
-    {"tk": "NEM", "name": "Newmont Corp.", "gdelt_query": "Newmont Corporation",
-     "topic": "Edelmetalle / Goldminen", "market": "us", "broker": True, "ethics": []},
-    {"tk": "LMT", "name": "Lockheed Martin", "gdelt_query": "Lockheed Martin",
-     "topic": "Verteidigung / Rüstung", "market": "us", "broker": True, "ethics": ["Rüstung"]},
-    {"tk": "DELL", "name": "Dell Technologies", "gdelt_query": "Dell Technologies",
-     "topic": "KI-Infrastruktur", "market": "us", "broker": True, "ethics": []},
-    {"tk": "CVX", "name": "Chevron", "gdelt_query": "Chevron Corporation",
-     "topic": "Energie / Öl & Gas", "market": "us", "broker": True, "ethics": ["Fossile Energie"]},
-    {"tk": "RTX", "name": "RTX Corporation", "gdelt_query": "RTX Corporation OR Raytheon",
-     "topic": "Verteidigung / Rüstung", "market": "us", "broker": True, "ethics": ["Rüstung"]},
-    {"tk": "NVDA", "name": "Nvidia Corp.", "gdelt_query": "Nvidia Corporation",
-     "topic": "Halbleiter / Chips", "market": "us", "broker": True, "ethics": []},
-    {"tk": "UNH", "name": "UnitedHealth Group", "gdelt_query": "UnitedHealth Group",
-     "topic": "Gesundheit / FDA-Zulassungen", "market": "us", "broker": True, "ethics": []},
-    {"tk": "COIN", "name": "Coinbase Global", "gdelt_query": "Coinbase Global",
-     "topic": "Krypto-Regulierung", "market": "us", "broker": True, "ethics": []},
-]
-
-MACRO_ARTICLE_THRESHOLD = 15   # ab dieser Artikelzahl (48h) gilt ein Ticker als "Makro aktiv"
-INSIDER_LOOKBACK_DAYS = 14     # Form-4-Filings, die aelter sind, zaehlen nicht mehr als "aktiv"
+# SIC-Code-Praefixe -> ethische Kennzeichnung (heuristisch, nicht abschliessend)
+SIC_ETHICS_MAP = {
+    "348": "Rüstung",       # Ordnance & Accessories
+    "376": "Rüstung",       # Guided Missiles, Space Vehicles
+    "131": "Fossile Energie",  # Crude Petroleum & Natural Gas
+    "291": "Fossile Energie",  # Petroleum Refining
+    "138": "Fossile Energie",  # Oil & Gas Field Services
+    "211": "Tabak",         # Cigarettes
+    "799": "Glücksspiel",   # Services-Amusement/Gambling (grob)
+}
 
 
 # ---------------------------------------------------------------------------
-# Hilfsfunktionen: HTTP
+# HTTP-Hilfsfunktionen
 # ---------------------------------------------------------------------------
 
 def http_get_json(url, headers=None):
@@ -92,17 +86,12 @@ def http_get_text(url, headers=None):
 
 
 # ---------------------------------------------------------------------------
-# GDELT — Themen-Puls (fuer Telegram-Alarm + News-Panel)
+# GDELT
 # ---------------------------------------------------------------------------
 
 def gdelt_search(query, timespan="2d", maxrecords=250):
-    params = {
-        "query": query,
-        "mode": "ArtList",
-        "maxrecords": maxrecords,
-        "timespan": timespan,
-        "format": "json",
-    }
+    params = {"query": query, "mode": "ArtList", "maxrecords": maxrecords,
+              "timespan": timespan, "format": "json"}
     url = GDELT_URL + "?" + urllib.parse.urlencode(params)
     data = http_get_json(url, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
     return data.get("articles", [])
@@ -113,7 +102,6 @@ def gdelt_count(query, timespan="2d"):
 
 
 def gdelt_freshest_hours(articles):
-    """Schaetzt das Alter des juengsten Artikels in Stunden (grob, aus 'seendate')."""
     if not articles:
         return None
     now = datetime.datetime.now(datetime.timezone.utc)
@@ -134,26 +122,84 @@ def gdelt_freshest_hours(articles):
 
 
 # ---------------------------------------------------------------------------
-# SEC EDGAR — Insider-Signale (Form 4)
+# S&P 500 — Liste relevanter Ticker (automatisch, nicht kuratiert)
 # ---------------------------------------------------------------------------
 
-def load_sec_ticker_map():
-    data = http_get_json(SEC_TICKERS_URL, headers=SEC_HEADERS)
-    mapping = {}
-    for entry in data.values():
-        mapping[entry["ticker"].upper()] = str(entry["cik_str"]).zfill(10)
-    return mapping
+def load_sp500():
+    text = http_get_text(SP500_CSV_URL, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
+    reader = csv.DictReader(io.StringIO(text))
+    companies = {}
+    for row in reader:
+        cik_raw = (row.get("CIK") or "").strip()
+        if not cik_raw:
+            continue
+        companies[int(cik_raw)] = {
+            "tk": row.get("Symbol", "").strip(),
+            "name": row.get("Security", "").strip(),
+            "sector": row.get("GICS Sector", "").strip(),
+        }
+    return companies
 
 
-def fetch_recent_form4(cik10):
+# ---------------------------------------------------------------------------
+# SEC — Tages-Index aller Filings (fuer die automatische Auswahl)
+# ---------------------------------------------------------------------------
+
+def fetch_recent_form4_ciks(max_lookback_days=10):
+    """Sucht rueckwaerts den letzten Handelstag mit einem verfuegbaren master.idx
+    und liefert die Menge aller CIKs, die an diesem Tag ein Form-4 eingereicht haben."""
+    today = datetime.date.today()
+    for offset in range(max_lookback_days):
+        d = today - datetime.timedelta(days=offset)
+        quarter = (d.month - 1) // 3 + 1
+        date_str = d.strftime("%Y%m%d")
+        url = f"https://www.sec.gov/Archives/edgar/daily-index/{d.year}/QTR{quarter}/master.{date_str}.idx"
+        try:
+            text = http_get_text(url, headers=SEC_HEADERS)
+        except Exception:
+            continue
+
+        lines = text.splitlines()
+        try:
+            start = next(i for i, l in enumerate(lines) if set(l.strip()) == {"-"}) + 1
+        except StopIteration:
+            continue
+
+        ciks = set()
+        for line in lines[start:]:
+            parts = line.split("|")
+            if len(parts) != 5:
+                continue
+            cik_str, _name, form_type, _date, _fname = parts
+            if form_type.strip() == "4":
+                try:
+                    ciks.add(int(cik_str.strip()))
+                except ValueError:
+                    pass
+
+        if ciks:
+            print(f"Form-4-Index gefunden fuer {d.isoformat()}: {len(ciks)} CIKs mit Insider-Filing.")
+            return ciks, d
+
+    print("Kein Form-4-Index in den letzten Tagen gefunden.")
+    return set(), None
+
+
+# ---------------------------------------------------------------------------
+# SEC — Details je Kandidat (Insider-Filing, SIC)
+# ---------------------------------------------------------------------------
+
+def fetch_submission_details(cik10):
     url = SEC_SUBMISSIONS_URL.format(cik=cik10)
-    data = http_get_json(url, headers=SEC_HEADERS)
-    recent = data.get("filings", {}).get("recent", {})
+    return http_get_json(url, headers=SEC_HEADERS)
+
+
+def extract_recent_form4(submission_data):
+    recent = submission_data.get("filings", {}).get("recent", {})
     forms = recent.get("form", [])
     dates = recent.get("filingDate", [])
     accessions = recent.get("accessionNumber", [])
     docs = recent.get("primaryDocument", [])
-
     cutoff = datetime.date.today() - datetime.timedelta(days=INSIDER_LOOKBACK_DAYS)
 
     for form, date_str, accession, primary_doc in zip(forms, dates, accessions, docs):
@@ -162,18 +208,13 @@ def fetch_recent_form4(cik10):
         filing_date = datetime.date.fromisoformat(date_str)
         if filing_date < cutoff:
             continue
-        age_hours = (datetime.date.today() - filing_date).days * 24
-        return {
-            "filing_date": date_str,
-            "age_hours": max(age_hours, 1),
-            "accession": accession,
-            "primary_doc": primary_doc,
-        }
+        age_hours = max((datetime.date.today() - filing_date).days * 24, 1)
+        return {"filing_date": date_str, "age_hours": age_hours,
+                "accession": accession, "primary_doc": primary_doc}
     return None
 
 
 def fetch_form4_direction(cik10, accession, primary_doc):
-    """Versucht Kauf/Verkauf aus dem eigentlichen Form-4-Dokument zu lesen."""
     accession_no_dashes = accession.replace("-", "")
     cik_numeric = str(int(cik10))
     url = f"https://www.sec.gov/Archives/edgar/data/{cik_numeric}/{accession_no_dashes}/{primary_doc}"
@@ -196,6 +237,14 @@ def fetch_form4_direction(cik10, accession, primary_doc):
     return None
 
 
+def classify_ethics(sic_code):
+    if not sic_code:
+        return []
+    prefix3 = sic_code[:3]
+    tag = SIC_ETHICS_MAP.get(prefix3)
+    return [tag] if tag else []
+
+
 # ---------------------------------------------------------------------------
 # Telegram
 # ---------------------------------------------------------------------------
@@ -205,9 +254,7 @@ def send_telegram(text):
     chat_id = os.environ["TELEGRAM_CHAT_ID"]
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     data = urllib.parse.urlencode({
-        "chat_id": chat_id,
-        "text": text,
-        "parse_mode": "HTML",
+        "chat_id": chat_id, "text": text, "parse_mode": "HTML",
         "disable_web_page_preview": "true",
     }).encode()
     req = urllib.request.Request(url, data=data)
@@ -215,7 +262,7 @@ def send_telegram(text):
 
 
 # ---------------------------------------------------------------------------
-# Zustand laden/speichern (fuer den Telegram-Vergleich)
+# Zustand laden/speichern
 # ---------------------------------------------------------------------------
 
 def load_state():
@@ -238,11 +285,10 @@ def save_dashboard_data(payload):
 
 
 # ---------------------------------------------------------------------------
-# Hauptlogik
+# Themen-Puls (Telegram-Alarm + News-Panel) — unveraendert zur Vorversion
 # ---------------------------------------------------------------------------
 
 def check_topics():
-    """Themen-Puls pruefen, Telegram-Alarm ausloesen, Werte fuers News-Panel zurueckgeben."""
     old_state = load_state()
     new_state = {}
     alerts = []
@@ -269,12 +315,9 @@ def check_topics():
     save_state(new_state)
 
     if alerts:
-        message = (
-            "📊 <b>PPB Stockmarket-Signale</b>\n"
-            "Auffällige Nachrichtenlage entdeckt:\n\n"
-            + "\n".join(alerts)
-            + "\n\nDashboard: https://ppbraun.github.io/ppb-stockmarket-signale/"
-        )
+        message = ("📊 <b>PPB Stockmarket-Signale</b>\nAuffällige Nachrichtenlage entdeckt:\n\n"
+                    + "\n".join(alerts)
+                    + "\n\nDashboard: https://ppbraun.github.io/ppb-stockmarket-signale/")
         try:
             send_telegram(message)
             print("Telegram-Benachrichtigung gesendet.")
@@ -290,48 +333,59 @@ def check_topics():
     return news_topics
 
 
-def build_ticker_signals():
-    """Fuer jede Watchlist-Aktie echte Insider- und Makro-Signale ermitteln."""
-    print("Lade SEC-Ticker-Zuordnung ...")
+# ---------------------------------------------------------------------------
+# Automatische Ticker-Auswahl + Signale
+# ---------------------------------------------------------------------------
+
+def build_ticker_signals_auto():
+    print("Lade S&P-500-Liste ...")
     try:
-        ticker_map = load_sec_ticker_map()
+        sp500 = load_sp500()
     except Exception as e:
-        print(f"SEC-Ticker-Zuordnung konnte nicht geladen werden: {e}")
-        ticker_map = {}
+        print(f"S&P-500-Liste konnte nicht geladen werden: {e}")
+        return []
+
+    form4_ciks, filing_date = fetch_recent_form4_ciks()
+    if not form4_ciks:
+        return []
+
+    candidates = [(cik, info) for cik, info in sp500.items() if cik in form4_ciks]
+    candidates = candidates[:MAX_CANDIDATES]
+    print(f"{len(candidates)} S&P-500-Titel mit Insider-Filing am {filing_date} (nach Obergrenze {MAX_CANDIDATES}).")
 
     results = []
 
-    for entry in WATCHLIST:
-        tk = entry["tk"]
-        print(f"Pruefe {tk} ...")
+    for cik, info in candidates:
+        tk = info["tk"]
+        cik10 = str(cik).zfill(10)
+        print(f"Pruefe {tk} ({info['name']}) ...")
 
-        # --- Insider-Signal (SEC Form 4) ---
         insider = {"active": False}
-        cik10 = ticker_map.get(tk)
-        if cik10:
-            try:
-                filing = fetch_recent_form4(cik10)
-                if filing:
-                    direction = fetch_form4_direction(cik10, filing["accession"], filing["primary_doc"])
-                    insider = {
-                        "active": True,
-                        "age": f"{filing['age_hours']}Std" if filing["age_hours"] < 24
-                               else f"{filing['age_hours'] // 24}T",
-                        "src": "SEC",
-                    }
-                    if direction:
-                        insider["dir"] = direction
-            except Exception as e:
-                print(f"  Insider-Check fehlgeschlagen: {e}")
-        else:
-            print(f"  Keine CIK fuer {tk} gefunden.")
+        ethics = []
+        try:
+            submission = fetch_submission_details(cik10)
+            sic = submission.get("sic", "")
+            ethics = classify_ethics(sic)
+
+            filing = extract_recent_form4(submission)
+            if filing:
+                direction = fetch_form4_direction(cik10, filing["accession"], filing["primary_doc"])
+                insider = {
+                    "active": True,
+                    "age": f"{filing['age_hours']}Std" if filing["age_hours"] < 24
+                           else f"{filing['age_hours'] // 24}T",
+                    "src": "SEC",
+                }
+                if direction:
+                    insider["dir"] = direction
+        except Exception as e:
+            print(f"  Insider-Check fehlgeschlagen: {e}")
 
         time.sleep(1)
 
-        # --- Makro-Signal (GDELT, firmenbezogen) ---
         macro = {"active": False}
         try:
-            articles = gdelt_search(entry["gdelt_query"])
+            articles = gdelt_search(info["name"])
             count = len(articles)
             if count >= MACRO_ARTICLE_THRESHOLD:
                 fresh_hours = gdelt_freshest_hours(articles)
@@ -354,13 +408,13 @@ def build_ticker_signals():
         if macro["active"]:
             why_parts.append("erhöhte Nachrichtenaufmerksamkeit")
         why = ("Live-Signal: " + " + ".join(why_parts) + ".") if why_parts else \
-              "Aktuell kein aktives Live-Signal (Politiker-Trades und Prediction Markets noch nicht angebunden)."
+              "Insider-Filing vorhanden, aber (noch) keine erhöhte Nachrichtenaufmerksamkeit."
 
         results.append({
             "tk": tk,
-            "name": entry["name"],
-            "broker": entry["broker"],
-            "market": entry["market"],
+            "name": info["name"],
+            "broker": True,
+            "market": "us",
             "score": active_count,
             "reaction": None,
             "politician": None,
@@ -371,8 +425,8 @@ def build_ticker_signals():
                 "macro": macro,
                 "predict": {"active": False},
             },
-            "topic": entry["topic"],
-            "ethics": entry["ethics"],
+            "topic": info["sector"] or "Unternehmensspezifisch",
+            "ethics": ethics,
             "why": why,
         })
 
@@ -381,7 +435,7 @@ def build_ticker_signals():
 
 def main():
     news_topics = check_topics()
-    tickers = build_ticker_signals()
+    tickers = build_ticker_signals_auto()
 
     payload = {
         "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
