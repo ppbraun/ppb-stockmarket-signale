@@ -1,0 +1,10 @@
+ppb-stockmarket-signale/
+├── docs/
+│   └── index.html          ← das Dashboard (für GitHub Pages)
+├── scripts/
+│   └── check_signals.py    ← holt Daten, berechnet Score, sendet Telegram-Nachricht
+├── data/
+│   └── last_state.json     ← letzter bekannter Stand, für den Abgleich
+└── .github/
+    └── workflows/
+        └── check.yml       ← der Cron-Job (z. B. alle 30 Min.)
