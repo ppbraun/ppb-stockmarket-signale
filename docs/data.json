@@ -1,0 +1,296 @@
+{
+  "generated_at": "2026-08-13T12:05:54.963796+00:00",
+  "newsTopics": [
+    {
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 163,
+      "pct": 100
+    },
+    {
+      "topic": "Zölle / Handelskonflikt",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Fed-Zinspolitik",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Edelmetalle / Goldminen",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Verteidigung / Rüstung",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "KI-Infrastruktur",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Halbleiter / Chips",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Energie / Öl & Gas",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Gesundheit / FDA-Zulassungen",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Krypto-Regulierung",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Cybersecurity",
+      "vol": 0,
+      "pct": 0
+    }
+  ],
+  "tickers": [
+    {
+      "tk": "NEM",
+      "name": "Newmont Corp.",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "6T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        }
+      },
+      "topic": "Edelmetalle / Goldminen",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "LMT",
+      "name": "Lockheed Martin",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "9T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        }
+      },
+      "topic": "Verteidigung / Rüstung",
+      "ethics": [
+        "Rüstung"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "DELL",
+      "name": "Dell Technologies",
+      "broker": true,
+      "market": "us",
+      "score": 0,
+      "reaction": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": false
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        }
+      },
+      "topic": "KI-Infrastruktur",
+      "ethics": [],
+      "why": "Aktuell kein aktives Live-Signal (Politiker-Trades und Prediction Markets noch nicht angebunden)."
+    },
+    {
+      "tk": "CVX",
+      "name": "Chevron",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "6T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        }
+      },
+      "topic": "Energie / Öl & Gas",
+      "ethics": [
+        "Fossile Energie"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "RTX",
+      "name": "RTX Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 0,
+      "reaction": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": false
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        }
+      },
+      "topic": "Verteidigung / Rüstung",
+      "ethics": [
+        "Rüstung"
+      ],
+      "why": "Aktuell kein aktives Live-Signal (Politiker-Trades und Prediction Markets noch nicht angebunden)."
+    },
+    {
+      "tk": "NVDA",
+      "name": "Nvidia Corp.",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        }
+      },
+      "topic": "Halbleiter / Chips",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "UNH",
+      "name": "UnitedHealth Group",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "6T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        }
+      },
+      "topic": "Gesundheit / FDA-Zulassungen",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "COIN",
+      "name": "Coinbase Global",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "8T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        }
+      },
+      "topic": "Krypto-Regulierung",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    }
+  ]
+}
