@@ -26,7 +26,6 @@ import datetime
 import urllib.parse
 import urllib.request
 import urllib.error
-import xml.etree.ElementTree as ET
 
 GDELT_URL = "https://api.gdeltproject.org/api/v2/doc/doc"
 SEC_TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"
@@ -97,7 +96,14 @@ def http_get_text(url, headers=None):
 # GDELT
 # ---------------------------------------------------------------------------
 
+_gdelt_broken = False  # Circuit-Breaker: nach hartem Fehlschlag GDELT fuer den Rest des Laufs ueberspringen
+
+
 def gdelt_search(query, timespan="2d", maxrecords=250, retries=2):
+    global _gdelt_broken
+    if _gdelt_broken:
+        raise RuntimeError("GDELT für diesen Lauf deaktiviert (vorheriger Totalausfall)")
+
     params = {"query": query, "mode": "ArtList", "maxrecords": maxrecords,
               "timespan": timespan, "format": "json"}
     url = GDELT_URL + "?" + urllib.parse.urlencode(params)
@@ -110,15 +116,18 @@ def gdelt_search(query, timespan="2d", maxrecords=250, retries=2):
         except urllib.error.HTTPError as e:
             last_error = e
             if e.code == 429:
-                wait = 10 * (attempt + 1)
+                wait = 8 * (attempt + 1)
                 print(f"  GDELT-Rate-Limit (429), warte {wait}s und versuche erneut ...", flush=True)
                 time.sleep(wait)
                 continue
             raise
         except Exception as e:
             last_error = e
-            print(f"  GDELT-Anfrage fehlgeschlagen ({e}), warte 4s ...", flush=True)
-            time.sleep(4)
+            print(f"  GDELT-Anfrage fehlgeschlagen ({e}), warte 3s ...", flush=True)
+            time.sleep(3)
+
+    print("  GDELT bleibt blockiert — wird für den Rest dieses Laufs übersprungen.", flush=True)
+    _gdelt_broken = True
     raise last_error
 
 
@@ -160,6 +169,19 @@ def fetch_usd_eur_rate():
 
 
 def fetch_price_usd(ticker):
+    # Primär: Yahoo Finance (öffentlicher Chart-Endpunkt, kein Key, in der Praxis zuverlässiger als Stooq)
+    yahoo_url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker.upper()}"
+    try:
+        data = http_get_json(yahoo_url, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; ppb-stockmarket-signale/1.0)"
+        })
+        price = data.get("chart", {}).get("result", [{}])[0].get("meta", {}).get("regularMarketPrice")
+        if price:
+            return float(price)
+    except Exception as e:
+        print(f"  Yahoo-Kursabfrage fehlgeschlagen ({e}), versuche Stooq ...")
+
+    # Fallback: Stooq
     url = STOOQ_URL.format(ticker=ticker.lower())
     try:
         text = http_get_text(url, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
@@ -172,7 +194,7 @@ def fetch_price_usd(ticker):
             return None
         return float(close)
     except Exception as e:
-        print(f"  Kursabfrage fehlgeschlagen: {e}")
+        print(f"  Stooq-Kursabfrage ebenfalls fehlgeschlagen: {e}")
         return None
 
 
@@ -344,25 +366,26 @@ def extract_recent_form4(submission_data):
 
 
 def fetch_form4_direction(cik10, accession, primary_doc):
+    """Ermittelt Kauf/Verkauf aus dem Form-4-Dokument.
+    Nutzt eine tolerante Text-/Regex-Suche statt striktem XML-Parsing, weil
+    reale SEC-Filings gelegentlich minimal fehlerhaftes XML enthalten
+    (z. B. unescapte Zeichen in Freitext-Fussnoten), an dem ein strenger
+    Parser (ElementTree) zuverlässig scheitert."""
     accession_no_dashes = accession.replace("-", "")
     cik_numeric = str(int(cik10))
     url = f"https://www.sec.gov/Archives/edgar/data/{cik_numeric}/{accession_no_dashes}/{primary_doc}"
     try:
         xml_text = http_get_text(url, headers=SEC_HEADERS)
-        root = ET.fromstring(xml_text)
     except Exception as e:
-        print(f"  (Form-4-Detail nicht lesbar: {e})")
+        print(f"  (Form-4-Dokument nicht abrufbar: {e})")
         return None
 
-    for tag in ("nonDerivativeTransaction", "derivativeTransaction"):
-        for elem in root.iter(tag):
-            code_elem = elem.find(".//transactionCode")
-            if code_elem is not None and code_elem.text:
-                code = code_elem.text.strip()
-                if code == "P":
-                    return "Kauf"
-                if code == "S":
-                    return "Verkauf"
+    codes = re.findall(r"<transactionCode>\s*([A-Z])\s*</transactionCode>", xml_text)
+    for code in codes:
+        if code == "P":
+            return "Kauf"
+        if code == "S":
+            return "Verkauf"
     return None
 
 
