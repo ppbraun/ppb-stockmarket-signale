@@ -10,54 +10,46 @@
   "Schifffahrt / Lieferketten": 184,
   "Krypto-Regulierung": 37,
   "Cybersecurity": 127,
-  "_tickers": [
-    {
-      "tk": "ABT",
-      "score": 1
+  "_tickers": {
+    "ABT": {
+      "score": 1,
+      "baseline_price_usd": 111.27,
+      "first_seen": "2026-08-14"
     },
-    {
-      "tk": "AMD",
-      "score": 1
+    "AMD": {
+      "score": 1,
+      "baseline_price_usd": 483.01,
+      "first_seen": "2026-08-14"
     },
-    {
-      "tk": "ABNB",
-      "score": 1
+    "ABNB": {
+      "score": 2,
+      "baseline_price_usd": 185.13,
+      "first_seen": "2026-08-14"
     },
-    {
-      "tk": "AIG",
-      "score": 2
+    "AIG": {
+      "score": 1,
+      "baseline_price_usd": 76.03,
+      "first_seen": "2026-08-14"
     },
-    {
-      "tk": "AMGN",
-      "score": 1
+    "AMGN": {
+      "score": 1,
+      "baseline_price_usd": 417.84,
+      "first_seen": "2026-08-14"
     },
-    {
-      "tk": "AAPL",
-      "score": 1
+    "AAPL": {
+      "score": 2,
+      "baseline_price_usd": 305.26,
+      "first_seen": "2026-08-14"
     },
-    {
-      "tk": "APTV",
-      "score": 1
+    "APTV": {
+      "score": 1,
+      "baseline_price_usd": 49.17,
+      "first_seen": "2026-08-14"
     },
-    {
-      "tk": "BALL",
-      "score": 1
-    },
-    {
-      "tk": "BRK.B",
-      "score": 1
-    },
-    {
-      "tk": "BX",
-      "score": 1
-    },
-    {
-      "tk": "BKNG",
-      "score": 1
-    },
-    {
-      "tk": "CNP",
-      "score": 1
+    "BALL": {
+      "score": 1,
+      "baseline_price_usd": 61.93,
+      "first_seen": "2026-08-14"
     }
-  ]
+  }
 }
