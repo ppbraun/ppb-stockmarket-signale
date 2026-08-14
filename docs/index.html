@@ -117,9 +117,16 @@
   .broker-check.no{ color: rgba(239,233,220,0.3); }
 
   .score-cell{ display:flex; align-items:center; gap:10px; }
-  .score-num{ font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:14px; color: var(--amber-bright); width:20px; }
-  .score-bar-track{ width: 60px; height:6px; border-radius:3px; background: var(--paper-dim); opacity:0.15; overflow:hidden; }
-  .score-bar-fill{ height:100%; border-radius:3px; background: var(--amber); }
+  .score-num{
+    font-family:'IBM Plex Mono', monospace; font-weight:700; font-size:20px;
+    width:26px; height:26px; display:flex; align-items:center; justify-content:center;
+    border-radius:5px;
+  }
+  .score-num.s0{ color: rgba(239,233,220,0.3); background: transparent; }
+  .score-num.s1{ color: var(--blue); background: rgba(111,132,184,0.14); }
+  .score-num.s2{ color: var(--amber-bright); background: rgba(95,184,163,0.14); }
+  .score-num.s3{ color: #E0975F; background: rgba(224,151,95,0.14); }
+  .score-num.s4{ color: var(--alert); background: rgba(161,75,92,0.18); }
 
   .badges{ display:flex; gap:5px; flex-wrap:wrap; }
   .badge{
@@ -145,6 +152,9 @@
   .reaction-value.down{ color: var(--alert); }
 
   .why-cell{ font-size:12px; color: rgba(239,233,220,0.6); max-width:200px; line-height:1.4; }
+  .desc-cell{ font-size:11.5px; color: rgba(239,233,220,0.55); max-width:180px; line-height:1.4; }
+  .price-value{ font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:13px; white-space:nowrap; }
+  .price-value.na{ color: rgba(239,233,220,0.3); font-weight:400; }
   .card-head{ display:contents; }
   .card-head-left{ display:contents; }
   .card-head-right{ display:none; }
@@ -313,8 +323,10 @@
           <th>Handelbar</th>
           <th>Ethik</th>
           <th>Score</th>
+          <th>Kurs (€)</th>
           <th>Reaktion</th>
           <th>Signale</th>
+          <th>Geschäftsfeld</th>
           <th>Nachrichtenlage</th>
           <th>Warum relevant</th>
         </tr>
@@ -326,10 +338,10 @@
   </div>
 
   <div class="legend-row">
-    <span><span class="dot" style="background:var(--amber)"></span> Politiker-Trade (nur USA — STOCK Act)</span>
-    <span><span class="dot" style="background:var(--verify)"></span> Insider-Kauf (SEC Form 4 / BaFin Directors' Dealings)</span>
-    <span><span class="dot" style="background:var(--blue)"></span> Makro-Aufmerksamkeit (GDELT, global)</span>
-    <span><span class="dot" style="background:var(--alert)"></span> Prediction-Market-Ausschlag (v. a. USA)</span>
+    <span><span class="dot" style="background:var(--blue)"></span> Score 1</span>
+    <span><span class="dot" style="background:var(--amber-bright)"></span> Score 2</span>
+    <span><span class="dot" style="background:#E0975F"></span> Score 3</span>
+    <span><span class="dot" style="background:var(--alert)"></span> Score 4</span>
     <span><span class="dot" style="background:var(--conflict)"></span> ⚡ = gegenläufige Signale</span>
     <span><span class="dot" style="background:var(--alert); opacity:0.6"></span> ⚠ = ethisch sensibler Sektor</span>
   </div>
@@ -370,6 +382,18 @@
     const srcStr = s.src ? ` (${s.src})` : "";
     const ageStr = s.age ? ` · ${s.age}` : "";
     return `<span class="badge ${cls}">${label}${srcStr}${dirMark}${ageStr}</span>`;
+  }
+
+  function priceHtml(d){
+    if(d.priceEur === null || d.priceEur === undefined){
+      return `<span class="price-value na">—</span>`;
+    }
+    return `<span class="price-value">${d.priceEur.toLocaleString('de-DE', {minimumFractionDigits:2, maximumFractionDigits:2})} €</span>`;
+  }
+
+  function scoreNumHtml(score){
+    const s = Math.max(0, Math.min(4, score));
+    return `<span class="score-num s${s}">${s}</span>`;
   }
 
   function reactionHtml(val){
@@ -421,7 +445,7 @@
     if(rows.length === 0){
       body.innerHTML = `
         <tr>
-          <td colspan="8" style="padding:32px 16px; text-align:center; color:rgba(239,233,220,0.4); font-size:13px;">
+          <td colspan="10" style="padding:32px 16px; text-align:center; color:rgba(239,233,220,0.4); font-size:13px;">
             Keine Treffer für diese Filter. ${data.length === 0
               ? 'An diesem Handelstag hat entweder kein S&P-500-Titel ein Form-4-Filing gehabt, oder der letzte Datenlauf ist noch nicht durch.'
               : 'Andere Filter-Kombination probieren (z. B. Markt oder Ethik-Ausblendung zurücksetzen).'}
@@ -449,10 +473,7 @@
               </div>
             </div>
             <div class="card-head-right">
-              <div class="score-cell">
-                <div class="score-num">${d.score}</div>
-                <div class="score-bar-track"><div class="score-bar-fill" style="width:${d.score*25}%"></div></div>
-              </div>
+              ${scoreNumHtml(d.score)}
               <span class="card-fresh">${activeCount}/4 · ${fresh}</span>
               <span class="card-chevron">▼</span>
             </div>
@@ -467,11 +488,9 @@
             : '<span class="ethics-none">—</span>'}
         </td>
         <td data-label="Score" class="detail">
-          <div class="score-cell">
-            <div class="score-num">${d.score}</div>
-            <div class="score-bar-track"><div class="score-bar-fill" style="width:${d.score*25}%"></div></div>
-          </div>
+          ${scoreNumHtml(d.score)}
         </td>
+        <td data-label="Kurs (€)" class="detail">${priceHtml(d)}</td>
         <td data-label="Reaktion" class="detail">${reactionHtml(d.reaction)}</td>
         <td data-label="Signale" class="detail">
           <div class="badges">
@@ -483,6 +502,7 @@
           </div>
           ${d.sig.congress.active && d.track ? `<div class="track-note">${d.politician} · Track-Record: Ø ${d.track}</div>` : ''}
         </td>
+        <td data-label="Geschäftsfeld" class="detail desc-cell">${d.description || d.topic || '—'}</td>
         <td data-label="Nachrichtenlage" class="detail" style="font-size:12px; color:rgba(239,233,220,0.6); white-space:nowrap;">${d.topic}</td>
         <td data-label="Warum relevant" class="detail why-cell">${d.why}</td>
       </tr>
@@ -560,6 +580,8 @@
       data = (payload.tickers || []).map(d => ({
         ...d,
         ethics: d.ethics || [],
+        priceEur: (d.priceEur === undefined) ? null : d.priceEur,
+        description: d.description || null,
         sig: {
           congress: d.sig?.congress || { active: false },
           insider: d.sig?.insider || { active: false },
