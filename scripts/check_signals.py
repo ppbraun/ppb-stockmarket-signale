@@ -6,13 +6,12 @@ Macht zwei Dinge in einem Lauf:
    Stand und schickt bei Auffaelligkeiten eine Telegram-Nachricht.
 2. Ermittelt VOLLAUTOMATISCH relevante Ticker: Schnittmenge aus S&P-500-Mitgliedern
    (offen gepflegte Liste) und allen SEC-Form-4-Filings des letzten Handelstags
-   (offizieller SEC-Bulk-Index). Fuer jeden Treffer werden echte Insider-, Makro-
-   und Predict-Signale (Polymarket) sowie Kurs (Stooq+FX), Kursreaktion seit dem
-   ersten Auftauchen und eine Wikipedia-Kurzbeschreibung ermittelt und nach
-   docs/data.json geschrieben.
+   (offizieller SEC-Bulk-Index). Fuer jeden Treffer werden alle vier Signale live
+   ermittelt: Politiker-Trades (House/Senate Stock Watcher), Insider-Kaeufe (SEC
+   Form 4), Makro-Aufmerksamkeit (GDELT) und Prediction Markets (Polymarket) —
+   dazu Kurs (Yahoo/Stooq + FX), Kursreaktion seit dem ersten Auftauchen und eine
+   Wikipedia-Kurzbeschreibung. Alles wird nach docs/data.json geschrieben.
 
-Politiker-Trades sind bewusst NICHT enthalten, weil es dafuer kein kostenloses,
-offizielles API gibt (nur Scraping moeglich waere).
 Nutzt nur die Python-Standardbibliothek — kein pip install noetig.
 """
 
@@ -34,6 +33,8 @@ SP500_CSV_URL = "https://raw.githubusercontent.com/datasets/s-and-p-500-companie
 STOOQ_URL = "https://stooq.com/q/l/?s={ticker}.us&f=sd2t2ohlcv&h&e=csv"
 FX_URL = "https://api.frankfurter.app/latest?from=USD&to=EUR"
 POLYMARKET_SEARCH_URL = "https://gamma-api.polymarket.com/public-search"
+HOUSE_TRADES_URL = "https://house-stock-watcher-data.s3-us-west-2.amazonaws.com/data/all_transactions.json"
+SENATE_TRADES_URL = "https://raw.githubusercontent.com/timothycarambat/senate-stock-watcher-data/master/aggregate/all_transactions.json"
 STATE_PATH = "data/last_state.json"
 DASHBOARD_DATA_PATH = "docs/data.json"
 
@@ -43,6 +44,7 @@ SEC_HEADERS = {"User-Agent": "PPB Stockmarket-Signale contact@example.com"}
 MAX_CANDIDATES = 8             # Obergrenze, damit ein Lauf nicht zu lange dauert
 MACRO_ARTICLE_THRESHOLD = 15
 INSIDER_LOOKBACK_DAYS = 14
+CONGRESS_LOOKBACK_DAYS = 60     # grosszuegig, weil PTR-Meldungen bis zu 45 Tage verspaetet ankommen koennen
 PREDICT_VOLUME_THRESHOLD = 10000   # USD Handelsvolumen, ab dem ein Polymarket-Treffer zaehlt
 
 # ---------------------------------------------------------------------------
@@ -256,6 +258,100 @@ def fetch_polymarket_signal(query):
     if best_volume >= PREDICT_VOLUME_THRESHOLD:
         return {"active": True}
     return {"active": False}
+
+
+# ---------------------------------------------------------------------------
+# Politiker-Trades (House Stock Watcher + Senate Stock Watcher)
+# Beides offen gepflegte Datensaetze, die die offiziellen STOCK-Act-
+# Offenlegungen (House Clerk / Senate eFD) aufbereiten. Wir scrapen damit
+# nicht selbst — wir konsumieren fertige, oeffentliche JSON-Dateien.
+# ---------------------------------------------------------------------------
+
+def parse_us_date(date_str):
+    if not date_str:
+        return None
+    date_str = date_str.strip()
+    for fmt in ("%m/%d/%Y", "%Y-%m-%d"):
+        try:
+            return datetime.datetime.strptime(date_str, fmt).date()
+        except ValueError:
+            continue
+    return None
+
+
+def load_congress_trades():
+    """Laedt House- und Senate-Trades und indiziert sie nach Ticker."""
+    trades_by_ticker = {}
+
+    def add_trade(ticker, chamber, member, tx_type, tx_date_str, disclosure_date_str):
+        if not ticker or ticker in ("--", "", "N/A"):
+            return
+        trades_by_ticker.setdefault(ticker.upper().strip(), []).append({
+            "chamber": chamber,
+            "member": member,
+            "type": (tx_type or ""),
+            "tx_date": tx_date_str,
+            "disclosure_date": disclosure_date_str,
+        })
+
+    try:
+        house_data = http_get_json(HOUSE_TRADES_URL, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
+        for t in house_data:
+            add_trade(
+                t.get("ticker"), "House", t.get("representative"),
+                t.get("type"), t.get("transaction_date"), t.get("disclosure_date"),
+            )
+        print(f"House-Trades geladen: {len(house_data)} Einträge.")
+    except Exception as e:
+        print(f"House-Trades konnten nicht geladen werden: {e}")
+
+    try:
+        senate_data = http_get_json(SENATE_TRADES_URL, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
+        for t in senate_data:
+            member = t.get("senator") or f"{t.get('first_name', '')} {t.get('last_name', '')}".strip()
+            add_trade(
+                t.get("ticker"), "Senate", member,
+                t.get("type"), t.get("transaction_date"), t.get("date_recieved"),
+            )
+        print(f"Senate-Trades geladen: {len(senate_data)} Einträge.")
+    except Exception as e:
+        print(f"Senate-Trades konnten nicht geladen werden: {e}")
+
+    return trades_by_ticker
+
+
+def most_recent_congress_trade(trades_by_ticker, ticker):
+    entries = trades_by_ticker.get(ticker.upper())
+    if not entries:
+        return None
+
+    cutoff = datetime.date.today() - datetime.timedelta(days=CONGRESS_LOOKBACK_DAYS)
+    best, best_date = None, None
+    for e in entries:
+        d = parse_us_date(e.get("disclosure_date")) or parse_us_date(e.get("tx_date"))
+        if not d or d < cutoff:
+            continue
+        if best_date is None or d > best_date:
+            best_date, best = d, e
+
+    if not best:
+        return None
+
+    age_days = max((datetime.date.today() - best_date).days, 0)
+    tx_type = best["type"].lower()
+    if "purchase" in tx_type or "buy" in tx_type:
+        direction = "Kauf"
+    elif "sale" in tx_type or "sell" in tx_type:
+        direction = "Verkauf"
+    else:
+        direction = None
+
+    return {
+        "direction": direction,
+        "age_hours": age_days * 24,
+        "member": best["member"],
+        "chamber": best["chamber"],
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -512,6 +608,9 @@ def build_ticker_signals_auto(old_tickers_state):
     else:
         print("Kein Wechselkurs verfügbar — Kurs (€) bleibt leer.")
 
+    print("Lade Politiker-Trades (House + Senate) ...")
+    congress_trades = load_congress_trades()
+
     results = []
     new_tickers_state = {}
     today_str = datetime.date.today().isoformat()
@@ -578,6 +677,25 @@ def build_ticker_signals_auto(old_tickers_state):
 
         time.sleep(1)
 
+        congress = {"active": False}
+        politician = None
+        try:
+            match = most_recent_congress_trade(congress_trades, tk)
+            if match:
+                congress = {
+                    "active": True,
+                    "age": f"{match['age_hours']}Std" if match["age_hours"] < 24
+                           else f"{match['age_hours'] // 24}T",
+                    "src": match["chamber"],
+                }
+                if match["direction"]:
+                    congress["dir"] = match["direction"]
+                politician = f"{match['member']} ({match['chamber']})" if match["member"] else match["chamber"]
+        except Exception as e:
+            print(f"  Politiker-Check fehlgeschlagen: {e}")
+
+        time.sleep(1)
+
         price_usd = fetch_price_usd(tk)
         price_eur = round(price_usd * fx_rate, 2) if (price_usd is not None and fx_rate) else None
 
@@ -595,8 +713,10 @@ def build_ticker_signals_auto(old_tickers_state):
                 reaction = round((price_usd - baseline) / baseline * 100, 1)
                 baseline_price_usd = baseline  # Anker bleibt beim ersten bekannten Kurs
 
-        active_count = sum([insider["active"], macro["active"], predict["active"]])
+        active_count = sum([congress["active"], insider["active"], macro["active"], predict["active"]])
         why_parts = []
+        if congress["active"]:
+            why_parts.append("aktueller Politiker-Trade (House/Senate)")
         if insider["active"]:
             why_parts.append("aktuelles SEC-Form-4-Insider-Filing")
         if macro["active"]:
@@ -615,10 +735,10 @@ def build_ticker_signals_auto(old_tickers_state):
             "reaction": reaction,
             "priceEur": price_eur,
             "description": description,
-            "politician": None,
+            "politician": politician,
             "track": None,
             "sig": {
-                "congress": {"active": False},
+                "congress": congress,
                 "insider": insider,
                 "macro": macro,
                 "predict": predict,
