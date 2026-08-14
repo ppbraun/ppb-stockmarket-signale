@@ -30,13 +30,15 @@ GDELT_URL = "https://api.gdeltproject.org/api/v2/doc/doc"
 SEC_TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"
 SEC_SUBMISSIONS_URL = "https://data.sec.gov/submissions/CIK{cik}.json"
 SP500_CSV_URL = "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv"
+STOOQ_URL = "https://stooq.com/q/l/?s={ticker}.us&f=sd2t2ohlcv&h&e=csv"
+FX_URL = "https://api.frankfurter.app/latest?from=USD&to=EUR"
 STATE_PATH = "data/last_state.json"
 DASHBOARD_DATA_PATH = "docs/data.json"
 
 # SEC verlangt einen aussagekraeftigen User-Agent mit Kontakt — bei Bedarf anpassen.
 SEC_HEADERS = {"User-Agent": "PPB Stockmarket-Signale contact@example.com"}
 
-MAX_CANDIDATES = 20            # Obergrenze, damit ein Lauf nicht zu lange dauert
+MAX_CANDIDATES = 12            # Obergrenze, damit ein Lauf nicht zu lange dauert
 MACRO_ARTICLE_THRESHOLD = 15
 INSIDER_LOOKBACK_DAYS = 14
 
@@ -91,7 +93,7 @@ def http_get_text(url, headers=None):
 # GDELT
 # ---------------------------------------------------------------------------
 
-def gdelt_search(query, timespan="2d", maxrecords=250, retries=3):
+def gdelt_search(query, timespan="2d", maxrecords=250, retries=2):
     params = {"query": query, "mode": "ArtList", "maxrecords": maxrecords,
               "timespan": timespan, "format": "json"}
     url = GDELT_URL + "?" + urllib.parse.urlencode(params)
@@ -104,15 +106,15 @@ def gdelt_search(query, timespan="2d", maxrecords=250, retries=3):
         except urllib.error.HTTPError as e:
             last_error = e
             if e.code == 429:
-                wait = 8 * (attempt + 1)
-                print(f"  GDELT-Rate-Limit (429), warte {wait}s und versuche erneut ...")
+                wait = 6 * (attempt + 1)
+                print(f"  GDELT-Rate-Limit (429), warte {wait}s und versuche erneut ...", flush=True)
                 time.sleep(wait)
                 continue
             raise
         except Exception as e:
             last_error = e
-            print(f"  GDELT-Anfrage fehlgeschlagen ({e}), warte 5s ...")
-            time.sleep(5)
+            print(f"  GDELT-Anfrage fehlgeschlagen ({e}), warte 4s ...", flush=True)
+            time.sleep(4)
     raise last_error
 
 
@@ -138,6 +140,62 @@ def gdelt_freshest_hours(articles):
     if newest is None:
         return None
     return round((now - newest).total_seconds() / 3600)
+
+
+# ---------------------------------------------------------------------------
+# Kursdaten (Stooq) + Wechselkurs (Frankfurter/EZB)
+# ---------------------------------------------------------------------------
+
+def fetch_usd_eur_rate():
+    try:
+        data = http_get_json(FX_URL, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
+        return data.get("rates", {}).get("EUR")
+    except Exception as e:
+        print(f"Wechselkurs konnte nicht geladen werden: {e}")
+        return None
+
+
+def fetch_price_usd(ticker):
+    url = STOOQ_URL.format(ticker=ticker.lower())
+    try:
+        text = http_get_text(url, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
+        reader = csv.DictReader(io.StringIO(text))
+        row = next(reader, None)
+        if not row:
+            return None
+        close = row.get("Close")
+        if not close or close in ("N/D", "N/A"):
+            return None
+        return float(close)
+    except Exception as e:
+        print(f"  Kursabfrage fehlgeschlagen: {e}")
+        return None
+
+
+# ---------------------------------------------------------------------------
+# Firmenbeschreibung (Wikipedia — "was macht das Unternehmen")
+# ---------------------------------------------------------------------------
+
+WIKI_HEADERS = {"User-Agent": "PPB Stockmarket-Signale (contact@example.com)"}
+
+
+def fetch_company_description(name, max_len=180):
+    """Holt eine kurze Wikipedia-Zusammenfassung; deutsch zuerst, sonst englisch."""
+    for lang in ("de", "en"):
+        url = f"https://{lang}.wikipedia.org/api/rest_v1/page/summary/{urllib.parse.quote(name)}"
+        try:
+            data = http_get_json(url, headers=WIKI_HEADERS)
+        except Exception:
+            continue
+        extract = (data.get("extract") or "").strip()
+        if not extract:
+            continue
+        extract = extract.replace("\n", " ")
+        if len(extract) > max_len:
+            cut = extract[:max_len].rsplit(" ", 1)[0]
+            extract = cut + "…"
+        return extract
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -386,6 +444,13 @@ def build_ticker_signals_auto():
     candidates = candidates[:MAX_CANDIDATES]
     print(f"{len(candidates)} S&P-500-Titel mit Insider-Filing am {filing_date} (nach Obergrenze {MAX_CANDIDATES}).")
 
+    print("Lade USD/EUR-Wechselkurs ...")
+    fx_rate = fetch_usd_eur_rate()
+    if fx_rate:
+        print(f"Wechselkurs USD->EUR: {fx_rate}")
+    else:
+        print("Kein Wechselkurs verfügbar — Kurs (€) bleibt leer.")
+
     results = []
 
     for cik, info in candidates:
@@ -395,6 +460,7 @@ def build_ticker_signals_auto():
 
         insider = {"active": False}
         ethics = []
+        description = None
         try:
             submission = fetch_submission_details(cik10)
             sic = submission.get("sic", "")
@@ -414,7 +480,14 @@ def build_ticker_signals_auto():
         except Exception as e:
             print(f"  Insider-Check fehlgeschlagen: {e}")
 
-        time.sleep(3)
+        time.sleep(1)
+
+        try:
+            description = fetch_company_description(info["name"])
+        except Exception as e:
+            print(f"  Firmenbeschreibung fehlgeschlagen: {e}")
+
+        time.sleep(1)
 
         macro = {"active": False}
         try:
@@ -432,7 +505,14 @@ def build_ticker_signals_auto():
         except Exception as e:
             print(f"  Makro-Check fehlgeschlagen: {e}")
 
-        time.sleep(3)
+        time.sleep(1)
+
+        price_eur = None
+        price_usd = fetch_price_usd(tk)
+        if price_usd is not None and fx_rate:
+            price_eur = round(price_usd * fx_rate, 2)
+
+        time.sleep(1)
 
         active_count = sum([insider["active"], macro["active"]])
         why_parts = []
@@ -450,6 +530,8 @@ def build_ticker_signals_auto():
             "market": "us",
             "score": active_count,
             "reaction": None,
+            "priceEur": price_eur,
+            "description": description,
             "politician": None,
             "track": None,
             "sig": {
@@ -466,9 +548,47 @@ def build_ticker_signals_auto():
     return results
 
 
+def diff_ticker_alerts(old_tickers, new_tickers):
+    """Vergleicht die aktuelle Ticker-Liste mit der letzten und meldet
+    neue Treffer sowie gestiegene Scores fuer Telegram."""
+    old_scores = {t["tk"]: t.get("score", 0) for t in old_tickers}
+    alerts = []
+
+    for t in new_tickers:
+        tk = t["tk"]
+        new_score = t.get("score", 0)
+        if tk not in old_scores:
+            alerts.append(f"🆕 <b>{tk}</b> ({t['name']}) neu in der Liste — Score {new_score}/4")
+        elif new_score > old_scores[tk]:
+            alerts.append(f"📈 <b>{tk}</b> relevanter geworden: Score {old_scores[tk]} → {new_score}")
+
+    return alerts
+
+
 def main():
+    old_state = load_state()
+    old_tickers = old_state.get("_tickers", [])
+
     news_topics = check_topics()
     tickers = build_ticker_signals_auto()
+
+    ticker_alerts = diff_ticker_alerts(old_tickers, tickers)
+    if ticker_alerts:
+        message = ("🎯 <b>PPB Stockmarket-Signale</b>\nÄnderungen bei beobachteten Tickern:\n\n"
+                    + "\n".join(ticker_alerts)
+                    + "\n\nDashboard: https://ppbraun.github.io/ppb-stockmarket-signale/")
+        try:
+            send_telegram(message)
+            print("Telegram-Benachrichtigung (Ticker-Änderungen) gesendet.")
+        except Exception as e:
+            print(f"Telegram-Versand (Ticker-Änderungen) fehlgeschlagen: {e}")
+    else:
+        print("Keine Ticker-Änderungen gegenüber dem letzten Lauf.")
+
+    # Ticker-Stand fuer den naechsten Vergleich zusaetzlich im State sichern
+    state = load_state()
+    state["_tickers"] = [{"tk": t["tk"], "score": t["score"]} for t in tickers]
+    save_state(state)
 
     payload = {
         "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
