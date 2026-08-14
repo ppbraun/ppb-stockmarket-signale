@@ -151,8 +151,8 @@
   .reaction-value.up{ color: var(--verify); }
   .reaction-value.down{ color: var(--alert); }
 
-  .why-cell{ font-size:12px; color: rgba(239,233,220,0.6); max-width:200px; line-height:1.4; }
-  .desc-cell{ font-size:11.5px; color: rgba(239,233,220,0.55); max-width:180px; line-height:1.4; }
+  .why-cell{ font-size:12.5px; color: rgba(239,233,220,0.75); max-width:280px; line-height:1.5; }
+  .desc-cell{ font-size:11.5px; color: rgba(239,233,220,0.5); max-width:160px; line-height:1.4; }
   .price-value{ font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:13px; white-space:nowrap; }
   .price-value.na{ color: rgba(239,233,220,0.3); font-weight:400; }
   .card-head{ display:contents; }
@@ -280,7 +280,7 @@
   </header>
 
   <div class="banner">
-    <b>Wie das zu lesen ist:</b> Jede Zeile ist ein Ticker, jede Spalte ein unabhängiges öffentliches Signal. Die Ticker-Auswahl ist <b>vollautomatisch</b>: Schnittmenge aus S&P-500-Mitgliedern und allen SEC-Form-4-Insiderfilings des letzten Handelstags — keine manuelle Liste. <b>Insider (SEC Form 4)</b> und <b>Makro (GDELT)</b> sind echte Daten. <b>Politik</b> und <b>Predict</b> sind noch nicht angebunden (zeigen "—") — der Score fällt dadurch bewusst niedriger aus. ⚠ markiert ethisch sensible Sektoren.
+    <b>Wie das zu lesen ist:</b> Jede Zeile ist ein Ticker, jede Spalte ein unabhängiges öffentliches Signal. Die Ticker-Auswahl ist <b>vollautomatisch</b>: Schnittmenge aus S&P-500-Mitgliedern und allen SEC-Form-4-Insiderfilings des letzten Handelstags — keine manuelle Liste. <b>Insider (SEC Form 4)</b>, <b>Makro (GDELT)</b> und <b>Predict (Polymarket)</b> sind echte Live-Daten. <b>Politik</b> ist noch nicht angebunden (zeigt "—") — dafür gibt es kein kostenloses offizielles API. ⚠ markiert ethisch sensible Sektoren.
   </div>
 
   <div class="news-card">
@@ -320,7 +320,6 @@
       <thead>
         <tr>
           <th>Ticker</th>
-          <th>Handelbar</th>
           <th>Ethik</th>
           <th>Score</th>
           <th>Kurs (€)</th>
@@ -445,7 +444,7 @@
     if(rows.length === 0){
       body.innerHTML = `
         <tr>
-          <td colspan="10" style="padding:32px 16px; text-align:center; color:rgba(239,233,220,0.4); font-size:13px;">
+          <td colspan="9" style="padding:32px 16px; text-align:center; color:rgba(239,233,220,0.4); font-size:13px;">
             Keine Treffer für diese Filter. ${data.length === 0
               ? 'An diesem Handelstag hat entweder kein S&P-500-Titel ein Form-4-Filing gehabt, oder der letzte Datenlauf ist noch nicht durch.'
               : 'Andere Filter-Kombination probieren (z. B. Markt oder Ethik-Ausblendung zurücksetzen).'}
@@ -478,9 +477,6 @@
               <span class="card-chevron">▼</span>
             </div>
           </div>
-        </td>
-        <td data-label="Handelbar" class="detail">
-          <div class="broker-check ${d.broker ? '' : 'no'}">${d.broker ? '✓ TR / Zero' : '— nicht gelistet'}</div>
         </td>
         <td data-label="Ethik" class="detail">
           ${d.ethics.length
