@@ -6,11 +6,13 @@ Macht zwei Dinge in einem Lauf:
    Stand und schickt bei Auffaelligkeiten eine Telegram-Nachricht.
 2. Ermittelt VOLLAUTOMATISCH relevante Ticker: Schnittmenge aus S&P-500-Mitgliedern
    (offen gepflegte Liste) und allen SEC-Form-4-Filings des letzten Handelstags
-   (offizieller SEC-Bulk-Index). Fuer jeden Treffer werden echte Insider- und
-   Makro-Signale ermittelt und nach docs/data.json geschrieben.
+   (offizieller SEC-Bulk-Index). Fuer jeden Treffer werden echte Insider-, Makro-
+   und Predict-Signale (Polymarket) sowie Kurs (Stooq+FX), Kursreaktion seit dem
+   ersten Auftauchen und eine Wikipedia-Kurzbeschreibung ermittelt und nach
+   docs/data.json geschrieben.
 
-Politiker-Trades und Prediction Markets sind bewusst NICHT enthalten,
-weil dafuer (noch) keine kostenlosen, offiziellen APIs angebunden sind.
+Politiker-Trades sind bewusst NICHT enthalten, weil es dafuer kein kostenloses,
+offizielles API gibt (nur Scraping moeglich waere).
 Nutzt nur die Python-Standardbibliothek — kein pip install noetig.
 """
 
@@ -32,15 +34,17 @@ SEC_SUBMISSIONS_URL = "https://data.sec.gov/submissions/CIK{cik}.json"
 SP500_CSV_URL = "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv"
 STOOQ_URL = "https://stooq.com/q/l/?s={ticker}.us&f=sd2t2ohlcv&h&e=csv"
 FX_URL = "https://api.frankfurter.app/latest?from=USD&to=EUR"
+POLYMARKET_SEARCH_URL = "https://gamma-api.polymarket.com/public-search"
 STATE_PATH = "data/last_state.json"
 DASHBOARD_DATA_PATH = "docs/data.json"
 
 # SEC verlangt einen aussagekraeftigen User-Agent mit Kontakt — bei Bedarf anpassen.
 SEC_HEADERS = {"User-Agent": "PPB Stockmarket-Signale contact@example.com"}
 
-MAX_CANDIDATES = 12            # Obergrenze, damit ein Lauf nicht zu lange dauert
+MAX_CANDIDATES = 8             # Obergrenze, damit ein Lauf nicht zu lange dauert
 MACRO_ARTICLE_THRESHOLD = 15
 INSIDER_LOOKBACK_DAYS = 14
+PREDICT_VOLUME_THRESHOLD = 10000   # USD Handelsvolumen, ab dem ein Polymarket-Treffer zaehlt
 
 # ---------------------------------------------------------------------------
 # Themenfelder fuer den Makro-Puls (News-Panel) — unveraendert
@@ -196,6 +200,40 @@ def fetch_company_description(name, max_len=180):
             extract = cut + "…"
         return extract
     return None
+
+
+# ---------------------------------------------------------------------------
+# Prediction Markets (Polymarket) — echtes Predict-Signal je Ticker
+# ---------------------------------------------------------------------------
+
+def fetch_polymarket_signal(query):
+    """Sucht per Volltextsuche nach zur Firma passenden, offenen Maerkten.
+    Aktiv, wenn ein Markt mit nennenswertem Handelsvolumen gefunden wird."""
+    params = {"q": query}
+    url = POLYMARKET_SEARCH_URL + "?" + urllib.parse.urlencode(params)
+    try:
+        data = http_get_json(url, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
+    except Exception as e:
+        print(f"  Polymarket-Suche fehlgeschlagen: {e}")
+        return {"active": False}
+
+    markets = list(data.get("markets") or [])
+    for ev in (data.get("events") or []):
+        markets.extend(ev.get("markets") or [])
+
+    best_volume = 0.0
+    for m in markets:
+        if m.get("closed"):
+            continue
+        try:
+            vol = float(m.get("volume") or 0)
+        except (TypeError, ValueError):
+            vol = 0.0
+        best_volume = max(best_volume, vol)
+
+    if best_volume >= PREDICT_VOLUME_THRESHOLD:
+        return {"active": True}
+    return {"active": False}
 
 
 # ---------------------------------------------------------------------------
@@ -428,17 +466,17 @@ def check_topics():
 # Automatische Ticker-Auswahl + Signale
 # ---------------------------------------------------------------------------
 
-def build_ticker_signals_auto():
+def build_ticker_signals_auto(old_tickers_state):
     print("Lade S&P-500-Liste ...")
     try:
         sp500 = load_sp500()
     except Exception as e:
         print(f"S&P-500-Liste konnte nicht geladen werden: {e}")
-        return []
+        return [], {}
 
     form4_ciks, filing_date = fetch_recent_form4_ciks()
     if not form4_ciks:
-        return []
+        return [], {}
 
     candidates = [(cik, info) for cik, info in sp500.items() if cik in form4_ciks]
     candidates = candidates[:MAX_CANDIDATES]
@@ -452,6 +490,8 @@ def build_ticker_signals_auto():
         print("Kein Wechselkurs verfügbar — Kurs (€) bleibt leer.")
 
     results = []
+    new_tickers_state = {}
+    today_str = datetime.date.today().isoformat()
 
     for cik, info in candidates:
         tk = info["tk"]
@@ -507,21 +547,41 @@ def build_ticker_signals_auto():
 
         time.sleep(1)
 
-        price_eur = None
-        price_usd = fetch_price_usd(tk)
-        if price_usd is not None and fx_rate:
-            price_eur = round(price_usd * fx_rate, 2)
+        predict = {"active": False}
+        try:
+            predict = fetch_polymarket_signal(info["name"])
+        except Exception as e:
+            print(f"  Predict-Check fehlgeschlagen: {e}")
 
         time.sleep(1)
 
-        active_count = sum([insider["active"], macro["active"]])
+        price_usd = fetch_price_usd(tk)
+        price_eur = round(price_usd * fx_rate, 2) if (price_usd is not None and fx_rate) else None
+
+        time.sleep(1)
+
+        # Kursreaktion seit dem ersten Auftauchen dieses Tickers berechnen
+        prev = old_tickers_state.get(tk)
+        reaction = None
+        baseline_price_usd = price_usd
+        first_seen = today_str
+        if prev:
+            first_seen = prev.get("first_seen", today_str)
+            baseline = prev.get("baseline_price_usd")
+            if baseline and price_usd:
+                reaction = round((price_usd - baseline) / baseline * 100, 1)
+                baseline_price_usd = baseline  # Anker bleibt beim ersten bekannten Kurs
+
+        active_count = sum([insider["active"], macro["active"], predict["active"]])
         why_parts = []
         if insider["active"]:
             why_parts.append("aktuelles SEC-Form-4-Insider-Filing")
         if macro["active"]:
             why_parts.append("erhöhte Nachrichtenaufmerksamkeit")
+        if predict["active"]:
+            why_parts.append("aktiver Prediction-Market-Bezug")
         why = ("Live-Signal: " + " + ".join(why_parts) + ".") if why_parts else \
-              "Insider-Filing vorhanden, aber (noch) keine erhöhte Nachrichtenaufmerksamkeit."
+              "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
 
         results.append({
             "tk": tk,
@@ -529,7 +589,7 @@ def build_ticker_signals_auto():
             "broker": True,
             "market": "us",
             "score": active_count,
-            "reaction": None,
+            "reaction": reaction,
             "priceEur": price_eur,
             "description": description,
             "politician": None,
@@ -538,41 +598,47 @@ def build_ticker_signals_auto():
                 "congress": {"active": False},
                 "insider": insider,
                 "macro": macro,
-                "predict": {"active": False},
+                "predict": predict,
             },
             "topic": info["sector"] or "Unternehmensspezifisch",
             "ethics": ethics,
             "why": why,
         })
 
-    return results
+        new_tickers_state[tk] = {
+            "score": active_count,
+            "baseline_price_usd": baseline_price_usd,
+            "first_seen": first_seen,
+        }
+
+    return results, new_tickers_state
 
 
-def diff_ticker_alerts(old_tickers, new_tickers):
+def diff_ticker_alerts(old_tickers_state, new_tickers):
     """Vergleicht die aktuelle Ticker-Liste mit der letzten und meldet
     neue Treffer sowie gestiegene Scores fuer Telegram."""
-    old_scores = {t["tk"]: t.get("score", 0) for t in old_tickers}
     alerts = []
 
     for t in new_tickers:
         tk = t["tk"]
         new_score = t.get("score", 0)
-        if tk not in old_scores:
+        prev = old_tickers_state.get(tk)
+        if prev is None:
             alerts.append(f"🆕 <b>{tk}</b> ({t['name']}) neu in der Liste — Score {new_score}/4")
-        elif new_score > old_scores[tk]:
-            alerts.append(f"📈 <b>{tk}</b> relevanter geworden: Score {old_scores[tk]} → {new_score}")
+        elif new_score > prev.get("score", 0):
+            alerts.append(f"📈 <b>{tk}</b> relevanter geworden: Score {prev.get('score', 0)} → {new_score}")
 
     return alerts
 
 
 def main():
     old_state = load_state()
-    old_tickers = old_state.get("_tickers", [])
+    old_tickers_state = old_state.get("_tickers", {})
 
     news_topics = check_topics()
-    tickers = build_ticker_signals_auto()
+    tickers, new_tickers_state = build_ticker_signals_auto(old_tickers_state)
 
-    ticker_alerts = diff_ticker_alerts(old_tickers, tickers)
+    ticker_alerts = diff_ticker_alerts(old_tickers_state, tickers)
     if ticker_alerts:
         message = ("🎯 <b>PPB Stockmarket-Signale</b>\nÄnderungen bei beobachteten Tickern:\n\n"
                     + "\n".join(ticker_alerts)
@@ -587,7 +653,7 @@ def main():
 
     # Ticker-Stand fuer den naechsten Vergleich zusaetzlich im State sichern
     state = load_state()
-    state["_tickers"] = [{"tk": t["tk"], "score": t["score"]} for t in tickers]
+    state["_tickers"] = new_tickers_state
     save_state(state)
 
     payload = {
