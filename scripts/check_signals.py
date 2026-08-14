@@ -110,7 +110,7 @@ def gdelt_search(query, timespan="2d", maxrecords=250, retries=2):
         except urllib.error.HTTPError as e:
             last_error = e
             if e.code == 429:
-                wait = 6 * (attempt + 1)
+                wait = 10 * (attempt + 1)
                 print(f"  GDELT-Rate-Limit (429), warte {wait}s und versuche erneut ...", flush=True)
                 time.sleep(wait)
                 continue
@@ -634,6 +634,10 @@ def diff_ticker_alerts(old_tickers_state, new_tickers):
 def main():
     old_state = load_state()
     old_tickers_state = old_state.get("_tickers", {})
+    if not isinstance(old_tickers_state, dict):
+        # Alter Zustand (Vorversion speicherte eine Liste statt eines Dicts) — zuruecksetzen.
+        print("Alter Ticker-Zustand hat unerwartetes Format, wird zurückgesetzt.")
+        old_tickers_state = {}
 
     news_topics = check_topics()
     tickers, new_tickers_state = build_ticker_signals_auto(old_tickers_state)
