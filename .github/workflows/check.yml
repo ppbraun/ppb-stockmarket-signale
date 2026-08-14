@@ -11,6 +11,7 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 15   # Sicherheitsnetz: Job wird notfalls abgebrochen statt den nächsten Takt zu blockieren
     steps:
       - name: Repository auschecken
         uses: actions/checkout@v4
@@ -24,7 +25,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python scripts/check_signals.py
+        run: python -u scripts/check_signals.py
 
       - name: Aktualisierten Stand speichern
         run: |
