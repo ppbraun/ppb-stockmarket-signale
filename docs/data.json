@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T05:48:40.190307+00:00",
+  "generated_at": "2026-08-14T06:11:13.577047+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -13,13 +13,13 @@
     },
     {
       "topic": "Gesundheit / FDA-Zulassungen",
-      "vol": 214,
-      "pct": 86
+      "vol": 217,
+      "pct": 87
     },
     {
       "topic": "Schifffahrt / Lieferketten",
-      "vol": 182,
-      "pct": 73
+      "vol": 184,
+      "pct": 74
     },
     {
       "topic": "Cybersecurity",
@@ -28,8 +28,8 @@
     },
     {
       "topic": "Krypto-Regulierung",
-      "vol": 29,
-      "pct": 12
+      "vol": 37,
+      "pct": 15
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -65,6 +65,8 @@
       "market": "us",
       "score": 1,
       "reaction": null,
+      "priceEur": null,
+      "description": "Abbott Laboratories ist ein weltweit operierender, als Standardwert geltender und im S&P 100 als auch im Dow Jones Global Titans 50 gelisteter US-amerikanischer Pharmakonzern mit…",
       "politician": null,
       "track": null,
       "sig": {
@@ -94,6 +96,8 @@
       "market": "us",
       "score": 1,
       "reaction": null,
+      "priceEur": null,
+      "description": "Advanced Micro Devices, Inc. (AMD) ist ein US-amerikanisches Unternehmen der Halbleiterindustrie mit Hauptsitz in Santa Clara, Kalifornien. AMD entwickelt und vertreibt…",
       "politician": null,
       "track": null,
       "sig": {
@@ -121,8 +125,10 @@
       "name": "Airbnb",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": null,
+      "priceEur": null,
+      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -135,8 +141,7 @@
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "0Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -144,7 +149,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "AIG",
@@ -153,6 +158,8 @@
       "market": "us",
       "score": 2,
       "reaction": null,
+      "priceEur": null,
+      "description": "Die American International Group, Inc. (AIG) ist ein börsennotierter Versicherungskonzern mit Hauptsitz in New York City. Das Unternehmen war lange Zeit der größte…",
       "politician": null,
       "track": null,
       "sig": {
@@ -166,7 +173,7 @@
         },
         "macro": {
           "active": true,
-          "age": "0Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -181,8 +188,10 @@
       "name": "Amgen",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": null,
+      "priceEur": null,
+      "description": "Das Biotechnologieunternehmen Amgen wurde 1980 als AMGen gegründet. Amgen ist mit ca. 20.000 Mitarbeitern eines der weltweit größten Biotechnologieunternehmen mit einem…",
       "politician": null,
       "track": null,
       "sig": {
@@ -195,8 +204,7 @@
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "4Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -204,7 +212,7 @@
       },
       "topic": "Health Care",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "AAPL",
@@ -213,6 +221,8 @@
       "market": "us",
       "score": 1,
       "reaction": null,
+      "priceEur": null,
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -242,6 +252,8 @@
       "market": "us",
       "score": 1,
       "reaction": null,
+      "priceEur": null,
+      "description": "Aptiv ist ein Automobilzulieferer mit Sitz in Schaffhausen (Schweiz) und operativer Hauptzentrale in Dublin. Gemessen am Umsatz des Jahres 2020 liegt das Unternehmen auf Platz 18…",
       "politician": null,
       "track": null,
       "sig": {
@@ -269,8 +281,10 @@
       "name": "Ball Corporation",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": null,
+      "priceEur": null,
+      "description": "Die Ball Corporation, gegründet 1880 als Ball Brothers Glass Manufacturing Company, ist ein US-amerikanischer Mischkonzern mit Hauptsitz in Broomfield (Colorado). Ursprünglich ein…",
       "politician": null,
       "track": null,
       "sig": {
@@ -283,8 +297,7 @@
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "1Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -292,7 +305,7 @@
       },
       "topic": "Materials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BRK.B",
@@ -301,6 +314,8 @@
       "market": "us",
       "score": 1,
       "reaction": null,
+      "priceEur": null,
+      "description": "Berkshire Hathaway Inc. [ˈbɜːrkʃər ˈhæθəweɪ] ist eine 1955 gegründete US-amerikanische Holdinggesellschaft mit Sitz in Omaha, Nebraska, zu deren Konglomerat über 80 Unternehmen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -330,6 +345,8 @@
       "market": "us",
       "score": 1,
       "reaction": null,
+      "priceEur": null,
+      "description": "Blackstone Inc. is an American alternative investment management company based in New York City. It was founded in 1985 as a mergers and acquisitions firm by Peter Peterson and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -357,8 +374,10 @@
       "name": "Booking Holdings",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": null,
+      "priceEur": null,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -371,8 +390,7 @@
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "0Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -380,7 +398,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "CNP",
@@ -389,6 +407,8 @@
       "market": "us",
       "score": 1,
       "reaction": null,
+      "priceEur": null,
+      "description": "CenterPoint Energy ist ein US-amerikanischer Strom- und Gasnetzbetreiber mit Unternehmenssitz in der CenterPoint Energy Plaza in Houston, Texas. Das Unternehmen ist im Aktienindex…",
       "politician": null,
       "track": null,
       "sig": {
@@ -408,240 +428,6 @@
         }
       },
       "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "CRL",
-      "name": "Charles River Laboratories",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "SCHW",
-      "name": "Charles Schwab Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "CHTR",
-      "name": "Charter Communications",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "CVX",
-      "name": "Chevron Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "CEG",
-      "name": "Constellation Energy",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "DXCM",
-      "name": "Dexcom",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "ETN",
-      "name": "Eaton Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "EXPE",
-      "name": "Expedia Group",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     }
