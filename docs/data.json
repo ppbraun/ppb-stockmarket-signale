@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T23:49:22.694357+00:00",
+  "generated_at": "2026-08-15T02:43:35.466813+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -59,107 +59,14 @@
   ],
   "tickers": [
     {
-      "tk": "ABT",
-      "name": "Abbott Laboratories",
+      "tk": "AFL",
+      "name": "Aflac",
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": -0.0,
-      "priceEur": 96.18,
-      "description": "Abbott Laboratories, commonly known as Abbott, is an American multinational medical devices and health care company founded in Chicago with headquarters in Abbott Park, Illinois.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "AMD",
-      "name": "Advanced Micro Devices",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 6.5,
-      "priceEur": 444.71,
-      "description": "Advanced Micro Devices, Inc. (AMD) ist ein US-amerikanisches Unternehmen der Halbleiterindustrie mit Hauptsitz in Santa Clara, Kalifornien. AMD entwickelt und vertreibt…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "ABNB",
-      "name": "Airbnb",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.6,
-      "priceEur": 159.13,
-      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "AIG",
-      "name": "American International Group",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.8,
-      "priceEur": 66.26,
-      "description": null,
+      "reaction": null,
+      "priceEur": 105.0,
+      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
       "politician": null,
       "track": null,
       "sig": {
@@ -183,14 +90,76 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "AMGN",
-      "name": "Amgen",
+      "tk": "APP",
+      "name": "AppLovin",
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": -0.6,
-      "priceEur": 358.96,
-      "description": "Amgen Inc. is an American multinational biopharmaceutical company headquartered in Thousand Oaks, California. The company is ranked 18th on the list of largest biomedical…",
+      "reaction": null,
+      "priceEur": 272.71,
+      "description": "AppLovin ist ein 2012 von Adam Foroughi, Andrew Karam und John Krystynak gegründetes Unternehmen mit Sitz in Palo Alto in Kalifornien. Das Unternehmen bietet Entwicklern…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "ANET",
+      "name": "Arista Networks",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 171.89,
+      "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "BDX",
+      "name": "Becton Dickinson",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 158.55,
+      "description": "BD  ist eines der größten internationalen Medizintechnologie-Unternehmen. Es entwickelt, produziert und vertreibt medizinische Einmalartikel, Gerätesysteme und Reagenzien. BD…",
       "politician": null,
       "track": null,
       "sig": {
@@ -214,45 +183,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "AAPL",
-      "name": "Apple Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.2,
-      "priceEur": 264.49,
-      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "APTV",
-      "name": "Aptiv",
+      "tk": "XYZ",
+      "name": "Block, Inc.",
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": 0.8,
-      "priceEur": 42.85,
-      "description": "Aptiv ist ein Automobilzulieferer mit Sitz in Schaffhausen (Schweiz) und operativer Hauptzentrale in Dublin. Gemessen am Umsatz des Jahres 2020 liegt das Unternehmen auf Platz 18…",
+      "reaction": null,
+      "priceEur": 71.65,
+      "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -271,19 +209,19 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "BALL",
-      "name": "Ball Corporation",
+      "tk": "BR",
+      "name": "Broadridge Financial Solutions",
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": -0.2,
-      "priceEur": 53.45,
-      "description": "Die Ball Corporation, gegründet 1880 als Ball Brothers Glass Manufacturing Company, ist ein US-amerikanischer Mischkonzern mit Hauptsitz in Broomfield (Colorado). Ursprünglich ein…",
+      "reaction": null,
+      "priceEur": 147.84,
+      "description": "Broadridge Financial Solutions, Inc. is a public corporate services and financial technology company. Headquartered in Lake Success, New York, the company was founded in 2007 as a…",
       "politician": null,
       "track": null,
       "sig": {
@@ -302,7 +240,69 @@
           "active": false
         }
       },
-      "topic": "Materials",
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "CBOE",
+      "name": "Cboe Global Markets",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 256.02,
+      "description": "Cboe Global Markets ist ein Finanzunternehmen mit Sitz in Chicago. Es betreibt die Chicagoer Optionsbörse, die größte amerikanische Börse für Finanzderivate, sowie die…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "CBRE",
+      "name": "CBRE Group",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 132.15,
+      "description": "Die CBRE Group, Inc. (NYSE:CBG), ein Fortune-500- und S&P-500-Unternehmen mit Hauptsitz in Dallas, Texas, ist das – in Bezug auf den Umsatz im Geschäftsjahr 2022 – weltweit größte…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        }
+      },
+      "topic": "Real Estate",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     }
