@@ -21,6 +21,8 @@ import csv
 import io
 import json
 import time
+import base64
+import random
 import datetime
 import urllib.parse
 import urllib.request
@@ -35,17 +37,21 @@ FX_URL = "https://api.frankfurter.app/latest?from=USD&to=EUR"
 POLYMARKET_SEARCH_URL = "https://gamma-api.polymarket.com/public-search"
 HOUSE_TRADES_URL = "https://house-stock-watcher-data.s3-us-west-2.amazonaws.com/data/all_transactions.json"
 SENATE_TRADES_URL = "https://raw.githubusercontent.com/timothycarambat/senate-stock-watcher-data/master/aggregate/all_transactions.json"
+REDDIT_TOKEN_URL = "https://www.reddit.com/api/v1/access_token"
+REDDIT_SEARCH_URL = "https://oauth.reddit.com/r/mauerstrassenwetten/search"
 STATE_PATH = "data/last_state.json"
 DASHBOARD_DATA_PATH = "docs/data.json"
 
 # SEC verlangt einen aussagekraeftigen User-Agent mit Kontakt — bei Bedarf anpassen.
 SEC_HEADERS = {"User-Agent": "PPB Stockmarket-Signale contact@example.com"}
+REDDIT_USER_AGENT = "ppb-stockmarket-signale/1.0 (personal dashboard)"
 
 MAX_CANDIDATES = 8             # Obergrenze, damit ein Lauf nicht zu lange dauert
 MACRO_ARTICLE_THRESHOLD = 15
 INSIDER_LOOKBACK_DAYS = 14
 CONGRESS_LOOKBACK_DAYS = 60     # grosszuegig, weil PTR-Meldungen bis zu 45 Tage verspaetet ankommen koennen
 PREDICT_VOLUME_THRESHOLD = 10000   # USD Handelsvolumen, ab dem ein Polymarket-Treffer zaehlt
+BUZZ_LOOKBACK = "week"          # Reddit-Suchfenster fuer r/mauerstrassenwetten
 
 # ---------------------------------------------------------------------------
 # Themenfelder fuer den Makro-Puls (News-Panel) — unveraendert
@@ -295,7 +301,22 @@ def load_congress_trades():
         })
 
     try:
-        house_data = http_get_json(HOUSE_TRADES_URL, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
+        house_data = None
+        last_house_error = None
+        for attempt in range(2):
+            try:
+                house_data = http_get_json(HOUSE_TRADES_URL, headers={
+                    "User-Agent": "Mozilla/5.0 (compatible; ppb-stockmarket-signale/1.0)",
+                    "Accept": "application/json",
+                })
+                break
+            except Exception as e:
+                last_house_error = e
+                print(f"  House-Trades Versuch {attempt + 1} fehlgeschlagen ({e}), warte 5s ...")
+                time.sleep(5)
+        if house_data is None:
+            raise last_house_error
+
         for t in house_data:
             add_trade(
                 t.get("ticker"), "House", t.get("representative"),
@@ -351,6 +372,66 @@ def most_recent_congress_trade(trades_by_ticker, ticker):
         "age_hours": age_days * 24,
         "member": best["member"],
         "chamber": best["chamber"],
+    }
+
+
+# ---------------------------------------------------------------------------
+# Reddit-Sentiment (r/mauerstrassenwetten) — deutsches Retail-Buzz-Signal
+# ---------------------------------------------------------------------------
+
+def fetch_reddit_token():
+    client_id = os.environ.get("REDDIT_CLIENT_ID")
+    client_secret = os.environ.get("REDDIT_CLIENT_SECRET")
+    if not client_id or not client_secret:
+        print("Kein REDDIT_CLIENT_ID/REDDIT_CLIENT_SECRET gesetzt — Buzz-Signal wird übersprungen.")
+        return None
+
+    credentials = f"{client_id}:{client_secret}".encode("utf-8")
+    auth_header = "Basic " + base64.b64encode(credentials).decode("ascii")
+    data = urllib.parse.urlencode({"grant_type": "client_credentials"}).encode()
+    req = urllib.request.Request(REDDIT_TOKEN_URL, data=data, headers={
+        "Authorization": auth_header,
+        "User-Agent": REDDIT_USER_AGENT,
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            payload = json.loads(resp.read().decode("utf-8"))
+        return payload.get("access_token")
+    except Exception as e:
+        print(f"Reddit-Token konnte nicht geholt werden: {e}")
+        return None
+
+
+def fetch_reddit_buzz(token, ticker):
+    if not token:
+        return {"active": False}
+
+    params = {"q": ticker, "restrict_sr": "1", "sort": "new", "t": BUZZ_LOOKBACK, "limit": "25"}
+    url = REDDIT_SEARCH_URL + "?" + urllib.parse.urlencode(params)
+    req = urllib.request.Request(url, headers={
+        "Authorization": f"Bearer {token}",
+        "User-Agent": REDDIT_USER_AGENT,
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+    except Exception as e:
+        print(f"  Reddit-Suche fehlgeschlagen: {e}")
+        return {"active": False}
+
+    posts = data.get("data", {}).get("children", [])
+    if not posts:
+        return {"active": False}
+
+    newest_ts = max((p.get("data", {}).get("created_utc", 0) for p in posts), default=0)
+    if not newest_ts:
+        return {"active": False}
+
+    age_hours = max(round((time.time() - newest_ts) / 3600), 0)
+    return {
+        "active": True,
+        "age": f"{age_hours}Std" if age_hours < 24 else f"{age_hours // 24}T",
+        "count": len(posts),
     }
 
 
@@ -598,8 +679,9 @@ def build_ticker_signals_auto(old_tickers_state):
         return [], {}
 
     candidates = [(cik, info) for cik, info in sp500.items() if cik in form4_ciks]
+    random.shuffle(candidates)  # sonst würden immer dieselben (alphabetisch ersten) Titel geprüft
     candidates = candidates[:MAX_CANDIDATES]
-    print(f"{len(candidates)} S&P-500-Titel mit Insider-Filing am {filing_date} (nach Obergrenze {MAX_CANDIDATES}).")
+    print(f"{len(candidates)} S&P-500-Titel mit Insider-Filing am {filing_date} (nach Obergrenze {MAX_CANDIDATES}, zufällig ausgewählt).")
 
     print("Lade USD/EUR-Wechselkurs ...")
     fx_rate = fetch_usd_eur_rate()
@@ -610,6 +692,9 @@ def build_ticker_signals_auto(old_tickers_state):
 
     print("Lade Politiker-Trades (House + Senate) ...")
     congress_trades = load_congress_trades()
+
+    print("Hole Reddit-Zugriffstoken ...")
+    reddit_token = fetch_reddit_token()
 
     results = []
     new_tickers_state = {}
@@ -696,6 +781,14 @@ def build_ticker_signals_auto(old_tickers_state):
 
         time.sleep(1)
 
+        buzz = {"active": False}
+        try:
+            buzz = fetch_reddit_buzz(reddit_token, tk)
+        except Exception as e:
+            print(f"  Buzz-Check fehlgeschlagen: {e}")
+
+        time.sleep(1)
+
         price_usd = fetch_price_usd(tk)
         price_eur = round(price_usd * fx_rate, 2) if (price_usd is not None and fx_rate) else None
 
@@ -713,7 +806,7 @@ def build_ticker_signals_auto(old_tickers_state):
                 reaction = round((price_usd - baseline) / baseline * 100, 1)
                 baseline_price_usd = baseline  # Anker bleibt beim ersten bekannten Kurs
 
-        active_count = sum([congress["active"], insider["active"], macro["active"], predict["active"]])
+        active_count = sum([congress["active"], insider["active"], macro["active"], predict["active"], buzz["active"]])
         why_parts = []
         if congress["active"]:
             why_parts.append("aktueller Politiker-Trade (House/Senate)")
@@ -723,6 +816,8 @@ def build_ticker_signals_auto(old_tickers_state):
             why_parts.append("erhöhte Nachrichtenaufmerksamkeit")
         if predict["active"]:
             why_parts.append("aktiver Prediction-Market-Bezug")
+        if buzz["active"]:
+            why_parts.append(f"Diskussion in r/mauerstrassenwetten ({buzz.get('count', 0)} Beiträge)")
         why = ("Live-Signal: " + " + ".join(why_parts) + ".") if why_parts else \
               "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
 
@@ -742,6 +837,7 @@ def build_ticker_signals_auto(old_tickers_state):
                 "insider": insider,
                 "macro": macro,
                 "predict": predict,
+                "buzz": buzz,
             },
             "topic": info["sector"] or "Unternehmensspezifisch",
             "ethics": ethics,
