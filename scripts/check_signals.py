@@ -119,7 +119,9 @@ def gdelt_search(query, timespan="2d", maxrecords=250, retries=2):
     last_error = None
     for attempt in range(retries):
         try:
-            data = http_get_json(url, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
+            data = http_get_json(url, headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            })
             return data.get("articles", [])
         except urllib.error.HTTPError as e:
             last_error = e
