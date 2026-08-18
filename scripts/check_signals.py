@@ -903,6 +903,29 @@ def build_ticker_signals_auto(old_tickers_state, finnhub_key):
     return results, new_tickers_state
 
 
+def net_direction_label(ticker_result):
+    """Fasst beobachtete Kauf-/Verkauf-Richtung aus Politik + Insider zusammen
+    (dieselbe Logik wie im Dashboard, JS-Pendant: netDirection/directionHtml).
+    Reine Zusammenfassung bereits gemeldeter Transaktionen — keine Prognose."""
+    sig = ticker_result.get("sig", {})
+    buy = 0
+    sell = 0
+    for key in ("congress", "insider"):
+        s = sig.get(key) or {}
+        if s.get("active") and s.get("dir") == "Kauf":
+            buy += 1
+        if s.get("active") and s.get("dir") == "Verkauf":
+            sell += 1
+
+    if buy > 0 and sell == 0:
+        return f"▲ {buy}x Kauf" if buy > 1 else "▲ Kauf"
+    if sell > 0 and buy == 0:
+        return f"▼ {sell}x Verkauf" if sell > 1 else "▼ Verkauf"
+    if buy > 0 and sell > 0:
+        return "⚡ Gemischt"
+    return None
+
+
 def diff_ticker_alerts(old_tickers_state, new_tickers):
     """Vergleicht die aktuelle Ticker-Liste mit der letzten und meldet
     neue Treffer sowie gestiegene Scores fuer Telegram."""
@@ -912,10 +935,13 @@ def diff_ticker_alerts(old_tickers_state, new_tickers):
         tk = t["tk"]
         new_score = t.get("score", 0)
         prev = old_tickers_state.get(tk)
+        direction = net_direction_label(t)
+        dir_suffix = f" · {direction}" if direction else ""
+
         if prev is None:
-            alerts.append(f"🆕 <b>{tk}</b> ({t['name']}) neu in der Liste — Score {new_score}/4")
+            alerts.append(f"🆕 <b>{tk}</b> ({t['name']}) neu in der Liste — Score {new_score}/5{dir_suffix}")
         elif new_score > prev.get("score", 0):
-            alerts.append(f"📈 <b>{tk}</b> relevanter geworden: Score {prev.get('score', 0)} → {new_score}")
+            alerts.append(f"📈 <b>{tk}</b> relevanter geworden: Score {prev.get('score', 0)} → {new_score}{dir_suffix}")
 
     return alerts
 
