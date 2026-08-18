@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T17:04:38.908299+00:00",
+  "generated_at": "2026-08-18T19:18:33.468477+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -59,149 +59,13 @@
   ],
   "tickers": [
     {
-      "tk": "AVY",
-      "name": "Avery Dennison",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 153.73,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "COIN",
-      "name": "Coinbase",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 128.37,
-      "description": "Coinbase Global, Inc. is an American cryptocurrency exchange. It was founded in 2012 by Brian Armstrong and Fred Ehrsam. Coinbase has over 100 million users, and is the largest…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "PTC",
-      "name": "PTC Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 128.48,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "HOOD",
-      "name": "Robinhood Markets",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 80.77,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "ITW",
       "name": "Illinois Tool Works",
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
-      "priceEur": 246.21,
+      "reaction": -0.1,
+      "priceEur": 246.05,
       "description": "Illinois Tool Works (ITW) ist ein US-amerikanisches Unternehmen mit Firmensitz in Glenview, Illinois. ITW ist im Aktienindex S&P 500 gelistet. Zur ITW-Gruppe gehören in 56 Ländern…",
       "politician": null,
       "track": null,
@@ -229,14 +93,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "MRVL",
-      "name": "Marvell Technology",
+      "tk": "ACN",
+      "name": "Accenture",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 185.49,
-      "description": "Marvell Technology Group ist ein US-amerikanischer fabless Hersteller von Speicher-, Telekommunikations- und Halbleiter-Produkten.",
+      "priceEur": 151.98,
+      "description": "Die Accenture Plc mit Sitz im irischen Dublin ist einer der weltweit größten Dienstleister im Bereich der Unternehmens- und Strategieberatung sowie Technologie und Outsourcing,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -250,7 +114,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -264,14 +128,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "DXCM",
-      "name": "Dexcom",
+      "tk": "PYPL",
+      "name": "PayPal",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": -0.6,
-      "priceEur": 78.01,
-      "description": null,
+      "score": 3,
+      "reaction": null,
+      "priceEur": 52.5,
+      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
       "sig": {
@@ -288,25 +152,59 @@
           "age": "1T"
         },
         "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "FAST",
+      "name": "Fastenal",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 44.44,
+      "description": "Die Fastenal Company ist ein US-amerikanischer Händler und Hersteller von Verbindungsmitteln in den Bereichen der Standard- und Spezialteile. Der US-Hauptsitz des Unternehmens…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
           "active": false
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Industrials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "COF",
-      "name": "Capital One",
+      "tk": "SCHW",
+      "name": "Charles Schwab Corporation",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 191.79,
-      "description": null,
+      "priceEur": 96.35,
+      "description": "Charles Schwab Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Westlake, Texas. Das Unternehmen ist im Aktienindex S&P 500 gelistet. Vorsitzender des…",
       "politician": null,
       "track": null,
       "sig": {
@@ -333,14 +231,118 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
+      "tk": "MRVL",
+      "name": "Marvell Technology",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -0.5,
+      "priceEur": 184.57,
+      "description": "Marvell Technology Group ist ein US-amerikanischer fabless Hersteller von Speicher-, Telekommunikations- und Halbleiter-Produkten.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "APTV",
+      "name": "Aptiv",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 42.49,
+      "description": "Aptiv ist ein Automobilzulieferer mit Sitz in Schaffhausen (Schweiz) und operativer Hauptzentrale in Dublin. Gemessen am Umsatz des Jahres 2020 liegt das Unternehmen auf Platz 18…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "CSCO",
+      "name": "Cisco",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 96.53,
+      "description": "Cisco Systems, Inc. ist ein US-amerikanisches Unternehmen aus der Telekommunikationsbranche. Bekannt ist es vor allem für seine Router und Switches, die von einem wesentlichen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": 2.4,
-      "priceEur": 110.33,
-      "description": null,
+      "reaction": 2.9,
+      "priceEur": 110.86,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -352,7 +354,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -371,9 +373,9 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -0.0,
-      "priceEur": 24.61,
-      "description": "JD.com, Inc., also known as Jingdong Group, formerly called 360buy, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. The…",
+      "reaction": 0.5,
+      "priceEur": 24.75,
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -387,7 +389,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -406,8 +408,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -0.3,
-      "priceEur": 74.84,
+      "reaction": 0.2,
+      "priceEur": 75.27,
       "description": null,
       "politician": null,
       "track": null,
@@ -422,7 +424,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -441,9 +443,9 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -12.7,
-      "priceEur": 78.48,
-      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
+      "reaction": -12.8,
+      "priceEur": 78.4,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -457,7 +459,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -476,8 +478,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -2.2,
-      "priceEur": 3.89,
+      "reaction": -1.8,
+      "priceEur": 3.9,
       "description": null,
       "politician": null,
       "track": null,
@@ -540,9 +542,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -0.8,
-      "priceEur": 38.42,
-      "description": null,
+      "reaction": -0.6,
+      "priceEur": 38.51,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -572,9 +574,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": 0.9,
-      "priceEur": 108.43,
-      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
+      "reaction": 0.8,
+      "priceEur": 108.28,
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
