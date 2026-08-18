@@ -127,6 +127,7 @@
   .score-num.s2{ color: var(--amber-bright); background: rgba(95,184,163,0.14); }
   .score-num.s3{ color: #E0975F; background: rgba(224,151,95,0.14); }
   .score-num.s4{ color: var(--alert); background: rgba(161,75,92,0.18); }
+  .score-num.s5{ color: #C2669E; background: rgba(194,102,158,0.2); }
 
   .badges{ display:flex; gap:5px; flex-wrap:wrap; }
   .badge{
@@ -137,6 +138,7 @@
   .badge.insider{ border-color: var(--verify); color: var(--verify); }
   .badge.macro{ border-color: var(--blue); color: var(--blue); }
   .badge.predict{ border-color: var(--alert); color: var(--alert); }
+  .badge.buzz{ border-color: #C2669E; color: #C2669E; }
   .badge.conflict{ border-color: var(--conflict); color: var(--conflict); background: rgba(155,127,209,0.1); }
   .badge.off{ border-color: var(--line-strong); color: rgba(239,233,220,0.25); }
 
@@ -276,16 +278,16 @@
       <div class="sub">USA & Europa · alle Signale · sortiert nach Konvergenz</div>
       <div class="sub" id="dataStatus" style="margin-top:2px;">Lade Live-Daten …</div>
     </div>
-    <div class="stamp">Live: alle 4 Signale · keine Anlageberatung</div>
+    <div class="stamp">Live: 4 Signale · keine Anlageberatung</div>
   </header>
 
   <div class="banner">
-    <b>Wie das zu lesen ist:</b> Jede Zeile ist ein Ticker, jede Spalte ein unabhängiges öffentliches Signal. Die Ticker-Auswahl ist <b>vollautomatisch</b>: Schnittmenge aus S&P-500-Mitgliedern und allen SEC-Form-4-Insiderfilings des letzten Handelstags — keine manuelle Liste. <b>Politik (House/Senate Stock Watcher)</b>, <b>Insider (SEC Form 4)</b>, <b>Makro (GDELT)</b> und <b>Predict (Polymarket)</b> sind jetzt alle vier live. ⚡ markiert gegenläufige Signale (z. B. Politiker kauft, Insider verkauft), ⚠ ethisch sensible Sektoren.
+    <b>Wie das zu lesen ist:</b> Jede Zeile ist ein Ticker, jede Spalte ein unabhängiges öffentliches Signal. Die Ticker-Auswahl ist <b>vollautomatisch</b>: Schnittmenge aus S&P-500-Mitgliedern und allen SEC-Form-4-Insiderfilings des letzten Handelstags — keine manuelle Liste. <b>Politik (House/Senate Stock Watcher)</b>, <b>Insider (SEC Form 4)</b>, <b>Makro (Finnhub)</b> und <b>Predict (Polymarket)</b> sind live. <b>Buzz (r/mauerstrassenwetten)</b> ist vorbereitet, aber inaktiv — Reddit hat seinen kostenlosen API-Zugang eingestellt. ⚡ markiert gegenläufige Signale, ⚠ ethisch sensible Sektoren.
   </div>
 
   <div class="news-card">
     <div class="news-card-title">
-      <span>Aktuelle Nachrichtenlagen — globales Volumen nach Thema, 48h (GDELT)</span>
+      <span>Aktuelle Nachrichtenlagen — Erwähnungen nach Thema, Finnhub-Marktnachrichten</span>
       <span style="color:rgba(239,233,220,0.3)">11 Themenfelder</span>
     </div>
     <div class="news-grid collapsed" id="newsGrid"><!-- injected --></div>
@@ -341,12 +343,13 @@
     <span><span class="dot" style="background:var(--amber-bright)"></span> Score 2</span>
     <span><span class="dot" style="background:#E0975F"></span> Score 3</span>
     <span><span class="dot" style="background:var(--alert)"></span> Score 4</span>
+    <span><span class="dot" style="background:#C2669E"></span> Score 5</span>
     <span><span class="dot" style="background:var(--conflict)"></span> ⚡ = gegenläufige Signale</span>
     <span><span class="dot" style="background:var(--alert); opacity:0.6"></span> ⚠ = ethisch sensibler Sektor</span>
   </div>
 
   <footer>
-    Insider- und Makro-Signale sind live und automatisch ermittelt (S&P 500 × SEC-Tagesindex, GDELT). Handelbarkeit bei Trade Republic/Zero standardmäßig angenommen (S&P-500-Titel sind praktisch immer gelistet), kein Live-Abgleich mit dem tatsächlichen Handelsangebot. Keine Anlageberatung. Konvergenz mehrerer öffentlicher Signale ist kein verlässlicher Prädiktor für künftige Kursentwicklung.
+    Insider- und Makro-Signale sind live und automatisch ermittelt (S&P 500 × SEC-Tagesindex, Finnhub). Handelbarkeit bei Trade Republic/Zero standardmäßig angenommen (S&P-500-Titel sind praktisch immer gelistet), kein Live-Abgleich mit dem tatsächlichen Handelsangebot. Keine Anlageberatung. Konvergenz mehrerer öffentlicher Signale ist kein verlässlicher Prädiktor für künftige Kursentwicklung.
   </footer>
 
 </div>
@@ -391,7 +394,7 @@
   }
 
   function scoreNumHtml(score){
-    const s = Math.max(0, Math.min(4, score));
+    const s = Math.max(0, Math.min(5, score));
     return `<span class="score-num s${s}">${s}</span>`;
   }
 
@@ -420,7 +423,8 @@
       d.sig.congress.active ? parseAgeHours(d.sig.congress.age) : Infinity,
       d.sig.insider.active ? parseAgeHours(d.sig.insider.age) : Infinity,
       d.sig.macro.active ? parseAgeHours(d.sig.macro.age) : Infinity,
-      d.sig.predict.active ? parseAgeHours(d.sig.predict.age) : Infinity
+      d.sig.predict.active ? parseAgeHours(d.sig.predict.age) : Infinity,
+      d.sig.buzz && d.sig.buzz.active ? parseAgeHours(d.sig.buzz.age) : Infinity
     );
   }
 
@@ -456,7 +460,7 @@
     body.innerHTML = rows.map(d => {
       const conflict = isConflict(d);
       const rowClass = [d.ethics.length ? 'flagged' : '', conflict ? 'conflicted' : ''].join(' ').trim();
-      const activeCount = ['congress','insider','macro','predict'].filter(k => d.sig[k].active).length;
+      const activeCount = ['congress','insider','macro','predict','buzz'].filter(k => d.sig[k] && d.sig[k].active).length;
       const fresh = freshLabel(freshestHours(d));
       return `
       <tr class="${rowClass}">
@@ -473,7 +477,7 @@
             </div>
             <div class="card-head-right">
               ${scoreNumHtml(d.score)}
-              <span class="card-fresh">${activeCount}/4 · ${fresh}</span>
+              <span class="card-fresh">${activeCount}/5 · ${fresh}</span>
               <span class="card-chevron">▼</span>
             </div>
           </div>
@@ -494,6 +498,7 @@
             ${sigBadge(d.sig.insider, 'insider', 'Insider')}
             ${sigBadge(d.sig.macro, 'macro', 'Makro')}
             ${sigBadge(d.sig.predict, 'predict', 'Predict')}
+            ${sigBadge(d.sig.buzz, 'buzz', 'Buzz')}
             ${conflict ? '<span class="badge conflict">⚡ Gegenläufig</span>' : ''}
           </div>
           ${d.sig.congress.active && d.track ? `<div class="track-note">${d.politician} · Track-Record: Ø ${d.track}</div>` : ''}
@@ -583,6 +588,7 @@
           insider: d.sig?.insider || { active: false },
           macro: d.sig?.macro || { active: false },
           predict: d.sig?.predict || { active: false },
+          buzz: d.sig?.buzz || { active: false },
         },
       }));
 
