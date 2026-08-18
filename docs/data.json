@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T15:59:39.618058+00:00",
+  "generated_at": "2026-08-18T17:04:38.908299+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -8,8 +8,8 @@
     },
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 3,
-      "pct": 75
+      "vol": 2,
+      "pct": 50
     },
     {
       "topic": "Schifffahrt / Lieferketten",
@@ -59,14 +59,14 @@
   ],
   "tickers": [
     {
-      "tk": "MSFT",
-      "name": "Microsoft",
+      "tk": "AVY",
+      "name": "Avery Dennison",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": null,
-      "priceEur": 415.8,
-      "description": "Die Microsoft Corporation [ˈmaɪ.kɹoʊ.sɒft] ist ein US-amerikanischer international tätiger Hard- und Softwareentwickler und ein Technologieunternehmen mit Sitz in Redmond, einer…",
+      "priceEur": 153.73,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -79,8 +79,75 @@
           "src": "SEC"
         },
         "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Materials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "COIN",
+      "name": "Coinbase",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 128.37,
+      "description": "Coinbase Global, Inc. is an American cryptocurrency exchange. It was founded in 2012 by Brian Armstrong and Fred Ehrsam. Coinbase has over 100 million users, and is the largest…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
           "active": true,
-          "age": "6Std"
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "PTC",
+      "name": "PTC Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 128.48,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
         },
         "predict": {
           "active": false
@@ -91,17 +158,85 @@
       },
       "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "AMD",
-      "name": "Advanced Micro Devices",
+      "tk": "HOOD",
+      "name": "Robinhood Markets",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 80.77,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "ITW",
+      "name": "Illinois Tool Works",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 246.21,
+      "description": "Illinois Tool Works (ITW) ist ein US-amerikanisches Unternehmen mit Firmensitz in Glenview, Illinois. ITW ist im Aktienindex S&P 500 gelistet. Zur ITW-Gruppe gehören in 56 Ländern…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "MRVL",
+      "name": "Marvell Technology",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 414.36,
-      "description": "Advanced Micro Devices, Inc. (AMD) ist ein US-amerikanisches Unternehmen der Halbleiterindustrie mit Hauptsitz in Santa Clara, Kalifornien. AMD entwickelt und vertreibt…",
+      "priceEur": 185.49,
+      "description": "Marvell Technology Group ist ein US-amerikanischer fabless Hersteller von Speicher-, Telekommunikations- und Halbleiter-Produkten.",
       "politician": null,
       "track": null,
       "sig": {
@@ -115,7 +250,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -134,9 +269,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 78.48,
-      "description": "DexCom, Inc. ist ein US-amerikanisches Unternehmen, das kontinuierlich messende Glucosesensoren für Diabetes-Patienten entwickelt, herstellt und vertreibt. Der Hauptsitz befindet…",
+      "reaction": -0.6,
+      "priceEur": 78.01,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -164,14 +299,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "WTW",
-      "name": "Willis Towers Watson",
+      "tk": "COF",
+      "name": "Capital One",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 286.76,
-      "description": "Willis Towers Watson ist ein globales multinationales Risikomanagement-, Versicherungsmakler- und Beratungsunternehmen mit Sitz im irischen Dublin und operativer Hauptzentrale im…",
+      "priceEur": 191.79,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -198,154 +333,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "MPC",
-      "name": "Marathon Petroleum",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 315.4,
-      "description": "Die Marathon Petroleum Corporation, vormals Marathon Ashland Petroleum LLC, ist ein US-amerikanisches Unternehmen zur Raffinierung, zum Transport und zur Vermarktung von Erdöl.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "SNPS",
-      "name": "Synopsys",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 350.65,
-      "description": "Synopsys Inc. ist ein Technologie-Unternehmen in den Bereichen Halbleiter-Design-Software (EDA), IP-Core, Design-for-Manufacturing und Verifikation.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "AVB",
-      "name": "AvalonBay Communities",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": null,
-      "priceEur": 159.0,
-      "description": "AvalonBay Communities, Inc. is a publicly traded real estate investment trust that invests in apartments.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "EXPE",
-      "name": "Expedia Group",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 1.3,
-      "priceEur": 282.79,
-      "description": "Expedia Group, Inc. is an American travel technology company that owns and operates travel fare aggregators and travel metasearch engines, including Expedia, Hotels.com, Vrbo,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": 1.9,
-      "priceEur": 109.73,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "reaction": 2.4,
+      "priceEur": 110.33,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -357,7 +352,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -376,9 +371,9 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -0.2,
-      "priceEur": 24.58,
-      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
+      "reaction": -0.0,
+      "priceEur": 24.61,
+      "description": "JD.com, Inc., also known as Jingdong Group, formerly called 360buy, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. The…",
       "politician": null,
       "track": null,
       "sig": {
@@ -411,8 +406,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -0.5,
-      "priceEur": 74.72,
+      "reaction": -0.3,
+      "priceEur": 74.84,
       "description": null,
       "politician": null,
       "track": null,
@@ -446,8 +441,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -12.2,
-      "priceEur": 78.95,
+      "reaction": -12.7,
+      "priceEur": 78.48,
       "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
       "politician": null,
       "track": null,
@@ -462,7 +457,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -481,8 +476,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -1.8,
-      "priceEur": 3.9,
+      "reaction": -2.2,
+      "priceEur": 3.89,
       "description": null,
       "politician": null,
       "track": null,
@@ -513,8 +508,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -1.8,
-      "priceEur": 10.53,
+      "reaction": -2.2,
+      "priceEur": 10.49,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -545,9 +540,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -0.7,
-      "priceEur": 38.47,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "reaction": -0.8,
+      "priceEur": 38.42,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -578,8 +573,8 @@
       "market": "cn",
       "score": 1,
       "reaction": 0.9,
-      "priceEur": 108.47,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "priceEur": 108.43,
+      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
       "sig": {

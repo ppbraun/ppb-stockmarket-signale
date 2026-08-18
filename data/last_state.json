@@ -5,20 +5,40 @@
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 1,
   "Halbleiter / Chips": 1,
-  "Energie / Öl & Gas": 3,
+  "Energie / Öl & Gas": 2,
   "Gesundheit / FDA-Zulassungen": 0,
   "Schifffahrt / Lieferketten": 2,
   "Krypto-Regulierung": 0,
   "Cybersecurity": 0,
   "_tickers": {
-    "MSFT": {
-      "score": 2,
-      "baseline_price_usd": 481.332,
+    "AVY": {
+      "score": 1,
+      "baseline_price_usd": 177.962,
       "first_seen": "2026-08-18"
     },
-    "AMD": {
+    "COIN": {
       "score": 2,
-      "baseline_price_usd": 479.657,
+      "baseline_price_usd": 148.602,
+      "first_seen": "2026-08-18"
+    },
+    "PTC": {
+      "score": 1,
+      "baseline_price_usd": 148.73,
+      "first_seen": "2026-08-18"
+    },
+    "HOOD": {
+      "score": 1,
+      "baseline_price_usd": 93.5,
+      "first_seen": "2026-08-18"
+    },
+    "ITW": {
+      "score": 1,
+      "baseline_price_usd": 285.015,
+      "first_seen": "2026-08-18"
+    },
+    "MRVL": {
+      "score": 2,
+      "baseline_price_usd": 214.725,
       "first_seen": "2026-08-18"
     },
     "DXCM": {
@@ -26,29 +46,9 @@
       "baseline_price_usd": 90.85,
       "first_seen": "2026-08-18"
     },
-    "WTW": {
+    "COF": {
       "score": 1,
-      "baseline_price_usd": 331.95,
-      "first_seen": "2026-08-18"
-    },
-    "MPC": {
-      "score": 2,
-      "baseline_price_usd": 365.11,
-      "first_seen": "2026-08-18"
-    },
-    "SNPS": {
-      "score": 1,
-      "baseline_price_usd": 405.91,
-      "first_seen": "2026-08-18"
-    },
-    "AVB": {
-      "score": 3,
-      "baseline_price_usd": 184.06,
-      "first_seen": "2026-08-18"
-    },
-    "EXPE": {
-      "score": 1,
-      "baseline_price_usd": 323.11,
+      "baseline_price_usd": 222.01,
       "first_seen": "2026-08-18"
     },
     "BABA": {
