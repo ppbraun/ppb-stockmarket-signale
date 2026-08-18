@@ -2,15 +2,21 @@
 PPB Stockmarket-Signale — Signal-Check & Dashboard-Datenversorgung (automatisch)
 
 Macht zwei Dinge in einem Lauf:
-1. Prueft das GDELT-Nachrichtenvolumen pro Thema, vergleicht es mit dem letzten
+1. Prueft das Finnhub-Nachrichtenvolumen pro Thema, vergleicht es mit dem letzten
    Stand und schickt bei Auffaelligkeiten eine Telegram-Nachricht.
 2. Ermittelt VOLLAUTOMATISCH relevante Ticker: Schnittmenge aus S&P-500-Mitgliedern
    (offen gepflegte Liste) und allen SEC-Form-4-Filings des letzten Handelstags
-   (offizieller SEC-Bulk-Index). Fuer jeden Treffer werden alle vier Signale live
+   (offizieller SEC-Bulk-Index). Fuer jeden Treffer werden vier Signale live
    ermittelt: Politiker-Trades (House/Senate Stock Watcher), Insider-Kaeufe (SEC
-   Form 4), Makro-Aufmerksamkeit (GDELT) und Prediction Markets (Polymarket) —
-   dazu Kurs (Yahoo/Stooq + FX), Kursreaktion seit dem ersten Auftauchen und eine
-   Wikipedia-Kurzbeschreibung. Alles wird nach docs/data.json geschrieben.
+   Form 4), Makro-Aufmerksamkeit (Finnhub-Firmennews) und Prediction Markets
+   (Polymarket) — dazu Kurs (Yahoo/Stooq + FX), Kursreaktion seit dem ersten
+   Auftauchen und eine Wikipedia-Kurzbeschreibung. Alles wird nach docs/data.json
+   geschrieben.
+
+Hinweis zur Quellenwahl: GDELT (vormals fuer den Makro-Puls genutzt) blockt seit
+Sommer 2026 automatisierten Zugriff aus Cloud-/CI-Umgebungen zuverlaessig (auch
+mit Retries/Browser-Headern nicht loesbar) — deshalb Umstieg auf Finnhub, das
+dafuer einen kostenlosen, funktionierenden API-Key-Zugang bietet.
 
 Nutzt nur die Python-Standardbibliothek — kein pip install noetig.
 """
@@ -28,7 +34,7 @@ import urllib.parse
 import urllib.request
 import urllib.error
 
-GDELT_URL = "https://api.gdeltproject.org/api/v2/doc/doc"
+FINNHUB_BASE = "https://finnhub.io/api/v1"
 SEC_TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"
 SEC_SUBMISSIONS_URL = "https://data.sec.gov/submissions/CIK{cik}.json"
 SP500_CSV_URL = "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv"
@@ -47,29 +53,32 @@ SEC_HEADERS = {"User-Agent": "PPB Stockmarket-Signale contact@example.com"}
 REDDIT_USER_AGENT = "ppb-stockmarket-signale/1.0 (personal dashboard)"
 
 MAX_CANDIDATES = 8             # Obergrenze, damit ein Lauf nicht zu lange dauert
-MACRO_ARTICLE_THRESHOLD = 15
+MACRO_ARTICLE_THRESHOLD = 3    # Firmennews (Finnhub) in den letzten 2 Tagen, ab der "Makro aktiv" gilt
 INSIDER_LOOKBACK_DAYS = 14
 CONGRESS_LOOKBACK_DAYS = 60     # grosszuegig, weil PTR-Meldungen bis zu 45 Tage verspaetet ankommen koennen
 PREDICT_VOLUME_THRESHOLD = 10000   # USD Handelsvolumen, ab dem ein Polymarket-Treffer zaehlt
 BUZZ_LOOKBACK = "week"          # Reddit-Suchfenster fuer r/mauerstrassenwetten
 
 # ---------------------------------------------------------------------------
-# Themenfelder fuer den Makro-Puls (News-Panel) — unveraendert
+# Themenfelder fuer den Makro-Puls (News-Panel).
+# Statt einer Volltextsuche pro Thema (wie bei GDELT) werden hier lokal die
+# Schlagzeilen/Zusammenfassungen der allgemeinen Finnhub-Marktnachrichten nach
+# Stichwoertern durchsucht — kostet nur EINE API-Anfrage fuer alle 11 Themen.
 # ---------------------------------------------------------------------------
 TOPICS = {
-    "Zölle / Handelskonflikt": "tariffs OR \"trade war\"",
-    "Fed-Zinspolitik": "\"Federal Reserve\" interest rate",
-    "Edelmetalle / Goldminen": "gold mining OR \"gold price\"",
-    "Verteidigung / Rüstung": "defense contractor OR weapons manufacturer",
-    "KI-Infrastruktur": "\"AI data center\" OR \"AI infrastructure\"",
-    "Halbleiter / Chips": "semiconductor chips",
-    "Energie / Öl & Gas": "\"oil price\" OR \"energy market\"",
-    "Gesundheit / FDA-Zulassungen": "FDA approval drug",
-    "Schifffahrt / Lieferketten": "shipping \"supply chain\"",
-    "Krypto-Regulierung": "crypto regulation",
-    "Cybersecurity": "cybersecurity breach",
+    "Zölle / Handelskonflikt": ["tariff", "trade war"],
+    "Fed-Zinspolitik": ["federal reserve", "fed rate", "interest rate"],
+    "Edelmetalle / Goldminen": ["gold price", "gold mining", "precious metal"],
+    "Verteidigung / Rüstung": ["defense contractor", "weapons manufacturer", "defense stock"],
+    "KI-Infrastruktur": ["ai data center", "ai infrastructure", "artificial intelligence chip"],
+    "Halbleiter / Chips": ["semiconductor", "chipmaker", "chip stock"],
+    "Energie / Öl & Gas": ["oil price", "energy market", "crude oil"],
+    "Gesundheit / FDA-Zulassungen": ["fda approval", "drug approval"],
+    "Schifffahrt / Lieferketten": ["shipping", "supply chain"],
+    "Krypto-Regulierung": ["crypto regulation", "cryptocurrency regulation"],
+    "Cybersecurity": ["cybersecurity", "cyberattack", "data breach"],
 }
-THRESHOLD_COUNT = 200
+THRESHOLD_COUNT = 5           # Erwaehnungen unter den Marktnachrichten, ab der ein Thema "auffaellig" ist
 THRESHOLD_JUMP_PCT = 50
 
 # SIC-Code-Praefixe -> ethische Kennzeichnung (heuristisch, nicht abschliessend)
@@ -101,72 +110,56 @@ def http_get_text(url, headers=None):
 
 
 # ---------------------------------------------------------------------------
-# GDELT
+# Finnhub — Makro-Nachrichten (Themen-Puls + pro Ticker)
 # ---------------------------------------------------------------------------
 
-_gdelt_broken = False  # Circuit-Breaker: nach hartem Fehlschlag GDELT fuer den Rest des Laufs ueberspringen
+def fetch_finnhub_general_news(api_key):
+    if not api_key:
+        return []
+    url = f"{FINNHUB_BASE}/news?category=general&token={api_key}"
+    try:
+        data = http_get_json(url, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
+        return data if isinstance(data, list) else []
+    except Exception as e:
+        print(f"Finnhub-Marktnachrichten konnten nicht geladen werden: {e}")
+        return []
 
 
-def gdelt_search(query, timespan="2d", maxrecords=250, retries=2):
-    global _gdelt_broken
-    if _gdelt_broken:
-        raise RuntimeError("GDELT für diesen Lauf deaktiviert (vorheriger Totalausfall)")
-
-    params = {"query": query, "mode": "ArtList", "maxrecords": maxrecords,
-              "timespan": timespan, "format": "json"}
-    url = GDELT_URL + "?" + urllib.parse.urlencode(params)
-
-    last_error = None
-    for attempt in range(retries):
-        try:
-            data = http_get_json(url, headers={
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-            })
-            return data.get("articles", [])
-        except urllib.error.HTTPError as e:
-            last_error = e
-            if e.code == 429:
-                wait = 8 * (attempt + 1)
-                print(f"  GDELT-Rate-Limit (429), warte {wait}s und versuche erneut ...", flush=True)
-                time.sleep(wait)
-                continue
-            raise
-        except Exception as e:
-            last_error = e
-            print(f"  GDELT-Anfrage fehlgeschlagen ({e}), warte 3s ...", flush=True)
-            time.sleep(3)
-
-    print("  GDELT bleibt blockiert — wird für den Rest dieses Laufs übersprungen.", flush=True)
-    _gdelt_broken = True
-    raise last_error
-
-
-def gdelt_count(query, timespan="2d"):
-    return len(gdelt_search(query, timespan=timespan))
-
-
-def gdelt_freshest_hours(articles):
-    if not articles:
-        return None
-    now = datetime.datetime.now(datetime.timezone.utc)
-    newest = None
+def count_topic_mentions(articles, keywords):
+    count = 0
+    newest_ts = 0
     for a in articles:
-        raw = a.get("seendate")
-        if not raw:
-            continue
-        try:
-            dt = datetime.datetime.strptime(raw, "%Y%m%dT%H%M%SZ").replace(tzinfo=datetime.timezone.utc)
-        except ValueError:
-            continue
-        if newest is None or dt > newest:
-            newest = dt
-    if newest is None:
-        return None
-    return round((now - newest).total_seconds() / 3600)
+        text = f"{a.get('headline', '')} {a.get('summary', '')}".lower()
+        if any(kw in text for kw in keywords):
+            count += 1
+            newest_ts = max(newest_ts, a.get("datetime", 0) or 0)
+    return count, newest_ts
+
+
+def fetch_finnhub_company_news(api_key, ticker, days=2):
+    if not api_key:
+        return []
+    today = datetime.date.today()
+    frm = (today - datetime.timedelta(days=days)).isoformat()
+    to = today.isoformat()
+    url = f"{FINNHUB_BASE}/company-news?symbol={ticker}&from={frm}&to={to}&token={api_key}"
+    try:
+        data = http_get_json(url, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
+        return data if isinstance(data, list) else []
+    except Exception as e:
+        print(f"  Finnhub-Firmennews fehlgeschlagen: {e}")
+        return []
+
+
+def age_label_from_timestamp(ts):
+    if not ts:
+        return "48Std"
+    age_hours = max(round((time.time() - ts) / 3600), 0)
+    return f"{age_hours}Std" if age_hours < 24 else f"{age_hours // 24}T"
 
 
 # ---------------------------------------------------------------------------
-# Kursdaten (Stooq) + Wechselkurs (Frankfurter/EZB)
+# Kursdaten (Yahoo/Stooq) + Wechselkurs (Frankfurter/EZB)
 # ---------------------------------------------------------------------------
 
 def fetch_usd_eur_rate():
@@ -273,6 +266,9 @@ def fetch_polymarket_signal(query):
 # Beides offen gepflegte Datensaetze, die die offiziellen STOCK-Act-
 # Offenlegungen (House Clerk / Senate eFD) aufbereiten. Wir scrapen damit
 # nicht selbst — wir konsumieren fertige, oeffentliche JSON-Dateien.
+# Hinweis: House blockt seit Sommer 2026 haeufig automatisierten Zugriff
+# (403) — Senate laeuft zuverlaessig, dadurch bleibt Politik nicht komplett
+# leer, auch wenn House gerade ausfaellt.
 # ---------------------------------------------------------------------------
 
 def parse_us_date(date_str):
@@ -379,6 +375,9 @@ def most_recent_congress_trade(trades_by_ticker, ticker):
 
 # ---------------------------------------------------------------------------
 # Reddit-Sentiment (r/mauerstrassenwetten) — deutsches Retail-Buzz-Signal
+# Hinweis: Reddit hat seinen kostenlosen API-Zugang seit Ende Mai 2026
+# faktisch eingestellt. Bleibt hier defensiv im Code (falls sich das aendert
+# oder Secrets gesetzt werden), degradiert aber sauber ohne Absturz.
 # ---------------------------------------------------------------------------
 
 def fetch_reddit_token():
@@ -429,10 +428,9 @@ def fetch_reddit_buzz(token, ticker):
     if not newest_ts:
         return {"active": False}
 
-    age_hours = max(round((time.time() - newest_ts) / 3600), 0)
     return {
         "active": True,
-        "age": f"{age_hours}Std" if age_hours < 24 else f"{age_hours // 24}T",
+        "age": age_label_from_timestamp(newest_ts),
         "count": len(posts),
     }
 
@@ -616,22 +614,20 @@ def save_dashboard_data(payload):
 
 
 # ---------------------------------------------------------------------------
-# Themen-Puls (Telegram-Alarm + News-Panel) — unveraendert zur Vorversion
+# Themen-Puls (Telegram-Alarm + News-Panel)
 # ---------------------------------------------------------------------------
 
-def check_topics():
+def check_topics(finnhub_key):
     old_state = load_state()
     new_state = {}
     alerts = []
     news_topics = []
 
-    for topic, query in TOPICS.items():
-        try:
-            count = gdelt_count(query)
-        except Exception as e:
-            print(f"Fehler bei Thema '{topic}': {e}")
-            count = old_state.get(topic, 0)
+    articles = fetch_finnhub_general_news(finnhub_key)
+    print(f"Finnhub-Marktnachrichten geladen: {len(articles)} Artikel.")
 
+    for topic, keywords in TOPICS.items():
+        count, _ = count_topic_mentions(articles, keywords)
         old_count = old_state.get(topic, 0)
         new_state[topic] = count
         news_topics.append({"topic": topic, "vol": count})
@@ -639,9 +635,7 @@ def check_topics():
         crossed = count >= THRESHOLD_COUNT and old_count < THRESHOLD_COUNT
         jumped = old_count > 0 and ((count - old_count) / old_count * 100) >= THRESHOLD_JUMP_PCT
         if crossed or jumped:
-            alerts.append(f"🟢 <b>{topic}</b>: {count} Artikel (zuletzt {old_count})")
-
-        time.sleep(3)
+            alerts.append(f"🟢 <b>{topic}</b>: {count} Erwähnungen (zuletzt {old_count})")
 
     save_state(new_state)
 
@@ -668,7 +662,7 @@ def check_topics():
 # Automatische Ticker-Auswahl + Signale
 # ---------------------------------------------------------------------------
 
-def build_ticker_signals_auto(old_tickers_state):
+def build_ticker_signals_auto(old_tickers_state, finnhub_key):
     print("Lade S&P-500-Liste ...")
     try:
         sp500 = load_sp500()
@@ -740,17 +734,11 @@ def build_ticker_signals_auto(old_tickers_state):
 
         macro = {"active": False}
         try:
-            articles = gdelt_search(info["name"])
-            count = len(articles)
+            company_articles = fetch_finnhub_company_news(finnhub_key, tk)
+            count = len(company_articles)
             if count >= MACRO_ARTICLE_THRESHOLD:
-                fresh_hours = gdelt_freshest_hours(articles)
-                if fresh_hours is not None and fresh_hours < 24:
-                    age_label = f"{fresh_hours}Std"
-                elif fresh_hours is not None:
-                    age_label = f"{fresh_hours // 24}T"
-                else:
-                    age_label = "48Std"
-                macro = {"active": True, "age": age_label}
+                newest_ts = max((a.get("datetime", 0) or 0 for a in company_articles), default=0)
+                macro = {"active": True, "age": age_label_from_timestamp(newest_ts)}
         except Exception as e:
             print(f"  Makro-Check fehlgeschlagen: {e}")
 
@@ -873,6 +861,10 @@ def diff_ticker_alerts(old_tickers_state, new_tickers):
 
 
 def main():
+    finnhub_key = os.environ.get("FINNHUB_API_KEY")
+    if not finnhub_key:
+        print("Kein FINNHUB_API_KEY gesetzt — Makro-Signale (Themen + pro Ticker) bleiben leer.")
+
     old_state = load_state()
     old_tickers_state = old_state.get("_tickers", {})
     if not isinstance(old_tickers_state, dict):
@@ -880,8 +872,8 @@ def main():
         print("Alter Ticker-Zustand hat unerwartetes Format, wird zurückgesetzt.")
         old_tickers_state = {}
 
-    news_topics = check_topics()
-    tickers, new_tickers_state = build_ticker_signals_auto(old_tickers_state)
+    news_topics = check_topics(finnhub_key)
+    tickers, new_tickers_state = build_ticker_signals_auto(old_tickers_state, finnhub_key)
 
     ticker_alerts = diff_ticker_alerts(old_tickers_state, tickers)
     if ticker_alerts:
