@@ -109,6 +109,7 @@
     border:1px solid var(--line-strong); color: rgba(239,233,220,0.45); letter-spacing:0.04em;
   }
   .market-tag.eu{ border-color: rgba(122,147,201,0.5); color: var(--blue); }
+  .market-tag.cn{ border-color: rgba(161,75,92,0.5); color: var(--alert); }
 
   .broker-check{
     font-size:11px; font-family:'IBM Plex Mono', monospace; color: var(--verify);
@@ -282,7 +283,7 @@
   </header>
 
   <div class="banner">
-    <b>Wie das zu lesen ist:</b> Jede Zeile ist ein Ticker, jede Spalte ein unabhängiges öffentliches Signal. Die Ticker-Auswahl ist <b>vollautomatisch</b>: Schnittmenge aus S&P-500-Mitgliedern und allen SEC-Form-4-Insiderfilings des letzten Handelstags — keine manuelle Liste. <b>Politik (House/Senate Stock Watcher)</b>, <b>Insider (SEC Form 4)</b>, <b>Makro (Finnhub)</b> und <b>Predict (Polymarket)</b> sind live. <b>Buzz (r/mauerstrassenwetten)</b> ist vorbereitet, aber inaktiv — Reddit hat seinen kostenlosen API-Zugang eingestellt. ⚡ markiert gegenläufige Signale, ⚠ ethisch sensible Sektoren.
+    <b>Wie das zu lesen ist:</b> Jede Zeile ist ein Ticker, jede Spalte ein unabhängiges öffentliches Signal. Die US-Ticker-Auswahl ist <b>vollautomatisch</b>: Schnittmenge aus S&P-500-Mitgliedern und allen SEC-Form-4-Insiderfilings des letzten Handelstags. Zusätzlich eine <b>feste Watchlist bekannter China-ADRs</b> (Alibaba, JD.com, Pinduoduo u. a.) — dort bleibt Insider meist leer (regulatorisch befreit), die übrigen Signale funktionieren normal. <b>Politik (House/Senate Stock Watcher)</b>, <b>Insider (SEC Form 4)</b>, <b>Makro (Finnhub)</b> und <b>Predict (Polymarket)</b> sind live. <b>Buzz (r/mauerstrassenwetten)</b> ist vorbereitet, aber inaktiv — Reddit hat seinen kostenlosen API-Zugang eingestellt. ⚡ markiert gegenläufige Signale, ⚠ ethisch sensible Sektoren.
   </div>
 
   <div class="news-card">
@@ -299,6 +300,7 @@
       <div class="segment-opt active" data-market="all">Alle Märkte</div>
       <div class="segment-opt" data-market="us">USA</div>
       <div class="segment-opt" data-market="eu">Europa</div>
+      <div class="segment-opt" data-market="cn">China</div>
     </div>
     <div class="segment" id="sortSegment">
       <div class="segment-opt active" data-sort="score">Nach Score</div>
@@ -314,7 +316,7 @@
     </div>
   </div>
   <div class="broker-note" style="margin: -8px 0 16px;">
-    Politiker-Signale gibt es strukturell fast nur für US-Titel (STOCK Act erzwingt Meldung binnen 45 Tagen) — für Europa fehlt ein Äquivalent bislang. Insider-Käufe funktionieren dagegen auf beiden Seiten: USA über SEC Form 4, EU über BaFin Directors' Dealings (Meldung binnen 2 Werktagen).
+    Politiker-Signale gibt es strukturell fast nur für US-Titel (STOCK Act erzwingt Meldung binnen 45 Tagen). Bei chinesischen ADRs (BABA, JD, PDD u. a.) fehlt zusätzlich meist das Insider-Signal — als "Foreign Private Issuer" sind sie von der SEC-Form-4-Meldepflicht in der Regel befreit; Makro, Predict und Kurs funktionieren aber normal.
   </div>
 
   <div class="table-card">
@@ -471,7 +473,7 @@
                 <div class="tk">${d.tk}</div>
                 <div>
                   <div class="tk-name">${d.name}</div>
-                  <span class="market-tag ${d.market === 'eu' ? 'eu' : ''}">${d.market === 'eu' ? 'EU' : 'US'}</span>
+                  <span class="market-tag ${d.market}">${d.market === 'eu' ? 'EU' : d.market === 'cn' ? 'CN' : 'US'}</span>
                 </div>
               </div>
             </div>
