@@ -662,6 +662,181 @@ def check_topics(finnhub_key):
 # Automatische Ticker-Auswahl + Signale
 # ---------------------------------------------------------------------------
 
+CHINA_ADR_WATCHLIST = [
+    {"tk": "BABA", "name": "Alibaba Group Holding", "sector": "Consumer Discretionary"},
+    {"tk": "JD", "name": "JD.com", "sector": "Consumer Discretionary"},
+    {"tk": "PDD", "name": "PDD Holdings (Pinduoduo)", "sector": "Consumer Discretionary"},
+    {"tk": "BIDU", "name": "Baidu", "sector": "Communication Services"},
+    {"tk": "NIO", "name": "NIO Inc.", "sector": "Consumer Discretionary"},
+    {"tk": "LI", "name": "Li Auto", "sector": "Consumer Discretionary"},
+    {"tk": "TCOM", "name": "Trip.com Group", "sector": "Consumer Discretionary"},
+    {"tk": "NTES", "name": "NetEase", "sector": "Communication Services"},
+]
+
+
+def load_sec_ticker_cik_map():
+    """Offizielle SEC-Zuordnung Ticker -> CIK (fuer Firmen ausserhalb der S&P-500-Liste)."""
+    data = http_get_json(SEC_TICKERS_URL, headers=SEC_HEADERS)
+    mapping = {}
+    for entry in data.values():
+        mapping[entry["ticker"].upper()] = str(entry["cik_str"]).zfill(10)
+    return mapping
+
+
+def build_signal_for_ticker(tk, name, sector, cik10, market, finnhub_key, fx_rate,
+                             congress_trades, reddit_token, old_tickers_state, today_str):
+    """Ermittelt alle fuenf Signale + Kurs/Beschreibung fuer EINEN Ticker.
+    Gemeinsam genutzt von der automatischen S&P-500-Auswahl und der festen
+    China-ADR-Watchlist, damit die Logik nicht doppelt gepflegt werden muss."""
+    print(f"Pruefe {tk} ({name}) ...")
+
+    insider = {"active": False}
+    ethics = []
+    description = None
+    if cik10:
+        try:
+            submission = fetch_submission_details(cik10)
+            sic = submission.get("sic", "")
+            ethics = classify_ethics(sic)
+
+            filing = extract_recent_form4(submission)
+            if filing:
+                direction = fetch_form4_direction(cik10, filing["accession"], filing["primary_doc"])
+                insider = {
+                    "active": True,
+                    "age": f"{filing['age_hours']}Std" if filing["age_hours"] < 24
+                           else f"{filing['age_hours'] // 24}T",
+                    "src": "SEC",
+                }
+                if direction:
+                    insider["dir"] = direction
+        except Exception as e:
+            print(f"  Insider-Check fehlgeschlagen: {e}")
+    else:
+        print("  Keine CIK bekannt — Insider-Check übersprungen.")
+
+    time.sleep(1)
+
+    try:
+        description = fetch_company_description(name)
+    except Exception as e:
+        print(f"  Firmenbeschreibung fehlgeschlagen: {e}")
+
+    time.sleep(1)
+
+    macro = {"active": False}
+    try:
+        company_articles = fetch_finnhub_company_news(finnhub_key, tk)
+        count = len(company_articles)
+        if count >= MACRO_ARTICLE_THRESHOLD:
+            newest_ts = max((a.get("datetime", 0) or 0 for a in company_articles), default=0)
+            macro = {"active": True, "age": age_label_from_timestamp(newest_ts)}
+    except Exception as e:
+        print(f"  Makro-Check fehlgeschlagen: {e}")
+
+    time.sleep(1)
+
+    predict = {"active": False}
+    try:
+        predict = fetch_polymarket_signal(name)
+    except Exception as e:
+        print(f"  Predict-Check fehlgeschlagen: {e}")
+
+    time.sleep(1)
+
+    congress = {"active": False}
+    politician = None
+    try:
+        match = most_recent_congress_trade(congress_trades, tk)
+        if match:
+            congress = {
+                "active": True,
+                "age": f"{match['age_hours']}Std" if match["age_hours"] < 24
+                       else f"{match['age_hours'] // 24}T",
+                "src": match["chamber"],
+            }
+            if match["direction"]:
+                congress["dir"] = match["direction"]
+            politician = f"{match['member']} ({match['chamber']})" if match["member"] else match["chamber"]
+    except Exception as e:
+        print(f"  Politiker-Check fehlgeschlagen: {e}")
+
+    time.sleep(1)
+
+    buzz = {"active": False}
+    try:
+        buzz = fetch_reddit_buzz(reddit_token, tk)
+    except Exception as e:
+        print(f"  Buzz-Check fehlgeschlagen: {e}")
+
+    time.sleep(1)
+
+    price_usd = fetch_price_usd(tk)
+    price_eur = round(price_usd * fx_rate, 2) if (price_usd is not None and fx_rate) else None
+
+    time.sleep(1)
+
+    # Kursreaktion seit dem ersten Auftauchen dieses Tickers berechnen
+    prev = old_tickers_state.get(tk)
+    reaction = None
+    baseline_price_usd = price_usd
+    first_seen = today_str
+    if prev:
+        first_seen = prev.get("first_seen", today_str)
+        baseline = prev.get("baseline_price_usd")
+        if baseline and price_usd:
+            reaction = round((price_usd - baseline) / baseline * 100, 1)
+            baseline_price_usd = baseline  # Anker bleibt beim ersten bekannten Kurs
+
+    active_count = sum([congress["active"], insider["active"], macro["active"], predict["active"], buzz["active"]])
+    why_parts = []
+    if congress["active"]:
+        why_parts.append("aktueller Politiker-Trade (House/Senate)")
+    if insider["active"]:
+        why_parts.append("aktuelles SEC-Form-4-Insider-Filing")
+    if macro["active"]:
+        why_parts.append("erhöhte Nachrichtenaufmerksamkeit")
+    if predict["active"]:
+        why_parts.append("aktiver Prediction-Market-Bezug")
+    if buzz["active"]:
+        why_parts.append(f"Diskussion in r/mauerstrassenwetten ({buzz.get('count', 0)} Beiträge)")
+    if why_parts:
+        why = "Live-Signal: " + " + ".join(why_parts) + "."
+    elif market == "cn" and not cik10:
+        why = "Als Foreign Private Issuer meist von SEC-Insider-Meldepflicht befreit — aktuell keine weiteren Signale."
+    else:
+        why = "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
+
+    result = {
+        "tk": tk,
+        "name": name,
+        "broker": True,
+        "market": market,
+        "score": active_count,
+        "reaction": reaction,
+        "priceEur": price_eur,
+        "description": description,
+        "politician": politician,
+        "track": None,
+        "sig": {
+            "congress": congress,
+            "insider": insider,
+            "macro": macro,
+            "predict": predict,
+            "buzz": buzz,
+        },
+        "topic": sector or "Unternehmensspezifisch",
+        "ethics": ethics,
+        "why": why,
+    }
+    state_entry = {
+        "score": active_count,
+        "baseline_price_usd": baseline_price_usd,
+        "first_seen": first_seen,
+    }
+    return result, state_entry
+
+
 def build_ticker_signals_auto(old_tickers_state, finnhub_key):
     print("Lade S&P-500-Liste ...")
     try:
@@ -697,148 +872,33 @@ def build_ticker_signals_auto(old_tickers_state, finnhub_key):
     today_str = datetime.date.today().isoformat()
 
     for cik, info in candidates:
-        tk = info["tk"]
-        cik10 = str(cik).zfill(10)
-        print(f"Pruefe {tk} ({info['name']}) ...")
+        result, state_entry = build_signal_for_ticker(
+            info["tk"], info["name"], info["sector"], str(cik).zfill(10), "us",
+            finnhub_key, fx_rate, congress_trades, reddit_token, old_tickers_state, today_str,
+        )
+        results.append(result)
+        new_tickers_state[info["tk"]] = state_entry
 
-        insider = {"active": False}
-        ethics = []
-        description = None
-        try:
-            submission = fetch_submission_details(cik10)
-            sic = submission.get("sic", "")
-            ethics = classify_ethics(sic)
+    # --- Feste China-ADR-Watchlist zusaetzlich pruefen ---
+    # S&P 500 enthaelt keine chinesischen Firmen, und Auslaendische Emittenten
+    # (Foreign Private Issuers) sind meist von der Form-4-Meldepflicht befreit
+    # — automatische Entdeckung wie bei den US-Titeln funktioniert hier nicht,
+    # deshalb eine kleine, feste Liste bekannter, liquider China-ADRs.
+    print("Prüfe feste China-ADR-Watchlist ...")
+    try:
+        sec_cik_map = load_sec_ticker_cik_map()
+    except Exception as e:
+        print(f"SEC-Ticker-Zuordnung für China-ADRs konnte nicht geladen werden: {e}")
+        sec_cik_map = {}
 
-            filing = extract_recent_form4(submission)
-            if filing:
-                direction = fetch_form4_direction(cik10, filing["accession"], filing["primary_doc"])
-                insider = {
-                    "active": True,
-                    "age": f"{filing['age_hours']}Std" if filing["age_hours"] < 24
-                           else f"{filing['age_hours'] // 24}T",
-                    "src": "SEC",
-                }
-                if direction:
-                    insider["dir"] = direction
-        except Exception as e:
-            print(f"  Insider-Check fehlgeschlagen: {e}")
-
-        time.sleep(1)
-
-        try:
-            description = fetch_company_description(info["name"])
-        except Exception as e:
-            print(f"  Firmenbeschreibung fehlgeschlagen: {e}")
-
-        time.sleep(1)
-
-        macro = {"active": False}
-        try:
-            company_articles = fetch_finnhub_company_news(finnhub_key, tk)
-            count = len(company_articles)
-            if count >= MACRO_ARTICLE_THRESHOLD:
-                newest_ts = max((a.get("datetime", 0) or 0 for a in company_articles), default=0)
-                macro = {"active": True, "age": age_label_from_timestamp(newest_ts)}
-        except Exception as e:
-            print(f"  Makro-Check fehlgeschlagen: {e}")
-
-        time.sleep(1)
-
-        predict = {"active": False}
-        try:
-            predict = fetch_polymarket_signal(info["name"])
-        except Exception as e:
-            print(f"  Predict-Check fehlgeschlagen: {e}")
-
-        time.sleep(1)
-
-        congress = {"active": False}
-        politician = None
-        try:
-            match = most_recent_congress_trade(congress_trades, tk)
-            if match:
-                congress = {
-                    "active": True,
-                    "age": f"{match['age_hours']}Std" if match["age_hours"] < 24
-                           else f"{match['age_hours'] // 24}T",
-                    "src": match["chamber"],
-                }
-                if match["direction"]:
-                    congress["dir"] = match["direction"]
-                politician = f"{match['member']} ({match['chamber']})" if match["member"] else match["chamber"]
-        except Exception as e:
-            print(f"  Politiker-Check fehlgeschlagen: {e}")
-
-        time.sleep(1)
-
-        buzz = {"active": False}
-        try:
-            buzz = fetch_reddit_buzz(reddit_token, tk)
-        except Exception as e:
-            print(f"  Buzz-Check fehlgeschlagen: {e}")
-
-        time.sleep(1)
-
-        price_usd = fetch_price_usd(tk)
-        price_eur = round(price_usd * fx_rate, 2) if (price_usd is not None and fx_rate) else None
-
-        time.sleep(1)
-
-        # Kursreaktion seit dem ersten Auftauchen dieses Tickers berechnen
-        prev = old_tickers_state.get(tk)
-        reaction = None
-        baseline_price_usd = price_usd
-        first_seen = today_str
-        if prev:
-            first_seen = prev.get("first_seen", today_str)
-            baseline = prev.get("baseline_price_usd")
-            if baseline and price_usd:
-                reaction = round((price_usd - baseline) / baseline * 100, 1)
-                baseline_price_usd = baseline  # Anker bleibt beim ersten bekannten Kurs
-
-        active_count = sum([congress["active"], insider["active"], macro["active"], predict["active"], buzz["active"]])
-        why_parts = []
-        if congress["active"]:
-            why_parts.append("aktueller Politiker-Trade (House/Senate)")
-        if insider["active"]:
-            why_parts.append("aktuelles SEC-Form-4-Insider-Filing")
-        if macro["active"]:
-            why_parts.append("erhöhte Nachrichtenaufmerksamkeit")
-        if predict["active"]:
-            why_parts.append("aktiver Prediction-Market-Bezug")
-        if buzz["active"]:
-            why_parts.append(f"Diskussion in r/mauerstrassenwetten ({buzz.get('count', 0)} Beiträge)")
-        why = ("Live-Signal: " + " + ".join(why_parts) + ".") if why_parts else \
-              "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
-
-        results.append({
-            "tk": tk,
-            "name": info["name"],
-            "broker": True,
-            "market": "us",
-            "score": active_count,
-            "reaction": reaction,
-            "priceEur": price_eur,
-            "description": description,
-            "politician": politician,
-            "track": None,
-            "sig": {
-                "congress": congress,
-                "insider": insider,
-                "macro": macro,
-                "predict": predict,
-                "buzz": buzz,
-            },
-            "topic": info["sector"] or "Unternehmensspezifisch",
-            "ethics": ethics,
-            "why": why,
-        })
-
-        new_tickers_state[tk] = {
-            "score": active_count,
-            "baseline_price_usd": baseline_price_usd,
-            "first_seen": first_seen,
-        }
+    for entry in CHINA_ADR_WATCHLIST:
+        cik10 = sec_cik_map.get(entry["tk"])
+        result, state_entry = build_signal_for_ticker(
+            entry["tk"], entry["name"], entry["sector"], cik10, "cn",
+            finnhub_key, fx_rate, congress_trades, reddit_token, old_tickers_state, today_str,
+        )
+        results.append(result)
+        new_tickers_state[entry["tk"]] = state_entry
 
     return results, new_tickers_state
 
