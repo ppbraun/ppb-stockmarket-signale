@@ -1,24 +1,19 @@
 {
   "Zölle / Handelskonflikt": 0,
-  "Fed-Zinspolitik": 250,
+  "Fed-Zinspolitik": 4,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
-  "KI-Infrastruktur": 0,
-  "Halbleiter / Chips": 221,
-  "Energie / Öl & Gas": 0,
-  "Gesundheit / FDA-Zulassungen": 217,
-  "Schifffahrt / Lieferketten": 184,
-  "Krypto-Regulierung": 37,
-  "Cybersecurity": 127,
+  "KI-Infrastruktur": 1,
+  "Halbleiter / Chips": 1,
+  "Energie / Öl & Gas": 2,
+  "Gesundheit / FDA-Zulassungen": 0,
+  "Schifffahrt / Lieferketten": 2,
+  "Krypto-Regulierung": 0,
+  "Cybersecurity": 0,
   "_tickers": {
-    "AVY": {
-      "score": 1,
-      "baseline_price_usd": 176.62,
-      "first_seen": "2026-08-18"
-    },
-    "PAYX": {
-      "score": 1,
-      "baseline_price_usd": 118.54,
+    "AMD": {
+      "score": 2,
+      "baseline_price_usd": 506.0,
       "first_seen": "2026-08-18"
     },
     "FAST": {
@@ -26,29 +21,34 @@
       "baseline_price_usd": 51.23,
       "first_seen": "2026-08-18"
     },
-    "AMD": {
+    "SNPS": {
       "score": 1,
-      "baseline_price_usd": 506.0,
+      "baseline_price_usd": 413.22,
       "first_seen": "2026-08-18"
     },
-    "WTW": {
-      "score": 1,
-      "baseline_price_usd": 326.06,
+    "PGR": {
+      "score": 2,
+      "baseline_price_usd": 203.84,
       "first_seen": "2026-08-18"
     },
-    "DASH": {
-      "score": 1,
-      "baseline_price_usd": 212.72,
+    "AVB": {
+      "score": 3,
+      "baseline_price_usd": 184.06,
       "first_seen": "2026-08-18"
     },
-    "PNR": {
+    "DDOG": {
       "score": 1,
-      "baseline_price_usd": 64.1,
+      "baseline_price_usd": 247.32,
       "first_seen": "2026-08-18"
     },
-    "PFE": {
+    "CPRT": {
       "score": 1,
-      "baseline_price_usd": 26.87,
+      "baseline_price_usd": 31.7,
+      "first_seen": "2026-08-18"
+    },
+    "CSCO": {
+      "score": 2,
+      "baseline_price_usd": 112.9,
       "first_seen": "2026-08-18"
     }
   }

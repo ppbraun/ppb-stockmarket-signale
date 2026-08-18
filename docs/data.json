@@ -1,35 +1,30 @@
 {
-  "generated_at": "2026-08-18T08:23:36.875190+00:00",
+  "generated_at": "2026-08-18T08:39:30.858760+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
-      "vol": 250,
+      "vol": 4,
       "pct": 100
     },
     {
-      "topic": "Halbleiter / Chips",
-      "vol": 221,
-      "pct": 88
-    },
-    {
-      "topic": "Gesundheit / FDA-Zulassungen",
-      "vol": 217,
-      "pct": 87
+      "topic": "Energie / Öl & Gas",
+      "vol": 2,
+      "pct": 50
     },
     {
       "topic": "Schifffahrt / Lieferketten",
-      "vol": 184,
-      "pct": 74
+      "vol": 2,
+      "pct": 50
     },
     {
-      "topic": "Cybersecurity",
-      "vol": 127,
-      "pct": 51
+      "topic": "KI-Infrastruktur",
+      "vol": 1,
+      "pct": 25
     },
     {
-      "topic": "Krypto-Regulierung",
-      "vol": 37,
-      "pct": 15
+      "topic": "Halbleiter / Chips",
+      "vol": 1,
+      "pct": 25
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -47,26 +42,31 @@
       "pct": 0
     },
     {
-      "topic": "KI-Infrastruktur",
+      "topic": "Gesundheit / FDA-Zulassungen",
       "vol": 0,
       "pct": 0
     },
     {
-      "topic": "Energie / Öl & Gas",
+      "topic": "Krypto-Regulierung",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Cybersecurity",
       "vol": 0,
       "pct": 0
     }
   ],
   "tickers": [
     {
-      "tk": "AVY",
-      "name": "Avery Dennison",
+      "tk": "AMD",
+      "name": "Advanced Micro Devices",
       "broker": true,
       "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 152.35,
-      "description": "Die Avery Dennison Corporation zählt zu den weltweit führenden Herstellern von Selbstklebematerialien wie Selbstklebeetiketten sowie Etikettiersystemen für private und…",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 436.47,
+      "description": "Advanced Micro Devices, Inc. (AMD) is an American multinational semiconductor company headquartered in Santa Clara, California. It develops central processing units (CPUs),…",
       "politician": null,
       "track": null,
       "sig": {
@@ -79,41 +79,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "PAYX",
-      "name": "Paychex",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 102.25,
-      "description": "Paychex, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in Rochester, New York.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
           "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -122,9 +89,9 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "FAST",
@@ -132,9 +99,9 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 44.19,
-      "description": "Die Fastenal Company ist ein US-amerikanischer Händler und Hersteller von Verbindungsmitteln in den Bereichen der Standard- und Spezialteile. Der US-Hauptsitz des Unternehmens…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -161,14 +128,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "AMD",
-      "name": "Advanced Micro Devices",
+      "tk": "SNPS",
+      "name": "Synopsys",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 436.47,
-      "description": "Advanced Micro Devices, Inc. (AMD) ist ein US-amerikanisches Unternehmen der Halbleiterindustrie mit Hauptsitz in Santa Clara, Kalifornien. AMD entwickelt und vertreibt…",
+      "priceEur": 356.44,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -195,14 +162,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "WTW",
-      "name": "Willis Towers Watson",
+      "tk": "PGR",
+      "name": "Progressive Corporation",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 281.26,
-      "description": "Willis Towers Watson ist ein globales multinationales Risikomanagement-, Versicherungsmakler- und Beratungsunternehmen mit Sitz im irischen Dublin und operativer Hauptzentrale im…",
+      "priceEur": 175.83,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -218,7 +185,7 @@
           "active": false
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
@@ -226,17 +193,52 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "DASH",
-      "name": "DoorDash",
+      "tk": "AVB",
+      "name": "AvalonBay Communities",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": null,
+      "priceEur": 158.77,
+      "description": "AvalonBay Communities, Inc. is a publicly traded real estate investment trust that invests in apartments.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "23Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Real Estate",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "DDOG",
+      "name": "Datadog",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 183.49,
-      "description": "DoorDash Inc. ist ein US-amerikanischer On-Demand-Lieferservice, der Mahlzeiten von Restaurants an Verbraucher liefert. Die Fahrer des Lieferservices, genannt Dasher, nutzen dabei…",
+      "priceEur": 213.34,
+      "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
       "politician": null,
       "track": null,
       "sig": {
@@ -258,19 +260,19 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "PNR",
-      "name": "Pentair",
+      "tk": "CPRT",
+      "name": "Copart",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 55.29,
-      "description": "Pentair ist ein irischer Mischkonzern mit Sitz in Dublin und operativer Hauptzentrale in London. Das Unternehmen produziert unter anderem Komponenten und Gehäuse für den…",
+      "priceEur": 27.34,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -297,14 +299,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "PFE",
-      "name": "Pfizer",
+      "tk": "CSCO",
+      "name": "Cisco",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 23.18,
-      "description": "Pfizer Inc. ist ein US-amerikanischer, international aufgestellter und börsennotierter Pharma- und Biotechnologiekonzern mit Hauptsitz in New York. Pfizer war 2025 mit 62,6 Mrd.…",
+      "priceEur": 97.39,
+      "description": "Cisco Systems, Inc., doing business as Cisco, is an American multinational technology conglomerate corporation that develops, manufactures, and sells hardware, software,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -317,7 +319,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -326,9 +329,9 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     }
   ]
 }
