@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T11:56:38.648397+00:00",
+  "generated_at": "2026-08-18T14:04:36.887311+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -59,14 +59,14 @@
   ],
   "tickers": [
     {
-      "tk": "CVNA",
-      "name": "Carvana",
+      "tk": "HOOD",
+      "name": "Robinhood Markets",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 60.46,
-      "description": "Carvana Co. is an American online car retailer based in Tempe, Arizona. Carvana was named to the 2021 Fortune 500 list, one of the youngest companies to be added to the list.",
+      "priceEur": 80.75,
+      "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -88,53 +88,18 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "NKE",
-      "name": "Nike, Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 33.72,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "5Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "PPG",
-      "name": "PPG Industries",
+      "tk": "HSY",
+      "name": "Hershey Company (The)",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 97.85,
+      "priceEur": 157.16,
       "description": null,
       "politician": null,
       "track": null,
@@ -157,7 +122,75 @@
           "active": false
         }
       },
-      "topic": "Materials",
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "ICE",
+      "name": "Intercontinental Exchange",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 135.2,
+      "description": "Die Intercontinental Currency Exchange (ICE) oder kurz Intercontinental Exchange ist ein Börsenbetreiber mit Sitz in Atlanta, USA, der auf den elektronischen Handel von Optionen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "AEE",
+      "name": "Ameren",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": 0.7,
+      "priceEur": 95.11,
+      "description": "Ameren ist ein US-amerikanisches Unternehmen mit Firmensitz in St. Louis. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Utilities",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -167,9 +200,9 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
-      "priceEur": 95.39,
-      "description": null,
+      "reaction": 1.0,
+      "priceEur": 96.3,
+      "description": "Charles Schwab Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Westlake, Texas. Das Unternehmen ist im Aktienindex S&P 500 gelistet. Vorsitzender des…",
       "politician": null,
       "track": null,
       "sig": {
@@ -201,8 +234,8 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
-      "priceEur": 55.29,
+      "reaction": -0.7,
+      "priceEur": 54.91,
       "description": "Pentair ist ein irischer Mischkonzern mit Sitz in Dublin und operativer Hauptzentrale in London. Das Unternehmen produziert unter anderem Komponenten und Gehäuse für den…",
       "politician": null,
       "track": null,
@@ -230,51 +263,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "MPC",
-      "name": "Marathon Petroleum",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 308.96,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "21Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "AEE",
-      "name": "Ameren",
+      "tk": "EXPE",
+      "name": "Expedia Group",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 94.43,
-      "description": "Ameren Corporation is an American power company created December 31, 1997, by the merger of Union Electric Company of St. Louis, Missouri and the neighboring Central Illinois…",
+      "priceEur": 278.71,
+      "description": "Expedia Group, Inc. is an American travel technology company that owns and operates travel fare aggregators and travel metasearch engines, including Expedia, Hotels.com, Vrbo,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -296,19 +292,19 @@
           "active": false
         }
       },
-      "topic": "Utilities",
+      "topic": "Consumer Discretionary",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "FANG",
-      "name": "Diamondback Energy",
+      "tk": "INTU",
+      "name": "Intuit",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 177.94,
-      "description": null,
+      "priceEur": 304.92,
+      "description": "Intuit Inc. ist ein US-amerikanischer Hersteller von Standardanwendungssoftware aus Kalifornien mit rund 9.400 Mitarbeitern weltweit und einem Umsatz von ca. 6,7 Milliarden…",
       "politician": null,
       "track": null,
       "sig": {
@@ -321,7 +317,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -330,11 +327,9 @@
           "active": false
         }
       },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -342,9 +337,9 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 107.57,
-      "description": null,
+      "reaction": 2.1,
+      "priceEur": 109.88,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -356,7 +351,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "23Std"
         },
         "predict": {
           "active": true
@@ -375,9 +370,9 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 24.58,
-      "description": "JD.com, Inc., also known as Jingdong Group, formerly called 360buy, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. The…",
+      "reaction": -0.2,
+      "priceEur": 24.53,
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -410,8 +405,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 74.99,
+      "reaction": -0.2,
+      "priceEur": 74.83,
       "description": null,
       "politician": null,
       "track": null,
@@ -445,9 +440,9 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 89.81,
-      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
+      "reaction": -9.4,
+      "priceEur": 81.39,
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -480,8 +475,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 0.0,
-      "priceEur": 3.97,
+      "reaction": -1.6,
+      "priceEur": 3.9,
       "description": null,
       "politician": null,
       "track": null,
@@ -512,8 +507,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 0.0,
-      "priceEur": 10.7,
+      "reaction": -1.5,
+      "priceEur": 10.54,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -544,9 +539,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 0.0,
-      "priceEur": 38.69,
-      "description": null,
+      "reaction": -0.6,
+      "priceEur": 38.44,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -576,9 +571,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": 0.0,
-      "priceEur": 107.31,
-      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
+      "reaction": 0.8,
+      "priceEur": 108.12,
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
