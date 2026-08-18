@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T20:00:01.348643+00:00",
+  "generated_at": "2026-08-18T20:56:05.587287+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -59,14 +59,49 @@
   ],
   "tickers": [
     {
-      "tk": "HSY",
-      "name": "Hershey Company (The)",
+      "tk": "CSCO",
+      "name": "Cisco",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 96.42,
+      "description": "Cisco Systems, Inc. ist ein US-amerikanisches Unternehmen aus der Telekommunikationsbranche. Bekannt ist es vor allem für seine Router und Switches, die von einem wesentlichen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "WTW",
+      "name": "Willis Towers Watson",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 158.64,
-      "description": null,
+      "priceEur": 283.26,
+      "description": "Willis Towers Watson ist ein globales multinationales Risikomanagement-, Versicherungsmakler- und Beratungsunternehmen mit Sitz im irischen Dublin und operativer Hauptzentrale im…",
       "politician": null,
       "track": null,
       "sig": {
@@ -88,19 +123,87 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "PAYX",
-      "name": "Paychex",
+      "tk": "DDOG",
+      "name": "Datadog",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 103.61,
-      "description": "Paychex, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in Rochester, New York.",
+      "priceEur": 212.51,
+      "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "COF",
+      "name": "Capital One",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 191.32,
+      "description": "Capital One Financial Corp. ist ein US-amerikanisches Unternehmen mit Sitz in McLean, Virginia. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "VRSK",
+      "name": "Verisk Analytics",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 154.51,
+      "description": "Verisk Analytics ist ein US-amerikanisches Datenanalyse-Unternehmen mit Sitz in Jersey City.",
       "politician": null,
       "track": null,
       "sig": {
@@ -127,118 +230,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "AEE",
-      "name": "Ameren",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 94.8,
-      "description": "Ameren ist ein US-amerikanisches Unternehmen mit Firmensitz in St. Louis. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "DXCM",
-      "name": "Dexcom",
+      "tk": "PGR",
+      "name": "Progressive Corporation",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 77.4,
-      "description": "DexCom, Inc. ist ein US-amerikanisches Unternehmen, das kontinuierlich messende Glucosesensoren für Diabetes-Patienten entwickelt, herstellt und vertreibt. Der Hauptsitz befindet…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "MRVL",
-      "name": "Marvell Technology",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.3,
-      "priceEur": 186.11,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CVNA",
-      "name": "Carvana",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 56.01,
-      "description": "Carvana Co. is an American online car retailer based in Tempe, Arizona. Carvana was named to the 2021 Fortune 500 list, one of the youngest companies to be added to the list.",
+      "priceEur": 179.02,
+      "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
       "politician": null,
       "track": null,
       "sig": {
@@ -252,75 +251,6 @@
         },
         "macro": {
           "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "EXPE",
-      "name": "Expedia Group",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 277.26,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "AVB",
-      "name": "AvalonBay Communities",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": null,
-      "priceEur": 159.0,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
         },
         "predict": {
           "active": true
@@ -329,9 +259,77 @@
           "active": false
         }
       },
-      "topic": "Real Estate",
+      "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "CVNA",
+      "name": "Carvana",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": 0.3,
+      "priceEur": 56.15,
+      "description": "Carvana ist ein US-amerikanisches Unternehmen, welches Gebrauchtwagen über das Internet verkauft. Carvana hat seinen Hauptsitz in Tempe, Arizona und wurde bereits als „Amazon für…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "DASH",
+      "name": "DoorDash",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 186.9,
+      "description": "DoorDash, Inc. is an American company operating online food ordering and food delivery. It trades under the symbol DASH. With a 56% market share, DoorDash is the largest food…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BABA",
@@ -340,8 +338,8 @@
       "market": "cn",
       "score": 2,
       "reaction": 2.8,
-      "priceEur": 110.77,
-      "description": null,
+      "priceEur": 110.7,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -353,7 +351,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -372,8 +370,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": 1.0,
-      "priceEur": 24.87,
+      "reaction": 1.1,
+      "priceEur": 24.9,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -388,7 +386,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -408,7 +406,7 @@
       "market": "cn",
       "score": 2,
       "reaction": 0.4,
-      "priceEur": 75.37,
+      "priceEur": 75.39,
       "description": null,
       "politician": null,
       "track": null,
@@ -423,7 +421,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -442,8 +440,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -12.8,
-      "priceEur": 78.45,
+      "reaction": -12.7,
+      "priceEur": 78.5,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -458,7 +456,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -477,8 +475,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -1.7,
-      "priceEur": 3.9,
+      "reaction": -1.5,
+      "priceEur": 3.91,
       "description": null,
       "politician": null,
       "track": null,
@@ -574,7 +572,7 @@
       "market": "cn",
       "score": 1,
       "reaction": 0.3,
-      "priceEur": 107.81,
+      "priceEur": 107.77,
       "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
