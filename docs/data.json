@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:59:28.680586+00:00",
+  "generated_at": "2026-08-20T11:59:59.902912+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -59,118 +59,14 @@
   ],
   "tickers": [
     {
-      "tk": "SMCI",
-      "name": "Supermicro",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 31.52,
-      "description": "Super Micro Computer, kurz Supermicro, ist ein Hersteller von Computern für Rechenzentren. Das Unternehmen wurde 1993 vom Ehepaar Charles und Chiu-Chu Liu Liang im kalifornischen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "17Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "SNA",
-      "name": "Snap-on",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 339.45,
-      "description": "Snap-on Incorporated is a United States designer, manufacturer, and marketer of high-end tools and equipment for professional use in the transportation industry, including the…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "ARE",
-      "name": "Alexandria Real Estate Equities",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": 0.0,
-      "priceEur": 43.56,
-      "description": "Alexandria Real Estate Equities, Inc. is a real estate investment trust based in Pasadena, California that invests in office buildings and laboratories leased to tenants in the…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "16Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "XYZ",
-      "name": "Block, Inc.",
+      "tk": "MTB",
+      "name": "M&T Bank",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 69.74,
-      "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
+      "priceEur": 210.73,
+      "description": "Die M&T Bank Corporation ist ein US-amerikanisches Finanzdienstleistungsunternehmen mit Hauptsitz in Buffalo im Bundesstaat New York. Das Unternehmen ist die Holdinggesellschaft…",
       "politician": null,
       "track": null,
       "sig": {
@@ -197,14 +93,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "GRMN",
-      "name": "Garmin",
+      "tk": "SYF",
+      "name": "Synchrony Financial",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 254.78,
-      "description": "Garmin Ltd. ist ein Schweizer Unternehmen mit Hauptsitz in Schaffhausen und operativer Hauptzentrale in Olathe, Kansas. Es entwickelt und produziert Smartwatches und…",
+      "priceEur": 68.61,
+      "description": "Synchrony Financial ist ein US-amerikanisches Finanzdienstleistungsunternehmen mit Sitz in Stamford, Connecticut. Das Unternehmen ist auf Konsumfinanzierung spezialisiert und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -226,46 +122,9 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "CVX",
-      "name": "Chevron Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 177.3,
-      "description": "Chevron Corporation ist ein weltweit operierender Energiekonzern. Er gehört zu den weltgrößten Ölkonzernen und ist nach eigenen Angaben der größte Produzent geothermischer Energie…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "21Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "MAR",
@@ -302,14 +161,48 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "RTX",
-      "name": "RTX Corporation",
+      "tk": "ALLE",
+      "name": "Allegion",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": null,
-      "priceEur": 189.88,
-      "description": "RTX Corporation ist ein multinationaler Mischkonzern mit Hauptsitz im Arlington County. Das Unternehmen entwickelt und produziert Technologie im Bereich der Verteidigung und der…",
+      "priceEur": 140.25,
+      "description": "Allegion PLC ist ein in Dublin ansässiges Unternehmen der Sicherheitstechnik. Es ist international tätig, hat rund 12.300 Mitarbeiter und erwirtschaftete 2022 einen Umsatz von 3,3…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "SMCI",
+      "name": "Supermicro",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 31.52,
+      "description": "Super Micro Computer, kurz Supermicro, ist ein Hersteller von Computern für Rechenzentren. Das Unternehmen wurde 1993 vom Ehepaar Charles und Chiu-Chu Liu Liang im kalifornischen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -323,18 +216,120 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "18Std"
         },
         "predict": {
-          "active": true
+          "active": false
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ADM",
+      "name": "Archer Daniels Midland",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 69.59,
+      "description": "Archer Daniels Midland Company (ADM) ist ein US-amerikanischer Industriekonzern im Agribusiness mit Sitz in Chicago, Illinois. Der Konzern ist mit mehr als 270 Produktionsstätten…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "LIN",
+      "name": "Linde plc",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 414.59,
+      "description": "Die Linde plc ist ein börsennotierter Industriekonzern mit Sitz im irischen Dublin und operativer Zentrale im britischen Guildford, der 2018 durch Fusion der in Deutschland…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Materials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "SBAC",
+      "name": "SBA Communications",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 157.2,
+      "description": "SBA Communications Corporation is a real estate investment trust which owns and operates wireless infrastructure in the United States, Canada, Central America, South America, and…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Real Estate",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BABA",
@@ -356,7 +351,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -457,7 +452,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": true
