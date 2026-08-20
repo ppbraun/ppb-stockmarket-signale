@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T16:03:13.124855+00:00",
+  "generated_at": "2026-08-20T17:57:14.180367+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -59,120 +59,14 @@
   ],
   "tickers": [
     {
-      "tk": "ARE",
-      "name": "Alexandria Real Estate Equities",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": null,
-      "priceEur": 43.28,
-      "description": "Alexandria Real Estate Equities, Inc. is a real estate investment trust based in Pasadena, California that invests in office buildings and laboratories leased to tenants in the…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "21Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "CVX",
-      "name": "Chevron Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 178.67,
-      "description": "Chevron Corporation is an American multinational energy corporation predominantly specializing in oil and gas. The second-largest direct descendant of Standard Oil, and originally…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "6Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "NTAP",
-      "name": "NetApp",
+      "tk": "SYF",
+      "name": "Synchrony Financial",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 167.96,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "AXP",
-      "name": "American Express",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 285.47,
-      "description": null,
+      "priceEur": 66.17,
+      "description": "Synchrony Financial ist ein US-amerikanisches Finanzdienstleistungsunternehmen mit Sitz in Stamford, Connecticut. Das Unternehmen ist auf Konsumfinanzierung spezialisiert und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -199,14 +93,86 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "GRMN",
-      "name": "Garmin",
+      "tk": "CVX",
+      "name": "Chevron Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -0.7,
+      "priceEur": 177.37,
+      "description": "Chevron Corporation ist ein weltweit operierender Energiekonzern. Er gehört zu den weltgrößten Ölkonzernen und ist nach eigenen Angaben der größte Produzent geothermischer Energie…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "RTX",
+      "name": "RTX Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": null,
+      "priceEur": 183.61,
+      "description": "RTX Corporation ist ein multinationaler Mischkonzern mit Hauptsitz im Arlington County. Das Unternehmen entwickelt und produziert Technologie im Bereich der Verteidigung und der…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "TPR",
+      "name": "Tapestry, Inc.",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 254.18,
-      "description": "Garmin Ltd. is an American multinational technology company based in Olathe, Kansas. The company designs, develops, manufactures, markets, and distributes GPS-enabled products and…",
+      "priceEur": 110.1,
+      "description": "Tapestry, Inc. is an American holding company based in New York City which is the parent company of Coach New York and Kate Spade New York. Originally named Coach, Inc., the…",
       "politician": null,
       "track": null,
       "sig": {
@@ -233,14 +199,48 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "MCHP",
-      "name": "Microchip Technology",
+      "tk": "JCI",
+      "name": "Johnson Controls",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 65.56,
-      "description": null,
+      "priceEur": 123.17,
+      "description": "Das Unternehmen Johnson Controls International plc (JCI) ist ein multinationaler Konzern mit US-amerikanischen Wurzeln mit Hauptsitz im irischen Cork und hat die Hauptschwerpunkte…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "MPWR",
+      "name": "Monolithic Power Systems",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 1134.96,
+      "description": "Monolithic Power Systems, Inc. (MPS) ist ein US-amerikanischer fabless Halbleiterhersteller, der Integrierte Schaltkreise für Systeme bereitstellt, die in Cloud-Computing,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -267,49 +267,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "SHW",
-      "name": "Sherwin-Williams",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.8,
-      "priceEur": 297.27,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "21Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "NOW",
-      "name": "ServiceNow",
+      "tk": "ALLE",
+      "name": "Allegion",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 111.99,
-      "description": "ServiceNow Inc. ist ein US-amerikanisches Technologieunternehmen mit Sitz in Santa Clara, Kalifornien. Es bietet mit dem gleichnamigen Produkt eine cloud-basierte Lösung für das…",
+      "priceEur": 138.07,
+      "description": "Allegion PLC ist ein in Dublin ansässiges Unternehmen der Sicherheitstechnik. Es ist international tätig, hat rund 12.300 Mitarbeiter und erwirtschaftete 2022 einen Umsatz von 3,3…",
       "politician": null,
       "track": null,
       "sig": {
@@ -322,8 +287,41 @@
           "src": "SEC"
         },
         "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "TECH",
+      "name": "Bio-Techne",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 61.94,
+      "description": "Die Bio-Techne Corporation ist ein US-amerikanisches Biotechnologieunternehmen mit Hauptsitz in Minneapolis, Minnesota. Es entwickelt und vertreibt Reagenzien, Analysegeräte und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
           "active": true,
-          "age": "5Std"
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
         },
         "predict": {
           "active": false
@@ -332,9 +330,9 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Health Care",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BABA",
@@ -342,8 +340,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": 2.5,
-      "priceEur": 109.43,
+      "reaction": 3.2,
+      "priceEur": 110.13,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -356,7 +354,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -375,9 +373,9 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": 2.7,
-      "priceEur": 25.06,
-      "description": "JD.com, Inc., also known as Jingdong Group, formerly called 360buy, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. The…",
+      "reaction": 2.9,
+      "priceEur": 25.1,
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -409,8 +407,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 2.4,
-      "priceEur": 76.25,
+      "reaction": 2.6,
+      "priceEur": 76.35,
       "description": null,
       "politician": null,
       "track": null,
@@ -441,9 +439,9 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -12.1,
-      "priceEur": 78.32,
-      "description": null,
+      "reaction": -12.0,
+      "priceEur": 78.45,
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -457,7 +455,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -476,8 +474,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -1.1,
-      "priceEur": 3.9,
+      "reaction": -1.3,
+      "priceEur": 3.89,
       "description": null,
       "politician": null,
       "track": null,
@@ -508,9 +506,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 3.6,
-      "priceEur": 11.01,
-      "description": null,
+      "reaction": 3.8,
+      "priceEur": 11.03,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -540,9 +538,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 3.3,
-      "priceEur": 39.65,
-      "description": null,
+      "reaction": 3.5,
+      "priceEur": 39.75,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -571,9 +569,9 @@
       "name": "NetEase",
       "broker": true,
       "market": "cn",
-      "score": 1,
-      "reaction": -2.6,
-      "priceEur": 103.71,
+      "score": 2,
+      "reaction": -3.2,
+      "priceEur": 103.13,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
@@ -587,7 +585,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -598,7 +597,7 @@
       },
       "topic": "Communication Services",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     }
   ]
 }
