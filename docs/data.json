@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T23:02:05.235916+00:00",
+  "generated_at": "2026-08-20T23:56:17.362387+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -8,8 +8,8 @@
     },
     {
       "topic": "Schifffahrt / Lieferketten",
-      "vol": 2,
-      "pct": 100
+      "vol": 1,
+      "pct": 50
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -59,14 +59,14 @@
   ],
   "tickers": [
     {
-      "tk": "HAL",
-      "name": "Halliburton",
+      "tk": "HAS",
+      "name": "Hasbro",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 30.55,
-      "description": "Halliburton ist ein international agierender Konzern und führender Anbieter von technischen Dienstleistungen, Wartungsdiensten, Planungs- und Entwicklungsservices sowie Zulieferer…",
+      "priceEur": 80.1,
+      "description": "Hasbro ist ein US-amerikanischer Spielwarenhersteller mit Sitz in Pawtucket, Rhode Island in den USA. Die Firmenbezeichnung setzt sich als Akronym zusammen aus den Namen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -75,7 +75,7 @@
         },
         "insider": {
           "active": true,
-          "age": "1Std",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
@@ -88,21 +88,89 @@
           "active": false
         }
       },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
+      "topic": "Consumer Discretionary",
+      "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "SNA",
-      "name": "Snap-on",
+      "tk": "UBER",
+      "name": "Uber",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 67.25,
+      "description": "Uber steht für:Uber (Unternehmen), Vermittlungsdienst zur Personenbeförderung und Essensauslieferung Uber Cup, Weltmeisterschaft für Damen-Nationalmannschaften im Badminton",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "11Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "BA",
+      "name": "Boeing",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 184.14,
+      "description": "The Boeing Company ist ein US-amerikanischer Hersteller von Luft- und Raumfahrttechnik. Er war im Jahr 2020 der zweitgrößte Produzent innerhalb seiner Branche. Zu den Produkten…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "IR",
+      "name": "Ingersoll Rand",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 334.96,
-      "description": "Snap-on Incorporated is a United States designer, manufacturer, and marketer of high-end tools and equipment for professional use in the transportation industry, including the…",
+      "priceEur": 67.91,
+      "description": "Ingersoll-Rand ist ein international tätiger Mischkonzern mit Sitz in Davidson im Bundesstaat North Carolina, USA.",
       "politician": null,
       "track": null,
       "sig": {
@@ -129,48 +197,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "VMRK",
-      "name": "Vivmark Residential",
+      "tk": "CDW",
+      "name": "CDW Corporation",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 55.77,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "CDNS",
-      "name": "Cadence Design Systems",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 268.46,
-      "description": "Cadence Design Systems, Inc. is an American multinational technology and computational software company headquartered in San Jose, California. Initially specialized in electronic…",
+      "priceEur": 114.32,
+      "description": "CDW Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Vernon Hills, Illinois.",
       "politician": null,
       "track": null,
       "sig": {
@@ -197,14 +231,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "JCI",
-      "name": "Johnson Controls",
+      "tk": "SCHW",
+      "name": "Charles Schwab Corporation",
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": 0.0,
-      "priceEur": 122.56,
-      "description": "Johnson Controls International plc is an American-Irish multinational conglomerate headquartered in Cork, Ireland, that produces fire, HVAC, and security equipment for buildings.…",
+      "reaction": null,
+      "priceEur": 93.99,
+      "description": "Charles Schwab Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Westlake, Texas. Das Unternehmen ist im Aktienindex S&P 500 gelistet. Vorsitzender des…",
       "politician": null,
       "track": null,
       "sig": {
@@ -226,54 +260,54 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "NUE",
-      "name": "Nucor",
+      "tk": "PYPL",
+      "name": "PayPal",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": null,
+      "priceEur": 53.33,
+      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "16Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "DECK",
+      "name": "Deckers Brands",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 205.87,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "14Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "IFF",
-      "name": "International Flavors & Fragrances",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 71.39,
-      "description": null,
+      "priceEur": 76.07,
+      "description": "Deckers Outdoor Corporation, doing business as Deckers Brands, is an American footwear designer and distributor founded in 1973 and based in Goleta, California. The company's…",
       "politician": null,
       "track": null,
       "sig": {
@@ -289,41 +323,7 @@
           "active": false
         },
         "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "GRMN",
-      "name": "Garmin",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 250.91,
-      "description": "Garmin Ltd. is an American multinational technology company based in Olathe, Kansas. The company designs, develops, manufactures, markets, and distributes GPS-enabled products and…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1Std",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
@@ -331,7 +331,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "BABA",
@@ -353,7 +353,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -440,7 +440,7 @@
       "score": 3,
       "reaction": -11.7,
       "priceEur": 78.73,
-      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -454,7 +454,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -585,7 +585,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
