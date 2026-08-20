@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T20:56:07.765643+00:00",
+  "generated_at": "2026-08-20T21:59:40.378504+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -59,86 +59,14 @@
   ],
   "tickers": [
     {
-      "tk": "UBER",
-      "name": "Uber",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 67.25,
-      "description": "Uber steht für:Uber (Unternehmen), Vermittlungsdienst zur Personenbeförderung und Essensauslieferung Uber Cup, Weltmeisterschaft für Damen-Nationalmannschaften im Badminton",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "13Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CVX",
-      "name": "Chevron Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -1.4,
-      "priceEur": 176.16,
-      "description": "Chevron Corporation ist ein weltweit operierender Energiekonzern. Er gehört zu den weltgrößten Ölkonzernen und ist nach eigenen Angaben der größte Produzent geothermischer Energie…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "SNA",
-      "name": "Snap-on",
+      "tk": "ISRG",
+      "name": "Intuitive Surgical",
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": 0.2,
-      "priceEur": 334.96,
-      "description": "Snap-on Incorporated is a United States designer, manufacturer, and marketer of high-end tools and equipment for professional use in the transportation industry, including the…",
+      "reaction": null,
+      "priceEur": 320.59,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -160,7 +88,41 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "MCHP",
+      "name": "Microchip Technology",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 64.9,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -199,14 +161,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "GRMN",
-      "name": "Garmin",
+      "tk": "JCI",
+      "name": "Johnson Controls",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 250.91,
-      "description": "Garmin Ltd. ist ein Schweizer Unternehmen mit Hauptsitz in Schaffhausen und operativer Hauptzentrale in Olathe, Kansas. Es entwickelt und produziert Smartwatches und…",
+      "priceEur": 122.56,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -223,6 +185,75 @@
         },
         "predict": {
           "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "PYPL",
+      "name": "PayPal",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": null,
+      "priceEur": 53.33,
+      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "14Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "DECK",
+      "name": "Deckers Brands",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 76.07,
+      "description": "Deckers Outdoor Corporation, doing business as Deckers Brands, is an American footwear designer and distributor founded in 1973 and based in Goleta, California. The company's…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
         },
         "buzz": {
           "active": false
@@ -230,17 +261,17 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "AFL",
-      "name": "Aflac",
+      "tk": "ARE",
+      "name": "Alexandria Real Estate Equities",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 3,
       "reaction": null,
-      "priceEur": 99.45,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "priceEur": 45.32,
+      "description": "Alexandria Real Estate Equities, Inc. is a real estate investment trust based in Pasadena, California that invests in office buildings and laboratories leased to tenants in the…",
       "politician": null,
       "track": null,
       "sig": {
@@ -249,33 +280,33 @@
         },
         "insider": {
           "active": true,
-          "age": "1Std",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "10Std"
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Real Estate",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "XYZ",
-      "name": "Block, Inc.",
+      "tk": "MTB",
+      "name": "M&T Bank",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 68.56,
-      "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
+      "priceEur": 203.96,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -298,40 +329,6 @@
         }
       },
       "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "TECH",
-      "name": "Bio-Techne",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": -0.1,
-      "priceEur": 61.88,
-      "description": "Die Bio-Techne Corporation ist ein US-amerikanisches Biotechnologieunternehmen mit Hauptsitz in Minneapolis, Minnesota. Es entwickelt und vertreibt Reagenzien, Analysegeräte und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -355,7 +352,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -456,7 +453,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": true
@@ -587,7 +584,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
