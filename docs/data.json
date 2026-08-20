@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-20T14:11:27.959792+00:00",
+  "generated_at": "2026-08-20T16:03:13.124855+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 3,
+      "vol": 2,
       "pct": 100
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 2,
-      "pct": 67
+      "pct": 100
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -59,14 +59,14 @@
   ],
   "tickers": [
     {
-      "tk": "SHW",
-      "name": "Sherwin-Williams",
+      "tk": "ARE",
+      "name": "Alexandria Real Estate Equities",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 3,
       "reaction": null,
-      "priceEur": 294.98,
-      "description": "Sherwin-Williams ist ein weltweit aktives Unternehmen in der Beschichtungsbranche mit einer über 150-jährigen Tradition. Gegründet von Henry Sherwin und Edward Williams im Jahr…",
+      "priceEur": 43.28,
+      "description": "Alexandria Real Estate Equities, Inc. is a real estate investment trust based in Pasadena, California that invests in office buildings and laboratories leased to tenants in the…",
       "politician": null,
       "track": null,
       "sig": {
@@ -80,28 +80,28 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "21Std"
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Materials",
+      "topic": "Real Estate",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "MPC",
-      "name": "Marathon Petroleum",
+      "tk": "CVX",
+      "name": "Chevron Corporation",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 314.42,
-      "description": "Die Marathon Petroleum Corporation, vormals Marathon Ashland Petroleum LLC, ist ein US-amerikanisches Unternehmen zur Raffinierung, zum Transport und zur Vermarktung von Erdöl.…",
+      "priceEur": 178.67,
+      "description": "Chevron Corporation is an American multinational energy corporation predominantly specializing in oil and gas. The second-largest direct descendant of Standard Oil, and originally…",
       "politician": null,
       "track": null,
       "sig": {
@@ -114,7 +114,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -127,85 +128,17 @@
       "ethics": [
         "Fossile Energie"
       ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "SBAC",
-      "name": "SBA Communications",
+      "tk": "NTAP",
+      "name": "NetApp",
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": 0.1,
-      "priceEur": 156.41,
-      "description": "SBA Communications Corporation is a real estate investment trust which owns and operates wireless infrastructure in the United States, Canada, Central America, South America, and…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "LIN",
-      "name": "Linde plc",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 1.1,
-      "priceEur": 416.52,
-      "description": "Die Linde plc ist ein börsennotierter Industriekonzern mit Sitz im irischen Dublin und operativer Zentrale im britischen Guildford, der 2018 durch Fusion der in Deutschland…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "AFL",
-      "name": "Aflac",
-      "broker": true,
-      "market": "us",
-      "score": 2,
       "reaction": null,
-      "priceEur": 99.95,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "priceEur": 167.96,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -214,12 +147,45 @@
         },
         "insider": {
           "active": true,
-          "age": "1Std",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "AXP",
+      "name": "American Express",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 285.47,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
           "active": true,
-          "age": "14Std"
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
         },
         "predict": {
           "active": false
@@ -230,17 +196,17 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "TPL",
-      "name": "Texas Pacific Land Corporation",
+      "tk": "GRMN",
+      "name": "Garmin",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 330.3,
-      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
+      "priceEur": 254.18,
+      "description": "Garmin Ltd. is an American multinational technology company based in Olathe, Kansas. The company designs, develops, manufactures, markets, and distributes GPS-enabled products and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -257,74 +223,6 @@
         },
         "predict": {
           "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "TECH",
-      "name": "Bio-Techne",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 61.9,
-      "description": "Die Bio-Techne Corporation ist ein US-amerikanisches Biotechnologieunternehmen mit Hauptsitz in Minneapolis, Minnesota. Es entwickelt und vertreibt Reagenzien, Analysegeräte und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "ABNB",
-      "name": "Airbnb",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 158.81,
-      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
         },
         "buzz": {
           "active": false
@@ -332,7 +230,111 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "MCHP",
+      "name": "Microchip Technology",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 65.56,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "SHW",
+      "name": "Sherwin-Williams",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.8,
+      "priceEur": 297.27,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "21Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Materials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NOW",
+      "name": "ServiceNow",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 111.99,
+      "description": "ServiceNow Inc. ist ein US-amerikanisches Technologieunternehmen mit Sitz in Santa Clara, Kalifornien. Es bietet mit dem gleichnamigen Produkt eine cloud-basierte Lösung für das…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -340,8 +342,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -0.2,
-      "priceEur": 106.5,
+      "reaction": 2.5,
+      "priceEur": 109.43,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -354,7 +356,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -373,9 +375,9 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": 1.9,
-      "priceEur": 24.86,
-      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
+      "reaction": 2.7,
+      "priceEur": 25.06,
+      "description": "JD.com, Inc., also known as Jingdong Group, formerly called 360buy, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. The…",
       "politician": null,
       "track": null,
       "sig": {
@@ -407,8 +409,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 1.4,
-      "priceEur": 75.48,
+      "reaction": 2.4,
+      "priceEur": 76.25,
       "description": null,
       "politician": null,
       "track": null,
@@ -439,9 +441,9 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -11.1,
-      "priceEur": 79.28,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "reaction": -12.1,
+      "priceEur": 78.32,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -455,7 +457,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -474,7 +476,7 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -1.0,
+      "reaction": -1.1,
       "priceEur": 3.9,
       "description": null,
       "politician": null,
@@ -506,9 +508,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 2.2,
-      "priceEur": 10.86,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "reaction": 3.6,
+      "priceEur": 11.01,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -538,9 +540,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 2.3,
-      "priceEur": 39.28,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "reaction": 3.3,
+      "priceEur": 39.65,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -570,8 +572,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -2.4,
-      "priceEur": 103.89,
+      "reaction": -2.6,
+      "priceEur": 103.71,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
