@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T07:31:26.192682+00:00",
+  "generated_at": "2026-08-20T09:20:18.112056+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -10,11 +10,6 @@
       "topic": "Schifffahrt / Lieferketten",
       "vol": 2,
       "pct": 67
-    },
-    {
-      "topic": "Halbleiter / Chips",
-      "vol": 1,
-      "pct": 33
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -42,6 +37,11 @@
       "pct": 0
     },
     {
+      "topic": "Halbleiter / Chips",
+      "vol": 0,
+      "pct": 0
+    },
+    {
       "topic": "Gesundheit / FDA-Zulassungen",
       "vol": 0,
       "pct": 0
@@ -59,14 +59,14 @@
   ],
   "tickers": [
     {
-      "tk": "IR",
-      "name": "Ingersoll Rand",
+      "tk": "ARE",
+      "name": "Alexandria Real Estate Equities",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 3,
       "reaction": null,
-      "priceEur": 69.92,
-      "description": null,
+      "priceEur": 43.56,
+      "description": "Alexandria Real Estate Equities, Inc. is a real estate investment trust based in Pasadena, California that invests in office buildings and laboratories leased to tenants in the…",
       "politician": null,
       "track": null,
       "sig": {
@@ -79,28 +79,29 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "14Std"
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Real Estate",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "SHW",
-      "name": "Sherwin-Williams",
+      "tk": "VZ",
+      "name": "Verizon",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 304.69,
-      "description": "Sherwin-Williams is an American paints and coatings company based in Cleveland, Ohio. It is primarily engaged in the manufacture, distribution, and sale of paints, coatings, floor…",
+      "priceEur": 42.53,
+      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -114,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -123,121 +124,19 @@
           "active": false
         }
       },
-      "topic": "Materials",
+      "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "ISRG",
-      "name": "Intuitive Surgical",
+      "tk": "PH",
+      "name": "Parker Hannifin",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 342.72,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "HSY",
-      "name": "Hershey Company (The)",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 162.68,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "CDNS",
-      "name": "Cadence Design Systems",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 271.42,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "VLTO",
-      "name": "Veralto",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 86.26,
-      "description": "Veralto Corporation is an American technology company headquartered in Waltham, Massachusetts. It produces products related to water analytics, water treatment, marking and…",
+      "priceEur": 881.73,
+      "description": "Parker-Hannifin Corporation, originally Parker Appliance Company, is an American multinational industrial manufacturing company specializing in motion and control technologies.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -264,14 +163,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "TDG",
-      "name": "TransDigm Group",
+      "tk": "SBAC",
+      "name": "SBA Communications",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 1053.78,
-      "description": "Die TransDigm Group ist ein US-amerikanischer Flugzeugzulieferer mit Sitz in Cleveland.",
+      "priceEur": 157.2,
+      "description": "SBA Communications Corporation is a real estate investment trust which owns and operates wireless infrastructure in the United States, Canada, Central America, South America, and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -293,7 +192,7 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Real Estate",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -303,9 +202,9 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 414.59,
-      "description": null,
+      "description": "Die Linde plc ist ein börsennotierter Industriekonzern mit Sitz im irischen Dublin und operativer Zentrale im britischen Guildford, der 2018 durch Fusion der in Deutschland…",
       "politician": null,
       "track": null,
       "sig": {
@@ -332,6 +231,108 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
+      "tk": "SNA",
+      "name": "Snap-on",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 339.45,
+      "description": "Snap-on Incorporated is a United States designer, manufacturer, and marketer of high-end tools and equipment for professional use in the transportation industry, including the…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "MAR",
+      "name": "Marriott International",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 310.17,
+      "description": "Marriott International, Inc. ist ein börsennotiertes US-amerikanisches Hotelunternehmen mit Sitz in Bethesda, Maryland, das mehrere Hotelketten betreibt, konzessioniert und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "DECK",
+      "name": "Deckers Brands",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 78.91,
+      "description": "Deckers Outdoor Corporation, doing business as Deckers Brands, is an American footwear designer and distributor founded in 1973 and based in Goleta, California. The company's…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -339,7 +340,7 @@
       "score": 2,
       "reaction": 3.4,
       "priceEur": 111.07,
-      "description": null,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -351,7 +352,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -372,7 +373,7 @@
       "score": 2,
       "reaction": 3.0,
       "priceEur": 25.29,
-      "description": null,
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -438,7 +439,7 @@
       "score": 3,
       "reaction": -10.8,
       "priceEur": 80.03,
-      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -452,7 +453,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
