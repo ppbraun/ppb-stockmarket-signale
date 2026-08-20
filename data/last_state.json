@@ -5,50 +5,50 @@
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 0,
   "Halbleiter / Chips": 1,
-  "Energie / Öl & Gas": 4,
+  "Energie / Öl & Gas": 3,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 1,
+  "Schifffahrt / Lieferketten": 2,
   "Krypto-Regulierung": 0,
   "Cybersecurity": 0,
   "_tickers": {
-    "NOW": {
+    "IR": {
+      "score": 1,
+      "baseline_price_usd": 81.14,
+      "first_seen": "2026-08-20"
+    },
+    "SHW": {
       "score": 2,
-      "baseline_price_usd": 127.2,
+      "baseline_price_usd": 353.59,
       "first_seen": "2026-08-20"
     },
-    "JCI": {
+    "ISRG": {
       "score": 1,
-      "baseline_price_usd": 144.94,
+      "baseline_price_usd": 397.72,
       "first_seen": "2026-08-20"
     },
-    "HAL": {
+    "HSY": {
       "score": 1,
-      "baseline_price_usd": 35.02,
+      "baseline_price_usd": 188.79,
       "first_seen": "2026-08-20"
     },
-    "SCHW": {
+    "CDNS": {
       "score": 1,
-      "baseline_price_usd": 110.88,
+      "baseline_price_usd": 314.98,
       "first_seen": "2026-08-20"
     },
-    "BA": {
-      "score": 2,
-      "baseline_price_usd": 222.2,
-      "first_seen": "2026-08-20"
-    },
-    "SNA": {
+    "VLTO": {
       "score": 1,
-      "baseline_price_usd": 393.93,
+      "baseline_price_usd": 100.1,
       "first_seen": "2026-08-20"
     },
-    "ADM": {
+    "TDG": {
       "score": 1,
-      "baseline_price_usd": 80.76,
+      "baseline_price_usd": 1222.91,
       "first_seen": "2026-08-20"
     },
-    "UBER": {
-      "score": 2,
-      "baseline_price_usd": 78.04,
+    "LIN": {
+      "score": 1,
+      "baseline_price_usd": 481.13,
       "first_seen": "2026-08-20"
     },
     "BABA": {
