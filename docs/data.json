@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T07:58:34.520750+00:00",
+  "generated_at": "2026-08-21T09:57:04.768754+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -59,14 +59,120 @@
   ],
   "tickers": [
     {
-      "tk": "AFL",
-      "name": "Aflac",
+      "tk": "DIS",
+      "name": "Walt Disney Company (The)",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 99.45,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "priceEur": 91.88,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "15Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [
+        "Glücksspiel"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "TRGP",
+      "name": "Targa Resources",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": 0.0,
+      "priceEur": 258.75,
+      "description": "Targa Resources ist ein US-amerikanisches Unternehmen auf dem Gebiet der Erdgasaufbereitung und des Flüssiggastransports. Targa Resources besitzt mehrere Standorte in Texas sowie…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Energy",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 707.68,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "20Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "INCY",
+      "name": "Incyte",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 108.91,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -89,88 +195,19 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AEE",
-      "name": "Ameren",
+      "tk": "TPL",
+      "name": "Texas Pacific Land Corporation",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 93.13,
-      "description": "Ameren ist ein US-amerikanisches Unternehmen mit Firmensitz in St. Louis. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "MU",
-      "name": "Micron Technology",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 834.11,
-      "description": "Micron Technology Inc. ist ein US-amerikanischer Hersteller von Speicherelementen für Computer mit Hauptsitz in Boise, Idaho, USA. Das Unternehmen belegte 2024 Platz 6 der größten…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "14Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "TRGP",
-      "name": "Targa Resources",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 258.75,
-      "description": "Targa Resources ist ein US-amerikanisches Unternehmen auf dem Gebiet der Erdgasaufbereitung und des Flüssiggastransports. Targa Resources besitzt mehrere Standorte in Texas sowie…",
+      "priceEur": 316.38,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -202,9 +239,9 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 537.24,
-      "description": "Thermo Fisher Scientific Inc., kurz auch Thermo Fisher, ist ein US-amerikanisches Technologieunternehmen mit Sitz in Waltham, Massachusetts. Es beschreibt sich selbst als „der…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -231,14 +268,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "GPC",
-      "name": "Genuine Parts Company",
+      "tk": "GRMN",
+      "name": "Garmin",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 113.79,
-      "description": "Die Genuine Parts Company ist ein US-amerikanisches Handelsunternehmen, das Aftermarket-Teile für Kraftfahrzeuge und Industriegeräte sowie Artikel des Bürobedarfs vertreibt. Das…",
+      "priceEur": 250.91,
+      "description": "Garmin Ltd. is an American multinational technology company based in Olathe, Kansas. The company designs, develops, manufactures, markets, and distributes GPS-enabled products and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -265,48 +302,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "TPR",
-      "name": "Tapestry, Inc.",
+      "tk": "MU",
+      "name": "Micron Technology",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": 0.0,
-      "priceEur": 111.14,
-      "description": "Tapestry, Inc. is an American holding company based in New York City which is the parent company of Coach New York and Kate Spade New York. Originally named Coach, Inc., the…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "AAPL",
-      "name": "Apple Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": null,
-      "priceEur": 266.5,
-      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
+      "priceEur": 834.11,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -320,10 +323,10 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "16Std"
         },
         "predict": {
-          "active": true
+          "active": false
         },
         "buzz": {
           "active": false
@@ -331,7 +334,7 @@
       },
       "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -353,7 +356,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -440,7 +443,7 @@
       "score": 3,
       "reaction": -11.7,
       "priceEur": 78.73,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -507,7 +510,7 @@
       "score": 0,
       "reaction": 4.1,
       "priceEur": 11.06,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -539,7 +542,7 @@
       "score": 0,
       "reaction": 3.5,
       "priceEur": 39.75,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -571,7 +574,7 @@
       "score": 2,
       "reaction": -3.7,
       "priceEur": 102.57,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
       "sig": {
@@ -585,7 +588,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "19Std"
         },
         "predict": {
           "active": false
