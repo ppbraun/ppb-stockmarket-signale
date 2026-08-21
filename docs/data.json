@@ -1,6 +1,11 @@
 {
-  "generated_at": "2026-08-21T17:06:37.513220+00:00",
+  "generated_at": "2026-08-21T19:12:02.483542+00:00",
   "newsTopics": [
+    {
+      "topic": "KI-Infrastruktur",
+      "vol": 1,
+      "pct": 100
+    },
     {
       "topic": "Energie / Öl & Gas",
       "vol": 1,
@@ -32,11 +37,6 @@
       "pct": 0
     },
     {
-      "topic": "KI-Infrastruktur",
-      "vol": 0,
-      "pct": 0
-    },
-    {
       "topic": "Halbleiter / Chips",
       "vol": 0,
       "pct": 0
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 91.77,
+      "reaction": 0.2,
+      "priceEur": 91.89,
       "description": null,
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -101,8 +101,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.8,
-      "priceEur": 719.33,
+      "reaction": 1.1,
+      "priceEur": 714.16,
       "description": "Das Biotechnologie-Unternehmen Regeneron Pharmaceuticals wurde 1988 gegründet und wird an der Nasdaq-Börse unter dem Symbol „REGN“ gehandelt. Regeneron Pharmaceuticals ist…",
       "politician": null,
       "track": null,
@@ -136,9 +136,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.5,
-      "priceEur": 110.32,
-      "description": "Incyte Inc. ist ein US-amerikanisches Pharmaunternehmen mit Sitz in Wilmington, Delaware. Das Unternehmen vertreibt das durch die U.S. Food and Drug Administration (FDA) geprüfte…",
+      "reaction": 0.9,
+      "priceEur": 109.68,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -171,9 +171,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.0,
-      "priceEur": 824.49,
-      "description": "Micron Technology Inc. ist ein US-amerikanischer Hersteller von Speicherelementen für Computer mit Hauptsitz in Boise, Idaho, USA. Das Unternehmen belegte 2024 Platz 6 der größten…",
+      "reaction": -0.5,
+      "priceEur": 828.26,
+      "description": "Micron Technology, Inc. is an American multinational semiconductor company that manufactures computer memory and computer data storage products, including dynamic random-access…",
       "politician": null,
       "track": null,
       "sig": {
@@ -187,7 +187,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -206,9 +206,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.8,
-      "priceEur": 139.34,
-      "description": "Allegion PLC ist ein in Dublin ansässiges Unternehmen der Sicherheitstechnik. Es ist international tätig, hat rund 12.300 Mitarbeiter und erwirtschaftete 2022 einen Umsatz von 3,3…",
+      "reaction": 0.9,
+      "priceEur": 139.52,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -239,10 +239,10 @@
       "name": "Republic Services",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": 0.2,
-      "priceEur": 188.08,
-      "description": "Republic Services ist ein US-amerikanisches Entsorgungsunternehmen mit Hauptsitz in Phoenix im US-Bundesstaat Arizona. Das Unternehmen führt die Entsorgung von festen und…",
+      "score": 1,
+      "reaction": 0.5,
+      "priceEur": 188.5,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -258,7 +258,7 @@
           "active": false
         },
         "predict": {
-          "active": true
+          "active": false
         },
         "buzz": {
           "active": false
@@ -266,7 +266,7 @@
       },
       "topic": "Industrials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "META",
@@ -274,9 +274,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.3,
-      "priceEur": 472.47,
-      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
+      "reaction": 0.7,
+      "priceEur": 469.91,
+      "description": "Meta Platforms, Inc. is an American multinational technology company headquartered in Menlo Park, California. Meta owns and operates several prominent social media platforms and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -309,9 +309,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.2,
-      "priceEur": 89.58,
-      "description": "eBay ist ein US-amerikanisches Unternehmen, das einen der größten Online-Marktplätze betreibt. Es wurde am 3. September 1995 von Pierre Omidyar im kalifornischen San José unter…",
+      "reaction": 0.1,
+      "priceEur": 89.49,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -343,8 +343,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.2,
-      "priceEur": 224.66,
+      "reaction": 1.7,
+      "priceEur": 225.74,
       "description": "Arthur J. Gallagher & Co. ist ein international tätiges US-amerikanisches Dienstleistungsunternehmen. Es wurde 1927 von Arthur J. Gallagher in Chicago gegründet und hat heute…",
       "politician": null,
       "track": null,
@@ -359,7 +359,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -373,116 +373,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "PG",
-      "name": "Procter & Gamble",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.9,
-      "priceEur": 124.06,
-      "description": "The Procter & Gamble Company [NYSE: PG] ist ein US-amerikanischer, in 70 Staaten vertretener Konsumgüter-Konzern mit Hauptsitz in Cincinnati im US-Bundesstaat Ohio.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "EXPD",
-      "name": "Expeditors International",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.1,
-      "priceEur": 160.91,
-      "description": "Expeditors International of Washington (Expeditors) ist ein global operierendes US-amerikanisches Logistik­unternehmen mit Sitz in Seattle im US-Bundesstaat Washington. Neben…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.8,
-      "priceEur": 327.5,
-      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1Std",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "AEE",
       "name": "Ameren",
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
-      "priceEur": 91.34,
-      "description": "Ameren ist ein US-amerikanisches Unternehmen mit Firmensitz in St. Louis. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
+      "reaction": -0.2,
+      "priceEur": 91.15,
+      "description": "Ameren Corporation is an American power company created December 31, 1997, by the merger of Union Electric Company of St. Louis, Missouri and the neighboring Central Illinois…",
       "politician": null,
       "track": null,
       "sig": {
@@ -514,9 +412,9 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
-      "priceEur": 85.34,
-      "description": "Arch Capital Group Ltd. ist ein global tätiges Versicherungskonzern mit Sitz in Hamilton (Bermuda), der vor allem Spezialversicherungen, Rückversicherungen und…",
+      "reaction": -0.1,
+      "priceEur": 85.27,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -548,9 +446,9 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
-      "priceEur": 238.47,
-      "description": "Ecolab Inc. ist ein weltweit führender Anbieter von Produkten und Dienstleistungen im Bereich der industriellen Reinigung und Hygiene für Hotels, Restaurants, Brauereien,…",
+      "reaction": 0.4,
+      "priceEur": 239.47,
+      "description": "Ecolab Inc., headquartered in Saint Paul, Minnesota, provides products related to water treatment, sanitation, and hygiene, primarily to commercial and industrial customers. The…",
       "politician": null,
       "track": null,
       "sig": {
@@ -577,13 +475,115 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
+      "tk": "YUM",
+      "name": "Yum! Brands",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 129.82,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "CI",
+      "name": "Cigna",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 237.06,
+      "description": "The Cigna Group is an American multinational for-profit managed healthcare and insurance company based in Bloomfield, Connecticut. Cigna's insurance subsidiaries are major…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "RL",
+      "name": "Ralph Lauren Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 319.72,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -3.1,
-      "priceEur": 103.33,
+      "reaction": -3.9,
+      "priceEur": 102.41,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -596,7 +596,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -615,8 +615,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": 3.5,
-      "priceEur": 25.21,
+      "reaction": 3.4,
+      "priceEur": 25.19,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -649,8 +649,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": 2.7,
-      "priceEur": 76.28,
+      "reaction": 2.2,
+      "priceEur": 75.97,
       "description": null,
       "politician": null,
       "track": null,
@@ -663,7 +663,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -682,8 +682,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -9.3,
-      "priceEur": 80.69,
+      "reaction": -9.7,
+      "priceEur": 80.34,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -698,7 +698,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -717,8 +717,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 0.8,
-      "priceEur": 3.96,
+      "reaction": 0.5,
+      "priceEur": 3.95,
       "description": null,
       "politician": null,
       "track": null,
@@ -749,9 +749,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 5.5,
-      "priceEur": 11.19,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "reaction": 5.4,
+      "priceEur": 11.18,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -783,7 +783,7 @@
       "score": 0,
       "reaction": 3.2,
       "priceEur": 39.55,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -813,9 +813,9 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": 3.5,
-      "priceEur": 110.04,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "reaction": 3.2,
+      "priceEur": 109.71,
+      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
       "sig": {
@@ -829,7 +829,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
