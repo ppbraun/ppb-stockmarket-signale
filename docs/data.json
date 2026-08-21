@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T20:57:08.285933+00:00",
+  "generated_at": "2026-08-21T21:55:18.341928+00:00",
   "newsTopics": [
     {
       "topic": "KI-Infrastruktur",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -103,7 +103,7 @@
       "score": 2,
       "reaction": 0.9,
       "priceEur": 712.91,
-      "description": null,
+      "description": "Das Biotechnologie-Unternehmen Regeneron Pharmaceuticals wurde 1988 gegründet und wird an der Nasdaq-Börse unter dem Symbol „REGN“ gehandelt. Regeneron Pharmaceuticals ist…",
       "politician": null,
       "track": null,
       "sig": {
@@ -138,7 +138,7 @@
       "score": 2,
       "reaction": 0.5,
       "priceEur": 109.25,
-      "description": "Incyte Corporation is an American multinational pharmaceutical company with headquarters in Wilmington, Delaware. The company currently operates manufacturing and R&D locations in…",
+      "description": "Incyte Inc. ist ein US-amerikanisches Pharmaunternehmen mit Sitz in Wilmington, Delaware. Das Unternehmen vertreibt das durch die U.S. Food and Drug Administration (FDA) geprüfte…",
       "politician": null,
       "track": null,
       "sig": {
@@ -173,7 +173,7 @@
       "score": 2,
       "reaction": -0.8,
       "priceEur": 826.37,
-      "description": "Micron Technology, Inc. is an American multinational semiconductor company that manufactures computer memory and computer data storage products, including dynamic random-access…",
+      "description": "Micron Technology Inc. ist ein US-amerikanischer Hersteller von Speicherelementen für Computer mit Hauptsitz in Boise, Idaho, USA. Das Unternehmen belegte 2024 Platz 6 der größten…",
       "politician": null,
       "track": null,
       "sig": {
@@ -187,7 +187,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -208,7 +208,7 @@
       "score": 2,
       "reaction": 0.4,
       "priceEur": 138.74,
-      "description": "Allegion plc is an American Irish-domiciled provider of security products for homes and businesses.",
+      "description": "Allegion PLC ist ein in Dublin ansässiges Unternehmen der Sicherheitstechnik. Es ist international tätig, hat rund 12.300 Mitarbeiter und erwirtschaftete 2022 einen Umsatz von 3,3…",
       "politician": null,
       "track": null,
       "sig": {
@@ -242,7 +242,7 @@
       "score": 2,
       "reaction": 0.7,
       "priceEur": 470.04,
-      "description": "Meta Platforms, Inc. is an American multinational technology company headquartered in Menlo Park, California. Meta owns and operates several prominent social media platforms and…",
+      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -256,7 +256,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -274,10 +274,10 @@
       "name": "eBay Inc.",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 3,
       "reaction": -0.5,
       "priceEur": 89.01,
-      "description": null,
+      "description": "eBay ist ein US-amerikanisches Unternehmen, das einen der größten Online-Marktplätze betreibt. Es wurde am 3. September 1995 von Pierre Omidyar im kalifornischen San José unter…",
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +290,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "19Std"
         },
         "predict": {
           "active": true
@@ -301,7 +302,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "AJG",
@@ -325,7 +326,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -339,74 +340,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "RL",
-      "name": "Ralph Lauren Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": -0.4,
-      "priceEur": 318.48,
-      "description": "Die Ralph Lauren Corporation ist ein börsennotiertes Modeunternehmen mit Hauptsitz in New York City. Das 1967 von Ralph Lauren gegründete Unternehmen bietet unter anderem Kleidung…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "RJF",
-      "name": "Raymond James Financial",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": -0.1,
-      "priceEur": 149.76,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "SYK",
       "name": "Stryker Corporation",
       "broker": true,
@@ -414,7 +347,7 @@
       "score": 2,
       "reaction": -0.0,
       "priceEur": 281.6,
-      "description": null,
+      "description": "Die Stryker Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Kalamazoo, Michigan. Das Unternehmen stellt orthopädische und chirurgische Implantate und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -428,7 +361,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "11Std"
         },
         "predict": {
           "active": false
@@ -449,7 +382,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 496.31,
-      "description": "Mastercard Inc. is an American multinational payment card services corporation headquartered in Purchase, New York. It provides payment transaction processing and other…",
+      "description": "Die Mastercard Inc. mit Sitz in Purchase, New York ist ein börsennotierter Zahlungsdienstleister und beschäftigte 2022 rund 29.900 Mitarbeiter. Mastercard ist neben Visa eine der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -477,48 +410,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AEE",
-      "name": "Ameren",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 90.72,
-      "description": "Ameren Corporation is an American power company created December 31, 1997, by the merger of Union Electric Company of St. Louis, Missouri and the neighboring Central Illinois…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "AAPL",
       "name": "Apple Inc.",
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 264.42,
-      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -532,7 +431,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -551,9 +450,9 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 274.92,
-      "description": null,
+      "description": "Expedia Group, Inc. is an American travel technology company that owns and operates travel fare aggregators and travel metasearch engines, including Expedia, Hotels.com, Vrbo,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -577,6 +476,110 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "EXPD",
+      "name": "Expeditors International",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 160.53,
+      "description": "Expeditors International of Washington (Expeditors) ist ein global operierendes US-amerikanisches Logistik­unternehmen mit Sitz in Seattle im US-Bundesstaat Washington. Neben…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "TPR",
+      "name": "Tapestry, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 111.27,
+      "description": "Tapestry, Inc. is an American holding company based in New York City which is the parent company of Coach New York and Kate Spade New York. Originally named Coach, Inc., the…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "HAL",
+      "name": "Halliburton",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 30.21,
+      "description": "Halliburton ist ein international agierender Konzern und führender Anbieter von technischen Dienstleistungen, Wartungsdiensten, Planungs- und Entwicklungsservices sowie Zulieferer…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
@@ -599,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -666,7 +669,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -687,7 +690,7 @@
       "score": 3,
       "reaction": -10.5,
       "priceEur": 79.67,
-      "description": null,
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -754,7 +757,7 @@
       "score": 0,
       "reaction": 5.2,
       "priceEur": 11.15,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -786,7 +789,7 @@
       "score": 0,
       "reaction": 2.8,
       "priceEur": 39.41,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -832,7 +835,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
