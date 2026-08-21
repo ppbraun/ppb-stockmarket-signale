@@ -52,7 +52,8 @@ DASHBOARD_DATA_PATH = "docs/data.json"
 SEC_HEADERS = {"User-Agent": "PPB Stockmarket-Signale contact@example.com"}
 REDDIT_USER_AGENT = "ppb-stockmarket-signale/1.0 (personal dashboard)"
 
-MAX_CANDIDATES = 8             # Obergrenze, damit ein Lauf nicht zu lange dauert
+WATCHLIST_SIZE = 15            # aktiv verfolgte US-Titel (persistent, nicht jeden Tag neu gewürfelt)
+ROTATION_PER_RUN = 3           # max. Plätze pro Lauf, die an frische Kandidaten abgegeben werden
 MACRO_ARTICLE_THRESHOLD = 3    # Firmennews (Finnhub) in den letzten 2 Tagen, ab der "Makro aktiv" gilt
 INSIDER_LOOKBACK_DAYS = 14
 CONGRESS_LOOKBACK_DAYS = 60     # grosszuegig, weil PTR-Meldungen bis zu 45 Tage verspaetet ankommen koennen
@@ -845,14 +846,41 @@ def build_ticker_signals_auto(old_tickers_state, finnhub_key):
         print(f"S&P-500-Liste konnte nicht geladen werden: {e}")
         return [], {}
 
+    sp500_by_tk = {info["tk"]: info for info in sp500.values()}
+    sp500_cik_by_tk = {info["tk"]: cik for cik, info in sp500.items()}
+
     form4_ciks, filing_date = fetch_recent_form4_ciks()
     if not form4_ciks:
         return [], {}
 
-    candidates = [(cik, info) for cik, info in sp500.items() if cik in form4_ciks]
-    random.shuffle(candidates)  # sonst würden immer dieselben (alphabetisch ersten) Titel geprüft
-    candidates = candidates[:MAX_CANDIDATES]
-    print(f"{len(candidates)} S&P-500-Titel mit Insider-Filing am {filing_date} (nach Obergrenze {MAX_CANDIDATES}, zufällig ausgewählt).")
+    all_candidates = [(cik, info) for cik, info in sp500.items() if cik in form4_ciks]
+    random.shuffle(all_candidates)
+
+    # --- Persistente Watchlist statt taeglicher Zufallsstichprobe ---
+    # Bereits verfolgte Titel bleiben auf der Liste und werden JEDEN Lauf neu
+    # geprueft (damit Score-Entwicklungen ueberhaupt sichtbar werden). Nur wenn
+    # Plaetze frei sind oder die schwaechsten Eintraege rotiert werden, kommen
+    # neue Kandidaten aus dem heutigen Form-4-Pool dazu.
+    china_tks = {e["tk"] for e in CHINA_ADR_WATCHLIST}
+    watchlist_tks = [tk for tk in old_tickers_state.keys() if tk not in china_tks and tk in sp500_by_tk]
+    fresh_candidate_tks = [info["tk"] for cik, info in all_candidates if info["tk"] not in watchlist_tks]
+
+    if len(watchlist_tks) < WATCHLIST_SIZE:
+        need = WATCHLIST_SIZE - len(watchlist_tks)
+        added = fresh_candidate_tks[:need]
+        watchlist_tks.extend(added)
+        print(f"Watchlist wird aufgefüllt: +{len(added)} neue Titel ({len(watchlist_tks)}/{WATCHLIST_SIZE}).")
+    elif fresh_candidate_tks:
+        scored = sorted(watchlist_tks, key=lambda tk: old_tickers_state.get(tk, {}).get("score", 0))
+        n_replace = min(ROTATION_PER_RUN, len(fresh_candidate_tks))
+        to_evict = set(scored[:n_replace])
+        added = fresh_candidate_tks[:n_replace]
+        watchlist_tks = [tk for tk in watchlist_tks if tk not in to_evict] + added
+        print(f"Watchlist-Rotation: {sorted(to_evict)} raus, {added} rein (Score-schwächste ersetzt).")
+    else:
+        print("Watchlist voll, keine frischen Kandidaten heute — unverändert weiterverfolgt.")
+
+    print(f"Aktiv verfolgte US-Watchlist ({len(watchlist_tks)}): {', '.join(sorted(watchlist_tks))}")
 
     print("Lade USD/EUR-Wechselkurs ...")
     fx_rate = fetch_usd_eur_rate()
@@ -871,13 +899,18 @@ def build_ticker_signals_auto(old_tickers_state, finnhub_key):
     new_tickers_state = {}
     today_str = datetime.date.today().isoformat()
 
-    for cik, info in candidates:
+    for tk in watchlist_tks:
+        info = sp500_by_tk.get(tk)
+        if not info:
+            continue
+        cik = sp500_cik_by_tk.get(tk)
+        cik10 = str(cik).zfill(10) if cik else None
         result, state_entry = build_signal_for_ticker(
-            info["tk"], info["name"], info["sector"], str(cik).zfill(10), "us",
+            tk, info["name"], info["sector"], cik10, "us",
             finnhub_key, fx_rate, congress_trades, reddit_token, old_tickers_state, today_str,
         )
         results.append(result)
-        new_tickers_state[info["tk"]] = state_entry
+        new_tickers_state[tk] = state_entry
 
     # --- Feste China-ADR-Watchlist zusaetzlich pruefen ---
     # S&P 500 enthaelt keine chinesischen Firmen, und Auslaendische Emittenten
@@ -928,11 +961,14 @@ def net_direction_label(ticker_result):
 
 def diff_ticker_alerts(old_tickers_state, new_tickers):
     """Vergleicht die aktuelle Ticker-Liste mit der letzten und meldet
-    neue Treffer sowie gestiegene Scores fuer Telegram."""
+    neue Treffer, gestiegene/gesunkene Scores sowie Watchlist-Abgänge
+    fuer Telegram."""
     alerts = []
+    seen_tks = set()
 
     for t in new_tickers:
         tk = t["tk"]
+        seen_tks.add(tk)
         new_score = t.get("score", 0)
         prev = old_tickers_state.get(tk)
         direction = net_direction_label(t)
@@ -942,6 +978,13 @@ def diff_ticker_alerts(old_tickers_state, new_tickers):
             alerts.append(f"🆕 <b>{tk}</b> ({t['name']}) neu in der Liste — Score {new_score}/5{dir_suffix}")
         elif new_score > prev.get("score", 0):
             alerts.append(f"📈 <b>{tk}</b> relevanter geworden: Score {prev.get('score', 0)} → {new_score}{dir_suffix}")
+        elif new_score < prev.get("score", 0):
+            alerts.append(f"📉 <b>{tk}</b> weniger relevant: Score {prev.get('score', 0)} → {new_score}")
+
+    # Titel, die vorher verfolgt wurden, jetzt aber aus der Watchlist rotiert sind
+    for tk in old_tickers_state:
+        if tk not in seen_tks:
+            alerts.append(f"➖ <b>{tk}</b> aus der Watchlist rotiert (Score war zu niedrig)")
 
     return alerts
 
