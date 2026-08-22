@@ -1,6 +1,21 @@
 {
-  "generated_at": "2026-08-22T03:10:29.110618+00:00",
+  "generated_at": "2026-08-22T05:03:59.008508+00:00",
   "newsTopics": [
+    {
+      "topic": "KI-Infrastruktur",
+      "vol": 1,
+      "pct": 100
+    },
+    {
+      "topic": "Energie / Öl & Gas",
+      "vol": 1,
+      "pct": 100
+    },
+    {
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 1,
+      "pct": 100
+    },
     {
       "topic": "Zölle / Handelskonflikt",
       "vol": 0,
@@ -22,27 +37,12 @@
       "pct": 0
     },
     {
-      "topic": "KI-Infrastruktur",
-      "vol": 0,
-      "pct": 0
-    },
-    {
       "topic": "Halbleiter / Chips",
       "vol": 0,
       "pct": 0
     },
     {
-      "topic": "Energie / Öl & Gas",
-      "vol": 0,
-      "pct": 0
-    },
-    {
       "topic": "Gesundheit / FDA-Zulassungen",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "Schifffahrt / Lieferketten",
       "vol": 0,
       "pct": 0
     },
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -138,7 +138,7 @@
       "score": 2,
       "reaction": 0.5,
       "priceEur": 109.25,
-      "description": null,
+      "description": "Incyte Inc. ist ein US-amerikanisches Pharmaunternehmen mit Sitz in Wilmington, Delaware. Das Unternehmen vertreibt das durch die U.S. Food and Drug Administration (FDA) geprüfte…",
       "politician": null,
       "track": null,
       "sig": {
@@ -173,7 +173,7 @@
       "score": 2,
       "reaction": -0.8,
       "priceEur": 826.37,
-      "description": "Micron Technology, Inc. is an American multinational semiconductor company that manufactures computer memory and computer data storage products, including dynamic random-access…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -187,7 +187,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -208,7 +208,7 @@
       "score": 2,
       "reaction": 0.4,
       "priceEur": 138.74,
-      "description": "Allegion PLC ist ein in Dublin ansässiges Unternehmen der Sicherheitstechnik. Es ist international tätig, hat rund 12.300 Mitarbeiter und erwirtschaftete 2022 einen Umsatz von 3,3…",
+      "description": "Allegion plc is an American Irish-domiciled provider of security products for homes and businesses.",
       "politician": null,
       "track": null,
       "sig": {
@@ -242,7 +242,7 @@
       "score": 2,
       "reaction": 0.7,
       "priceEur": 470.04,
-      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
+      "description": "Meta Platforms, Inc. is an American multinational technology company headquartered in Menlo Park, California. Meta owns and operates several prominent social media platforms and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -256,7 +256,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -277,7 +277,7 @@
       "score": 3,
       "reaction": -0.5,
       "priceEur": 89.01,
-      "description": "eBay ist ein US-amerikanisches Unternehmen, das einen der größten Online-Marktplätze betreibt. Es wurde am 3. September 1995 von Pierre Omidyar im kalifornischen San José unter…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -291,7 +291,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -312,7 +312,7 @@
       "score": 2,
       "reaction": 1.6,
       "priceEur": 225.5,
-      "description": "Arthur J. Gallagher & Co. ist ein international tätiges US-amerikanisches Dienstleistungsunternehmen. Es wurde 1927 von Arthur J. Gallagher in Chicago gegründet und hat heute…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -326,7 +326,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -347,7 +347,7 @@
       "score": 2,
       "reaction": -0.0,
       "priceEur": 281.6,
-      "description": null,
+      "description": "Die Stryker Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Kalamazoo, Michigan. Das Unternehmen stellt orthopädische und chirurgische Implantate und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -361,7 +361,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -382,7 +382,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 496.31,
-      "description": "Mastercard Inc. is an American multinational payment card services corporation headquartered in Purchase, New York. It provides payment transaction processing and other…",
+      "description": "Die Mastercard Inc. mit Sitz in Purchase, New York ist ein börsennotierter Zahlungsdienstleister und beschäftigte 2022 rund 29.900 Mitarbeiter. Mastercard ist neben Visa eine der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -417,7 +417,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 264.42,
-      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -431,7 +431,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -445,13 +445,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "CAH",
-      "name": "Cardinal Health",
+      "tk": "ISRG",
+      "name": "Intuitive Surgical",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": 0.0,
-      "priceEur": 196.18,
+      "priceEur": 323.8,
       "description": null,
       "politician": null,
       "track": null,
@@ -461,114 +461,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "CHTR",
-      "name": "Charter Communications",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 128.36,
-      "description": "Charter Communications ist ein US-amerikanischer Betreiber von Kabelnetzen mit digitalem und interaktivem Fernsehen, Video-on-Demand-, Internet- und Telefondiensten.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "GILD",
-      "name": "Gilead Sciences",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 124.9,
-      "description": "Gilead Sciences, Inc. ist ein Pharmazie- und Biotechnologieunternehmen aus den Vereinigten Staaten mit Sitz in Foster City, Kalifornien. Das Unternehmen ist im S&P 500 gelistet.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "ISRG",
-      "name": "Intuitive Surgical",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 323.8,
-      "description": "Intuitive Surgical ist ein US-amerikanisches Unternehmen der Medizintechnik mit Hauptsitz in Sunnyvale, CA.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
           "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -582,6 +480,109 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "NOC",
+      "name": "Northrop Grumman",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 471.0,
+      "description": "Northrop Grumman Corporation, headquartered in West Falls Church, Virginia, is an American aerospace and defense company that designs and manufactures systems for aeronautics,…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "11Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PG",
+      "name": "Procter & Gamble",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 123.67,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "ARES",
+      "name": "Ares Management",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 120.74,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -589,7 +590,7 @@
       "score": 2,
       "reaction": -4.3,
       "priceEur": 102.01,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -601,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -668,7 +669,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -703,7 +704,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -756,7 +757,7 @@
       "score": 0,
       "reaction": 5.2,
       "priceEur": 11.15,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -788,7 +789,7 @@
       "score": 0,
       "reaction": 2.8,
       "priceEur": 39.41,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -820,7 +821,7 @@
       "score": 2,
       "reaction": 3.0,
       "priceEur": 109.56,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -834,7 +835,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "19Std"
         },
         "predict": {
           "active": false

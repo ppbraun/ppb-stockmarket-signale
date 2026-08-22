@@ -3,11 +3,11 @@
   "Fed-Zinspolitik": 0,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
-  "KI-Infrastruktur": 0,
+  "KI-Infrastruktur": 1,
   "Halbleiter / Chips": 0,
-  "Energie / Öl & Gas": 0,
+  "Energie / Öl & Gas": 1,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 0,
+  "Schifffahrt / Lieferketten": 1,
   "Krypto-Regulierung": 0,
   "Cybersecurity": 0,
   "_tickers": {
@@ -66,24 +66,24 @@
       "baseline_price_usd": 309.35,
       "first_seen": "2026-08-21"
     },
-    "CAH": {
-      "score": 1,
-      "baseline_price_usd": 229.51,
-      "first_seen": "2026-08-21"
-    },
-    "CHTR": {
-      "score": 1,
-      "baseline_price_usd": 150.17,
-      "first_seen": "2026-08-22"
-    },
-    "GILD": {
-      "score": 1,
-      "baseline_price_usd": 146.12,
-      "first_seen": "2026-08-22"
-    },
     "ISRG": {
       "score": 2,
       "baseline_price_usd": 378.81,
+      "first_seen": "2026-08-22"
+    },
+    "NOC": {
+      "score": 2,
+      "baseline_price_usd": 551.03,
+      "first_seen": "2026-08-22"
+    },
+    "PG": {
+      "score": 1,
+      "baseline_price_usd": 144.68,
+      "first_seen": "2026-08-22"
+    },
+    "ARES": {
+      "score": 1,
+      "baseline_price_usd": 141.25,
       "first_seen": "2026-08-22"
     },
     "BABA": {
