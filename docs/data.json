@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T19:59:00.687348+00:00",
+  "generated_at": "2026-08-22T20:54:43.710518+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -98,7 +98,7 @@
       "name": "Stryker Corporation",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": -0.0,
       "priceEur": 281.6,
       "description": "Die Stryker Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Kalamazoo, Michigan. Das Unternehmen stellt orthopädische und chirurgische Implantate und…",
@@ -118,7 +118,7 @@
           "age": "1T"
         },
         "predict": {
-          "active": true
+          "active": false
         },
         "buzz": {
           "active": false
@@ -126,7 +126,7 @@
       },
       "topic": "Health Care",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "AAPL",
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -267,76 +267,6 @@
       "topic": "Consumer Discretionary",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "WMT",
-      "name": "Walmart",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 88.64,
-      "description": "Walmart Inc. ist ein weltweit tätiger US-amerikanischer Einzelhandelskonzern, der einen großen Teil des US-Marktes beherrscht. Walmart ist in der Liste Fortune Global 500 auf…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "13Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "QCOM",
-      "name": "Qualcomm",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 137.4,
-      "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "18Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "CHTR",
@@ -395,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -430,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": false
@@ -479,14 +409,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CPAY",
-      "name": "Corpay",
+      "tk": "HD",
+      "name": "Home Depot (The)",
       "broker": true,
       "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 356.55,
-      "description": "Corpay, Inc., headquartered in Atlanta, Georgia, provides payments and spend management systems and services that control expense-related purchasing and payment processes. The…",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 286.87,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -499,7 +429,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -508,19 +439,19 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "HD",
-      "name": "Home Depot (The)",
+      "tk": "UAL",
+      "name": "United Airlines Holdings",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 286.87,
-      "description": null,
+      "reaction": 0.0,
+      "priceEur": 96.73,
+      "description": "Die United Airlines Holdings, Inc. entstand 2010 als Dachgesellschaft im Rahmen des Fusionsprozesses der beiden US-amerikanischen Fluggesellschaften United Airlines und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -543,19 +474,87 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "UAL",
-      "name": "United Airlines Holdings",
+      "tk": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 327.92,
+      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Energy",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "ITW",
+      "name": "Illinois Tool Works",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 241.29,
+      "description": "Illinois Tool Works (ITW) ist ein US-amerikanisches Unternehmen mit Firmensitz in Glenview, Illinois. ITW ist im Aktienindex S&P 500 gelistet. Zur ITW-Gruppe gehören in 56 Ländern…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "LITE",
+      "name": "Lumentum",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 96.73,
-      "description": "Die United Airlines Holdings, Inc. entstand 2010 als Dachgesellschaft im Rahmen des Fusionsprozesses der beiden US-amerikanischen Fluggesellschaften United Airlines und…",
+      "priceEur": 740.84,
+      "description": "Die Lumentum Holdings Inc. ist ein US-amerikanisches Technologieunternehmen mit Hauptsitz in San Jose im Bundesstaat Kalifornien. Das Unternehmen ist auf die Entwicklung und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -569,7 +568,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -578,7 +577,7 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -669,7 +668,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
