@@ -33,6 +33,7 @@ import datetime
 import urllib.parse
 import urllib.request
 import urllib.error
+from zoneinfo import ZoneInfo
 
 FINNHUB_BASE = "https://finnhub.io/api/v1"
 SEC_TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"
@@ -54,6 +55,30 @@ REDDIT_USER_AGENT = "ppb-stockmarket-signale/1.0 (personal dashboard)"
 
 WATCHLIST_SIZE = 15            # aktiv verfolgte US-Titel (persistent, nicht jeden Tag neu gewürfelt)
 ROTATION_PER_RUN = 3           # max. Plätze pro Lauf, die an frische Kandidaten abgegeben werden
+
+# ---------------------------------------------------------------------------
+# Ruhezeit: Freitag 21 Uhr bis Montag 7:30 Uhr (lokale Zeit) keine einzelnen
+# Telegram-Meldungen — stattdessen eine gesammelte Zusammenfassung am Montag.
+# ---------------------------------------------------------------------------
+LOCAL_TZ = ZoneInfo("Europe/Berlin")
+QUIET_START_WEEKDAY = 4   # Freitag (Montag=0 ... Sonntag=6)
+QUIET_START_HOUR = 21
+QUIET_END_WEEKDAY = 0     # Montag
+QUIET_END_HOUR = 7
+QUIET_END_MINUTE = 30
+
+
+def is_quiet_period(now):
+    wd = now.weekday()
+    if wd == QUIET_START_WEEKDAY and now.hour >= QUIET_START_HOUR:
+        return True
+    if wd in (5, 6):  # Samstag, Sonntag komplett
+        return True
+    if wd == QUIET_END_WEEKDAY and (now.hour < QUIET_END_HOUR
+                                     or (now.hour == QUIET_END_HOUR and now.minute < QUIET_END_MINUTE)):
+        return True
+    return False
+
 MACRO_ARTICLE_THRESHOLD = 3    # Firmennews (Finnhub) in den letzten 2 Tagen, ab der "Makro aktiv" gilt
 INSIDER_LOOKBACK_DAYS = 14
 CONGRESS_LOOKBACK_DAYS = 60     # grosszuegig, weil PTR-Meldungen bis zu 45 Tage verspaetet ankommen koennen
@@ -127,14 +152,16 @@ def fetch_finnhub_general_news(api_key):
 
 
 def count_topic_mentions(articles, keywords):
-    count = 0
-    newest_ts = 0
+    """Liefert nicht nur die Anzahl, sondern auch die passenden Artikel selbst
+    (neueste zuerst), damit Alarme eine kurze inhaltliche Zusammenfassung
+    zeigen koennen statt nur einer nackten Zahl."""
+    matches = []
     for a in articles:
         text = f"{a.get('headline', '')} {a.get('summary', '')}".lower()
         if any(kw in text for kw in keywords):
-            count += 1
-            newest_ts = max(newest_ts, a.get("datetime", 0) or 0)
-    return count, newest_ts
+            matches.append(a)
+    matches.sort(key=lambda a: a.get("datetime", 0) or 0, reverse=True)
+    return len(matches), matches
 
 
 def fetch_finnhub_company_news(api_key, ticker, days=2):
@@ -619,6 +646,9 @@ def save_dashboard_data(payload):
 # ---------------------------------------------------------------------------
 
 def check_topics(finnhub_key):
+    """Ermittelt den Themen-Puls und liefert (news_topics, alerts) zurueck.
+    Verschickt NICHTS mehr selbst — main() entscheidet je nach Ruhezeit,
+    ob sofort gesendet oder fuer die Montags-Zusammenfassung vorgemerkt wird."""
     old_state = load_state()
     new_state = {}
     alerts = []
@@ -628,7 +658,7 @@ def check_topics(finnhub_key):
     print(f"Finnhub-Marktnachrichten geladen: {len(articles)} Artikel.")
 
     for topic, keywords in TOPICS.items():
-        count, _ = count_topic_mentions(articles, keywords)
+        count, matches = count_topic_mentions(articles, keywords)
         old_count = old_state.get(topic, 0)
         new_state[topic] = count
         news_topics.append({"topic": topic, "vol": count})
@@ -636,27 +666,25 @@ def check_topics(finnhub_key):
         crossed = count >= THRESHOLD_COUNT and old_count < THRESHOLD_COUNT
         jumped = old_count > 0 and ((count - old_count) / old_count * 100) >= THRESHOLD_JUMP_PCT
         if crossed or jumped:
-            alerts.append(f"🟢 <b>{topic}</b>: {count} Erwähnungen (zuletzt {old_count})")
+            headline_lines = []
+            for a in matches[:2]:
+                headline = (a.get("headline") or "").strip()
+                if not headline:
+                    continue
+                if len(headline) > 100:
+                    headline = headline[:100].rsplit(" ", 1)[0] + "…"
+                source = (a.get("source") or "").strip()
+                headline_lines.append(f"   — {headline}" + (f" ({source})" if source else ""))
+            detail = ("\n" + "\n".join(headline_lines)) if headline_lines else ""
+            alerts.append(f"🟢 <b>{topic}</b>: {count} Erwähnungen (zuletzt {old_count}){detail}")
 
     save_state(new_state)
-
-    if alerts:
-        message = ("📊 <b>PPB Stockmarket-Signale</b>\nAuffällige Nachrichtenlage entdeckt:\n\n"
-                    + "\n".join(alerts)
-                    + "\n\nDashboard: https://ppbraun.github.io/ppb-stockmarket-signale/")
-        try:
-            send_telegram(message)
-            print("Telegram-Benachrichtigung gesendet.")
-        except Exception as e:
-            print(f"Telegram-Versand fehlgeschlagen: {e}")
-    else:
-        print("Keine Auffaelligkeiten in diesem Durchlauf.")
 
     news_topics.sort(key=lambda x: x["vol"], reverse=True)
     max_vol = max((n["vol"] for n in news_topics), default=1) or 1
     for n in news_topics:
         n["pct"] = round(n["vol"] / max_vol * 100)
-    return news_topics
+    return news_topics, alerts
 
 
 # ---------------------------------------------------------------------------
@@ -1001,25 +1029,72 @@ def main():
         print("Alter Ticker-Zustand hat unerwartetes Format, wird zurückgesetzt.")
         old_tickers_state = {}
 
-    news_topics = check_topics(finnhub_key)
+    pending_alerts = old_state.get("_pending_weekend_alerts", [])
+    if not isinstance(pending_alerts, list):
+        pending_alerts = []
+    last_summary_date = old_state.get("_last_weekly_summary_date")
+
+    now_local = datetime.datetime.now(LOCAL_TZ)
+    quiet = is_quiet_period(now_local)
+    today_local_str = now_local.date().isoformat()
+    is_monday = now_local.weekday() == QUIET_END_WEEKDAY
+
+    print(f"Lokale Zeit ({LOCAL_TZ.key}): {now_local.strftime('%A %Y-%m-%d %H:%M')} — "
+          f"{'Ruhezeit (Wochenende)' if quiet else 'normaler Betrieb'}.")
+
+    news_topics, topic_alerts = check_topics(finnhub_key)
     tickers, new_tickers_state = build_ticker_signals_auto(old_tickers_state, finnhub_key)
-
     ticker_alerts = diff_ticker_alerts(old_tickers_state, tickers)
-    if ticker_alerts:
-        message = ("🎯 <b>PPB Stockmarket-Signale</b>\nÄnderungen bei beobachteten Tickern:\n\n"
-                    + "\n".join(ticker_alerts)
-                    + "\n\nDashboard: https://ppbraun.github.io/ppb-stockmarket-signale/")
-        try:
-            send_telegram(message)
-            print("Telegram-Benachrichtigung (Ticker-Änderungen) gesendet.")
-        except Exception as e:
-            print(f"Telegram-Versand (Ticker-Änderungen) fehlgeschlagen: {e}")
-    else:
-        print("Keine Ticker-Änderungen gegenüber dem letzten Lauf.")
 
-    # Ticker-Stand fuer den naechsten Vergleich zusaetzlich im State sichern
+    all_alerts = topic_alerts + ticker_alerts
+
+    if quiet:
+        if all_alerts:
+            pending_alerts.extend(all_alerts)
+            print(f"Ruhezeit aktiv — {len(all_alerts)} Meldung(en) zurückgehalten "
+                  f"(insgesamt {len(pending_alerts)} für die Montags-Zusammenfassung vorgemerkt).")
+        else:
+            print("Ruhezeit aktiv — keine Auffälligkeiten, nichts vorzumerken.")
+    else:
+        # Montags zuerst die gesammelte Wochenend-Zusammenfassung verschicken (einmal pro Tag)
+        if is_monday and last_summary_date != today_local_str:
+            if pending_alerts:
+                capped = pending_alerts[:30]
+                extra = f"\n… und {len(pending_alerts) - 30} weitere" if len(pending_alerts) > 30 else ""
+                summary = ("📋 <b>Wochenend-Zusammenfassung</b>\n"
+                           "Das ist während der Ruhezeit (Fr 21 Uhr – Mo 7:30) aufgelaufen:\n\n"
+                           + "\n".join(capped) + extra
+                           + "\n\nDashboard: https://ppbraun.github.io/ppb-stockmarket-signale/")
+            else:
+                summary = ("📋 <b>Wochenend-Zusammenfassung</b>\n"
+                           "Keine besonderen Vorkommnisse während der Ruhezeit.\n\n"
+                           "Dashboard: https://ppbraun.github.io/ppb-stockmarket-signale/")
+            try:
+                send_telegram(summary)
+                print("Wochenend-Zusammenfassung gesendet.")
+            except Exception as e:
+                print(f"Versand der Wochenend-Zusammenfassung fehlgeschlagen: {e}")
+            pending_alerts = []
+            last_summary_date = today_local_str
+
+        # normaler Betrieb: aktuelle Auffaelligkeiten sofort als eine Nachricht senden
+        if all_alerts:
+            message = ("📊 <b>PPB Stockmarket-Signale</b>\nNeue Auffälligkeiten:\n\n"
+                        + "\n".join(all_alerts)
+                        + "\n\nDashboard: https://ppbraun.github.io/ppb-stockmarket-signale/")
+            try:
+                send_telegram(message)
+                print("Telegram-Benachrichtigung gesendet.")
+            except Exception as e:
+                print(f"Telegram-Versand fehlgeschlagen: {e}")
+        else:
+            print("Keine Auffälligkeiten in diesem Durchlauf.")
+
+    # Zustand sichern: Ticker-Stand + Ruhezeit-Buchhaltung
     state = load_state()
     state["_tickers"] = new_tickers_state
+    state["_pending_weekend_alerts"] = pending_alerts
+    state["_last_weekly_summary_date"] = last_summary_date
     save_state(state)
 
     payload = {
