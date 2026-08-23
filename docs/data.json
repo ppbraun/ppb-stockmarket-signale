@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T19:58:11.349789+00:00",
+  "generated_at": "2026-08-23T20:54:04.807214+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": -0.5,
       "priceEur": 89.01,
-      "description": "eBay ist ein US-amerikanisches Unternehmen, das einen der größten Online-Marktplätze betreibt. Es wurde am 3. September 1995 von Pierre Omidyar im kalifornischen San José unter…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -101,7 +101,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 264.42,
-      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -234,13 +234,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "APP",
-      "name": "AppLovin",
+      "tk": "AMD",
+      "name": "Advanced Micro Devices",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": 0.0,
-      "priceEur": 261.36,
+      "priceEur": 404.52,
       "description": null,
       "politician": null,
       "track": null,
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -264,19 +264,19 @@
           "active": false
         }
       },
-      "topic": "Communication Services",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "COP",
-      "name": "ConocoPhillips",
+      "tk": "HOOD",
+      "name": "Robinhood Markets",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": 0.0,
-      "priceEur": 115.28,
-      "description": "ConocoPhillips ist ein international tätiger Energiekonzern und gilt als der drittgrößte US-Ölkonzern. Der Hauptsitz befindet sich in Houston, USA. Die Aktien werden an der New…",
+      "priceEur": 92.43,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -299,21 +299,54 @@
           "active": false
         }
       },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
+      "topic": "Financials",
+      "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "LITE",
-      "name": "Lumentum",
+      "tk": "PG",
+      "name": "Procter & Gamble",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": 0.0,
-      "priceEur": 740.84,
-      "description": "Die Lumentum Holdings Inc. ist ein US-amerikanisches Technologieunternehmen mit Hauptsitz in San Jose im Bundesstaat Kalifornien. Das Unternehmen ist auf die Entwicklung und…",
+      "priceEur": 123.67,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "9Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PH",
+      "name": "Parker Hannifin",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 856.26,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -336,146 +369,6 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "AMD",
-      "name": "Advanced Micro Devices",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 404.52,
-      "description": "Advanced Micro Devices, Inc. (AMD) ist ein US-amerikanisches Unternehmen der Halbleiterindustrie mit Hauptsitz in Santa Clara, Kalifornien. AMD entwickelt und vertreibt…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "HOOD",
-      "name": "Robinhood Markets",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 92.43,
-      "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "PG",
-      "name": "Procter & Gamble",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 123.67,
-      "description": "The Procter & Gamble Company [NYSE: PG] ist ein US-amerikanischer, in 70 Staaten vertretener Konsumgüter-Konzern mit Hauptsitz in Cincinnati im US-Bundesstaat Ohio.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "8Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "PH",
-      "name": "Parker Hannifin",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 856.26,
-      "description": "Parker-Hannifin Corporation, originally Parker Appliance Company, is an American multinational industrial manufacturing company specializing in motion and control technologies.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
@@ -486,7 +379,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 137.83,
       "description": "Die Intercontinental Currency Exchange (ICE) oder kurz Intercontinental Exchange ist ein Börsenbetreiber mit Sitz in Atlanta, USA, der auf den elektronischen Handel von Optionen…",
       "politician": null,
@@ -521,7 +414,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 471.0,
       "description": "Die Northrop Grumman Corporation (NG) ist einer der größten US-amerikanischen Rüstungshersteller von Wehrtechnik für die Schiff-, Luft- und Raumfahrt sowie Informationstechnologie…",
       "politician": null,
@@ -556,9 +449,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 137.4,
-      "description": "Qualcomm Incorporated is an American multinational technology corporation headquartered in San Diego, California. The company develops and designs technologies for global…",
+      "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
       "politician": null,
       "track": null,
       "sig": {
@@ -572,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": false
@@ -586,6 +479,109 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "DDOG",
+      "name": "Datadog",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 201.4,
+      "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "GEN",
+      "name": "Gen Digital",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 24.73,
+      "description": "Gen Digital Inc. ist ein US-amerikanischer Entwickler von Sicherheitssoftware für Privatanwender. Der Hauptsitz des Unternehmens liegt in Tempe im Bundesstaat Arizona; und seit…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "HST",
+      "name": "Host Hotels & Resorts",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 19.84,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Real Estate",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -593,7 +589,7 @@
       "score": 2,
       "reaction": -4.3,
       "priceEur": 102.01,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -672,7 +668,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -824,7 +820,7 @@
       "score": 1,
       "reaction": 3.0,
       "priceEur": 109.56,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
