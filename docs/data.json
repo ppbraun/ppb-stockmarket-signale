@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T20:54:04.807214+00:00",
+  "generated_at": "2026-08-23T21:44:33.585958+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": -0.5,
       "priceEur": 89.01,
-      "description": null,
+      "description": "eBay ist ein US-amerikanisches Unternehmen, das einen der größten Online-Marktplätze betreibt. Es wurde am 3. September 1995 von Pierre Omidyar im kalifornischen San José unter…",
       "politician": null,
       "track": null,
       "sig": {
@@ -101,7 +101,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 264.42,
-      "description": null,
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -234,41 +234,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "AMD",
-      "name": "Advanced Micro Devices",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 404.52,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "HOOD",
       "name": "Robinhood Markets",
       "broker": true,
@@ -276,7 +241,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 92.43,
-      "description": null,
+      "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -311,7 +276,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 123.67,
-      "description": null,
+      "description": "The Procter & Gamble Company [NYSE: PG] ist ein US-amerikanischer, in 70 Staaten vertretener Konsumgüter-Konzern mit Hauptsitz in Cincinnati im US-Bundesstaat Ohio.",
       "politician": null,
       "track": null,
       "sig": {
@@ -325,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -346,7 +311,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 856.26,
-      "description": null,
+      "description": "Parker-Hannifin Corporation, originally Parker Appliance Company, is an American multinational industrial manufacturing company specializing in motion and control technologies.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -381,7 +346,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 137.83,
-      "description": "Die Intercontinental Currency Exchange (ICE) oder kurz Intercontinental Exchange ist ein Börsenbetreiber mit Sitz in Atlanta, USA, der auf den elektronischen Handel von Optionen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -416,7 +381,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 471.0,
-      "description": "Die Northrop Grumman Corporation (NG) ist einer der größten US-amerikanischen Rüstungshersteller von Wehrtechnik für die Schiff-, Luft- und Raumfahrt sowie Informationstechnologie…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -451,7 +416,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 137.4,
-      "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
+      "description": "Qualcomm Incorporated is an American multinational technology corporation headquartered in San Diego, California. The company develops and designs technologies for global…",
       "politician": null,
       "track": null,
       "sig": {
@@ -465,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -484,9 +449,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 201.4,
-      "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
+      "description": "Datadog, Inc. is an American company that provides an observability service for cloud-scale applications, providing monitoring of servers, databases, tools, and services, through…",
       "politician": null,
       "track": null,
       "sig": {
@@ -514,14 +479,49 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "GEN",
-      "name": "Gen Digital",
+      "tk": "CHTR",
+      "name": "Charter Communications",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 128.36,
+      "description": "Charter Communications ist ein US-amerikanischer Betreiber von Kabelnetzen mit digitalem und interaktivem Fernsehen, Video-on-Demand-, Internet- und Telefondiensten.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "WAB",
+      "name": "Wabtec",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 24.73,
-      "description": "Gen Digital Inc. ist ein US-amerikanischer Entwickler von Sicherheitssoftware für Privatanwender. Der Hauptsitz des Unternehmens liegt in Tempe im Bundesstaat Arizona; und seit…",
+      "priceEur": 254.35,
+      "description": "Wabtec Corporation ist ein US-amerikanisches Unternehmen, das im November 1999 aus der Fusion der Westinghouse Air Brake Company und MotivePower Industries entstand. Sitz des…",
       "politician": null,
       "track": null,
       "sig": {
@@ -543,19 +543,19 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "HST",
-      "name": "Host Hotels & Resorts",
+      "tk": "GILD",
+      "name": "Gilead Sciences",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 19.84,
-      "description": null,
+      "priceEur": 124.9,
+      "description": "Gilead Sciences, Inc. ist ein Pharmazie- und Biotechnologieunternehmen aus den Vereinigten Staaten mit Sitz in Foster City, Kalifornien. Das Unternehmen ist im S&P 500 gelistet.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -577,7 +577,7 @@
           "active": false
         }
       },
-      "topic": "Real Estate",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -589,7 +589,7 @@
       "score": 2,
       "reaction": -4.3,
       "priceEur": 102.01,
-      "description": null,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -668,7 +668,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -756,7 +756,7 @@
       "score": 0,
       "reaction": 5.2,
       "priceEur": 11.15,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -788,7 +788,7 @@
       "score": 0,
       "reaction": 2.8,
       "priceEur": 39.41,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -820,7 +820,7 @@
       "score": 1,
       "reaction": 3.0,
       "priceEur": 109.56,
-      "description": null,
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
