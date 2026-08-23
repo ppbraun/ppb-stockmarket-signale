@@ -36,16 +36,6 @@
       "baseline_price_usd": 187.3,
       "first_seen": "2026-08-22"
     },
-    "CBOE": {
-      "score": 2,
-      "baseline_price_usd": 300.74,
-      "first_seen": "2026-08-23"
-    },
-    "ICE": {
-      "score": 2,
-      "baseline_price_usd": 161.25,
-      "first_seen": "2026-08-23"
-    },
     "COP": {
       "score": 2,
       "baseline_price_usd": 134.87,
@@ -71,11 +61,6 @@
       "baseline_price_usd": 144.68,
       "first_seen": "2026-08-23"
     },
-    "DDOG": {
-      "score": 1,
-      "baseline_price_usd": 235.62,
-      "first_seen": "2026-08-23"
-    },
     "CRWD": {
       "score": 2,
       "baseline_price_usd": 191.95,
@@ -84,6 +69,21 @@
     "PH": {
       "score": 2,
       "baseline_price_usd": 1001.74,
+      "first_seen": "2026-08-23"
+    },
+    "KO": {
+      "score": 2,
+      "baseline_price_usd": 91.1,
+      "first_seen": "2026-08-23"
+    },
+    "ARES": {
+      "score": 2,
+      "baseline_price_usd": 141.25,
+      "first_seen": "2026-08-23"
+    },
+    "WMT": {
+      "score": 2,
+      "baseline_price_usd": 103.7,
       "first_seen": "2026-08-23"
     },
     "BABA": {
@@ -139,7 +139,13 @@
     "🆕 <b>PH</b> (Parker Hannifin) neu in der Liste — Score 2/5",
     "➖ <b>ISRG</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>GILD</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>MDLZ</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>MDLZ</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "🆕 <b>KO</b> (Coca-Cola Company (The)) neu in der Liste — Score 2/5",
+    "🆕 <b>ARES</b> (Ares Management) neu in der Liste — Score 2/5",
+    "🆕 <b>WMT</b> (Walmart) neu in der Liste — Score 2/5",
+    "➖ <b>CBOE</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>ICE</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>DDOG</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": null
 }
