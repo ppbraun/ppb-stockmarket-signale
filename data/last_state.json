@@ -7,7 +7,7 @@
   "Halbleiter / Chips": 0,
   "Energie / Öl & Gas": 1,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 1,
+  "Schifffahrt / Lieferketten": 2,
   "Krypto-Regulierung": 0,
   "Cybersecurity": 0,
   "_tickers": {
@@ -34,16 +34,6 @@
     "ABNB": {
       "score": 3,
       "baseline_price_usd": 187.3,
-      "first_seen": "2026-08-22"
-    },
-    "QCOM": {
-      "score": 2,
-      "baseline_price_usd": 160.75,
-      "first_seen": "2026-08-22"
-    },
-    "WMT": {
-      "score": 2,
-      "baseline_price_usd": 103.7,
       "first_seen": "2026-08-22"
     },
     "NOC": {
@@ -81,9 +71,19 @@
       "baseline_price_usd": 335.61,
       "first_seen": "2026-08-23"
     },
-    "TPL": {
+    "WAB": {
       "score": 1,
-      "baseline_price_usd": 383.64,
+      "baseline_price_usd": 297.57,
+      "first_seen": "2026-08-23"
+    },
+    "BBY": {
+      "score": 1,
+      "baseline_price_usd": 85.89,
+      "first_seen": "2026-08-23"
+    },
+    "AMD": {
+      "score": 2,
+      "baseline_price_usd": 473.25,
       "first_seen": "2026-08-23"
     },
     "BABA": {

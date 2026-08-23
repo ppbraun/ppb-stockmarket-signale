@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-23T07:24:15.463103+00:00",
+  "generated_at": "2026-08-23T09:00:56.144584+00:00",
   "newsTopics": [
+    {
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 2,
+      "pct": 100
+    },
     {
       "topic": "Zölle / Handelskonflikt",
       "vol": 1,
-      "pct": 100
+      "pct": 50
     },
     {
       "topic": "KI-Infrastruktur",
       "vol": 1,
-      "pct": 100
+      "pct": 50
     },
     {
       "topic": "Energie / Öl & Gas",
       "vol": 1,
-      "pct": 100
-    },
-    {
-      "topic": "Schifffahrt / Lieferketten",
-      "vol": 1,
-      "pct": 100
+      "pct": 50
     },
     {
       "topic": "Fed-Zinspolitik",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "23Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "21Std"
         },
         "predict": {
           "active": true
@@ -232,76 +232,6 @@
       "topic": "Consumer Discretionary",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "QCOM",
-      "name": "Qualcomm",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 137.4,
-      "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "WMT",
-      "name": "Walmart",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 88.64,
-      "description": "Walmart Inc. ist ein weltweit tätiger US-amerikanischer Einzelhandelskonzern, der einen großen Teil des US-Marktes beherrscht. Walmart ist in der Liste Fortune Global 500 auf…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "NOC",
@@ -451,7 +381,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 115.28,
-      "description": "ConocoPhillips ist ein international tätiger Energiekonzern und gilt als der drittgrößte US-Ölkonzern. Der Hauptsitz befindet sich in Houston, USA. Die Aktien werden an der New…",
+      "description": "ConocoPhillips Company is an American multinational corporation engaged in hydrocarbon exploration and production. It is based in the Energy Corridor district of Houston, Texas.",
       "politician": null,
       "track": null,
       "sig": {
@@ -486,7 +416,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 92.43,
       "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
       "politician": null,
@@ -521,7 +451,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 286.87,
       "description": null,
       "politician": null,
@@ -551,14 +481,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "TPL",
-      "name": "Texas Pacific Land Corporation",
+      "tk": "WAB",
+      "name": "Wabtec",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 327.92,
-      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
+      "priceEur": 254.35,
+      "description": "Wabtec Corporation ist ein US-amerikanisches Unternehmen, das im November 1999 aus der Fusion der Westinghouse Air Brake Company und MotivePower Industries entstand. Sitz des…",
       "politician": null,
       "track": null,
       "sig": {
@@ -580,9 +510,78 @@
           "active": false
         }
       },
-      "topic": "Energy",
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "BBY",
+      "name": "Best Buy",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 73.42,
+      "description": "Best Buy ist ein US-amerikanisches Unternehmen mit Firmensitz in Richfield, Minnesota.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "AMD",
+      "name": "Advanced Micro Devices",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 404.52,
+      "description": "Advanced Micro Devices, Inc. (AMD) ist ein US-amerikanisches Unternehmen der Halbleiterindustrie mit Hauptsitz in Santa Clara, Kalifornien. AMD entwickelt und vertreibt…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "20Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -671,7 +670,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "22Std"
         },
         "predict": {
           "active": false
@@ -706,7 +705,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "2T"
         },
         "predict": {
           "active": true
