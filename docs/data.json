@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T13:48:15.320659+00:00",
+  "generated_at": "2026-08-23T14:56:28.073930+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -13,11 +13,6 @@
     },
     {
       "topic": "KI-Infrastruktur",
-      "vol": 1,
-      "pct": 33
-    },
-    {
-      "topic": "Energie / Öl & Gas",
       "vol": 1,
       "pct": 33
     },
@@ -38,6 +33,11 @@
     },
     {
       "topic": "Halbleiter / Chips",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Energie / Öl & Gas",
       "vol": 0,
       "pct": 0
     },
@@ -171,7 +171,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 373.6,
-      "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "2T"
         },
         "predict": {
           "active": true
@@ -206,7 +206,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 160.1,
-      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -232,41 +232,6 @@
       "topic": "Consumer Discretionary",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "AMD",
-      "name": "Advanced Micro Devices",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 404.52,
-      "description": "Advanced Micro Devices, Inc. (AMD) ist ein US-amerikanisches Unternehmen der Halbleiterindustrie mit Hauptsitz in Santa Clara, Kalifornien. AMD entwickelt und vertreibt…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "PG",
@@ -325,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -416,7 +381,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 120.74,
-      "description": "Ares Management Corporation ist eine US-amerikanische Investmentgesellschaft, die in den Bereichen Privatkredite, Private Equity und Immobilien tätig ist. Das Unternehmen wurde…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -451,7 +416,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 88.64,
-      "description": "Walmart Inc. ist ein weltweit tätiger US-amerikanischer Einzelhandelskonzern, der einen großen Teil des US-Marktes beherrscht. Walmart ist in der Liste Fortune Global 500 auf…",
+      "description": "Walmart Inc. is an American multinational omnichannel retail corporation that operates a chain of hypermarkets, discount department stores, grocery stores, pharmacies, and gas…",
       "politician": null,
       "track": null,
       "sig": {
@@ -484,9 +449,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 261.36,
-      "description": "AppLovin ist ein 2012 von Adam Foroughi, Andrew Karam und John Krystynak gegründetes Unternehmen mit Sitz in Palo Alto in Kalifornien. Das Unternehmen bietet Entwicklern…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -514,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "ITW",
-      "name": "Illinois Tool Works",
+      "tk": "WAB",
+      "name": "Wabtec",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 241.29,
-      "description": "Illinois Tool Works (ITW) ist ein US-amerikanisches Unternehmen mit Firmensitz in Glenview, Illinois. ITW ist im Aktienindex S&P 500 gelistet. Zur ITW-Gruppe gehören in 56 Ländern…",
+      "priceEur": 254.35,
+      "description": "Wabtec Corporation ist ein US-amerikanisches Unternehmen, das im November 1999 aus der Fusion der Westinghouse Air Brake Company und MotivePower Industries entstand. Sitz des…",
       "politician": null,
       "track": null,
       "sig": {
@@ -548,14 +513,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "MDLZ",
-      "name": "Mondelez International",
+      "tk": "COP",
+      "name": "ConocoPhillips",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 55.09,
-      "description": "Mondelez International ist ein börsennotierter US-amerikanischer Lebensmittelkonzern mit Sitz in Chicago, Illinois, der überwiegend auf Markenprodukte in den Bereichen Snacks und…",
+      "priceEur": 115.28,
+      "description": "ConocoPhillips ist ein international tätiger Energiekonzern und gilt als der drittgrößte US-Ölkonzern. Der Hauptsitz befindet sich in Houston, USA. Die Aktien werden an der New…",
       "politician": null,
       "track": null,
       "sig": {
@@ -568,7 +533,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -577,9 +543,46 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "LITE",
+      "name": "Lumentum",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 740.84,
+      "description": "Die Lumentum Holdings Inc. ist ein US-amerikanisches Technologieunternehmen mit Hauptsitz in San Jose im Bundesstaat Kalifornien. Das Unternehmen ist auf die Entwicklung und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -622,7 +625,7 @@
       "score": 2,
       "reaction": 3.1,
       "priceEur": 25.1,
-      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -668,7 +671,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -689,7 +692,7 @@
       "score": 3,
       "reaction": -10.5,
       "priceEur": 79.67,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
       "politician": null,
       "track": null,
       "sig": {

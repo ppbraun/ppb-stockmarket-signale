@@ -5,7 +5,7 @@
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 1,
   "Halbleiter / Chips": 0,
-  "Energie / Öl & Gas": 1,
+  "Energie / Öl & Gas": 0,
   "Gesundheit / FDA-Zulassungen": 0,
   "Schifffahrt / Lieferketten": 2,
   "Krypto-Regulierung": 0,
@@ -35,11 +35,6 @@
       "score": 3,
       "baseline_price_usd": 187.3,
       "first_seen": "2026-08-22"
-    },
-    "AMD": {
-      "score": 2,
-      "baseline_price_usd": 473.25,
-      "first_seen": "2026-08-23"
     },
     "PG": {
       "score": 2,
@@ -76,14 +71,19 @@
       "baseline_price_usd": 305.77,
       "first_seen": "2026-08-23"
     },
-    "ITW": {
+    "WAB": {
       "score": 1,
-      "baseline_price_usd": 282.29,
+      "baseline_price_usd": 297.57,
       "first_seen": "2026-08-23"
     },
-    "MDLZ": {
-      "score": 1,
-      "baseline_price_usd": 64.45,
+    "COP": {
+      "score": 2,
+      "baseline_price_usd": 134.87,
+      "first_seen": "2026-08-23"
+    },
+    "LITE": {
+      "score": 2,
+      "baseline_price_usd": 866.71,
       "first_seen": "2026-08-23"
     },
     "BABA": {
@@ -152,7 +152,13 @@
     "🆕 <b>MDLZ</b> (Mondelez International) neu in der Liste — Score 1/5",
     "➖ <b>COP</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>HOOD</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>HD</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>HD</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "🆕 <b>WAB</b> (Wabtec) neu in der Liste — Score 1/5",
+    "🆕 <b>COP</b> (ConocoPhillips) neu in der Liste — Score 2/5",
+    "🆕 <b>LITE</b> (Lumentum) neu in der Liste — Score 2/5",
+    "➖ <b>AMD</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>ITW</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>MDLZ</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": null
 }
