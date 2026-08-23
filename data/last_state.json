@@ -36,11 +36,6 @@
       "baseline_price_usd": 187.3,
       "first_seen": "2026-08-22"
     },
-    "ISRG": {
-      "score": 2,
-      "baseline_price_usd": 378.81,
-      "first_seen": "2026-08-23"
-    },
     "CBOE": {
       "score": 2,
       "baseline_price_usd": 300.74,
@@ -71,19 +66,24 @@
       "baseline_price_usd": 473.25,
       "first_seen": "2026-08-23"
     },
-    "GILD": {
-      "score": 1,
-      "baseline_price_usd": 146.12,
-      "first_seen": "2026-08-23"
-    },
     "PG": {
       "score": 2,
       "baseline_price_usd": 144.68,
       "first_seen": "2026-08-23"
     },
-    "MDLZ": {
+    "DDOG": {
       "score": 1,
-      "baseline_price_usd": 64.45,
+      "baseline_price_usd": 235.62,
+      "first_seen": "2026-08-23"
+    },
+    "CRWD": {
+      "score": 2,
+      "baseline_price_usd": 191.95,
+      "first_seen": "2026-08-23"
+    },
+    "PH": {
+      "score": 2,
+      "baseline_price_usd": 1001.74,
       "first_seen": "2026-08-23"
     },
     "BABA": {
@@ -133,7 +133,13 @@
     "🆕 <b>MDLZ</b> (Mondelez International) neu in der Liste — Score 1/5",
     "➖ <b>NOC</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>WAB</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>BBY</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>BBY</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "🆕 <b>DDOG</b> (Datadog) neu in der Liste — Score 1/5",
+    "🆕 <b>CRWD</b> (CrowdStrike) neu in der Liste — Score 2/5",
+    "🆕 <b>PH</b> (Parker Hannifin) neu in der Liste — Score 2/5",
+    "➖ <b>ISRG</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>GILD</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>MDLZ</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": null
 }
