@@ -7,7 +7,7 @@
   "Halbleiter / Chips": 0,
   "Energie / Öl & Gas": 0,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 2,
+  "Schifffahrt / Lieferketten": 1,
   "Krypto-Regulierung": 0,
   "Cybersecurity": 0,
   "_tickers": {
@@ -22,12 +22,12 @@
       "first_seen": "2026-08-21"
     },
     "MOS": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 24.41,
       "first_seen": "2026-08-22"
     },
     "ROK": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 437.08,
       "first_seen": "2026-08-22"
     },
@@ -36,23 +36,8 @@
       "baseline_price_usd": 187.3,
       "first_seen": "2026-08-22"
     },
-    "PG": {
-      "score": 2,
-      "baseline_price_usd": 144.68,
-      "first_seen": "2026-08-23"
-    },
-    "PH": {
-      "score": 2,
-      "baseline_price_usd": 1001.74,
-      "first_seen": "2026-08-23"
-    },
-    "ICE": {
-      "score": 2,
-      "baseline_price_usd": 161.25,
-      "first_seen": "2026-08-23"
-    },
     "NOC": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 551.03,
       "first_seen": "2026-08-23"
     },
@@ -62,22 +47,22 @@
       "first_seen": "2026-08-23"
     },
     "DDOG": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 235.62,
       "first_seen": "2026-08-23"
     },
     "CHTR": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 150.17,
       "first_seen": "2026-08-23"
     },
     "APP": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 305.77,
       "first_seen": "2026-08-23"
     },
     "LITE": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 866.71,
       "first_seen": "2026-08-23"
     },
@@ -86,8 +71,23 @@
       "baseline_price_usd": 108.13,
       "first_seen": "2026-08-23"
     },
-    "BABA": {
+    "AMD": {
       "score": 2,
+      "baseline_price_usd": 473.25,
+      "first_seen": "2026-08-24"
+    },
+    "TPL": {
+      "score": 1,
+      "baseline_price_usd": 383.64,
+      "first_seen": "2026-08-24"
+    },
+    "ITW": {
+      "score": 1,
+      "baseline_price_usd": 282.29,
+      "first_seen": "2026-08-24"
+    },
+    "BABA": {
+      "score": 1,
       "baseline_price_usd": 124.71,
       "first_seen": "2026-08-18"
     },
@@ -102,7 +102,7 @@
       "first_seen": "2026-08-18"
     },
     "BIDU": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 104.12,
       "first_seen": "2026-08-18"
     },
@@ -212,7 +212,22 @@
     "🆕 <b>HOOD</b> (Robinhood Markets) neu in der Liste — Score 2/5",
     "➖ <b>GEN</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>ITW</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>CPAY</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>CPAY</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "📉 <b>MOS</b> weniger relevant: Score 3 → 2",
+    "📉 <b>ROK</b> weniger relevant: Score 3 → 2",
+    "📉 <b>NOC</b> weniger relevant: Score 2 → 1",
+    "📉 <b>DDOG</b> weniger relevant: Score 2 → 1",
+    "📉 <b>CHTR</b> weniger relevant: Score 2 → 1",
+    "📉 <b>APP</b> weniger relevant: Score 2 → 1",
+    "📉 <b>LITE</b> weniger relevant: Score 2 → 1",
+    "🆕 <b>AMD</b> (Advanced Micro Devices) neu in der Liste — Score 2/5",
+    "🆕 <b>TPL</b> (Texas Pacific Land Corporation) neu in der Liste — Score 1/5",
+    "🆕 <b>ITW</b> (Illinois Tool Works) neu in der Liste — Score 1/5",
+    "📉 <b>BABA</b> weniger relevant: Score 2 → 1",
+    "📉 <b>BIDU</b> weniger relevant: Score 3 → 2",
+    "➖ <b>PG</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>PH</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>ICE</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": null
 }
