@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-24T22:51:22.542671+00:00",
+  "generated_at": "2026-08-24T23:47:22.192016+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
-      "vol": 8,
+      "vol": 9,
       "pct": 100
-    },
-    {
-      "topic": "KI-Infrastruktur",
-      "vol": 2,
-      "pct": 25
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 2,
-      "pct": 25
+      "pct": 22
+    },
+    {
+      "topic": "KI-Infrastruktur",
+      "vol": 1,
+      "pct": 11
     },
     {
       "topic": "Fed-Zinspolitik",
@@ -129,40 +129,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "MOS",
-      "name": "Mosaic Company (The)",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -1.7,
-      "priceEur": 20.58,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
       "tk": "ROK",
       "name": "Rockwell Automation",
       "broker": true,
@@ -170,7 +136,7 @@
       "score": 2,
       "reaction": -1.7,
       "priceEur": 368.39,
-      "description": null,
+      "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -204,7 +170,7 @@
       "score": 3,
       "reaction": 1.6,
       "priceEur": 163.07,
-      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
+      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -218,7 +184,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -253,7 +219,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": false
@@ -288,7 +254,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -323,7 +289,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -358,7 +324,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -393,7 +359,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": false
@@ -428,7 +394,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -463,7 +429,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -479,14 +445,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "ICE",
-      "name": "Intercontinental Exchange",
+      "tk": "PG",
+      "name": "Procter & Gamble",
       "broker": true,
       "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 139.74,
-      "description": null,
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 125.69,
+      "description": "The Procter & Gamble Company [NYSE: PG] ist ein US-amerikanischer, in 70 Staaten vertretener Konsumgüter-Konzern mit Hauptsitz in Cincinnati im US-Bundesstaat Ohio.",
       "politician": null,
       "track": null,
       "sig": {
@@ -499,7 +465,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "19Std"
         },
         "predict": {
           "active": false
@@ -508,19 +475,19 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Consumer Staples",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CBOE",
-      "name": "Cboe Global Markets",
+      "tk": "ARES",
+      "name": "Ares Management",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 264.14,
-      "description": "Cboe Global Markets ist ein Finanzunternehmen mit Sitz in Chicago. Es betreibt die Chicagoer Optionsbörse, die größte amerikanische Börse für Finanzderivate, sowie die…",
+      "priceEur": 120.04,
+      "description": "Ares Management Corporation ist eine US-amerikanische Investmentgesellschaft, die in den Bereichen Privatkredite, Private Equity und Immobilien tätig ist. Das Unternehmen wurde…",
       "politician": null,
       "track": null,
       "sig": {
@@ -547,14 +514,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "PG",
-      "name": "Procter & Gamble",
+      "tk": "GILD",
+      "name": "Gilead Sciences",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": null,
-      "priceEur": 125.69,
-      "description": "The Procter & Gamble Company [NYSE: PG] ist ein US-amerikanischer, in 70 Staaten vertretener Konsumgüter-Konzern mit Hauptsitz in Cincinnati im US-Bundesstaat Ohio.",
+      "priceEur": 125.81,
+      "description": "Gilead Sciences, Inc. ist ein Pharmazie- und Biotechnologieunternehmen aus den Vereinigten Staaten mit Sitz in Foster City, Kalifornien. Das Unternehmen ist im S&P 500 gelistet.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -563,12 +530,11 @@
         },
         "insider": {
           "active": true,
-          "age": "1Std",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "18Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -577,9 +543,43 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
+      "topic": "Health Care",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 710.31,
+      "description": "Das Biotechnologie-Unternehmen Regeneron Pharmaceuticals wurde 1988 gegründet und wird an der Nasdaq-Börse unter dem Symbol „REGN“ gehandelt. Regeneron Pharmaceuticals ist…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BABA",
@@ -603,7 +603,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -624,7 +624,7 @@
       "score": 3,
       "reaction": 2.5,
       "priceEur": 25.03,
-      "description": null,
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -692,7 +692,7 @@
       "score": 2,
       "reaction": -11.5,
       "priceEur": 79.03,
-      "description": null,
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
