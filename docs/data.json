@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T23:47:22.192016+00:00",
+  "generated_at": "2026-08-25T03:18:08.674469+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -13,6 +13,11 @@
     },
     {
       "topic": "KI-Infrastruktur",
+      "vol": 1,
+      "pct": 11
+    },
+    {
+      "topic": "Energie / Öl & Gas",
       "vol": 1,
       "pct": 11
     },
@@ -33,11 +38,6 @@
     },
     {
       "topic": "Halbleiter / Chips",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "Energie / Öl & Gas",
       "vol": 0,
       "pct": 0
     },
@@ -63,7 +63,7 @@
       "name": "eBay Inc.",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": 2.4,
       "priceEur": 91.8,
       "description": "eBay ist ein US-amerikanisches Unternehmen, das einen der größten Online-Marktplätze betreibt. Es wurde am 3. September 1995 von Pierre Omidyar im kalifornischen San José unter…",
@@ -75,12 +75,11 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "1T"
+          "active": false
         },
         "predict": {
           "active": true
@@ -91,7 +90,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "AAPL",
@@ -110,7 +109,7 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
@@ -136,7 +135,7 @@
       "score": 2,
       "reaction": -1.7,
       "priceEur": 368.39,
-      "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -145,7 +144,7 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
@@ -167,7 +166,7 @@
       "name": "Airbnb",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": 1.6,
       "priceEur": 163.07,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
@@ -179,12 +178,11 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "13Std"
+          "active": false
         },
         "predict": {
           "active": true
@@ -195,17 +193,17 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "QCOM",
       "name": "Qualcomm",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": -1.4,
       "priceEur": 135.91,
-      "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -214,12 +212,11 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "19Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -230,7 +227,7 @@
       },
       "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "HOOD",
@@ -249,12 +246,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "19Std"
         },
         "predict": {
           "active": false
@@ -275,7 +272,7 @@
       "score": 2,
       "reaction": -3.5,
       "priceEur": 391.59,
-      "description": "Advanced Micro Devices, Inc. (AMD) ist ein US-amerikanisches Unternehmen der Halbleiterindustrie mit Hauptsitz in Santa Clara, Kalifornien. AMD entwickelt und vertreibt…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -284,12 +281,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -319,12 +316,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -354,12 +351,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1Std",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "22Std"
         },
         "predict": {
           "active": false
@@ -389,12 +386,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "11Std"
         },
         "predict": {
           "active": false
@@ -412,7 +409,7 @@
       "name": "ConocoPhillips",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": 0.0,
       "priceEur": 114.33,
       "description": "ConocoPhillips ist ein international tätiger Energiekonzern und gilt als der drittgrößte US-Ölkonzern. Der Hauptsitz befindet sich in Houston, USA. Die Aktien werden an der New…",
@@ -424,12 +421,11 @@
         },
         "insider": {
           "active": true,
-          "age": "1Std",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "6Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -442,7 +438,7 @@
       "ethics": [
         "Fossile Energie"
       ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "PG",
@@ -452,7 +448,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 125.69,
-      "description": "The Procter & Gamble Company [NYSE: PG] ist ein US-amerikanischer, in 70 Staaten vertretener Konsumgüter-Konzern mit Hauptsitz in Cincinnati im US-Bundesstaat Ohio.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -461,12 +457,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1Std",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -480,14 +476,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "ARES",
-      "name": "Ares Management",
+      "tk": "XYZ",
+      "name": "Block, Inc.",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 120.04,
-      "description": "Ares Management Corporation ist eine US-amerikanische Investmentgesellschaft, die in den Bereichen Privatkredite, Private Equity und Immobilien tätig ist. Das Unternehmen wurde…",
+      "priceEur": 69.77,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -496,7 +492,7 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
@@ -514,14 +510,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "GILD",
-      "name": "Gilead Sciences",
+      "tk": "COIN",
+      "name": "Coinbase",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 125.81,
-      "description": "Gilead Sciences, Inc. ist ein Pharmazie- und Biotechnologieunternehmen aus den Vereinigten Staaten mit Sitz in Foster City, Kalifornien. Das Unternehmen ist im S&P 500 gelistet.…",
+      "priceEur": 153.88,
+      "description": "Coinbase Global, Inc. is an American cryptocurrency exchange. It was founded in 2012 by Brian Armstrong and Fred Ehrsam. Coinbase has over 100 million users, and is the largest…",
       "politician": null,
       "track": null,
       "sig": {
@@ -530,11 +526,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -543,19 +540,19 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "REGN",
-      "name": "Regeneron Pharmaceuticals",
+      "tk": "TMO",
+      "name": "Thermo Fisher Scientific",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 710.31,
-      "description": "Das Biotechnologie-Unternehmen Regeneron Pharmaceuticals wurde 1988 gegründet und wird an der Nasdaq-Börse unter dem Symbol „REGN“ gehandelt. Regeneron Pharmaceuticals ist…",
+      "priceEur": 539.04,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -564,7 +561,7 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
@@ -598,12 +595,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1Std",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -633,12 +630,12 @@
         },
         "insider": {
           "active": true,
-          "age": "7T",
+          "age": "8T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -671,7 +668,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -692,7 +689,7 @@
       "score": 2,
       "reaction": -11.5,
       "priceEur": 79.03,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -701,7 +698,7 @@
         },
         "insider": {
           "active": true,
-          "age": "13T",
+          "age": "14T",
           "src": "SEC"
         },
         "macro": {
@@ -790,7 +787,7 @@
       "score": 0,
       "reaction": 2.6,
       "priceEur": 39.45,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -831,7 +828,7 @@
         },
         "insider": {
           "active": true,
-          "age": "11T",
+          "age": "12T",
           "src": "SEC"
         },
         "macro": {
