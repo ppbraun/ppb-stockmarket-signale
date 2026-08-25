@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-25T17:53:59.195386+00:00",
+  "generated_at": "2026-08-25T19:23:08.117058+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
-      "vol": 7,
+      "vol": 6,
       "pct": 100
     },
     {
       "topic": "KI-Infrastruktur",
       "vol": 1,
-      "pct": 14
+      "pct": 17
     },
     {
       "topic": "Halbleiter / Chips",
       "vol": 1,
-      "pct": 14
+      "pct": 17
     },
     {
       "topic": "Energie / Öl & Gas",
       "vol": 1,
-      "pct": 14
+      "pct": 17
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 1,
-      "pct": 14
+      "pct": 17
     },
     {
       "topic": "Fed-Zinspolitik",
@@ -64,9 +64,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.1,
-      "priceEur": 265.4,
-      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
+      "reaction": -0.1,
+      "priceEur": 264.96,
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -94,83 +94,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "AMD",
-      "name": "Advanced Micro Devices",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.9,
-      "priceEur": 409.26,
-      "description": "Advanced Micro Devices, Inc. (AMD) ist ein US-amerikanisches Unternehmen der Halbleiterindustrie mit Hauptsitz in Santa Clara, Kalifornien. AMD entwickelt und vertreibt…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CRWD",
-      "name": "CrowdStrike",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -4.5,
-      "priceEur": 157.2,
-      "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "6Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "KO",
       "name": "Coca-Cola Company (The)",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.4,
-      "priceEur": 78.8,
+      "reaction": -0.5,
+      "priceEur": 78.71,
       "description": null,
       "politician": null,
       "track": null,
@@ -185,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -204,9 +134,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 3.9,
-      "priceEur": 735.88,
-      "description": null,
+      "reaction": 5.9,
+      "priceEur": 749.47,
+      "description": "Die Lumentum Holdings Inc. ist ein US-amerikanisches Technologieunternehmen mit Hauptsitz in San Jose im Bundesstaat Kalifornien. Das Unternehmen ist auf die Entwicklung und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -220,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -239,9 +169,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.9,
-      "priceEur": 124.63,
-      "description": "The Procter & Gamble Company (P&G) is an American multinational consumer goods corporation incorporated and headquartered in Cincinnati, Ohio. The company was founded in 1837 by…",
+      "reaction": -0.8,
+      "priceEur": 124.66,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -255,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -274,9 +204,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 4.9,
-      "priceEur": 161.38,
-      "description": "Coinbase Global, Inc. is an American cryptocurrency exchange. It was founded in 2012 by Brian Armstrong and Fred Ehrsam. Coinbase has over 100 million users, and is the largest…",
+      "reaction": 5.0,
+      "priceEur": 161.59,
+      "description": "Die Coinbase, auch Coinbase-Transaktion, ist die erste Transaktion, die in einen Block einer Blockchain geschrieben wird. Während reguläre Transaktionen im Abschnitt „Inputs“…",
       "politician": null,
       "track": null,
       "sig": {
@@ -309,9 +239,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.1,
-      "priceEur": 189.85,
-      "description": null,
+      "reaction": -0.7,
+      "priceEur": 190.65,
+      "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
       "politician": null,
       "track": null,
       "sig": {
@@ -343,9 +273,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 123.03,
-      "description": "Blackstone Inc. is an American alternative investment management company based in New York City. It was founded in 1985 as a mergers and acquisitions firm by Peter Peterson and…",
+      "reaction": -0.3,
+      "priceEur": 122.83,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -378,8 +308,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.4,
-      "priceEur": 122.95,
+      "reaction": -2.2,
+      "priceEur": 121.97,
       "description": null,
       "politician": null,
       "track": null,
@@ -394,7 +324,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -413,8 +343,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.5,
-      "priceEur": 1275.65,
+      "reaction": -2.3,
+      "priceEur": 1265.65,
       "description": "SanDisk ist ein multinationales Unternehmen mit Sitz in Milpitas, Kalifornien, das Flash-Speicher-Produkte wie Speicherkarten, USB-Sticks und Solid-State-Drives herstellt. 2016…",
       "politician": null,
       "track": null,
@@ -429,7 +359,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -448,9 +378,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 327.78,
-      "description": "Visa Inc. is an American multinational payment card services corporation headquartered in San Francisco, California. It facilitates electronic funds transfers worldwide, most…",
+      "reaction": 0.2,
+      "priceEur": 328.3,
+      "description": "Die Visa Inc. ist eine Aktiengesellschaft und neben Mastercard eine der beiden großen Firmen für Zahlungskarten und beschäftigt rund 31.600 Mitarbeiter. Visa vergibt weltweit…",
       "politician": null,
       "track": null,
       "sig": {
@@ -464,7 +394,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "20Std"
         },
         "predict": {
           "active": false
@@ -483,9 +413,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 119.27,
-      "description": null,
+      "reaction": 0.4,
+      "priceEur": 119.75,
+      "description": "Vistra Corp. is an integrated retail electricity and power generation company based in Irving, Texas. The company is the largest competitive power generator in the U.S. with a…",
       "politician": null,
       "track": null,
       "sig": {
@@ -499,7 +429,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -513,48 +443,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "IDXX",
-      "name": "Idexx Laboratories",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 475.04,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "WDC",
       "name": "Western Digital",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 380.79,
-      "description": "Western Digital Corporation, doing business as WD, is an American data storage company headquartered in San Jose, California. Established in 1970, the company is one of the…",
+      "reaction": -0.1,
+      "priceEur": 380.36,
+      "description": "Western Digital Corporation ist ein US-amerikanischer Hersteller von Festplattenlaufwerken und Speicherprodukten mit Hauptsitz in San José (Kalifornien).",
       "politician": null,
       "track": null,
       "sig": {
@@ -568,7 +464,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -582,13 +478,81 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "BABA",
-      "name": "Alibaba Group Holding",
+      "tk": "ANET",
+      "name": "Arista Networks",
       "broker": true,
-      "market": "cn",
-      "score": 3,
-      "reaction": -4.3,
-      "priceEur": 102.35,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 162.44,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "NSC",
+      "name": "Norfolk Southern",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 302.69,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 321.94,
       "description": null,
       "politician": null,
       "track": null,
@@ -602,8 +566,42 @@
           "src": "SEC"
         },
         "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Energy",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "BABA",
+      "name": "Alibaba Group Holding",
+      "broker": true,
+      "market": "cn",
+      "score": 3,
+      "reaction": -4.7,
+      "priceEur": 101.95,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
           "active": true,
-          "age": "7Std"
+          "age": "1Std",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -622,7 +620,7 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": 2.6,
+      "reaction": 2.7,
       "priceEur": 25.09,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
@@ -657,8 +655,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": 1.2,
-      "priceEur": 75.43,
+      "reaction": 0.7,
+      "priceEur": 75.06,
       "description": null,
       "politician": null,
       "track": null,
@@ -671,7 +669,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -690,9 +688,9 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -10.8,
-      "priceEur": 79.66,
-      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
+      "reaction": -11.0,
+      "priceEur": 79.44,
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -724,8 +722,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -3.3,
-      "priceEur": 3.82,
+      "reaction": -3.7,
+      "priceEur": 3.8,
       "description": null,
       "politician": null,
       "track": null,
@@ -738,7 +736,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -757,8 +755,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -0.9,
-      "priceEur": 10.54,
+      "reaction": -1.4,
+      "priceEur": 10.49,
       "description": null,
       "politician": null,
       "track": null,
@@ -790,7 +788,7 @@
       "market": "cn",
       "score": 0,
       "reaction": 2.4,
-      "priceEur": 39.39,
+      "priceEur": 39.37,
       "description": null,
       "politician": null,
       "track": null,
@@ -821,9 +819,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": 3.3,
-      "priceEur": 110.17,
-      "description": null,
+      "reaction": 3.4,
+      "priceEur": 110.31,
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
