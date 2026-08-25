@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T21:59:09.191587+00:00",
+  "generated_at": "2026-08-25T23:02:36.386971+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -92,75 +92,6 @@
       "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "COIN",
-      "name": "Coinbase",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 4.3,
-      "priceEur": 160.49,
-      "description": "Die Coinbase, auch Coinbase-Transaktion, ist die erste Transaktion, die in einen Block einer Blockchain geschrieben wird. Während reguläre Transaktionen im Abschnitt „Inputs“…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "PGR",
-      "name": "Progressive Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.8,
-      "priceEur": 190.44,
-      "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "BX",
@@ -219,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -254,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -289,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "23Std"
         },
         "predict": {
           "active": false
@@ -324,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -359,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -394,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -429,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -483,7 +414,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 32.1,
       "description": "Chipotle Mexican Grill [tʃɪˈpoʊtleɪ] ist eine US-amerikanische Schnellrestaurantkette, die mexikanisches Essen wie Burritos oder Tacos verkauft. Der Firmensitz der Kette befindet…",
       "politician": null,
@@ -518,9 +449,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 171.4,
-      "description": "Diamondback Energy, Inc. ist ein US-amerikanisches Unternehmen, das in der Förderung von Erdöl, Erdgas und Flüssigerdgas tätig ist und seinen Hauptsitz in Midland, Texas hat. Alle…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -549,14 +480,49 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "VLO",
-      "name": "Valero Energy",
+      "tk": "BDX",
+      "name": "Becton Dickinson",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 162.73,
+      "description": "BD  ist eines der größten internationalen Medizintechnologie-Unternehmen. Es entwickelt, produziert und vertreibt medizinische Einmalartikel, Gerätesysteme und Reagenzien. BD…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "SPG",
+      "name": "Simon Property Group",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 291.9,
-      "description": null,
+      "priceEur": 187.78,
+      "description": "Die Simon Property Group (SPG) ist ein US-amerikanischer Real-Estate-Investment-Trust (REIT) mit Firmensitz in Indianapolis, Indiana. Das Unternehmen ist in dem Verkauf und der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -578,11 +544,44 @@
           "active": false
         }
       },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
+      "topic": "Real Estate",
+      "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "PLTR",
+      "name": "Palantir Technologies",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 148.11,
+      "description": "Palantir Technologies Inc. ist ein US-amerikanischer Anbieter von Software und Dienstleistungen der Systemanalyse, der auf die Auswertung großer Datenmengen und die Herstellung…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -606,7 +605,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -674,7 +673,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -741,7 +740,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
