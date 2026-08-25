@@ -5,7 +5,7 @@
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 1,
   "Halbleiter / Chips": 1,
-  "Energie / Öl & Gas": 0,
+  "Energie / Öl & Gas": 1,
   "Gesundheit / FDA-Zulassungen": 0,
   "Schifffahrt / Lieferketten": 1,
   "Krypto-Regulierung": 0,
@@ -15,16 +15,6 @@
       "score": 3,
       "baseline_price_usd": 309.35,
       "first_seen": "2026-08-21"
-    },
-    "ABNB": {
-      "score": 2,
-      "baseline_price_usd": 187.3,
-      "first_seen": "2026-08-22"
-    },
-    "HOOD": {
-      "score": 2,
-      "baseline_price_usd": 108.13,
-      "first_seen": "2026-08-23"
     },
     "AMD": {
       "score": 2,
@@ -76,14 +66,24 @@
       "baseline_price_usd": 1510.22,
       "first_seen": "2026-08-25"
     },
-    "MSI": {
-      "score": 1,
-      "baseline_price_usd": 485.33,
-      "first_seen": "2026-08-25"
-    },
     "V": {
       "score": 2,
       "baseline_price_usd": 381.935,
+      "first_seen": "2026-08-25"
+    },
+    "VST": {
+      "score": 2,
+      "baseline_price_usd": 139.09,
+      "first_seen": "2026-08-25"
+    },
+    "IDXX": {
+      "score": 1,
+      "baseline_price_usd": 553.99,
+      "first_seen": "2026-08-25"
+    },
+    "WDC": {
+      "score": 2,
+      "baseline_price_usd": 444.07,
       "first_seen": "2026-08-25"
     },
     "BABA": {
@@ -107,7 +107,7 @@
       "first_seen": "2026-08-18"
     },
     "NIO": {
-      "score": 0,
+      "score": 1,
       "baseline_price_usd": 4.6,
       "first_seen": "2026-08-18"
     },
