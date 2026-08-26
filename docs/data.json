@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T11:57:27.879366+00:00",
+  "generated_at": "2026-08-26T14:28:41.962498+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -32,6 +32,11 @@
       "pct": 20
     },
     {
+      "topic": "Cybersecurity",
+      "vol": 1,
+      "pct": 20
+    },
+    {
       "topic": "Fed-Zinspolitik",
       "vol": 0,
       "pct": 0
@@ -50,11 +55,6 @@
       "topic": "Gesundheit / FDA-Zulassungen",
       "vol": 0,
       "pct": 0
-    },
-    {
-      "topic": "Cybersecurity",
-      "vol": 0,
-      "pct": 0
     }
   ],
   "tickers": [
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.2,
-      "priceEur": 265.74,
+      "reaction": 1.1,
+      "priceEur": 267.97,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.6,
-      "priceEur": 122.66,
+      "reaction": -1.3,
+      "priceEur": 123.06,
       "description": null,
       "politician": null,
       "track": null,
@@ -129,49 +129,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "XYZ",
-      "name": "Block, Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 70.93,
-      "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "CMG",
       "name": "Chipotle Mexican Grill",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 32.1,
-      "description": "Chipotle Mexican Grill [tʃɪˈpoʊtleɪ] ist eine US-amerikanische Schnellrestaurantkette, die mexikanisches Essen wie Burritos oder Tacos verkauft. Der Firmensitz der Kette befindet…",
+      "reaction": 0.1,
+      "priceEur": 32.11,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -204,9 +169,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 162.73,
-      "description": "BD  ist eines der größten internationalen Medizintechnologie-Unternehmen. Es entwickelt, produziert und vertreibt medizinische Einmalartikel, Gerätesysteme und Reagenzien. BD…",
+      "reaction": 0.6,
+      "priceEur": 163.58,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -220,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "22Std"
         },
         "predict": {
           "active": false
@@ -239,9 +204,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 148.11,
-      "description": "Palantir Technologies Inc. ist ein US-amerikanischer Anbieter von Software und Dienstleistungen der Systemanalyse, der auf die Auswertung großer Datenmengen und die Herstellung…",
+      "reaction": 1.7,
+      "priceEur": 150.58,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -255,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -274,9 +239,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 182.69,
-      "description": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on…",
+      "reaction": -1.3,
+      "priceEur": 180.28,
+      "description": "Die Nvidia Corporation ist ein US-amerikanisches Unternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -309,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 291.46,
+      "reaction": -0.6,
+      "priceEur": 289.68,
       "description": "Palo Alto Networks, Inc. ist ein amerikanisches multinationales IT-Sicherheitsunternehmen mit Hauptsitz in Santa Clara, Kalifornien. Seine Kernprodukte sind eine Plattform, die…",
       "politician": null,
       "track": null,
@@ -325,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "19Std"
         },
         "predict": {
           "active": false
@@ -344,8 +309,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 34.7,
+      "reaction": -0.5,
+      "priceEur": 34.51,
       "description": "Fidelity National Information Services (FIS) ist ein amerikanisches Unternehmen, das im Umfeld von Finanzdienstleistungen unterstützende Software und die Abwicklung finanzieller…",
       "politician": null,
       "track": null,
@@ -379,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 540.78,
+      "reaction": 0.4,
+      "priceEur": 542.54,
       "description": "John Deere bezeichnet die Hauptmarke des US-amerikanischen Industrieunternehmens Deere & Company. Sie geht zurück auf den gleichnamigen Unternehmensgründer. Das Unternehmen ist…",
       "politician": null,
       "track": null,
@@ -414,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 289.81,
+      "reaction": 0.1,
+      "priceEur": 289.84,
       "description": "Expedia Group, Inc. is an American travel technology company that owns and operates travel fare aggregators and travel metasearch engines, including Expedia, Hotels.com, Vrbo,…",
       "politician": null,
       "track": null,
@@ -449,8 +414,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 125.91,
+      "reaction": -0.3,
+      "priceEur": 125.49,
       "description": "EOG Resources ist ein Unternehmen aus den Vereinigten Staaten mit Sitz in Houston, Texas. EOG stand ursprünglich für Enron Oil & Gas. Das Unternehmen ist im Aktienindex S&P 500…",
       "politician": null,
       "track": null,
@@ -481,47 +446,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "NTRS",
-      "name": "Northern Trust",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 160.2,
-      "description": "Northern Trust ist ein Finanzdienstleister aus den Vereinigten Staaten mit Sitz in Chicago, Illinois. Es hat sich auf Unternehmen, institutionelle Anleger und sehr vermögende…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "CRWD",
       "name": "CrowdStrike",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 158.96,
+      "reaction": 1.2,
+      "priceEur": 160.74,
       "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
       "politician": null,
       "track": null,
@@ -536,7 +467,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "19Std"
         },
         "predict": {
           "active": false
@@ -550,14 +481,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AFL",
-      "name": "Aflac",
+      "tk": "COR",
+      "name": "Cencora",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 99.62,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "priceEur": 282.1,
+      "description": "Cencora ist ein Arzneimittelgroßhändler aus den Vereinigten Staaten mit Firmensitz in Chesterbrook, Pennsylvania. Cencora ist im Finanzindex S&P 500 gelistet. Im Unternehmen sind…",
       "politician": null,
       "track": null,
       "sig": {
@@ -579,7 +510,75 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "ANET",
+      "name": "Arista Networks",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 167.2,
+      "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "OTIS",
+      "name": "Otis Worldwide",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 62.18,
+      "description": "Otis Worldwide Corporation, doing business as its former legal name Otis Elevator Company and styled as OTIS, is an American company that develops, manufactures and markets…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -589,8 +588,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -4.2,
-      "priceEur": 102.42,
+      "reaction": -3.0,
+      "priceEur": 103.66,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -601,41 +600,6 @@
         "insider": {
           "active": true,
           "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "22Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "JD",
-      "name": "JD.com",
-      "broker": true,
-      "market": "cn",
-      "score": 3,
-      "reaction": 3.0,
-      "priceEur": 25.18,
-      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "9T",
           "src": "SEC"
         },
         "macro": {
@@ -654,13 +618,48 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
+      "tk": "JD",
+      "name": "JD.com",
+      "broker": true,
+      "market": "cn",
+      "score": 3,
+      "reaction": 1.6,
+      "priceEur": 24.82,
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "9T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2T"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
       "tk": "PDD",
       "name": "PDD Holdings (Pinduoduo)",
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": 0.9,
-      "priceEur": 75.24,
+      "reaction": 0.1,
+      "priceEur": 74.6,
       "description": null,
       "politician": null,
       "track": null,
@@ -673,7 +672,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -692,9 +691,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -10.3,
-      "priceEur": 80.12,
-      "description": null,
+      "reaction": -10.7,
+      "priceEur": 79.71,
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -724,8 +723,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -3.3,
-      "priceEur": 3.82,
+      "reaction": -3.6,
+      "priceEur": 3.8,
       "description": null,
       "politician": null,
       "track": null,
@@ -738,7 +737,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "20Std"
         },
         "predict": {
           "active": false
@@ -757,8 +756,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -1.1,
-      "priceEur": 10.52,
+      "reaction": -0.6,
+      "priceEur": 10.58,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -789,8 +788,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 2.5,
-      "priceEur": 39.43,
+      "reaction": 1.6,
+      "priceEur": 39.06,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -821,8 +820,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": 3.5,
-      "priceEur": 110.44,
+      "reaction": -0.2,
+      "priceEur": 106.4,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,

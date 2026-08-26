@@ -9,7 +9,7 @@
   "Gesundheit / FDA-Zulassungen": 0,
   "Schifffahrt / Lieferketten": 1,
   "Krypto-Regulierung": 1,
-  "Cybersecurity": 0,
+  "Cybersecurity": 1,
   "_tickers": {
     "AAPL": {
       "score": 3,
@@ -19,11 +19,6 @@
     "PODD": {
       "score": 3,
       "baseline_price_usd": 145.42,
-      "first_seen": "2026-08-25"
-    },
-    "XYZ": {
-      "score": 2,
-      "baseline_price_usd": 82.72,
       "first_seen": "2026-08-25"
     },
     "CMG": {
@@ -71,19 +66,24 @@
       "baseline_price_usd": 146.83,
       "first_seen": "2026-08-26"
     },
-    "NTRS": {
-      "score": 1,
-      "baseline_price_usd": 186.82,
-      "first_seen": "2026-08-26"
-    },
     "CRWD": {
       "score": 2,
       "baseline_price_usd": 185.38,
       "first_seen": "2026-08-26"
     },
-    "AFL": {
+    "COR": {
       "score": 1,
-      "baseline_price_usd": 116.18,
+      "baseline_price_usd": 329.18,
+      "first_seen": "2026-08-26"
+    },
+    "ANET": {
+      "score": 1,
+      "baseline_price_usd": 195.11,
+      "first_seen": "2026-08-26"
+    },
+    "OTIS": {
+      "score": 1,
+      "baseline_price_usd": 72.56,
       "first_seen": "2026-08-26"
     },
     "BABA": {
