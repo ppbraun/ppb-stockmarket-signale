@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T08:06:17.724601+00:00",
+  "generated_at": "2026-08-26T10:22:19.037863+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -136,7 +136,7 @@
       "score": 2,
       "reaction": 1.5,
       "priceEur": 386.51,
-      "description": "Western Digital Corporation, doing business as WD, is an American data storage company headquartered in San Jose, California. Established in 1970, the company is one of the…",
+      "description": "Western Digital Corporation ist ein US-amerikanischer Hersteller von Festplattenlaufwerken und Speicherprodukten mit Hauptsitz in San José (Kalifornien).",
       "politician": null,
       "track": null,
       "sig": {
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -171,7 +171,42 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 57.98,
-      "description": null,
+      "description": "Vivmark Residential, based in Arlington, Virginia, and Chicago, Illinois, is a real estate investment trust that invests in apartments. As of August 2026, the company owned or had…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Real Estate",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "XYZ",
+      "name": "Block, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 70.93,
+      "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -194,41 +229,6 @@
           "active": false
         }
       },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "XYZ",
-      "name": "Block, Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 70.93,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "21Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
@@ -241,7 +241,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 32.1,
-      "description": null,
+      "description": "Chipotle Mexican Grill [tʃɪˈpoʊtleɪ] ist eine US-amerikanische Schnellrestaurantkette, die mexikanisches Essen wie Burritos oder Tacos verkauft. Der Firmensitz der Kette befindet…",
       "politician": null,
       "track": null,
       "sig": {
@@ -269,42 +269,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "FANG",
-      "name": "Diamondback Energy",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 171.4,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "BDX",
       "name": "Becton Dickinson",
       "broker": true,
@@ -326,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -361,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -396,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -431,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -452,7 +416,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 34.7,
-      "description": null,
+      "description": "Fidelity National Information Services (FIS) ist ein amerikanisches Unternehmen, das im Umfeld von Finanzdienstleistungen unterstützende Software und die Abwicklung finanzieller…",
       "politician": null,
       "track": null,
       "sig": {
@@ -466,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "23Std"
         },
         "predict": {
           "active": false
@@ -480,80 +444,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VMC",
-      "name": "Vulcan Materials Company",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 235.03,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "TPR",
-      "name": "Tapestry, Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 111.58,
-      "description": "Tapestry, Inc. is an American holding company based in New York City which is the parent company of Coach New York and Kate Spade New York. Originally named Coach, Inc., the…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "DE",
       "name": "Deere & Company",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 540.78,
       "description": "John Deere bezeichnet die Hauptmarke des US-amerikanischen Industrieunternehmens Deere & Company. Sie geht zurück auf den gleichnamigen Unternehmensgründer. Das Unternehmen ist…",
       "politician": null,
@@ -569,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "22Std"
         },
         "predict": {
           "active": false
@@ -580,6 +476,112 @@
       },
       "topic": "Industrials",
       "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "EXPE",
+      "name": "Expedia Group",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 289.81,
+      "description": "Expedia Group, Inc. is an American travel technology company that owns and operates travel fare aggregators and travel metasearch engines, including Expedia, Hotels.com, Vrbo,…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "22Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 319.66,
+      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Energy",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "EOG",
+      "name": "EOG Resources",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 125.91,
+      "description": "EOG Resources ist ein Unternehmen aus den Vereinigten Staaten mit Sitz in Houston, Texas. EOG stand ursprünglich für Enron Oil & Gas. Das Unternehmen ist im Aktienindex S&P 500…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
@@ -604,7 +606,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "21Std"
         },
         "predict": {
           "active": true
@@ -672,7 +674,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -737,7 +739,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
