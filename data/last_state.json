@@ -5,7 +5,7 @@
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 1,
   "Halbleiter / Chips": 1,
-  "Energie / Öl & Gas": 1,
+  "Energie / Öl & Gas": 3,
   "Gesundheit / FDA-Zulassungen": 0,
   "Schifffahrt / Lieferketten": 1,
   "Krypto-Regulierung": 1,
@@ -19,16 +19,6 @@
     "PODD": {
       "score": 3,
       "baseline_price_usd": 145.42,
-      "first_seen": "2026-08-25"
-    },
-    "V": {
-      "score": 2,
-      "baseline_price_usd": 381.935,
-      "first_seen": "2026-08-25"
-    },
-    "VST": {
-      "score": 2,
-      "baseline_price_usd": 139.09,
       "first_seen": "2026-08-25"
     },
     "WDC": {
@@ -47,7 +37,7 @@
       "first_seen": "2026-08-25"
     },
     "DASH": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 233.5,
       "first_seen": "2026-08-25"
     },
@@ -81,10 +71,20 @@
       "baseline_price_usd": 339.9,
       "first_seen": "2026-08-25"
     },
-    "MSI": {
+    "LYV": {
       "score": 1,
-      "baseline_price_usd": 485.39,
-      "first_seen": "2026-08-25"
+      "baseline_price_usd": 186.77,
+      "first_seen": "2026-08-26"
+    },
+    "FIS": {
+      "score": 2,
+      "baseline_price_usd": 40.47,
+      "first_seen": "2026-08-26"
+    },
+    "OTIS": {
+      "score": 1,
+      "baseline_price_usd": 71.46,
+      "first_seen": "2026-08-26"
     },
     "BABA": {
       "score": 3,
@@ -102,7 +102,7 @@
       "first_seen": "2026-08-18"
     },
     "BIDU": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 104.12,
       "first_seen": "2026-08-18"
     },
