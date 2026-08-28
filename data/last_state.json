@@ -1,15 +1,15 @@
 {
-  "Zölle / Handelskonflikt": 5,
-  "Fed-Zinspolitik": 1,
+  "Zölle / Handelskonflikt": 2,
+  "Fed-Zinspolitik": 4,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
-  "KI-Infrastruktur": 1,
+  "KI-Infrastruktur": 0,
   "Halbleiter / Chips": 1,
   "Energie / Öl & Gas": 2,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 0,
+  "Schifffahrt / Lieferketten": 1,
   "Krypto-Regulierung": 1,
-  "Cybersecurity": 1,
+  "Cybersecurity": 2,
   "_tickers": {
     "AAPL": {
       "score": 3,
@@ -17,17 +17,12 @@
       "first_seen": "2026-08-21"
     },
     "PODD": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 145.42,
       "first_seen": "2026-08-25"
     },
-    "CMG": {
-      "score": 2,
-      "baseline_price_usd": 37.43,
-      "first_seen": "2026-08-25"
-    },
     "BDX": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 189.78,
       "first_seen": "2026-08-25"
     },
@@ -47,22 +42,22 @@
       "first_seen": "2026-08-25"
     },
     "FIS": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 40.47,
       "first_seen": "2026-08-26"
     },
     "DE": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 630.66,
       "first_seen": "2026-08-26"
     },
     "EXPE": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 337.97,
       "first_seen": "2026-08-26"
     },
     "EOG": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 146.83,
       "first_seen": "2026-08-26"
     },
@@ -72,19 +67,24 @@
       "first_seen": "2026-08-26"
     },
     "LUV": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 41.195,
       "first_seen": "2026-08-26"
     },
-    "TPR": {
+    "TMO": {
       "score": 1,
-      "baseline_price_usd": 130.505,
-      "first_seen": "2026-08-26"
+      "baseline_price_usd": 630.7,
+      "first_seen": "2026-08-28"
     },
-    "SYY": {
+    "BX": {
       "score": 1,
-      "baseline_price_usd": 83.56,
-      "first_seen": "2026-08-26"
+      "baseline_price_usd": 143.64,
+      "first_seen": "2026-08-28"
+    },
+    "SLB": {
+      "score": 1,
+      "baseline_price_usd": 55.01,
+      "first_seen": "2026-08-28"
     },
     "BABA": {
       "score": 3,
@@ -97,7 +97,7 @@
       "first_seen": "2026-08-18"
     },
     "PDD": {
-      "score": 1,
+      "score": 0,
       "baseline_price_usd": 86.94,
       "first_seen": "2026-08-18"
     },
@@ -107,12 +107,12 @@
       "first_seen": "2026-08-18"
     },
     "NIO": {
-      "score": 1,
+      "score": 0,
       "baseline_price_usd": 4.6,
       "first_seen": "2026-08-18"
     },
     "LI": {
-      "score": 0,
+      "score": 1,
       "baseline_price_usd": 12.41,
       "first_seen": "2026-08-18"
     },
@@ -122,7 +122,7 @@
       "first_seen": "2026-08-18"
     },
     "NTES": {
-      "score": 1,
+      "score": 0,
       "baseline_price_usd": 124.4,
       "first_seen": "2026-08-18"
     }

@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-08-26T17:54:39.396722+00:00",
+  "generated_at": "2026-08-28T01:38:48.854400+00:00",
   "newsTopics": [
     {
-      "topic": "Zölle / Handelskonflikt",
-      "vol": 5,
+      "topic": "Fed-Zinspolitik",
+      "vol": 4,
       "pct": 100
+    },
+    {
+      "topic": "Zölle / Handelskonflikt",
+      "vol": 2,
+      "pct": 50
     },
     {
       "topic": "Energie / Öl & Gas",
       "vol": 2,
-      "pct": 40
+      "pct": 50
     },
     {
-      "topic": "Fed-Zinspolitik",
-      "vol": 1,
-      "pct": 20
-    },
-    {
-      "topic": "KI-Infrastruktur",
-      "vol": 1,
-      "pct": 20
+      "topic": "Cybersecurity",
+      "vol": 2,
+      "pct": 50
     },
     {
       "topic": "Halbleiter / Chips",
       "vol": 1,
-      "pct": 20
+      "pct": 25
+    },
+    {
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 1,
+      "pct": 25
     },
     {
       "topic": "Krypto-Regulierung",
       "vol": 1,
-      "pct": 20
-    },
-    {
-      "topic": "Cybersecurity",
-      "vol": 1,
-      "pct": 20
+      "pct": 25
     },
     {
       "topic": "Edelmetalle / Goldminen",
@@ -47,12 +47,12 @@
       "pct": 0
     },
     {
-      "topic": "Gesundheit / FDA-Zulassungen",
+      "topic": "KI-Infrastruktur",
       "vol": 0,
       "pct": 0
     },
     {
-      "topic": "Schifffahrt / Lieferketten",
+      "topic": "Gesundheit / FDA-Zulassungen",
       "vol": 0,
       "pct": 0
     }
@@ -64,9 +64,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.1,
-      "priceEur": 268.1,
-      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
+      "reaction": 1.7,
+      "priceEur": 270.14,
+      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
       "politician": null,
       "track": null,
       "sig": {
@@ -75,12 +75,12 @@
         },
         "insider": {
           "active": true,
-          "age": "6T",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -98,9 +98,9 @@
       "name": "Insulet Corporation",
       "broker": true,
       "market": "us",
-      "score": 3,
-      "reaction": -1.2,
-      "priceEur": 123.16,
+      "score": 2,
+      "reaction": -1.4,
+      "priceEur": 123.15,
       "description": null,
       "politician": null,
       "track": null,
@@ -110,12 +110,11 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "8Std"
+          "active": false
         },
         "predict": {
           "active": true
@@ -126,17 +125,17 @@
       },
       "topic": "Health Care",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "CMG",
-      "name": "Chipotle Mexican Grill",
+      "tk": "BDX",
+      "name": "Becton Dickinson",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": 0.3,
-      "priceEur": 32.19,
-      "description": "Chipotle Mexican Grill [tʃɪˈpoʊtleɪ] ist eine US-amerikanische Schnellrestaurantkette, die mexikanisches Essen wie Burritos oder Tacos verkauft. Der Firmensitz der Kette befindet…",
+      "score": 1,
+      "reaction": -0.9,
+      "priceEur": 161.55,
+      "description": "BD  ist eines der größten internationalen Medizintechnologie-Unternehmen. Es entwickelt, produziert und vertreibt medizinische Einmalartikel, Gerätesysteme und Reagenzien. BD…",
       "politician": null,
       "track": null,
       "sig": {
@@ -149,43 +148,7 @@
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
           "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "BDX",
-      "name": "Becton Dickinson",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.3,
-      "priceEur": 163.15,
-      "description": "BD  ist eines der größten internationalen Medizintechnologie-Unternehmen. Es entwickelt, produziert und vertreibt medizinische Einmalartikel, Gerätesysteme und Reagenzien. BD…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
         },
         "predict": {
           "active": false
@@ -196,7 +159,7 @@
       },
       "topic": "Health Care",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "PLTR",
@@ -204,8 +167,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 2.2,
-      "priceEur": 151.34,
+      "reaction": 7.6,
+      "priceEur": 159.67,
       "description": "Palantir Technologies Inc. ist ein US-amerikanischer Anbieter von Software und Dienstleistungen der Systemanalyse, der auf die Auswertung großer Datenmengen und die Herstellung…",
       "politician": null,
       "track": null,
@@ -215,12 +178,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -239,8 +202,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.3,
-      "priceEur": 180.28,
+      "reaction": 7.0,
+      "priceEur": 195.78,
       "description": "Die Nvidia Corporation ist ein US-amerikanisches Unternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
       "politician": null,
       "track": null,
@@ -250,12 +213,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -274,8 +237,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 290.94,
+      "reaction": 12.6,
+      "priceEur": 328.77,
       "description": "Palo Alto Networks, Inc. ist ein amerikanisches multinationales IT-Sicherheitsunternehmen mit Hauptsitz in Santa Clara, Kalifornien. Seine Kernprodukte sind eine Plattform, die…",
       "politician": null,
       "track": null,
@@ -285,12 +248,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -308,10 +271,10 @@
       "name": "Fidelity National Information Services",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 34.69,
-      "description": "Fidelity National Information Services (FIS) ist ein amerikanisches Unternehmen, das im Umfeld von Finanzdienstleistungen unterstützende Software und die Abwicklung finanzieller…",
+      "score": 1,
+      "reaction": 0.2,
+      "priceEur": 34.82,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -320,12 +283,11 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "3Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -336,17 +298,17 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "DE",
       "name": "Deere & Company",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": 1.1,
-      "priceEur": 546.51,
-      "description": "John Deere bezeichnet die Hauptmarke des US-amerikanischen Industrieunternehmens Deere & Company. Sie geht zurück auf den gleichnamigen Unternehmensgründer. Das Unternehmen ist…",
+      "score": 1,
+      "reaction": -1.3,
+      "priceEur": 534.7,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -355,12 +317,11 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "11Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -371,16 +332,16 @@
       },
       "topic": "Industrials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "EXPE",
       "name": "Expedia Group",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": -0.3,
-      "priceEur": 288.64,
+      "score": 1,
+      "reaction": -5.6,
+      "priceEur": 273.87,
       "description": "Expedia Group, Inc. is an American travel technology company that owns and operates travel fare aggregators and travel metasearch engines, including Expedia, Hotels.com, Vrbo,…",
       "politician": null,
       "track": null,
@@ -390,12 +351,11 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "1T"
+          "active": false
         },
         "predict": {
           "active": false
@@ -406,17 +366,17 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "EOG",
       "name": "EOG Resources",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": -0.9,
-      "priceEur": 124.71,
-      "description": "EOG Resources ist ein Unternehmen aus den Vereinigten Staaten mit Sitz in Houston, Texas. EOG stand ursprünglich für Enron Oil & Gas. Das Unternehmen ist im Aktienindex S&P 500…",
+      "score": 1,
+      "reaction": -1.6,
+      "priceEur": 124.09,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -425,12 +385,11 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "1T"
+          "active": false
         },
         "predict": {
           "active": false
@@ -443,7 +402,7 @@
       "ethics": [
         "Fossile Energie"
       ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "CRWD",
@@ -451,8 +410,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 2.4,
-      "priceEur": 162.63,
+      "reaction": 23.0,
+      "priceEur": 195.76,
       "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
       "politician": null,
       "track": null,
@@ -485,9 +444,9 @@
       "name": "Southwest Airlines",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 35.3,
+      "score": 1,
+      "reaction": -3.5,
+      "priceEur": 34.14,
       "description": "Southwest Airlines ist eine US-amerikanische Billigfluggesellschaft mit Sitz in Dallas.",
       "politician": null,
       "track": null,
@@ -497,12 +456,11 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "1T"
+          "active": false
         },
         "predict": {
           "active": false
@@ -513,17 +471,17 @@
       },
       "topic": "Industrials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "TPR",
-      "name": "Tapestry, Inc.",
+      "tk": "TMO",
+      "name": "Thermo Fisher Scientific",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 111.84,
-      "description": "Tapestry, Inc. is an American holding company based in New York City which is the parent company of Coach New York and Kate Spade New York. Originally named Coach, Inc., the…",
+      "priceEur": 541.61,
+      "description": "Thermo Fisher Scientific Inc., kurz auch Thermo Fisher, ist ein US-amerikanisches Technologieunternehmen mit Sitz in Waltham, Massachusetts. Es beschreibt sich selbst als „der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -532,7 +490,7 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
@@ -545,19 +503,53 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "SYY",
-      "name": "Sysco",
+      "tk": "BX",
+      "name": "Blackstone Inc.",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 71.61,
-      "description": "Sysco ist ein US-amerikanischer börsennotierter Lieferant für Lebensmittel und Gastronomiebedarf mit Hauptsitz in Houston, Texas. Im Unternehmen sind rund 75.000 Mitarbeiter…",
+      "priceEur": 123.35,
+      "description": "Blackstone Inc. is an American alternative investment management company based in New York City. It was founded in 1985 as a mergers and acquisitions firm by Peter Peterson and…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "SLB",
+      "name": "Schlumberger",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 47.24,
+      "description": "SLB, formerly known as Schlumberger, is a multinational oilfield services company. Founded in France in 1926, the company is now incorporated as SLB N.V. in Willemstad, Curaçao,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -579,8 +571,10 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
-      "ethics": [],
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
@@ -589,9 +583,9 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -3.7,
-      "priceEur": 102.87,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "reaction": -6.7,
+      "priceEur": 99.88,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -600,12 +594,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "23Std"
         },
         "predict": {
           "active": true
@@ -624,9 +618,9 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": 1.1,
-      "priceEur": 24.69,
-      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
+      "reaction": -0.0,
+      "priceEur": 24.47,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -635,12 +629,12 @@
         },
         "insider": {
           "active": true,
-          "age": "9T",
+          "age": "11T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2T"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -658,9 +652,106 @@
       "name": "PDD Holdings (Pinduoduo)",
       "broker": true,
       "market": "cn",
+      "score": 0,
+      "reaction": -2.6,
+      "priceEur": 72.73,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": false
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
+    },
+    {
+      "tk": "BIDU",
+      "name": "Baidu",
+      "broker": true,
+      "market": "cn",
+      "score": 2,
+      "reaction": -6.9,
+      "priceEur": 83.25,
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": false
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "NIO",
+      "name": "NIO Inc.",
+      "broker": true,
+      "market": "cn",
+      "score": 0,
+      "reaction": -5.2,
+      "priceEur": 3.74,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": false
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
+    },
+    {
+      "tk": "LI",
+      "name": "Li Auto",
+      "broker": true,
+      "market": "cn",
       "score": 1,
-      "reaction": -0.7,
-      "priceEur": 73.97,
+      "reaction": -1.9,
+      "priceEur": 10.46,
       "description": null,
       "politician": null,
       "track": null,
@@ -687,112 +778,14 @@
       "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "BIDU",
-      "name": "Baidu",
-      "broker": true,
-      "market": "cn",
-      "score": 2,
-      "reaction": -10.4,
-      "priceEur": 79.95,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": false
-        },
-        "macro": {
-          "active": true,
-          "age": "8Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "NIO",
-      "name": "NIO Inc.",
-      "broker": true,
-      "market": "cn",
-      "score": 1,
-      "reaction": -4.0,
-      "priceEur": 3.78,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": false
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "LI",
-      "name": "Li Auto",
-      "broker": true,
-      "market": "cn",
-      "score": 0,
-      "reaction": -0.4,
-      "priceEur": 10.59,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": false
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
-    },
-    {
       "tk": "TCOM",
       "name": "Trip.com Group",
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 1.1,
-      "priceEur": 38.86,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "reaction": -0.5,
+      "priceEur": 38.31,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -821,10 +814,10 @@
       "name": "NetEase",
       "broker": true,
       "market": "cn",
-      "score": 1,
-      "reaction": -0.5,
-      "priceEur": 106.07,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "score": 0,
+      "reaction": -1.4,
+      "priceEur": 105.36,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -832,9 +825,7 @@
           "active": false
         },
         "insider": {
-          "active": true,
-          "age": "13T",
-          "src": "SEC"
+          "active": false
         },
         "macro": {
           "active": false
@@ -848,7 +839,7 @@
       },
       "topic": "Communication Services",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
     }
   ]
 }
