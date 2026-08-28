@@ -1,14 +1,14 @@
 {
-  "Zölle / Handelskonflikt": 2,
+  "Zölle / Handelskonflikt": 1,
   "Fed-Zinspolitik": 4,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 0,
-  "Halbleiter / Chips": 1,
-  "Energie / Öl & Gas": 2,
+  "Halbleiter / Chips": 0,
+  "Energie / Öl & Gas": 0,
   "Gesundheit / FDA-Zulassungen": 0,
   "Schifffahrt / Lieferketten": 1,
-  "Krypto-Regulierung": 1,
+  "Krypto-Regulierung": 0,
   "Cybersecurity": 2,
   "_tickers": {
     "AAPL": {
@@ -19,11 +19,6 @@
     "PODD": {
       "score": 2,
       "baseline_price_usd": 145.42,
-      "first_seen": "2026-08-25"
-    },
-    "BDX": {
-      "score": 1,
-      "baseline_price_usd": 189.78,
       "first_seen": "2026-08-25"
     },
     "PLTR": {
@@ -41,18 +36,8 @@
       "baseline_price_usd": 339.9,
       "first_seen": "2026-08-25"
     },
-    "FIS": {
-      "score": 1,
-      "baseline_price_usd": 40.47,
-      "first_seen": "2026-08-26"
-    },
-    "DE": {
-      "score": 1,
-      "baseline_price_usd": 630.66,
-      "first_seen": "2026-08-26"
-    },
     "EXPE": {
-      "score": 1,
+      "score": 2,
       "baseline_price_usd": 337.97,
       "first_seen": "2026-08-26"
     },
@@ -84,6 +69,21 @@
     "SLB": {
       "score": 1,
       "baseline_price_usd": 55.01,
+      "first_seen": "2026-08-28"
+    },
+    "NDSN": {
+      "score": 2,
+      "baseline_price_usd": 324.59,
+      "first_seen": "2026-08-28"
+    },
+    "RDDT": {
+      "score": 2,
+      "baseline_price_usd": 153.0,
+      "first_seen": "2026-08-28"
+    },
+    "AFL": {
+      "score": 1,
+      "baseline_price_usd": 116.52,
       "first_seen": "2026-08-28"
     },
     "BABA": {
@@ -127,6 +127,14 @@
       "first_seen": "2026-08-18"
     }
   },
-  "_pending_weekend_alerts": [],
+  "_pending_weekend_alerts": [
+    "📈 <b>EXPE</b> relevanter geworden: Score 1 → 2",
+    "🆕 <b>NDSN</b> (Nordson Corporation) neu in der Liste — Score 2/5",
+    "🆕 <b>RDDT</b> (Reddit) neu in der Liste — Score 2/5",
+    "🆕 <b>AFL</b> (Aflac) neu in der Liste — Score 1/5",
+    "➖ <b>BDX</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>FIS</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>DE</b> aus der Watchlist rotiert (Score war zu niedrig)"
+  ],
   "_last_weekly_summary_date": "2026-08-24"
 }
