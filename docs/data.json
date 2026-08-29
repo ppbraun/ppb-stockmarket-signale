@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T23:04:21.448587+00:00",
+  "generated_at": "2026-08-29T23:33:50.145109+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -345,7 +345,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 278.79,
-      "description": "Die Nordson Corporation ist ein US-amerikanischer Hersteller von Präzisionsanlagen zum Auftrag von Klebstoffen, Dichtstoffen und Beschichtungen. Das Unternehmen hat seinen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -394,7 +394,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -463,7 +463,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -477,48 +477,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "ICE",
-      "name": "Intercontinental Exchange",
+      "tk": "KEYS",
+      "name": "Keysight Technologies",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 139.42,
-      "description": "Die Intercontinental Currency Exchange (ICE) oder kurz Intercontinental Exchange ist ein Börsenbetreiber mit Sitz in Atlanta, USA, der auf den elektronischen Handel von Optionen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "GEN",
-      "name": "Gen Digital",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 26.64,
-      "description": "Gen Digital Inc. ist ein US-amerikanischer Entwickler von Sicherheitssoftware für Privatanwender. Der Hauptsitz des Unternehmens liegt in Tempe im Bundesstaat Arizona; und seit…",
+      "priceEur": 274.82,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -545,14 +511,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "EW",
-      "name": "Edwards Lifesciences",
+      "tk": "HCA",
+      "name": "HCA Healthcare",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 77.48,
-      "description": "Edwards Lifesciences mit Hauptsitz in Irvine, Kalifornien, und Edwards Lifesciences Services GmbH mit Sitz in Unterschleißheim ist ein Unternehmen auf dem Gebiet der…",
+      "priceEur": 358.86,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -579,6 +545,40 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
+      "tk": "AFL",
+      "name": "Aflac",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 100.08,
+      "description": "Aflac Incorporated is an American insurance company and is the largest provider of supplemental insurance in the United States. It was founded in 1955 and is based in Columbus,…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -586,7 +586,7 @@
       "score": 3,
       "reaction": -4.7,
       "priceEur": 102.12,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
