@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T02:33:44.868921+00:00",
+  "generated_at": "2026-08-29T03:04:03.115353+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": 3.3,
       "priceEur": 274.59,
-      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -101,7 +101,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 125.12,
-      "description": null,
+      "description": "Gilead Sciences, Inc. ist ein Pharmazie- und Biotechnologieunternehmen aus den Vereinigten Staaten mit Sitz in Foster City, Kalifornien. Das Unternehmen ist im S&P 500 gelistet.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -206,7 +206,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 399.88,
-      "description": "Advanced Micro Devices, Inc. (AMD) ist ein US-amerikanisches Unternehmen der Halbleiterindustrie mit Hauptsitz in Santa Clara, Kalifornien. AMD entwickelt und vertreibt…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -311,7 +311,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 55.61,
-      "description": null,
+      "description": "Die Centene Corporation ist ein US-amerikanischer Anbieter von Versicherungsleistungen im Gesundheitswesen. Das Unternehmen spezialisiert sich auf Medicaid- und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -345,7 +345,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 94.62,
-      "description": "The Charles Schwab Corporation is an American multinational financial services company. It offers banking, commercial banking, investing, and related services including…",
+      "description": "Charles Schwab Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Westlake, Texas. Das Unternehmen ist im Aktienindex S&P 500 gelistet. Vorsitzender des…",
       "politician": null,
       "track": null,
       "sig": {
@@ -380,7 +380,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 140.15,
-      "description": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and…",
+      "description": "Die Target Corporation gehört zu den größten Einzelhändlern der USA und ist nach Walmart der zweitgrößte Discounter des Landes. Das Unternehmen hat seinen Sitz in Minneapolis,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -394,7 +394,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -429,7 +429,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -464,7 +464,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -478,14 +478,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "KEYS",
-      "name": "Keysight Technologies",
+      "tk": "AFL",
+      "name": "Aflac",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 274.82,
-      "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
+      "priceEur": 100.08,
+      "description": "Aflac Incorporated is an American insurance company and is the largest provider of supplemental insurance in the United States. It was founded in 1955 and is based in Columbus,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -499,6 +499,41 @@
         },
         "macro": {
           "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "IBM",
+      "name": "IBM",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 202.35,
+      "description": "International Business Machines Corporation, doing business as IBM, is an American multinational technology company headquartered in Armonk, New York, and present in over 175…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -509,50 +544,16 @@
       },
       "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "PH",
-      "name": "Parker Hannifin",
+      "tk": "ROK",
+      "name": "Rockwell Automation",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 3,
       "reaction": null,
-      "priceEur": 854.61,
-      "description": "Parker-Hannifin Corporation, originally Parker Appliance Company, is an American multinational industrial manufacturing company specializing in motion and control technologies.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "EW",
-      "name": "Edwards Lifesciences",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 77.48,
+      "priceEur": 370.06,
       "description": null,
       "politician": null,
       "track": null,
@@ -566,18 +567,19 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "16Std"
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Industrials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "BABA",
@@ -587,7 +589,7 @@
       "score": 3,
       "reaction": -4.7,
       "priceEur": 102.12,
-      "description": null,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -622,7 +624,7 @@
       "score": 2,
       "reaction": 0.8,
       "priceEur": 24.68,
-      "description": "JD.com, Inc., also known as Jingdong Group, formerly called 360buy, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. The…",
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -688,7 +690,7 @@
       "score": 1,
       "reaction": -6.7,
       "priceEur": 83.42,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -817,7 +819,7 @@
       "score": 0,
       "reaction": -1.3,
       "priceEur": 105.44,
-      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
