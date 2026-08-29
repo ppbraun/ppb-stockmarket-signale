@@ -1,11 +1,11 @@
 {
   "Zölle / Handelskonflikt": 1,
-  "Fed-Zinspolitik": 4,
+  "Fed-Zinspolitik": 3,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 0,
   "Halbleiter / Chips": 0,
-  "Energie / Öl & Gas": 0,
+  "Energie / Öl & Gas": 1,
   "Gesundheit / FDA-Zulassungen": 0,
   "Schifffahrt / Lieferketten": 1,
   "Krypto-Regulierung": 0,
@@ -15,11 +15,6 @@
       "score": 3,
       "baseline_price_usd": 309.35,
       "first_seen": "2026-08-21"
-    },
-    "PANW": {
-      "score": 2,
-      "baseline_price_usd": 339.9,
-      "first_seen": "2026-08-25"
     },
     "EXPE": {
       "score": 2,
@@ -71,19 +66,24 @@
       "baseline_price_usd": 64.75,
       "first_seen": "2026-08-29"
     },
-    "CINF": {
-      "score": 1,
-      "baseline_price_usd": 171.97,
-      "first_seen": "2026-08-29"
-    },
-    "CRL": {
-      "score": 1,
-      "baseline_price_usd": 291.5,
-      "first_seen": "2026-08-29"
-    },
     "SCHW": {
       "score": 2,
       "baseline_price_usd": 110.16,
+      "first_seen": "2026-08-29"
+    },
+    "SNA": {
+      "score": 1,
+      "baseline_price_usd": 391.86,
+      "first_seen": "2026-08-29"
+    },
+    "AFL": {
+      "score": 1,
+      "baseline_price_usd": 116.52,
+      "first_seen": "2026-08-29"
+    },
+    "TGT": {
+      "score": 3,
+      "baseline_price_usd": 163.18,
       "first_seen": "2026-08-29"
     },
     "BABA": {
@@ -175,7 +175,13 @@
     "🆕 <b>SCHW</b> (Charles Schwab Corporation) neu in der Liste — Score 2/5",
     "➖ <b>RDDT</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>TMUS</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>ABT</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>ABT</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "🆕 <b>SNA</b> (Snap-on) neu in der Liste — Score 1/5",
+    "🆕 <b>AFL</b> (Aflac) neu in der Liste — Score 1/5",
+    "🆕 <b>TGT</b> (Target Corporation) neu in der Liste — Score 3/5",
+    "➖ <b>PANW</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>CINF</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>CRL</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": "2026-08-24"
 }
