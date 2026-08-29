@@ -16,21 +16,6 @@
       "baseline_price_usd": 309.35,
       "first_seen": "2026-08-21"
     },
-    "PODD": {
-      "score": 2,
-      "baseline_price_usd": 145.42,
-      "first_seen": "2026-08-25"
-    },
-    "PLTR": {
-      "score": 2,
-      "baseline_price_usd": 172.73,
-      "first_seen": "2026-08-25"
-    },
-    "NVDA": {
-      "score": 2,
-      "baseline_price_usd": 213.05,
-      "first_seen": "2026-08-25"
-    },
     "PANW": {
       "score": 2,
       "baseline_price_usd": 339.9,
@@ -52,12 +37,12 @@
       "first_seen": "2026-08-28"
     },
     "RDDT": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 153.0,
       "first_seen": "2026-08-28"
     },
     "TMUS": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 181.37,
       "first_seen": "2026-08-28"
     },
@@ -77,7 +62,7 @@
       "first_seen": "2026-08-28"
     },
     "ABT": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 112.47,
       "first_seen": "2026-08-28"
     },
@@ -86,13 +71,28 @@
       "baseline_price_usd": 465.58,
       "first_seen": "2026-08-28"
     },
+    "AMZN": {
+      "score": 2,
+      "baseline_price_usd": 266.43,
+      "first_seen": "2026-08-29"
+    },
+    "GOOG": {
+      "score": 2,
+      "baseline_price_usd": 342.88,
+      "first_seen": "2026-08-29"
+    },
+    "CNC": {
+      "score": 2,
+      "baseline_price_usd": 64.75,
+      "first_seen": "2026-08-29"
+    },
     "BABA": {
       "score": 3,
       "baseline_price_usd": 124.71,
       "first_seen": "2026-08-18"
     },
     "JD": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 28.5,
       "first_seen": "2026-08-18"
     },
@@ -102,7 +102,7 @@
       "first_seen": "2026-08-18"
     },
     "BIDU": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 104.12,
       "first_seen": "2026-08-18"
     },
@@ -158,7 +158,18 @@
     "🆕 <b>AMD</b> (Advanced Micro Devices) neu in der Liste — Score 2/5",
     "➖ <b>CHD</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>SNA</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>ADI</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>ADI</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "📉 <b>RDDT</b> weniger relevant: Score 2 → 1",
+    "📉 <b>TMUS</b> weniger relevant: Score 2 → 1",
+    "📉 <b>ABT</b> weniger relevant: Score 2 → 1",
+    "🆕 <b>AMZN</b> (Amazon) neu in der Liste — Score 2/5",
+    "🆕 <b>GOOG</b> (Alphabet Inc. (Class C)) neu in der Liste — Score 2/5",
+    "🆕 <b>CNC</b> (Centene Corporation) neu in der Liste — Score 2/5",
+    "📉 <b>JD</b> weniger relevant: Score 3 → 2",
+    "📉 <b>BIDU</b> weniger relevant: Score 2 → 1",
+    "➖ <b>PODD</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>PLTR</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>NVDA</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": "2026-08-24"
 }
