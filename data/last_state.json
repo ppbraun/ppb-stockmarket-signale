@@ -9,7 +9,7 @@
   "Gesundheit / FDA-Zulassungen": 0,
   "Schifffahrt / Lieferketten": 1,
   "Krypto-Regulierung": 0,
-  "Cybersecurity": 1,
+  "Cybersecurity": 0,
   "_tickers": {
     "AAPL": {
       "score": 3,
@@ -19,11 +19,6 @@
     "TGT": {
       "score": 3,
       "baseline_price_usd": 163.18,
-      "first_seen": "2026-08-29"
-    },
-    "IBM": {
-      "score": 2,
-      "baseline_price_usd": 235.59,
       "first_seen": "2026-08-29"
     },
     "ROK": {
@@ -76,14 +71,19 @@
       "baseline_price_usd": 361.78,
       "first_seen": "2026-08-29"
     },
-    "ICE": {
+    "HCA": {
       "score": 1,
-      "baseline_price_usd": 162.33,
+      "baseline_price_usd": 417.82,
       "first_seen": "2026-08-29"
     },
-    "KEYS": {
+    "GEN": {
       "score": 1,
-      "baseline_price_usd": 319.97,
+      "baseline_price_usd": 31.02,
+      "first_seen": "2026-08-29"
+    },
+    "TPL": {
+      "score": 1,
+      "baseline_price_usd": 364.38,
       "first_seen": "2026-08-29"
     },
     "BABA": {
@@ -265,7 +265,13 @@
     "🆕 <b>KEYS</b> (Keysight Technologies) neu in der Liste — Score 1/5",
     "➖ <b>YUM</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>PH</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>DXCM</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>DXCM</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "🆕 <b>HCA</b> (HCA Healthcare) neu in der Liste — Score 1/5",
+    "🆕 <b>GEN</b> (Gen Digital) neu in der Liste — Score 1/5",
+    "🆕 <b>TPL</b> (Texas Pacific Land Corporation) neu in der Liste — Score 1/5",
+    "➖ <b>IBM</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>ICE</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>KEYS</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": "2026-08-24"
 }
