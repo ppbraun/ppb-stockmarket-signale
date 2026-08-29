@@ -1,15 +1,15 @@
 {
-  "Zölle / Handelskonflikt": 1,
-  "Fed-Zinspolitik": 3,
+  "Zölle / Handelskonflikt": 0,
+  "Fed-Zinspolitik": 0,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 0,
   "Halbleiter / Chips": 0,
-  "Energie / Öl & Gas": 1,
+  "Energie / Öl & Gas": 0,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 1,
+  "Schifffahrt / Lieferketten": 0,
   "Krypto-Regulierung": 0,
-  "Cybersecurity": 2,
+  "Cybersecurity": 0,
   "_tickers": {
     "AAPL": {
       "score": 3,
@@ -19,11 +19,6 @@
     "TGT": {
       "score": 3,
       "baseline_price_usd": 163.18,
-      "first_seen": "2026-08-29"
-    },
-    "WDC": {
-      "score": 2,
-      "baseline_price_usd": 459.45,
       "first_seen": "2026-08-29"
     },
     "HD": {
@@ -71,19 +66,24 @@
       "baseline_price_usd": 76.45,
       "first_seen": "2026-08-29"
     },
-    "PH": {
-      "score": 1,
-      "baseline_price_usd": 995.02,
-      "first_seen": "2026-08-29"
-    },
-    "DXCM": {
-      "score": 1,
-      "baseline_price_usd": 90.82,
-      "first_seen": "2026-08-29"
-    },
     "MU": {
       "score": 2,
       "baseline_price_usd": 932.86,
+      "first_seen": "2026-08-29"
+    },
+    "SCHW": {
+      "score": 2,
+      "baseline_price_usd": 110.16,
+      "first_seen": "2026-08-29"
+    },
+    "HCA": {
+      "score": 1,
+      "baseline_price_usd": 417.82,
+      "first_seen": "2026-08-29"
+    },
+    "GEN": {
+      "score": 1,
+      "baseline_price_usd": 31.02,
       "first_seen": "2026-08-29"
     },
     "BABA": {
@@ -247,7 +247,13 @@
     "🆕 <b>MU</b> (Micron Technology) neu in der Liste — Score 2/5",
     "➖ <b>AMCR</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>TPL</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>YUM</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>YUM</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "🆕 <b>SCHW</b> (Charles Schwab Corporation) neu in der Liste — Score 2/5",
+    "🆕 <b>HCA</b> (HCA Healthcare) neu in der Liste — Score 1/5",
+    "🆕 <b>GEN</b> (Gen Digital) neu in der Liste — Score 1/5",
+    "➖ <b>WDC</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>PH</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>DXCM</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": "2026-08-24"
 }

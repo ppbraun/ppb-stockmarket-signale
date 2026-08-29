@@ -1,30 +1,15 @@
 {
-  "generated_at": "2026-08-29T06:34:18.604320+00:00",
+  "generated_at": "2026-08-29T07:03:54.243588+00:00",
   "newsTopics": [
     {
-      "topic": "Fed-Zinspolitik",
-      "vol": 3,
-      "pct": 100
-    },
-    {
-      "topic": "Cybersecurity",
-      "vol": 2,
-      "pct": 67
-    },
-    {
       "topic": "Zölle / Handelskonflikt",
-      "vol": 1,
-      "pct": 33
+      "vol": 0,
+      "pct": 0
     },
     {
-      "topic": "Energie / Öl & Gas",
-      "vol": 1,
-      "pct": 33
-    },
-    {
-      "topic": "Schifffahrt / Lieferketten",
-      "vol": 1,
-      "pct": 33
+      "topic": "Fed-Zinspolitik",
+      "vol": 0,
+      "pct": 0
     },
     {
       "topic": "Edelmetalle / Goldminen",
@@ -47,12 +32,27 @@
       "pct": 0
     },
     {
+      "topic": "Energie / Öl & Gas",
+      "vol": 0,
+      "pct": 0
+    },
+    {
       "topic": "Gesundheit / FDA-Zulassungen",
       "vol": 0,
       "pct": 0
     },
     {
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 0,
+      "pct": 0
+    },
+    {
       "topic": "Krypto-Regulierung",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Cybersecurity",
       "vol": 0,
       "pct": 0
     }
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": 3.3,
       "priceEur": 274.59,
-      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
+      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
       "politician": null,
       "track": null,
       "sig": {
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -127,41 +127,6 @@
       "topic": "Consumer Staples",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "WDC",
-      "name": "Western Digital",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 394.62,
-      "description": "Western Digital Corporation ist ein US-amerikanischer Hersteller von Festplattenlaufwerken und Speicherprodukten mit Hauptsitz in San José (Kalifornien).",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "19Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "HD",
@@ -185,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -220,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -241,7 +206,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 370.06,
-      "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -255,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -276,7 +241,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 219.88,
-      "description": "Salesforce, Inc. mit Sitz in San Francisco (USA) ist ein börsennotiertes US-amerikanisches Softwareunternehmen, das Cloud-Computing-Produkte für Unternehmen anbietet. Das…",
+      "description": "Salesforce, Inc. is an American enterprise software company headquartered in San Francisco, California. It is best known for customer relationship management software and related…",
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -311,7 +276,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 190.77,
-      "description": "Republic Services ist ein US-amerikanisches Entsorgungsunternehmen mit Hauptsitz in Phoenix im US-Bundesstaat Arizona. Das Unternehmen führt die Entsorgung von festen und…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -345,7 +310,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 278.79,
-      "description": "Die Nordson Corporation ist ein US-amerikanischer Hersteller von Präzisionsanlagen zum Auftrag von Klebstoffen, Dichtstoffen und Beschichtungen. Das Unternehmen hat seinen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -379,7 +344,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 307.53,
-      "description": "Intuit Inc. ist ein US-amerikanischer Hersteller von Standardanwendungssoftware aus Kalifornien mit rund 9.400 Mitarbeitern weltweit und einem Umsatz von ca. 6,7 Milliarden…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -462,7 +427,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -476,82 +441,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "PH",
-      "name": "Parker Hannifin",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 854.61,
-      "description": "Parker-Hannifin Corporation, originally Parker Appliance Company, is an American multinational industrial manufacturing company specializing in motion and control technologies.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "DXCM",
-      "name": "Dexcom",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 78.0,
-      "description": "DexCom, Inc. ist ein US-amerikanisches Unternehmen, das kontinuierlich messende Glucosesensoren für Diabetes-Patienten entwickelt, herstellt und vertreibt. Der Hauptsitz befindet…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "MU",
       "name": "Micron Technology",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 801.22,
-      "description": "Micron Technology Inc. ist ein US-amerikanischer Hersteller von Speicherelementen für Computer mit Hauptsitz in Boise, Idaho, USA. Das Unternehmen belegte 2024 Platz 6 der größten…",
+      "description": "Micron Technology, Inc. is an American multinational semiconductor company that manufactures computer memory and computer data storage products, including dynamic random-access…",
       "politician": null,
       "track": null,
       "sig": {
@@ -579,6 +476,109 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "SCHW",
+      "name": "Charles Schwab Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 94.62,
+      "description": "The Charles Schwab Corporation is an American multinational financial services company. It offers banking, commercial banking, investing, and related services including…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "17Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "HCA",
+      "name": "HCA Healthcare",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 358.86,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "GEN",
+      "name": "Gen Digital",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 26.64,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -586,7 +586,7 @@
       "score": 3,
       "reaction": -4.7,
       "priceEur": 102.12,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -621,7 +621,7 @@
       "score": 2,
       "reaction": 0.8,
       "priceEur": 24.68,
-      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
+      "description": "JD.com, Inc., also known as Jingdong Group, formerly called 360buy, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. The…",
       "politician": null,
       "track": null,
       "sig": {
@@ -751,7 +751,7 @@
       "score": 1,
       "reaction": -1.5,
       "priceEur": 10.5,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -784,7 +784,7 @@
       "score": 0,
       "reaction": 1.1,
       "priceEur": 38.95,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -816,7 +816,7 @@
       "score": 0,
       "reaction": -1.3,
       "priceEur": 105.44,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
       "sig": {
