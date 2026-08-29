@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T15:34:05.043598+00:00",
+  "generated_at": "2026-08-29T16:04:01.339986+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": true
@@ -136,7 +136,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 370.06,
-      "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -205,7 +205,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 65.66,
-      "description": "Freeport-McMoRan Inc. ist ein US-amerikanisches Unternehmen der Bergbauindustrie. Der Firmensitz befindet sich in Phoenix. Die Freeport-Aktie wird seit 1988 an der New Yorker…",
+      "description": "Freeport-McMoRan Inc., often called Freeport, is an American mining company based in the Freeport-McMoRan Center, in Phoenix, Arizona. The company is the world's largest producer…",
       "politician": null,
       "track": null,
       "sig": {
@@ -240,7 +240,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 801.22,
-      "description": "Micron Technology Inc. ist ein US-amerikanischer Hersteller von Speicherelementen für Computer mit Hauptsitz in Boise, Idaho, USA. Das Unternehmen belegte 2024 Platz 6 der größten…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -275,7 +275,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 94.62,
-      "description": "Charles Schwab Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Westlake, Texas. Das Unternehmen ist im Aktienindex S&P 500 gelistet. Vorsitzender des…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -310,7 +310,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 310.73,
-      "description": "Analog Devices Inc. ist ein US-amerikanischer Halbleiterhersteller mit Hauptsitz in Norwood bei Boston, Massachusetts. Das Unternehmen betreibt weltweit Niederlassungen.…",
+      "description": "Analog Devices, Inc. (ADI), also known simply as Analog, is an American multinational semiconductor company specializing in data conversion, signal processing, and power…",
       "politician": null,
       "track": null,
       "sig": {
@@ -415,7 +415,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 190.77,
-      "description": "Republic Services ist ein US-amerikanisches Entsorgungsunternehmen mit Hauptsitz in Phoenix im US-Bundesstaat Arizona. Das Unternehmen führt die Entsorgung von festen und…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -449,7 +449,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 278.79,
-      "description": "Die Nordson Corporation ist ein US-amerikanischer Hersteller von Präzisionsanlagen zum Auftrag von Klebstoffen, Dichtstoffen und Beschichtungen. Das Unternehmen hat seinen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -476,14 +476,48 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "ICE",
-      "name": "Intercontinental Exchange",
+      "tk": "DXCM",
+      "name": "Dexcom",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 139.42,
-      "description": "Die Intercontinental Currency Exchange (ICE) oder kurz Intercontinental Exchange ist ein Börsenbetreiber mit Sitz in Atlanta, USA, der auf den elektronischen Handel von Optionen…",
+      "priceEur": 78.0,
+      "description": "Dexcom, Inc. is an American multinational healthcare company that develops, manufactures, produces and distributes a line of continuous glucose monitoring (CGM) systems for…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "AFL",
+      "name": "Aflac",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 100.08,
+      "description": "Aflac Incorporated is an American insurance company and is the largest provider of supplemental insurance in the United States. It was founded in 1955 and is based in Columbus,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -510,14 +544,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "HCA",
-      "name": "HCA Healthcare",
+      "tk": "GEN",
+      "name": "Gen Digital",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 358.86,
-      "description": "HCA Healthcare, Inc. is an American global for-profit operator of health care facilities that was founded in 1968. It is based in Nashville, Tennessee, and, as of May 2020, owned…",
+      "priceEur": 26.64,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -539,41 +573,7 @@
           "active": false
         }
       },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "EW",
-      "name": "Edwards Lifesciences",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 77.48,
-      "description": "Edwards Lifesciences mit Hauptsitz in Irvine, Kalifornien, und Edwards Lifesciences Services GmbH mit Sitz in Unterschleißheim ist ein Unternehmen auf dem Gebiet der…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -585,7 +585,7 @@
       "score": 3,
       "reaction": -4.7,
       "priceEur": 102.12,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -686,7 +686,7 @@
       "score": 1,
       "reaction": -6.7,
       "priceEur": 83.42,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -750,7 +750,7 @@
       "score": 1,
       "reaction": -1.5,
       "priceEur": 10.5,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -783,7 +783,7 @@
       "score": 0,
       "reaction": 1.1,
       "priceEur": 38.95,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -815,7 +815,7 @@
       "score": 0,
       "reaction": -1.3,
       "priceEur": 105.44,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
