@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T08:33:54.062283+00:00",
+  "generated_at": "2026-08-29T09:04:08.532678+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": 3.3,
       "priceEur": 274.59,
-      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -206,7 +206,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 190.77,
-      "description": null,
+      "description": "Republic Services ist ein US-amerikanisches Entsorgungsunternehmen mit Hauptsitz in Phoenix im US-Bundesstaat Arizona. Das Unternehmen führt die Entsorgung von festen und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -240,7 +240,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 278.79,
-      "description": null,
+      "description": "Die Nordson Corporation ist ein US-amerikanischer Hersteller von Präzisionsanlagen zum Auftrag von Klebstoffen, Dichtstoffen und Beschichtungen. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -274,7 +274,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 307.53,
-      "description": null,
+      "description": "Intuit Inc. ist ein US-amerikanischer Hersteller von Standardanwendungssoftware aus Kalifornien mit rund 9.400 Mitarbeitern weltweit und einem Umsatz von ca. 6,7 Milliarden…",
       "politician": null,
       "track": null,
       "sig": {
@@ -357,7 +357,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -462,7 +462,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": false
@@ -476,14 +476,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "HCA",
-      "name": "HCA Healthcare",
+      "tk": "AFL",
+      "name": "Aflac",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 358.86,
-      "description": null,
+      "priceEur": 100.08,
+      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
       "politician": null,
       "track": null,
       "sig": {
@@ -505,19 +505,19 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "GEN",
-      "name": "Gen Digital",
+      "tk": "IBM",
+      "name": "IBM",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 26.64,
-      "description": null,
+      "priceEur": 202.35,
+      "description": "Die International Business Machines Corporation (IBM) ist ein börsennotiertes US-amerikanisches IT- und Beratungsunternehmen mit Sitz in Armonk im Bundesstaat New York. IBM zählt…",
       "politician": null,
       "track": null,
       "sig": {
@@ -530,7 +530,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -541,17 +542,17 @@
       },
       "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "TPL",
-      "name": "Texas Pacific Land Corporation",
+      "tk": "ICE",
+      "name": "Intercontinental Exchange",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 312.96,
-      "description": null,
+      "priceEur": 139.42,
+      "description": "Die Intercontinental Currency Exchange (ICE) oder kurz Intercontinental Exchange ist ein Börsenbetreiber mit Sitz in Atlanta, USA, der auf den elektronischen Handel von Optionen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -573,7 +574,7 @@
           "active": false
         }
       },
-      "topic": "Energy",
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -585,7 +586,7 @@
       "score": 3,
       "reaction": -4.7,
       "priceEur": 102.12,
-      "description": null,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -620,7 +621,7 @@
       "score": 2,
       "reaction": 0.8,
       "priceEur": 24.68,
-      "description": "JD.com, Inc., also known as Jingdong Group, formerly called 360buy, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. The…",
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
