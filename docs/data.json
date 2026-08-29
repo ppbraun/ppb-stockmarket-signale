@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T09:04:08.532678+00:00",
+  "generated_at": "2026-08-29T09:33:59.554248+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -164,41 +164,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "CRM",
-      "name": "Salesforce",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 219.88,
-      "description": "Salesforce, Inc. mit Sitz in San Francisco (USA) ist ein börsennotiertes US-amerikanisches Softwareunternehmen, das Cloud-Computing-Produkte für Unternehmen anbietet. Das…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "14Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "RSG",
       "name": "Republic Services",
       "broker": true,
@@ -288,7 +253,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -392,7 +357,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -427,7 +392,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": false
@@ -476,46 +441,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AFL",
-      "name": "Aflac",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 100.08,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "IBM",
       "name": "IBM",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 202.35,
       "description": "Die International Business Machines Corporation (IBM) ist ein börsennotiertes US-amerikanisches IT- und Beratungsunternehmen mit Sitz in Armonk im Bundesstaat New York. IBM zählt…",
       "politician": null,
@@ -545,14 +476,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "ICE",
-      "name": "Intercontinental Exchange",
+      "tk": "AMCR",
+      "name": "Amcor",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 139.42,
-      "description": "Die Intercontinental Currency Exchange (ICE) oder kurz Intercontinental Exchange ist ein Börsenbetreiber mit Sitz in Atlanta, USA, der auf den elektronischen Handel von Optionen…",
+      "priceEur": 40.08,
+      "description": "Amcor Limited ist ein globales Verpackungsunternehmen. Es entwickelt und produziert flexible Verpackungen, starre Behälter, Spezialkartons, Verschlüsse und Dienstleistungen für…",
       "politician": null,
       "track": null,
       "sig": {
@@ -574,7 +505,75 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Materials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "GEN",
+      "name": "Gen Digital",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 26.64,
+      "description": "Gen Digital Inc. ist ein US-amerikanischer Entwickler von Sicherheitssoftware für Privatanwender. Der Hauptsitz des Unternehmens liegt in Tempe im Bundesstaat Arizona; und seit…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "DXCM",
+      "name": "Dexcom",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 78.0,
+      "description": "DexCom, Inc. ist ein US-amerikanisches Unternehmen, das kontinuierlich messende Glucosesensoren für Diabetes-Patienten entwickelt, herstellt und vertreibt. Der Hauptsitz befindet…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -600,7 +599,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true

@@ -26,11 +26,6 @@
       "baseline_price_usd": 430.86,
       "first_seen": "2026-08-29"
     },
-    "CRM": {
-      "score": 2,
-      "baseline_price_usd": 256.0,
-      "first_seen": "2026-08-29"
-    },
     "RSG": {
       "score": 2,
       "baseline_price_usd": 222.11,
@@ -71,19 +66,24 @@
       "baseline_price_usd": 361.78,
       "first_seen": "2026-08-29"
     },
-    "AFL": {
-      "score": 1,
-      "baseline_price_usd": 116.52,
-      "first_seen": "2026-08-29"
-    },
     "IBM": {
       "score": 2,
       "baseline_price_usd": 235.59,
       "first_seen": "2026-08-29"
     },
-    "ICE": {
+    "AMCR": {
       "score": 1,
-      "baseline_price_usd": 162.33,
+      "baseline_price_usd": 46.67,
+      "first_seen": "2026-08-29"
+    },
+    "GEN": {
+      "score": 1,
+      "baseline_price_usd": 31.02,
+      "first_seen": "2026-08-29"
+    },
+    "DXCM": {
+      "score": 1,
+      "baseline_price_usd": 90.82,
       "first_seen": "2026-08-29"
     },
     "BABA": {
@@ -277,7 +277,13 @@
     "🆕 <b>ICE</b> (Intercontinental Exchange) neu in der Liste — Score 1/5",
     "➖ <b>HCA</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>GEN</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>TPL</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>TPL</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "🆕 <b>AMCR</b> (Amcor) neu in der Liste — Score 1/5",
+    "🆕 <b>GEN</b> (Gen Digital) neu in der Liste — Score 1/5",
+    "🆕 <b>DXCM</b> (Dexcom) neu in der Liste — Score 1/5",
+    "➖ <b>CRM</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>AFL</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>ICE</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": "2026-08-24"
 }
