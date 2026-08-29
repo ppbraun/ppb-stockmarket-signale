@@ -1,15 +1,15 @@
 {
-  "Zölle / Handelskonflikt": 0,
-  "Fed-Zinspolitik": 0,
+  "Zölle / Handelskonflikt": 1,
+  "Fed-Zinspolitik": 3,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 0,
   "Halbleiter / Chips": 0,
-  "Energie / Öl & Gas": 0,
+  "Energie / Öl & Gas": 1,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 0,
+  "Schifffahrt / Lieferketten": 1,
   "Krypto-Regulierung": 0,
-  "Cybersecurity": 0,
+  "Cybersecurity": 1,
   "_tickers": {
     "AAPL": {
       "score": 3,
@@ -19,11 +19,6 @@
     "TGT": {
       "score": 3,
       "baseline_price_usd": 163.18,
-      "first_seen": "2026-08-29"
-    },
-    "HD": {
-      "score": 2,
-      "baseline_price_usd": 330.19,
       "first_seen": "2026-08-29"
     },
     "IBM": {
@@ -76,14 +71,19 @@
       "baseline_price_usd": 110.16,
       "first_seen": "2026-08-29"
     },
-    "HCA": {
+    "YUM": {
       "score": 1,
-      "baseline_price_usd": 417.82,
+      "baseline_price_usd": 153.86,
       "first_seen": "2026-08-29"
     },
-    "GEN": {
+    "PH": {
       "score": 1,
-      "baseline_price_usd": 31.02,
+      "baseline_price_usd": 995.02,
+      "first_seen": "2026-08-29"
+    },
+    "DXCM": {
+      "score": 1,
+      "baseline_price_usd": 90.82,
       "first_seen": "2026-08-29"
     },
     "BABA": {
@@ -253,7 +253,13 @@
     "🆕 <b>GEN</b> (Gen Digital) neu in der Liste — Score 1/5",
     "➖ <b>WDC</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>PH</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>DXCM</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>DXCM</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "🆕 <b>YUM</b> (Yum! Brands) neu in der Liste — Score 1/5",
+    "🆕 <b>PH</b> (Parker Hannifin) neu in der Liste — Score 1/5",
+    "🆕 <b>DXCM</b> (Dexcom) neu in der Liste — Score 1/5",
+    "➖ <b>HD</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>HCA</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>GEN</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": "2026-08-24"
 }
