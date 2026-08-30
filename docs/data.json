@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T07:34:02.859745+00:00",
+  "generated_at": "2026-08-30T08:04:13.065714+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -426,7 +426,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -440,114 +440,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "EW",
-      "name": "Edwards Lifesciences",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 77.48,
-      "description": "Edwards Lifesciences mit Hauptsitz in Irvine, Kalifornien, und Edwards Lifesciences Services GmbH mit Sitz in Unterschleißheim ist ein Unternehmen auf dem Gebiet der…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "AFL",
-      "name": "Aflac",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 100.08,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "AMCR",
-      "name": "Amcor",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 40.08,
-      "description": "Amcor Limited ist ein globales Verpackungsunternehmen. Es entwickelt und produziert flexible Verpackungen, starre Behälter, Spezialkartons, Verschlüsse und Dienstleistungen für…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "DXCM",
       "name": "Dexcom",
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 78.0,
       "description": "DexCom, Inc. ist ein US-amerikanisches Unternehmen, das kontinuierlich messende Glucosesensoren für Diabetes-Patienten entwickelt, herstellt und vertreibt. Der Hauptsitz befindet…",
       "politician": null,
@@ -572,6 +470,108 @@
         }
       },
       "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "KEYS",
+      "name": "Keysight Technologies",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 274.82,
+      "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "INTU",
+      "name": "Intuit",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 307.53,
+      "description": "Intuit Inc. ist ein US-amerikanischer Hersteller von Standardanwendungssoftware aus Kalifornien mit rund 9.400 Mitarbeitern weltweit und einem Umsatz von ca. 6,7 Milliarden…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "GEN",
+      "name": "Gen Digital",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 26.64,
+      "description": "Gen Digital Inc. ist ein US-amerikanischer Entwickler von Sicherheitssoftware für Privatanwender. Der Hauptsitz des Unternehmens liegt in Tempe im Bundesstaat Arizona; und seit…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
