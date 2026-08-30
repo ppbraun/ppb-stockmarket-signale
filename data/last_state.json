@@ -1,13 +1,13 @@
 {
-  "Zölle / Handelskonflikt": 2,
+  "Zölle / Handelskonflikt": 1,
   "Fed-Zinspolitik": 3,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 0,
   "Halbleiter / Chips": 0,
-  "Energie / Öl & Gas": 1,
+  "Energie / Öl & Gas": 0,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 2,
+  "Schifffahrt / Lieferketten": 1,
   "Krypto-Regulierung": 0,
   "Cybersecurity": 0,
   "_tickers": {
@@ -71,19 +71,19 @@
       "baseline_price_usd": 358.06,
       "first_seen": "2026-08-30"
     },
-    "EW": {
+    "YUM": {
       "score": 1,
-      "baseline_price_usd": 90.21,
+      "baseline_price_usd": 153.86,
       "first_seen": "2026-08-30"
     },
-    "DXCM": {
+    "KEYS": {
       "score": 1,
-      "baseline_price_usd": 90.82,
+      "baseline_price_usd": 319.97,
       "first_seen": "2026-08-30"
     },
-    "AMCR": {
+    "AFL": {
       "score": 1,
-      "baseline_price_usd": 46.67,
+      "baseline_price_usd": 116.52,
       "first_seen": "2026-08-30"
     },
     "BABA": {
@@ -717,7 +717,13 @@
     "🆕 <b>AMCR</b> (Amcor) neu in der Liste — Score 1/5",
     "➖ <b>SCHW</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>AFL</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>PH</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>PH</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "🆕 <b>YUM</b> (Yum! Brands) neu in der Liste — Score 1/5",
+    "🆕 <b>KEYS</b> (Keysight Technologies) neu in der Liste — Score 1/5",
+    "🆕 <b>AFL</b> (Aflac) neu in der Liste — Score 1/5",
+    "➖ <b>EW</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>DXCM</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>AMCR</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": "2026-08-24"
 }
