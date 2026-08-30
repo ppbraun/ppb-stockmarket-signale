@@ -56,11 +56,6 @@
       "baseline_price_usd": 324.59,
       "first_seen": "2026-08-29"
     },
-    "INTU": {
-      "score": 1,
-      "baseline_price_usd": 358.06,
-      "first_seen": "2026-08-29"
-    },
     "ABNB": {
       "score": 2,
       "baseline_price_usd": 189.43,
@@ -71,19 +66,24 @@
       "baseline_price_usd": 932.86,
       "first_seen": "2026-08-29"
     },
-    "SCHW": {
-      "score": 1,
-      "baseline_price_usd": 110.16,
-      "first_seen": "2026-08-30"
-    },
-    "DXCM": {
-      "score": 1,
-      "baseline_price_usd": 90.82,
-      "first_seen": "2026-08-30"
-    },
     "ICE": {
       "score": 1,
       "baseline_price_usd": 162.33,
+      "first_seen": "2026-08-30"
+    },
+    "KEYS": {
+      "score": 1,
+      "baseline_price_usd": 319.97,
+      "first_seen": "2026-08-30"
+    },
+    "EW": {
+      "score": 1,
+      "baseline_price_usd": 90.21,
+      "first_seen": "2026-08-30"
+    },
+    "AFL": {
+      "score": 1,
+      "baseline_price_usd": 116.52,
       "first_seen": "2026-08-30"
     },
     "BABA": {
@@ -463,7 +463,13 @@
     "📉 <b>LI</b> weniger relevant: Score 1 → 0",
     "➖ <b>KEYS</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>HCA</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>AFL</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>AFL</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "🆕 <b>KEYS</b> (Keysight Technologies) neu in der Liste — Score 1/5",
+    "🆕 <b>EW</b> (Edwards Lifesciences) neu in der Liste — Score 1/5",
+    "🆕 <b>AFL</b> (Aflac) neu in der Liste — Score 1/5",
+    "➖ <b>INTU</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>SCHW</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>DXCM</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": "2026-08-24"
 }
