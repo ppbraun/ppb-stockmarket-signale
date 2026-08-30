@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-30T21:33:47.262559+00:00",
+  "generated_at": "2026-08-30T22:04:04.159755+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
-      "vol": 3,
+      "vol": 2,
       "pct": 100
     },
     {
       "topic": "Zölle / Handelskonflikt",
       "vol": 1,
-      "pct": 33
+      "pct": 50
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 1,
-      "pct": 33
+      "pct": 50
     },
     {
       "topic": "Edelmetalle / Goldminen",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": 3.3,
       "priceEur": 274.59,
-      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -343,7 +343,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 278.79,
-      "description": null,
+      "description": "Die Nordson Corporation ist ein US-amerikanischer Hersteller von Präzisionsanlagen zum Auftrag von Klebstoffen, Dichtstoffen und Beschichtungen. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -357,7 +357,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -461,7 +461,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -475,14 +475,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "YUM",
-      "name": "Yum! Brands",
+      "tk": "EW",
+      "name": "Edwards Lifesciences",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 132.15,
-      "description": "Die Yum! Brands, Inc. ist die weltgrößte Unternehmensgruppe für Systemgastronomie mit mehr als 50.000 Restaurants in 150 Ländern. Die Hauptzentrale des Konzerns befindet sich in…",
+      "priceEur": 77.48,
+      "description": "Edwards Lifesciences mit Hauptsitz in Irvine, Kalifornien, und Edwards Lifesciences Services GmbH mit Sitz in Unterschleißheim ist ein Unternehmen auf dem Gebiet der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -504,19 +504,19 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "KEYS",
-      "name": "Keysight Technologies",
+      "tk": "HCA",
+      "name": "HCA Healthcare",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 274.82,
-      "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
+      "priceEur": 358.86,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -538,19 +538,19 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "AFL",
-      "name": "Aflac",
+      "tk": "TPL",
+      "name": "Texas Pacific Land Corporation",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 100.08,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "priceEur": 312.96,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -572,7 +572,7 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Energy",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
