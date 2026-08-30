@@ -22,12 +22,12 @@
       "first_seen": "2026-08-29"
     },
     "ROK": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 430.86,
       "first_seen": "2026-08-29"
     },
     "FCX": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 76.45,
       "first_seen": "2026-08-29"
     },
@@ -57,7 +57,7 @@
       "first_seen": "2026-08-29"
     },
     "INTU": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 358.06,
       "first_seen": "2026-08-29"
     },
@@ -71,20 +71,20 @@
       "baseline_price_usd": 932.86,
       "first_seen": "2026-08-29"
     },
-    "KEYS": {
+    "SCHW": {
       "score": 1,
-      "baseline_price_usd": 319.97,
-      "first_seen": "2026-08-29"
+      "baseline_price_usd": 110.16,
+      "first_seen": "2026-08-30"
     },
-    "HCA": {
+    "DXCM": {
       "score": 1,
-      "baseline_price_usd": 417.82,
-      "first_seen": "2026-08-29"
+      "baseline_price_usd": 90.82,
+      "first_seen": "2026-08-30"
     },
-    "AFL": {
+    "ICE": {
       "score": 1,
-      "baseline_price_usd": 116.52,
-      "first_seen": "2026-08-29"
+      "baseline_price_usd": 162.33,
+      "first_seen": "2026-08-30"
     },
     "BABA": {
       "score": 3,
@@ -112,7 +112,7 @@
       "first_seen": "2026-08-18"
     },
     "LI": {
-      "score": 1,
+      "score": 0,
       "baseline_price_usd": 12.41,
       "first_seen": "2026-08-18"
     },
@@ -453,7 +453,17 @@
     "🆕 <b>AFL</b> (Aflac) neu in der Liste — Score 1/5",
     "➖ <b>ICE</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>GEN</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>EW</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>EW</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "📉 <b>ROK</b> weniger relevant: Score 3 → 2",
+    "📉 <b>FCX</b> weniger relevant: Score 3 → 2",
+    "📉 <b>INTU</b> weniger relevant: Score 2 → 1",
+    "🆕 <b>SCHW</b> (Charles Schwab Corporation) neu in der Liste — Score 1/5",
+    "🆕 <b>DXCM</b> (Dexcom) neu in der Liste — Score 1/5",
+    "🆕 <b>ICE</b> (Intercontinental Exchange) neu in der Liste — Score 1/5",
+    "📉 <b>LI</b> weniger relevant: Score 1 → 0",
+    "➖ <b>KEYS</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>HCA</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>AFL</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": "2026-08-24"
 }
