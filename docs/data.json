@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-31T17:04:26.174097+00:00",
+  "generated_at": "2026-08-31T17:34:17.131650+00:00",
   "newsTopics": [
+    {
+      "topic": "Energie / Öl & Gas",
+      "vol": 2,
+      "pct": 100
+    },
     {
       "topic": "Zölle / Handelskonflikt",
       "vol": 1,
-      "pct": 100
+      "pct": 50
     },
     {
       "topic": "Fed-Zinspolitik",
       "vol": 1,
-      "pct": 100
-    },
-    {
-      "topic": "Energie / Öl & Gas",
-      "vol": 1,
-      "pct": 100
+      "pct": 50
     },
     {
       "topic": "Edelmetalle / Goldminen",
@@ -65,7 +65,7 @@
       "market": "us",
       "score": 3,
       "reaction": 1.4,
-      "priceEur": 270.41,
+      "priceEur": 270.5,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.1,
-      "priceEur": 139.16,
+      "reaction": -1.0,
+      "priceEur": 139.37,
       "description": "Die Target Corporation gehört zu den größten Einzelhändlern der USA und ist nach Walmart der zweitgrößte Discounter des Landes. Das Unternehmen hat seinen Sitz in Minneapolis,…",
       "politician": null,
       "track": null,
@@ -133,8 +133,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.4,
-      "priceEur": 366.24,
+      "reaction": -1.7,
+      "priceEur": 365.43,
       "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
       "politician": null,
       "track": null,
@@ -168,7 +168,7 @@
       "market": "us",
       "score": 2,
       "reaction": -1.1,
-      "priceEur": 65.18,
+      "priceEur": 65.21,
       "description": "Freeport-McMoRan Inc. ist ein US-amerikanisches Unternehmen der Bergbauindustrie. Der Firmensitz befindet sich in Phoenix. Die Freeport-Aktie wird seit 1988 an der New Yorker…",
       "politician": null,
       "track": null,
@@ -201,8 +201,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.7,
-      "priceEur": 278.1,
+      "reaction": -0.8,
+      "priceEur": 277.82,
       "description": "Die Nordson Corporation ist ein US-amerikanischer Hersteller von Präzisionsanlagen zum Auftrag von Klebstoffen, Dichtstoffen und Beschichtungen. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -235,8 +235,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -3.5,
-      "priceEur": 157.68,
+      "reaction": -3.3,
+      "priceEur": 157.98,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -269,8 +269,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 2.2,
-      "priceEur": 225.66,
+      "reaction": 1.7,
+      "priceEur": 224.56,
       "description": "Salesforce, Inc. mit Sitz in San Francisco (USA) ist ein börsennotiertes US-amerikanisches Softwareunternehmen, das Cloud-Computing-Produkte für Unternehmen anbietet. Das…",
       "politician": null,
       "track": null,
@@ -285,7 +285,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -304,8 +304,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 308.47,
+      "reaction": -0.3,
+      "priceEur": 307.75,
       "description": "Intuit Inc. ist ein US-amerikanischer Hersteller von Standardanwendungssoftware aus Kalifornien mit rund 9.400 Mitarbeitern weltweit und einem Umsatz von ca. 6,7 Milliarden…",
       "politician": null,
       "track": null,
@@ -339,8 +339,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.7,
-      "priceEur": 818.53,
+      "reaction": 1.6,
+      "priceEur": 817.35,
       "description": "Micron Technology Inc. ist ein US-amerikanischer Hersteller von Speicherelementen für Computer mit Hauptsitz in Boise, Idaho, USA. Das Unternehmen belegte 2024 Platz 6 der größten…",
       "politician": null,
       "track": null,
@@ -369,47 +369,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AFL",
-      "name": "Aflac",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": -0.1,
-      "priceEur": 100.21,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "IBM",
       "name": "IBM",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.0,
-      "priceEur": 202.23,
+      "reaction": -0.1,
+      "priceEur": 202.07,
       "description": "Die International Business Machines Corporation (IBM) ist ein börsennotiertes US-amerikanisches IT- und Beratungsunternehmen mit Sitz in Armonk im Bundesstaat New York. IBM zählt…",
       "politician": null,
       "track": null,
@@ -424,7 +390,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -438,81 +404,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "RSG",
-      "name": "Republic Services",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": -0.2,
-      "priceEur": 191.6,
-      "description": "Republic Services ist ein US-amerikanisches Entsorgungsunternehmen mit Hauptsitz in Phoenix im US-Bundesstaat Arizona. Das Unternehmen führt die Entsorgung von festen und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "AMCR",
-      "name": "Amcor",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 39.7,
-      "description": "Amcor Limited ist ein globales Verpackungsunternehmen. Es entwickelt und produziert flexible Verpackungen, starre Behälter, Spezialkartons, Verschlüsse und Dienstleistungen für…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "KEYS",
       "name": "Keysight Technologies",
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
-      "priceEur": 275.49,
+      "reaction": -0.1,
+      "priceEur": 275.35,
       "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
       "politician": null,
       "track": null,
@@ -545,8 +443,8 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
-      "priceEur": 312.96,
+      "reaction": -0.1,
+      "priceEur": 312.62,
       "description": "Analog Devices Inc. ist ein US-amerikanischer Halbleiterhersteller mit Hauptsitz in Norwood bei Boston, Massachusetts. Das Unternehmen betreibt weltweit Niederlassungen.…",
       "politician": null,
       "track": null,
@@ -574,13 +472,115 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
+      "tk": "EW",
+      "name": "Edwards Lifesciences",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 78.55,
+      "description": "Edwards Lifesciences mit Hauptsitz in Irvine, Kalifornien, und Edwards Lifesciences Services GmbH mit Sitz in Unterschleißheim ist ein Unternehmen auf dem Gebiet der…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "DXCM",
+      "name": "Dexcom",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 77.88,
+      "description": "DexCom, Inc. ist ein US-amerikanisches Unternehmen, das kontinuierlich messende Glucosesensoren für Diabetes-Patienten entwickelt, herstellt und vertreibt. Der Hauptsitz befindet…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 317.8,
+      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1Std",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Energy",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -7.8,
-      "priceEur": 99.14,
+      "reaction": -8.2,
+      "priceEur": 98.77,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -613,8 +613,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -0.4,
-      "priceEur": 24.49,
+      "reaction": -0.5,
+      "priceEur": 24.45,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -647,8 +647,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -2.9,
-      "priceEur": 72.82,
+      "reaction": -3.1,
+      "priceEur": 72.65,
       "description": null,
       "politician": null,
       "track": null,
@@ -679,8 +679,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -7.4,
-      "priceEur": 83.13,
+      "reaction": -7.8,
+      "priceEur": 82.8,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -711,8 +711,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -5.8,
-      "priceEur": 3.74,
+      "reaction": -6.2,
+      "priceEur": 3.72,
       "description": null,
       "politician": null,
       "track": null,
@@ -743,8 +743,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -1.8,
-      "priceEur": 10.51,
+      "reaction": -2.1,
+      "priceEur": 10.48,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -775,8 +775,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 0.7,
-      "priceEur": 38.95,
+      "reaction": 0.6,
+      "priceEur": 38.9,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -807,8 +807,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -1.8,
-      "priceEur": 105.31,
+      "reaction": -2.1,
+      "priceEur": 105.08,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
