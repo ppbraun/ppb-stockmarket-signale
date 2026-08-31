@@ -17,7 +17,7 @@
       "first_seen": "2026-08-21"
     },
     "TGT": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 163.18,
       "first_seen": "2026-08-29"
     },
@@ -32,12 +32,12 @@
       "first_seen": "2026-08-29"
     },
     "ADI": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 361.78,
       "first_seen": "2026-08-29"
     },
     "IBM": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 235.59,
       "first_seen": "2026-08-29"
     },
@@ -52,7 +52,7 @@
       "first_seen": "2026-08-29"
     },
     "NDSN": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 324.59,
       "first_seen": "2026-08-29"
     },
@@ -67,27 +67,27 @@
       "first_seen": "2026-08-29"
     },
     "INTU": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 358.06,
       "first_seen": "2026-08-30"
     },
-    "ICE": {
+    "PH": {
       "score": 1,
-      "baseline_price_usd": 162.33,
-      "first_seen": "2026-08-30"
+      "baseline_price_usd": 995.02,
+      "first_seen": "2026-08-31"
     },
-    "KEYS": {
+    "GEN": {
       "score": 1,
-      "baseline_price_usd": 319.97,
-      "first_seen": "2026-08-30"
+      "baseline_price_usd": 31.02,
+      "first_seen": "2026-08-31"
     },
-    "TPL": {
+    "SCHW": {
       "score": 1,
-      "baseline_price_usd": 364.38,
-      "first_seen": "2026-08-30"
+      "baseline_price_usd": 110.16,
+      "first_seen": "2026-08-31"
     },
     "BABA": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 124.71,
       "first_seen": "2026-08-18"
     },
@@ -747,7 +747,19 @@
     "🆕 <b>TPL</b> (Texas Pacific Land Corporation) neu in der Liste — Score 1/5",
     "➖ <b>GEN</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>PH</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>AFL</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>AFL</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "📉 <b>TGT</b> weniger relevant: Score 3 → 2",
+    "📉 <b>ADI</b> weniger relevant: Score 2 → 1",
+    "📉 <b>IBM</b> weniger relevant: Score 2 → 1",
+    "📉 <b>NDSN</b> weniger relevant: Score 3 → 2",
+    "📉 <b>INTU</b> weniger relevant: Score 2 → 1",
+    "🆕 <b>PH</b> (Parker Hannifin) neu in der Liste — Score 1/5",
+    "🆕 <b>GEN</b> (Gen Digital) neu in der Liste — Score 1/5",
+    "🆕 <b>SCHW</b> (Charles Schwab Corporation) neu in der Liste — Score 1/5",
+    "📉 <b>BABA</b> weniger relevant: Score 3 → 2",
+    "➖ <b>ICE</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>KEYS</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>TPL</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": "2026-08-24"
 }
