@@ -31,16 +31,6 @@
       "baseline_price_usd": 76.45,
       "first_seen": "2026-08-29"
     },
-    "ADI": {
-      "score": 1,
-      "baseline_price_usd": 361.78,
-      "first_seen": "2026-08-29"
-    },
-    "IBM": {
-      "score": 1,
-      "baseline_price_usd": 235.59,
-      "first_seen": "2026-08-29"
-    },
     "CRM": {
       "score": 2,
       "baseline_price_usd": 256.0,
@@ -66,11 +56,6 @@
       "baseline_price_usd": 932.86,
       "first_seen": "2026-08-29"
     },
-    "INTU": {
-      "score": 1,
-      "baseline_price_usd": 358.06,
-      "first_seen": "2026-08-30"
-    },
     "PH": {
       "score": 1,
       "baseline_price_usd": 995.02,
@@ -84,6 +69,21 @@
     "SCHW": {
       "score": 1,
       "baseline_price_usd": 110.16,
+      "first_seen": "2026-08-31"
+    },
+    "HCA": {
+      "score": 1,
+      "baseline_price_usd": 417.82,
+      "first_seen": "2026-08-31"
+    },
+    "AMCR": {
+      "score": 1,
+      "baseline_price_usd": 46.67,
+      "first_seen": "2026-08-31"
+    },
+    "EW": {
+      "score": 1,
+      "baseline_price_usd": 90.21,
       "first_seen": "2026-08-31"
     },
     "BABA": {
@@ -759,7 +759,13 @@
     "📉 <b>BABA</b> weniger relevant: Score 3 → 2",
     "➖ <b>ICE</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>KEYS</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>TPL</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>TPL</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "🆕 <b>HCA</b> (HCA Healthcare) neu in der Liste — Score 1/5",
+    "🆕 <b>AMCR</b> (Amcor) neu in der Liste — Score 1/5",
+    "🆕 <b>EW</b> (Edwards Lifesciences) neu in der Liste — Score 1/5",
+    "➖ <b>ADI</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>IBM</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>INTU</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": "2026-08-24"
 }
