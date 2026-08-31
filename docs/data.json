@@ -1,20 +1,15 @@
 {
-  "generated_at": "2026-08-31T10:04:32.069313+00:00",
+  "generated_at": "2026-08-31T10:34:07.786679+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
-      "vol": 1,
-      "pct": 100
+      "vol": 0,
+      "pct": 0
     },
     {
       "topic": "Fed-Zinspolitik",
-      "vol": 1,
-      "pct": 100
-    },
-    {
-      "topic": "Schifffahrt / Lieferketten",
-      "vol": 1,
-      "pct": 100
+      "vol": 0,
+      "pct": 0
     },
     {
       "topic": "Edelmetalle / Goldminen",
@@ -43,6 +38,11 @@
     },
     {
       "topic": "Gesundheit / FDA-Zulassungen",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Schifffahrt / Lieferketten",
       "vol": 0,
       "pct": 0
     },
@@ -298,108 +298,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 312.96,
-      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "SCHW",
-      "name": "Charles Schwab Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 94.62,
-      "description": "Charles Schwab Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Westlake, Texas. Das Unternehmen ist im Aktienindex S&P 500 gelistet. Vorsitzender des…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "GEN",
-      "name": "Gen Digital",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 26.64,
-      "description": "Gen Digital Inc. ist ein US-amerikanischer Entwickler von Sicherheitssoftware für Privatanwender. Der Hauptsitz des Unternehmens liegt in Tempe im Bundesstaat Arizona; und seit…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "IBM",
       "name": "IBM",
       "broker": true,
@@ -438,10 +336,10 @@
       "name": "Intuit",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": 0.0,
       "priceEur": 307.53,
-      "description": "Intuit Inc. is an American financial technology company that develops financial software and services, including TurboTax and QuickBooks. Founded in 1983, the company is…",
+      "description": "Intuit Inc. ist ein US-amerikanischer Hersteller von Standardanwendungssoftware aus Kalifornien mit rund 9.400 Mitarbeitern weltweit und einem Umsatz von ca. 6,7 Milliarden…",
       "politician": null,
       "track": null,
       "sig": {
@@ -454,7 +352,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -465,7 +364,7 @@
       },
       "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "PH",
@@ -473,9 +372,9 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 854.61,
-      "description": null,
+      "description": "Parker-Hannifin Corporation, originally Parker Appliance Company, is an American multinational industrial manufacturing company specializing in motion and control technologies.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -507,7 +406,7 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 132.15,
       "description": "Die Yum! Brands, Inc. ist die weltgrößte Unternehmensgruppe für Systemgastronomie mit mehr als 50.000 Restaurants in 150 Ländern. Die Hauptzentrale des Konzerns befindet sich in…",
       "politician": null,
@@ -541,7 +440,7 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 358.86,
       "description": "HCA Healthcare, Inc. is an American global for-profit operator of health care facilities that was founded in 1968. It is based in Nashville, Tennessee, and, as of May 2020, owned…",
       "politician": null,
@@ -566,6 +465,108 @@
         }
       },
       "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "EW",
+      "name": "Edwards Lifesciences",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 77.48,
+      "description": "Edwards Lifesciences mit Hauptsitz in Irvine, Kalifornien, und Edwards Lifesciences Services GmbH mit Sitz in Unterschleißheim ist ein Unternehmen auf dem Gebiet der…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "KEYS",
+      "name": "Keysight Technologies",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 274.82,
+      "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "AFL",
+      "name": "Aflac",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 100.08,
+      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
