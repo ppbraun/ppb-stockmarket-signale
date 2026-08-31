@@ -1,6 +1,6 @@
 {
-  "Zölle / Handelskonflikt": 1,
-  "Fed-Zinspolitik": 1,
+  "Zölle / Handelskonflikt": 0,
+  "Fed-Zinspolitik": 0,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 0,
@@ -12,7 +12,7 @@
   "Cybersecurity": 0,
   "_tickers": {
     "AAPL": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 309.35,
       "first_seen": "2026-08-21"
     },
@@ -31,11 +31,6 @@
       "baseline_price_usd": 76.45,
       "first_seen": "2026-08-29"
     },
-    "RSG": {
-      "score": 1,
-      "baseline_price_usd": 222.11,
-      "first_seen": "2026-08-29"
-    },
     "NDSN": {
       "score": 2,
       "baseline_price_usd": 324.59,
@@ -45,16 +40,6 @@
       "score": 2,
       "baseline_price_usd": 189.43,
       "first_seen": "2026-08-29"
-    },
-    "INTU": {
-      "score": 1,
-      "baseline_price_usd": 358.06,
-      "first_seen": "2026-08-31"
-    },
-    "AFL": {
-      "score": 1,
-      "baseline_price_usd": 116.52,
-      "first_seen": "2026-08-31"
     },
     "DXCM": {
       "score": 1,
@@ -84,6 +69,21 @@
     "TPL": {
       "score": 1,
       "baseline_price_usd": 364.38,
+      "first_seen": "2026-08-31"
+    },
+    "IBM": {
+      "score": 1,
+      "baseline_price_usd": 235.59,
+      "first_seen": "2026-08-31"
+    },
+    "CRM": {
+      "score": 1,
+      "baseline_price_usd": 256.0,
+      "first_seen": "2026-08-31"
+    },
+    "GEN": {
+      "score": 1,
+      "baseline_price_usd": 31.02,
       "first_seen": "2026-08-31"
     },
     "BABA": {
