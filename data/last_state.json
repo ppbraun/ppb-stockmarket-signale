@@ -1,6 +1,6 @@
 {
   "Zölle / Handelskonflikt": 1,
-  "Fed-Zinspolitik": 2,
+  "Fed-Zinspolitik": 1,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 0,
@@ -56,21 +56,6 @@
       "baseline_price_usd": 932.86,
       "first_seen": "2026-08-29"
     },
-    "HCA": {
-      "score": 1,
-      "baseline_price_usd": 417.82,
-      "first_seen": "2026-08-31"
-    },
-    "AMCR": {
-      "score": 1,
-      "baseline_price_usd": 46.67,
-      "first_seen": "2026-08-31"
-    },
-    "EW": {
-      "score": 1,
-      "baseline_price_usd": 90.21,
-      "first_seen": "2026-08-31"
-    },
     "DXCM": {
       "score": 1,
       "baseline_price_usd": 90.82,
@@ -84,6 +69,21 @@
     "ADI": {
       "score": 1,
       "baseline_price_usd": 361.78,
+      "first_seen": "2026-08-31"
+    },
+    "PH": {
+      "score": 1,
+      "baseline_price_usd": 995.02,
+      "first_seen": "2026-08-31"
+    },
+    "GEN": {
+      "score": 1,
+      "baseline_price_usd": 31.02,
+      "first_seen": "2026-08-31"
+    },
+    "AFL": {
+      "score": 1,
+      "baseline_price_usd": 116.52,
       "first_seen": "2026-08-31"
     },
     "BABA": {
@@ -771,7 +771,13 @@
     "🆕 <b>ADI</b> (Analog Devices) neu in der Liste — Score 1/5",
     "➖ <b>PH</b> aus der Watchlist rotiert (Score war zu niedrig)",
     "➖ <b>GEN</b> aus der Watchlist rotiert (Score war zu niedrig)",
-    "➖ <b>SCHW</b> aus der Watchlist rotiert (Score war zu niedrig)"
+    "➖ <b>SCHW</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "🆕 <b>PH</b> (Parker Hannifin) neu in der Liste — Score 1/5",
+    "🆕 <b>GEN</b> (Gen Digital) neu in der Liste — Score 1/5",
+    "🆕 <b>AFL</b> (Aflac) neu in der Liste — Score 1/5",
+    "➖ <b>HCA</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>AMCR</b> aus der Watchlist rotiert (Score war zu niedrig)",
+    "➖ <b>EW</b> aus der Watchlist rotiert (Score war zu niedrig)"
   ],
   "_last_weekly_summary_date": "2026-08-24"
 }
