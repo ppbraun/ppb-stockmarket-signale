@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T05:37:08.187275+00:00",
+  "generated_at": "2026-09-01T06:04:28.803556+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -183,7 +183,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": false
@@ -253,7 +253,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -288,7 +288,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": false
@@ -323,7 +323,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": false
@@ -475,14 +475,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "RJF",
-      "name": "Raymond James Financial",
+      "tk": "WM",
+      "name": "Waste Management",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 153.65,
-      "description": "Raymond James Financial, Inc. is an American multinational independent investment bank and financial services company providing financial services to individuals, corporations,…",
+      "priceEur": 188.79,
+      "description": "Waste Management (WM) ist ein 1968 von Wayne Huizenga, Dean Buntrock und Larry Beck gegründetes US-amerikanisches Unternehmen mit Firmensitz in Houston, Texas, das im Bereich der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -504,19 +504,19 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "TPL",
-      "name": "Texas Pacific Land Corporation",
+      "tk": "SMCI",
+      "name": "Supermicro",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 322.82,
-      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
+      "priceEur": 32.15,
+      "description": "Super Micro Computer, kurz Supermicro, ist ein Hersteller von Computern für Rechenzentren. Das Unternehmen wurde 1993 vom Ehepaar Charles und Chiu-Chu Liu Liang im kalifornischen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -538,19 +538,19 @@
           "active": false
         }
       },
-      "topic": "Energy",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "DLR",
-      "name": "Digital Realty",
+      "tk": "QCOM",
+      "name": "Qualcomm",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 160.05,
-      "description": "Digital Realty ist ein US-amerikanisches Unternehmen mit Sitz in Austin, das sich auf den Betrieb von Rechenzentren und das Bereitstellen von Interconnection-Services…",
+      "priceEur": 147.02,
+      "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
       "politician": null,
       "track": null,
       "sig": {
@@ -563,7 +563,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "11Std"
         },
         "predict": {
           "active": false
@@ -572,9 +573,9 @@
           "active": false
         }
       },
-      "topic": "Real Estate",
+      "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
