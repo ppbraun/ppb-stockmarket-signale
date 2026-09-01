@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T20:04:22.028531+00:00",
+  "generated_at": "2026-09-01T20:37:32.973928+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -13,6 +13,11 @@
     },
     {
       "topic": "Fed-Zinspolitik",
+      "vol": 1,
+      "pct": 50
+    },
+    {
+      "topic": "Cybersecurity",
       "vol": 1,
       "pct": 50
     },
@@ -50,11 +55,6 @@
       "topic": "Krypto-Regulierung",
       "vol": 0,
       "pct": 0
-    },
-    {
-      "topic": "Cybersecurity",
-      "vol": 0,
-      "pct": 0
     }
   ],
   "tickers": [
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "0Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -170,7 +170,7 @@
       "market": "us",
       "score": 3,
       "reaction": -2.1,
-      "priceEur": 1187.42,
+      "priceEur": 1187.19,
       "description": "Die US-amerikanische Unternehmensgruppe Mettler Toledo mit Sitz in Columbus, Ohio und operativer Hauptzentrale in Greifensee ist spezialisiert auf Präzisionswaagen für den…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -197,76 +197,6 @@
       "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "EL",
-      "name": "Estée Lauder Companies (The)",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.1,
-      "priceEur": 86.29,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "FDX",
-      "name": "FedEx",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 1.3,
-      "priceEur": 280.32,
-      "description": "Die FedEx Corporation ist ein weltweit operierendes US-amerikanisches Kurier- und Logistikunternehmen mit Sitz in Memphis, Tennessee. Die Luftfracht-Division FedEx Express belegt…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "SLB",
@@ -311,8 +241,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.2,
-      "priceEur": 163.22,
+      "reaction": -0.1,
+      "priceEur": 163.3,
       "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
       "politician": null,
       "track": null,
@@ -327,7 +257,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -346,9 +276,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.4,
-      "priceEur": 43.42,
-      "description": "Verizon Communications Inc. is an American telecommunications company headquartered in New York City. It is the world's second-largest telecommunications company by revenue and…",
+      "reaction": -0.5,
+      "priceEur": 43.4,
+      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -362,7 +292,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -383,7 +313,7 @@
       "score": 2,
       "reaction": 0.5,
       "priceEur": 185.56,
-      "description": "CrowdStrike Holdings, Inc. is an American cybersecurity technology company based in Austin, Texas. It provides endpoint security, threat intelligence, and cyberattack response…",
+      "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -397,7 +327,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -418,7 +348,7 @@
       "score": 2,
       "reaction": 0.1,
       "priceEur": 138.49,
-      "description": null,
+      "description": "The Bank of New York Mellon Corporation ist ein weltweit tätiger Finanzdienstleister, der am 1. Juli 2007 aus der Bank of New York und der Mellon Financial Corporation entstand.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -451,8 +381,8 @@
       "market": "us",
       "score": 2,
       "reaction": -0.8,
-      "priceEur": 123.29,
-      "description": "ServiceNow, Inc. is an American software company that supplies cloud computing platforms for the creation and management of automated business workflows. The company was founded…",
+      "priceEur": 123.3,
+      "description": "ServiceNow Inc. ist ein US-amerikanisches Technologieunternehmen mit Sitz in Santa Clara, Kalifornien. Es bietet mit dem gleichnamigen Produkt eine cloud-basierte Lösung für das…",
       "politician": null,
       "track": null,
       "sig": {
@@ -480,46 +410,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "ALGN",
-      "name": "Align Technology",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 133.7,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "SMCI",
       "name": "Supermicro",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 31.67,
       "description": "Super Micro Computer, kurz Supermicro, ist ein Hersteller von Computern für Rechenzentren. Das Unternehmen wurde 1993 vom Ehepaar Charles und Chiu-Chu Liu Liang im kalifornischen…",
       "politician": null,
@@ -554,7 +450,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 24.43,
       "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
@@ -583,13 +479,117 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
+      "tk": "USB",
+      "name": "U.S. Bancorp",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 52.81,
+      "description": "U.S. Bancorp ist ein Finanzunternehmen aus den Vereinigten Staaten mit Firmensitz in Minneapolis, Minnesota. Das Unternehmen ist im Aktienindex S&P 500 gelistet und ist die…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "GLW",
+      "name": "Corning Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 125.59,
+      "description": "Die Corning, Inc. ist ein Unternehmen aus den Vereinigten Staaten mit Sitz in Corning, New York. Das im Aktienindex S&P 500 gelistete Unternehmen beschäftigt rund 52.000…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "EW",
+      "name": "Edwards Lifesciences",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 78.29,
+      "description": "Edwards Lifesciences mit Hauptsitz in Irvine, Kalifornien, und Edwards Lifesciences Services GmbH mit Sitz in Unterschleißheim ist ein Unternehmen auf dem Gebiet der…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
       "reaction": -9.5,
-      "priceEur": 97.36,
+      "priceEur": 97.37,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -669,7 +669,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -720,8 +720,8 @@
       "name": "NIO Inc.",
       "broker": true,
       "market": "cn",
-      "score": 1,
-      "reaction": -11.8,
+      "score": 2,
+      "reaction": -11.7,
       "priceEur": 3.5,
       "description": null,
       "politician": null,
@@ -731,11 +731,13 @@
           "active": false
         },
         "insider": {
-          "active": false
+          "active": true,
+          "age": "1Std",
+          "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -746,7 +748,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "LI",

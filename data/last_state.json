@@ -9,7 +9,7 @@
   "Gesundheit / FDA-Zulassungen": 0,
   "Schifffahrt / Lieferketten": 0,
   "Krypto-Regulierung": 0,
-  "Cybersecurity": 0,
+  "Cybersecurity": 1,
   "_tickers": {
     "AAPL": {
       "score": 3,
@@ -29,16 +29,6 @@
     "MTD": {
       "score": 3,
       "baseline_price_usd": 1405.14,
-      "first_seen": "2026-09-01"
-    },
-    "EL": {
-      "score": 2,
-      "baseline_price_usd": 99.93,
-      "first_seen": "2026-09-01"
-    },
-    "FDX": {
-      "score": 2,
-      "baseline_price_usd": 320.78,
       "first_seen": "2026-09-01"
     },
     "SLB": {
@@ -71,11 +61,6 @@
       "baseline_price_usd": 144.0,
       "first_seen": "2026-09-01"
     },
-    "ALGN": {
-      "score": 1,
-      "baseline_price_usd": 154.96,
-      "first_seen": "2026-09-01"
-    },
     "SMCI": {
       "score": 2,
       "baseline_price_usd": 36.71,
@@ -84,6 +69,21 @@
     "WBD": {
       "score": 2,
       "baseline_price_usd": 28.32,
+      "first_seen": "2026-09-01"
+    },
+    "USB": {
+      "score": 2,
+      "baseline_price_usd": 61.21,
+      "first_seen": "2026-09-01"
+    },
+    "GLW": {
+      "score": 2,
+      "baseline_price_usd": 145.56,
+      "first_seen": "2026-09-01"
+    },
+    "EW": {
+      "score": 1,
+      "baseline_price_usd": 90.74,
       "first_seen": "2026-09-01"
     },
     "BABA": {
@@ -107,7 +107,7 @@
       "first_seen": "2026-08-18"
     },
     "NIO": {
-      "score": 1,
+      "score": 2,
       "baseline_price_usd": 4.6,
       "first_seen": "2026-08-18"
     },
