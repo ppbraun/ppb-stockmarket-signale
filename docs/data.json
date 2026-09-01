@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T09:38:42.006786+00:00",
+  "generated_at": "2026-09-01T10:04:37.827662+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -476,14 +476,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "EL",
-      "name": "Estée Lauder Companies (The)",
+      "tk": "TPL",
+      "name": "Texas Pacific Land Corporation",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 88.22,
-      "description": null,
+      "priceEur": 322.82,
+      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
       "politician": null,
       "track": null,
       "sig": {
@@ -505,19 +505,19 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
+      "topic": "Energy",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "HSY",
-      "name": "Hershey Company (The)",
+      "tk": "DLR",
+      "name": "Digital Realty",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 151.96,
-      "description": null,
+      "priceEur": 160.05,
+      "description": "Digital Realty ist ein US-amerikanisches Unternehmen mit Sitz in Austin, das sich auf den Betrieb von Rechenzentren und das Bereitstellen von Interconnection-Services…",
       "politician": null,
       "track": null,
       "sig": {
@@ -539,19 +539,19 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
+      "topic": "Real Estate",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "AMAT",
-      "name": "Applied Materials",
+      "tk": "MPC",
+      "name": "Marathon Petroleum",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 395.3,
-      "description": "Die Firma Applied Materials (AMAT) ist ein US-amerikanischer Hersteller von Anlagen für die Halbleiterindustrie mit Sitz in Santa Clara, Kalifornien im Silicon Valley.",
+      "priceEur": 321.94,
+      "description": "Die Marathon Petroleum Corporation, vormals Marathon Ashland Petroleum LLC, ist ein US-amerikanisches Unternehmen zur Raffinierung, zum Transport und zur Vermarktung von Erdöl.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -573,8 +573,10 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
-      "ethics": [],
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
