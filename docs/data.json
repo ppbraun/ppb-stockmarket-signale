@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T04:37:40.818096+00:00",
+  "generated_at": "2026-09-01T05:04:17.696224+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -94,40 +94,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "ROK",
-      "name": "Rockwell Automation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -1.5,
-      "priceEur": 366.02,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
       "tk": "FCX",
       "name": "Freeport-McMoRan",
       "broker": true,
@@ -135,7 +101,7 @@
       "score": 2,
       "reaction": -0.9,
       "priceEur": 65.32,
-      "description": null,
+      "description": "Freeport-McMoRan Inc. ist ein US-amerikanisches Unternehmen der Bergbauindustrie. Der Firmensitz befindet sich in Phoenix. Die Freeport-Aktie wird seit 1988 an der New Yorker…",
       "politician": null,
       "track": null,
       "sig": {
@@ -251,7 +217,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -321,7 +287,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -356,7 +322,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -479,7 +445,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 127.62,
       "description": "ServiceNow Inc. ist ein US-amerikanisches Technologieunternehmen mit Sitz in Santa Clara, Kalifornien. Es bietet mit dem gleichnamigen Produkt eine cloud-basierte Lösung für das…",
       "politician": null,
@@ -509,14 +475,48 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "GLW",
-      "name": "Corning Inc.",
+      "tk": "GIS",
+      "name": "General Mills",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 128.26,
-      "description": "Die Corning, Inc. ist ein Unternehmen aus den Vereinigten Staaten mit Sitz in Corning, New York. Das im Aktienindex S&P 500 gelistete Unternehmen beschäftigt rund 52.000…",
+      "priceEur": 35.53,
+      "description": "General Mills ist ein US-amerikanisches Unternehmen der Nahrungsmittelindustrie und gehört mit einem Umsatz von 18,9 Mrd. US-Dollar (2022) zu den 500 umsatzstärksten Konzernen der…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "IT",
+      "name": "Gartner",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 170.84,
+      "description": "Gartner steht für:Gartner Inc., US-amerikanisches Marktforschungsunternehmen Gartner KG, österreichisches Logistikunternehmen Josef Gartner GmbH, deutscher Hochhausfassadenbauer,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -543,14 +543,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "AFL",
-      "name": "Aflac",
+      "tk": "BNY",
+      "name": "BNY Mellon",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 99.91,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "priceEur": 139.08,
+      "description": "The Bank of New York Mellon Corporation ist ein weltweit tätiger Finanzdienstleister, der am 1. Juli 2007 aus der Bank of New York und der Mellon Financial Corporation entstand.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -566,7 +566,7 @@
           "active": false
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
@@ -574,7 +574,7 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "BABA",
