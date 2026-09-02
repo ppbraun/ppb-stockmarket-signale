@@ -104,8 +104,9 @@ TOPICS = {
     "Krypto-Regulierung": ["crypto regulation", "cryptocurrency regulation"],
     "Cybersecurity": ["cybersecurity", "cyberattack", "data breach"],
 }
-THRESHOLD_COUNT = 5           # Erwaehnungen unter den Marktnachrichten, ab der ein Thema "auffaellig" ist
-THRESHOLD_JUMP_PCT = 50
+THRESHOLD_COUNT = 10          # Erwaehnungen unter den Marktnachrichten, ab der ein Thema "auffaellig" ist
+THRESHOLD_JUMP_PCT = 100      # Sprung-Trigger: erst bei Verdopplung, nicht schon bei +50%
+MIN_SCORE_FOR_TICKER_ALERT = 3   # nur Score >= 3 loest eine sofortige Ticker-Meldung aus
 
 # SIC-Code-Praefixe -> ethische Kennzeichnung (heuristisch, nicht abschliessend)
 SIC_ETHICS_MAP = {
@@ -988,9 +989,10 @@ def net_direction_label(ticker_result):
 
 
 def diff_ticker_alerts(old_tickers_state, new_tickers):
-    """Vergleicht die aktuelle Ticker-Liste mit der letzten und meldet
-    neue Treffer, gestiegene/gesunkene Scores sowie Watchlist-Abgänge
-    fuer Telegram."""
+    """Vergleicht die aktuelle Ticker-Liste mit der letzten und meldet nur noch
+    wirklich bedeutsame Aenderungen fuer Telegram (Score >= MIN_SCORE_FOR_TICKER_ALERT).
+    Score-Rueckgaenge und Watchlist-Rotationen werden geloggt, aber nicht mehr
+    sofort gepusht — die sind fuer den Alltag zu kleinteilig."""
     alerts = []
     seen_tks = set()
 
@@ -1003,16 +1005,22 @@ def diff_ticker_alerts(old_tickers_state, new_tickers):
         dir_suffix = f" · {direction}" if direction else ""
 
         if prev is None:
-            alerts.append(f"🆕 <b>{tk}</b> ({t['name']}) neu in der Liste — Score {new_score}/5{dir_suffix}")
+            if new_score >= MIN_SCORE_FOR_TICKER_ALERT:
+                alerts.append(f"🆕 <b>{tk}</b> ({t['name']}) neu in der Liste — Score {new_score}/5{dir_suffix}")
+            else:
+                print(f"  {tk} neu in der Liste, Score {new_score}/5 — unter Meldeschwelle, kein Push.")
         elif new_score > prev.get("score", 0):
-            alerts.append(f"📈 <b>{tk}</b> relevanter geworden: Score {prev.get('score', 0)} → {new_score}{dir_suffix}")
+            if new_score >= MIN_SCORE_FOR_TICKER_ALERT:
+                alerts.append(f"📈 <b>{tk}</b> relevanter geworden: Score {prev.get('score', 0)} → {new_score}{dir_suffix}")
+            else:
+                print(f"  {tk} Score {prev.get('score', 0)} → {new_score} — unter Meldeschwelle, kein Push.")
         elif new_score < prev.get("score", 0):
-            alerts.append(f"📉 <b>{tk}</b> weniger relevant: Score {prev.get('score', 0)} → {new_score}")
+            print(f"  {tk} Score gesunken: {prev.get('score', 0)} → {new_score} — nicht gepusht, nur geloggt.")
 
-    # Titel, die vorher verfolgt wurden, jetzt aber aus der Watchlist rotiert sind
+    # Titel, die vorher verfolgt wurden, jetzt aber aus der Watchlist rotiert sind — nur geloggt
     for tk in old_tickers_state:
         if tk not in seen_tks:
-            alerts.append(f"➖ <b>{tk}</b> aus der Watchlist rotiert (Score war zu niedrig)")
+            print(f"  {tk} aus der Watchlist rotiert — nicht gepusht, nur geloggt.")
 
     return alerts
 
