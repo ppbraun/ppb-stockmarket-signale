@@ -2,7 +2,7 @@ name: Signal Check
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # alle 30 Minuten
+    - cron: '0 */2 * * *'   # alle 2 Stunden (statt alle 30 Min.) — weniger, dafür bedeutsamere Meldungen
   workflow_dispatch:          # erlaubt manuellen Start über den "Actions"-Tab
 
 permissions:
