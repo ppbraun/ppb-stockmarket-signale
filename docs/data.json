@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T16:14:35.573223+00:00",
+  "generated_at": "2026-09-02T18:16:41.662575+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 5.3,
-      "priceEur": 281.28,
+      "reaction": 5.4,
+      "priceEur": 281.57,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 5.1,
-      "priceEur": 127.44,
+      "reaction": 7.0,
+      "priceEur": 129.69,
       "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.0,
-      "priceEur": 144.97,
+      "reaction": 0.2,
+      "priceEur": 145.38,
       "description": "Jack Henry & Associates, also known as Jack Henry, is an American financial technology company that provides a broad range of technology solutions and payment processing services…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -169,44 +169,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.7,
-      "priceEur": 1181.44,
+      "reaction": -3.2,
+      "priceEur": 1175.39,
       "description": "Die US-amerikanische Unternehmensgruppe Mettler Toledo mit Sitz in Columbus, Ohio und operativer Hauptzentrale in Greifensee ist spezialisiert auf Präzisionswaagen für den…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "MSCI",
-      "name": "MSCI",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": -0.5,
-      "priceEur": 483.96,
-      "description": "MSCI Inc. ist ein in New York City ansässiger US-amerikanischer Finanzdienstleister, der Finanzdienstleistungen vor allem für das Investment Banking anbietet. Dies umfasst neben…",
       "politician": null,
       "track": null,
       "sig": {
@@ -229,6 +194,41 @@
           "active": false
         }
       },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "MSCI",
+      "name": "MSCI",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": -0.4,
+      "priceEur": 484.55,
+      "description": "MSCI Inc. ist ein in New York City ansässiger US-amerikanischer Finanzdienstleister, der Finanzdienstleistungen vor allem für das Investment Banking anbietet. Dies umfasst neben…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "8Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
@@ -239,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 157.74,
+      "reaction": 0.3,
+      "priceEur": 158.08,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -269,118 +269,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "CAT",
-      "name": "Caterpillar Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 1.0,
-      "priceEur": 679.77,
-      "description": "Die Caterpillar Inc. ist ein US-amerikanisches Maschinenbauunternehmen, das seinen Hauptsitz traditionell in Peoria, Illinois, seit 2022 aber in Irving im US-Bundesstaat Texas hat.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "GDDY",
-      "name": "GoDaddy",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.4,
-      "priceEur": 87.23,
-      "description": "GoDaddy ist ein von Bob Parsons gegründeter Domain-Registrar und Webhoster mit Sitz in Scottsdale, US-Bundesstaat Arizona.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "21Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "YUM",
-      "name": "Yum! Brands",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.0,
-      "priceEur": 131.3,
-      "description": "Die Yum! Brands, Inc. ist die weltgrößte Unternehmensgruppe für Systemgastronomie mit mehr als 50.000 Restaurants in 150 Ländern. Die Hauptzentrale des Konzerns befindet sich in…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "19Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "IEX",
       "name": "IDEX Corporation",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.4,
-      "priceEur": 195.21,
+      "reaction": 1.0,
+      "priceEur": 194.38,
       "description": "Die IDEX Corporation mit Sitz in Northbrook (Illinois) ist ein 1988 gegründetes US-amerikanisches börsennotiertes Unternehmen, das sich mit der Entwicklung, Konstruktion und…",
       "politician": null,
       "track": null,
@@ -413,8 +308,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.4,
-      "priceEur": 508.55,
+      "reaction": 0.5,
+      "priceEur": 509.13,
       "description": "Die Mastercard Inc. mit Sitz in Purchase, New York ist ein börsennotierter Zahlungsdienstleister und beschäftigte 2022 rund 29.900 Mitarbeiter. Mastercard ist neben Visa eine der…",
       "politician": null,
       "track": null,
@@ -429,7 +324,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -448,8 +343,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.3,
-      "priceEur": 171.8,
+      "reaction": 0.5,
+      "priceEur": 172.17,
       "description": "Die Booking Holdings Inc. ist ein US-amerikanisches Unternehmen mit Hauptsitz in Norwalk im US-Bundesstaat Connecticut. Das Unternehmen betreibt Online-Reiseportale und firmierte…",
       "politician": null,
       "track": null,
@@ -464,7 +359,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -483,8 +378,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": null,
-      "priceEur": 193.12,
+      "reaction": 0.1,
+      "priceEur": 193.34,
       "description": "Republic Services ist ein US-amerikanisches Entsorgungsunternehmen mit Hauptsitz in Phoenix im US-Bundesstaat Arizona. Das Unternehmen führt die Entsorgung von festen und…",
       "politician": null,
       "track": null,
@@ -499,7 +394,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -518,8 +413,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 475.96,
+      "reaction": 0.6,
+      "priceEur": 478.64,
       "description": "Vertex Pharmaceuticals ist ein US-amerikanisches biopharmazeutisches Unternehmen mit Sitz in Boston (Massachusetts). Das Unternehmen entwickelt Medikamente zur Behandlung von…",
       "politician": null,
       "track": null,
@@ -534,7 +429,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -553,9 +448,113 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 231.87,
+      "reaction": -0.8,
+      "priceEur": 230.09,
       "description": "Coherent Corp., vormals II-VI Incorporated, ist ein amerikanischer Hersteller von II-VI-Verbindungshalbleitern und Lasern mit Sitz in Pennsylvania. Es werden Zinkselenid für…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PFE",
+      "name": "Pfizer",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 25.0,
+      "description": "Pfizer Inc. ist ein US-amerikanischer, international aufgestellter und börsennotierter Pharma- und Biotechnologiekonzern mit Hauptsitz in New York. Pfizer war 2025 mit 62,6 Mrd.…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "FERG",
+      "name": "Ferguson Enterprises",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 191.53,
+      "description": "Ferguson Enterprises Inc., headquartered in Newport News, Virginia and organized in Delaware, is the largest U.S. distributor of plumbing, heating, ventilation and air…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "LITE",
+      "name": "Lumentum",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 741.93,
+      "description": "Die Lumentum Holdings Inc. ist ein US-amerikanisches Technologieunternehmen mit Hauptsitz in San Jose im Bundesstaat Kalifornien. Das Unternehmen ist auf die Entwicklung und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -588,8 +587,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -10.1,
-      "priceEur": 96.87,
+      "reaction": -10.4,
+      "priceEur": 96.55,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -623,8 +622,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -2.1,
-      "priceEur": 24.1,
+      "reaction": -2.4,
+      "priceEur": 24.02,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -655,8 +654,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -4.7,
-      "priceEur": 71.58,
+      "reaction": -5.0,
+      "priceEur": 71.35,
       "description": null,
       "politician": null,
       "track": null,
@@ -671,7 +670,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -690,8 +689,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -9.3,
-      "priceEur": 81.53,
+      "reaction": -9.2,
+      "priceEur": 81.61,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -704,7 +703,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -723,8 +722,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -15.8,
-      "priceEur": 3.35,
+      "reaction": -15.9,
+      "priceEur": 3.34,
       "description": null,
       "politician": null,
       "track": null,
@@ -739,7 +738,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -758,8 +757,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -4.8,
-      "priceEur": 10.2,
+      "reaction": -4.3,
+      "priceEur": 10.26,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -772,7 +771,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -791,8 +790,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -2.0,
-      "priceEur": 37.96,
+      "reaction": -2.3,
+      "priceEur": 37.84,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -824,7 +823,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -3.6,
-      "priceEur": 103.55,
+      "priceEur": 103.59,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
