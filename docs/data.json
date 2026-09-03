@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T18:16:20.891473+00:00",
+  "generated_at": "2026-09-03T20:13:23.825219+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 5.8,
-      "priceEur": 281.88,
+      "reaction": 6.1,
+      "priceEur": 282.58,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "0Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.8,
-      "priceEur": 124.26,
+      "reaction": 6.1,
+      "priceEur": 128.17,
       "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.7,
-      "priceEur": 1165.37,
+      "reaction": -3.5,
+      "priceEur": 1167.57,
       "description": "Die US-amerikanische Unternehmensgruppe Mettler Toledo mit Sitz in Columbus, Ohio und operativer Hauptzentrale in Greifensee ist spezialisiert auf Präzisionswaagen für den…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -169,9 +169,44 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.2,
-      "priceEur": 495.39,
+      "reaction": 2.1,
+      "priceEur": 494.75,
       "description": "MSCI Inc. ist ein in New York City ansässiger US-amerikanischer Finanzdienstleister, der Finanzdienstleistungen vor allem für das Investment Banking anbietet. Dies umfasst neben…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "6Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "ABNB",
+      "name": "Airbnb",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": 1.5,
+      "priceEur": 159.49,
+      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -194,41 +229,6 @@
           "active": false
         }
       },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "ABNB",
-      "name": "Airbnb",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": 1.5,
-      "priceEur": 159.56,
-      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Consumer Discretionary",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
@@ -239,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.4,
-      "priceEur": 193.19,
+      "reaction": 0.7,
+      "priceEur": 193.79,
       "description": "Republic Services ist ein US-amerikanisches Entsorgungsunternehmen mit Hauptsitz in Phoenix im US-Bundesstaat Arizona. Das Unternehmen führt die Entsorgung von festen und…",
       "politician": null,
       "track": null,
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -274,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.2,
-      "priceEur": 192.82,
+      "reaction": 1.1,
+      "priceEur": 192.73,
       "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
       "politician": null,
       "track": null,
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -304,118 +304,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "FFIV",
-      "name": "F5, Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.6,
-      "priceEur": 334.56,
-      "description": "F5, Inc. is an American technology company specializing in multicloud application delivery, API security, online fraud prevention, zero trust access, and enterprise AI workload…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "16Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "COHR",
-      "name": "Coherent Corp.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 2.1,
-      "priceEur": 227.53,
-      "description": "Coherent Corp., vormals II-VI Incorporated, ist ein amerikanischer Hersteller von II-VI-Verbindungshalbleitern und Lasern mit Sitz in Pennsylvania. Es werden Zinkselenid für…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "VRSN",
-      "name": "Verisign",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.4,
-      "priceEur": 251.36,
-      "description": "Verisign ist ein US-amerikanisches Unternehmen mit Sitz in Reston, Virginia.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "Q",
       "name": "Qnity Electronics",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.5,
-      "priceEur": 101.57,
+      "reaction": 0.9,
+      "priceEur": 102.02,
       "description": "Qnity Electronics, Inc., headquartered in Wilmington, Delaware, is a major provider of materials for the semiconductor manufacturing and electronics industries. The company's…",
       "politician": null,
       "track": null,
@@ -449,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.3,
-      "priceEur": 168.78,
+      "reaction": -1.8,
+      "priceEur": 168.0,
       "description": "Die Booking Holdings Inc. ist ein US-amerikanisches Unternehmen mit Hauptsitz in Norwalk im US-Bundesstaat Connecticut. Das Unternehmen betreibt Online-Reiseportale und firmierte…",
       "politician": null,
       "track": null,
@@ -465,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -484,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 98.56,
+      "reaction": 0.4,
+      "priceEur": 98.99,
       "description": "Iron Mountain steht für:Iron Mountain (Michigan), Kleinstadt in den USA Iron Mountain Inc., Dienstleister für Informationsmanagement",
       "politician": null,
       "track": null,
@@ -500,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -519,8 +414,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 110.89,
+      "reaction": -0.2,
+      "priceEur": 110.62,
       "description": null,
       "politician": null,
       "track": null,
@@ -535,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -554,8 +449,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 166.6,
+      "reaction": 0.3,
+      "priceEur": 167.03,
       "description": "State Street Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Boston. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
       "politician": null,
       "track": null,
@@ -570,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "23Std"
         },
         "predict": {
           "active": false
@@ -584,13 +479,118 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "ADI",
+      "name": "Analog Devices",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 306.93,
+      "description": "Analog Devices Inc. ist ein US-amerikanischer Halbleiterhersteller mit Hauptsitz in Norwood bei Boston, Massachusetts. Das Unternehmen betreibt weltweit Niederlassungen.…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PPL",
+      "name": "PPL Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 30.22,
+      "description": "PPL Corporation is an energy company headquartered in Allentown, Pennsylvania in the Lehigh Valley region of eastern Pennsylvania. The company is publicly traded on the New York…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Utilities",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "VST",
+      "name": "Vistra Corp.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 124.19,
+      "description": "Vistra Corp. is an integrated retail electricity and power generation company based in Irving, Texas. The company is the largest competitive power generator in the U.S. with a…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "17Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Utilities",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
       "reaction": -10.4,
-      "priceEur": 96.18,
+      "priceEur": 96.25,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -605,7 +605,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -624,8 +624,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -2.6,
-      "priceEur": 23.89,
+      "reaction": -2.7,
+      "priceEur": 23.88,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -656,8 +656,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -5.7,
-      "priceEur": 70.59,
+      "reaction": -6.1,
+      "priceEur": 70.28,
       "description": null,
       "politician": null,
       "track": null,
@@ -691,8 +691,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -8.1,
-      "priceEur": 82.38,
+      "reaction": -8.2,
+      "priceEur": 82.29,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -705,7 +705,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -724,8 +724,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -16.0,
-      "priceEur": 3.33,
+      "reaction": -16.3,
+      "priceEur": 3.31,
       "description": null,
       "politician": null,
       "track": null,
@@ -740,7 +740,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -759,8 +759,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -2.4,
-      "priceEur": 10.43,
+      "reaction": -2.8,
+      "priceEur": 10.38,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -773,7 +773,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -792,8 +792,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -7.4,
-      "priceEur": 35.77,
+      "reaction": -7.7,
+      "priceEur": 35.64,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -825,7 +825,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -5.9,
-      "priceEur": 100.81,
+      "priceEur": 100.78,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
