@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T22:13:59.885541+00:00",
+  "generated_at": "2026-09-03T00:20:36.652458+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -75,12 +75,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -110,12 +110,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -133,7 +133,7 @@
       "name": "Jack Henry & Associates",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": -0.5,
       "priceEur": 144.27,
       "description": "Jack Henry & Associates, also known as Jack Henry, is an American financial technology company that provides a broad range of technology solutions and payment processing services…",
@@ -145,12 +145,11 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "9Std"
+          "active": false
         },
         "predict": {
           "active": true
@@ -161,7 +160,7 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "MTD",
@@ -180,12 +179,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -215,12 +214,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -250,12 +249,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -285,12 +284,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -302,41 +301,6 @@
       "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "PFE",
-      "name": "Pfizer",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.3,
-      "priceEur": 25.06,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "LITE",
@@ -355,12 +319,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -390,7 +354,7 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
@@ -425,12 +389,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -462,12 +426,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "11Std"
         },
         "predict": {
           "active": false
@@ -481,14 +445,49 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "GWW",
-      "name": "W. W. Grainger",
+      "tk": "LRCX",
+      "name": "Lam Research",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 249.02,
+      "description": "Lam Research Corporation ist ein Hersteller und Anbieter von verfahrenstechnischen Geräten und Anlagen für die Halbleiterindustrie. Das 1980 gegründete und im kalifornischen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "XYL",
+      "name": "Xylem Inc.",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 1109.74,
-      "description": "W. W. Grainger ist eine Kapitalgesellschaft in der Form einer public company in den Vereinigten Staaten. Das Unternehmen handelt mit Industriebedarfsgütern und ist im Aktienindex…",
+      "priceEur": 92.19,
+      "description": "Xylem Inc. ist ein US-amerikanisches Unternehmen, welches Anlagen zur Wasseraufbereitung sowie analytische Geräte herstellt. Es entstand 2011 aus der Abspaltung der Division ITT…",
       "politician": null,
       "track": null,
       "sig": {
@@ -515,14 +514,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "LRCX",
-      "name": "Lam Research",
+      "tk": "BKNG",
+      "name": "Booking Holdings",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 249.02,
-      "description": "Lam Research Corporation ist ein Hersteller und Anbieter von verfahrenstechnischen Geräten und Anlagen für die Halbleiterindustrie. Das 1980 gegründete und im kalifornischen…",
+      "priceEur": 172.4,
+      "description": "Die Booking Holdings Inc. ist ein US-amerikanisches Unternehmen mit Hauptsitz in Norwalk im US-Bundesstaat Connecticut. Das Unternehmen betreibt Online-Reiseportale und firmierte…",
       "politician": null,
       "track": null,
       "sig": {
@@ -536,41 +535,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ORLY",
-      "name": "O'Reilly Automotive",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 75.12,
-      "description": "O'Reilly Automotive, Inc., doing business as O'Reilly Auto Parts, is an American automotive part retailer that provides automotive parts, tools, supplies, equipment, and…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -581,7 +546,42 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CAT",
+      "name": "Caterpillar Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 684.3,
+      "description": "Die Caterpillar Inc. ist ein US-amerikanisches Maschinenbauunternehmen, das seinen Hauptsitz traditionell in Peoria, Illinois, seit 2022 aber in Irving im US-Bundesstaat Texas hat.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -600,7 +600,7 @@
         },
         "insider": {
           "active": true,
-          "age": "8T",
+          "age": "9T",
           "src": "SEC"
         },
         "macro": {
@@ -667,12 +667,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1Std",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -705,7 +705,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "18Std"
         },
         "predict": {
           "active": true
@@ -735,12 +735,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -773,7 +773,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
