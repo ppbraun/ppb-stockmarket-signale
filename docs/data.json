@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T20:13:44.205471+00:00",
+  "generated_at": "2026-09-04T22:13:43.019770+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -100,7 +100,7 @@
       "market": "us",
       "score": 3,
       "reaction": -4.3,
-      "priceEur": 1156.52,
+      "priceEur": 1157.52,
       "description": "Die US-amerikanische Unternehmensgruppe Mettler Toledo mit Sitz in Columbus, Ohio und operativer Hauptzentrale in Greifensee ist spezialisiert auf Präzisionswaagen für den…",
       "politician": null,
       "track": null,
@@ -135,7 +135,7 @@
       "market": "us",
       "score": 3,
       "reaction": 1.8,
-      "priceEur": 493.21,
+      "priceEur": 493.04,
       "description": "MSCI Inc. ist ein in New York City ansässiger US-amerikanischer Finanzdienstleister, der Finanzdienstleistungen vor allem für das Investment Banking anbietet. Dies umfasst neben…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -240,7 +240,7 @@
       "market": "us",
       "score": 3,
       "reaction": -1.5,
-      "priceEur": 226.0,
+      "priceEur": 226.03,
       "description": "Arthur J. Gallagher & Co. ist ein international tätiges US-amerikanisches Dienstleistungsunternehmen. Es wurde 1927 von Arthur J. Gallagher in Chicago gegründet und hat heute…",
       "politician": null,
       "track": null,
@@ -250,12 +250,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "1Std",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -275,7 +275,7 @@
       "market": "us",
       "score": 3,
       "reaction": -1.2,
-      "priceEur": 102.13,
+      "priceEur": 102.14,
       "description": "Bunge Global ist ein international tätiges Unternehmen des Agribusiness. Der Firmensitz befindet sich in Genf, die Hauptverwaltung befindet sich jedoch in Chesterfield im…",
       "politician": null,
       "track": null,
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "19Std"
         },
         "predict": {
           "active": true
@@ -339,111 +339,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "HUM",
-      "name": "Humana",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.6,
-      "priceEur": 345.43,
-      "description": "Humana ist der Name bzw. Namensbestandteil der UnternehmenHumana Milchunion, deutsche Molkerei Humana (Unternehmen), Hersteller von Babynahrung, Tochtergesellschaft der Humana…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "GEHC",
-      "name": "GE HealthCare",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.2,
-      "priceEur": 59.25,
-      "description": "GE Healthcare Technologies, Inc., stylized GE HealthCare, is an American health technology company based in Chicago, Illinois. It operates four divisions: Medical imaging, which…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "23Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "COIN",
-      "name": "Coinbase",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.2,
-      "priceEur": 158.87,
-      "description": "Die Coinbase, auch Coinbase-Transaktion, ist die erste Transaktion, die in einen Block einer Blockchain geschrieben wird. Während reguläre Transaktionen im Abschnitt „Inputs“…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "TFC",
       "name": "Truist Financial",
       "broker": true,
@@ -465,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -484,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 75.82,
+      "reaction": -0.0,
+      "priceEur": 75.81,
       "description": "Southern Company ist ein US-amerikanisches Energieunternehmen mit Sitz in Atlanta, Georgia. Das Unternehmen ist im Aktienindex S&P 500 und im Dow Jones Utility Average gelistet…",
       "politician": null,
       "track": null,
@@ -500,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -519,7 +414,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": -0.0,
       "priceEur": 41.13,
       "description": "Die Boston Scientific Corporation ist ein US-amerikanischer Medizintechnikhersteller. Das Unternehmen ist an der New Yorker Börse notiert und im S&P 500 gelistet, der Hauptsitz…",
       "politician": null,
@@ -535,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -554,7 +449,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 273.93,
       "description": "Die Nordson Corporation ist ein US-amerikanischer Hersteller von Präzisionsanlagen zum Auftrag von Klebstoffen, Dichtstoffen und Beschichtungen. Das Unternehmen hat seinen…",
       "politician": null,
@@ -583,13 +478,118 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
+      "tk": "NKE",
+      "name": "Nike, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 33.04,
+      "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NEM",
+      "name": "Newmont",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 110.21,
+      "description": "Newmont Corporation is an American gold mining company based in Denver, Colorado. It is the world's largest gold mining corporation. Incorporated in 1921, it holds ownership of…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Materials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "EQIX",
+      "name": "Equinix",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 891.4,
+      "description": "Equinix, Inc. ist eine US-amerikanische Aktiengesellschaft, die netzbetreiberunabhängige Rechenzentrums- und Interconnection-Dienstleistungen anbietet. Das Unternehmen ist in…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Real Estate",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
       "reaction": -9.2,
-      "priceEur": 97.42,
+      "priceEur": 97.44,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -604,7 +604,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -703,7 +703,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -804,7 +804,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
