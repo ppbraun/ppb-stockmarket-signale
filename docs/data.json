@@ -1,15 +1,20 @@
 {
-  "generated_at": "2026-09-04T10:14:29.531611+00:00",
+  "generated_at": "2026-09-04T12:17:42.464661+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 7,
+      "vol": 6,
       "pct": 100
+    },
+    {
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 1,
+      "pct": 17
     },
     {
       "topic": "Cybersecurity",
       "vol": 1,
-      "pct": 14
+      "pct": 17
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -47,11 +52,6 @@
       "pct": 0
     },
     {
-      "topic": "Schifffahrt / Lieferketten",
-      "vol": 0,
-      "pct": 0
-    },
-    {
       "topic": "Krypto-Regulierung",
       "vol": 0,
       "pct": 0
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "23Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "15Std"
         },
         "predict": {
           "active": true
@@ -325,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "15Std"
         },
         "predict": {
           "active": true
@@ -360,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -374,14 +374,119 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "EQIX",
-      "name": "Equinix",
+      "tk": "TMUS",
+      "name": "T-Mobile US",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": 0.0,
-      "priceEur": 896.11,
-      "description": "Equinix, Inc. ist eine US-amerikanische Aktiengesellschaft, die netzbetreiberunabhängige Rechenzentrums- und Interconnection-Dienstleistungen anbietet. Das Unternehmen ist in…",
+      "priceEur": 161.88,
+      "description": "Die T-Mobile US Inc. ist einer der größten Mobilfunkanbieter in den Vereinigten Staaten von Amerika im Wettbewerb stehend mit AT&T Wireless und Verizon Wireless. Die Deutsche…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "15Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "TFC",
+      "name": "Truist Financial",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 44.43,
+      "description": "Truist Financial ist ein US-amerikanisches Unternehmen mit Firmensitz in Charlotte, North Carolina.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "10Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ULTA",
+      "name": "Ulta Beauty",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 479.65,
+      "description": "Ulta Beauty, früher bekannt als Ulta Salon bzw. Cosmetics & Fragrance, ist eine US-amerikanische Kette von Beauty Stores mit Hauptsitz in Bolingbrook (Illinois). Ulta Beauty führt…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "15Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CHTR",
+      "name": "Charter Communications",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 130.33,
+      "description": "Charter Communications ist ein US-amerikanischer Betreiber von Kabelnetzen mit digitalem und interaktivem Fernsehen, Video-on-Demand-, Internet- und Telefondiensten.",
       "politician": null,
       "track": null,
       "sig": {
@@ -404,89 +509,19 @@
           "active": false
         }
       },
-      "topic": "Real Estate",
+      "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AMZN",
-      "name": "Amazon",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 222.9,
-      "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "6Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CB",
-      "name": "Chubb Limited",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 299.83,
-      "description": "Die Chubb Limited ist ein international tätiger Schweizer Versicherungskonzern mit Kerngeschäft in den Bereichen Direkt- und Rückversicherungen und Sitz in Zürich.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "7Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "TMUS",
-      "name": "T-Mobile US",
+      "tk": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 161.88,
-      "description": "Die T-Mobile US Inc. ist einer der größten Mobilfunkanbieter in den Vereinigten Staaten von Amerika im Wettbewerb stehend mit AT&T Wireless und Verizon Wireless. Die Deutsche…",
+      "priceEur": 291.93,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -500,7 +535,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -514,14 +549,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "TFC",
-      "name": "Truist Financial",
+      "tk": "CI",
+      "name": "Cigna",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 44.43,
-      "description": "Truist Financial ist ein US-amerikanisches Unternehmen mit Firmensitz in Charlotte, North Carolina.",
+      "priceEur": 246.46,
+      "description": "Cigna ist der Nameeines Versicherungsunternehmens aus Philadelphia, siehe CIGNA",
       "politician": null,
       "track": null,
       "sig": {
@@ -535,7 +570,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -544,42 +579,7 @@
           "active": false
         }
       },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ULTA",
-      "name": "Ulta Beauty",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 479.65,
-      "description": "Ulta Beauty, früher bekannt als Ulta Salon bzw. Cosmetics & Fragrance, ist eine US-amerikanische Kette von Beauty Stores mit Hauptsitz in Bolingbrook (Illinois). Ulta Beauty führt…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "13Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -738,7 +738,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
