@@ -5,21 +5,16 @@
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 0,
   "Halbleiter / Chips": 0,
-  "Energie / Öl & Gas": 6,
+  "Energie / Öl & Gas": 5,
   "Gesundheit / FDA-Zulassungen": 0,
   "Schifffahrt / Lieferketten": 1,
   "Krypto-Regulierung": 0,
-  "Cybersecurity": 1,
+  "Cybersecurity": 0,
   "_tickers": {
     "AAPL": {
       "score": 3,
       "baseline_price_usd": 309.35,
       "first_seen": "2026-08-21"
-    },
-    "MRNA": {
-      "score": 2,
-      "baseline_price_usd": 140.34,
-      "first_seen": "2026-09-01"
     },
     "MTD": {
       "score": 3,
@@ -41,11 +36,6 @@
       "baseline_price_usd": 223.59,
       "first_seen": "2026-09-02"
     },
-    "PGR": {
-      "score": 2,
-      "baseline_price_usd": 221.38,
-      "first_seen": "2026-09-03"
-    },
     "AJG": {
       "score": 3,
       "baseline_price_usd": 266.66,
@@ -54,11 +44,6 @@
     "BG": {
       "score": 3,
       "baseline_price_usd": 120.12,
-      "first_seen": "2026-09-04"
-    },
-    "CHTR": {
-      "score": 2,
-      "baseline_price_usd": 151.38,
       "first_seen": "2026-09-04"
     },
     "GOOG": {
@@ -86,6 +71,21 @@
       "baseline_price_usd": 326.21,
       "first_seen": "2026-09-04"
     },
+    "GDDY": {
+      "score": 1,
+      "baseline_price_usd": 100.84,
+      "first_seen": "2026-09-04"
+    },
+    "ICE": {
+      "score": 2,
+      "baseline_price_usd": 161.84,
+      "first_seen": "2026-09-04"
+    },
+    "HUM": {
+      "score": 2,
+      "baseline_price_usd": 403.945,
+      "first_seen": "2026-09-04"
+    },
     "BABA": {
       "score": 3,
       "baseline_price_usd": 124.71,
@@ -102,7 +102,7 @@
       "first_seen": "2026-08-18"
     },
     "BIDU": {
-      "score": 0,
+      "score": 1,
       "baseline_price_usd": 104.12,
       "first_seen": "2026-08-18"
     },
