@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-04T12:17:42.464661+00:00",
+  "generated_at": "2026-09-04T14:13:42.462772+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
       "vol": 6,
       "pct": 100
+    },
+    {
+      "topic": "Fed-Zinspolitik",
+      "vol": 1,
+      "pct": 17
     },
     {
       "topic": "Schifffahrt / Lieferketten",
@@ -18,11 +23,6 @@
     },
     {
       "topic": "Zölle / Handelskonflikt",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "Fed-Zinspolitik",
       "vol": 0,
       "pct": 0
     },
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 6.1,
-      "priceEur": 282.58,
+      "reaction": 4.2,
+      "priceEur": 277.3,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -98,9 +98,9 @@
       "name": "Moderna",
       "broker": true,
       "market": "us",
-      "score": 3,
-      "reaction": 6.1,
-      "priceEur": 128.17,
+      "score": 2,
+      "reaction": 5.0,
+      "priceEur": 126.74,
       "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
@@ -115,10 +115,10 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "2Std"
         },
         "predict": {
-          "active": true
+          "active": false
         },
         "buzz": {
           "active": false
@@ -126,7 +126,7 @@
       },
       "topic": "Health Care",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "MTD",
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.5,
-      "priceEur": 1167.66,
+      "reaction": -4.5,
+      "priceEur": 1155.15,
       "description": "Die US-amerikanische Unternehmensgruppe Mettler Toledo mit Sitz in Columbus, Ohio und operativer Hauptzentrale in Greifensee ist spezialisiert auf Präzisionswaagen für den…",
       "politician": null,
       "track": null,
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.1,
-      "priceEur": 494.75,
+      "reaction": -0.1,
+      "priceEur": 483.9,
       "description": "MSCI Inc. ist ein in New York City ansässiger US-amerikanischer Finanzdienstleister, der Finanzdienstleistungen vor allem für das Investment Banking anbietet. Dies umfasst neben…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.5,
-      "priceEur": 159.49,
+      "reaction": -0.2,
+      "priceEur": 156.76,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -239,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.7,
-      "priceEur": 193.82,
+      "reaction": 0.0,
+      "priceEur": 192.41,
       "description": "Republic Services ist ein US-amerikanisches Entsorgungsunternehmen mit Hauptsitz in Phoenix im US-Bundesstaat Arizona. Das Unternehmen führt die Entsorgung von festen und…",
       "politician": null,
       "track": null,
@@ -273,9 +273,9 @@
       "name": "Progressive Corporation",
       "broker": true,
       "market": "us",
-      "score": 3,
-      "reaction": 1.1,
-      "priceEur": 192.74,
+      "score": 2,
+      "reaction": -0.2,
+      "priceEur": 190.16,
       "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
       "politician": null,
       "track": null,
@@ -290,10 +290,10 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
-          "active": true
+          "active": false
         },
         "buzz": {
           "active": false
@@ -301,7 +301,7 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "AJG",
@@ -309,8 +309,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 229.58,
+      "reaction": -1.0,
+      "priceEur": 227.1,
       "description": "Arthur J. Gallagher & Co. ist ein international tätiges US-amerikanisches Dienstleistungsunternehmen. Es wurde 1927 von Arthur J. Gallagher in Chicago gegründet und hat heute…",
       "politician": null,
       "track": null,
@@ -325,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -344,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 103.42,
+      "reaction": -1.4,
+      "priceEur": 101.88,
       "description": "Bunge Global ist ein international tätiges Unternehmen des Agribusiness. Der Firmensitz befindet sich in Genf, die Hauptverwaltung befindet sich jedoch in Chesterfield im…",
       "politician": null,
       "track": null,
@@ -360,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -374,14 +374,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "TMUS",
-      "name": "T-Mobile US",
+      "tk": "CHTR",
+      "name": "Charter Communications",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 161.88,
-      "description": "Die T-Mobile US Inc. ist einer der größten Mobilfunkanbieter in den Vereinigten Staaten von Amerika im Wettbewerb stehend mit AT&T Wireless und Verizon Wireless. Die Deutsche…",
+      "reaction": -0.5,
+      "priceEur": 129.57,
+      "description": "Charter Communications ist ein US-amerikanischer Betreiber von Kabelnetzen mit digitalem und interaktivem Fernsehen, Video-on-Demand-, Internet- und Telefondiensten.",
       "politician": null,
       "track": null,
       "sig": {
@@ -395,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "19Std"
         },
         "predict": {
           "active": false
@@ -409,14 +409,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "TFC",
-      "name": "Truist Financial",
+      "tk": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 44.43,
-      "description": "Truist Financial ist ein US-amerikanisches Unternehmen mit Firmensitz in Charlotte, North Carolina.",
+      "reaction": -0.4,
+      "priceEur": 290.5,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -430,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -439,54 +439,19 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "ULTA",
-      "name": "Ulta Beauty",
+      "tk": "CI",
+      "name": "Cigna",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 479.65,
-      "description": "Ulta Beauty, früher bekannt als Ulta Salon bzw. Cosmetics & Fragrance, ist eine US-amerikanische Kette von Beauty Stores mit Hauptsitz in Bolingbrook (Illinois). Ulta Beauty führt…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "15Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CHTR",
-      "name": "Charter Communications",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 130.33,
-      "description": "Charter Communications ist ein US-amerikanischer Betreiber von Kabelnetzen mit digitalem und interaktivem Fernsehen, Video-on-Demand-, Internet- und Telefondiensten.",
+      "reaction": -1.6,
+      "priceEur": 242.41,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -509,77 +474,112 @@
           "active": false
         }
       },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 291.93,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CI",
-      "name": "Cigna",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 246.46,
-      "description": "Cigna ist der Nameeines Versicherungsunternehmens aus Philadelphia, siehe CIGNA",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "15Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ADP",
+      "name": "Automatic Data Processing",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 240.14,
+      "description": "Automatic Data Processing, Inc. ist ein amerikanisches Unternehmen aus Roseland im US-Bundesstaat New Jersey.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PYPL",
+      "name": "PayPal",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": null,
+      "priceEur": 47.52,
+      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "AON",
+      "name": "Aon plc",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 280.68,
+      "description": "Aon ist ein irisches Unternehmen mit Sitz in Dublin und operativer Hauptzentrale in London, das im Versicherungswesen und in der Risikomanagementbranche tätig ist.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "17Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -589,8 +589,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -10.3,
-      "priceEur": 96.26,
+      "reaction": -9.8,
+      "priceEur": 96.75,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -624,8 +624,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -2.7,
-      "priceEur": 23.88,
+      "reaction": -1.4,
+      "priceEur": 24.18,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -656,8 +656,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -6.1,
-      "priceEur": 70.28,
+      "reaction": -5.5,
+      "priceEur": 70.68,
       "description": null,
       "politician": null,
       "track": null,
@@ -689,9 +689,9 @@
       "name": "Baidu",
       "broker": true,
       "market": "cn",
-      "score": 1,
-      "reaction": -8.2,
-      "priceEur": 82.29,
+      "score": 0,
+      "reaction": -6.2,
+      "priceEur": 84.06,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -706,7 +706,7 @@
           "active": false
         },
         "predict": {
-          "active": true
+          "active": false
         },
         "buzz": {
           "active": false
@@ -714,7 +714,7 @@
       },
       "topic": "Communication Services",
       "ethics": [],
-      "why": "Live-Signal: aktiver Prediction-Market-Bezug."
+      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
     },
     {
       "tk": "NIO",
@@ -722,8 +722,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -16.1,
-      "priceEur": 3.32,
+      "reaction": -18.6,
+      "priceEur": 3.22,
       "description": null,
       "politician": null,
       "track": null,
@@ -738,7 +738,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "23Std"
         },
         "predict": {
           "active": false
@@ -757,8 +757,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -2.8,
-      "priceEur": 10.38,
+      "reaction": -1.6,
+      "priceEur": 10.51,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -789,9 +789,9 @@
       "name": "Trip.com Group",
       "broker": true,
       "market": "cn",
-      "score": 0,
-      "reaction": -7.7,
-      "priceEur": 35.64,
+      "score": 1,
+      "reaction": -8.1,
+      "priceEur": 35.46,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -803,7 +803,8 @@
           "active": false
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -814,7 +815,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
+      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "NTES",
@@ -822,8 +823,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -5.9,
-      "priceEur": 100.78,
+      "reaction": -4.3,
+      "priceEur": 102.4,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,

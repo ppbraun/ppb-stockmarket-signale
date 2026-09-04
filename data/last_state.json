@@ -1,6 +1,6 @@
 {
   "Zölle / Handelskonflikt": 0,
-  "Fed-Zinspolitik": 0,
+  "Fed-Zinspolitik": 1,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 0,
@@ -17,7 +17,7 @@
       "first_seen": "2026-08-21"
     },
     "MRNA": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 140.34,
       "first_seen": "2026-09-01"
     },
@@ -42,7 +42,7 @@
       "first_seen": "2026-09-02"
     },
     "PGR": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 221.38,
       "first_seen": "2026-09-03"
     },
@@ -54,21 +54,6 @@
     "BG": {
       "score": 3,
       "baseline_price_usd": 120.12,
-      "first_seen": "2026-09-04"
-    },
-    "TMUS": {
-      "score": 2,
-      "baseline_price_usd": 188.02,
-      "first_seen": "2026-09-04"
-    },
-    "TFC": {
-      "score": 2,
-      "baseline_price_usd": 51.61,
-      "first_seen": "2026-09-04"
-    },
-    "ULTA": {
-      "score": 2,
-      "baseline_price_usd": 557.11,
       "first_seen": "2026-09-04"
     },
     "CHTR": {
@@ -84,6 +69,21 @@
     "CI": {
       "score": 2,
       "baseline_price_usd": 286.26,
+      "first_seen": "2026-09-04"
+    },
+    "ADP": {
+      "score": 2,
+      "baseline_price_usd": 279.09,
+      "first_seen": "2026-09-04"
+    },
+    "PYPL": {
+      "score": 3,
+      "baseline_price_usd": 55.223,
+      "first_seen": "2026-09-04"
+    },
+    "AON": {
+      "score": 2,
+      "baseline_price_usd": 326.21,
       "first_seen": "2026-09-04"
     },
     "BABA": {
@@ -102,7 +102,7 @@
       "first_seen": "2026-08-18"
     },
     "BIDU": {
-      "score": 1,
+      "score": 0,
       "baseline_price_usd": 104.12,
       "first_seen": "2026-08-18"
     },
@@ -117,7 +117,7 @@
       "first_seen": "2026-08-18"
     },
     "TCOM": {
-      "score": 0,
+      "score": 1,
       "baseline_price_usd": 44.85,
       "first_seen": "2026-08-18"
     },
