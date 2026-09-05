@@ -17,7 +17,7 @@
       "first_seen": "2026-08-21"
     },
     "MTD": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 1405.14,
       "first_seen": "2026-09-01"
     },
@@ -32,7 +32,7 @@
       "first_seen": "2026-09-02"
     },
     "RSG": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 223.59,
       "first_seen": "2026-09-02"
     },
@@ -49,21 +49,6 @@
     "PYPL": {
       "score": 3,
       "baseline_price_usd": 55.223,
-      "first_seen": "2026-09-04"
-    },
-    "TFC": {
-      "score": 2,
-      "baseline_price_usd": 51.765,
-      "first_seen": "2026-09-04"
-    },
-    "SO": {
-      "score": 2,
-      "baseline_price_usd": 88.12,
-      "first_seen": "2026-09-04"
-    },
-    "BSX": {
-      "score": 2,
-      "baseline_price_usd": 47.805,
       "first_seen": "2026-09-04"
     },
     "NDSN": {
@@ -86,6 +71,21 @@
       "baseline_price_usd": 1035.98,
       "first_seen": "2026-09-04"
     },
+    "CHD": {
+      "score": 1,
+      "baseline_price_usd": 98.55,
+      "first_seen": "2026-09-05"
+    },
+    "CMCSA": {
+      "score": 3,
+      "baseline_price_usd": 26.49,
+      "first_seen": "2026-09-05"
+    },
+    "PCAR": {
+      "score": 2,
+      "baseline_price_usd": 124.7,
+      "first_seen": "2026-09-05"
+    },
     "BABA": {
       "score": 3,
       "baseline_price_usd": 124.71,
@@ -102,7 +102,7 @@
       "first_seen": "2026-08-18"
     },
     "BIDU": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 104.12,
       "first_seen": "2026-08-18"
     },
@@ -112,7 +112,7 @@
       "first_seen": "2026-08-18"
     },
     "LI": {
-      "score": 1,
+      "score": 0,
       "baseline_price_usd": 12.41,
       "first_seen": "2026-08-18"
     },
@@ -127,6 +127,8 @@
       "first_seen": "2026-08-18"
     }
   },
-  "_pending_weekend_alerts": [],
+  "_pending_weekend_alerts": [
+    "🆕 <b>CMCSA</b> (Comcast) neu in der Liste — Score 3/5"
+  ],
   "_last_weekly_summary_date": "2026-08-31"
 }
