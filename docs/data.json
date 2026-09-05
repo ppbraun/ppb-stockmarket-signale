@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T02:13:21.535673+00:00",
+  "generated_at": "2026-09-05T04:13:36.340475+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "19Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -267,75 +267,6 @@
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "NDSN",
-      "name": "Nordson Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 273.93,
-      "description": "Die Nordson Corporation ist ein US-amerikanischer Hersteller von Präzisionsanlagen zum Auftrag von Klebstoffen, Dichtstoffen und Beschichtungen. Das Unternehmen hat seinen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "NKE",
-      "name": "Nike, Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 33.04,
-      "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "NEM",
@@ -359,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -394,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -429,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -464,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -476,40 +407,6 @@
       "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "PSKY",
-      "name": "Paramount Skydance Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 9.34,
-      "description": "Paramount Skydance Corporation ist eine US-amerikanische multinationale Mediengruppe mit Hauptsitz in Los Angeles, Melrose Avenue. Das Unternehmen wurde durch den Zusammenschluss…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BRK.B",
@@ -533,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -552,7 +449,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 223.05,
       "description": "Salesforce, Inc. mit Sitz in San Francisco (USA) ist ein börsennotiertes US-amerikanisches Softwareunternehmen, das Cloud-Computing-Produkte für Unternehmen anbietet. Das…",
       "politician": null,
@@ -568,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -580,6 +477,110 @@
       "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "GD",
+      "name": "General Dynamics",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 309.23,
+      "description": "General Dynamics (GD) ist ein US-amerikanischer Rüstungskonzern. Das Unternehmen ist an der New York Stock Exchange mit dem Kürzel GD gelistet. CEO ist Phebe Novakovic.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "14Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NVDA",
+      "name": "Nvidia",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 198.21,
+      "description": "Die Nvidia Corporation ist ein US-amerikanisches Unternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MSI",
+      "name": "Motorola Solutions",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 402.73,
+      "description": "Motorola Solutions ist ein börsennotierter amerikanischer Hersteller von sicherheitskritischen Kommunikationslösungen für Behörden und Organisationen mit Sicherheitsaufgaben (BOS)…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BABA",
@@ -603,7 +604,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "15Std"
         },
         "predict": {
           "active": true
