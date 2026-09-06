@@ -1,6 +1,6 @@
 {
   "Zölle / Handelskonflikt": 0,
-  "Fed-Zinspolitik": 1,
+  "Fed-Zinspolitik": 2,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 1,
@@ -30,11 +30,6 @@
       "score": 3,
       "baseline_price_usd": 1149.36,
       "first_seen": "2026-09-05"
-    },
-    "AJG": {
-      "score": 2,
-      "baseline_price_usd": 262.69,
-      "first_seen": "2026-09-06"
     },
     "BAC": {
       "score": 2,
@@ -76,14 +71,19 @@
       "baseline_price_usd": 281.86,
       "first_seen": "2026-09-06"
     },
-    "MSI": {
-      "score": 1,
-      "baseline_price_usd": 468.05,
+    "MDLZ": {
+      "score": 2,
+      "baseline_price_usd": 61.28,
       "first_seen": "2026-09-06"
     },
-    "OTIS": {
+    "PSKY": {
       "score": 1,
-      "baseline_price_usd": 71.21,
+      "baseline_price_usd": 10.86,
+      "first_seen": "2026-09-06"
+    },
+    "DASH": {
+      "score": 2,
+      "baseline_price_usd": 211.73,
       "first_seen": "2026-09-06"
     },
     "BABA": {
@@ -130,7 +130,8 @@
   "_pending_weekend_alerts": [
     "🆕 <b>CMCSA</b> (Comcast) neu in der Liste — Score 3/5",
     "🆕 <b>LLY</b> (Lilly (Eli)) neu in der Liste — Score 3/5",
-    "🆕 <b>COHR</b> (Coherent Corp.) neu in der Liste — Score 3/5"
+    "🆕 <b>COHR</b> (Coherent Corp.) neu in der Liste — Score 3/5",
+    "🟢 <b>Fed-Zinspolitik</b>: 2 Erwähnungen (zuletzt 1)\n   — World’s biggest money managers are rebuilding gold positions (Bloomberg)\n   — 2-year yield rises to highest since January 2025 after hot jobs report boosts expectations that the… (CNBC)"
   ],
   "_last_weekly_summary_date": "2026-08-31"
 }
