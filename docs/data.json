@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-07T08:15:22.034034+00:00",
+  "generated_at": "2026-09-07T10:13:55.865258+00:00",
   "newsTopics": [
     {
-      "topic": "Fed-Zinspolitik",
-      "vol": 2,
+      "topic": "Energie / Öl & Gas",
+      "vol": 4,
       "pct": 100
     },
     {
-      "topic": "Energie / Öl & Gas",
+      "topic": "Fed-Zinspolitik",
       "vol": 2,
-      "pct": 100
+      "pct": 50
     },
     {
       "topic": "KI-Infrastruktur",
       "vol": 1,
-      "pct": 50
+      "pct": 25
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 1,
-      "pct": 50
+      "pct": 25
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -183,7 +183,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -218,7 +218,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "23Std"
         },
         "predict": {
           "active": false
@@ -253,7 +253,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -322,7 +322,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -357,7 +357,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -392,7 +392,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -404,40 +404,6 @@
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "COHR",
-      "name": "Coherent Corp.",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 242.52,
-      "description": "Coherent Corp., vormals II-VI Incorporated, ist ein amerikanischer Hersteller von II-VI-Verbindungshalbleitern und Lasern mit Sitz in Pennsylvania. Es werden Zinkselenid für…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "CRM",
@@ -461,7 +427,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -475,80 +441,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "DLTR",
-      "name": "Dollar Tree",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 113.08,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "ADP",
-      "name": "Automatic Data Processing",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 238.88,
-      "description": "Automatic Data Processing, Inc. ist ein amerikanisches Unternehmen aus Roseland im US-Bundesstaat New Jersey.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "IQV",
       "name": "IQVIA",
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 230.4,
       "description": "IQVIA ist ein US-amerikanisches Unternehmen im Bereich der Gesundheitsforschung und -datenanalyse. Das Unternehmen entstand 2016 durch die Fusion des Auftragsforschungsinstituts…",
       "politician": null,
@@ -575,6 +473,109 @@
       "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "ELV",
+      "name": "Elevance Health",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 350.63,
+      "description": "Elevance Health ist ein US-amerikanisches Krankenversicherungsunternehmen mit Firmensitz in Indianapolis, Indiana. Das Unternehmen ist im Aktienindex S&P 500 gelistet und ist ein…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "MSI",
+      "name": "Motorola Solutions",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 402.73,
+      "description": "Motorola Solutions ist ein börsennotierter amerikanischer Hersteller von sicherheitskritischen Kommunikationslösungen für Behörden und Organisationen mit Sicherheitsaufgaben (BOS)…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "XYZ",
+      "name": "Block, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 71.21,
+      "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "8Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
