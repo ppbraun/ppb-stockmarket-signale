@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T18:16:12.460416+00:00",
+  "generated_at": "2026-09-07T20:14:19.837716+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -254,7 +254,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -289,7 +289,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -324,7 +324,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -359,7 +359,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -394,7 +394,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -429,7 +429,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -464,7 +464,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -478,14 +478,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "UNP",
-      "name": "Union Pacific Corporation",
+      "tk": "WBD",
+      "name": "Warner Bros. Discovery",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 3,
       "reaction": null,
-      "priceEur": 249.2,
-      "description": "Die Union Pacific Corporation ist ein börsennotiertes US-amerikanisches Unternehmen mit Sitz in Omaha, in Nebraska. Sie ist die Muttergesellschaft der Eisenbahngesellschaft Union…",
+      "priceEur": 24.31,
+      "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
       "sig": {
@@ -498,28 +498,29 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "8Std"
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Communication Services",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "HBAN",
-      "name": "Huntington Bancshares",
+      "tk": "MDLZ",
+      "name": "Mondelez International",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 14.65,
-      "description": "Die Huntington Bancshares Incorporated ist ein US-amerikanisches Finanzdienstleistungsunternehmen mit Hauptsitz in Columbus im Bundesstaat Ohio. Das Unternehmen ist die…",
+      "priceEur": 52.73,
+      "description": "Mondelez International ist ein börsennotierter US-amerikanischer Lebensmittelkonzern mit Sitz in Chicago, Illinois, der überwiegend auf Markenprodukte in den Bereichen Snacks und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -532,41 +533,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "DLTR",
-      "name": "Dollar Tree",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 113.08,
-      "description": "Dollar Tree ist ein US-amerikanischer Betreiber von Billig-Gemischtwarenläden. Der Sitz des Unternehmens befindet sich in Chesapeake im US-Bundesstaat Virginia. Dollar Tree…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
           "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -577,7 +545,42 @@
       },
       "topic": "Consumer Staples",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NVDA",
+      "name": "Nvidia",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 198.21,
+      "description": "Die Nvidia Corporation ist ein US-amerikanisches Unternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -601,7 +604,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -754,7 +757,7 @@
       "score": 0,
       "reaction": -0.3,
       "priceEur": 10.64,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
