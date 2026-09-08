@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T16:15:38.631533+00:00",
+  "generated_at": "2026-09-08T18:16:41.540343+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.0,
-      "priceEur": 271.74,
+      "reaction": 2.3,
+      "priceEur": 272.51,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.4,
-      "priceEur": 965.72,
+      "reaction": -2.0,
+      "priceEur": 970.05,
       "description": null,
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -134,79 +134,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.5,
-      "priceEur": 24.21,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "MDLZ",
-      "name": "Mondelez International",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 52.78,
-      "description": "Mondelez International ist ein börsennotierter US-amerikanischer Lebensmittelkonzern mit Sitz in Chicago, Illinois, der überwiegend auf Markenprodukte in den Bereichen Snacks und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "NVDA",
-      "name": "Nvidia",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -1.8,
-      "priceEur": 194.68,
-      "description": "Die Nvidia Corporation ist ein US-amerikanisches Unternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
+      "reaction": -0.4,
+      "priceEur": 24.22,
+      "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
       "sig": {
@@ -221,6 +151,41 @@
         "macro": {
           "active": true,
           "age": "5Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "NVDA",
+      "name": "Nvidia",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -2.0,
+      "priceEur": 194.47,
+      "description": "Die Nvidia Corporation ist ein US-amerikanisches Unternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "4T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "0Std"
         },
         "predict": {
           "active": false
@@ -240,7 +205,7 @@
       "market": "us",
       "score": 2,
       "reaction": -0.3,
-      "priceEur": 184.36,
+      "priceEur": 184.32,
       "description": "Take 2 Interactive ist ein 1993 gegründeter Entwickler, Publisher und Distributor von Computerspielen mit Hauptsitz in New York, USA. Niederlassungen gibt es im Vereinigten…",
       "politician": null,
       "track": null,
@@ -255,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -290,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -309,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -2.4,
-      "priceEur": 231.26,
+      "reaction": -1.6,
+      "priceEur": 233.29,
       "description": "Johnson & Johnson ist ein weltweit tätiger US-amerikanischer Pharmazie- und Konsumgüterhersteller mit Hauptsitz in New Brunswick im US-Bundesstaat New Jersey. Das Unternehmen ist…",
       "politician": null,
       "track": null,
@@ -325,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -344,8 +309,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.3,
-      "priceEur": 27.97,
+      "reaction": -0.7,
+      "priceEur": 27.87,
       "description": "Keurig Dr Pepper, Inc., bis 2018 Keurig Green Mountain, Inc., ist ein 1981 unter dem Namen Green Mountain Coffee Roasters, Inc (GMCR) gegründeter Hersteller von Spezialkaffee und…",
       "politician": null,
       "track": null,
@@ -378,8 +343,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 9.0,
-      "priceEur": 264.56,
+      "reaction": 8.5,
+      "priceEur": 263.41,
       "description": "Coherent Corp., vormals II-VI Incorporated, ist ein amerikanischer Hersteller von II-VI-Verbindungshalbleitern und Lasern mit Sitz in Pennsylvania. Es werden Zinkselenid für…",
       "politician": null,
       "track": null,
@@ -414,7 +379,7 @@
       "market": "us",
       "score": 2,
       "reaction": -1.6,
-      "priceEur": 104.21,
+      "priceEur": 104.25,
       "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
       "politician": null,
       "track": null,
@@ -429,7 +394,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "0Std"
         },
         "predict": {
           "active": false
@@ -448,8 +413,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.0,
-      "priceEur": 218.32,
+      "reaction": -1.2,
+      "priceEur": 217.8,
       "description": "Arthur J. Gallagher & Co. ist ein international tätiges US-amerikanisches Dienstleistungsunternehmen. Es wurde 1927 von Arthur J. Gallagher in Chicago gegründet und hat heute…",
       "politician": null,
       "track": null,
@@ -477,47 +442,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "PNR",
-      "name": "Pentair",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 50.88,
-      "description": "Pentair ist ein irischer Mischkonzern mit Sitz in Dublin und operativer Hauptzentrale in London. Das Unternehmen produziert unter anderem Komponenten und Gehäuse für den…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "LITE",
       "name": "Lumentum",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 845.01,
+      "reaction": 0.8,
+      "priceEur": 851.84,
       "description": "Die Lumentum Holdings Inc. ist ein US-amerikanisches Technologieunternehmen mit Hauptsitz in San Jose im Bundesstaat Kalifornien. Das Unternehmen ist auf die Entwicklung und…",
       "politician": null,
       "track": null,
@@ -532,7 +463,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -546,14 +477,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "RMD",
-      "name": "ResMed|",
+      "tk": "MSI",
+      "name": "Motorola Solutions",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 190.43,
-      "description": null,
+      "priceEur": 397.05,
+      "description": "Motorola Solutions ist ein börsennotierter amerikanischer Hersteller von sicherheitskritischen Kommunikationslösungen für Behörden und Organisationen mit Sicherheitsaufgaben (BOS)…",
       "politician": null,
       "track": null,
       "sig": {
@@ -575,9 +506,79 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "GEHC",
+      "name": "GE HealthCare",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 57.98,
+      "description": "GE Healthcare Technologies, Inc., stylized GE HealthCare, is an American health technology company based in Chicago, Illinois. It operates four divisions: Medical imaging, which…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "4T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "KKR",
+      "name": "KKR & Co.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 91.71,
+      "description": "KKR & Co. Inc. mit Sitz in New York City ist eine börsennotierte Beteiligungsgesellschaft. Gegründet wurde KKR 1976 von Jerome Kohlberg, Jr., Henry Kravis und George R. Roberts.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "4T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -585,8 +586,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -10.6,
-      "priceEur": 96.03,
+      "reaction": -9.7,
+      "priceEur": 96.95,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -601,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -620,8 +621,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -3.6,
-      "priceEur": 23.64,
+      "reaction": -3.0,
+      "priceEur": 23.81,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -652,8 +653,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -8.6,
-      "priceEur": 68.43,
+      "reaction": -8.1,
+      "priceEur": 68.79,
       "description": null,
       "politician": null,
       "track": null,
@@ -686,8 +687,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -12.9,
-      "priceEur": 78.13,
+      "reaction": -11.6,
+      "priceEur": 79.29,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -700,7 +701,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -719,8 +720,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -17.3,
-      "priceEur": 3.28,
+      "reaction": -16.7,
+      "priceEur": 3.3,
       "description": null,
       "politician": null,
       "track": null,
@@ -753,8 +754,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 0.4,
-      "priceEur": 10.72,
+      "reaction": 0.8,
+      "priceEur": 10.78,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -785,8 +786,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -9.7,
-      "priceEur": 34.88,
+      "reaction": -9.2,
+      "priceEur": 35.07,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -817,8 +818,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -4.3,
-      "priceEur": 102.56,
+      "reaction": -3.9,
+      "priceEur": 102.93,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
