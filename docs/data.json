@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T06:17:32.848440+00:00",
+  "generated_at": "2026-09-08T08:15:50.233766+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -127,41 +127,6 @@
       "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "HOOD",
-      "name": "Robinhood Markets",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 105.07,
-      "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "13Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "CRM",
@@ -185,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -220,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -290,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -325,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -360,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -395,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -430,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": false
@@ -465,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -484,7 +449,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 236.82,
       "description": "Johnson & Johnson ist ein weltweit tätiger US-amerikanischer Pharmazie- und Konsumgüterhersteller mit Hauptsitz in New Brunswick im US-Bundesstaat New Jersey. Das Unternehmen ist…",
       "politician": null,
@@ -500,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -514,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "COHR",
-      "name": "Coherent Corp.",
+      "tk": "PNR",
+      "name": "Pentair",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 242.52,
-      "description": "Coherent Corp., vormals II-VI Incorporated, ist ein amerikanischer Hersteller von II-VI-Verbindungshalbleitern und Lasern mit Sitz in Pennsylvania. Es werden Zinkselenid für…",
+      "priceEur": 51.81,
+      "description": "Pentair ist ein irischer Mischkonzern mit Sitz in Dublin und operativer Hauptzentrale in London. Das Unternehmen produziert unter anderem Komponenten und Gehäuse für den…",
       "politician": null,
       "track": null,
       "sig": {
@@ -543,19 +508,19 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "DLTR",
-      "name": "Dollar Tree",
+      "tk": "ADP",
+      "name": "Automatic Data Processing",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 113.08,
-      "description": "Dollar Tree ist ein US-amerikanischer Betreiber von Billig-Gemischtwarenläden. Der Sitz des Unternehmens befindet sich in Chesapeake im US-Bundesstaat Virginia. Dollar Tree…",
+      "priceEur": 238.88,
+      "description": "Automatic Data Processing, Inc. ist ein amerikanisches Unternehmen aus Roseland im US-Bundesstaat New Jersey.",
       "politician": null,
       "track": null,
       "sig": {
@@ -577,7 +542,41 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "AMCR",
+      "name": "Amcor",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 38.85,
+      "description": "Amcor Limited ist ein globales Verpackungsunternehmen. Es entwickelt und produziert flexible Verpackungen, starre Behälter, Spezialkartons, Verschlüsse und Dienstleistungen für…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "4T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Materials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -603,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "16Std"
         },
         "predict": {
           "active": true
@@ -702,7 +701,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
