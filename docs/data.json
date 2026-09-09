@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T22:14:33.385340+00:00",
+  "generated_at": "2026-09-09T00:21:04.106518+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -75,12 +75,12 @@
         },
         "insider": {
           "active": true,
-          "age": "5T",
+          "age": "6T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "0Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -110,12 +110,12 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -145,12 +145,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1Std",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -162,41 +162,6 @@
       "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "COHR",
-      "name": "Coherent Corp.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 7.1,
-      "priceEur": 259.93,
-      "description": "Coherent Corp., vormals II-VI Incorporated, ist ein amerikanischer Hersteller von II-VI-Verbindungshalbleitern und Lasern mit Sitz in Pennsylvania. Es werden Zinkselenid für…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "HOOD",
@@ -215,12 +180,12 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -238,7 +203,7 @@
       "name": "Arthur J. Gallagher & Co.",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 3,
       "reaction": -1.8,
       "priceEur": 216.51,
       "description": "Arthur J. Gallagher & Co. ist ein international tätiges US-amerikanisches Dienstleistungsunternehmen. Es wurde 1927 von Arthur J. Gallagher in Chicago gegründet und hat heute…",
@@ -250,11 +215,12 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -265,7 +231,7 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "LITE",
@@ -284,12 +250,12 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -319,12 +285,12 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -342,7 +308,7 @@
       "name": "KKR & Co.",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": -0.7,
       "priceEur": 91.04,
       "description": "KKR & Co. Inc. mit Sitz in New York City ist eine börsennotierte Beteiligungsgesellschaft. Gegründet wurde KKR 1976 von Jerome Kohlberg, Jr., Henry Kravis und George R. Roberts.",
@@ -354,12 +320,11 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "7Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -370,7 +335,7 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "ADP",
@@ -389,12 +354,12 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -424,7 +389,7 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
@@ -458,12 +423,12 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -477,80 +442,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "SO",
-      "name": "Southern Company",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 76.62,
-      "description": "Southern Company ist ein US-amerikanisches Energieunternehmen mit Sitz in Atlanta, Georgia. Das Unternehmen ist im Aktienindex S&P 500 und im Dow Jones Utility Average gelistet…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "MSI",
-      "name": "Motorola Solutions",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 398.64,
-      "description": "Motorola Solutions ist ein börsennotierter amerikanischer Hersteller von sicherheitskritischen Kommunikationslösungen für Behörden und Organisationen mit Sicherheitsaufgaben (BOS)…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "STT",
       "name": "State Street Corporation",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 165.21,
       "description": "State Street Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Boston. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
       "politician": null,
@@ -561,12 +458,117 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "8Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "DDOG",
+      "name": "Datadog",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 181.01,
+      "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "JNJ",
+      "name": "Johnson & Johnson",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 231.72,
+      "description": "Johnson & Johnson ist ein weltweit tätiger US-amerikanischer Pharmazie- und Konsumgüterhersteller mit Hauptsitz in New Brunswick im US-Bundesstaat New Jersey. Das Unternehmen ist…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "5T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "XYZ",
+      "name": "Block, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 68.97,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "5T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -584,10 +586,10 @@
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
-      "score": 3,
+      "score": 2,
       "reaction": -9.7,
       "priceEur": 97.0,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -595,13 +597,11 @@
           "active": false
         },
         "insider": {
-          "active": true,
-          "age": "14T",
-          "src": "SEC"
+          "active": false
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "16Std"
         },
         "predict": {
           "active": true
@@ -612,7 +612,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "JD",
@@ -663,7 +663,7 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
@@ -700,7 +700,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -730,7 +730,7 @@
         },
         "insider": {
           "active": true,
-          "age": "7T",
+          "age": "8T",
           "src": "SEC"
         },
         "macro": {
@@ -828,7 +828,7 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
