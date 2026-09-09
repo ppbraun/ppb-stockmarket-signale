@@ -7,7 +7,7 @@
   "Halbleiter / Chips": 1,
   "Energie / Öl & Gas": 5,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 0,
+  "Schifffahrt / Lieferketten": 1,
   "Krypto-Regulierung": 0,
   "Cybersecurity": 0,
   "_tickers": {
@@ -29,11 +29,6 @@
     "AJG": {
       "score": 3,
       "baseline_price_usd": 256.05,
-      "first_seen": "2026-09-08"
-    },
-    "BAC": {
-      "score": 2,
-      "baseline_price_usd": 62.39,
       "first_seen": "2026-09-08"
     },
     "STT": {
@@ -71,19 +66,24 @@
       "baseline_price_usd": 179.03,
       "first_seen": "2026-09-09"
     },
-    "WM": {
-      "score": 1,
-      "baseline_price_usd": 217.78,
-      "first_seen": "2026-09-09"
-    },
-    "EFX": {
-      "score": 1,
-      "baseline_price_usd": 171.62,
-      "first_seen": "2026-09-09"
-    },
     "MSFT": {
       "score": 2,
       "baseline_price_usd": 493.95,
+      "first_seen": "2026-09-09"
+    },
+    "PFG": {
+      "score": 1,
+      "baseline_price_usd": 115.04,
+      "first_seen": "2026-09-09"
+    },
+    "MCO": {
+      "score": 1,
+      "baseline_price_usd": 481.25,
+      "first_seen": "2026-09-09"
+    },
+    "MNST": {
+      "score": 2,
+      "baseline_price_usd": 43.15,
       "first_seen": "2026-09-09"
     },
     "BABA": {
