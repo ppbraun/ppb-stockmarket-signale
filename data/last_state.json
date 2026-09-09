@@ -1,13 +1,13 @@
 {
   "Zölle / Handelskonflikt": 0,
-  "Fed-Zinspolitik": 2,
+  "Fed-Zinspolitik": 1,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 0,
   "Halbleiter / Chips": 1,
   "Energie / Öl & Gas": 5,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 1,
+  "Schifffahrt / Lieferketten": 2,
   "Krypto-Regulierung": 0,
   "Cybersecurity": 0,
   "_tickers": {
@@ -25,11 +25,6 @@
       "score": 3,
       "baseline_price_usd": 28.25,
       "first_seen": "2026-09-07"
-    },
-    "AJG": {
-      "score": 2,
-      "baseline_price_usd": 256.05,
-      "first_seen": "2026-09-08"
     },
     "XYZ": {
       "score": 2,
@@ -76,14 +71,19 @@
       "baseline_price_usd": 290.83,
       "first_seen": "2026-09-09"
     },
-    "TRGP": {
+    "PFG": {
       "score": 1,
-      "baseline_price_usd": 294.29,
+      "baseline_price_usd": 115.04,
       "first_seen": "2026-09-09"
     },
-    "CI": {
+    "TSN": {
       "score": 1,
-      "baseline_price_usd": 275.83,
+      "baseline_price_usd": 52.28,
+      "first_seen": "2026-09-09"
+    },
+    "ALL": {
+      "score": 2,
+      "baseline_price_usd": 253.46,
       "first_seen": "2026-09-09"
     },
     "BABA": {

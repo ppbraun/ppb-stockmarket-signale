@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T10:14:38.020605+00:00",
+  "generated_at": "2026-09-09T12:17:19.089866+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -7,17 +7,17 @@
       "pct": 100
     },
     {
-      "topic": "Fed-Zinspolitik",
+      "topic": "Schifffahrt / Lieferketten",
       "vol": 2,
       "pct": 40
     },
     {
-      "topic": "Halbleiter / Chips",
+      "topic": "Fed-Zinspolitik",
       "vol": 1,
       "pct": 20
     },
     {
-      "topic": "Schifffahrt / Lieferketten",
+      "topic": "Halbleiter / Chips",
       "vol": 1,
       "pct": 20
     },
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "0Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "15Std"
         },
         "predict": {
           "active": true
@@ -164,41 +164,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "AJG",
-      "name": "Arthur J. Gallagher & Co.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -1.8,
-      "priceEur": 216.51,
-      "description": "Arthur J. Gallagher & Co. ist ein international tätiges US-amerikanisches Dienstleistungsunternehmen. Es wurde 1927 von Arthur J. Gallagher in Chicago gegründet und hat heute…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "5T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "11Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "XYZ",
       "name": "Block, Inc.",
       "broker": true,
@@ -206,7 +171,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 68.97,
-      "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -220,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -241,7 +206,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 459.69,
-      "description": "Dell Technologies Inc. ist ein US-amerikanischer Hersteller von Computern und Speichersystemen. Das Unternehmen hat seinen Hauptsitz in Round Rock, Texas.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -255,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -276,7 +241,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 172.58,
-      "description": "DoorDash Inc. ist ein US-amerikanischer On-Demand-Lieferservice, der Mahlzeiten von Restaurants an Verbraucher liefert. Die Fahrer des Lieferservices, genannt Dasher, nutzen dabei…",
+      "description": "DoorDash, Inc. is an American company operating online food ordering and food delivery. It trades under the symbol DASH. With a 56% market share, DoorDash is the largest food…",
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "22Std"
         },
         "predict": {
           "active": false
@@ -325,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -360,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -395,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -430,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -465,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -484,9 +449,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 250.41,
-      "description": "Vertiv ist ein amerikanischer, multinationaler Anbieter von kritischen Infrastrukturlösungen und Dienstleistungen für Rechenzentren, Kommunikationsnetzwerke sowie kommerzielle und…",
+      "description": "Vertiv Holdings Co. is an American provider of infrastructure and services for data centers, communication networks, and commercial and industrial environments. Headquartered in…",
       "politician": null,
       "track": null,
       "sig": {
@@ -500,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -514,47 +479,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "TRGP",
-      "name": "Targa Resources",
+      "tk": "PFG",
+      "name": "Principal Financial Group",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 253.39,
-      "description": "Targa Resources ist ein US-amerikanisches Unternehmen auf dem Gebiet der Erdgasaufbereitung und des Flüssiggastransports. Targa Resources besitzt mehrere Standorte in Texas sowie…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "CI",
-      "name": "Cigna",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 237.5,
+      "priceEur": 99.05,
       "description": null,
       "politician": null,
       "track": null,
@@ -577,9 +508,78 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "TSN",
+      "name": "Tyson Foods",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 45.01,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "ALL",
+      "name": "Allstate",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 218.24,
+      "description": "Allstate steht für:Allstate (Automarke), Automarke des Versandhändlers Sears Allstate (Unternehmen), Versicherungsunternehmen aus Northbrook, Illinois Allstate 400 at the…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "22Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -601,7 +601,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -700,7 +700,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "23Std"
         },
         "predict": {
           "active": true
