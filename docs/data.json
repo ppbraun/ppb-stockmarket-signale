@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T12:17:55.069973+00:00",
+  "generated_at": "2026-09-10T14:13:51.894057+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.9,
-      "priceEur": 270.63,
+      "reaction": 3.0,
+      "priceEur": 273.57,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.2,
-      "priceEur": 964.82,
+      "reaction": -2.1,
+      "priceEur": 965.31,
       "description": null,
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.2,
-      "priceEur": 23.95,
+      "reaction": -0.5,
+      "priceEur": 24.12,
       "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "21Std"
         },
         "predict": {
           "active": true
@@ -170,7 +170,7 @@
       "market": "us",
       "score": 3,
       "reaction": -1.9,
-      "priceEur": 44.77,
+      "priceEur": 44.78,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.4,
-      "priceEur": 116.38,
+      "reaction": -4.2,
+      "priceEur": 115.33,
       "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -234,14 +234,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "DELL",
-      "name": "Dell Technologies",
+      "tk": "CSCO",
+      "name": "Cisco",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 459.36,
-      "description": "Dell Technologies Inc. ist ein US-amerikanischer Hersteller von Computern und Speichersystemen. Das Unternehmen hat seinen Hauptsitz in Round Rock, Texas.",
+      "reaction": -0.4,
+      "priceEur": 93.57,
+      "description": "Cisco Systems, Inc. ist ein US-amerikanisches Unternehmen aus der Telekommunikationsbranche. Bekannt ist es vor allem für seine Router und Switches, die von einem wesentlichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -269,14 +269,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VZ",
-      "name": "Verizon",
+      "tk": "WMT",
+      "name": "Walmart",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 42.69,
-      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
+      "reaction": 0.8,
+      "priceEur": 91.51,
+      "description": "Walmart Inc. ist ein weltweit tätiger US-amerikanischer Einzelhandelskonzern, der einen großen Teil des US-Marktes beherrscht. Walmart ist in der Liste Fortune Global 500 auf…",
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -299,19 +299,19 @@
           "active": false
         }
       },
-      "topic": "Communication Services",
+      "topic": "Consumer Staples",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CSCO",
-      "name": "Cisco",
+      "tk": "WDAY",
+      "name": "Workday, Inc.",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 93.92,
-      "description": "Cisco Systems, Inc. ist ein US-amerikanisches Unternehmen aus der Telekommunikationsbranche. Bekannt ist es vor allem für seine Router und Switches, die von einem wesentlichen…",
+      "reaction": -0.2,
+      "priceEur": 159.33,
+      "description": "Workday, Inc., is an American cloud-based provider of financial management, human capital management, and student information system software. The company was founded by former…",
       "politician": null,
       "track": null,
       "sig": {
@@ -339,83 +339,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "WMT",
-      "name": "Walmart",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 90.83,
-      "description": "Walmart Inc. ist ein weltweit tätiger US-amerikanischer Einzelhandelskonzern, der einen großen Teil des US-Marktes beherrscht. Walmart ist in der Liste Fortune Global 500 auf…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "11Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "WDAY",
-      "name": "Workday, Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 159.67,
-      "description": "Workday, Inc., is an American cloud-based provider of financial management, human capital management, and student information system software. The company was founded by former…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "MKC",
       "name": "McCormick & Company",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 44.18,
+      "reaction": -0.4,
+      "priceEur": 43.99,
       "description": "McCormick & Company ist ein US-amerikanisches Unternehmen mit Hauptsitz in Hunt Valley, Maryland. Das Unternehmen ist an der New Yorker Börse gelistet und im Aktienindex S&P 500…",
       "politician": null,
       "track": null,
@@ -430,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -449,9 +379,114 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 178.34,
+      "reaction": 1.5,
+      "priceEur": 181.09,
       "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "AFL",
+      "name": "Aflac",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 98.5,
+      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1Std",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "DASH",
+      "name": "DoorDash",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.3,
+      "priceEur": 169.71,
+      "description": "DoorDash Inc. ist ein US-amerikanischer On-Demand-Lieferservice, der Mahlzeiten von Restaurants an Verbraucher liefert. Die Fahrer des Lieferservices, genannt Dasher, nutzen dabei…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "14Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "AMZN",
+      "name": "Amazon",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 216.42,
+      "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
       "politician": null,
       "track": null,
       "sig": {
@@ -474,19 +509,19 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Consumer Discretionary",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AFL",
-      "name": "Aflac",
+      "tk": "KEYS",
+      "name": "Keysight Technologies",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 98.47,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "priceEur": 280.36,
+      "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -500,41 +535,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "VRSN",
-      "name": "Verisign",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 246.26,
-      "description": "Verisign ist ein US-amerikanisches Unternehmen mit Sitz in Reston, Virginia.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
+          "age": "23Std"
         },
         "predict": {
           "active": false
@@ -545,17 +546,17 @@
       },
       "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "DASH",
-      "name": "DoorDash",
+      "tk": "TSCO",
+      "name": "Tractor Supply",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 169.28,
-      "description": "DoorDash Inc. ist ein US-amerikanischer On-Demand-Lieferservice, der Mahlzeiten von Restaurants an Verbraucher liefert. Die Fahrer des Lieferservices, genannt Dasher, nutzen dabei…",
+      "priceEur": 28.66,
+      "description": "Tractor Supply Company, founded in 1938, is an American chain store that sells home improvement, agriculture, lawn and garden maintenance, livestock, equine and pet care equipment…",
       "politician": null,
       "track": null,
       "sig": {
@@ -569,7 +570,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "22Std"
         },
         "predict": {
           "active": false
@@ -588,8 +589,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -12.3,
-      "priceEur": 93.89,
+      "reaction": -13.4,
+      "priceEur": 92.65,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -602,7 +603,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -621,8 +622,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -5.3,
-      "priceEur": 23.17,
+      "reaction": -5.6,
+      "priceEur": 23.1,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -653,8 +654,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -9.6,
-      "priceEur": 67.46,
+      "reaction": -10.5,
+      "priceEur": 66.75,
       "description": null,
       "politician": null,
       "track": null,
@@ -687,8 +688,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -11.6,
-      "priceEur": 78.98,
+      "reaction": -13.4,
+      "priceEur": 77.38,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -701,7 +702,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "2T"
         },
         "predict": {
           "active": true
@@ -720,8 +721,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -19.6,
-      "priceEur": 3.18,
+      "reaction": -21.5,
+      "priceEur": 3.1,
       "description": null,
       "politician": null,
       "track": null,
@@ -736,7 +737,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -755,8 +756,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -4.0,
-      "priceEur": 10.22,
+      "reaction": -5.6,
+      "priceEur": 10.05,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -787,8 +788,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -12.6,
-      "priceEur": 33.63,
+      "reaction": -12.9,
+      "priceEur": 33.51,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -801,7 +802,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -820,8 +821,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -6.8,
-      "priceEur": 99.45,
+      "reaction": -6.7,
+      "priceEur": 99.66,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
