@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-10T18:17:08.937479+00:00",
+  "generated_at": "2026-09-10T20:13:28.050060+00:00",
   "newsTopics": [
     {
       "topic": "Schifffahrt / Lieferketten",
-      "vol": 4,
+      "vol": 3,
       "pct": 100
     },
     {
       "topic": "Energie / Öl & Gas",
       "vol": 2,
-      "pct": 50
+      "pct": 67
     },
     {
       "topic": "Fed-Zinspolitik",
       "vol": 1,
-      "pct": 25
+      "pct": 33
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 4.7,
-      "priceEur": 278.75,
+      "reaction": 5.6,
+      "priceEur": 281.14,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "0Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.0,
-      "priceEur": 970.16,
+      "reaction": -2.3,
+      "priceEur": 967.0,
       "description": null,
       "politician": null,
       "track": null,
@@ -134,9 +134,44 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.5,
-      "priceEur": 24.2,
+      "reaction": -0.2,
+      "priceEur": 24.28,
       "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "6Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "PYPL",
+      "name": "PayPal",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": 0.2,
+      "priceEur": 45.89,
+      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
       "sig": {
@@ -159,41 +194,6 @@
           "active": false
         }
       },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "PYPL",
-      "name": "PayPal",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": -0.5,
-      "priceEur": 45.56,
-      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.5,
-      "priceEur": 116.62,
+      "reaction": -2.6,
+      "priceEur": 117.61,
       "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -234,83 +234,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "DASH",
-      "name": "DoorDash",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 2.0,
-      "priceEur": 173.21,
-      "description": "DoorDash Inc. ist ein US-amerikanischer On-Demand-Lieferservice, der Mahlzeiten von Restaurants an Verbraucher liefert. Die Fahrer des Lieferservices, genannt Dasher, nutzen dabei…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "AMZN",
-      "name": "Amazon",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.0,
-      "priceEur": 217.06,
-      "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "0Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "KEYS",
       "name": "Keysight Technologies",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 281.65,
+      "reaction": -0.3,
+      "priceEur": 280.39,
       "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
       "politician": null,
       "track": null,
@@ -344,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.7,
-      "priceEur": 28.96,
+      "reaction": 0.4,
+      "priceEur": 28.86,
       "description": "Tractor Supply Company, founded in 1938, is an American chain store that sells home improvement, agriculture, lawn and garden maintenance, livestock, equine and pet care equipment…",
       "politician": null,
       "track": null,
@@ -360,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -379,8 +309,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.0,
-      "priceEur": 268.22,
+      "reaction": -0.6,
+      "priceEur": 269.26,
       "description": "Intuit Inc. ist ein US-amerikanischer Hersteller von Standardanwendungssoftware aus Kalifornien mit rund 9.400 Mitarbeitern weltweit und einem Umsatz von ca. 6,7 Milliarden…",
       "politician": null,
       "track": null,
@@ -414,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.8,
-      "priceEur": 78.8,
+      "reaction": 0.1,
+      "priceEur": 79.57,
       "description": "Zimmer Biomet Holdings, Inc. ist ein US-amerikanisches Medizintechnik-Unternehmen, das weltweit zu den größten Anbietern von orthopädischen Implantaten gehört. Der Hauptsitz des…",
       "politician": null,
       "track": null,
@@ -430,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -449,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.2,
-      "priceEur": 65.42,
+      "reaction": -0.1,
+      "priceEur": 65.44,
       "description": "Netflix, Inc. ist ein US-amerikanisches Medienunternehmen, das sich mit dem kostenpflichtigen Streaming und der Produktion von Filmen und Serien beschäftigt.",
       "politician": null,
       "track": null,
@@ -465,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -484,9 +414,44 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 72.9,
+      "reaction": -0.8,
+      "priceEur": 72.34,
       "description": "Skyworks Solutions ist ein US-amerikanisches Halbleiterunternehmen mit Hauptsitz in Woburn (Massachusetts). Skyworks stellt Halbleiter für Funkfrequenz- und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PCG",
+      "name": "PG&E Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -1.1,
+      "priceEur": 12.07,
+      "description": "Pacific Gas and Electric Company (PG&E) is an American investor-owned utility (IOU). The company is headquartered at Kaiser Center, in Oakland, California. PG&E provides natural…",
       "politician": null,
       "track": null,
       "sig": {
@@ -509,19 +474,19 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Utilities",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "GNRC",
-      "name": "Generac",
+      "tk": "HSIC",
+      "name": "Henry Schein",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 156.69,
-      "description": "Générac ist der Name zweier französischer GemeindenGénérac (Gard) in der Region Okzitanien Générac (Gironde) in der Region Nouvelle-Aquitaine",
+      "priceEur": 75.15,
+      "description": "Henry Schein, Inc. ist ein im Jahr 1932 gegründeter US-amerikanischer Anbieter von Produkten und Dienstleistungen für niedergelassene Humanmediziner, Zahnärzte und Tierärzte.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -543,19 +508,19 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "PCG",
-      "name": "PG&E Corporation",
+      "tk": "ISRG",
+      "name": "Intuitive Surgical",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 12.21,
-      "description": "Pacific Gas and Electric Company (PG&E) is an American investor-owned utility (IOU). The company is headquartered at Kaiser Center, in Oakland, California. PG&E provides natural…",
+      "priceEur": 310.31,
+      "description": "Intuitive Surgical ist ein US-amerikanisches Unternehmen der Medizintechnik mit Hauptsitz in Sunnyvale, CA.",
       "politician": null,
       "track": null,
       "sig": {
@@ -569,7 +534,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -578,7 +543,42 @@
           "active": false
         }
       },
-      "topic": "Utilities",
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ADI",
+      "name": "Analog Devices",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 310.99,
+      "description": "Analog Devices Inc. ist ein US-amerikanischer Halbleiterhersteller mit Hauptsitz in Norwood bei Boston, Massachusetts. Das Unternehmen betreibt weltweit Niederlassungen.…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -588,8 +588,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -12.7,
-      "priceEur": 93.67,
+      "reaction": -13.0,
+      "priceEur": 93.45,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -602,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -621,8 +621,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -5.4,
-      "priceEur": 23.21,
+      "reaction": -5.2,
+      "priceEur": 23.26,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -653,8 +653,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -10.8,
-      "priceEur": 66.79,
+      "reaction": -10.5,
+      "priceEur": 67.01,
       "description": null,
       "politician": null,
       "track": null,
@@ -687,8 +687,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -12.7,
-      "priceEur": 78.29,
+      "reaction": -13.0,
+      "priceEur": 77.99,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -720,8 +720,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -21.7,
-      "priceEur": 3.1,
+      "reaction": -22.3,
+      "priceEur": 3.08,
       "description": null,
       "politician": null,
       "track": null,
@@ -736,7 +736,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -755,8 +755,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -5.7,
-      "priceEur": 10.07,
+      "reaction": -6.1,
+      "priceEur": 10.03,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -787,8 +787,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -13.2,
-      "priceEur": 33.52,
+      "reaction": -13.7,
+      "priceEur": 33.32,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -801,7 +801,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "22Std"
         },
         "predict": {
           "active": false
@@ -821,7 +821,7 @@
       "market": "cn",
       "score": 1,
       "reaction": -7.0,
-      "priceEur": 99.58,
+      "priceEur": 99.54,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
