@@ -3,11 +3,11 @@
   "Fed-Zinspolitik": 1,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
-  "KI-Infrastruktur": 0,
+  "KI-Infrastruktur": 1,
   "Halbleiter / Chips": 0,
   "Energie / Öl & Gas": 2,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 3,
+  "Schifffahrt / Lieferketten": 4,
   "Krypto-Regulierung": 0,
   "Cybersecurity": 0,
   "_tickers": {
@@ -35,16 +35,6 @@
       "score": 3,
       "baseline_price_usd": 140.33,
       "first_seen": "2026-09-09"
-    },
-    "ADM": {
-      "score": 2,
-      "baseline_price_usd": 86.91,
-      "first_seen": "2026-09-11"
-    },
-    "NFLX": {
-      "score": 2,
-      "baseline_price_usd": 76.01,
-      "first_seen": "2026-09-11"
     },
     "VRTX": {
       "score": 2,
@@ -76,14 +66,24 @@
       "baseline_price_usd": 298.01,
       "first_seen": "2026-09-11"
     },
-    "TPR": {
-      "score": 1,
-      "baseline_price_usd": 115.87,
-      "first_seen": "2026-09-11"
-    },
     "DXCM": {
       "score": 2,
       "baseline_price_usd": 84.51,
+      "first_seen": "2026-09-11"
+    },
+    "AFL": {
+      "score": 2,
+      "baseline_price_usd": 114.47,
+      "first_seen": "2026-09-11"
+    },
+    "AMAT": {
+      "score": 2,
+      "baseline_price_usd": 454.01,
+      "first_seen": "2026-09-11"
+    },
+    "O": {
+      "score": 2,
+      "baseline_price_usd": 59.57,
       "first_seen": "2026-09-11"
     },
     "BABA": {
