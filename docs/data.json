@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T12:17:57.413305+00:00",
+  "generated_at": "2026-09-11T14:14:27.612778+00:00",
   "newsTopics": [
     {
       "topic": "Schifffahrt / Lieferketten",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 5.6,
-      "priceEur": 281.14,
+      "reaction": 7.5,
+      "priceEur": 286.91,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -100,7 +100,7 @@
       "market": "us",
       "score": 3,
       "reaction": -2.3,
-      "priceEur": 966.77,
+      "priceEur": 968.72,
       "description": null,
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.2,
-      "priceEur": 24.28,
+      "reaction": -0.6,
+      "priceEur": 24.23,
       "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.2,
-      "priceEur": 45.89,
+      "reaction": 0.8,
+      "priceEur": 46.26,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
           "active": true
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.6,
-      "priceEur": 117.61,
+      "reaction": 3.8,
+      "priceEur": 125.6,
       "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -234,118 +234,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "VRTX",
-      "name": "Vertex Pharmaceuticals",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 442.97,
-      "description": "Vertex Pharmaceuticals ist ein US-amerikanisches biopharmazeutisches Unternehmen mit Sitz in Boston (Massachusetts). Das Unternehmen entwickelt Medikamente zur Behandlung von…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "COIN",
-      "name": "Coinbase",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 148.31,
-      "description": "Die Coinbase, auch Coinbase-Transaktion, ist die erste Transaktion, die in einen Block einer Blockchain geschrieben wird. Während reguläre Transaktionen im Abschnitt „Inputs“…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "0Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "IVZ",
-      "name": "Invesco",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 27.49,
-      "description": "Invesco ist eine unabhängige US-amerikanische Investmentgesellschaft mit rund 8600 Mitarbeitern und Standorten in 25 Ländern. Der Hauptsitz des Unternehmens ist in Atlanta,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "MET",
       "name": "MetLife",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 83.32,
+      "reaction": 0.1,
+      "priceEur": 83.53,
       "description": "Metropolitan Life Insurance Company (MetLife) ist ein US-amerikanisches Versicherungsunternehmen mit Firmensitz in New York City. Das Unternehmen ist im Aktienindex S&P 100…",
       "politician": null,
       "track": null,
@@ -360,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -379,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 123.21,
+      "reaction": 1.4,
+      "priceEur": 125.2,
       "description": "Die Agilent Technologies, Inc., kurz auch Agilent, ist ein US-amerikanisches Technologieunternehmen mit Sitz in Santa Clara, Kalifornien, das analytische Messgeräte herstellt.",
       "politician": null,
       "track": null,
@@ -395,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -414,79 +309,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 256.55,
+      "reaction": -0.1,
+      "priceEur": 256.71,
       "description": "Lam Research Corporation ist ein Hersteller und Anbieter von verfahrenstechnischen Geräten und Anlagen für die Halbleiterindustrie. Das 1980 gegründete und im kalifornischen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "16Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "DXCM",
-      "name": "Dexcom",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 72.75,
-      "description": "DexCom, Inc. ist ein US-amerikanisches Unternehmen, das kontinuierlich messende Glucosesensoren für Diabetes-Patienten entwickelt, herstellt und vertreibt. Der Hauptsitz befindet…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "16Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "AFL",
-      "name": "Aflac",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 98.54,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
       "politician": null,
       "track": null,
       "sig": {
@@ -509,6 +334,76 @@
           "active": false
         }
       },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "DXCM",
+      "name": "Dexcom",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -0.7,
+      "priceEur": 72.37,
+      "description": "DexCom, Inc. ist ein US-amerikanisches Unternehmen, das kontinuierlich messende Glucosesensoren für Diabetes-Patienten entwickelt, herstellt und vertreibt. Der Hauptsitz befindet…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "18Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "AFL",
+      "name": "Aflac",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -0.1,
+      "priceEur": 98.68,
+      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "20Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
@@ -519,8 +414,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 390.85,
+      "reaction": 0.6,
+      "priceEur": 394.08,
       "description": "Die Firma Applied Materials (AMAT) ist ein US-amerikanischer Hersteller von Anlagen für die Halbleiterindustrie mit Sitz in Santa Clara, Kalifornien im Silicon Valley.",
       "politician": null,
       "track": null,
@@ -535,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -554,8 +449,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 51.28,
+      "reaction": -0.6,
+      "priceEur": 51.1,
       "description": "Die Realty Income Corporation ist ein REIT, der in Einkaufszentren in den USA, in Puerto Rico, in Großbritannien und in Spanien investiert. Das Unternehmen ließ sich den…",
       "politician": null,
       "track": null,
@@ -570,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "0Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -584,14 +479,118 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "NFLX",
+      "name": "Netflix",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 65.99,
+      "description": "Netflix, Inc. ist ein US-amerikanisches Medienunternehmen, das sich mit dem kostenpflichtigen Streaming und der Produktion von Filmen und Serien beschäftigt.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "20Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NTAP",
+      "name": "NetApp",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 167.37,
+      "description": "NetApp, Inc., zuvor bekannt als Network Appliance, Inc., ist ein US-amerikanisches Unternehmen, das im Bereich der Datenspeicherung, des Cloud Computing und des Datenmanagements…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "18Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "TPR",
+      "name": "Tapestry, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 99.78,
+      "description": "Tapestry, Inc. is an American holding company based in New York City which is the parent company of Coach New York and Kate Spade New York. Originally named Coach, Inc., the…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -13.0,
-      "priceEur": 93.46,
-      "description": null,
+      "reaction": -11.6,
+      "priceEur": 95.14,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -603,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -622,9 +621,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -5.2,
-      "priceEur": 23.26,
-      "description": null,
+      "reaction": -4.2,
+      "priceEur": 23.55,
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -654,8 +653,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -10.5,
-      "priceEur": 67.01,
+      "reaction": -10.3,
+      "priceEur": 67.28,
       "description": null,
       "politician": null,
       "track": null,
@@ -688,8 +687,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -13.0,
-      "priceEur": 77.99,
+      "reaction": -11.0,
+      "priceEur": 79.9,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -720,8 +719,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -22.2,
-      "priceEur": 3.08,
+      "reaction": -19.0,
+      "priceEur": 3.21,
       "description": null,
       "politician": null,
       "track": null,
@@ -736,7 +735,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -755,8 +754,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -6.1,
-      "priceEur": 10.03,
+      "reaction": -3.6,
+      "priceEur": 10.32,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -787,8 +786,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -13.7,
-      "priceEur": 33.32,
+      "reaction": -12.6,
+      "priceEur": 33.8,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -819,8 +818,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -7.0,
-      "priceEur": 99.54,
+      "reaction": -6.6,
+      "priceEur": 100.19,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
