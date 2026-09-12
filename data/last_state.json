@@ -1,13 +1,13 @@
 {
   "Zölle / Handelskonflikt": 0,
-  "Fed-Zinspolitik": 1,
+  "Fed-Zinspolitik": 2,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 2,
   "Halbleiter / Chips": 0,
   "Energie / Öl & Gas": 2,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 4,
+  "Schifffahrt / Lieferketten": 5,
   "Krypto-Regulierung": 0,
   "Cybersecurity": 0,
   "_tickers": {
@@ -41,16 +41,6 @@
       "baseline_price_usd": 31.445,
       "first_seen": "2026-09-11"
     },
-    "MAR": {
-      "score": 2,
-      "baseline_price_usd": 334.69,
-      "first_seen": "2026-09-11"
-    },
-    "DDOG": {
-      "score": 2,
-      "baseline_price_usd": 221.21,
-      "first_seen": "2026-09-11"
-    },
     "HOOD": {
       "score": 2,
       "baseline_price_usd": 112.57,
@@ -76,14 +66,24 @@
       "baseline_price_usd": 369.15,
       "first_seen": "2026-09-12"
     },
-    "VEEV": {
-      "score": 1,
-      "baseline_price_usd": 262.4,
-      "first_seen": "2026-09-12"
-    },
     "PHM": {
       "score": 2,
       "baseline_price_usd": 118.26,
+      "first_seen": "2026-09-12"
+    },
+    "MSFT": {
+      "score": 2,
+      "baseline_price_usd": 495.63,
+      "first_seen": "2026-09-12"
+    },
+    "APD": {
+      "score": 2,
+      "baseline_price_usd": 291.43,
+      "first_seen": "2026-09-12"
+    },
+    "TPL": {
+      "score": 2,
+      "baseline_price_usd": 369.1,
       "first_seen": "2026-09-12"
     },
     "BABA": {
@@ -127,6 +127,8 @@
       "first_seen": "2026-08-18"
     }
   },
-  "_pending_weekend_alerts": [],
+  "_pending_weekend_alerts": [
+    "🟢 <b>Fed-Zinspolitik</b>: 2 Erwähnungen (zuletzt 1)\n   — Bonds are going on tilt. How to play them, says Mike Khouw (CNBC)\n   — ECB raises interest rates, bolstering bets for further moves - Reuters (Reuters)"
+  ],
   "_last_weekly_summary_date": "2026-09-07"
 }
