@@ -7,7 +7,7 @@
   "Halbleiter / Chips": 0,
   "Energie / Öl & Gas": 3,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 5,
+  "Schifffahrt / Lieferketten": 4,
   "Krypto-Regulierung": 0,
   "Cybersecurity": 0,
   "_tickers": {
@@ -32,23 +32,18 @@
       "first_seen": "2026-09-09"
     },
     "A": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 143.12,
       "first_seen": "2026-09-11"
     },
     "KDP": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 31.445,
       "first_seen": "2026-09-11"
     },
     "PWR": {
       "score": 3,
       "baseline_price_usd": 650.58,
-      "first_seen": "2026-09-12"
-    },
-    "APD": {
-      "score": 2,
-      "baseline_price_usd": 291.43,
       "first_seen": "2026-09-12"
     },
     "CME": {
@@ -71,20 +66,25 @@
       "baseline_price_usd": 98.97,
       "first_seen": "2026-09-12"
     },
-    "ETR": {
-      "score": 1,
-      "baseline_price_usd": 105.33,
-      "first_seen": "2026-09-12"
-    },
     "CRWD": {
       "score": 2,
       "baseline_price_usd": 206.74,
       "first_seen": "2026-09-12"
     },
-    "GEN": {
-      "score": 1,
-      "baseline_price_usd": 30.26,
-      "first_seen": "2026-09-12"
+    "STX": {
+      "score": 2,
+      "baseline_price_usd": 830.17,
+      "first_seen": "2026-09-13"
+    },
+    "HD": {
+      "score": 2,
+      "baseline_price_usd": 308.74,
+      "first_seen": "2026-09-13"
+    },
+    "ISRG": {
+      "score": 2,
+      "baseline_price_usd": 369.15,
+      "first_seen": "2026-09-13"
     },
     "BABA": {
       "score": 2,
