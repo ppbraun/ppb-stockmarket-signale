@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-13T18:37:05.277049+00:00",
+  "generated_at": "2026-09-13T22:12:19.062558+00:00",
   "newsTopics": [
-    {
-      "topic": "Schifffahrt / Lieferketten",
-      "vol": 4,
-      "pct": 100
-    },
     {
       "topic": "Fed-Zinspolitik",
       "vol": 3,
-      "pct": 75
+      "pct": 100
     },
     {
       "topic": "Energie / Öl & Gas",
       "vol": 3,
-      "pct": 75
+      "pct": 100
+    },
+    {
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 3,
+      "pct": 100
     },
     {
       "topic": "KI-Infrastruktur",
       "vol": 2,
-      "pct": 50
+      "pct": 67
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -206,7 +206,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 561.23,
-      "description": "Quanta Services, Inc. ist ein US-amerikanischer Industriedienstleister mit Sitz in Houston, Texas. Das Unternehmen ist auf Bau, Wartung und Modernisierung von Energie- und…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -232,111 +232,6 @@
       "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "STX",
-      "name": "Seagate Technology",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 716.15,
-      "description": "Seagate Technology ist ein Hersteller von Festplattenlaufwerken und Bandlaufwerken mit Sitz in Dublin und operativer Hauptzentrale in Cupertino, Kalifornien. Seagate ist das…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "6Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "HD",
-      "name": "Home Depot (The)",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 266.34,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "9Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ISRG",
-      "name": "Intuitive Surgical",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 318.45,
-      "description": "Intuitive Surgical ist ein US-amerikanisches Unternehmen der Medizintechnik mit Hauptsitz in Sunnyvale, CA.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "COHR",
@@ -381,7 +276,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 318.41,
-      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -483,7 +378,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 72.78,
       "description": "Edwards Lifesciences mit Hauptsitz in Irvine, Kalifornien, und Edwards Lifesciences Services GmbH mit Sitz in Unterschleißheim ist ein Unternehmen auf dem Gebiet der…",
       "politician": null,
@@ -518,7 +413,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 156.98,
       "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
       "politician": null,
@@ -534,7 +429,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -553,9 +448,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 819.73,
-      "description": "Parker-Hannifin Corporation, originally Parker Appliance Company, is an American multinational industrial manufacturing company specializing in motion and control technologies.…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -583,6 +478,111 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "CRWD",
+      "name": "CrowdStrike",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 178.35,
+      "description": "CrowdStrike Holdings, Inc. is an American cybersecurity technology company based in Austin, Texas. It provides endpoint security, threat intelligence, and cyberattack response…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "9Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "LULU",
+      "name": "Lululemon Athletica",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 85.38,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "9Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "META",
+      "name": "Meta Platforms",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 559.03,
+      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -590,7 +590,7 @@
       "score": 2,
       "reaction": -12.4,
       "priceEur": 94.29,
-      "description": null,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -635,7 +635,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -757,7 +757,7 @@
       "score": 0,
       "reaction": -4.8,
       "priceEur": 10.19,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -821,7 +821,7 @@
       "score": 1,
       "reaction": -7.1,
       "priceEur": 99.73,
-      "description": null,
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
