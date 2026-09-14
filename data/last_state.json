@@ -7,7 +7,7 @@
   "Halbleiter / Chips": 0,
   "Energie / Öl & Gas": 4,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 3,
+  "Schifffahrt / Lieferketten": 4,
   "Krypto-Regulierung": 0,
   "Cybersecurity": 0,
   "_tickers": {
@@ -36,24 +36,9 @@
       "baseline_price_usd": 650.58,
       "first_seen": "2026-09-12"
     },
-    "PHM": {
-      "score": 1,
-      "baseline_price_usd": 118.26,
-      "first_seen": "2026-09-13"
-    },
-    "EW": {
-      "score": 1,
-      "baseline_price_usd": 84.37,
-      "first_seen": "2026-09-13"
-    },
     "QCOM": {
       "score": 2,
       "baseline_price_usd": 181.97,
-      "first_seen": "2026-09-13"
-    },
-    "PH": {
-      "score": 1,
-      "baseline_price_usd": 950.23,
       "first_seen": "2026-09-13"
     },
     "CRWD": {
@@ -84,6 +69,21 @@
     "NVDA": {
       "score": 2,
       "baseline_price_usd": 218.29,
+      "first_seen": "2026-09-14"
+    },
+    "COHR": {
+      "score": 1,
+      "baseline_price_usd": 305.37,
+      "first_seen": "2026-09-14"
+    },
+    "WBD": {
+      "score": 2,
+      "baseline_price_usd": 28.04,
+      "first_seen": "2026-09-14"
+    },
+    "ETR": {
+      "score": 1,
+      "baseline_price_usd": 105.33,
       "first_seen": "2026-09-14"
     },
     "BABA": {
@@ -127,9 +127,6 @@
       "first_seen": "2026-08-18"
     }
   },
-  "_pending_weekend_alerts": [
-    "🟢 <b>Fed-Zinspolitik</b>: 2 Erwähnungen (zuletzt 1)\n   — Bonds are going on tilt. How to play them, says Mike Khouw (CNBC)\n   — ECB raises interest rates, bolstering bets for further moves - Reuters (Reuters)",
-    "🆕 <b>PWR</b> (Quanta Services) neu in der Liste — Score 3/5"
-  ],
-  "_last_weekly_summary_date": "2026-09-07"
+  "_pending_weekend_alerts": [],
+  "_last_weekly_summary_date": "2026-09-14"
 }

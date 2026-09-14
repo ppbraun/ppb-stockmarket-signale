@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T03:39:09.780029+00:00",
+  "generated_at": "2026-09-14T09:39:09.705784+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -7,12 +7,12 @@
       "pct": 100
     },
     {
-      "topic": "Fed-Zinspolitik",
-      "vol": 3,
-      "pct": 75
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 4,
+      "pct": 100
     },
     {
-      "topic": "Schifffahrt / Lieferketten",
+      "topic": "Fed-Zinspolitik",
       "vol": 3,
       "pct": 75
     },
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -184,7 +184,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -232,74 +232,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "PHM",
-      "name": "PulteGroup",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 102.02,
-      "description": "PulteGroup, Inc. ist ein US-amerikanisches Bauunternehmen, das sich auf den Bau von privaten Eigenheimen spezialisiert hat. PulteGroup ist eines der umsatzstärksten Unternehmen in…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "EW",
-      "name": "Edwards Lifesciences",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 72.78,
-      "description": "Edwards Lifesciences mit Hauptsitz in Irvine, Kalifornien, und Edwards Lifesciences Services GmbH mit Sitz in Unterschleißheim ist ein Unternehmen auf dem Gebiet der…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "QCOM",
       "name": "Qualcomm",
       "broker": true,
@@ -321,7 +253,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -335,40 +267,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "PH",
-      "name": "Parker Hannifin",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 819.73,
-      "description": "Parker-Hannifin Corporation, originally Parker Appliance Company, is an American multinational industrial manufacturing company specializing in motion and control technologies.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "CRWD",
       "name": "CrowdStrike",
       "broker": true,
@@ -376,7 +274,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 178.35,
-      "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -390,7 +288,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -425,7 +323,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -460,7 +358,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -479,7 +377,7 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 251.41,
       "description": "Air Products, offiziell Air Products & Chemicals, ist ein US-amerikanischer Hersteller von Industriegasen, der im S&P 500 gelistet ist. Der Hauptsitz von Air Products befindet…",
       "politician": null,
@@ -513,9 +411,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 716.15,
-      "description": null,
+      "description": "Seagate Technology ist ein Hersteller von Festplattenlaufwerken und Bandlaufwerken mit Sitz in Dublin und operativer Hauptzentrale in Cupertino, Kalifornien. Seagate ist das…",
       "politician": null,
       "track": null,
       "sig": {
@@ -529,7 +427,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -548,9 +446,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 188.31,
-      "description": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on…",
+      "description": "Die Nvidia Corporation ist ein US-amerikanisches Unternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -576,6 +474,108 @@
       "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "COHR",
+      "name": "Coherent Corp.",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 263.43,
+      "description": "Coherent Corp., vormals II-VI Incorporated, ist ein amerikanischer Hersteller von II-VI-Verbindungshalbleitern und Lasern mit Sitz in Pennsylvania. Es werden Zinkselenid für…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "WBD",
+      "name": "Warner Bros. Discovery",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 24.19,
+      "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "ETR",
+      "name": "Entergy",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 90.86,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Utilities",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BABA",
@@ -683,7 +683,7 @@
       "score": 1,
       "reaction": -12.2,
       "priceEur": 78.85,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
       "politician": null,
       "track": null,
       "sig": {
@@ -749,7 +749,7 @@
       "score": 0,
       "reaction": -4.8,
       "priceEur": 10.19,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "description": "Li Auto Inc. is a Chinese electric vehicle manufacturer headquartered in Beijing, with manufacturing facilities in Changzhou. Founded by Li Xiang in 2015, the company is best…",
       "politician": null,
       "track": null,
       "sig": {
