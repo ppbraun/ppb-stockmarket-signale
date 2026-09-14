@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-13T22:12:19.062558+00:00",
+  "generated_at": "2026-09-14T03:39:09.780029+00:00",
   "newsTopics": [
     {
-      "topic": "Fed-Zinspolitik",
-      "vol": 3,
+      "topic": "Energie / Öl & Gas",
+      "vol": 4,
       "pct": 100
     },
     {
-      "topic": "Energie / Öl & Gas",
+      "topic": "Fed-Zinspolitik",
       "vol": 3,
-      "pct": 100
+      "pct": 75
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 3,
-      "pct": 100
+      "pct": 75
     },
     {
       "topic": "KI-Infrastruktur",
       "vol": 2,
-      "pct": 67
+      "pct": 50
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -75,7 +75,7 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
@@ -110,12 +110,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -133,7 +133,7 @@
       "name": "PayPal",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": 1.0,
       "priceEur": 46.34,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
@@ -145,12 +145,11 @@
         },
         "insider": {
           "active": true,
-          "age": "5T",
+          "age": "6T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "13Std"
+          "active": false
         },
         "predict": {
           "active": true
@@ -161,7 +160,7 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "MRNA",
@@ -180,7 +179,7 @@
         },
         "insider": {
           "active": true,
-          "age": "5T",
+          "age": "6T",
           "src": "SEC"
         },
         "macro": {
@@ -203,10 +202,10 @@
       "name": "Quanta Services",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": 0.0,
       "priceEur": 561.23,
-      "description": null,
+      "description": "Quanta Services, Inc. ist ein US-amerikanischer Industriedienstleister mit Sitz in Houston, Texas. Das Unternehmen ist auf Bau, Wartung und Modernisierung von Energie- und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -215,12 +214,11 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "1T"
+          "active": false
         },
         "predict": {
           "active": true
@@ -231,110 +229,6 @@
       },
       "topic": "Industrials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "COHR",
-      "name": "Coherent Corp.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 263.43,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 318.41,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "WBD",
-      "name": "Warner Bros. Discovery",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 24.19,
-      "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
@@ -342,7 +236,7 @@
       "name": "PulteGroup",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": 0.0,
       "priceEur": 102.02,
       "description": "PulteGroup, Inc. ist ein US-amerikanisches Bauunternehmen, das sich auf den Bau von privaten Eigenheimen spezialisiert hat. PulteGroup ist eines der umsatzstärksten Unternehmen in…",
@@ -354,12 +248,11 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "1T"
+          "active": false
         },
         "predict": {
           "active": false
@@ -370,14 +263,14 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "EW",
       "name": "Edwards Lifesciences",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": 0.0,
       "priceEur": 72.78,
       "description": "Edwards Lifesciences mit Hauptsitz in Irvine, Kalifornien, und Edwards Lifesciences Services GmbH mit Sitz in Unterschleißheim ist ein Unternehmen auf dem Gebiet der…",
@@ -389,12 +282,11 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "2T"
+          "active": false
         },
         "predict": {
           "active": false
@@ -405,7 +297,7 @@
       },
       "topic": "Health Care",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "QCOM",
@@ -415,7 +307,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 156.98,
-      "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
+      "description": "Qualcomm Incorporated is an American multinational technology corporation headquartered in San Diego, California. The company develops and designs technologies for global…",
       "politician": null,
       "track": null,
       "sig": {
@@ -424,12 +316,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -447,10 +339,10 @@
       "name": "Parker Hannifin",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": 0.0,
       "priceEur": 819.73,
-      "description": null,
+      "description": "Parker-Hannifin Corporation, originally Parker Appliance Company, is an American multinational industrial manufacturing company specializing in motion and control technologies.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -459,12 +351,11 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "1T"
+          "active": false
         },
         "predict": {
           "active": false
@@ -475,7 +366,7 @@
       },
       "topic": "Industrials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "CRWD",
@@ -483,9 +374,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 178.35,
-      "description": "CrowdStrike Holdings, Inc. is an American cybersecurity technology company based in Austin, Texas. It provides endpoint security, threat intelligence, and cyberattack response…",
+      "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -494,12 +385,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -518,9 +409,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 85.38,
-      "description": null,
+      "description": "Lululemon Athletica Inc. [ˈluːluˌlɛmən], gestaltet als lululemon athletica, ist ein kanadischer Einzelhändler für Sportbekleidung. Lululemon wurde in Kanada als Einzelhändler für…",
       "politician": null,
       "track": null,
       "sig": {
@@ -529,12 +420,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -553,7 +444,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 559.03,
       "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
@@ -564,12 +455,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -583,11 +474,115 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "APD",
+      "name": "Air Products",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 251.41,
+      "description": "Air Products, offiziell Air Products & Chemicals, ist ein US-amerikanischer Hersteller von Industriegasen, der im S&P 500 gelistet ist. Der Hauptsitz von Air Products befindet…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Materials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "STX",
+      "name": "Seagate Technology",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 716.15,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "15Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NVDA",
+      "name": "Nvidia",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 188.31,
+      "description": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
-      "score": 2,
+      "score": 1,
       "reaction": -12.4,
       "priceEur": 94.29,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
@@ -601,8 +596,7 @@
           "active": false
         },
         "macro": {
-          "active": true,
-          "age": "1T"
+          "active": false
         },
         "predict": {
           "active": true
@@ -613,14 +607,14 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "JD",
       "name": "JD.com",
       "broker": true,
       "market": "cn",
-      "score": 2,
+      "score": 1,
       "reaction": -5.1,
       "priceEur": 23.34,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
@@ -634,8 +628,7 @@
           "active": false
         },
         "macro": {
-          "active": true,
-          "age": "17Std"
+          "active": false
         },
         "predict": {
           "active": true
@@ -646,7 +639,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "PDD",
@@ -665,7 +658,7 @@
         },
         "insider": {
           "active": true,
-          "age": "9T",
+          "age": "10T",
           "src": "SEC"
         },
         "macro": {
@@ -719,7 +712,7 @@
       "name": "NIO Inc.",
       "broker": true,
       "market": "cn",
-      "score": 2,
+      "score": 1,
       "reaction": -19.8,
       "priceEur": 3.18,
       "description": null,
@@ -731,12 +724,11 @@
         },
         "insider": {
           "active": true,
-          "age": "12T",
+          "age": "13T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "2T"
+          "active": false
         },
         "predict": {
           "active": false
@@ -747,7 +739,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "LI",
@@ -757,7 +749,7 @@
       "score": 0,
       "reaction": -4.8,
       "priceEur": 10.19,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -789,7 +781,7 @@
       "score": 0,
       "reaction": -13.0,
       "priceEur": 33.66,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -830,7 +822,7 @@
         },
         "insider": {
           "active": true,
-          "age": "9T",
+          "age": "10T",
           "src": "SEC"
         },
         "macro": {

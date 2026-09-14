@@ -5,7 +5,7 @@
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 2,
   "Halbleiter / Chips": 0,
-  "Energie / Öl & Gas": 3,
+  "Energie / Öl & Gas": 4,
   "Gesundheit / FDA-Zulassungen": 0,
   "Schifffahrt / Lieferketten": 3,
   "Krypto-Regulierung": 0,
@@ -22,7 +22,7 @@
       "first_seen": "2026-09-05"
     },
     "PYPL": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 53.18,
       "first_seen": "2026-09-09"
     },
@@ -32,32 +32,17 @@
       "first_seen": "2026-09-09"
     },
     "PWR": {
-      "score": 3,
+      "score": 2,
       "baseline_price_usd": 650.58,
       "first_seen": "2026-09-12"
     },
-    "COHR": {
-      "score": 2,
-      "baseline_price_usd": 305.37,
-      "first_seen": "2026-09-13"
-    },
-    "TPL": {
-      "score": 2,
-      "baseline_price_usd": 369.1,
-      "first_seen": "2026-09-13"
-    },
-    "WBD": {
-      "score": 2,
-      "baseline_price_usd": 28.04,
-      "first_seen": "2026-09-13"
-    },
     "PHM": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 118.26,
       "first_seen": "2026-09-13"
     },
     "EW": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 84.37,
       "first_seen": "2026-09-13"
     },
@@ -67,7 +52,7 @@
       "first_seen": "2026-09-13"
     },
     "PH": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 950.23,
       "first_seen": "2026-09-13"
     },
@@ -86,13 +71,28 @@
       "baseline_price_usd": 648.03,
       "first_seen": "2026-09-13"
     },
-    "BABA": {
+    "APD": {
+      "score": 1,
+      "baseline_price_usd": 291.43,
+      "first_seen": "2026-09-14"
+    },
+    "STX": {
       "score": 2,
+      "baseline_price_usd": 830.17,
+      "first_seen": "2026-09-14"
+    },
+    "NVDA": {
+      "score": 2,
+      "baseline_price_usd": 218.29,
+      "first_seen": "2026-09-14"
+    },
+    "BABA": {
+      "score": 1,
       "baseline_price_usd": 124.71,
       "first_seen": "2026-08-18"
     },
     "JD": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 28.5,
       "first_seen": "2026-08-18"
     },
@@ -107,7 +107,7 @@
       "first_seen": "2026-08-18"
     },
     "NIO": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 4.6,
       "first_seen": "2026-08-18"
     },
