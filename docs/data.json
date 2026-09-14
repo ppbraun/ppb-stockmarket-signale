@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:13:45.510889+00:00",
+  "generated_at": "2026-09-14T21:36:11.307496+00:00",
   "newsTopics": [
     {
       "topic": "Schifffahrt / Lieferketten",
@@ -7,12 +7,12 @@
       "pct": 100
     },
     {
-      "topic": "Energie / Öl & Gas",
+      "topic": "Fed-Zinspolitik",
       "vol": 4,
       "pct": 80
     },
     {
-      "topic": "Fed-Zinspolitik",
+      "topic": "Energie / Öl & Gas",
       "vol": 3,
       "pct": 60
     },
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 8.3,
-      "priceEur": 289.98,
+      "reaction": 7.7,
+      "priceEur": 288.36,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.1,
-      "priceEur": 994.35,
+      "reaction": -1.0,
+      "priceEur": 985.44,
       "description": null,
       "politician": null,
       "track": null,
@@ -111,75 +111,6 @@
         "insider": {
           "active": true,
           "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "PYPL",
-      "name": "PayPal",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 2.0,
-      "priceEur": 46.95,
-      "description": "PayPal Holdings, Inc. is an American multinational financial technology company operating an online payments system in the majority of countries that support online money…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "6T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "MRNA",
-      "name": "Moderna",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": 3.8,
-      "priceEur": 126.09,
-      "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "6T",
           "src": "SEC"
         },
         "macro": {
@@ -198,13 +129,83 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
+      "tk": "PYPL",
+      "name": "PayPal",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": 1.6,
+      "priceEur": 46.78,
+      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "6T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "MRNA",
+      "name": "Moderna",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": 4.5,
+      "priceEur": 126.99,
+      "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1Std",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "6Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
       "tk": "PWR",
       "name": "Quanta Services",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": -4.3,
-      "priceEur": 539.15,
+      "score": 3,
+      "reaction": -4.4,
+      "priceEur": 538.5,
       "description": "Quanta Services, Inc. ist ein US-amerikanischer Industriedienstleister mit Sitz in Houston, Texas. Das Unternehmen ist auf Bau, Wartung und Modernisierung von Energie- und…",
       "politician": null,
       "track": null,
@@ -218,7 +219,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -229,7 +231,7 @@
       },
       "topic": "Industrials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "QCOM",
@@ -237,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.5,
-      "priceEur": 155.17,
+      "reaction": -1.0,
+      "priceEur": 155.96,
       "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
       "politician": null,
       "track": null,
@@ -253,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -272,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 14.8,
-      "priceEur": 205.46,
+      "reaction": 13.9,
+      "priceEur": 203.78,
       "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
       "politician": null,
       "track": null,
@@ -307,9 +309,79 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 2.4,
-      "priceEur": 87.77,
+      "reaction": 1.3,
+      "priceEur": 86.83,
       "description": "Lululemon Athletica Inc. [ˈluːluˌlɛmən], gestaltet als lululemon athletica, ist ein kanadischer Einzelhändler für Sportbekleidung. Lululemon wurde in Kanada als Einzelhändler für…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "12Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "META",
+      "name": "Meta Platforms",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 2.7,
+      "priceEur": 576.23,
+      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "STX",
+      "name": "Seagate Technology",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -3.0,
+      "priceEur": 697.39,
+      "description": "Seagate Technology ist ein Hersteller von Festplattenlaufwerken und Bandlaufwerken mit Sitz in Dublin und operativer Hauptzentrale in Cupertino, Kalifornien. Seagate ist das…",
       "politician": null,
       "track": null,
       "sig": {
@@ -332,76 +404,6 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "META",
-      "name": "Meta Platforms",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 1.8,
-      "priceEur": 571.15,
-      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "STX",
-      "name": "Seagate Technology",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -2.9,
-      "priceEur": 697.6,
-      "description": "Seagate Technology ist ein Hersteller von Festplattenlaufwerken und Bandlaufwerken mit Sitz in Dublin und operativer Hauptzentrale in Cupertino, Kalifornien. Seagate ist das…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
@@ -412,8 +414,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -3.0,
-      "priceEur": 183.36,
+      "reaction": -3.4,
+      "priceEur": 182.63,
       "description": "Die Nvidia Corporation ist ein US-amerikanisches Unternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
       "politician": null,
       "track": null,
@@ -448,7 +450,7 @@
       "market": "us",
       "score": 2,
       "reaction": 0.2,
-      "priceEur": 24.32,
+      "priceEur": 24.33,
       "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
@@ -458,7 +460,7 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "1Std",
           "src": "SEC"
         },
         "macro": {
@@ -476,14 +478,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "GEN",
-      "name": "Gen Digital",
+      "tk": "ETR",
+      "name": "Entergy",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 27.07,
-      "description": "Gen Digital Inc. ist ein US-amerikanischer Entwickler von Sicherheitssoftware für Privatanwender. Der Hauptsitz des Unternehmens liegt in Tempe im Bundesstaat Arizona; und seit…",
+      "priceEur": 89.72,
+      "description": "Entergy Corp. ist ein Strom- und Gasversorger aus den Vereinigten Staaten mit Sitz in New Orleans, Louisiana. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
       "politician": null,
       "track": null,
       "sig": {
@@ -505,19 +507,19 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Utilities",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "ADM",
-      "name": "Archer Daniels Midland",
+      "tk": "ISRG",
+      "name": "Intuitive Surgical",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 75.43,
-      "description": "Archer Daniels Midland Company (ADM) ist ein US-amerikanischer Lebensmittelkonzern einschließlich Agribusiness mit Sitz in Chicago, Illinois. Der Konzern ist mit 325…",
+      "priceEur": 327.19,
+      "description": "Intuitive Surgical ist ein US-amerikanisches Unternehmen der Medizintechnik mit Hauptsitz in Sunnyvale, CA.",
       "politician": null,
       "track": null,
       "sig": {
@@ -539,19 +541,19 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "UNP",
-      "name": "Union Pacific Corporation",
+      "tk": "TPL",
+      "name": "Texas Pacific Land Corporation",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 245.93,
-      "description": "Die Union Pacific Corporation ist ein börsennotiertes US-amerikanisches Unternehmen mit Sitz in Omaha, in Nebraska. Sie ist die Muttergesellschaft der Eisenbahngesellschaft Union…",
+      "priceEur": 316.23,
+      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
       "politician": null,
       "track": null,
       "sig": {
@@ -560,7 +562,7 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "1Std",
           "src": "SEC"
         },
         "macro": {
@@ -573,7 +575,7 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Energy",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -583,8 +585,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -12.2,
-      "priceEur": 94.84,
+      "reaction": -12.4,
+      "priceEur": 94.56,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -599,7 +601,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -618,8 +620,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -4.1,
-      "priceEur": 23.65,
+      "reaction": -4.4,
+      "priceEur": 23.6,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -650,8 +652,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -9.0,
-      "priceEur": 68.47,
+      "reaction": -8.7,
+      "priceEur": 68.72,
       "description": null,
       "politician": null,
       "track": null,
@@ -685,7 +687,7 @@
       "market": "cn",
       "score": 1,
       "reaction": -11.7,
-      "priceEur": 79.6,
+      "priceEur": 79.56,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -716,8 +718,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -18.7,
-      "priceEur": 3.24,
+      "reaction": -20.2,
+      "priceEur": 3.18,
       "description": null,
       "politician": null,
       "track": null,
@@ -727,7 +729,7 @@
         },
         "insider": {
           "active": true,
-          "age": "13T",
+          "age": "1Std",
           "src": "SEC"
         },
         "macro": {
@@ -750,8 +752,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -1.2,
-      "priceEur": 10.62,
+      "reaction": -1.9,
+      "priceEur": 10.54,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -782,8 +784,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -12.6,
-      "priceEur": 33.95,
+      "reaction": -12.9,
+      "priceEur": 33.83,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -814,8 +816,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -4.6,
-      "priceEur": 102.76,
+      "reaction": -5.2,
+      "priceEur": 102.15,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
