@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-15T00:22:39.516600+00:00",
+  "generated_at": "2026-09-15T07:17:35.049918+00:00",
   "newsTopics": [
+    {
+      "topic": "Fed-Zinspolitik",
+      "vol": 5,
+      "pct": 100
+    },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 5,
       "pct": 100
     },
     {
-      "topic": "Fed-Zinspolitik",
-      "vol": 4,
-      "pct": 80
+      "topic": "KI-Infrastruktur",
+      "vol": 2,
+      "pct": 40
     },
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 3,
-      "pct": 60
-    },
-    {
-      "topic": "KI-Infrastruktur",
       "vol": 2,
       "pct": 40
     },
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": 7.7,
       "priceEur": 288.36,
-      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "0Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -199,40 +199,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "PWR",
-      "name": "Quanta Services",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -4.4,
-      "priceEur": 538.5,
-      "description": "Quanta Services, Inc. ist ein US-amerikanischer Industriedienstleister mit Sitz in Houston, Texas. Das Unternehmen ist auf Bau, Wartung und Modernisierung von Energie- und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
       "tk": "QCOM",
       "name": "Qualcomm",
       "broker": true,
@@ -240,7 +206,7 @@
       "score": 2,
       "reaction": -1.0,
       "priceEur": 155.96,
-      "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
+      "description": "Qualcomm Incorporated is an American multinational technology corporation headquartered in San Diego, California. The company develops and designs technologies for global…",
       "politician": null,
       "track": null,
       "sig": {
@@ -254,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -289,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -310,7 +276,7 @@
       "score": 2,
       "reaction": 1.3,
       "priceEur": 86.83,
-      "description": null,
+      "description": "Lululemon Athletica Inc. [ˈluːluˌlɛmən], gestaltet als lululemon athletica, ist ein kanadischer Einzelhändler für Sportbekleidung. Lululemon wurde in Kanada als Einzelhändler für…",
       "politician": null,
       "track": null,
       "sig": {
@@ -324,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -345,42 +311,7 @@
       "score": 2,
       "reaction": 2.7,
       "priceEur": 576.23,
-      "description": "Meta Platforms, Inc., headquartered in Menlo Park, California, is an American multinational technology company and is one of the Big Tech companies. Meta owns and operates several…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "STX",
-      "name": "Seagate Technology",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -3.0,
-      "priceEur": 697.39,
-      "description": "Seagate Technology Holdings plc is an Irish-domiciled data storage company. It was incorporated in 1978 as Shugart Technology and commenced business in 1979. Since 2010, the…",
+      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -403,19 +334,19 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "NVDA",
-      "name": "Nvidia",
+      "tk": "STX",
+      "name": "Seagate Technology",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -3.4,
-      "priceEur": 182.63,
-      "description": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on…",
+      "reaction": -3.0,
+      "priceEur": 697.39,
+      "description": "Seagate Technology ist ein Hersteller von Festplattenlaufwerken und Bandlaufwerken mit Sitz in Dublin und operativer Hauptzentrale in Cupertino, Kalifornien. Seagate ist das…",
       "politician": null,
       "track": null,
       "sig": {
@@ -429,7 +360,42 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NVDA",
+      "name": "Nvidia",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -3.4,
+      "priceEur": 182.63,
+      "description": "Die Nvidia Corporation ist ein US-amerikanisches Unternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "4T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -482,7 +448,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 44.4,
       "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
       "politician": null,
@@ -498,7 +464,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -512,14 +478,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AFL",
-      "name": "Aflac",
+      "tk": "COST",
+      "name": "Costco",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 101.3,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "priceEur": 795.53,
+      "description": "Die Costco Wholesale Corporation ist eine US-amerikanische Warenhauskette für zahlende Mitglieder mit Hauptsitz in Issaquah bei Seattle, Bundesstaat Washington. Das Unternehmen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -532,41 +498,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "ADM",
-      "name": "Archer Daniels Midland",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 74.83,
-      "description": "Archer Daniels Midland Company (ADM) ist ein US-amerikanischer Lebensmittelkonzern einschließlich Agribusiness mit Sitz in Chicago, Illinois. Der Konzern ist mit 325…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
           "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -577,7 +510,77 @@
       },
       "topic": "Consumer Staples",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "IVZ",
+      "name": "Invesco",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 27.28,
+      "description": "Invesco ist eine unabhängige US-amerikanische Investmentgesellschaft mit rund 8600 Mitarbeitern und Standorten in 25 Ländern. Der Hauptsitz des Unternehmens ist in Atlanta,…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "11Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "WDAY",
+      "name": "Workday, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 168.13,
+      "description": "Workday, Inc., is an American cloud-based provider of financial management, human capital management, and student information system software. The company was founded by former…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "6Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -782,7 +785,7 @@
       "name": "Trip.com Group",
       "broker": true,
       "market": "cn",
-      "score": 0,
+      "score": 1,
       "reaction": -12.9,
       "priceEur": 33.83,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
@@ -796,7 +799,8 @@
           "active": false
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "22Std"
         },
         "predict": {
           "active": false
@@ -807,7 +811,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
+      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "NTES",
