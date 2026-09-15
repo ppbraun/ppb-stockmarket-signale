@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:17:35.049918+00:00",
+  "generated_at": "2026-09-15T13:13:15.170062+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -8,18 +8,18 @@
     },
     {
       "topic": "Schifffahrt / Lieferketten",
-      "vol": 5,
-      "pct": 100
-    },
-    {
-      "topic": "KI-Infrastruktur",
-      "vol": 2,
-      "pct": 40
+      "vol": 4,
+      "pct": 80
     },
     {
       "topic": "Energie / Öl & Gas",
       "vol": 2,
       "pct": 40
+    },
+    {
+      "topic": "KI-Infrastruktur",
+      "vol": 1,
+      "pct": 20
     },
     {
       "topic": "Halbleiter / Chips",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -199,111 +199,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "QCOM",
-      "name": "Qualcomm",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -1.0,
-      "priceEur": 155.96,
-      "description": "Qualcomm Incorporated is an American multinational technology corporation headquartered in San Diego, California. The company develops and designs technologies for global…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CRWD",
-      "name": "CrowdStrike",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 13.9,
-      "priceEur": 203.78,
-      "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "LULU",
-      "name": "Lululemon Athletica",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 1.3,
-      "priceEur": 86.83,
-      "description": "Lululemon Athletica Inc. [ˈluːluˌlɛmən], gestaltet als lululemon athletica, ist ein kanadischer Einzelhändler für Sportbekleidung. Lululemon wurde in Kanada als Einzelhändler für…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "8Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "META",
       "name": "Meta Platforms",
       "broker": true,
@@ -311,7 +206,7 @@
       "score": 2,
       "reaction": 2.7,
       "priceEur": 576.23,
-      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
+      "description": "Meta Platforms, Inc., headquartered in Menlo Park, California, is an American multinational technology company and is one of the Big Tech companies. Meta owns and operates several…",
       "politician": null,
       "track": null,
       "sig": {
@@ -325,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -346,7 +241,7 @@
       "score": 2,
       "reaction": -3.0,
       "priceEur": 697.39,
-      "description": "Seagate Technology ist ein Hersteller von Festplattenlaufwerken und Bandlaufwerken mit Sitz in Dublin und operativer Hauptzentrale in Cupertino, Kalifornien. Seagate ist das…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -360,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -395,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -413,7 +308,7 @@
       "name": "Warner Bros. Discovery",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 3,
       "reaction": 0.2,
       "priceEur": 24.33,
       "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
@@ -429,7 +324,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -440,7 +336,7 @@
       },
       "topic": "Communication Services",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "VZ",
@@ -464,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -483,9 +379,79 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 795.53,
       "description": "Die Costco Wholesale Corporation ist eine US-amerikanische Warenhauskette für zahlende Mitglieder mit Hauptsitz in Issaquah bei Seattle, Bundesstaat Washington. Das Unternehmen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "6Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "IVZ",
+      "name": "Invesco",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 27.28,
+      "description": "Invesco Ltd., organized in Bermuda, with principal executive offices in Atlanta, Georgia, is an investment management company. The company has clients in 120 countries.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "17Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "WDAY",
+      "name": "Workday, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 168.13,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -508,19 +474,19 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "IVZ",
-      "name": "Invesco",
+      "tk": "NTAP",
+      "name": "NetApp",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 27.28,
-      "description": "Invesco ist eine unabhängige US-amerikanische Investmentgesellschaft mit rund 8600 Mitarbeitern und Standorten in 25 Ländern. Der Hauptsitz des Unternehmens ist in Atlanta,…",
+      "priceEur": 163.0,
+      "description": "NetApp, Inc. is an American data infrastructure company that provides unified data storage, integrated data services, and cloud operations (CloudOps) solutions to enterprise…",
       "politician": null,
       "track": null,
       "sig": {
@@ -534,7 +500,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -543,19 +509,19 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "WDAY",
-      "name": "Workday, Inc.",
+      "tk": "DVN",
+      "name": "Devon Energy",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 3,
       "reaction": null,
-      "priceEur": 168.13,
-      "description": "Workday, Inc., is an American cloud-based provider of financial management, human capital management, and student information system software. The company was founded by former…",
+      "priceEur": 43.05,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -569,7 +535,44 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "2Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "CSCO",
+      "name": "Cisco",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 95.28,
+      "description": "Cisco Systems, Inc. ist ein US-amerikanisches Unternehmen aus der Telekommunikationsbranche. Bekannt ist es vor allem für seine Router und Switches, die von einem wesentlichen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -690,7 +693,7 @@
       "score": 1,
       "reaction": -11.7,
       "priceEur": 79.56,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
       "politician": null,
       "track": null,
       "sig": {
@@ -719,7 +722,7 @@
       "name": "NIO Inc.",
       "broker": true,
       "market": "cn",
-      "score": 1,
+      "score": 2,
       "reaction": -20.2,
       "priceEur": 3.18,
       "description": null,
@@ -735,7 +738,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -746,7 +750,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "LI",
@@ -756,7 +760,7 @@
       "score": 0,
       "reaction": -1.9,
       "priceEur": 10.54,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -800,7 +804,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
