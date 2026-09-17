@@ -1,13 +1,13 @@
 {
   "Zölle / Handelskonflikt": 0,
-  "Fed-Zinspolitik": 6,
+  "Fed-Zinspolitik": 5,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 1,
   "Halbleiter / Chips": 1,
   "Energie / Öl & Gas": 2,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 2,
+  "Schifffahrt / Lieferketten": 1,
   "Krypto-Regulierung": 0,
   "Cybersecurity": 0,
   "_tickers": {
@@ -46,28 +46,13 @@
       "baseline_price_usd": 223.04,
       "first_seen": "2026-09-15"
     },
-    "ZBH": {
-      "score": 2,
-      "baseline_price_usd": 98.41,
-      "first_seen": "2026-09-16"
-    },
-    "COHR": {
-      "score": 2,
-      "baseline_price_usd": 271.17,
-      "first_seen": "2026-09-16"
-    },
-    "HPE": {
-      "score": 2,
-      "baseline_price_usd": 57.75,
-      "first_seen": "2026-09-16"
-    },
     "ETR": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 103.22,
       "first_seen": "2026-09-16"
     },
     "AKAM": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 106.505,
       "first_seen": "2026-09-16"
     },
@@ -86,6 +71,21 @@
       "baseline_price_usd": 229.71,
       "first_seen": "2026-09-16"
     },
+    "WST": {
+      "score": 3,
+      "baseline_price_usd": 362.01,
+      "first_seen": "2026-09-17"
+    },
+    "MSFT": {
+      "score": 2,
+      "baseline_price_usd": 490.3,
+      "first_seen": "2026-09-17"
+    },
+    "COO": {
+      "score": 3,
+      "baseline_price_usd": 54.61,
+      "first_seen": "2026-09-17"
+    },
     "BABA": {
       "score": 3,
       "baseline_price_usd": 124.71,
@@ -102,7 +102,7 @@
       "first_seen": "2026-08-18"
     },
     "BIDU": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 104.12,
       "first_seen": "2026-08-18"
     },
@@ -122,7 +122,7 @@
       "first_seen": "2026-08-18"
     },
     "NTES": {
-      "score": 2,
+      "score": 1,
       "baseline_price_usd": 124.4,
       "first_seen": "2026-08-18"
     }
