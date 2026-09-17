@@ -1,20 +1,15 @@
 {
-  "generated_at": "2026-09-17T18:00:09.557833+00:00",
+  "generated_at": "2026-09-17T21:10:46.075235+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
-      "vol": 6,
+      "vol": 4,
       "pct": 100
-    },
-    {
-      "topic": "Energie / Öl & Gas",
-      "vol": 1,
-      "pct": 17
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 1,
-      "pct": 17
+      "pct": 25
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -42,6 +37,11 @@
       "pct": 0
     },
     {
+      "topic": "Energie / Öl & Gas",
+      "vol": 0,
+      "pct": 0
+    },
+    {
       "topic": "Gesundheit / FDA-Zulassungen",
       "vol": 0,
       "pct": 0
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 8.6,
-      "priceEur": 292.61,
+      "reaction": 8.9,
+      "priceEur": 293.53,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.3,
-      "priceEur": 998.17,
+      "reaction": 0.3,
+      "priceEur": 1003.78,
       "description": null,
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -134,9 +134,79 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.2,
-      "priceEur": 46.4,
+      "reaction": -0.5,
+      "priceEur": 46.11,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "12Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "MRNA",
+      "name": "Moderna",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": 12.6,
+      "priceEur": 137.68,
+      "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "WBD",
+      "name": "Warner Bros. Discovery",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": 0.7,
+      "priceEur": 24.6,
+      "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
       "sig": {
@@ -159,76 +229,6 @@
           "active": false
         }
       },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "MRNA",
-      "name": "Moderna",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": 11.0,
-      "priceEur": 135.69,
-      "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "WBD",
-      "name": "Warner Bros. Discovery",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": 0.8,
-      "priceEur": 24.61,
-      "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "6Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
@@ -239,9 +239,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.5,
-      "priceEur": 42.25,
-      "description": null,
+      "reaction": -2.0,
+      "priceEur": 42.44,
+      "description": "Devon Energy Corp. ist ein US-amerikanisches Unternehmen mit Firmensitz in Oklahoma City. Das Unternehmen ist im Aktienindex S&P 500 an der New Yorker Börse gelistet. Devon Energy…",
       "politician": null,
       "track": null,
       "sig": {
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "23Std"
         },
         "predict": {
           "active": true
@@ -276,9 +276,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.7,
-      "priceEur": 190.94,
-      "description": null,
+      "reaction": -1.8,
+      "priceEur": 190.69,
+      "description": "Republic Services ist ein US-amerikanisches Entsorgungsunternehmen mit Hauptsitz in Phoenix im US-Bundesstaat Arizona. Das Unternehmen führt die Entsorgung von festen und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -292,7 +292,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -311,9 +311,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.2,
-      "priceEur": 319.22,
-      "description": null,
+      "reaction": 1.3,
+      "priceEur": 319.31,
+      "description": "Die West Pharmaceutical Services Deutschland GmbH & Co. KG ist ein Unternehmen für pharmazeutische Artikel und Laborzubehör im nordrhein-westfälischen Eschweiler mit über 1000…",
       "politician": null,
       "track": null,
       "sig": {
@@ -346,8 +346,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.1,
-      "priceEur": 47.06,
+      "reaction": -1.5,
+      "priceEur": 46.84,
       "description": null,
       "politician": null,
       "track": null,
@@ -357,12 +357,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "1Std",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -376,83 +376,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "VZ",
-      "name": "Verizon",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -2.3,
-      "priceEur": 42.35,
-      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "5Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "KLAC",
-      "name": "KLA Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.8,
-      "priceEur": 146.96,
-      "description": "KLA Corporation ist ein weltweites Unternehmen aus den Vereinigten Staaten, das Geräte zur Waferinspektion und Halbleiter-Produktionsüberwachung herstellt. Der Hauptsitz des…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "TTD",
       "name": "Trade Desk (The)",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.4,
-      "priceEur": 12.44,
+      "reaction": -1.6,
+      "priceEur": 12.42,
       "description": null,
       "politician": null,
       "track": null,
@@ -467,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -486,9 +416,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 24.09,
-      "description": "Pfizer Inc. ist ein US-amerikanischer, international aufgestellter und börsennotierter Pharma- und Biotechnologiekonzern mit Hauptsitz in New York. Pfizer war 2025 mit 62,6 Mrd.…",
+      "reaction": -0.1,
+      "priceEur": 24.07,
+      "description": "Pfizer Inc. is an American multinational pharmaceutical and biotechnology corporation headquartered at The Spiral in Manhattan, New York City. Founded in 1849 in New York by…",
       "politician": null,
       "track": null,
       "sig": {
@@ -502,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -516,14 +446,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "DXCM",
-      "name": "Dexcom",
+      "tk": "NTAP",
+      "name": "NetApp",
       "broker": true,
       "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 76.76,
-      "description": null,
+      "score": 2,
+      "reaction": 0.2,
+      "priceEur": 171.52,
+      "description": "NetApp, Inc., zuvor bekannt als Network Appliance, Inc., ist ein US-amerikanisches Unternehmen, das im Bereich der Datenspeicherung, des Cloud Computing und des Datenmanagements…",
       "politician": null,
       "track": null,
       "sig": {
@@ -536,7 +466,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -545,19 +476,19 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "NTAP",
-      "name": "NetApp",
+      "tk": "DDOG",
+      "name": "Datadog",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 171.22,
-      "description": "NetApp, Inc. is an American data infrastructure company that provides unified data storage, integrated data services, and cloud operations (CloudOps) solutions to enterprise…",
+      "priceEur": 205.56,
+      "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
       "politician": null,
       "track": null,
       "sig": {
@@ -571,7 +502,77 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "11Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ALB",
+      "name": "Albemarle Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 100.21,
+      "description": "Die Albemarle Corporation ist ein US-amerikanischer Spezialchemiekonzern mit Sitz in Charlotte, North Carolina und einer der weltweit größten Produzenten von Lithium und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Materials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CRM",
+      "name": "Salesforce",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 211.52,
+      "description": "Salesforce, Inc. mit Sitz in San Francisco (USA) ist ein börsennotiertes US-amerikanisches Softwareunternehmen, das Cloud-Computing-Produkte für Unternehmen anbietet. Das…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -590,8 +591,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -12.9,
-      "priceEur": 94.63,
+      "reaction": -13.0,
+      "priceEur": 94.54,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -606,7 +607,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -625,8 +626,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -6.0,
-      "priceEur": 23.33,
+      "reaction": -6.5,
+      "priceEur": 23.2,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -639,7 +640,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -658,8 +659,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -10.0,
-      "priceEur": 68.17,
+      "reaction": -10.6,
+      "priceEur": 67.7,
       "description": null,
       "politician": null,
       "track": null,
@@ -692,8 +693,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -13.3,
-      "priceEur": 78.58,
+      "reaction": -13.5,
+      "priceEur": 78.42,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -725,8 +726,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -21.2,
-      "priceEur": 3.16,
+      "reaction": -21.3,
+      "priceEur": 3.15,
       "description": null,
       "politician": null,
       "track": null,
@@ -741,7 +742,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -762,7 +763,7 @@
       "score": 1,
       "reaction": -3.5,
       "priceEur": 10.43,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -793,9 +794,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -9.5,
-      "priceEur": 35.35,
-      "description": null,
+      "reaction": -10.0,
+      "priceEur": 35.15,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -807,7 +808,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -826,8 +827,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -6.0,
-      "priceEur": 101.81,
+      "reaction": -6.3,
+      "priceEur": 101.58,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
