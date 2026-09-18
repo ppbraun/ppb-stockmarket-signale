@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T23:58:43.040285+00:00",
+  "generated_at": "2026-09-18T03:27:48.345155+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -8,8 +8,8 @@
     },
     {
       "topic": "Schifffahrt / Lieferketten",
-      "vol": 1,
-      "pct": 25
+      "vol": 2,
+      "pct": 50
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -75,12 +75,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1Std",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -110,12 +110,12 @@
         },
         "insider": {
           "active": true,
-          "age": "6T",
+          "age": "7T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -145,12 +145,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -180,12 +180,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -215,12 +215,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -250,7 +250,7 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
@@ -287,7 +287,7 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
@@ -322,12 +322,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -357,12 +357,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1Std",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -374,76 +374,6 @@
       "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "DDOG",
-      "name": "Datadog",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 205.56,
-      "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "14Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ALB",
-      "name": "Albemarle Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 100.21,
-      "description": "Die Albemarle Corporation ist ein US-amerikanischer Spezialchemiekonzern mit Sitz in Charlotte, North Carolina und einer der weltweit größten Produzenten von Lithium und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "5Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "CRM",
@@ -462,7 +392,7 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
@@ -486,7 +416,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 56.13,
       "description": "GE Healthcare Technologies, Inc., stylized GE HealthCare, is an American health technology company based in Chicago, Illinois. It operates four divisions: Medical imaging, which…",
       "politician": null,
@@ -497,12 +427,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -516,46 +446,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AVY",
-      "name": "Avery Dennison",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 149.02,
-      "description": "Die Avery Dennison Corporation zählt zu den weltweit führenden Herstellern von Selbstklebematerialien wie Selbstklebeetiketten sowie Etikettiersystemen für private und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "WYNN",
       "name": "Wynn Resorts",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": null,
+      "score": 1,
+      "reaction": 0.0,
       "priceEur": 72.26,
       "description": "Wynn Resorts ist ein börsennotierter US-amerikanischer Konzern der Hotel- und Unterhaltungsindustrie. Das Unternehmen betreibt mehrere Hotels mit angeschlossenen Spielkasinos. Das…",
       "politician": null,
@@ -566,12 +462,11 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "1T"
+          "active": false
         },
         "predict": {
           "active": false
@@ -581,6 +476,111 @@
         }
       },
       "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "NKE",
+      "name": "Nike, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 31.67,
+      "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "BAC",
+      "name": "Bank of America",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 50.67,
+      "description": "Die Bank of America Corporation ist eine US-amerikanische Großbank mit Hauptsitz in Charlotte, North Carolina. Das Unternehmen war seit Juli 2006 zeitweise das größte…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "UBER",
+      "name": "Uber",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 61.73,
+      "description": "Uber steht für:Uber (Unternehmen), Vermittlungsdienst zur Personenbeförderung und Essensauslieferung Uber Cup, Weltmeisterschaft für Damen-Nationalmannschaften im Badminton",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -601,12 +601,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -624,7 +624,7 @@
       "name": "JD.com",
       "broker": true,
       "market": "cn",
-      "score": 2,
+      "score": 1,
       "reaction": -6.5,
       "priceEur": 23.2,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
@@ -638,8 +638,7 @@
           "active": false
         },
         "macro": {
-          "active": true,
-          "age": "23Std"
+          "active": false
         },
         "predict": {
           "active": true
@@ -650,7 +649,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "PDD",
@@ -669,7 +668,7 @@
         },
         "insider": {
           "active": true,
-          "age": "13T",
+          "age": "14T",
           "src": "SEC"
         },
         "macro": {
@@ -691,7 +690,7 @@
       "name": "Baidu",
       "broker": true,
       "market": "cn",
-      "score": 2,
+      "score": 1,
       "reaction": -13.5,
       "priceEur": 78.42,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
@@ -705,8 +704,7 @@
           "active": false
         },
         "macro": {
-          "active": true,
-          "age": "1T"
+          "active": false
         },
         "predict": {
           "active": true
@@ -717,7 +715,7 @@
       },
       "topic": "Communication Services",
       "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "NIO",
@@ -736,12 +734,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -807,7 +805,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -837,7 +835,7 @@
         },
         "insider": {
           "active": true,
-          "age": "13T",
+          "age": "14T",
           "src": "SEC"
         },
         "macro": {
