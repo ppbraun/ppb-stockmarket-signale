@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T03:27:48.345155+00:00",
+  "generated_at": "2026-09-18T08:50:40.743700+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -8,8 +8,13 @@
     },
     {
       "topic": "Schifffahrt / Lieferketten",
-      "vol": 2,
-      "pct": 50
+      "vol": 3,
+      "pct": 75
+    },
+    {
+      "topic": "Energie / Öl & Gas",
+      "vol": 1,
+      "pct": 25
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -33,11 +38,6 @@
     },
     {
       "topic": "Halbleiter / Chips",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "Energie / Öl & Gas",
       "vol": 0,
       "pct": 0
     },
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -313,7 +313,7 @@
       "score": 3,
       "reaction": 1.3,
       "priceEur": 319.31,
-      "description": "Die West Pharmaceutical Services Deutschland GmbH & Co. KG ist ein Unternehmen für pharmazeutische Artikel und Laborzubehör im nordrhein-westfälischen Eschweiler mit über 1000…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -327,7 +327,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -362,7 +362,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "16Std"
         },
         "predict": {
           "active": true
@@ -376,116 +376,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "CRM",
-      "name": "Salesforce",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 211.52,
-      "description": "Salesforce, Inc. mit Sitz in San Francisco (USA) ist ein börsennotiertes US-amerikanisches Softwareunternehmen, das Cloud-Computing-Produkte für Unternehmen anbietet. Das…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "5Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "GEHC",
-      "name": "GE HealthCare",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 56.13,
-      "description": "GE Healthcare Technologies, Inc., stylized GE HealthCare, is an American health technology company based in Chicago, Illinois. It operates four divisions: Medical imaging, which…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "15Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "WYNN",
-      "name": "Wynn Resorts",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 72.26,
-      "description": "Wynn Resorts ist ein börsennotierter US-amerikanischer Konzern der Hotel- und Unterhaltungsindustrie. Das Unternehmen betreibt mehrere Hotels mit angeschlossenen Spielkasinos. Das…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "NKE",
       "name": "Nike, Inc.",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 31.67,
       "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a…",
       "politician": null,
@@ -501,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -520,7 +416,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 50.67,
       "description": "Die Bank of America Corporation ist eine US-amerikanische Großbank mit Hauptsitz in Charlotte, North Carolina. Das Unternehmen war seit Juli 2006 zeitweise das größte…",
       "politician": null,
@@ -536,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -555,7 +451,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 61.73,
       "description": "Uber steht für:Uber (Unternehmen), Vermittlungsdienst zur Personenbeförderung und Essensauslieferung Uber Cup, Weltmeisterschaft für Damen-Nationalmannschaften im Badminton",
       "politician": null,
@@ -571,7 +467,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -585,6 +481,111 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "F",
+      "name": "Ford Motor Company",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 11.85,
+      "description": "Die Ford Motor Company mit Sitz im US-amerikanischen Dearborn ist der nach Volkswagen, Toyota, General Motors, Hyundai und Stellantis sechstgrößte Kraftfahrzeughersteller…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "8Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NXPI",
+      "name": "NXP Semiconductors",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 198.54,
+      "description": "NXP Semiconductors ist ein niederländischer Halbleiterhersteller. NXP ist der im Jahr 2006 ausgegliederte Halbleiterbereich der Royal Philips. NXP bietet Halbleiter und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "12Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CRWD",
+      "name": "CrowdStrike",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 214.0,
+      "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -592,7 +593,7 @@
       "score": 3,
       "reaction": -13.0,
       "priceEur": 94.54,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -606,7 +607,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -627,7 +628,7 @@
       "score": 1,
       "reaction": -6.5,
       "priceEur": 23.2,
-      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -739,7 +740,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -805,7 +806,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -826,7 +827,7 @@
       "score": 1,
       "reaction": -6.3,
       "priceEur": 101.58,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
