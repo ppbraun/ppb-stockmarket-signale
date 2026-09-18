@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-18T08:50:40.743700+00:00",
+  "generated_at": "2026-09-18T14:10:58.860326+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
-      "vol": 4,
+      "vol": 5,
       "pct": 100
     },
     {
-      "topic": "Schifffahrt / Lieferketten",
-      "vol": 3,
-      "pct": 75
+      "topic": "Energie / Öl & Gas",
+      "vol": 2,
+      "pct": 40
     },
     {
-      "topic": "Energie / Öl & Gas",
+      "topic": "Schifffahrt / Lieferketten",
       "vol": 1,
-      "pct": 25
+      "pct": 20
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 8.9,
-      "priceEur": 293.53,
+      "reaction": 8.2,
+      "priceEur": 292.17,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.3,
-      "priceEur": 1003.78,
+      "reaction": -0.0,
+      "priceEur": 1002.51,
       "description": null,
       "politician": null,
       "track": null,
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.5,
-      "priceEur": 46.11,
+      "reaction": -0.8,
+      "priceEur": 46.05,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 12.6,
-      "priceEur": 137.68,
+      "reaction": 11.1,
+      "priceEur": 136.01,
       "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.7,
-      "priceEur": 24.6,
+      "reaction": -0.2,
+      "priceEur": 24.43,
       "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
@@ -239,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.0,
-      "priceEur": 42.44,
+      "reaction": -2.6,
+      "priceEur": 42.26,
       "description": "Devon Energy Corp. ist ein US-amerikanisches Unternehmen mit Firmensitz in Oklahoma City. Das Unternehmen ist im Aktienindex S&P 500 an der New Yorker Börse gelistet. Devon Energy…",
       "politician": null,
       "track": null,
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -276,8 +276,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.8,
-      "priceEur": 190.69,
+      "reaction": -2.0,
+      "priceEur": 190.64,
       "description": "Republic Services ist ein US-amerikanisches Entsorgungsunternehmen mit Hauptsitz in Phoenix im US-Bundesstaat Arizona. Das Unternehmen führt die Entsorgung von festen und…",
       "politician": null,
       "track": null,
@@ -311,9 +311,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.3,
-      "priceEur": 319.31,
-      "description": null,
+      "reaction": -0.1,
+      "priceEur": 315.43,
+      "description": "Die West Pharmaceutical Services Deutschland GmbH & Co. KG ist ein Unternehmen für pharmazeutische Artikel und Laborzubehör im nordrhein-westfälischen Eschweiler mit über 1000…",
       "politician": null,
       "track": null,
       "sig": {
@@ -327,7 +327,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -346,8 +346,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.5,
-      "priceEur": 46.84,
+      "reaction": -0.1,
+      "priceEur": 47.59,
       "description": null,
       "politician": null,
       "track": null,
@@ -362,7 +362,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -376,119 +376,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "NKE",
-      "name": "Nike, Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 31.67,
-      "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "BAC",
-      "name": "Bank of America",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 50.67,
-      "description": "Die Bank of America Corporation ist eine US-amerikanische Großbank mit Hauptsitz in Charlotte, North Carolina. Das Unternehmen war seit Juli 2006 zeitweise das größte…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "13Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "UBER",
-      "name": "Uber",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 61.73,
-      "description": "Uber steht für:Uber (Unternehmen), Vermittlungsdienst zur Personenbeförderung und Essensauslieferung Uber Cup, Weltmeisterschaft für Damen-Nationalmannschaften im Badminton",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "F",
       "name": "Ford Motor Company",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 11.85,
-      "description": "Die Ford Motor Company mit Sitz im US-amerikanischen Dearborn ist der nach Volkswagen, Toyota, General Motors, Hyundai und Stellantis sechstgrößte Kraftfahrzeughersteller…",
+      "reaction": -2.2,
+      "priceEur": 11.61,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -502,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -521,8 +416,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 198.54,
+      "reaction": -0.3,
+      "priceEur": 198.28,
       "description": "NXP Semiconductors ist ein niederländischer Halbleiterhersteller. NXP ist der im Jahr 2006 ausgegliederte Halbleiterbereich der Royal Philips. NXP bietet Halbleiter und…",
       "politician": null,
       "track": null,
@@ -537,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -556,8 +451,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 214.0,
+      "reaction": -3.7,
+      "priceEur": 206.46,
       "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
       "politician": null,
       "track": null,
@@ -586,14 +481,119 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "CSX",
+      "name": "CSX Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 41.2,
+      "description": "Die CSX Corporation ist ein US-amerikanisches Unternehmen mit Sitz in Jacksonville. Das Unternehmen ist im Aktienindex Nasdaq-100 gelistet.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "16Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "META",
+      "name": "Meta Platforms",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 589.12,
+      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CTAS",
+      "name": "Cintas",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 172.73,
+      "description": "Cintas ist ein US-amerikanisches Unternehmen mit Sitz in Cincinnati, Ohio, das u. a. auf Herstellung und Verkauf von Berufsbekleidung und Uniformen spezialisiert ist. Das…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -13.0,
-      "priceEur": 94.54,
-      "description": null,
+      "reaction": -9.3,
+      "priceEur": 98.65,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -607,7 +607,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -626,9 +626,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -6.5,
-      "priceEur": 23.2,
-      "description": null,
+      "reaction": -5.3,
+      "priceEur": 23.55,
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -658,8 +658,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -10.6,
-      "priceEur": 67.7,
+      "reaction": -8.6,
+      "priceEur": 69.35,
       "description": null,
       "politician": null,
       "track": null,
@@ -693,7 +693,7 @@
       "market": "cn",
       "score": 1,
       "reaction": -13.5,
-      "priceEur": 78.42,
+      "priceEur": 78.59,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -724,8 +724,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -21.3,
-      "priceEur": 3.15,
+      "reaction": -20.4,
+      "priceEur": 3.19,
       "description": null,
       "politician": null,
       "track": null,
@@ -740,7 +740,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "11Std"
         },
         "predict": {
           "active": false
@@ -759,8 +759,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -3.5,
-      "priceEur": 10.43,
+      "reaction": -2.2,
+      "priceEur": 10.59,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -792,8 +792,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -10.0,
-      "priceEur": 35.15,
+      "reaction": -8.7,
+      "priceEur": 35.74,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -806,7 +806,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -825,9 +825,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -6.3,
-      "priceEur": 101.58,
-      "description": null,
+      "reaction": -5.8,
+      "priceEur": 102.27,
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
