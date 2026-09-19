@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T22:23:14.940503+00:00",
+  "generated_at": "2026-09-19T03:24:13.626938+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -75,12 +75,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -110,12 +110,12 @@
         },
         "insider": {
           "active": true,
-          "age": "7T",
+          "age": "8T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -145,12 +145,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -180,7 +180,7 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
@@ -215,12 +215,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -238,7 +238,7 @@
       "name": "Devon Energy",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": -2.3,
       "priceEur": 42.42,
       "description": "Devon Energy Corp. ist ein US-amerikanisches Unternehmen mit Firmensitz in Oklahoma City. Das Unternehmen ist im Aktienindex S&P 500 an der New Yorker Börse gelistet. Devon Energy…",
@@ -250,12 +250,11 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "15Std"
+          "active": false
         },
         "predict": {
           "active": true
@@ -268,7 +267,7 @@
       "ethics": [
         "Fossile Energie"
       ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "RSG",
@@ -287,12 +286,12 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -322,12 +321,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -357,12 +356,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -374,76 +373,6 @@
       "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "HOOD",
-      "name": "Robinhood Markets",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.5,
-      "priceEur": 104.55,
-      "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "TRMB",
-      "name": "Trimble Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.1,
-      "priceEur": 50.23,
-      "description": "Trimble Inc. is an American software, hardware, and services technology company that was founded in 1978. Its headquarters is in Westminster, Colorado. It is publicly traded on…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "5Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "EBAY",
@@ -462,12 +391,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -481,47 +410,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "ORCL",
-      "name": "Oracle Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 128.8,
-      "description": "Oracle Corporation [ˈɔːɹəkl̩ ˌkɔːɹpəˈɹeɪʃn̩] ist ein US-amerikanischer Soft- und Hardwarehersteller mit Hauptsitz in Austin, Texas. Das Unternehmen ist spezialisiert auf die…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "F",
       "name": "Ford Motor Company",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 11.53,
       "description": "Die Ford Motor Company mit Sitz im US-amerikanischen Dearborn ist der nach Volkswagen, Toyota, General Motors, Hyundai und Stellantis sechstgrößte Kraftfahrzeughersteller…",
       "politician": null,
@@ -532,12 +426,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -556,9 +450,78 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 52.24,
       "description": "Cognizant Technology Solutions ist ein US-amerikanischer IT-Dienstleister mit Sitz in Teaneck, New Jersey. Wichtigster Standort ist jedoch Chennai in Indien, wo die Mehrzahl der…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "KDP",
+      "name": "Keurig Dr Pepper",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 27.02,
+      "description": "Keurig Dr Pepper, Inc., bis 2018 Keurig Green Mountain, Inc., ist ein 1981 unter dem Namen Green Mountain Coffee Roasters, Inc (GMCR) gegründeter Hersteller von Spezialkaffee und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "WMT",
+      "name": "Walmart",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 93.13,
+      "description": "Walmart Inc. ist ein weltweit tätiger US-amerikanischer Einzelhandelskonzern, der einen großen Teil des US-Marktes beherrscht. Walmart ist in der Liste Fortune Global 500 auf…",
       "politician": null,
       "track": null,
       "sig": {
@@ -572,7 +535,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -581,7 +544,42 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "XYZ",
+      "name": "Block, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 66.56,
+      "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "11Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -602,12 +600,12 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -640,7 +638,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -658,7 +656,7 @@
       "name": "PDD Holdings (Pinduoduo)",
       "broker": true,
       "market": "cn",
-      "score": 1,
+      "score": 0,
       "reaction": -9.2,
       "priceEur": 68.85,
       "description": null,
@@ -669,9 +667,7 @@
           "active": false
         },
         "insider": {
-          "active": true,
-          "age": "14T",
-          "src": "SEC"
+          "active": false
         },
         "macro": {
           "active": false
@@ -685,7 +681,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
     },
     {
       "tk": "BIDU",
@@ -736,12 +732,12 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -759,7 +755,7 @@
       "name": "Li Auto",
       "broker": true,
       "market": "cn",
-      "score": 1,
+      "score": 0,
       "reaction": -2.2,
       "priceEur": 10.59,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
@@ -773,8 +769,7 @@
           "active": false
         },
         "macro": {
-          "active": true,
-          "age": "11Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -785,7 +780,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
     },
     {
       "tk": "TCOM",
@@ -807,7 +802,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -825,7 +820,7 @@
       "name": "NetEase",
       "broker": true,
       "market": "cn",
-      "score": 1,
+      "score": 0,
       "reaction": -6.6,
       "priceEur": 101.39,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
@@ -836,9 +831,7 @@
           "active": false
         },
         "insider": {
-          "active": true,
-          "age": "14T",
-          "src": "SEC"
+          "active": false
         },
         "macro": {
           "active": false
@@ -852,7 +845,7 @@
       },
       "topic": "Communication Services",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
     }
   ]
 }
