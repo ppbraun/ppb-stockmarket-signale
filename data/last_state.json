@@ -7,7 +7,7 @@
   "Halbleiter / Chips": 0,
   "Energie / Öl & Gas": 1,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 1,
+  "Schifffahrt / Lieferketten": 2,
   "Krypto-Regulierung": 0,
   "Cybersecurity": 0,
   "_tickers": {
@@ -46,16 +46,6 @@
       "baseline_price_usd": 112.445,
       "first_seen": "2026-09-18"
     },
-    "CL": {
-      "score": 2,
-      "baseline_price_usd": 87.47,
-      "first_seen": "2026-09-20"
-    },
-    "VLO": {
-      "score": 2,
-      "baseline_price_usd": 413.28,
-      "first_seen": "2026-09-20"
-    },
     "CSCO": {
       "score": 2,
       "baseline_price_usd": 109.51,
@@ -76,14 +66,24 @@
       "baseline_price_usd": 209.28,
       "first_seen": "2026-09-20"
     },
-    "TPL": {
-      "score": 1,
-      "baseline_price_usd": 352.67,
-      "first_seen": "2026-09-20"
-    },
     "DELL": {
       "score": 2,
       "baseline_price_usd": 568.06,
+      "first_seen": "2026-09-20"
+    },
+    "NVDA": {
+      "score": 2,
+      "baseline_price_usd": 222.27,
+      "first_seen": "2026-09-20"
+    },
+    "KDP": {
+      "score": 2,
+      "baseline_price_usd": 30.96,
+      "first_seen": "2026-09-20"
+    },
+    "WSM": {
+      "score": 2,
+      "baseline_price_usd": 224.2,
       "first_seen": "2026-09-20"
     },
     "BABA": {
@@ -127,6 +127,8 @@
       "first_seen": "2026-08-18"
     }
   },
-  "_pending_weekend_alerts": [],
+  "_pending_weekend_alerts": [
+    "🟢 <b>Schifffahrt / Lieferketten</b>: 2 Erwähnungen (zuletzt 1)\n   — Ocean container shipping rates could test record highs as Iran war fuel spike drives rise, analysts… (Reuters)\n   — Italy readies navy to protect its shipping amid Bab el-Mandeb tensions - Reuters (Reuters)"
+  ],
   "_last_weekly_summary_date": "2026-09-14"
 }
