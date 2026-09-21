@@ -1,11 +1,11 @@
 {
   "Zölle / Handelskonflikt": 1,
-  "Fed-Zinspolitik": 4,
+  "Fed-Zinspolitik": 3,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 0,
   "Halbleiter / Chips": 0,
-  "Energie / Öl & Gas": 1,
+  "Energie / Öl & Gas": 2,
   "Gesundheit / FDA-Zulassungen": 0,
   "Schifffahrt / Lieferketten": 2,
   "Krypto-Regulierung": 0,
@@ -56,21 +56,6 @@
       "baseline_price_usd": 30.96,
       "first_seen": "2026-09-20"
     },
-    "WSM": {
-      "score": 1,
-      "baseline_price_usd": 224.2,
-      "first_seen": "2026-09-20"
-    },
-    "TFC": {
-      "score": 1,
-      "baseline_price_usd": 48.56,
-      "first_seen": "2026-09-20"
-    },
-    "VLO": {
-      "score": 1,
-      "baseline_price_usd": 413.28,
-      "first_seen": "2026-09-20"
-    },
     "GD": {
       "score": 1,
       "baseline_price_usd": 353.05,
@@ -84,6 +69,21 @@
     "IEX": {
       "score": 2,
       "baseline_price_usd": 223.72,
+      "first_seen": "2026-09-21"
+    },
+    "BBY": {
+      "score": 1,
+      "baseline_price_usd": 92.85,
+      "first_seen": "2026-09-21"
+    },
+    "AFL": {
+      "score": 1,
+      "baseline_price_usd": 116.33,
+      "first_seen": "2026-09-21"
+    },
+    "FISV": {
+      "score": 1,
+      "baseline_price_usd": 47.19,
       "first_seen": "2026-09-21"
     },
     "BABA": {
@@ -117,7 +117,7 @@
       "first_seen": "2026-08-18"
     },
     "TCOM": {
-      "score": 0,
+      "score": 1,
       "baseline_price_usd": 44.85,
       "first_seen": "2026-08-18"
     },
@@ -127,8 +127,6 @@
       "first_seen": "2026-08-18"
     }
   },
-  "_pending_weekend_alerts": [
-    "🟢 <b>Schifffahrt / Lieferketten</b>: 2 Erwähnungen (zuletzt 1)\n   — Ocean container shipping rates could test record highs as Iran war fuel spike drives rise, analysts… (Reuters)\n   — Italy readies navy to protect its shipping amid Bab el-Mandeb tensions - Reuters (Reuters)"
-  ],
-  "_last_weekly_summary_date": "2026-09-14"
+  "_pending_weekend_alerts": [],
+  "_last_weekly_summary_date": "2026-09-21"
 }

@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-21T03:35:55.047967+00:00",
+  "generated_at": "2026-09-21T09:41:23.974402+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
-      "vol": 4,
+      "vol": 3,
       "pct": 100
+    },
+    {
+      "topic": "Energie / Öl & Gas",
+      "vol": 2,
+      "pct": 67
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 2,
-      "pct": 50
+      "pct": 67
     },
     {
       "topic": "Zölle / Handelskonflikt",
       "vol": 1,
-      "pct": 25
-    },
-    {
-      "topic": "Energie / Öl & Gas",
-      "vol": 1,
-      "pct": 25
+      "pct": 33
     },
     {
       "topic": "Edelmetalle / Goldminen",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -170,7 +170,7 @@
       "score": 3,
       "reaction": 9.8,
       "priceEur": 134.42,
-      "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -184,7 +184,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -205,7 +205,7 @@
       "score": 3,
       "reaction": -0.9,
       "priceEur": 24.26,
-      "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -219,7 +219,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -308,7 +308,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 193.95,
-      "description": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on…",
+      "description": "Die Nvidia Corporation ist ein US-amerikanisches Unternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -343,7 +343,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 27.02,
-      "description": null,
+      "description": "Keurig Dr Pepper, Inc., bis 2018 Keurig Green Mountain, Inc., ist ein 1981 unter dem Namen Green Mountain Coffee Roasters, Inc (GMCR) gegründeter Hersteller von Spezialkaffee und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -370,116 +370,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "WSM",
-      "name": "Williams-Sonoma, Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 195.64,
-      "description": "Williams-Sonoma, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in San Francisco, das spezielle Kochutensilien und andere Haushaltswaren sowie eine Auswahl an Lebensmittel,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "TFC",
-      "name": "Truist Financial",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 42.37,
-      "description": "Truist Financial ist ein US-amerikanisches Unternehmen mit Firmensitz in Charlotte, North Carolina.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "VLO",
-      "name": "Valero Energy",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 360.63,
-      "description": "Die Valero Energy Corporation ist ein US-amerikanisches Mineralölunternehmen mit Hauptsitz in San Antonio, Texas.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "GD",
       "name": "General Dynamics",
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 308.07,
       "description": "General Dynamics (GD) ist ein US-amerikanischer Rüstungskonzern. Das Unternehmen ist an der New York Stock Exchange mit dem Kürzel GD gelistet. CEO ist Phebe Novakovic.",
       "politician": null,
@@ -513,7 +409,7 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 95.56,
       "description": "Cisco Systems, Inc. ist ein US-amerikanisches Unternehmen aus der Telekommunikationsbranche. Bekannt ist es vor allem für seine Router und Switches, die von einem wesentlichen…",
       "politician": null,
@@ -547,9 +443,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 195.22,
-      "description": "Die IDEX Corporation mit Sitz in Northbrook (Illinois) ist ein 1988 gegründetes US-amerikanisches börsennotiertes Unternehmen, das sich mit der Entwicklung, Konstruktion und…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -576,6 +472,108 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
+      "tk": "BBY",
+      "name": "Best Buy",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 81.02,
+      "description": "Best Buy Co., Inc. is an American multinational consumer electronics retailer headquartered in Richfield, Minnesota. Originally founded by Richard M. Schulze and James Wheeler in…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "AFL",
+      "name": "Aflac",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 101.51,
+      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "FISV",
+      "name": "Fiserv",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 41.18,
+      "description": "Fiserv, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in Brookfield, Wisconsin. Fiserv bietet Zahlungsverkehrs-Dienstleistungen und Software für Banken, die Finanz- und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -583,7 +581,7 @@
       "score": 2,
       "reaction": -9.2,
       "priceEur": 98.81,
-      "description": null,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -617,7 +615,7 @@
       "score": 1,
       "reaction": -5.5,
       "priceEur": 23.49,
-      "description": null,
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -776,7 +774,7 @@
       "name": "Trip.com Group",
       "broker": true,
       "market": "cn",
-      "score": 0,
+      "score": 1,
       "reaction": -9.3,
       "priceEur": 35.5,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
@@ -790,7 +788,8 @@
           "active": false
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -801,7 +800,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
+      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "NTES",
