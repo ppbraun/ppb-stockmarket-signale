@@ -1,20 +1,25 @@
 {
-  "generated_at": "2026-09-22T18:01:01.782930+00:00",
+  "generated_at": "2026-09-22T21:10:58.201312+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 4,
+      "vol": 3,
       "pct": 100
-    },
-    {
-      "topic": "Fed-Zinspolitik",
-      "vol": 2,
-      "pct": 50
     },
     {
       "topic": "Zölle / Handelskonflikt",
       "vol": 1,
-      "pct": 25
+      "pct": 33
+    },
+    {
+      "topic": "Fed-Zinspolitik",
+      "vol": 1,
+      "pct": 33
+    },
+    {
+      "topic": "Halbleiter / Chips",
+      "vol": 1,
+      "pct": 33
     },
     {
       "topic": "Edelmetalle / Goldminen",
@@ -28,11 +33,6 @@
     },
     {
       "topic": "KI-Infrastruktur",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "Halbleiter / Chips",
       "vol": 0,
       "pct": 0
     },
@@ -64,9 +64,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 10.2,
-      "priceEur": 297.33,
-      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
+      "reaction": 9.8,
+      "priceEur": 296.39,
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.0,
-      "priceEur": 1022.48,
+      "reaction": 1.8,
+      "priceEur": 1020.8,
       "description": null,
       "politician": null,
       "track": null,
@@ -110,12 +110,12 @@
         },
         "insider": {
           "active": true,
-          "age": "11T",
+          "age": "1Std",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.8,
-      "priceEur": 46.74,
+      "reaction": -0.5,
+      "priceEur": 46.14,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -170,7 +170,7 @@
       "market": "us",
       "score": 3,
       "reaction": 30.1,
-      "priceEur": 159.33,
+      "priceEur": 159.26,
       "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 9.9,
-      "priceEur": 26.87,
+      "reaction": 10.0,
+      "priceEur": 26.9,
       "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -239,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.0,
-      "priceEur": 48.13,
+      "reaction": 1.2,
+      "priceEur": 48.23,
       "description": null,
       "politician": null,
       "track": null,
@@ -269,118 +269,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "CL",
-      "name": "Colgate-Palmolive",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.9,
-      "priceEur": 75.93,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "GNRC",
-      "name": "Generac",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 1.1,
-      "priceEur": 180.74,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "WDC",
-      "name": "Western Digital",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 2.1,
-      "priceEur": 399.1,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "LEN",
       "name": "Lennar",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": 6.4,
-      "priceEur": 72.45,
+      "priceEur": 72.46,
       "description": "Lennar ist ein US-amerikanisches Bauunternehmen, das sich auf den Bau von privaten Eigenheimen spezialisiert hat.",
       "politician": null,
       "track": null,
@@ -395,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -430,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -449,9 +344,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.5,
-      "priceEur": 28.64,
-      "description": "Rollins, Inc. is a North American pest control company serving residential and commercial clients. Operating globally through its wholly owned subsidiaries, the company provides…",
+      "reaction": 1.6,
+      "priceEur": 28.67,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -483,9 +378,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 1645.46,
-      "description": "SanDisk ist ein multinationales Unternehmen mit Sitz in Milpitas, Kalifornien, das Flash-Speicher-Produkte wie Speicherkarten, USB-Sticks und Solid-State-Drives herstellt. 2016…",
+      "reaction": 0.0,
+      "priceEur": 1646.2,
+      "description": "Sandisk Corporation is an American multinational computer semiconductor company based in Milpitas, California.",
       "politician": null,
       "track": null,
       "sig": {
@@ -499,7 +394,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -518,8 +413,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 325.92,
+      "reaction": 0.3,
+      "priceEur": 326.76,
       "description": "Palo Alto Networks, Inc. ist ein amerikanisches multinationales IT-Sicherheitsunternehmen mit Hauptsitz in Santa Clara, Kalifornien. Seine Kernprodukte sind eine Plattform, die…",
       "politician": null,
       "track": null,
@@ -529,12 +424,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "1Std",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -553,9 +448,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 235.77,
-      "description": null,
+      "reaction": 0.4,
+      "priceEur": 236.77,
+      "description": "Die Texas Instruments Incorporated, häufig auch als TI bezeichnet, ist eines der größten US-amerikanischen Technologieunternehmen mit Sitz in Dallas, Texas. Der europäische…",
       "politician": null,
       "track": null,
       "sig": {
@@ -569,7 +464,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -583,13 +478,117 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "HSY",
+      "name": "Hershey Company (The)",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 146.96,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "WDAY",
+      "name": "Workday, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 164.21,
+      "description": "Workday, Inc., is an American cloud-based provider of financial management, human capital management, and student information system software. The company was founded by former…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PLD",
+      "name": "Prologis",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 118.54,
+      "description": "Prologis, Inc. ist ein börsennotiertes Immobilienunternehmen in der Rechtsform eines Real Estate Investment Trusts (REIT) und ist als globaler Eigentümer, Betreiber und Entwickler…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Real Estate",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -6.6,
-      "priceEur": 101.67,
+      "reaction": -6.7,
+      "priceEur": 101.47,
       "description": null,
       "politician": null,
       "track": null,
@@ -604,7 +603,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -623,8 +622,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -3.8,
-      "priceEur": 23.92,
+      "reaction": -3.9,
+      "priceEur": 23.89,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -655,8 +654,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -7.9,
-      "priceEur": 69.82,
+      "reaction": -7.6,
+      "priceEur": 70.09,
       "description": null,
       "politician": null,
       "track": null,
@@ -669,7 +668,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -688,8 +687,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -11.3,
-      "priceEur": 80.55,
+      "reaction": -11.2,
+      "priceEur": 80.63,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -720,8 +719,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -19.2,
-      "priceEur": 3.24,
+      "reaction": -19.1,
+      "priceEur": 3.25,
       "description": null,
       "politician": null,
       "track": null,
@@ -754,9 +753,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -5.9,
-      "priceEur": 10.18,
-      "description": null,
+      "reaction": -6.0,
+      "priceEur": 10.17,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -787,8 +786,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -9.0,
-      "priceEur": 35.6,
+      "reaction": -8.9,
+      "priceEur": 35.64,
       "description": null,
       "politician": null,
       "track": null,
@@ -819,8 +818,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -4.7,
-      "priceEur": 103.4,
+      "reaction": -4.5,
+      "priceEur": 103.6,
       "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
