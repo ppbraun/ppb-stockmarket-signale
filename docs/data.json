@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-22T00:39:57.694775+00:00",
+  "generated_at": "2026-09-22T07:25:23.908057+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 3,
+      "vol": 4,
       "pct": 100
     },
     {
       "topic": "Zölle / Handelskonflikt",
-      "vol": 1,
-      "pct": 33
+      "vol": 2,
+      "pct": 50
     },
     {
       "topic": "Fed-Zinspolitik",
-      "vol": 1,
-      "pct": 33
+      "vol": 0,
+      "pct": 0
     },
     {
       "topic": "Edelmetalle / Goldminen",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": 9.6,
       "priceEur": 295.02,
-      "description": null,
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -310,7 +310,7 @@
       "score": 2,
       "reaction": -0.3,
       "priceEur": 197.7,
-      "description": null,
+      "description": "Williams-Sonoma, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in San Francisco, das spezielle Kochutensilien und andere Haushaltswaren sowie eine Auswahl an Lebensmittel,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -324,7 +324,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -345,7 +345,7 @@
       "score": 2,
       "reaction": 0.7,
       "priceEur": 217.16,
-      "description": null,
+      "description": "Adobe Inc. [əˈdoʊbiː] ist ein US-amerikanisches Softwareunternehmen, registriert im Bundesstaat Delaware. Es wurde 1982 von John Warnock und Charles Geschke, den Erfindern der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -359,7 +359,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "0Std"
         },
         "predict": {
           "active": false
@@ -394,7 +394,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -429,7 +429,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -443,116 +443,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "KKR",
-      "name": "KKR & Co.",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 87.75,
-      "description": "KKR & Co. Inc. mit Sitz in New York City ist eine börsennotierte Beteiligungsgesellschaft. Gegründet wurde KKR 1976 von Jerome Kohlberg, Jr., Henry Kravis und George R. Roberts.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "BX",
-      "name": "Blackstone Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 110.02,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "FISV",
-      "name": "Fiserv",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 40.44,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "GNRC",
       "name": "Generac",
       "broker": true,
       "market": "us",
-      "score": 1,
-      "reaction": null,
+      "score": 2,
+      "reaction": 0.0,
       "priceEur": 178.38,
-      "description": "Generac Holdings Inc., commonly referred to as Generac, is an American manufacturer of backup power generation products for residential, light commercial, and industrial markets.…",
+      "description": "Générac ist der Name zweier französischer GemeindenGénérac (Gard) in der Region Okzitanien Générac (Gironde) in der Region Nouvelle-Aquitaine",
       "politician": null,
       "track": null,
       "sig": {
@@ -565,7 +463,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -576,17 +475,120 @@
       },
       "topic": "Industrials",
       "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "AFL",
+      "name": "Aflac",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 100.24,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "BBY",
+      "name": "Best Buy",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 81.13,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "WDC",
+      "name": "Western Digital",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 390.05,
+      "description": "Western Digital Corporation ist ein US-amerikanischer Hersteller von Festplattenlaufwerken und Speicherprodukten mit Hauptsitz in San José (Kalifornien).",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "6Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
-      "score": 2,
+      "score": 3,
       "reaction": -7.2,
       "priceEur": 100.74,
-      "description": null,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -599,7 +601,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -610,7 +613,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "JD",
@@ -747,7 +750,7 @@
       "name": "Li Auto",
       "broker": true,
       "market": "cn",
-      "score": 0,
+      "score": 1,
       "reaction": -7.2,
       "priceEur": 10.03,
       "description": null,
@@ -761,7 +764,8 @@
           "active": false
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -772,7 +776,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
+      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "TCOM",
@@ -782,7 +786,7 @@
       "score": 0,
       "reaction": -9.4,
       "priceEur": 35.38,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -814,7 +818,7 @@
       "score": 0,
       "reaction": -5.6,
       "priceEur": 102.24,
-      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
