@@ -5,9 +5,9 @@
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 0,
   "Halbleiter / Chips": 1,
-  "Energie / Öl & Gas": 6,
+  "Energie / Öl & Gas": 4,
   "Gesundheit / FDA-Zulassungen": 0,
-  "Schifffahrt / Lieferketten": 0,
+  "Schifffahrt / Lieferketten": 1,
   "Krypto-Regulierung": 0,
   "Cybersecurity": 0,
   "_tickers": {
@@ -41,11 +41,6 @@
       "baseline_price_usd": 54.61,
       "first_seen": "2026-09-17"
     },
-    "PANW": {
-      "score": 2,
-      "baseline_price_usd": 373.605,
-      "first_seen": "2026-09-22"
-    },
     "TXN": {
       "score": 2,
       "baseline_price_usd": 270.26,
@@ -71,19 +66,24 @@
       "baseline_price_usd": 464.6,
       "first_seen": "2026-09-23"
     },
-    "HSY": {
-      "score": 1,
-      "baseline_price_usd": 168.46,
-      "first_seen": "2026-09-23"
-    },
-    "TPL": {
-      "score": 1,
-      "baseline_price_usd": 355.24,
-      "first_seen": "2026-09-23"
-    },
     "AFL": {
       "score": 2,
       "baseline_price_usd": 114.6,
+      "first_seen": "2026-09-23"
+    },
+    "STX": {
+      "score": 2,
+      "baseline_price_usd": 919.84,
+      "first_seen": "2026-09-23"
+    },
+    "P": {
+      "score": 1,
+      "baseline_price_usd": 110.89,
+      "first_seen": "2026-09-23"
+    },
+    "CIEN": {
+      "score": 2,
+      "baseline_price_usd": 368.56,
       "first_seen": "2026-09-23"
     },
     "BABA": {
@@ -92,7 +92,7 @@
       "first_seen": "2026-08-18"
     },
     "JD": {
-      "score": 1,
+      "score": 2,
       "baseline_price_usd": 28.5,
       "first_seen": "2026-08-18"
     },
