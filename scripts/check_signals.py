@@ -56,6 +56,7 @@ REDDIT_USER_AGENT = "ppb-stockmarket-signale/1.0 (personal dashboard)"
 
 WATCHLIST_SIZE = 15            # aktiv verfolgte US-Titel (persistent, nicht jeden Tag neu gewürfelt)
 ROTATION_PER_RUN = 3           # max. Plätze pro Lauf, die an frische Kandidaten abgegeben werden
+TICKER_ALERT_MIN_SCORE = 3     # ab diesem Score (von 5) wird ein Ticker ueberhaupt per Telegram gemeldet
 
 # ---------------------------------------------------------------------------
 # Ruhezeit: Freitag 21 Uhr bis Montag 7:30 Uhr (lokale Zeit) keine einzelnen
@@ -1159,7 +1160,9 @@ def net_direction_label(ticker_result):
 def diff_ticker_alerts(old_tickers_state, new_tickers):
     """Vergleicht die aktuelle Ticker-Liste mit der letzten und meldet
     neue Treffer, gestiegene/gesunkene Scores sowie Watchlist-Abgänge
-    fuer Telegram."""
+    fuer Telegram. Unterhalb von TICKER_ALERT_MIN_SCORE wird nicht
+    gemeldet — diese Titel bleiben trotzdem intern auf der Watchlist und
+    tauchen im Dashboard auf, nur eben ohne Telegram-Rauschen."""
     alerts = []
     seen_tks = set()
 
@@ -1168,19 +1171,23 @@ def diff_ticker_alerts(old_tickers_state, new_tickers):
         seen_tks.add(tk)
         new_score = t.get("score", 0)
         prev = old_tickers_state.get(tk)
+        prev_score = prev.get("score", 0) if prev else 0
         direction = net_direction_label(t)
         dir_suffix = f" · {direction}" if direction else ""
 
         if prev is None:
-            alerts.append(f"🆕 <b>{tk}</b> ({t['name']}) neu in der Liste — Score {new_score}/5{dir_suffix}")
-        elif new_score > prev.get("score", 0):
-            alerts.append(f"📈 <b>{tk}</b> relevanter geworden: Score {prev.get('score', 0)} → {new_score}{dir_suffix}")
-        elif new_score < prev.get("score", 0):
-            alerts.append(f"📉 <b>{tk}</b> weniger relevant: Score {prev.get('score', 0)} → {new_score}")
+            if new_score >= TICKER_ALERT_MIN_SCORE:
+                alerts.append(f"🆕 <b>{tk}</b> ({t['name']}) neu in der Liste — Score {new_score}/5{dir_suffix}")
+        elif new_score > prev_score:
+            if new_score >= TICKER_ALERT_MIN_SCORE:
+                alerts.append(f"📈 <b>{tk}</b> relevanter geworden: Score {prev_score} → {new_score}{dir_suffix}")
+        elif new_score < prev_score:
+            if prev_score >= TICKER_ALERT_MIN_SCORE:
+                alerts.append(f"📉 <b>{tk}</b> weniger relevant: Score {prev_score} → {new_score}")
 
     # Titel, die vorher verfolgt wurden, jetzt aber aus der Watchlist rotiert sind
     for tk in old_tickers_state:
-        if tk not in seen_tks:
+        if tk not in seen_tks and old_tickers_state[tk].get("score", 0) >= TICKER_ALERT_MIN_SCORE:
             alerts.append(f"➖ <b>{tk}</b> aus der Watchlist rotiert (Score war zu niedrig)")
 
     return alerts
