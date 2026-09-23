@@ -23,6 +23,7 @@ Nutzt nur die Python-Standardbibliothek — kein pip install noetig.
 
 import os
 import re
+import html as html_module
 import csv
 import io
 import json
@@ -161,6 +162,15 @@ PORTFOLIO_ALERT_KEYWORDS = [
 # ---------------------------------------------------------------------------
 # HTTP-Hilfsfunktionen
 # ---------------------------------------------------------------------------
+
+def tg_escape(text):
+    """Escaped &, < und > fuer Telegrams parse_mode=HTML. Ohne das bricht
+    ein einziger nicht escapter Titel (z. B. "AT&T", "Rating <5%") den
+    KOMPLETTEN Nachrichtenversand mit HTTP 400 ab — deshalb auf jeden
+    extern eingelesenen Text (News-Titel, Quellen, Firmennamen) anwenden,
+    bevor er in eine <b>...</b>-Nachricht eingebaut wird."""
+    return html_module.escape(str(text or ""), quote=False)
+
 
 def http_get_json(url, headers=None):
     req = urllib.request.Request(url, headers=headers or {"User-Agent": "ppb-stockmarket-signale/1.0"})
@@ -743,8 +753,8 @@ def check_portfolio_news(old_state):
         ]
 
         for it in relevant_new[:PORTFOLIO_NEWS_ALERT_CAP]:
-            src = f" ({it['source']})" if it["source"] else ""
-            alerts.append(f"{PORTFOLIO_ALERT_PREFIX} <b>{display}</b>: {it['title']}{src}")
+            src = f" ({tg_escape(it['source'])})" if it["source"] else ""
+            alerts.append(f"{PORTFOLIO_ALERT_PREFIX} <b>{tg_escape(display)}</b>: {tg_escape(it['title'])}{src}")
 
         all_guids = [it["guid"] for it in items]
         # Neu gesehene zuerst, danach alte auffuellen — Cap haelt den Zustand klein.
@@ -844,7 +854,7 @@ def check_topics(finnhub_key):
                 if len(headline) > 100:
                     headline = headline[:100].rsplit(" ", 1)[0] + "…"
                 source = (a.get("source") or "").strip()
-                headline_lines.append(f"   — {headline}" + (f" ({source})" if source else ""))
+                headline_lines.append(f"   — {tg_escape(headline)}" + (f" ({tg_escape(source)})" if source else ""))
             detail = ("\n" + "\n".join(headline_lines)) if headline_lines else ""
             alerts.append(f"🟢 <b>{topic}</b>: {count} Erwähnungen (zuletzt {old_count}){detail}")
 
@@ -1177,7 +1187,7 @@ def diff_ticker_alerts(old_tickers_state, new_tickers):
 
         if prev is None:
             if new_score >= TICKER_ALERT_MIN_SCORE:
-                alerts.append(f"🆕 <b>{tk}</b> ({t['name']}) neu in der Liste — Score {new_score}/5{dir_suffix}")
+                alerts.append(f"🆕 <b>{tk}</b> ({tg_escape(t['name'])}) neu in der Liste — Score {new_score}/5{dir_suffix}")
         elif new_score > prev_score:
             if new_score >= TICKER_ALERT_MIN_SCORE:
                 alerts.append(f"📈 <b>{tk}</b> relevanter geworden: Score {prev_score} → {new_score}{dir_suffix}")
