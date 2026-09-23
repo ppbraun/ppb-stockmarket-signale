@@ -82,6 +82,21 @@ def is_quiet_period(now):
         return True
     return False
 
+# ---------------------------------------------------------------------------
+# Aktives Zeitfenster: nur 7–21 Uhr (lokal) wird ueberhaupt gecrawlt — nachts
+# (21–7 Uhr) macht der Lauf GAR NICHTS, nicht mal Datenabruf, um API-Last
+# (v. a. bei Google News fuers Portfolio-Screening) nicht unnoetig zu erhoehen.
+# Der Cron-Trigger in der Workflow-Datei deckt in UTC das weiteste moegliche
+# Fenster ab (Winter- UND Sommerzeit) — die eigentliche, DST-sichere
+# Entscheidung faellt hier anhand von LOCAL_TZ.
+# ---------------------------------------------------------------------------
+ACTIVE_START_HOUR = 7    # Lauf ab 7:00 Uhr lokal
+ACTIVE_END_HOUR = 21     # letzter Lauf 20:30 Uhr lokal, ab 21:00 Uhr Pause
+
+
+def is_active_window(now):
+    return ACTIVE_START_HOUR <= now.hour < ACTIVE_END_HOUR
+
 MACRO_ARTICLE_THRESHOLD = 3    # Firmennews (Finnhub) in den letzten 2 Tagen, ab der "Makro aktiv" gilt
 INSIDER_LOOKBACK_DAYS = 14
 CONGRESS_LOOKBACK_DAYS = 60     # grosszuegig, weil PTR-Meldungen bis zu 45 Tage verspaetet ankommen koennen
@@ -1204,6 +1219,13 @@ def diff_ticker_alerts(old_tickers_state, new_tickers):
 
 
 def main():
+    now_local = datetime.datetime.now(LOCAL_TZ)
+    if not is_active_window(now_local):
+        print(f"Lokale Zeit ({LOCAL_TZ.key}): {now_local.strftime('%A %Y-%m-%d %H:%M')} — "
+              f"außerhalb der aktiven Zeit ({ACTIVE_START_HOUR}–{ACTIVE_END_HOUR} Uhr). "
+              f"Lauf wird komplett übersprungen (kein Datenabruf).")
+        return
+
     finnhub_key = os.environ.get("FINNHUB_API_KEY")
     if not finnhub_key:
         print("Kein FINNHUB_API_KEY gesetzt — Makro-Signale (Themen + pro Ticker) bleiben leer.")
@@ -1220,7 +1242,6 @@ def main():
         pending_alerts = []
     last_summary_date = old_state.get("_last_weekly_summary_date")
 
-    now_local = datetime.datetime.now(LOCAL_TZ)
     quiet = is_quiet_period(now_local)
     today_local_str = now_local.date().isoformat()
     is_monday = now_local.weekday() == QUIET_END_WEEKDAY
