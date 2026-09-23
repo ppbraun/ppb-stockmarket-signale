@@ -34,6 +34,7 @@ import urllib.parse
 import urllib.request
 import urllib.error
 from zoneinfo import ZoneInfo
+import xml.etree.ElementTree as ET
 
 FINNHUB_BASE = "https://finnhub.io/api/v1"
 SEC_TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"
@@ -104,9 +105,8 @@ TOPICS = {
     "Krypto-Regulierung": ["crypto regulation", "cryptocurrency regulation"],
     "Cybersecurity": ["cybersecurity", "cyberattack", "data breach"],
 }
-THRESHOLD_COUNT = 10          # Erwaehnungen unter den Marktnachrichten, ab der ein Thema "auffaellig" ist
-THRESHOLD_JUMP_PCT = 100      # Sprung-Trigger: erst bei Verdopplung, nicht schon bei +50%
-MIN_SCORE_FOR_TICKER_ALERT = 3   # nur Score >= 3 loest eine sofortige Ticker-Meldung aus
+THRESHOLD_COUNT = 5           # Erwaehnungen unter den Marktnachrichten, ab der ein Thema "auffaellig" ist
+THRESHOLD_JUMP_PCT = 50
 
 # SIC-Code-Praefixe -> ethische Kennzeichnung (heuristisch, nicht abschliessend)
 SIC_ETHICS_MAP = {
@@ -118,6 +118,43 @@ SIC_ETHICS_MAP = {
     "211": "Tabak",         # Cigarettes
     "799": "Glücksspiel",   # Services-Amusement/Gambling (grob)
 }
+
+# ---------------------------------------------------------------------------
+# Portfolio-News-Screening (Google News RSS) — eigene Depotwerte
+# Unabhaengig vom Boersenplatz (anders als Finnhub company-news, das nur
+# US-notierte Ticker abdeckt). Kein API-Key noetig. Die Depot-Liste selbst
+# kommt bewusst NICHT aus dem Code, sondern aus dem Secret PORTFOLIO_JSON,
+# weil docs/data.json oeffentlich auf GitHub Pages liegt.
+# ---------------------------------------------------------------------------
+PORTFOLIO_NEWS_SEEN_CAP = 50   # so viele GUIDs pro Titel werden im Zustand gemerkt
+PORTFOLIO_NEWS_MAX_ITEMS = 10  # RSS-Treffer pro Abfrage
+PORTFOLIO_NEWS_ALERT_CAP = 3   # max. neue Meldungen pro Titel und Lauf (gegen Spam)
+
+# Eindeutiges Praefix, an dem Depot-Alarme erkannt und in der Telegram-
+# Nachricht von allgemeinen Markt-/Themen-Auffaelligkeiten abgesetzt werden.
+PORTFOLIO_ALERT_PREFIX = "🚨💼"
+
+# Bilinguale Stichwortliste: Rating/Kursziel, Verkaeufe/Beteiligungsabbau,
+# sonstige positionsrelevante Ereignisse.
+PORTFOLIO_ALERT_KEYWORDS = [
+    # Rating / Kursziel
+    "kursziel", "hochstufung", "herabstufung", "einstufung", "rating",
+    "empfehlung", "overweight", "underweight", "upgrade", "downgrade",
+    "buy rating", "sell rating", "hold rating", "price target",
+    # Verkaeufe / Beteiligungsabbau
+    "verkauf", "veräußert", "veraeussert", "abstoßen", "abstossen",
+    "beteiligung verkauft", "anteile verkauft", "trennt sich von",
+    "insider sale", "insider selling", "stake sale", "sells stake",
+    "reduces stake", "cuts stake",
+    # Sonstige positionsrelevante Ereignisse
+    "gewinnwarnung", "profit warning", "rückruf", "rueckruf", "recall",
+    "übernahme", "uebernahme", "acquisition", "takeover", "merger",
+    "delisting", "insolvenz", "bankruptcy", "chapter 11",
+    "kapitalerhöhung", "kapitalerhoehung", "squeeze-out", "squeeze out",
+    "klage", "lawsuit", "untersuchung", "investigation", "strafanzeige",
+    "sec investigation", "gewinneinbruch", "prognose gesenkt",
+    "guidance cut", "outlook cut",
+]
 
 
 # ---------------------------------------------------------------------------
@@ -604,6 +641,137 @@ def classify_ethics(sic_code):
 
 
 # ---------------------------------------------------------------------------
+# Portfolio-News-Screening (Google News RSS) — eigene Depotwerte
+# ---------------------------------------------------------------------------
+
+def load_portfolio_holdings():
+    """Liest die Depot-Liste aus dem Secret PORTFOLIO_JSON.
+    Erwartetes Format: Liste von Objekten
+      {"tk": "APPLE", "display": "Apple", "query": "Apple Aktie"}
+    "tk" ist ein interner Schluessel fuer den Zustand (muss nicht der
+    Börsenticker sein, sollte aber pro Position eindeutig sein). Optional
+    "keywords": zusaetzliche Trigger-Woerter fuer Sonderfaelle (z. B.
+    SpaceX, wo Rating-/Verkaufs-Stichwoerter allein zu wenig abdecken)."""
+    raw = os.environ.get("PORTFOLIO_JSON")
+    if not raw:
+        print("Kein PORTFOLIO_JSON gesetzt — Portfolio-News-Screening wird übersprungen.")
+        return []
+    try:
+        data = json.loads(raw)
+        if not isinstance(data, list):
+            raise ValueError("erwartete JSON-Liste")
+        return data
+    except Exception as e:
+        print(f"PORTFOLIO_JSON konnte nicht gelesen werden: {e}")
+        return []
+
+
+def fetch_google_news(query, lang="de", country="DE", max_items=PORTFOLIO_NEWS_MAX_ITEMS):
+    ceid = f"{country}:{lang}"
+    url = ("https://news.google.com/rss/search?q=" + urllib.parse.quote(query)
+           + f"&hl={lang}&gl={country}&ceid={ceid}")
+    try:
+        text = http_get_text(url, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; ppb-stockmarket-signale/1.0)"
+        })
+    except Exception as e:
+        print(f"  Google-News-Abfrage fehlgeschlagen ({query}): {e}")
+        return []
+
+    try:
+        root = ET.fromstring(text)
+    except ET.ParseError as e:
+        print(f"  Google-News-Antwort nicht parsebar ({query}): {e}")
+        return []
+
+    items = []
+    for item in root.findall(".//item")[:max_items]:
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub_date = (item.findtext("pubDate") or "").strip()
+        guid = (item.findtext("guid") or link or title).strip()
+        source_el = item.find("source")
+        source = (source_el.text or "").strip() if source_el is not None else ""
+        if title:
+            items.append({
+                "title": title, "link": link, "pub_date": pub_date,
+                "guid": guid, "source": source,
+            })
+    return items
+
+
+def is_relevant_portfolio_news(title, extra_keywords=None):
+    """extra_keywords erlaubt pro Position zusaetzliche Trigger-Woerter,
+    z. B. bei SpaceX ("Starship", "Börsengang")."""
+    t = title.lower()
+    keywords = PORTFOLIO_ALERT_KEYWORDS + list(extra_keywords or [])
+    return any(kw in t for kw in keywords)
+
+
+def check_portfolio_news(old_state):
+    """Screent alle Depotwerte auf positionsrelevante News und liefert
+    (alerts, new_seen_state) zurueck. new_seen_state gehoert unter
+    state["_portfolio_news_seen"] gespeichert."""
+    holdings = load_portfolio_holdings()
+    if not holdings:
+        return [], old_state.get("_portfolio_news_seen", {})
+
+    old_seen = old_state.get("_portfolio_news_seen", {})
+    if not isinstance(old_seen, dict):
+        old_seen = {}
+
+    new_seen = {}
+    alerts = []
+
+    for holding in holdings:
+        tk = holding.get("tk")
+        display = holding.get("display", tk)
+        query = holding.get("query", display)
+        if not tk or not query:
+            continue
+
+        print(f"Prüfe Depot-News: {display} ...")
+        items = fetch_google_news(query)
+        known_guids = set(old_seen.get(tk, []))
+        extra_keywords = holding.get("keywords") or []
+
+        relevant_new = [
+            it for it in items
+            if it["guid"] not in known_guids
+            and is_relevant_portfolio_news(it["title"], extra_keywords)
+        ]
+
+        for it in relevant_new[:PORTFOLIO_NEWS_ALERT_CAP]:
+            src = f" ({it['source']})" if it["source"] else ""
+            alerts.append(f"{PORTFOLIO_ALERT_PREFIX} <b>{display}</b>: {it['title']}{src}")
+
+        all_guids = [it["guid"] for it in items]
+        # Neu gesehene zuerst, danach alte auffuellen — Cap haelt den Zustand klein.
+        merged = all_guids + [g for g in known_guids if g not in all_guids]
+        new_seen[tk] = merged[:PORTFOLIO_NEWS_SEEN_CAP]
+
+        time.sleep(1)
+
+    return alerts, new_seen
+
+
+def build_grouped_message(all_alerts,
+                           header_text="📊 <b>PPB Stockmarket-Signale</b>\nNeue Auffälligkeiten:"):
+    """Baut den Alarm-Text so, dass Depot-Alarme (eigene Positionen) klar
+    abgesetzt und zuerst erscheinen — auf einen Blick erkennbar, statt
+    zwischen allgemeinen Markt-/Themen-Meldungen zu verschwinden."""
+    portfolio = [a for a in all_alerts if a.startswith(PORTFOLIO_ALERT_PREFIX)]
+    other = [a for a in all_alerts if not a.startswith(PORTFOLIO_ALERT_PREFIX)]
+
+    blocks = [header_text]
+    if portfolio:
+        blocks.append("🔴 <b>DEIN DEPOT — betrifft deine Positionen</b>\n" + "\n".join(portfolio))
+    if other:
+        blocks.append("📈 <b>Weitere Marktauffälligkeiten</b>\n" + "\n".join(other))
+    return "\n\n".join(blocks)
+
+
+# ---------------------------------------------------------------------------
 # Telegram
 # ---------------------------------------------------------------------------
 
@@ -989,10 +1157,9 @@ def net_direction_label(ticker_result):
 
 
 def diff_ticker_alerts(old_tickers_state, new_tickers):
-    """Vergleicht die aktuelle Ticker-Liste mit der letzten und meldet nur noch
-    wirklich bedeutsame Aenderungen fuer Telegram (Score >= MIN_SCORE_FOR_TICKER_ALERT).
-    Score-Rueckgaenge und Watchlist-Rotationen werden geloggt, aber nicht mehr
-    sofort gepusht — die sind fuer den Alltag zu kleinteilig."""
+    """Vergleicht die aktuelle Ticker-Liste mit der letzten und meldet
+    neue Treffer, gestiegene/gesunkene Scores sowie Watchlist-Abgänge
+    fuer Telegram."""
     alerts = []
     seen_tks = set()
 
@@ -1005,22 +1172,16 @@ def diff_ticker_alerts(old_tickers_state, new_tickers):
         dir_suffix = f" · {direction}" if direction else ""
 
         if prev is None:
-            if new_score >= MIN_SCORE_FOR_TICKER_ALERT:
-                alerts.append(f"🆕 <b>{tk}</b> ({t['name']}) neu in der Liste — Score {new_score}/5{dir_suffix}")
-            else:
-                print(f"  {tk} neu in der Liste, Score {new_score}/5 — unter Meldeschwelle, kein Push.")
+            alerts.append(f"🆕 <b>{tk}</b> ({t['name']}) neu in der Liste — Score {new_score}/5{dir_suffix}")
         elif new_score > prev.get("score", 0):
-            if new_score >= MIN_SCORE_FOR_TICKER_ALERT:
-                alerts.append(f"📈 <b>{tk}</b> relevanter geworden: Score {prev.get('score', 0)} → {new_score}{dir_suffix}")
-            else:
-                print(f"  {tk} Score {prev.get('score', 0)} → {new_score} — unter Meldeschwelle, kein Push.")
+            alerts.append(f"📈 <b>{tk}</b> relevanter geworden: Score {prev.get('score', 0)} → {new_score}{dir_suffix}")
         elif new_score < prev.get("score", 0):
-            print(f"  {tk} Score gesunken: {prev.get('score', 0)} → {new_score} — nicht gepusht, nur geloggt.")
+            alerts.append(f"📉 <b>{tk}</b> weniger relevant: Score {prev.get('score', 0)} → {new_score}")
 
-    # Titel, die vorher verfolgt wurden, jetzt aber aus der Watchlist rotiert sind — nur geloggt
+    # Titel, die vorher verfolgt wurden, jetzt aber aus der Watchlist rotiert sind
     for tk in old_tickers_state:
         if tk not in seen_tks:
-            print(f"  {tk} aus der Watchlist rotiert — nicht gepusht, nur geloggt.")
+            alerts.append(f"➖ <b>{tk}</b> aus der Watchlist rotiert (Score war zu niedrig)")
 
     return alerts
 
@@ -1053,8 +1214,11 @@ def main():
     news_topics, topic_alerts = check_topics(finnhub_key)
     tickers, new_tickers_state = build_ticker_signals_auto(old_tickers_state, finnhub_key)
     ticker_alerts = diff_ticker_alerts(old_tickers_state, tickers)
+    portfolio_alerts, new_portfolio_seen = check_portfolio_news(old_state)
 
-    all_alerts = topic_alerts + ticker_alerts
+    # Depot-Alarme zuerst, damit sie bei einer Deckelung (z. B. 30er-Limit
+    # in der Montags-Zusammenfassung) nicht als erstes rausfallen.
+    all_alerts = portfolio_alerts + topic_alerts + ticker_alerts
 
     if quiet:
         if all_alerts:
@@ -1069,9 +1233,11 @@ def main():
             if pending_alerts:
                 capped = pending_alerts[:30]
                 extra = f"\n… und {len(pending_alerts) - 30} weitere" if len(pending_alerts) > 30 else ""
-                summary = ("📋 <b>Wochenend-Zusammenfassung</b>\n"
-                           "Das ist während der Ruhezeit (Fr 21 Uhr – Mo 7:30) aufgelaufen:\n\n"
-                           + "\n".join(capped) + extra
+                summary = (build_grouped_message(
+                               capped,
+                               header_text="📋 <b>Wochenend-Zusammenfassung</b>\n"
+                                            "Das ist während der Ruhezeit (Fr 21 Uhr – Mo 7:30) aufgelaufen:")
+                           + extra
                            + "\n\nDashboard: https://ppbraun.github.io/ppb-stockmarket-signale/")
             else:
                 summary = ("📋 <b>Wochenend-Zusammenfassung</b>\n"
@@ -1087,8 +1253,7 @@ def main():
 
         # normaler Betrieb: aktuelle Auffaelligkeiten sofort als eine Nachricht senden
         if all_alerts:
-            message = ("📊 <b>PPB Stockmarket-Signale</b>\nNeue Auffälligkeiten:\n\n"
-                        + "\n".join(all_alerts)
+            message = (build_grouped_message(all_alerts)
                         + "\n\nDashboard: https://ppbraun.github.io/ppb-stockmarket-signale/")
             try:
                 send_telegram(message)
@@ -1103,6 +1268,7 @@ def main():
     state["_tickers"] = new_tickers_state
     state["_pending_weekend_alerts"] = pending_alerts
     state["_last_weekly_summary_date"] = last_summary_date
+    state["_portfolio_news_seen"] = new_portfolio_seen
     save_state(state)
 
     payload = {
