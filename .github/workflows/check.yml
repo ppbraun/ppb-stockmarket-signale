@@ -2,7 +2,12 @@ name: Signal Check
 
 on:
   schedule:
-    - cron: '0 */2 * * *'   # alle 2 Stunden (statt alle 30 Min.) — weniger, dafür bedeutsamere Meldungen
+    # Alle 30 Min. zwischen 5:00 und 20:30 UTC — das deckt 7–21 Uhr Europe/Berlin
+    # sowohl in Winter- (UTC+1) als auch Sommerzeit (UTC+2) ab. Die exakte
+    # Entscheidung, ob wirklich gecrawlt wird, trifft check_signals.py selbst
+    # anhand der lokalen Zeitzone (DST-sicher) — Läufe außerhalb von 7–21 Uhr
+    # lokal brechen sofort ab, ohne irgendeine externe API anzufassen.
+    - cron: '0,30 5-20 * * *'
   workflow_dispatch:          # erlaubt manuellen Start über den "Actions"-Tab
 
 permissions:
