@@ -1,11 +1,11 @@
 {
-  "Zölle / Handelskonflikt": 1,
+  "Zölle / Handelskonflikt": 0,
   "Fed-Zinspolitik": 1,
   "Edelmetalle / Goldminen": 0,
   "Verteidigung / Rüstung": 0,
   "KI-Infrastruktur": 0,
   "Halbleiter / Chips": 1,
-  "Energie / Öl & Gas": 4,
+  "Energie / Öl & Gas": 6,
   "Gesundheit / FDA-Zulassungen": 0,
   "Schifffahrt / Lieferketten": 0,
   "Krypto-Regulierung": 0,
@@ -41,16 +41,6 @@
       "baseline_price_usd": 54.61,
       "first_seen": "2026-09-17"
     },
-    "ROL": {
-      "score": 2,
-      "baseline_price_usd": 32.35,
-      "first_seen": "2026-09-22"
-    },
-    "SNDK": {
-      "score": 2,
-      "baseline_price_usd": 1886.19,
-      "first_seen": "2026-09-22"
-    },
     "PANW": {
       "score": 2,
       "baseline_price_usd": 373.605,
@@ -71,11 +61,6 @@
       "baseline_price_usd": 135.88,
       "first_seen": "2026-09-22"
     },
-    "TDG": {
-      "score": 1,
-      "baseline_price_usd": 1112.42,
-      "first_seen": "2026-09-23"
-    },
     "ADI": {
       "score": 2,
       "baseline_price_usd": 390.37,
@@ -84,6 +69,21 @@
     "WDC": {
       "score": 2,
       "baseline_price_usd": 464.6,
+      "first_seen": "2026-09-23"
+    },
+    "HSY": {
+      "score": 1,
+      "baseline_price_usd": 168.46,
+      "first_seen": "2026-09-23"
+    },
+    "TPL": {
+      "score": 1,
+      "baseline_price_usd": 355.24,
+      "first_seen": "2026-09-23"
+    },
+    "AFL": {
+      "score": 2,
+      "baseline_price_usd": 114.6,
       "first_seen": "2026-09-23"
     },
     "BABA": {
@@ -107,7 +107,7 @@
       "first_seen": "2026-08-18"
     },
     "NIO": {
-      "score": 1,
+      "score": 2,
       "baseline_price_usd": 4.6,
       "first_seen": "2026-08-18"
     },
