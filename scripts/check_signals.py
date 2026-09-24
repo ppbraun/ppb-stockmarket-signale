@@ -146,6 +146,8 @@ SIC_ETHICS_MAP = {
 PORTFOLIO_NEWS_SEEN_CAP = 50   # so viele GUIDs pro Titel werden im Zustand gemerkt
 PORTFOLIO_NEWS_MAX_ITEMS = 10  # RSS-Treffer pro Abfrage
 PORTFOLIO_NEWS_ALERT_CAP = 3   # max. neue Meldungen pro Titel und Lauf (gegen Spam)
+PORTFOLIO_NEWS_CHUNKS = 4      # Depot-Checks auf so viele Läufe verteilen, statt alle auf einmal
+                                # (kleinerer Anfrage-Burst pro Lauf = unauffälliger gegenüber Bot-Erkennung)
 
 # Eindeutiges Praefix, an dem Depot-Alarme erkannt und in der Telegram-
 # Nachricht von allgemeinen Markt-/Themen-Auffaelligkeiten abgesetzt werden.
@@ -696,12 +698,25 @@ def fetch_google_news(query, lang="de", country="DE", max_items=PORTFOLIO_NEWS_M
     ceid = f"{country}:{lang}"
     url = ("https://news.google.com/rss/search?q=" + urllib.parse.quote(query)
            + f"&hl={lang}&gl={country}&ceid={ceid}")
-    try:
-        text = http_get_text(url, headers={
-            "User-Agent": "Mozilla/5.0 (compatible; ppb-stockmarket-signale/1.0)"
-        })
-    except Exception as e:
-        print(f"  Google-News-Abfrage fehlgeschlagen ({query}): {e}")
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                      "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8",
+        "Accept-Language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
+    }
+
+    text = None
+    last_error = None
+    for attempt in range(2):
+        try:
+            text = http_get_text(url, headers=headers)
+            break
+        except Exception as e:
+            last_error = e
+            if attempt == 0:
+                time.sleep(4)
+    if text is None:
+        print(f"  Google-News-Abfrage fehlgeschlagen ({query}): {last_error}")
         return []
 
     try:
@@ -735,21 +750,30 @@ def is_relevant_portfolio_news(title, extra_keywords=None):
 
 
 def check_portfolio_news(old_state):
-    """Screent alle Depotwerte auf positionsrelevante News und liefert
-    (alerts, new_seen_state) zurueck. new_seen_state gehoert unter
-    state["_portfolio_news_seen"] gespeichert."""
+    """Screent einen Teil der Depotwerte pro Lauf (siehe PORTFOLIO_NEWS_CHUNKS)
+    auf positionsrelevante News und liefert (alerts, new_seen_state,
+    next_chunk_index) zurueck. new_seen_state gehoert unter
+    state["_portfolio_news_seen"], next_chunk_index unter
+    state["_portfolio_chunk_index"] gespeichert."""
     holdings = load_portfolio_holdings()
-    if not holdings:
-        return [], old_state.get("_portfolio_news_seen", {})
-
     old_seen = old_state.get("_portfolio_news_seen", {})
     if not isinstance(old_seen, dict):
         old_seen = {}
 
-    new_seen = {}
+    if not holdings:
+        return [], old_seen, 0
+
+    chunk_index = old_state.get("_portfolio_chunk_index", 0)
+    if not isinstance(chunk_index, int) or chunk_index < 0:
+        chunk_index = 0
+    chunk_index %= PORTFOLIO_NEWS_CHUNKS
+    todays_holdings = holdings[chunk_index::PORTFOLIO_NEWS_CHUNKS]
+    next_chunk_index = (chunk_index + 1) % PORTFOLIO_NEWS_CHUNKS
+
+    new_seen = dict(old_seen)  # unveraenderte Positionen (nicht in diesem Chunk) bleiben erhalten
     alerts = []
 
-    for holding in holdings:
+    for holding in todays_holdings:
         tk = holding.get("tk")
         display = holding.get("display", tk)
         query = holding.get("query", display)
@@ -776,9 +800,9 @@ def check_portfolio_news(old_state):
         merged = all_guids + [g for g in known_guids if g not in all_guids]
         new_seen[tk] = merged[:PORTFOLIO_NEWS_SEEN_CAP]
 
-        time.sleep(1)
+        time.sleep(1.5)
 
-    return alerts, new_seen
+    return alerts, new_seen, next_chunk_index
 
 
 def build_grouped_message(all_alerts,
@@ -1252,7 +1276,7 @@ def main():
     news_topics, topic_alerts = check_topics(finnhub_key)
     tickers, new_tickers_state = build_ticker_signals_auto(old_tickers_state, finnhub_key)
     ticker_alerts = diff_ticker_alerts(old_tickers_state, tickers)
-    portfolio_alerts, new_portfolio_seen = check_portfolio_news(old_state)
+    portfolio_alerts, new_portfolio_seen, next_portfolio_chunk = check_portfolio_news(old_state)
 
     # Depot-Alarme zuerst, damit sie bei einer Deckelung (z. B. 30er-Limit
     # in der Montags-Zusammenfassung) nicht als erstes rausfallen.
@@ -1307,6 +1331,7 @@ def main():
     state["_pending_weekend_alerts"] = pending_alerts
     state["_last_weekly_summary_date"] = last_summary_date
     state["_portfolio_news_seen"] = new_portfolio_seen
+    state["_portfolio_chunk_index"] = next_portfolio_chunk
     save_state(state)
 
     payload = {
