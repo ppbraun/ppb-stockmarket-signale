@@ -209,12 +209,17 @@ def fetch_finnhub_general_news(api_key):
     if not api_key:
         return []
     url = f"{FINNHUB_BASE}/news?category=general&token={api_key}"
-    try:
-        data = http_get_json(url, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
-        return data if isinstance(data, list) else []
-    except Exception as e:
-        print(f"Finnhub-Marktnachrichten konnten nicht geladen werden: {e}")
-        return []
+    last_error = None
+    for attempt in range(2):
+        try:
+            data = http_get_json(url, headers={"User-Agent": "ppb-stockmarket-signale/1.0"})
+            return data if isinstance(data, list) else []
+        except Exception as e:
+            last_error = e
+            if attempt == 0:
+                time.sleep(5)
+    print(f"Finnhub-Marktnachrichten konnten nicht geladen werden: {last_error}")
+    return []
 
 
 def count_topic_mentions(articles, keywords):
