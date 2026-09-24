@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-24T14:36:20.000658+00:00",
+  "generated_at": "2026-09-24T18:49:05.068123+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 5,
+      "vol": 7,
       "pct": 100
-    },
-    {
-      "topic": "Fed-Zinspolitik",
-      "vol": 2,
-      "pct": 40
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 2,
-      "pct": 40
+      "pct": 29
     },
     {
       "topic": "Zölle / Handelskonflikt",
       "vol": 1,
-      "pct": 20
+      "pct": 14
+    },
+    {
+      "topic": "Fed-Zinspolitik",
+      "vol": 1,
+      "pct": 14
     },
     {
       "topic": "KI-Infrastruktur",
       "vol": 1,
-      "pct": 20
+      "pct": 14
     },
     {
       "topic": "Halbleiter / Chips",
       "vol": 1,
-      "pct": 20
+      "pct": 14
     },
     {
       "topic": "Edelmetalle / Goldminen",
@@ -64,9 +64,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 8.8,
-      "priceEur": 296.06,
-      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
+      "reaction": 9.1,
+      "priceEur": 296.83,
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 3.4,
-      "priceEur": 1045.46,
+      "reaction": 3.5,
+      "priceEur": 1046.05,
       "description": null,
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.6,
-      "priceEur": 46.03,
+      "reaction": -1.7,
+      "priceEur": 45.98,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -169,44 +169,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 33.9,
-      "priceEur": 165.33,
+      "reaction": 34.8,
+      "priceEur": 166.37,
       "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "8T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "11Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "WBD",
-      "name": "Warner Bros. Discovery",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": 9.7,
-      "priceEur": 27.07,
-      "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
       "sig": {
@@ -229,6 +194,41 @@
           "active": false
         }
       },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "WBD",
+      "name": "Warner Bros. Discovery",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": 10.0,
+      "priceEur": 27.14,
+      "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "8T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
       "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
@@ -239,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.6,
-      "priceEur": 108.54,
+      "reaction": -1.0,
+      "priceEur": 106.87,
       "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
       "politician": null,
       "track": null,
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -274,9 +274,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.5,
-      "priceEur": 671.21,
-      "description": "Meta Platforms, Inc., headquartered in Menlo Park, California, is an American multinational technology company and is one of the Big Tech companies. Meta owns and operates several…",
+      "reaction": 4.4,
+      "priceEur": 683.47,
+      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -304,118 +304,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "CRM",
-      "name": "Salesforce",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.7,
-      "priceEur": 210.48,
-      "description": "Salesforce, Inc. is an American enterprise software company headquartered in San Francisco, California. It is best known for customer relationship management software and related…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "LITE",
-      "name": "Lumentum",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -1.0,
-      "priceEur": 815.7,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "QCOM",
-      "name": "Qualcomm",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -1.8,
-      "priceEur": 170.48,
-      "description": "Qualcomm Incorporated is an American multinational technology corporation headquartered in San Diego, California. The company develops and designs technologies for global…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "NVDA",
       "name": "Nvidia",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.3,
-      "priceEur": 195.75,
+      "reaction": -0.7,
+      "priceEur": 197.06,
       "description": "Die Nvidia Corporation ist ein US-amerikanisches Unternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
       "politician": null,
       "track": null,
@@ -449,9 +344,44 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.2,
-      "priceEur": 311.37,
+      "reaction": 1.0,
+      "priceEur": 313.95,
       "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "KEY",
+      "name": "KeyCorp",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 17.77,
+      "description": "KeyBank ist ein US-amerikanisches Unternehmen mit Firmensitz in Cleveland, Ohio.",
       "politician": null,
       "track": null,
       "sig": {
@@ -474,41 +404,6 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "KEY",
-      "name": "KeyCorp",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 17.76,
-      "description": "KeyBank ist ein US-amerikanisches Unternehmen mit Firmensitz in Cleveland, Ohio.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "21Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
@@ -519,9 +414,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": null,
-      "priceEur": 53.87,
-      "description": null,
+      "reaction": -1.0,
+      "priceEur": 53.34,
+      "description": "Brown & Brown, Inc. ist ein US-amerikanischer Versicherungsmakler mit Sitz in Daytona Beach, Florida. Das 1939 von J. Adrian Brown und seinem Cousin Charles „Cov“ Owen gegründete…",
       "politician": null,
       "track": null,
       "sig": {
@@ -535,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -554,9 +449,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 66.8,
-      "description": "Block, Inc. is an American technology company and financial services provider for consumers and merchants. Founded in 2009 by Jack Dorsey, it is the U.S. market leader in…",
+      "reaction": 0.5,
+      "priceEur": 67.13,
+      "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -570,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -584,14 +479,119 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "VZ",
+      "name": "Verizon",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 41.61,
+      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 296.57,
+      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1Std",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "8Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Energy",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NTAP",
+      "name": "NetApp",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 176.02,
+      "description": "NetApp, Inc., zuvor bekannt als Network Appliance, Inc., ist ein US-amerikanisches Unternehmen, das im Bereich der Datenspeicherung, des Cloud Computing und des Datenmanagements…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -11.2,
-      "priceEur": 97.48,
-      "description": null,
+      "reaction": -10.8,
+      "priceEur": 97.83,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -605,7 +605,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -624,9 +624,9 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -5.8,
-      "priceEur": 23.61,
-      "description": null,
+      "reaction": -6.2,
+      "priceEur": 23.51,
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -640,7 +640,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -659,8 +659,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -9.8,
-      "priceEur": 68.98,
+      "reaction": -10.2,
+      "priceEur": 68.67,
       "description": null,
       "politician": null,
       "track": null,
@@ -673,7 +673,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -692,8 +692,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -16.3,
-      "priceEur": 76.71,
+      "reaction": -15.3,
+      "priceEur": 77.54,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -706,7 +706,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "21Std"
         },
         "predict": {
           "active": true
@@ -725,8 +725,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -21.6,
-      "priceEur": 3.17,
+      "reaction": -21.5,
+      "priceEur": 3.18,
       "description": null,
       "politician": null,
       "track": null,
@@ -741,7 +741,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -760,9 +760,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -4.1,
-      "priceEur": 10.46,
-      "description": null,
+      "reaction": -4.6,
+      "priceEur": 10.42,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -792,9 +792,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -11.3,
-      "priceEur": 35.0,
-      "description": null,
+      "reaction": -11.2,
+      "priceEur": 35.03,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -824,9 +824,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -4.9,
-      "priceEur": 104.12,
-      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
+      "reaction": -5.6,
+      "priceEur": 103.29,
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
