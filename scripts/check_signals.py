@@ -830,6 +830,27 @@ def build_grouped_message(all_alerts,
 # Telegram
 # ---------------------------------------------------------------------------
 
+def send_telegram_long(text, limit=3800):
+    """Verschickt auch lange Texte: Telegram erlaubt max. 4096 Zeichen pro
+    Nachricht, ein Ueberschreiten fuehrt zu HTTP 400 und die komplette
+    Meldung ginge verloren. Geteilt wird nur an Zeilengrenzen, damit kein
+    <b>-Tag zerrissen wird. Wirft bei Fehlern eine Exception weiter."""
+    parts, current = [], ""
+    for line in text.split("\n"):
+        line = line[:limit]
+        if current and len(current) + len(line) + 1 > limit:
+            parts.append(current)
+            current = line
+        else:
+            current = f"{current}\n{line}" if current else line
+    if current:
+        parts.append(current)
+    for i, part in enumerate(parts):
+        send_telegram(part)
+        if i < len(parts) - 1:
+            time.sleep(0.7)
+
+
 def send_telegram(text):
     token = os.environ["TELEGRAM_BOT_TOKEN"]
     chat_id = os.environ["TELEGRAM_CHAT_ID"]
@@ -1298,8 +1319,8 @@ def main():
         # Montags zuerst die gesammelte Wochenend-Zusammenfassung verschicken (einmal pro Tag)
         if is_monday and last_summary_date != today_local_str:
             if pending_alerts:
-                capped = pending_alerts[:30]
-                extra = f"\n… und {len(pending_alerts) - 30} weitere" if len(pending_alerts) > 30 else ""
+                capped = pending_alerts[:60]
+                extra = f"\n… und {len(pending_alerts) - 60} weitere" if len(pending_alerts) > 60 else ""
                 summary = (build_grouped_message(
                                capped,
                                header_text="📋 <b>Wochenend-Zusammenfassung</b>\n"
@@ -1311,19 +1332,22 @@ def main():
                            "Keine besonderen Vorkommnisse während der Ruhezeit.\n\n"
                            "Dashboard: https://ppbraun.github.io/ppb-stockmarket-signale/")
             try:
-                send_telegram(summary)
+                send_telegram_long(summary)
                 print("Wochenend-Zusammenfassung gesendet.")
+                # Nur bei erfolgreichem Versand leeren und als erledigt markieren —
+                # sonst bleibt alles vorgemerkt und der naechste Lauf versucht es erneut.
+                pending_alerts = []
+                last_summary_date = today_local_str
             except Exception as e:
-                print(f"Versand der Wochenend-Zusammenfassung fehlgeschlagen: {e}")
-            pending_alerts = []
-            last_summary_date = today_local_str
+                print(f"Versand der Wochenend-Zusammenfassung fehlgeschlagen "
+                      f"(bleibt vorgemerkt, nächster Lauf versucht es erneut): {e}")
 
-        # normaler Betrieb: aktuelle Auffaelligkeiten sofort als eine Nachricht senden
+        # normaler Betrieb: aktuelle Auffaelligkeiten sofort senden
         if all_alerts:
             message = (build_grouped_message(all_alerts)
                         + "\n\nDashboard: https://ppbraun.github.io/ppb-stockmarket-signale/")
             try:
-                send_telegram(message)
+                send_telegram_long(message)
                 print("Telegram-Benachrichtigung gesendet.")
             except Exception as e:
                 print(f"Telegram-Versand fehlgeschlagen: {e}")
