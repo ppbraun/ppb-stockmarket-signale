@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T06:45:49.661239+00:00",
+  "generated_at": "2026-09-28T10:05:46.494280+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -13,8 +13,8 @@
     },
     {
       "topic": "Fed-Zinspolitik",
-      "vol": 1,
-      "pct": 17
+      "vol": 2,
+      "pct": 33
     },
     {
       "topic": "KI-Infrastruktur",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -184,7 +184,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -253,7 +253,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -288,7 +288,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -300,74 +300,6 @@
       "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "LEN",
-      "name": "Lennar",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 72.04,
-      "description": "Lennar ist ein US-amerikanisches Bauunternehmen, das sich auf den Bau von privaten Eigenheimen spezialisiert hat.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "CIEN",
-      "name": "Ciena",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 313.0,
-      "description": "Ciena Corporation ist ein Unternehmen für optische Netzwerksysteme und Software aus den Vereinigten Staaten. Das Unternehmen ist im S&P 500 gelistet. Der Sitz befindet sich in…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "VRT",
@@ -391,7 +323,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -403,40 +335,6 @@
       "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "FTNT",
-      "name": "Fortinet",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 152.12,
-      "description": "Fortinet ist ein US-amerikanisches multinationales Unternehmen mit Sitz in Sunnyvale (Kalifornien). Das Unternehmen entwickelt und vertreibt Software, Appliances und Dienste auf…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "DRI",
@@ -460,7 +358,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -479,7 +377,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 73.49,
       "description": "Die Clorox Company ist ein Haushaltswaren- und Chemieunternehmen aus den Vereinigten Staaten mit Hauptsitz in Oakland, Kalifornien. Das Unternehmen ist im Aktienindex S&P 500…",
       "politician": null,
@@ -495,7 +393,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -514,7 +412,7 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 10.82,
       "description": "Pacific Gas and Electric Company (PG&E) is an American investor-owned utility (IOU). The company is headquartered at Kaiser Center, in Oakland, California. PG&E provides natural…",
       "politician": null,
@@ -548,7 +446,7 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 295.29,
       "description": "General Dynamics (GD) ist ein US-amerikanischer Rüstungskonzern. Das Unternehmen ist an der New York Stock Exchange mit dem Kürzel GD gelistet. CEO ist Phebe Novakovic.",
       "politician": null,
@@ -577,6 +475,108 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
+      "tk": "WFC",
+      "name": "Wells Fargo",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 72.76,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "FDS",
+      "name": "FactSet",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 239.48,
+      "description": "FactSet Research Systems Inc., trading as FactSet, is an American financial data and software company headquartered in Norwalk, Connecticut, United States. The company provides…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "FLEX",
+      "name": "Flex Ltd.",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 100.57,
+      "description": "Flex Ltd. is a Singapore-domiciled multinational manufacturing company. It is the world's third largest global electronics manufacturing services (EMS), original design…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -598,7 +598,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -685,7 +685,7 @@
       "score": 1,
       "reaction": -16.1,
       "priceEur": 76.58,
-      "description": null,
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -731,7 +731,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -752,7 +752,7 @@
       "score": 0,
       "reaction": -7.3,
       "priceEur": 10.09,
-      "description": "Li Auto Inc. is a Chinese electric vehicle manufacturer headquartered in Beijing, with manufacturing facilities in Changzhou. Founded by Li Xiang in 2015, the company is best…",
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
