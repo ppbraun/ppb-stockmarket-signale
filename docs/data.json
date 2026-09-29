@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:04:37.032478+00:00",
+  "generated_at": "2026-09-29T10:34:17.934549+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -304,76 +304,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "AKAM",
-      "name": "Akamai Technologies",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 95.79,
-      "description": "Akamai Technologies mit Sitz in Cambridge (Massachusetts) ist ein börsennotierter US-amerikanischer Internetdienstleister. Das Unternehmen wurde 1998 gegründet und begann seine…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "7Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "TMUS",
-      "name": "T-Mobile US",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 146.29,
-      "description": "Die T-Mobile US Inc. ist einer der größten Mobilfunkanbieter in den Vereinigten Staaten von Amerika im Wettbewerb stehend mit AT&T Wireless und Verizon Wireless. Die Deutsche…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "7Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "TER",
       "name": "Teradyne",
       "broker": true,
@@ -395,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -465,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -484,9 +414,79 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 179.65,
       "description": "NetApp, Inc., zuvor bekannt als Network Appliance, Inc., ist ein US-amerikanisches Unternehmen, das im Bereich der Datenspeicherung, des Cloud Computing und des Datenmanagements…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "14Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PANW",
+      "name": "Palo Alto Networks",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 344.6,
+      "description": "Palo Alto Networks, Inc. ist ein amerikanisches multinationales IT-Sicherheitsunternehmen mit Hauptsitz in Santa Clara, Kalifornien. Seine Kernprodukte sind eine Plattform, die…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "HSY",
+      "name": "Hershey Company (The)",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 144.5,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -509,19 +509,19 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Consumer Staples",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "PANW",
-      "name": "Palo Alto Networks",
+      "tk": "CRWD",
+      "name": "CrowdStrike",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 344.6,
-      "description": "Palo Alto Networks, Inc. ist ein amerikanisches multinationales IT-Sicherheitsunternehmen mit Hauptsitz in Santa Clara, Kalifornien. Seine Kernprodukte sind eine Plattform, die…",
+      "priceEur": 227.85,
+      "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -535,7 +535,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -549,14 +549,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CSX",
-      "name": "CSX Corporation",
+      "tk": "P",
+      "name": "Everpure",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 41.1,
-      "description": "Die CSX Corporation ist ein US-amerikanisches Unternehmen mit Sitz in Jacksonville. Das Unternehmen ist im Aktienindex Nasdaq-100 gelistet.",
+      "priceEur": 113.73,
+      "description": "Everpure, Inc. is an American publicly traded technology company headquartered in Santa Clara, California, United States. While the company originally focused on developing…",
       "politician": null,
       "track": null,
       "sig": {
@@ -569,7 +569,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -578,9 +579,9 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -599,12 +600,12 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "1Std",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
