@@ -1,13 +1,18 @@
 {
-  "generated_at": "2026-09-29T16:52:55.384295+00:00",
+  "generated_at": "2026-09-29T17:04:38.246147+00:00",
   "newsTopics": [
     {
-      "topic": "Zölle / Handelskonflikt",
-      "vol": 0,
-      "pct": 0
+      "topic": "Energie / Öl & Gas",
+      "vol": 6,
+      "pct": 100
     },
     {
       "topic": "Fed-Zinspolitik",
+      "vol": 1,
+      "pct": 17
+    },
+    {
+      "topic": "Zölle / Handelskonflikt",
       "vol": 0,
       "pct": 0
     },
@@ -28,11 +33,6 @@
     },
     {
       "topic": "Halbleiter / Chips",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "Energie / Öl & Gas",
       "vol": 0,
       "pct": 0
     },
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 7.1,
-      "priceEur": 291.69,
+      "reaction": 7.0,
+      "priceEur": 291.49,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "0Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.5,
-      "priceEur": 1037.82,
+      "reaction": 2.6,
+      "priceEur": 1038.76,
       "description": null,
       "politician": null,
       "track": null,
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -5.9,
-      "priceEur": 101.71,
+      "reaction": -5.7,
+      "priceEur": 101.93,
       "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
       "politician": null,
       "track": null,
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 184.51,
+      "reaction": 0.1,
+      "priceEur": 184.63,
       "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
       "politician": null,
       "track": null,
@@ -239,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.3,
-      "priceEur": 633.38,
+      "reaction": -0.2,
+      "priceEur": 634.18,
       "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
@@ -274,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.1,
-      "priceEur": 244.71,
+      "reaction": 0.1,
+      "priceEur": 245.21,
       "description": "Die Stryker Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Kalamazoo, Michigan. Das Unternehmen stellt orthopädische und chirurgische Implantate und…",
       "politician": null,
       "track": null,
@@ -304,83 +304,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "VZ",
-      "name": "Verizon",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 40.86,
-      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "XYZ",
-      "name": "Block, Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.3,
-      "priceEur": 64.54,
-      "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "6Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "TMUS",
       "name": "T-Mobile US",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 144.06,
+      "reaction": 0.3,
+      "priceEur": 144.22,
       "description": "Die T-Mobile US Inc. ist einer der größten Mobilfunkanbieter in den Vereinigten Staaten von Amerika im Wettbewerb stehend mit AT&T Wireless und Verizon Wireless. Die Deutsche…",
       "politician": null,
       "track": null,
@@ -414,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.3,
-      "priceEur": 306.39,
+      "reaction": 0.1,
+      "priceEur": 305.83,
       "description": "Ciena Corporation ist ein Unternehmen für optische Netzwerksysteme und Software aus den Vereinigten Staaten. Das Unternehmen ist im S&P 500 gelistet. Der Sitz befindet sich in…",
       "politician": null,
       "track": null,
@@ -449,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.2,
-      "priceEur": 20.36,
+      "reaction": -0.1,
+      "priceEur": 20.38,
       "description": "Die Vici Properties ist ein auf Casino-Immobilien spezialisierter Real-Estate-Investment-Trust (REIT) mit Hauptsitz in New York City. Es wurde 2017 als Spin-off der Caesars…",
       "politician": null,
       "track": null,
@@ -479,47 +409,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CSX",
-      "name": "CSX Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 41.15,
-      "description": "Die CSX Corporation ist ein US-amerikanisches Unternehmen mit Sitz in Jacksonville. Das Unternehmen ist im Aktienindex Nasdaq-100 gelistet.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "FTV",
       "name": "Fortive",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 48.29,
+      "reaction": 0.1,
+      "priceEur": 48.32,
       "description": "Die Fortive Corporation ist ein US-amerikanischer Mischkonzern, dessen Tochterunternehmen mehrheitlich auf den Maschinen- und Messinstrumentenbau fokussiert sind. Fortive entstand…",
       "politician": null,
       "track": null,
@@ -553,8 +449,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 141.32,
+      "reaction": -0.1,
+      "priceEur": 141.19,
       "description": "Broadridge Financial Solutions, Inc. is a public corporate services and financial technology company. Headquartered in Lake Success, New York, the company was founded in 2007 as a…",
       "politician": null,
       "track": null,
@@ -583,13 +479,117 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "CRWD",
+      "name": "CrowdStrike",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 228.03,
+      "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CME",
+      "name": "CME Group",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 232.82,
+      "description": "Die US-amerikanische CME Group ist eine der weltgrößten Optionsbörsen und die größte Terminbörse der Welt, mit Sitz in Chicago im Bundesstaat Illinois, die am 12. Juli 2007 aus…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "AFL",
+      "name": "Aflac",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 99.57,
+      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -13.7,
-      "priceEur": 94.73,
+      "reaction": -13.8,
+      "priceEur": 94.63,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -623,8 +623,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -8.1,
-      "priceEur": 23.06,
+      "reaction": -8.2,
+      "priceEur": 23.03,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -657,8 +657,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -10.9,
-      "priceEur": 68.2,
+      "reaction": -11.1,
+      "priceEur": 68.1,
       "description": null,
       "politician": null,
       "track": null,
@@ -689,8 +689,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -17.2,
-      "priceEur": 75.9,
+      "reaction": -17.4,
+      "priceEur": 75.77,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -721,8 +721,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -26.1,
-      "priceEur": 2.99,
+      "reaction": -26.0,
+      "priceEur": 3.0,
       "description": null,
       "politician": null,
       "track": null,
@@ -754,9 +754,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -10.3,
-      "priceEur": 9.81,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "reaction": -10.4,
+      "priceEur": 9.8,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -786,9 +786,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -14.1,
-      "priceEur": 33.94,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "reaction": -14.2,
+      "priceEur": 33.9,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -819,7 +819,7 @@
       "market": "cn",
       "score": 1,
       "reaction": -2.7,
-      "priceEur": 106.59,
+      "priceEur": 106.58,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
