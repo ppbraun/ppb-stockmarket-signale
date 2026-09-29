@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:04:34.400184+00:00",
+  "generated_at": "2026-09-29T06:34:25.779052+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -12,14 +12,14 @@
       "pct": 11
     },
     {
-      "topic": "KI-Infrastruktur",
+      "topic": "Fed-Zinspolitik",
       "vol": 1,
       "pct": 11
     },
     {
-      "topic": "Fed-Zinspolitik",
-      "vol": 0,
-      "pct": 0
+      "topic": "KI-Infrastruktur",
+      "vol": 1,
+      "pct": 11
     },
     {
       "topic": "Edelmetalle / Goldminen",
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -267,76 +267,6 @@
       "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "TMUS",
-      "name": "T-Mobile US",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 146.29,
-      "description": "Die T-Mobile US Inc. ist einer der größten Mobilfunkanbieter in den Vereinigten Staaten von Amerika im Wettbewerb stehend mit AT&T Wireless und Verizon Wireless. Die Deutsche…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "SYK",
-      "name": "Stryker Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 241.97,
-      "description": "Die Stryker Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Kalamazoo, Michigan. Das Unternehmen stellt orthopädische und chirurgische Implantate und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "11Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "PGR",
@@ -360,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -430,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -465,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -484,7 +414,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 302.51,
       "description": "Ciena Corporation ist ein Unternehmen für optische Netzwerksysteme und Software aus den Vereinigten Staaten. Das Unternehmen ist im S&P 500 gelistet. Der Sitz befindet sich in…",
       "politician": null,
@@ -519,7 +449,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 113.73,
       "description": "Everpure, Inc. is an American publicly traded technology company headquartered in Santa Clara, California, United States. While the company originally focused on developing…",
       "politician": null,
@@ -549,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AFL",
-      "name": "Aflac",
+      "tk": "DELL",
+      "name": "Dell Technologies",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 99.8,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "priceEur": 477.62,
+      "description": "Dell Technologies Inc. ist ein US-amerikanischer Hersteller von Computern und Speichersystemen. Das Unternehmen hat seinen Hauptsitz in Round Rock, Texas.",
       "politician": null,
       "track": null,
       "sig": {
@@ -569,7 +499,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -578,9 +509,79 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "KR",
+      "name": "Kroger",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 52.46,
+      "description": "Kroger ist der Familienname folgender Personen:John Kroger, US-amerikanischer Soldat, Jurist und Politiker Bernard Kroger (1860–1938), US-amerikanischer Geschäftsmann und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "12Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "HSY",
+      "name": "Hershey Company (The)",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 144.5,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "9Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -735,7 +736,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
