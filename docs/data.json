@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:05:02.257732+00:00",
+  "generated_at": "2026-09-30T18:34:27.596669+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 8.6,
-      "priceEur": 295.98,
+      "reaction": 8.7,
+      "priceEur": 296.24,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "0Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.9,
-      "priceEur": 1031.54,
+      "reaction": 1.5,
+      "priceEur": 1027.3,
       "description": null,
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 9.9,
-      "priceEur": 27.13,
+      "reaction": 9.8,
+      "priceEur": 27.12,
       "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -8.1,
-      "priceEur": 99.27,
+      "reaction": -8.5,
+      "priceEur": 98.84,
       "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "0Std"
         },
         "predict": {
           "active": true
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.3,
-      "priceEur": 183.91,
+      "reaction": -0.4,
+      "priceEur": 183.65,
       "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
       "politician": null,
       "track": null,
@@ -240,7 +240,7 @@
       "market": "us",
       "score": 3,
       "reaction": 1.7,
-      "priceEur": 645.72,
+      "priceEur": 645.9,
       "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -274,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.7,
-      "priceEur": 305.0,
+      "reaction": 2.4,
+      "priceEur": 304.3,
       "description": null,
       "politician": null,
       "track": null,
@@ -304,117 +304,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "VZ",
-      "name": "Verizon",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.7,
-      "priceEur": 40.48,
-      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "PFE",
-      "name": "Pfizer",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.1,
-      "priceEur": 25.38,
-      "description": "Pfizer Inc. ist ein US-amerikanischer, international aufgestellter und börsennotierter Pharma- und Biotechnologiekonzern mit Hauptsitz in New York. Pfizer war 2025 mit 62,6 Mrd.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.5,
-      "priceEur": 290.31,
-      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
       "tk": "ANET",
       "name": "Arista Networks",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 179.68,
+      "reaction": 0.2,
+      "priceEur": 179.96,
       "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
       "politician": null,
       "track": null,
@@ -429,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -448,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 48.94,
+      "reaction": -0.2,
+      "priceEur": 48.84,
       "description": "Occidental Petroleum Corporation ist ein international tätiges US-amerikanisches Unternehmen, das auf dem Gebiet der Exploration und Förderung von Erdöl und Erdgas tätig ist.…",
       "politician": null,
       "track": null,
@@ -485,9 +381,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 15.67,
-      "description": null,
+      "reaction": -0.3,
+      "priceEur": 15.62,
+      "description": "Kenvue, Inc. ist ein US-amerikanischer Konsumgüterkonzern mit Hauptsitz in Skillman, New Jersey, USA. Das Unternehmen ging aus dem 2023 erfolgten Spin-off (Abspaltung) der Sparte…",
       "politician": null,
       "track": null,
       "sig": {
@@ -501,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -520,9 +416,44 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 2468.98,
+      "reaction": 0.1,
+      "priceEur": 2472.65,
       "description": "AutoZone ist der zweitgrößte Händler von Kfz-Ersatzteilen in den Vereinigten Staaten mit Sitz in Memphis (Tennessee). Das Unternehmen wurde im Jahr 1979 unter dem Namen Auto Shack…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CIEN",
+      "name": "Ciena",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -0.3,
+      "priceEur": 304.05,
+      "description": "Ciena Corporation ist ein Unternehmen für optische Netzwerksysteme und Software aus den Vereinigten Staaten. Das Unternehmen ist im S&P 500 gelistet. Der Sitz befindet sich in…",
       "politician": null,
       "track": null,
       "sig": {
@@ -545,19 +476,19 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CIEN",
-      "name": "Ciena",
+      "tk": "DRI",
+      "name": "Darden Restaurants",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 305.09,
-      "description": "Ciena Corporation ist ein Unternehmen für optische Netzwerksysteme und Software aus den Vereinigten Staaten. Das Unternehmen ist im S&P 500 gelistet. Der Sitz befindet sich in…",
+      "priceEur": 172.33,
+      "description": "Darden Restaurants, Inc. ist ein Unternehmen aus den Vereinigten Staaten mit Firmensitz in Orange County, Florida. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
       "politician": null,
       "track": null,
       "sig": {
@@ -571,7 +502,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -580,9 +511,79 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Consumer Discretionary",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "AFL",
+      "name": "Aflac",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 99.13,
+      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1Std",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "EOG",
+      "name": "EOG Resources",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 122.07,
+      "description": "EOG Resources ist ein Unternehmen aus den Vereinigten Staaten mit Sitz in Houston, Texas. EOG stand ursprünglich für Enron Oil & Gas. Das Unternehmen ist im Aktienindex S&P 500…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BABA",
@@ -590,8 +591,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -13.3,
-      "priceEur": 95.18,
+      "reaction": -13.4,
+      "priceEur": 95.06,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -606,7 +607,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -625,8 +626,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -6.6,
-      "priceEur": 23.43,
+      "reaction": -6.7,
+      "priceEur": 23.41,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -660,7 +661,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -10.3,
-      "priceEur": 68.69,
+      "priceEur": 68.67,
       "description": null,
       "politician": null,
       "track": null,
@@ -691,8 +692,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -16.2,
-      "priceEur": 76.82,
+      "reaction": -16.4,
+      "priceEur": 76.69,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -723,7 +724,7 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -25.1,
+      "reaction": -25.2,
       "priceEur": 3.03,
       "description": null,
       "politician": null,
@@ -756,8 +757,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -7.9,
-      "priceEur": 10.07,
+      "reaction": -8.1,
+      "priceEur": 10.04,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -789,9 +790,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -12.8,
-      "priceEur": 34.44,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "reaction": -12.9,
+      "priceEur": 34.39,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -821,9 +822,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -2.4,
-      "priceEur": 106.89,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "reaction": -2.5,
+      "priceEur": 106.81,
+      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
       "sig": {
