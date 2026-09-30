@@ -1,18 +1,13 @@
 {
-  "generated_at": "2026-09-30T15:34:27.416414+00:00",
+  "generated_at": "2026-09-30T16:04:54.866917+00:00",
   "newsTopics": [
     {
-      "topic": "Energie / Öl & Gas",
-      "vol": 3,
-      "pct": 100
+      "topic": "Zölle / Handelskonflikt",
+      "vol": 0,
+      "pct": 0
     },
     {
       "topic": "Fed-Zinspolitik",
-      "vol": 1,
-      "pct": 33
-    },
-    {
-      "topic": "Zölle / Handelskonflikt",
       "vol": 0,
       "pct": 0
     },
@@ -33,6 +28,11 @@
     },
     {
       "topic": "Halbleiter / Chips",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Energie / Öl & Gas",
       "vol": 0,
       "pct": 0
     },
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 9.0,
-      "priceEur": 297.09,
+      "reaction": 9.2,
+      "priceEur": 297.43,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 3.6,
-      "priceEur": 1048.83,
+      "reaction": 3.3,
+      "priceEur": 1046.04,
       "description": null,
       "politician": null,
       "track": null,
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 9.9,
-      "priceEur": 27.15,
+      "reaction": 10.0,
+      "priceEur": 27.16,
       "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
@@ -170,7 +170,7 @@
       "market": "us",
       "score": 3,
       "reaction": -6.8,
-      "priceEur": 100.66,
+      "priceEur": 100.7,
       "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
       "politician": null,
       "track": null,
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.4,
-      "priceEur": 183.76,
+      "reaction": -0.3,
+      "priceEur": 183.99,
       "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
       "politician": null,
       "track": null,
@@ -239,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.4,
-      "priceEur": 644.03,
+      "reaction": 2.0,
+      "priceEur": 648.04,
       "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
@@ -274,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 3.0,
-      "priceEur": 305.96,
+      "reaction": 3.1,
+      "priceEur": 306.28,
       "description": null,
       "politician": null,
       "track": null,
@@ -304,120 +304,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "PFG",
-      "name": "Principal Financial Group",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.1,
-      "priceEur": 99.97,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "OXY",
-      "name": "Occidental Petroleum",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.3,
-      "priceEur": 48.6,
-      "description": "Occidental Petroleum Corporation ist ein international tätiges US-amerikanisches Unternehmen, das auf dem Gebiet der Exploration und Förderung von Erdöl und Erdgas tätig ist.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "DRI",
-      "name": "Darden Restaurants",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.0,
-      "priceEur": 171.32,
-      "description": "Darden Restaurants, Inc. ist ein Unternehmen aus den Vereinigten Staaten mit Firmensitz in Orange County, Florida. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "CIEN",
       "name": "Ciena",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.5,
-      "priceEur": 302.03,
+      "reaction": 1.0,
+      "priceEur": 303.46,
       "description": "Ciena Corporation ist ein Unternehmen für optische Netzwerksysteme und Software aus den Vereinigten Staaten. Das Unternehmen ist im S&P 500 gelistet. Der Sitz befindet sich in…",
       "politician": null,
       "track": null,
@@ -451,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 40.52,
+      "reaction": 0.3,
+      "priceEur": 40.6,
       "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
       "politician": null,
       "track": null,
@@ -486,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 180.27,
+      "reaction": -0.2,
+      "priceEur": 179.92,
       "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
       "politician": null,
       "track": null,
@@ -521,8 +414,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 116.5,
+      "reaction": -0.4,
+      "priceEur": 116.03,
       "description": null,
       "politician": null,
       "track": null,
@@ -537,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -556,9 +449,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 15.74,
-      "description": "Kenvue Inc. is an American consumer health company. Formerly the Consumer Healthcare division of Johnson & Johnson, Kenvue owns well-known brands such as Aveeno, Band-Aid,…",
+      "reaction": -0.1,
+      "priceEur": 15.73,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -586,14 +479,119 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "BRK.B",
+      "name": "Berkshire Hathaway",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": null,
+      "description": "Berkshire Hathaway Inc. [ˈbɜːrkʃər ˈhæθəweɪ] ist eine 1955 gegründete US-amerikanische Holdinggesellschaft mit Sitz in Omaha, Nebraska, zu deren Konglomerat über 80 Unternehmen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "6Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "BDX",
+      "name": "Becton Dickinson",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 158.64,
+      "description": "BD  ist eines der größten internationalen Medizintechnologie-Unternehmen. Es entwickelt, produziert und vertreibt medizinische Einmalartikel, Gerätesysteme und Reagenzien. BD…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MAR",
+      "name": "Marriott International",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 315.69,
+      "description": "Marriott International, Inc. ist ein börsennotiertes US-amerikanisches Hotelunternehmen mit Sitz in Bethesda, Maryland, das mehrere Hotelketten betreibt, konzessioniert und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "23Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -13.0,
-      "priceEur": 95.5,
-      "description": null,
+      "reaction": -13.1,
+      "priceEur": 95.46,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -626,8 +624,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -6.7,
-      "priceEur": 23.41,
+      "reaction": -6.8,
+      "priceEur": 23.39,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -660,8 +658,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -10.8,
-      "priceEur": 68.27,
+      "reaction": -10.5,
+      "priceEur": 68.52,
       "description": null,
       "politician": null,
       "track": null,
@@ -692,8 +690,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -16.0,
-      "priceEur": 77.0,
+      "reaction": -16.1,
+      "priceEur": 76.92,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -724,8 +722,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -25.1,
-      "priceEur": 3.03,
+      "reaction": -24.9,
+      "priceEur": 3.04,
       "description": null,
       "politician": null,
       "track": null,
@@ -738,7 +736,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -757,8 +755,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -7.7,
-      "priceEur": 10.08,
+      "reaction": -7.5,
+      "priceEur": 10.11,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -771,7 +769,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": false
@@ -791,7 +789,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -13.0,
-      "priceEur": 34.36,
+      "priceEur": 34.38,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -823,8 +821,8 @@
       "market": "cn",
       "score": 1,
       "reaction": -2.4,
-      "priceEur": 106.92,
-      "description": null,
+      "priceEur": 106.93,
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
