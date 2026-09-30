@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T05:04:34.251680+00:00",
+  "generated_at": "2026-09-30T05:34:44.948562+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -273,7 +273,7 @@
       "name": "Stryker Corporation",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": 0.3,
       "priceEur": 245.5,
       "description": "Die Stryker Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Kalamazoo, Michigan. Das Unternehmen stellt orthopädische und chirurgische Implantate und…",
@@ -293,48 +293,13 @@
           "age": "10Std"
         },
         "predict": {
-          "active": true
+          "active": false
         },
         "buzz": {
           "active": false
         }
       },
       "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "KR",
-      "name": "Kroger",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.1,
-      "priceEur": 53.54,
-      "description": "Kroger ist der Familienname folgender Personen:John Kroger, US-amerikanischer Soldat, Jurist und Politiker Bernard Kroger (1860–1938), US-amerikanischer Geschäftsmann und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "6Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -430,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -479,82 +444,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "EOG",
-      "name": "EOG Resources",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 122.99,
-      "description": "EOG Resources ist ein Unternehmen aus den Vereinigten Staaten mit Sitz in Houston, Texas. EOG stand ursprünglich für Enron Oil & Gas. Das Unternehmen ist im Aktienindex S&P 500…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "KVUE",
-      "name": "Kenvue",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 15.77,
-      "description": "Kenvue, Inc. ist ein US-amerikanischer Konsumgüterkonzern mit Hauptsitz in Skillman, New Jersey, USA. Das Unternehmen ging aus dem 2023 erfolgten Spin-off (Abspaltung) der Sparte…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "P",
       "name": "Everpure",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 114.53,
       "description": "Everpure, Inc. is an American publicly traded technology company headquartered in Santa Clara, California, United States. While the company originally focused on developing…",
       "politician": null,
@@ -570,7 +465,111 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PFG",
+      "name": "Principal Financial Group",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 100.37,
+      "description": "Die Principal Financial Group ist ein US-amerikanisches börsennotiertes multinationales Finanzinvestitionsmanagement- und Versicherungsunternehmen mit Hauptsitz in Des Moines…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "15Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "AFL",
+      "name": "Aflac",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 100.1,
+      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "ANET",
+      "name": "Arista Networks",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 178.65,
+      "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -790,7 +789,7 @@
       "score": 0,
       "reaction": -13.8,
       "priceEur": 34.03,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -834,7 +833,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": false
