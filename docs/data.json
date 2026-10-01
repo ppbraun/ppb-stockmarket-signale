@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:04:37.981873+00:00",
+  "generated_at": "2026-10-01T08:34:58.436922+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -164,41 +164,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "COST",
-      "name": "Costco",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 801.71,
-      "description": "Die Costco Wholesale Corporation ist eine US-amerikanische Warenhauskette für zahlende Mitglieder mit Hauptsitz in Issaquah bei Seattle, Bundesstaat Washington. Das Unternehmen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "16Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "BNY",
       "name": "BNY Mellon",
       "broker": true,
@@ -255,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -325,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -360,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -395,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -430,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -484,7 +449,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 162.08,
       "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
       "politician": null,
@@ -500,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -514,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "WELL",
-      "name": "Welltower",
+      "tk": "MPWR",
+      "name": "Monolithic Power Systems",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 202.77,
-      "description": "Welltower Inc. ist ein börsennotierter Real-Estate-Investment-Trust (REIT), der sich auf Gesundheitseinrichtungen, insbesondere Seniorenwohnanlagen, Einrichtungen für post-akute…",
+      "priceEur": 1186.46,
+      "description": "Monolithic Power Systems, Inc. (MPS) ist ein US-amerikanischer fabless Halbleiterhersteller, der Integrierte Schaltkreise für Systeme bereitstellt, die in Cloud-Computing,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -534,7 +499,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -543,19 +509,19 @@
           "active": false
         }
       },
-      "topic": "Real Estate",
+      "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "HAL",
-      "name": "Halliburton",
+      "tk": "WDAY",
+      "name": "Workday, Inc.",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 28.01,
-      "description": "Halliburton ist ein international agierender Konzern und führender Anbieter von technischen Dienstleistungen, Wartungsdiensten, Planungs- und Entwicklungsservices sowie Zulieferer…",
+      "priceEur": 167.73,
+      "description": "Workday, Inc., is an American cloud-based provider of financial management, human capital management, and student information system software. The company was founded by former…",
       "politician": null,
       "track": null,
       "sig": {
@@ -568,7 +534,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "19Std"
         },
         "predict": {
           "active": false
@@ -577,11 +544,44 @@
           "active": false
         }
       },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "XEL",
+      "name": "Xcel Energy",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 62.07,
+      "description": "Xcel Energy ist ein US-amerikanisches Unternehmen mit Firmensitz in Minneapolis, Minnesota. Das Unternehmen ist im Aktienindex S&P 500 gelistet. Das Unternehmen entstand 1998 aus…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "20Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Utilities",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -605,7 +605,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
