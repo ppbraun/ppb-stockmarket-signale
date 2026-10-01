@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-01T13:34:32.446109+00:00",
+  "generated_at": "2026-10-01T14:04:33.756471+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 5,
+      "vol": 4,
       "pct": 100
     },
     {
       "topic": "Fed-Zinspolitik",
       "vol": 2,
-      "pct": 40
+      "pct": 50
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -65,7 +65,7 @@
       "market": "us",
       "score": 3,
       "reaction": 6.6,
-      "priceEur": 290.35,
+      "priceEur": 291.81,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.1,
-      "priceEur": 1011.13,
+      "reaction": -0.2,
+      "priceEur": 1014.9,
       "description": null,
       "politician": null,
       "track": null,
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.1,
-      "priceEur": 141.31,
+      "reaction": -0.3,
+      "priceEur": 141.79,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.3,
-      "priceEur": 126.96,
+      "reaction": -1.7,
+      "priceEur": 125.82,
       "description": "The Bank of New York Mellon Corporation ist ein weltweit tätiger Finanzdienstleister, der am 1. Juli 2007 aus der Bank of New York und der Mellon Financial Corporation entstand.…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "23Std"
         },
         "predict": {
           "active": true
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.4,
-      "priceEur": 54.47,
+      "reaction": -3.6,
+      "priceEur": 53.01,
       "description": "Die Centene Corporation ist ein US-amerikanischer Anbieter von Versicherungsleistungen im Gesundheitswesen. Das Unternehmen spezialisiert sich auf Medicaid- und…",
       "politician": null,
       "track": null,
@@ -234,118 +234,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "META",
-      "name": "Meta Platforms",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.7,
-      "priceEur": 643.37,
-      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CRWD",
-      "name": "CrowdStrike",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.5,
-      "priceEur": 232.01,
-      "description": "CrowdStrike Holdings, Inc. is an American cybersecurity technology company based in Austin, Texas. It provides endpoint security, threat intelligence, and cyberattack response…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "HSY",
-      "name": "Hershey Company (The)",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.2,
-      "priceEur": 138.49,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "22Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "COST",
       "name": "Costco",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 800.85,
+      "reaction": -0.5,
+      "priceEur": 801.96,
       "description": "Die Costco Wholesale Corporation ist eine US-amerikanische Warenhauskette für zahlende Mitglieder mit Hauptsitz in Issaquah bei Seattle, Bundesstaat Washington. Das Unternehmen…",
       "politician": null,
       "track": null,
@@ -379,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.8,
-      "priceEur": 862.36,
+      "reaction": 3.9,
+      "priceEur": 893.26,
       "description": "Die Lumentum Holdings Inc. ist ein US-amerikanisches Technologieunternehmen mit Hauptsitz in San Jose im Bundesstaat Kalifornien. Das Unternehmen ist auf die Entwicklung und…",
       "politician": null,
       "track": null,
@@ -414,8 +309,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.2,
-      "priceEur": 162.02,
+      "reaction": 0.0,
+      "priceEur": 162.48,
       "description": "DoorDash Inc. ist ein US-amerikanischer On-Demand-Lieferservice, der Mahlzeiten von Restaurants an Verbraucher liefert. Die Fahrer des Lieferservices, Dasher genannt, nutzen dabei…",
       "politician": null,
       "track": null,
@@ -449,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.9,
-      "priceEur": 170.86,
+      "reaction": 0.4,
+      "priceEur": 169.25,
       "description": "Workday, Inc., is an American cloud-based provider of financial management, human capital management, and student information system software. The company was founded by former…",
       "politician": null,
       "track": null,
@@ -484,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 99.73,
+      "reaction": -0.4,
+      "priceEur": 99.81,
       "description": "Duke Energy ist ein US-amerikanisches Energieversorger mit Sitz in Charlotte, North Carolina. Das Unternehmen ist im Aktienindex S&P 500 und im Dow Jones Utility Average gelistet.",
       "politician": null,
       "track": null,
@@ -519,8 +414,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 884.93,
+      "reaction": -1.4,
+      "priceEur": 877.14,
       "description": "United Rentals ist ein US-amerikanisches Unternehmen und gehört zu den größten Vermietern von Investitionsgütern in den Vereinigten Staaten. Das angebotene Equipment umfasst Hebe-…",
       "politician": null,
       "track": null,
@@ -554,9 +449,79 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 249.26,
+      "reaction": 0.1,
+      "priceEur": 250.77,
       "description": "Verisign ist ein US-amerikanisches Unternehmen mit Sitz in Reston, Virginia.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "20Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "LEN",
+      "name": "Lennar",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 70.58,
+      "description": "Lennar ist ein US-amerikanisches Bauunternehmen, das sich auf den Bau von privaten Eigenheimen spezialisiert hat.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "14Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "BX",
+      "name": "Blackstone Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 98.63,
+      "description": "Blackstone Inc. is an American alternative investment management company based in New York City. It was founded in 1985 as a mergers and acquisitions firm by Peter Peterson and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -579,9 +544,43 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "DXCM",
+      "name": "Dexcom",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 77.01,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BABA",
@@ -589,8 +588,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -12.4,
-      "priceEur": 96.25,
+      "reaction": -12.9,
+      "priceEur": 96.16,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -605,7 +604,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -624,7 +623,7 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -5.9,
+      "reaction": -6.4,
       "priceEur": 23.62,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
@@ -658,8 +657,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -9.7,
-      "priceEur": 69.17,
+      "reaction": -11.0,
+      "priceEur": 68.49,
       "description": null,
       "politician": null,
       "track": null,
@@ -690,8 +689,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -15.8,
-      "priceEur": 77.24,
+      "reaction": -16.3,
+      "priceEur": 77.14,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -722,8 +721,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -25.0,
-      "priceEur": 3.04,
+      "reaction": -26.1,
+      "priceEur": 3.01,
       "description": null,
       "politician": null,
       "track": null,
@@ -736,7 +735,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -755,8 +754,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -8.0,
-      "priceEur": 10.06,
+      "reaction": -9.4,
+      "priceEur": 9.95,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -769,7 +768,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -788,8 +787,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -12.0,
-      "priceEur": 34.74,
+      "reaction": -12.9,
+      "priceEur": 34.59,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -820,8 +819,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -2.0,
-      "priceEur": 107.32,
+      "reaction": -2.2,
+      "priceEur": 107.7,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
