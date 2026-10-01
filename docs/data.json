@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:04:50.327283+00:00",
+  "generated_at": "2026-10-01T12:34:30.233832+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -232,111 +232,6 @@
       "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "BRK.B",
-      "name": "Berkshire Hathaway",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": null,
-      "description": "Berkshire Hathaway Inc. [ˈbɜːrkʃər ˈhæθəweɪ] ist eine 1955 gegründete US-amerikanische Holdinggesellschaft mit Sitz in Omaha, Nebraska, zu deren Konglomerat über 80 Unternehmen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "5Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "PAYX",
-      "name": "Paychex",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 86.75,
-      "description": "Paychex, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in Rochester, New York.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "22Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "DASH",
-      "name": "DoorDash",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 161.65,
-      "description": "DoorDash Inc. ist ein US-amerikanischer On-Demand-Lieferservice, der Mahlzeiten von Restaurants an Verbraucher liefert. Die Fahrer des Lieferservices, Dasher genannt, nutzen dabei…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "6Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "VRSN",
@@ -395,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -484,7 +379,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 98.71,
       "description": "Blackstone Inc. is an American alternative investment management company based in New York City. It was founded in 1985 as a mergers and acquisitions firm by Peter Peterson and…",
       "politician": null,
@@ -500,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -519,7 +414,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 638.64,
       "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
@@ -535,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -554,7 +449,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 233.16,
       "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
       "politician": null,
@@ -570,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -580,6 +475,112 @@
         }
       },
       "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "HAL",
+      "name": "Halliburton",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 28.01,
+      "description": "Halliburton ist ein international agierender Konzern und führender Anbieter von technischen Dienstleistungen, Wartungsdiensten, Planungs- und Entwicklungsservices sowie Zulieferer…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "HSY",
+      "name": "Hershey Company (The)",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 138.8,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "21Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "COST",
+      "name": "Costco",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 801.71,
+      "description": "Die Costco Wholesale Corporation ist eine US-amerikanische Warenhauskette für zahlende Mitglieder mit Hauptsitz in Issaquah bei Seattle, Bundesstaat Washington. Das Unternehmen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "21Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -605,7 +606,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
