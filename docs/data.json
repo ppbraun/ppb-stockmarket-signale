@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:04:43.710200+00:00",
+  "generated_at": "2026-10-02T16:28:53.816923+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 7.5,
-      "priceEur": 296.32,
+      "reaction": 7.6,
+      "priceEur": 296.51,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.7,
-      "priceEur": 1016.84,
+      "reaction": -0.8,
+      "priceEur": 1015.92,
       "description": null,
       "politician": null,
       "track": null,
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.8,
-      "priceEur": 145.72,
+      "reaction": 1.6,
+      "priceEur": 145.38,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -170,7 +170,7 @@
       "market": "us",
       "score": 3,
       "reaction": 0.1,
-      "priceEur": 128.96,
+      "priceEur": 128.94,
       "description": "The Bank of New York Mellon Corporation ist ein weltweit tätiger Finanzdienstleister, der am 1. Juli 2007 aus der Bank of New York und der Mellon Financial Corporation entstand.…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.1,
-      "priceEur": 55.41,
+      "reaction": 0.5,
+      "priceEur": 55.6,
       "description": "Die Centene Corporation ist ein US-amerikanischer Anbieter von Versicherungsleistungen im Gesundheitswesen. Das Unternehmen spezialisiert sich auf Medicaid- und…",
       "politician": null,
       "track": null,
@@ -240,7 +240,7 @@
       "market": "us",
       "score": 3,
       "reaction": -0.0,
-      "priceEur": 27.57,
+      "priceEur": 27.56,
       "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -274,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 3.7,
-      "priceEur": 64.02,
+      "reaction": 3.6,
+      "priceEur": 63.96,
       "description": "Freeport-McMoRan Inc. ist ein US-amerikanisches Unternehmen der Bergbauindustrie. Der Firmensitz befindet sich in Phoenix. Die Freeport-Aktie wird seit 1988 an der New Yorker…",
       "politician": null,
       "track": null,
@@ -304,118 +304,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "FRT",
-      "name": "Federal Realty Investment Trust",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.3,
-      "priceEur": 95.22,
-      "description": "Federal Realty Investment Trust is a real estate investment trust that invests in shopping centers in the Northeastern United States, the Mid-Atlantic states, California, and…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "JPM",
-      "name": "JPMorgan Chase",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.1,
-      "priceEur": 295.09,
-      "description": "Die JPMorgan Chase & Co. ist eine US-amerikanische Bank mit Sitz in New York City. Mit einer Bilanzsumme von über 2.600 Mrd. US-Dollar ist sie die größte Bank der USA und laut…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "URI",
-      "name": "United Rentals",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.7,
-      "priceEur": 955.54,
-      "description": "United Rentals ist ein US-amerikanisches Unternehmen und gehört zu den größten Vermietern von Investitionsgütern in den Vereinigten Staaten. Das angebotene Equipment umfasst Hebe-…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "TPL",
       "name": "Texas Pacific Land Corporation",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": 0.4,
-      "priceEur": 301.49,
+      "priceEur": 301.29,
       "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
       "politician": null,
       "track": null,
@@ -449,43 +344,8 @@
       "market": "us",
       "score": 2,
       "reaction": 0.3,
-      "priceEur": 66.46,
+      "priceEur": 66.44,
       "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "NOC",
-      "name": "Northrop Grumman",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 426.7,
-      "description": "Die Northrop Grumman Corporation (NG) ist einer der größten US-amerikanischen Rüstungshersteller von Wehrtechnik für die Schiff-, Luft- und Raumfahrt sowie Informationstechnologie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -508,6 +368,41 @@
           "active": false
         }
       },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NOC",
+      "name": "Northrop Grumman",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -0.1,
+      "priceEur": 426.13,
+      "description": "Die Northrop Grumman Corporation (NG) ist einer der größten US-amerikanischen Rüstungshersteller von Wehrtechnik für die Schiff-, Luft- und Raumfahrt sowie Informationstechnologie…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
       "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
@@ -518,8 +413,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 245.16,
+      "reaction": 0.2,
+      "priceEur": 245.55,
       "description": "Marvell Technology Group ist ein US-amerikanischer fabless Hersteller von Speicher-, Telekommunikations- und Halbleiter-Produkten.",
       "politician": null,
       "track": null,
@@ -534,7 +429,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -553,8 +448,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 161.96,
+      "reaction": -0.2,
+      "priceEur": 161.67,
       "description": "Lowe’s ist ein amerikanisches Einzelhandelsunternehmen mit Firmensitz in Mooresville, Iredell County, North Carolina. Der Schwerpunkt der Geschäftstätigkeit liegt bei…",
       "politician": null,
       "track": null,
@@ -569,7 +464,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -583,13 +478,119 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "LMT",
+      "name": "Lockheed Martin",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 449.23,
+      "description": "Die Lockheed Martin Corporation [ˌlɔkʰidˈmɑɹtn̩] ist ein US-amerikanischer Rüstungs- und Technologiekonzern, der vor allem in der militärischen sowie zivilen Luftfahrt als auch in…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [
+        "Rüstung"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ERIE",
+      "name": "Erie Indemnity",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 195.09,
+      "description": "Erie Insurance Group, based in Erie, Pennsylvania, is a property and casualty insurance company offering auto, home, business and life insurance through a network of independent…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "ORCL",
+      "name": "Oracle Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 125.72,
+      "description": "Oracle Corporation [ˈɔːɹəkl̩ ˌkɔːɹpəˈɹeɪʃn̩] ist ein US-amerikanischer Soft- und Hardwarehersteller mit Hauptsitz in Austin, Texas. Das Unternehmen ist spezialisiert auf die…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -15.6,
-      "priceEur": 93.82,
+      "reaction": -15.4,
+      "priceEur": 93.98,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -623,8 +624,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -9.6,
-      "priceEur": 22.95,
+      "reaction": -9.7,
+      "priceEur": 22.92,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -658,7 +659,7 @@
       "market": "cn",
       "score": 1,
       "reaction": -13.6,
-      "priceEur": 66.95,
+      "priceEur": 66.92,
       "description": null,
       "politician": null,
       "track": null,
@@ -691,7 +692,7 @@
       "market": "cn",
       "score": 1,
       "reaction": -19.2,
-      "priceEur": 74.98,
+      "priceEur": 74.97,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -736,7 +737,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": false
@@ -755,8 +756,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -13.8,
-      "priceEur": 9.53,
+      "reaction": -14.1,
+      "priceEur": 9.5,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -769,7 +770,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": false
@@ -788,8 +789,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -15.1,
-      "priceEur": 33.91,
+      "reaction": -15.2,
+      "priceEur": 33.89,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -820,8 +821,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -6.0,
-      "priceEur": 104.16,
+      "reaction": -6.1,
+      "priceEur": 104.11,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
