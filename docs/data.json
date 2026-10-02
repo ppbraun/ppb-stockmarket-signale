@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T13:34:29.575287+00:00",
+  "generated_at": "2026-10-02T14:04:44.132712+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 7.3,
-      "priceEur": 293.81,
+      "reaction": 7.4,
+      "priceEur": 295.86,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.3,
-      "priceEur": 1020.51,
+      "reaction": 0.5,
+      "priceEur": 1028.8,
       "description": null,
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.2,
-      "priceEur": 145.31,
+      "reaction": 1.9,
+      "priceEur": 145.85,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.2,
-      "priceEur": 128.28,
+      "reaction": -0.5,
+      "priceEur": 128.21,
       "description": "The Bank of New York Mellon Corporation ist ein weltweit tätiger Finanzdienstleister, der am 1. Juli 2007 aus der Bank of New York und der Mellon Financial Corporation entstand.…",
       "politician": null,
       "track": null,
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.1,
-      "priceEur": 53.81,
+      "reaction": -0.6,
+      "priceEur": 55.02,
       "description": "Die Centene Corporation ist ein US-amerikanischer Anbieter von Versicherungsleistungen im Gesundheitswesen. Das Unternehmen spezialisiert sich auf Medicaid- und…",
       "politician": null,
       "track": null,
@@ -239,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 27.39,
+      "reaction": -0.0,
+      "priceEur": 27.57,
       "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
@@ -274,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.7,
-      "priceEur": 62.34,
+      "reaction": 4.4,
+      "priceEur": 64.46,
       "description": "Freeport-McMoRan Inc. ist ein US-amerikanisches Unternehmen der Bergbauindustrie. Der Firmensitz befindet sich in Phoenix. Die Freeport-Aktie wird seit 1988 an der New Yorker…",
       "politician": null,
       "track": null,
@@ -304,83 +304,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "FISV",
-      "name": "Fiserv",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.7,
-      "priceEur": 39.9,
-      "description": "Fiserv, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in Brookfield, Wisconsin. Fiserv bietet Zahlungsverkehrs-Dienstleistungen und Software für Banken, die Finanz- und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "17Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "FTNT",
-      "name": "Fortinet",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 1.9,
-      "priceEur": 161.2,
-      "description": "Fortinet ist ein US-amerikanisches multinationales Unternehmen mit Sitz in Sunnyvale (Kalifornien). Das Unternehmen entwickelt und vertreibt Software, Appliances und Dienste auf…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "TPL",
       "name": "Texas Pacific Land Corporation",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.2,
-      "priceEur": 298.55,
+      "reaction": 0.4,
+      "priceEur": 300.82,
       "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
       "politician": null,
       "track": null,
@@ -413,8 +343,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.2,
-      "priceEur": 267.82,
+      "reaction": -0.3,
+      "priceEur": 268.25,
       "description": "Die American Express Company, abgekürzt oft Amex, AmEx, AX oder Amexco, ist ein US-amerikanischer weltweiter Anbieter von Finanzdienstleistungen. Der Firmensitz befindet sich im…",
       "politician": null,
       "track": null,
@@ -448,8 +378,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 2.1,
-      "priceEur": 358.17,
+      "reaction": 2.3,
+      "priceEur": 361.02,
       "description": "Palo Alto Networks, Inc. ist ein amerikanisches multinationales IT-Sicherheitsunternehmen mit Hauptsitz in Santa Clara, Kalifornien. Seine Kernprodukte sind eine Plattform, die…",
       "politician": null,
       "track": null,
@@ -483,8 +413,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 10.98,
+      "reaction": 0.2,
+      "priceEur": 11.07,
       "description": "Pacific Gas and Electric Company (PG&E) is an American investor-owned utility (IOU). The company is headquartered at Kaiser Center, in Oakland, California. PG&E provides natural…",
       "politician": null,
       "track": null,
@@ -513,14 +443,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "PPG",
-      "name": "PPG Industries",
+      "tk": "RDDT",
+      "name": "Reddit",
       "broker": true,
       "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 93.28,
-      "description": "PPG Industries ist ein US-amerikanischer Hersteller von Kunstglas- und Chemieprodukten mit Sitz in Pittsburgh, Pennsylvania im Hochhaus PPG Place. Das Unternehmen ist im S&P 500…",
+      "score": 2,
+      "reaction": -1.9,
+      "priceEur": 130.78,
+      "description": "Reddit ist ein Internetforum und Social-News-Aggregator. Auf der Social-Media-Website (Online-Community) können registrierte Benutzer Inhalte einstellen und mit anderen Nutzern…",
       "politician": null,
       "track": null,
       "sig": {
@@ -533,7 +463,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -542,19 +473,19 @@
           "active": false
         }
       },
-      "topic": "Materials",
+      "topic": "Communication Services",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "RDDT",
-      "name": "Reddit",
+      "tk": "PFE",
+      "name": "Pfizer",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 132.43,
-      "description": "Reddit ist ein Internetforum und Social-News-Aggregator. Auf der Social-Media-Website (Online-Community) können registrierte Benutzer Inhalte einstellen und mit anderen Nutzern…",
+      "priceEur": 24.88,
+      "description": "Pfizer Inc. ist ein US-amerikanischer, international aufgestellter und börsennotierter Pharma- und Biotechnologiekonzern mit Hauptsitz in New York. Pfizer war 2025 mit 62,6 Mrd.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -577,7 +508,77 @@
           "active": false
         }
       },
-      "topic": "Communication Services",
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "HII",
+      "name": "Huntington Ingalls Industries",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 241.68,
+      "description": "Huntington Ingalls Industries, Inc. (HII) ist eine US-amerikanische Werftengruppe, die am 31. März 2011 aus ihrem Mutterkonzern Northrop Grumman ausgegründet wurde.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MRVL",
+      "name": "Marvell Technology",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 247.97,
+      "description": "Marvell Technology Group ist ein US-amerikanischer fabless Hersteller von Speicher-, Telekommunikations- und Halbleiter-Produkten.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -587,8 +588,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -14.8,
-      "priceEur": 94.09,
+      "reaction": -15.0,
+      "priceEur": 94.47,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -622,8 +623,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -8.7,
-      "priceEur": 23.02,
+      "reaction": -8.8,
+      "priceEur": 23.16,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -656,8 +657,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -13.1,
-      "priceEur": 66.87,
+      "reaction": -13.2,
+      "priceEur": 67.21,
       "description": null,
       "politician": null,
       "track": null,
@@ -689,7 +690,7 @@
       "market": "cn",
       "score": 1,
       "reaction": -18.3,
-      "priceEur": 75.26,
+      "priceEur": 75.76,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -720,7 +721,7 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -25.6,
+      "reaction": -26.0,
       "priceEur": 3.03,
       "description": null,
       "politician": null,
@@ -753,8 +754,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -13.0,
-      "priceEur": 9.55,
+      "reaction": -13.3,
+      "priceEur": 9.59,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -786,8 +787,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -14.8,
-      "priceEur": 33.82,
+      "reaction": -14.6,
+      "priceEur": 34.11,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -818,8 +819,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -5.1,
-      "priceEur": 104.49,
+      "reaction": -5.2,
+      "priceEur": 105.03,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
