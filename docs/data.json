@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:04:31.050726+00:00",
+  "generated_at": "2026-10-03T18:30:22.379902+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -465,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -479,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "HUM",
-      "name": "Humana",
+      "tk": "HAS",
+      "name": "Hasbro",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 345.98,
-      "description": "Humana ist der Name bzw. Namensbestandteil der UnternehmenHumana Milchunion, deutsche Molkerei Humana (Unternehmen), Hersteller von Babynahrung, Tochtergesellschaft der Humana…",
+      "priceEur": 79.77,
+      "description": "Hasbro ist ein US-amerikanischer Spielwarenhersteller mit Sitz in Pawtucket, Rhode Island in den USA. Die Firmenbezeichnung setzt sich als Akronym zusammen aus den Namen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -500,7 +500,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -509,19 +509,19 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Consumer Discretionary",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "UAL",
-      "name": "United Airlines Holdings",
+      "tk": "ROK",
+      "name": "Rockwell Automation",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 100.23,
-      "description": null,
+      "priceEur": 404.77,
+      "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -534,8 +534,41 @@
           "src": "SEC"
         },
         "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "AXON",
+      "name": "Axon Enterprise",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 368.24,
+      "description": "Axon Enterprise, Inc. ist unter anderem der Hersteller der Elektroschockpistole Taser, sowie auch von sogenannten Bodycams unter dem Markennamen Axon. Das Unternehmen hat seinen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
           "active": true,
-          "age": "1T"
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
         },
         "predict": {
           "active": false
@@ -545,41 +578,9 @@
         }
       },
       "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ZBH",
-      "name": "Zimmer Biomet",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 78.65,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
+      "ethics": [
+        "Rüstung"
+      ],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
@@ -604,7 +605,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
