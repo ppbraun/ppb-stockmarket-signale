@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-03T11:34:12.574840+00:00",
+  "generated_at": "2026-10-03T12:04:39.577475+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 3,
+      "vol": 4,
       "pct": 100
     },
     {
       "topic": "Fed-Zinspolitik",
       "vol": 1,
-      "pct": 33
+      "pct": 25
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 1,
-      "pct": 33
+      "pct": 25
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -325,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -346,7 +346,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 59.74,
-      "description": "Netflix is an American subscription video on-demand over-the-top streaming television service. The service primarily distributes original and acquired films and television shows…",
+      "description": "Netflix, Inc. ist ein US-amerikanisches Medienunternehmen, das sich mit dem kostenpflichtigen Streaming und der Produktion von Filmen und Serien beschäftigt.",
       "politician": null,
       "track": null,
       "sig": {
@@ -381,42 +381,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 42.2,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "13Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "ABT",
-      "name": "Abbott Laboratories",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 86.86,
-      "description": "Abbott Laboratories ist ein weltweit operierender, als Standardwert geltender und im S&P 100 als auch im Dow Jones Global Titans 50 gelisteter US-amerikanischer Pharmakonzern mit…",
+      "description": "Alexandria Real Estate Equities, Inc. is a real estate investment trust based in Pasadena, California that invests in office buildings and laboratories leased to tenants in the…",
       "politician": null,
       "track": null,
       "sig": {
@@ -433,84 +398,15 @@
           "age": "14Std"
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Real Estate",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "GILD",
-      "name": "Gilead Sciences",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 128.94,
-      "description": "Gilead Sciences, Inc. ist ein Pharmazie- und Biotechnologieunternehmen aus den Vereinigten Staaten mit Sitz in Foster City, Kalifornien. Das Unternehmen ist im S&P 500 gelistet.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "15Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "PCG",
-      "name": "PG&E Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 10.98,
-      "description": "Pacific Gas and Electric Company (PG&E) is an American investor-owned utility (IOU). The company is headquartered at Kaiser Center, in Oakland, California. PG&E provides natural…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "DIS",
@@ -518,7 +414,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 91.04,
       "description": null,
       "politician": null,
@@ -534,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -555,7 +451,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 275.78,
       "description": "GE Aerospace ist ein Hersteller von Flugzeug-Turbinen-Strahltriebwerken. Neben Flugzeugturbinen werden auch Strahltriebwerke für andere Anwendungen, zum Beispiel für…",
       "politician": null,
@@ -581,6 +477,111 @@
         }
       },
       "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "EFX",
+      "name": "Equifax",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 124.72,
+      "description": "Equifax ist ein 1899 gegründetes US-amerikanisches Finanzdienstleistungsunternehmen mit Hauptsitz in Atlanta im Bundesstaat Georgia. Das Unternehmen ist vor Experian und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "12Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "KKR",
+      "name": "KKR & Co.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 80.44,
+      "description": "KKR & Co. Inc. mit Sitz in New York City ist eine börsennotierte Beteiligungsgesellschaft. Gegründet wurde KKR 1976 von Jerome Kohlberg, Jr., Henry Kravis und George R. Roberts.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "18Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NTRS",
+      "name": "Northern Trust",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 152.7,
+      "description": "Northern Trust ist ein Finanzdienstleister aus den Vereinigten Staaten mit Sitz in Chicago, Illinois. Es hat sich auf Unternehmen, institutionelle Anleger und sehr vermögende…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -627,7 +628,7 @@
       "score": 3,
       "reaction": -9.5,
       "priceEur": 22.97,
-      "description": null,
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -674,7 +675,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -740,7 +741,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "23Std"
         },
         "predict": {
           "active": false
