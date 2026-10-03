@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:30:22.379902+00:00",
+  "generated_at": "2026-10-03T18:34:15.342345+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -325,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -346,7 +346,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 59.74,
-      "description": "Netflix, Inc. ist ein US-amerikanisches Medienunternehmen, das sich mit dem kostenpflichtigen Streaming und der Produktion von Filmen und Serien beschäftigt.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -430,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -479,14 +479,49 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "HAS",
-      "name": "Hasbro",
+      "tk": "CARR",
+      "name": "Carrier Global",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 79.77,
-      "description": "Hasbro ist ein US-amerikanischer Spielwarenhersteller mit Sitz in Pawtucket, Rhode Island in den USA. Die Firmenbezeichnung setzt sich als Akronym zusammen aus den Namen…",
+      "priceEur": 49.1,
+      "description": "Carrier Global Corporation is an American multinational heating, ventilation, and air conditioning (HVAC), refrigeration, and fire and security equipment corporation based in Palm…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 303.21,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -509,19 +544,19 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "ROK",
-      "name": "Rockwell Automation",
+      "tk": "C",
+      "name": "Citigroup",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 404.77,
-      "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
+      "priceEur": 114.48,
+      "description": "Die Citigroup Inc. ist ein Finanzdienstleister mit Hauptsitz in New York, der im Oktober 1998 durch die Fusion der Citicorp und der Travelers Group entstand. Im Zuge der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -534,54 +569,19 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "2Std"
         },
         "predict": {
-          "active": true
+          "active": false
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "AXON",
-      "name": "Axon Enterprise",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 368.24,
-      "description": "Axon Enterprise, Inc. ist unter anderem der Hersteller der Elektroschockpistole Taser, sowie auch von sogenannten Bodycams unter dem Markennamen Axon. Das Unternehmen hat seinen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [
-        "Rüstung"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -825,7 +825,7 @@
       "score": 0,
       "reaction": -5.8,
       "priceEur": 104.42,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
       "sig": {
