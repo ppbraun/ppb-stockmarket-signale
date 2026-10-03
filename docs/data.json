@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:34:16.636530+00:00",
+  "generated_at": "2026-10-03T18:04:31.050726+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -360,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -395,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -479,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "SNDK",
-      "name": "Sandisk",
+      "tk": "HUM",
+      "name": "Humana",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 1532.29,
-      "description": "SanDisk ist ein multinationales Unternehmen mit Sitz in Milpitas, Kalifornien, das Flash-Speicher-Produkte wie Speicherkarten, USB-Sticks und Solid-State-Drives herstellt. 2016…",
+      "priceEur": 345.98,
+      "description": "Humana ist der Name bzw. Namensbestandteil der UnternehmenHumana Milchunion, deutsche Molkerei Humana (Unternehmen), Hersteller von Babynahrung, Tochtergesellschaft der Humana…",
       "politician": null,
       "track": null,
       "sig": {
@@ -500,7 +500,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -509,19 +509,54 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VTRS",
-      "name": "Viatris",
+      "tk": "UAL",
+      "name": "United Airlines Holdings",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 100.23,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ZBH",
+      "name": "Zimmer Biomet",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 15.68,
-      "description": "Viatris ist ein US-amerikanisches Arzneimittelunternehmen mit Hauptsitz in Delaware in den Vereinigten Staaten.",
+      "priceEur": 78.65,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -546,41 +581,6 @@
       "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 61.76,
-      "description": "Hewlett Packard Enterprise (HPE) ist ein US-amerikanisches Informationstechnikunternehmen mit Sitz in Spring im Bundesstaat Texas. Es entstand im Zuge der Abspaltung des…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
