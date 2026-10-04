@@ -1,6 +1,68 @@
 {
  "candidates": {},
- "db": {},
+ "db": {
+  "current": {},
+  "done": [
+   "HELIOS SOLAR AG|28.07.2026",
+   "SMAG Mobile Antenna Masts AG|13.07.2026",
+   "PEH WERTPAPIER AG|29.06.2026",
+   "ELECTROVAC AG|30.04.2026",
+   "Gabler Group AG|09.03.2026",
+   "Sirma Group Holding|24.02.2026",
+   "Vincorion SE|20.02.2026",
+   "ASTA Energy Solutions AG|30.01.2026",
+   "Ottobock SE & Co. KGaA|09.10.2025",
+   "AUMOVIO SE|18.09.2025",
+   "PLANOPTIK AG|23.05.2025",
+   "UmweltBank AG|25.08.2025",
+   "innoscripta SE|23.05.2025",
+   "TIN INN Holding AG|19.05.2025",
+   "PFISTERER Holding SE|14.05.2025",
+   "Steyr Motors AG|30.10.2024",
+   "Eleving Group S.A.|16.10.2024",
+   "Springer Nature AG & Co. KGaA|04.10.2024",
+   "Pentixapharm Holding AG|03.10.2024",
+   "Douglas AG|21.03.2024",
+   "RENK Group AG|07.02.2024",
+   "RIGSAVE S.P.A.|18.12.2023",
+   "BigRep SE|31.10.2023",
+   "SCHOTT PHARMA INH O.N.|28.09.2023",
+   "thyssenkrupp nucera AG & Co. KGaA|07.07.2023",
+   "ParTec AG|03.07.2023",
+   "IONOS Group SE|08.02.2023",
+   "Cantourage Group SE|11.11.2022",
+   "Porsche AG|29.09.2022",
+   "SMG European Recovery SPAC SE|01.06.2022",
+   "EV Digital Invest AG|03.05.2022",
+   "beaconsmind AG|13.04.2022",
+   "Pyrum Innovations AG|30.03.2022",
+   "Advanced Blockchain AG|03.03.2022",
+   "Vulcan Energy Resources|15.02.2022",
+   "Marley Spoon Group SE|20.01.2022",
+   "Daimler Truck Holding AG|10.12.2021",
+   "Allterco JSCo|22.11.2021",
+   "Veganz Group AG|10.11.2021",
+   "GFJ ESG Acquisition I SE|19.10.2021",
+   "HomeToGo SE|22.09.2021",
+   "Vitesco Technologies Group|16.09.2021",
+   "Novem Group S.A.|19.07.2021",
+   "Mister Spex SE|02.07.2021",
+   "Cherry AG|29.06.2021",
+   "Bike24 AG|25.06.2021",
+   "ABOUT YOU Holding AG|16.06.2021",
+   "hGears AG|21.05.2021",
+   "Linus Digital Finance AG|19.05.2021",
+   "SUSE S.A.|19.05.2021",
+   "Apontis Pharma AG|11.05.2021",
+   "OboTech Acquisition SE|04.05.2021",
+   "KATEK SE|04.05.2021",
+   "468 SPAC I SE|30.04.2021",
+   "SYNLAB AG|30.04.2021",
+   "Friedrich Vorwerk Group SE|25.03.2021",
+   "Vantage Towers AG|18.03.2021",
+   "AUTO1 Group SE|04.02.2021"
+  ]
+ },
  "deals": {
   "nasdaq:chilwa minerals": {
    "exp": null,
@@ -11,12 +73,13 @@
   }
  },
  "fails": {
-  "db": 2,
-  "de": 1,
+  "db": 0,
+  "de": 0,
   "edgar": 0,
   "nasdaq": 0
  },
  "init": {
+  "db": true,
   "de": true,
   "edgar": true,
   "nasdaq": true
@@ -54,6 +117,7 @@
   "edgar:0001999371-26-022017:0002109686": "2026-10-04T16:23:30+00:00"
  },
  "warned": {
+  "db": false,
   "de": false,
   "edgar": false,
   "nasdaq": false
