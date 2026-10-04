@@ -111,6 +111,42 @@ def http_get(url, headers=None, timeout=30):
     return r
 
 
+BROWSER_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
+}
+
+
+def fetch_html(url):
+    """Erst mit Chrome-Fingerabdruck, sonst normal. Gibt (Text, Weg) zurück."""
+    try:
+        from curl_cffi import requests as cffi
+
+        r = cffi.get(url, headers=BROWSER_HEADERS, impersonate="chrome", timeout=30)
+        if r.status_code == 200 and r.text:
+            return r.text, "curl_cffi"
+    except Exception as exc:
+        print(f"curl_cffi-Abruf fehlgeschlagen: {exc}", file=sys.stderr)
+    r = requests.get(url, headers=BROWSER_HEADERS, timeout=30)
+    r.raise_for_status()
+    return r.text, "requests"
+
+
+def describe_page(html, via):
+    """Kurzbeschreibung einer Seite für das Fehlerprotokoll."""
+    soup = BeautifulSoup(html, "html.parser")
+    title = soup.title.get_text(" ", strip=True)[:60] if soup.title else "ohne Titel"
+    return (
+        f"Abruf über {via}, {len(html)} Zeichen, Titel '{title}', "
+        f"{len(soup.find_all('script'))} Skripte, {len(soup.find_all('table'))} Tabellen, "
+        f"'Neuemissionen' {'enthalten' if 'neuemissionen' in html.lower() else 'nicht enthalten'}"
+    )
+
+
 def sec_headers():
     ua = os.environ.get("SEC_UA", "").strip()
     if not ua:
@@ -373,6 +409,7 @@ def poll_edgar(state):
         state["init"]["edgar"] = True
         return [
             f"{PREFIX} EDGAR-Überwachung gestartet. {len(new)} aktuelle Einträge "
+            f"aus {len(EDGAR_FORMS) - len(problems)} von {len(EDGAR_FORMS)} Feeds "
             "wurden als Ausgangsbasis übernommen, gemeldet wird ab jetzt."
         ], problems
 
@@ -566,6 +603,13 @@ def poll_nasdaq(state):
         time.sleep(1.0)
     if len(problems) == len(months):
         return [], problems
+    if not deals:
+        return [], problems + ["Nasdaq: Antwort ohne einen einzigen Eintrag"]
+
+    n_by = {k: sum(1 for d in deals.values() if d["status"] == k)
+            for k in ("upcoming", "priced", "withdrawn")}
+    counts = (f"(gelesen: {n_by['upcoming']} offen, {n_by['priced']} bepreist, "
+              f"{n_by['withdrawn']} zurückgezogen)")
 
     known = state["deals"]
     lines, snapshot = [], []
@@ -613,9 +657,9 @@ def poll_nasdaq(state):
 
     if first:
         state["init"]["nasdaq"] = True
-        head = f"{PREFIX} Nasdaq-Kalender überwacht. Gemeldet wird ab jetzt; aktuell offene Börsengänge:"
+        head = f"{PREFIX} Nasdaq-Kalender überwacht {counts}. Gemeldet wird ab jetzt; aktuell offene Börsengänge:"
         if not snapshot:
-            return [f"{PREFIX} Nasdaq-Kalender überwacht, derzeit ist kein Börsengang mit Termin eingetragen."], problems
+            return [f"{PREFIX} Nasdaq-Kalender überwacht {counts}, derzeit ist kein Börsengang mit Termin eingetragen."], problems
         return batches(head, snapshot), problems
 
     return batches(f"{PREFIX} USA", lines), problems
@@ -673,9 +717,11 @@ def parse_db_tables(html):
 
 def poll_db(state):
     first = not state["init"].get("db")
-    current, done = parse_db_tables(http_get(DB_NEWISSUES).text)
+    html, via = fetch_html(DB_NEWISSUES)
+    current, done = parse_db_tables(html)
     if not current and not done:
-        raise RuntimeError("Keine Tabellen gefunden, Seitenaufbau geändert oder per Skript nicht lesbar")
+        raise RuntimeError("Keine Tabellen gefunden (" + describe_page(html, via) + ")")
+    counts = f"({len(current)} aktuell, {len(done)} bereits notiert gelesen)"
 
     store = state["db"]
     store.setdefault("current", {})
@@ -713,7 +759,7 @@ def poll_db(state):
 
     if first:
         state["init"]["db"] = True
-        head = f"{PREFIX} Neuemissionen der Deutschen Börse überwacht, gemeldet wird ab jetzt."
+        head = f"{PREFIX} Neuemissionen der Deutschen Börse überwacht {counts}, gemeldet wird ab jetzt."
         if lines:
             return batches(head + " Aktuell:", lines), []
         return [head + " Derzeit steht keine Neuemission auf der Liste."], []
@@ -725,11 +771,13 @@ def poll_de(state):
     urls = [GOOGLE_NEWS.format(q=quote_plus(q + " when:2d")) for q in DE_QUERIES]
     urls += DE_EXTRA_FEEDS
     found, problems = {}, []
+    read = 0
 
     for url in urls:
         try:
             feed = feedparser.parse(http_get(url).content)
             for e in feed.entries:
+                read += 1
                 title = " ".join(e.get("title", "").split())
                 if not title or not DE_KEYWORDS.search(title):
                     continue
@@ -741,6 +789,8 @@ def poll_de(state):
 
     if len(problems) == len(urls):
         return [], problems
+    if read == 0:
+        return [], problems + ["Nachrichten-Feeds lieferten keinen einzigen Eintrag"]
 
     new = [(k, t, l) for k, (t, l) in found.items() if k not in state["seen"]]
     for k, _, _ in new:
@@ -749,8 +799,8 @@ def poll_de(state):
     if first:
         state["init"]["de"] = True
         return [
-            f"{PREFIX} Deutschland-Nachrichten überwacht. {len(new)} aktuelle "
-            "Meldungen wurden als Ausgangsbasis übernommen."
+            f"{PREFIX} Deutschland-Nachrichten überwacht. {read} Feedeinträge gelesen, "
+            f"{len(new)} davon mit Stichwort als Ausgangsbasis übernommen."
         ], problems
 
     lines = []
