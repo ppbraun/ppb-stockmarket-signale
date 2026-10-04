@@ -194,7 +194,7 @@ def send_telegram(text):
         print("--- Nachricht (Testlauf, nicht gesendet) ---\n" + text + "\n")
         return
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
-    chat = os.environ.get("TELEGRAM_CHAT_ID") or os.environ.get("TELEGRAM_CHAT_ID")
+    chat = os.environ.get("IPO_CHAT_ID") or os.environ.get("TELEGRAM_CHAT_ID")
     if not token or not chat:
         raise RuntimeError("TELEGRAM_BOT_TOKEN oder TELEGRAM_CHAT_ID fehlt")
     for i in range(0, len(text), 4000):
