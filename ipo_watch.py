@@ -84,6 +84,8 @@ DE_QUERIES = [
     "Börsengang Prime Standard Preisspanne",
     "IPO Frankfurter Wertpapierbörse geplant",
 ]
+# Kontrollsuche: liefert immer Treffer und zeigt, ob der Feed überhaupt ankommt.
+DE_CANARY = "DAX Börse Frankfurt"
 # Eigene Feeds (z. B. EQS, Börse Frankfurt) hier eintragen, der Filter gilt auch für sie.
 DE_EXTRA_FEEDS = []
 DE_KEYWORDS = re.compile(
@@ -140,10 +142,18 @@ def describe_page(html, via):
     """Kurzbeschreibung einer Seite für das Fehlerprotokoll."""
     soup = BeautifulSoup(html, "html.parser")
     title = soup.title.get_text(" ", strip=True)[:60] if soup.title else "ohne Titel"
+    tables = soup.find_all("table")
+    sample = ""
+    for t in tables:
+        txt = " ".join(t.get_text(" ", strip=True).split())
+        if "handelstag" in txt.lower() or "zeichnung" in txt.lower():
+            sample = f", Beispieltabelle '{txt[:140]}'"
+            break
     return (
         f"Abruf über {via}, {len(html)} Zeichen, Titel '{title}', "
-        f"{len(soup.find_all('script'))} Skripte, {len(soup.find_all('table'))} Tabellen, "
+        f"{len(soup.find_all('script'))} Skripte, {len(tables)} Tabellen, "
         f"'Neuemissionen' {'enthalten' if 'neuemissionen' in html.lower() else 'nicht enthalten'}"
+        f"{sample}"
     )
 
 
@@ -674,16 +684,29 @@ def norm_title(title):
 
 
 def parse_db_tables(html):
-    """Liest aus den Neuemissionen der Deutschen Börse die Tabellen 'aktuell' und 'bereits notiert'."""
+    """Liest aus den Neuemissionen der Deutschen Börse die Tabellen 'aktuell' und 'bereits notiert'.
+
+    Die Kopfzeile kann aus th- oder td-Zellen bestehen (die Seite nutzt td mit Fettdruck),
+    deshalb wird sie über ihren Inhalt gesucht und nicht über das Tag.
+    """
     soup = BeautifulSoup(html, "html.parser")
     current, done = [], []
     for table in soup.find_all("table"):
-        heads = [th.get_text(" ", strip=True).lower() for th in table.find_all("th")]
         rows = [
-            [td.get_text(" ", strip=True) for td in tr.find_all("td")]
+            [c.get_text(" ", strip=True) for c in tr.find_all(["th", "td"])]
             for tr in table.find_all("tr")
         ]
-        rows = [r for r in rows if r]
+        rows = [r for r in rows if any(r)]
+        head_i = None
+        for i, r in enumerate(rows):
+            low = " ".join(r).lower()
+            if "erster handelstag" in low or "zeichnung" in low:
+                head_i = i
+                break
+        if head_i is None:
+            continue
+        heads = [h.lower() for h in rows[head_i]]
+        data = rows[head_i + 1:]
 
         def idx(word):
             for i, h in enumerate(heads):
@@ -694,9 +717,9 @@ def parse_db_tables(html):
         def cell(r, i):
             return r[i] if i is not None and i < len(r) else ""
 
+        i_name = idx("name") or 0
         if any("zeichnung" in h for h in heads):
-            i_name = idx("name") or 0
-            for r in rows:
+            for r in data:
                 current.append({
                     "name": cell(r, i_name),
                     "typ": cell(r, idx("typ")),
@@ -705,8 +728,7 @@ def parse_db_tables(html):
                     "frankfurt": cell(r, idx("frankfurt")),
                 })
         elif any("erster handelstag" in h for h in heads):
-            i_name = idx("name") or 0
-            for r in rows:
+            for r in data:
                 done.append({
                     "name": cell(r, i_name),
                     "tag": cell(r, idx("erster handelstag")),
@@ -768,14 +790,17 @@ def poll_db(state):
 
 def poll_de(state):
     first = not state["init"].get("de")
-    urls = [GOOGLE_NEWS.format(q=quote_plus(q + " when:2d")) for q in DE_QUERIES]
+    urls = [GOOGLE_NEWS.format(q=quote_plus(q + " when:3d")) for q in DE_QUERIES]
+    urls.append(GOOGLE_NEWS.format(q=quote_plus(DE_CANARY + " when:1d")))
     urls += DE_EXTRA_FEEDS
-    found, problems = {}, []
+    found, problems, probe = {}, [], []
     read = 0
 
     for url in urls:
         try:
-            feed = feedparser.parse(http_get(url).content)
+            content = http_get(url, BROWSER_HEADERS).content
+            probe.append(f"{len(content)} Bytes, Anfang {content[:70]!r}")
+            feed = feedparser.parse(content)
             for e in feed.entries:
                 read += 1
                 title = " ".join(e.get("title", "").split())
@@ -790,7 +815,10 @@ def poll_de(state):
     if len(problems) == len(urls):
         return [], problems
     if read == 0:
-        return [], problems + ["Nachrichten-Feeds lieferten keinen einzigen Eintrag"]
+        return [], problems + [
+            "Nachrichten-Feeds lieferten keinen einzigen Eintrag, auch die Kontrollsuche nicht ("
+            + (probe[0] if probe else "keine Antwort") + ")"
+        ]
 
     new = [(k, t, l) for k, (t, l) in found.items() if k not in state["seen"]]
     for k, _, _ in new:
