@@ -14,7 +14,7 @@ Umgebungsvariablen
   TELEGRAM_BOT_TOKEN  Bot-Token
   TELEGRAM_CHAT_ID    Chat-ID
   IPO_DRY_RUN         "1": nur ausgeben, nichts senden
-  IPO_IGNORE_WINDOW   "1": Zeitfenster 7 bis 21 Uhr (Berlin) ignorieren
+  IPO_IGNORE_WINDOW   "1": Zeitfenster 7 bis 21 Uhr (Berlin) ignorieren und Statusbericht senden
   IPO_EXCLUDE_REGEX   Namensfilter für EDGAR und Nasdaq (Standard siehe unten)
   IPO_STATE_FILE      Pfad der Zustandsdatei (Standard ipo_state.json)
 """
@@ -172,7 +172,7 @@ def load_state():
         except json.JSONDecodeError:
             print("Zustandsdatei unlesbar, starte mit leerem Zustand", file=sys.stderr)
             state = {}
-    for key in ("seen", "candidates", "init", "fails", "warned", "deals", "db"):
+    for key in ("seen", "candidates", "init", "fails", "warned", "deals", "db", "errors"):
         state.setdefault(key, {})
     return state
 
@@ -854,7 +854,9 @@ def run_source(name, fn, state, notify):
         problems = [f"{type(exc).__name__}: {exc}"]
 
     fails, warned = state["fails"], state["warned"]
+    errors = state.setdefault("errors", {})
     if problems:
+        errors[name] = str(problems[0])[:300]
         fails[name] = fails.get(name, 0) + 1
         print(f"[{name}] Probleme ({fails[name]}. in Folge): {problems}", file=sys.stderr)
         if fails[name] >= FAIL_ALERT_AFTER and not warned.get(name):
@@ -874,6 +876,43 @@ def run_source(name, fn, state, notify):
                 pass
         fails[name] = 0
         warned[name] = False
+        errors.pop(name, None)
+
+
+def status_message(state):
+    """Kurzbericht über alle Quellen, aus dem gespeicherten Zustand."""
+    deals = state.get("deals", {})
+    by = {k: sum(1 for d in deals.values() if d.get("status") == k)
+          for k in ("upcoming", "priced", "withdrawn")}
+    db = state.get("db", {})
+    seen = state.get("seen", {})
+    rows = [
+        ("edgar", "EDGAR",
+         f"{sum(1 for k in seen if k.startswith('edgar:'))} Einträge gemerkt, "
+         f"{len(state.get('candidates', {}))} IPO-Kandidaten"),
+        ("nasdaq", "Nasdaq-Kalender",
+         f"{len(deals)} Börsengänge gemerkt ({by['upcoming']} offen, "
+         f"{by['priced']} bepreist, {by['withdrawn']} zurückgezogen)"),
+        ("db", "Deutsche Börse",
+         f"{len(db.get('current', {}))} aktuell, {len(db.get('done', []))} bereits notiert gemerkt"),
+        ("de", "Nachrichten",
+         f"{sum(1 for k in seen if k.startswith('de:'))} Meldungen gemerkt"),
+    ]
+    lines = [f"{PREFIX} Statusbericht (manueller Start)"]
+    for name, label, detail in rows:
+        n = state["fails"].get(name, 0)
+        if not state["init"].get(name):
+            flag = "noch nicht gestartet"
+        elif n:
+            flag = f"gestört seit {n} Läufen"
+        else:
+            flag = "läuft"
+        line = f"{label}: {flag}, {detail}"
+        err = state.get("errors", {}).get(name)
+        if err:
+            line += f"\n   Letzter Fehler: {err}"
+        lines.append(line)
+    return "\n".join(lines)
 
 
 SOURCES = (
@@ -884,12 +923,17 @@ SOURCES = (
 )
 
 
-def run(notify=None):
+def run(notify=None, status=False):
     notify = notify or send_telegram
     state = load_state()
     try:
         for name, fn in SOURCES:
             run_source(name, fn, state, notify)
+        if status:
+            try:
+                notify(status_message(state))
+            except Exception as exc:
+                print(f"Statusbericht nicht gesendet: {exc}", file=sys.stderr)
     finally:
         save_state(state)
 
@@ -900,7 +944,8 @@ def main():
         if not (WINDOW[0] <= hour < WINDOW[1]):
             print("Außerhalb des Zeitfensters, nichts zu tun.")
             return 0
-    run()
+    # Ein manueller Start (Zeitfenster wird ignoriert) schickt zusätzlich einen Statusbericht.
+    run(status=bool(os.environ.get("IPO_IGNORE_WINDOW")))
     return 0
 
 
