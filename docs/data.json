@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T08:34:34.853575+00:00",
+  "generated_at": "2026-10-05T09:04:45.627534+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": true
@@ -325,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -429,7 +429,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -464,7 +464,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -478,14 +478,48 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "UAL",
-      "name": "United Airlines Holdings",
+      "tk": "ZTS",
+      "name": "Zoetis",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 100.23,
-      "description": "Die United Airlines Holdings, Inc. entstand 2010 als Dachgesellschaft im Rahmen des Fusionsprozesses der beiden US-amerikanischen Fluggesellschaften United Airlines und…",
+      "priceEur": 62.08,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "HON",
+      "name": "Honeywell Technologies",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 190.64,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -512,14 +546,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "AEP",
-      "name": "American Electric Power",
+      "tk": "FOX",
+      "name": "Fox Corporation (Class B)",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 106.52,
-      "description": "American Electric Power Company, Inc. (AEP) ist ein großes Energieunternehmen aus den Vereinigten Staaten mit Firmensitz in Columbus, Ohio. Das Unternehmen ist im Aktienindex S&P…",
+      "priceEur": 49.79,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -541,41 +575,7 @@
           "active": false
         }
       },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "LDOS",
-      "name": "Leidos",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 104.89,
-      "description": "Leidos Holdings, früher unter dem Namen Science Applications International Corporation (SAIC) bekannt ist ein US-amerikanischer Softwarehersteller, der Lösungen zur…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
+      "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -732,7 +732,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
