@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-10-05T16:34:18.549104+00:00",
+  "generated_at": "2026-10-05T17:04:41.791968+00:00",
   "newsTopics": [
-    {
-      "topic": "Energie / Öl & Gas",
-      "vol": 2,
-      "pct": 100
-    },
-    {
-      "topic": "Schifffahrt / Lieferketten",
-      "vol": 1,
-      "pct": 50
-    },
     {
       "topic": "Zölle / Handelskonflikt",
       "vol": 0,
@@ -42,7 +32,17 @@
       "pct": 0
     },
     {
+      "topic": "Energie / Öl & Gas",
+      "vol": 0,
+      "pct": 0
+    },
+    {
       "topic": "Gesundheit / FDA-Zulassungen",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Schifffahrt / Lieferketten",
       "vol": 0,
       "pct": 0
     },
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 8.0,
-      "priceEur": 298.29,
+      "reaction": 8.2,
+      "priceEur": 298.72,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.3,
-      "priceEur": 1028.74,
+      "reaction": 0.6,
+      "priceEur": 1031.58,
       "description": null,
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -134,9 +134,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.3,
-      "priceEur": 146.72,
-      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
+      "reaction": 2.2,
+      "priceEur": 146.5,
+      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
       "politician": null,
       "track": null,
       "sig": {
@@ -169,9 +169,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
+      "reaction": 0.1,
       "priceEur": 27.64,
-      "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -204,9 +204,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.1,
-      "priceEur": 19.24,
-      "description": "Die Comcast Corporation ist der größte Kabelnetzbetreiber, nach AT&T der zweitgrößte Internetdiensteanbieter und nach AT&T und Verizon Communications die drittgrößte…",
+      "reaction": -0.3,
+      "priceEur": 19.19,
+      "description": "Comcast Corporation, formerly known as Comcast Holdings, is an American multinational mass media, telecommunications, and entertainment conglomerate. Comcast's corporate…",
       "politician": null,
       "track": null,
       "sig": {
@@ -239,9 +239,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.5,
-      "priceEur": 59.54,
-      "description": "Netflix, Inc. ist ein US-amerikanisches Medienunternehmen, das sich mit dem kostenpflichtigen Streaming und der Produktion von Filmen und Serien beschäftigt.",
+      "reaction": -0.4,
+      "priceEur": 59.59,
+      "description": "Netflix is an American subscription video on-demand over-the-top streaming television service. The service primarily distributes original and acquired films and television shows…",
       "politician": null,
       "track": null,
       "sig": {
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -274,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.7,
-      "priceEur": 136.92,
+      "reaction": -1.8,
+      "priceEur": 136.76,
       "description": "Die Target Corporation gehört zu den größten Einzelhändlern der USA und ist nach Walmart der zweitgrößte Discounter des Landes. Das Unternehmen hat seinen Sitz in Minneapolis,…",
       "politician": null,
       "track": null,
@@ -304,49 +304,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "MCD",
-      "name": "McDonald's",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.8,
-      "priceEur": 206.93,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "AXP",
       "name": "American Express",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.2,
-      "priceEur": 270.52,
-      "description": "American Express Company (Amex) is an American bank holding company and multinational financial services corporation that specializes in payment cards. It is headquartered at 200…",
+      "reaction": 0.3,
+      "priceEur": 270.74,
+      "description": "Die American Express Company, abgekürzt oft Amex, AmEx, AX oder Amexco, ist ein US-amerikanischer weltweiter Anbieter von Finanzdienstleistungen. Der Firmensitz befindet sich im…",
       "politician": null,
       "track": null,
       "sig": {
@@ -360,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -380,7 +345,7 @@
       "market": "us",
       "score": 2,
       "reaction": 0.1,
-      "priceEur": 27.04,
+      "priceEur": 27.05,
       "description": "Invesco ist eine unabhängige Investmentgesellschaft mit rund 8600 Mitarbeitern und Standorten in 25 Ländern. Der Hauptsitz des Unternehmens ist in Hamilton auf den Bermudas; die…",
       "politician": null,
       "track": null,
@@ -395,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -414,9 +379,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.5,
-      "priceEur": 257.94,
-      "description": "Bloom Energy Corporation ist ein US-amerikanisches Unternehmen aus Kalifornien mit Sitz in Sunnyvale. Bloom Energy entwickelte und vermietet den Bloom Energy Server, einen Kasten…",
+      "reaction": -1.0,
+      "priceEur": 256.67,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -484,9 +449,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 1524.44,
-      "description": "SanDisk ist ein multinationales Unternehmen mit Sitz in Milpitas, Kalifornien, das Flash-Speicher-Produkte wie Speicherkarten, USB-Sticks und Solid-State-Drives herstellt. 2016…",
+      "reaction": 0.1,
+      "priceEur": 1526.37,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -514,14 +479,49 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "LYV",
-      "name": "Live Nation Entertainment",
+      "tk": "HUM",
+      "name": "Humana",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 353.76,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "AXON",
+      "name": "Axon Enterprise",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 152.71,
-      "description": "Live Nation Entertainment ist ein US-amerikanisches Medienunternehmen mit Sitz in Beverly Hills im US-Bundesstaat Kalifornien. Das 2005 unter dem Namen CCE Spinco vom US-Konzern…",
+      "priceEur": 366.16,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -543,19 +543,21 @@
           "active": false
         }
       },
-      "topic": "Communication Services",
-      "ethics": [],
+      "topic": "Industrials",
+      "ethics": [
+        "Rüstung"
+      ],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "HAS",
-      "name": "Hasbro",
+      "tk": "RVTY",
+      "name": "Revvity",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 80.73,
-      "description": "Hasbro, Inc. is an American multinational toy manufacturing and media company headquartered in Pawtucket, Rhode Island. Founded on December 6, 1923, by Henry, Hillel, and Herman…",
+      "priceEur": 137.48,
+      "description": "Revvity, Inc. is a multinational company headquartered in Waltham, Massachusetts, USA, in the life sciences and diagnostics business that is focused on selling to the…",
       "politician": null,
       "track": null,
       "sig": {
@@ -577,7 +579,7 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -587,8 +589,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -12.0,
-      "priceEur": 97.91,
+      "reaction": -11.9,
+      "priceEur": 98.04,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -622,9 +624,9 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -7.8,
-      "priceEur": 23.46,
-      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
+      "reaction": -7.6,
+      "priceEur": 23.51,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -656,8 +658,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -11.1,
-      "priceEur": 68.98,
+      "reaction": -10.9,
+      "priceEur": 69.13,
       "description": null,
       "politician": null,
       "track": null,
@@ -688,9 +690,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -17.1,
-      "priceEur": 77.01,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "reaction": -17.0,
+      "priceEur": 77.16,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -720,8 +722,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -25.9,
-      "priceEur": 3.04,
+      "reaction": -25.8,
+      "priceEur": 3.05,
       "description": null,
       "politician": null,
       "track": null,
@@ -753,9 +755,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -12.8,
-      "priceEur": 9.66,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "reaction": -12.9,
+      "priceEur": 9.65,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -786,7 +788,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -13.6,
-      "priceEur": 34.58,
+      "priceEur": 34.59,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -818,7 +820,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -4.6,
-      "priceEur": 105.9,
+      "priceEur": 105.91,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
