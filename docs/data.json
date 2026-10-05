@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T15:04:51.817792+00:00",
+  "generated_at": "2026-10-05T15:34:36.589164+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 7.8,
-      "priceEur": 297.76,
+      "reaction": 7.7,
+      "priceEur": 297.48,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.6,
-      "priceEur": 1019.86,
+      "reaction": -0.0,
+      "priceEur": 1025.68,
       "description": null,
       "politician": null,
       "track": null,
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.0,
-      "priceEur": 146.27,
+      "reaction": 2.2,
+      "priceEur": 146.47,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.1,
-      "priceEur": 27.64,
+      "reaction": 0.0,
+      "priceEur": 27.63,
       "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -205,7 +205,7 @@
       "market": "us",
       "score": 3,
       "reaction": -0.3,
-      "priceEur": 19.2,
+      "priceEur": 19.19,
       "description": "Die Comcast Corporation ist der größte Kabelnetzbetreiber, nach AT&T der zweitgrößte Internetdiensteanbieter und nach AT&T und Verizon Communications die drittgrößte…",
       "politician": null,
       "track": null,
@@ -239,44 +239,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.1,
-      "priceEur": 59.91,
+      "reaction": 0.2,
+      "priceEur": 59.95,
       "description": "Netflix, Inc. ist ein US-amerikanisches Medienunternehmen, das sich mit dem kostenpflichtigen Streaming und der Produktion von Filmen und Serien beschäftigt.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "TGT",
-      "name": "Target Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": -3.3,
-      "priceEur": 134.67,
-      "description": "Die Target Corporation gehört zu den größten Einzelhändlern der USA und ist nach Walmart der zweitgrößte Discounter des Landes. Das Unternehmen hat seinen Sitz in Minneapolis,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -299,19 +264,19 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
+      "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "BMY",
-      "name": "Bristol Myers Squibb",
+      "tk": "TGT",
+      "name": "Target Corporation",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 3,
       "reaction": -2.6,
-      "priceEur": 52.28,
-      "description": "Bristol-Myers Squibb Company, doing business as Bristol Myers Squibb, is an American multinational pharmaceutical company headquartered in Princeton, New Jersey. The company's…",
+      "priceEur": 135.6,
+      "description": "Die Target Corporation gehört zu den größten Einzelhändlern der USA und ist nach Walmart der zweitgrößte Discounter des Landes. Das Unternehmen hat seinen Sitz in Minneapolis,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -325,41 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "0Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "PSA",
-      "name": "Public Storage",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.1,
-      "priceEur": 252.25,
-      "description": "Public Storage ist ein Real-Estate-Investment-Trust aus den Vereinigten Staaten mit Firmensitz in Glendale, Kalifornien. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -368,9 +299,9 @@
           "active": false
         }
       },
-      "topic": "Real Estate",
+      "topic": "Consumer Staples",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "MCD",
@@ -378,8 +309,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.4,
-      "priceEur": 206.23,
+      "reaction": 0.3,
+      "priceEur": 206.02,
       "description": "Die McDonald’s Corporation ist ein US-amerikanischer Betreiber und Franchisegeber von weltweit vertretenen Schnellrestaurants und der umsatzstärkste Fast-Food-Konzern der Welt.…",
       "politician": null,
       "track": null,
@@ -413,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.0,
-      "priceEur": 270.0,
+      "reaction": 0.0,
+      "priceEur": 270.15,
       "description": "Die American Express Company, abgekürzt oft Amex, AmEx, AX oder Amexco, ist ein US-amerikanischer weltweiter Anbieter von Finanzdienstleistungen. Der Firmensitz befindet sich im…",
       "politician": null,
       "track": null,
@@ -429,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -448,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 26.99,
+      "reaction": -0.0,
+      "priceEur": 27.0,
       "description": "Invesco ist eine unabhängige Investmentgesellschaft mit rund 8600 Mitarbeitern und Standorten in 25 Ländern. Der Hauptsitz des Unternehmens ist in Hamilton auf den Bermudas; die…",
       "politician": null,
       "track": null,
@@ -483,8 +414,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 259.14,
+      "reaction": -0.7,
+      "priceEur": 257.45,
       "description": "Bloom Energy Corporation ist ein US-amerikanisches Unternehmen aus Kalifornien mit Sitz in Sunnyvale. Bloom Energy entwickelte und vermietet den Bloom Energy Server, einen Kasten…",
       "politician": null,
       "track": null,
@@ -499,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -513,47 +444,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "GWW",
-      "name": "W. W. Grainger",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 1138.2,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "MOS",
       "name": "Mosaic Company (The)",
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": null,
-      "priceEur": 18.8,
+      "reaction": -0.3,
+      "priceEur": 18.75,
       "description": null,
       "politician": null,
       "track": null,
@@ -582,13 +479,115 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
+      "tk": "ILMN",
+      "name": "Illumina, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 252.27,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "MMM",
+      "name": "3M",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 143.99,
+      "description": "The 3M Company is an American multinational conglomerate operating in the fields of industry, worker safety, and consumer goods. Based in the Saint Paul suburb of Maplewood, the…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "CRL",
+      "name": "Charles River Laboratories",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 269.96,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -12.2,
-      "priceEur": 97.77,
+      "reaction": -11.8,
+      "priceEur": 98.13,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -603,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -623,7 +622,7 @@
       "market": "cn",
       "score": 2,
       "reaction": -7.5,
-      "priceEur": 23.53,
+      "priceEur": 23.52,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -689,7 +688,7 @@
       "market": "cn",
       "score": 1,
       "reaction": -16.9,
-      "priceEur": 77.19,
+      "priceEur": 77.2,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -720,8 +719,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -25.2,
-      "priceEur": 3.07,
+      "reaction": -25.4,
+      "priceEur": 3.06,
       "description": null,
       "politician": null,
       "track": null,
@@ -734,7 +733,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": false
@@ -753,8 +752,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -12.2,
-      "priceEur": 9.72,
+      "reaction": -12.5,
+      "priceEur": 9.69,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -785,8 +784,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -13.7,
-      "priceEur": 34.55,
+      "reaction": -13.6,
+      "priceEur": 34.58,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -817,8 +816,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -4.3,
-      "priceEur": 106.31,
+      "reaction": -4.4,
+      "priceEur": 106.15,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
