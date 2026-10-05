@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-10-05T17:04:41.791968+00:00",
+  "generated_at": "2026-10-05T17:34:30.621710+00:00",
   "newsTopics": [
+    {
+      "topic": "Energie / Öl & Gas",
+      "vol": 2,
+      "pct": 100
+    },
+    {
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 1,
+      "pct": 50
+    },
     {
       "topic": "Zölle / Handelskonflikt",
       "vol": 0,
@@ -32,17 +42,7 @@
       "pct": 0
     },
     {
-      "topic": "Energie / Öl & Gas",
-      "vol": 0,
-      "pct": 0
-    },
-    {
       "topic": "Gesundheit / FDA-Zulassungen",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "Schifffahrt / Lieferketten",
       "vol": 0,
       "pct": 0
     },
@@ -64,9 +64,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 8.2,
-      "priceEur": 298.72,
-      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
+      "reaction": 7.8,
+      "priceEur": 297.76,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.6,
-      "priceEur": 1031.58,
+      "reaction": 0.5,
+      "priceEur": 1030.48,
       "description": null,
       "politician": null,
       "track": null,
@@ -136,7 +136,7 @@
       "score": 3,
       "reaction": 2.2,
       "priceEur": 146.5,
-      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
+      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.3,
-      "priceEur": 19.19,
+      "reaction": -0.5,
+      "priceEur": 19.16,
       "description": "Comcast Corporation, formerly known as Comcast Holdings, is an American multinational mass media, telecommunications, and entertainment conglomerate. Comcast's corporate…",
       "politician": null,
       "track": null,
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -240,7 +240,7 @@
       "market": "us",
       "score": 3,
       "reaction": -0.4,
-      "priceEur": 59.59,
+      "priceEur": 59.63,
       "description": "Netflix is an American subscription video on-demand over-the-top streaming television service. The service primarily distributes original and acquired films and television shows…",
       "politician": null,
       "track": null,
@@ -274,9 +274,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.8,
-      "priceEur": 136.76,
-      "description": "Die Target Corporation gehört zu den größten Einzelhändlern der USA und ist nach Walmart der zweitgrößte Discounter des Landes. Das Unternehmen hat seinen Sitz in Minneapolis,…",
+      "reaction": -1.9,
+      "priceEur": 136.58,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -304,49 +304,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "AXP",
-      "name": "American Express",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.3,
-      "priceEur": 270.74,
-      "description": "Die American Express Company, abgekürzt oft Amex, AmEx, AX oder Amexco, ist ein US-amerikanischer weltweiter Anbieter von Finanzdienstleistungen. Der Firmensitz befindet sich im…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "IVZ",
       "name": "Invesco",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 27.05,
-      "description": "Invesco ist eine unabhängige Investmentgesellschaft mit rund 8600 Mitarbeitern und Standorten in 25 Ländern. Der Hauptsitz des Unternehmens ist in Hamilton auf den Bermudas; die…",
+      "reaction": 0.6,
+      "priceEur": 27.18,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -380,8 +345,8 @@
       "market": "us",
       "score": 2,
       "reaction": -1.0,
-      "priceEur": 256.67,
-      "description": null,
+      "priceEur": 256.61,
+      "description": "Bloom Energy Corporation ist ein US-amerikanisches Unternehmen aus Kalifornien mit Sitz in Sunnyvale. Bloom Energy entwickelte und vermietet den Bloom Energy Server, einen Kasten…",
       "politician": null,
       "track": null,
       "sig": {
@@ -395,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -414,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.9,
-      "priceEur": 18.97,
+      "reaction": 0.8,
+      "priceEur": 18.95,
       "description": null,
       "politician": null,
       "track": null,
@@ -430,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -449,8 +414,43 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 1526.37,
+      "reaction": 0.4,
+      "priceEur": 1530.48,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "HUM",
+      "name": "Humana",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.8,
+      "priceEur": 356.72,
       "description": null,
       "politician": null,
       "track": null,
@@ -474,18 +474,18 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "HUM",
-      "name": "Humana",
+      "tk": "KKR",
+      "name": "KKR & Co.",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 353.76,
+      "priceEur": 80.25,
       "description": null,
       "politician": null,
       "track": null,
@@ -500,7 +500,42 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "11Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ILMN",
+      "name": "Illumina, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 256.66,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -514,13 +549,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AXON",
-      "name": "Axon Enterprise",
+      "tk": "ROK",
+      "name": "Rockwell Automation",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 366.16,
+      "priceEur": 408.31,
       "description": null,
       "politician": null,
       "track": null,
@@ -537,51 +572,15 @@
           "active": false
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
       "topic": "Industrials",
-      "ethics": [
-        "Rüstung"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "RVTY",
-      "name": "Revvity",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 137.48,
-      "description": "Revvity, Inc. is a multinational company headquartered in Waltham, Massachusetts, USA, in the life sciences and diagnostics business that is focused on selling to the…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "BABA",
@@ -589,8 +588,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -11.9,
-      "priceEur": 98.04,
+      "reaction": -11.6,
+      "priceEur": 98.4,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -605,7 +604,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": true
@@ -624,9 +623,9 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -7.6,
-      "priceEur": 23.51,
-      "description": null,
+      "reaction": -7.4,
+      "priceEur": 23.57,
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -658,8 +657,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -10.9,
-      "priceEur": 69.13,
+      "reaction": -10.8,
+      "priceEur": 69.25,
       "description": null,
       "politician": null,
       "track": null,
@@ -690,9 +689,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -17.0,
-      "priceEur": 77.16,
-      "description": null,
+      "reaction": -16.7,
+      "priceEur": 77.37,
+      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
       "politician": null,
       "track": null,
       "sig": {
@@ -736,7 +735,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -755,8 +754,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -12.9,
-      "priceEur": 9.65,
+      "reaction": -12.7,
+      "priceEur": 9.67,
       "description": null,
       "politician": null,
       "track": null,
@@ -789,7 +788,7 @@
       "score": 0,
       "reaction": -13.6,
       "priceEur": 34.59,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -820,8 +819,8 @@
       "market": "cn",
       "score": 0,
       "reaction": -4.6,
-      "priceEur": 105.91,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "priceEur": 105.96,
+      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
       "sig": {
