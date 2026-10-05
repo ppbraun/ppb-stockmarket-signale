@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T10:34:21.875207+00:00",
+  "generated_at": "2026-10-05T11:04:29.594917+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": true
@@ -360,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -395,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": false
@@ -430,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -465,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -479,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "HAS",
-      "name": "Hasbro",
+      "tk": "DPZ",
+      "name": "Domino's",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 79.77,
-      "description": "Hasbro ist ein US-amerikanischer Spielwarenhersteller mit Sitz in Pawtucket, Rhode Island in den USA. Die Firmenbezeichnung setzt sich als Akronym zusammen aus den Namen…",
+      "priceEur": 265.14,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -513,14 +513,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "SYF",
-      "name": "Synchrony Financial",
+      "tk": "LYB",
+      "name": "LyondellBasell",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 63.94,
-      "description": "Synchrony Financial ist ein US-amerikanisches Finanzdienstleistungsunternehmen mit Sitz in Stamford, Connecticut. Das Unternehmen ist auf Konsumfinanzierung spezialisiert und…",
+      "priceEur": 52.19,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -542,19 +542,19 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Materials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "EIX",
-      "name": "Edison International",
+      "tk": "ARE",
+      "name": "Alexandria Real Estate Equities",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 48.01,
-      "description": "Edison International ist ein US-amerikanisches Unternehmen aus Kalifornien mit Firmensitz in Rosemead. Das Unternehmen ist im Aktienindex S&P 500 und im Dow Jones Utility Average…",
+      "priceEur": 42.2,
+      "description": "Alexandria Real Estate Equities, Inc. is a real estate investment trust based in Pasadena, California that invests in office buildings and laboratories leased to tenants in the…",
       "politician": null,
       "track": null,
       "sig": {
@@ -570,15 +570,15 @@
           "active": false
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Utilities",
+      "topic": "Real Estate",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "BABA",
