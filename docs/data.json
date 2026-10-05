@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:04:35.480893+00:00",
+  "generated_at": "2026-10-05T12:34:33.704991+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -136,7 +136,7 @@
       "score": 3,
       "reaction": 1.1,
       "priceEur": 144.7,
-      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
+      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": true
@@ -171,7 +171,7 @@
       "score": 3,
       "reaction": -0.0,
       "priceEur": 27.56,
-      "description": "Warner Bros. Discovery, Inc. is an American multinational mass media and entertainment conglomerate headquartered in New York City. It was formed through the spin-off of…",
+      "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
       "sig": {
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -206,7 +206,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 19.22,
-      "description": "Comcast Corporation, formerly known as Comcast Holdings, is an American multinational mass media, telecommunications, and entertainment conglomerate. Comcast's corporate…",
+      "description": "Die Comcast Corporation ist der größte Kabelnetzbetreiber, nach AT&T der zweitgrößte Internetdiensteanbieter und nach AT&T und Verizon Communications die drittgrößte…",
       "politician": null,
       "track": null,
       "sig": {
@@ -241,7 +241,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 59.74,
-      "description": null,
+      "description": "Netflix, Inc. ist ein US-amerikanisches Medienunternehmen, das sich mit dem kostenpflichtigen Streaming und der Produktion von Filmen und Serien beschäftigt.",
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -464,7 +464,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -478,48 +478,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "FOX",
-      "name": "Fox Corporation (Class B)",
+      "tk": "VRSK",
+      "name": "Verisk Analytics",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 49.79,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "HII",
-      "name": "Huntington Ingalls Industries",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 239.23,
-      "description": null,
+      "priceEur": 146.0,
+      "description": "Verisk Analytics ist ein US-amerikanisches Datenanalyse-Unternehmen mit Sitz in Jersey City.",
       "politician": null,
       "track": null,
       "sig": {
@@ -546,14 +512,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "WMB",
-      "name": "Williams Companies",
+      "tk": "CTSH",
+      "name": "Cognizant",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 62.84,
-      "description": "Williams Companies ist ein US-amerikanischer Erdgas-Pipelinebetreiber mit Firmensitz in Tulsa, Oklahoma. Gegründet wurde das Unternehmen 1908 in Fort Smith, Arkansas. Es ist im…",
+      "priceEur": 52.12,
+      "description": "Cognizant Technology Solutions ist ein US-amerikanischer IT-Dienstleister mit Sitz in Teaneck, New Jersey. Wichtigster Standort ist jedoch Chennai in Indien, wo die Mehrzahl der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -575,7 +541,41 @@
           "active": false
         }
       },
-      "topic": "Energy",
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "DGX",
+      "name": "Quest Diagnostics",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 207.87,
+      "description": "Quest Diagnostics Inc. ist ein US-amerikanisches Unternehmen im Bereich der klinischen Labordiagnostik und Gesundheitsinformation. Der Hauptsitz befindet sich in Secaucus. Nach…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -601,7 +601,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -732,7 +732,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -785,7 +785,7 @@
       "score": 0,
       "reaction": -15.1,
       "priceEur": 33.93,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
