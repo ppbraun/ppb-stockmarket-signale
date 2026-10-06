@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T17:34:47.870486+00:00",
+  "generated_at": "2026-10-06T17:41:22.368962+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -65,7 +65,7 @@
       "market": "us",
       "score": 3,
       "reaction": 7.6,
-      "priceEur": null,
+      "priceEur": 295.39,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.7,
-      "priceEur": null,
+      "reaction": 0.8,
+      "priceEur": 1028.36,
       "description": null,
       "politician": null,
       "track": null,
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.7,
-      "priceEur": null,
+      "reaction": -0.6,
+      "priceEur": 141.69,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -170,7 +170,7 @@
       "market": "us",
       "score": 3,
       "reaction": 0.0,
-      "priceEur": null,
+      "priceEur": 27.46,
       "description": "Warner Bros. Discovery, Inc. ist ein internationales Medienunternehmen mit zahlreichen Geschäftsfeldern. Warner Bros. Discovery hat seinen Sitz in New York City und wurde 2022…",
       "politician": null,
       "track": null,
@@ -205,7 +205,7 @@
       "market": "us",
       "score": 3,
       "reaction": -1.8,
-      "priceEur": null,
+      "priceEur": 135.97,
       "description": "Die Target Corporation gehört zu den größten Einzelhändlern der USA und ist nach Walmart der zweitgrößte Discounter des Landes. Das Unternehmen hat seinen Sitz in Minneapolis,…",
       "politician": null,
       "track": null,
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -239,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": null,
+      "reaction": 0.2,
+      "priceEur": 18.73,
       "description": null,
       "politician": null,
       "track": null,
@@ -274,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.1,
-      "priceEur": null,
+      "reaction": -0.2,
+      "priceEur": 163.23,
       "description": "RTX Corporation ist ein multinationaler Mischkonzern mit Hauptsitz im Arlington County. Das Unternehmen entwickelt und produziert Technologie im Bereich der Verteidigung und der…",
       "politician": null,
       "track": null,
@@ -309,8 +309,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.5,
-      "priceEur": null,
+      "reaction": -0.6,
+      "priceEur": 127.51,
       "description": "The Bank of New York Mellon Corporation ist ein weltweit tätiger Finanzdienstleister, der am 1. Juli 2007 aus der Bank of New York und der Mellon Financial Corporation entstand.…",
       "politician": null,
       "track": null,
@@ -344,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.2,
-      "priceEur": null,
+      "reaction": -0.0,
+      "priceEur": 75.3,
       "description": "Southern Company ist ein US-amerikanisches Energieunternehmen mit Sitz in Atlanta, Georgia. Das Unternehmen ist im Aktienindex S&P 500 und im Dow Jones Utility Average gelistet…",
       "politician": null,
       "track": null,
@@ -374,83 +374,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "ALL",
-      "name": "Allstate",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.3,
-      "priceEur": null,
-      "description": "Allstate steht für:Allstate (Automarke), Automarke des Versandhändlers Sears Allstate (Unternehmen), Versicherungsunternehmen aus Northbrook, Illinois Allstate 400 at the…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "COIN",
-      "name": "Coinbase",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.3,
-      "priceEur": null,
-      "description": "Die Coinbase, auch Coinbase-Transaktion, ist die erste Transaktion, die in einen Block einer Blockchain geschrieben wird. Während reguläre Transaktionen im Abschnitt „Inputs“…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "PNC",
       "name": "PNC Financial Services",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": -0.0,
-      "priceEur": null,
+      "priceEur": 194.95,
       "description": "PNC Financial Services Group (PNC) ist ein US-amerikanisches Unternehmen mit Sitz in Pittsburgh, Pennsylvania. Das Unternehmen ist im Aktienindex S&P 500 gelistet und wies für…",
       "politician": null,
       "track": null,
@@ -484,8 +414,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": null,
+      "reaction": 0.0,
+      "priceEur": 47.99,
       "description": "Die Bank of America Corporation ist eine US-amerikanische Großbank mit Hauptsitz in Charlotte, North Carolina. Das Unternehmen war seit Juli 2006 zeitweise das größte…",
       "politician": null,
       "track": null,
@@ -519,8 +449,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": null,
+      "reaction": -0.0,
+      "priceEur": 72.27,
       "description": "Microchip Technology Inc. ist ein amerikanischer Halbleiterhersteller aus Chandler (Arizona).",
       "politician": null,
       "track": null,
@@ -549,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "FE",
-      "name": "FirstEnergy",
+      "tk": "EVRG",
+      "name": "Evergy",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": null,
-      "description": "FirstEnergy ist ein US-amerikanisches Energieversorgungsunternehmen mit Hauptsitz in Akron im Bundesstaat Ohio. Das Unternehmen ist im S&P 500 und Dow Jones Composite Average…",
+      "priceEur": 70.98,
+      "description": "Evergy, Inc. is an American investor-owned utility (IOU) with publicly traded stock with headquarters in Topeka, Kansas, and in Kansas City, Missouri. The company was formed from…",
       "politician": null,
       "track": null,
       "sig": {
@@ -583,13 +513,83 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
+      "tk": "SCHW",
+      "name": "Charles Schwab Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 86.13,
+      "description": "Charles Schwab Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Westlake, Texas. Das Unternehmen ist im Aktienindex S&P 500 gelistet. Vorsitzender des…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "LEN",
+      "name": "Lennar",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 68.68,
+      "description": "Lennar ist ein US-amerikanisches Bauunternehmen, das sich auf den Bau von privaten Eigenheimen spezialisiert hat.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -12.6,
-      "priceEur": null,
+      "reaction": -12.5,
+      "priceEur": 96.85,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -623,8 +623,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -6.8,
-      "priceEur": null,
+      "reaction": -6.7,
+      "priceEur": 23.59,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -658,7 +658,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -10.2,
-      "priceEur": null,
+      "priceEur": 69.31,
       "description": null,
       "politician": null,
       "track": null,
@@ -689,8 +689,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -16.4,
-      "priceEur": null,
+      "reaction": -16.3,
+      "priceEur": 77.37,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -721,8 +721,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -23.9,
-      "priceEur": null,
+      "reaction": -23.8,
+      "priceEur": 3.11,
       "description": null,
       "politician": null,
       "track": null,
@@ -754,8 +754,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -11.9,
-      "priceEur": null,
+      "reaction": -11.8,
+      "priceEur": 9.71,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -786,8 +786,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -14.8,
-      "priceEur": null,
+      "reaction": -14.7,
+      "priceEur": 33.93,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -819,7 +819,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -4.5,
-      "priceEur": null,
+      "priceEur": 105.37,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
