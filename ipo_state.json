@@ -1,5 +1,13 @@
 {
  "candidates": {
+  "0001806540": {
+   "desc": "This delivery requirement is in addition to the dealer’s obligation to deliver a prospectus when acting as an underwriter and with respect to an unsold allotment or subscription.",
+   "form": "S-1",
+   "loc": "SOUTH SAN FRANCISCO, CA",
+   "name": "Lycia Therapeutics, Inc.",
+   "sic": "Biological Products, (No Diagnostic Substances)",
+   "ts": "2026-10-06T11:59:35+00:00"
+  },
   "0002002988": {
    "desc": "We and the underwriters are offering to sell, and seeking offers to buy, shares of our common stock only under circumstances and in jurisdictions where it is lawful to do so.",
    "form": "S-1/A",
@@ -15,6 +23,29 @@
    "name": "Neuro Spectrum Insights, Inc.",
    "sic": "Surgical & Medical Instruments & Apparatus",
    "ts": "2026-10-05T12:13:37+00:00"
+  },
+  "0002108671": {
+   "desc": "Forecasts are inherently uncertain, and actual results may differ materially from those expressed or implied by such forecasts.",
+   "form": "S-1/A",
+   "loc": "WEBSTER, TX",
+   "name": "Rothe Development, Inc.",
+   "sic": "Guided Missiles & Space Vehicles & Parts",
+   "ts": "2026-10-06T11:59:35+00:00"
+  },
+  "0002112466": {
+   "form": "F-1/A",
+   "loc": "NESS ZIONA",
+   "name": "Silentium Ltd.",
+   "sic": "Services-Prepackaged Software",
+   "ts": "2026-10-06T11:59:36+00:00"
+  },
+  "0002118192": {
+   "desc": "This is in addition to the dealers’ obligation to deliver a prospectus when acting as an underwriter and with respect to their unsold allotments or subscriptions.",
+   "form": "F-1",
+   "loc": "SINGAPORE",
+   "name": "DayOne Data Centers Ltd",
+   "sic": "Services-Computer Programming, Data Processing, Etc.",
+   "ts": "2026-10-06T11:59:37+00:00"
   },
   "0002139097": {
    "desc": "If we are unable to adequately address these and other risks we face, our business, results of operations, financial condition and prospects may be harmed.",
@@ -85,7 +116,9 @@
    "SYNLAB AG|30.04.2021",
    "Friedrich Vorwerk Group SE|25.03.2021",
    "Vantage Towers AG|18.03.2021",
-   "AUTO1 Group SE|04.02.2021"
+   "AUTO1 Group SE|04.02.2021",
+   "AMG Critical Materials N.V.|30.09.2026",
+   "AGROB Immobilien AG|28.09.2026"
   ]
  },
  "deals": {
@@ -111,18 +144,24 @@
   "nasdaq": true
  },
  "seen": {
+  "edgar:0000947871-26-000919:0000018926": "2026-10-06T11:59:33+00:00",
+  "edgar:0000947871-26-000919:0000068622": "2026-10-06T11:59:33+00:00",
   "edgar:0001104659-26-112903:0002035827": "2026-10-04T16:42:51+00:00",
   "edgar:0001104659-26-113366:0001070965": "2026-10-04T16:42:51+00:00",
+  "edgar:0001104659-26-113569:0002041610": "2026-10-06T11:59:33+00:00",
+  "edgar:0001104659-26-113834:0002112466": "2026-10-06T11:59:33+00:00",
   "edgar:0001185185-26-004481:0002150455": "2026-10-04T16:42:51+00:00",
   "edgar:0001185185-26-004518:0001864531": "2026-10-04T16:42:51+00:00",
   "edgar:0001185185-26-004526:0001787518": "2026-10-04T16:42:51+00:00",
   "edgar:0001185185-26-004529:0001787518": "2026-10-04T16:42:51+00:00",
   "edgar:0001185185-26-004535:0002148436": "2026-10-04T16:42:51+00:00",
   "edgar:0001185185-26-004569:0002148245": "2026-10-05T12:13:35+00:00",
+  "edgar:0001185185-26-004587:0002148245": "2026-10-06T11:59:33+00:00",
   "edgar:0001193125-26-410774:0001653384": "2026-10-04T16:42:51+00:00",
   "edgar:0001193125-26-410790:0001921603": "2026-10-04T16:42:51+00:00",
   "edgar:0001193125-26-411550:0001424958": "2026-10-04T16:42:51+00:00",
   "edgar:0001193125-26-413060:0002139097": "2026-10-05T12:13:35+00:00",
+  "edgar:0001193125-26-414188:0002118192": "2026-10-06T11:59:33+00:00",
   "edgar:0001206774-26-000546:0001969995": "2026-10-04T16:42:51+00:00",
   "edgar:0001213900-26-105563:0002080023": "2026-10-04T16:42:51+00:00",
   "edgar:0001213900-26-105817:0001848275": "2026-10-04T16:42:51+00:00",
@@ -133,13 +172,22 @@
   "edgar:0001213900-26-106555:0001658678": "2026-10-04T16:42:51+00:00",
   "edgar:0001213900-26-106565:0002034588": "2026-10-05T12:13:35+00:00",
   "edgar:0001213900-26-106636:0002002988": "2026-10-05T12:13:35+00:00",
+  "edgar:0001213900-26-106895:0001866226": "2026-10-06T11:59:33+00:00",
+  "edgar:0001214659-26-012562:0001350487": "2026-10-06T11:59:33+00:00",
+  "edgar:0001214659-26-012563:0001350487": "2026-10-06T11:59:33+00:00",
+  "edgar:0001477932-26-006041:0002076561": "2026-10-06T11:59:33+00:00",
   "edgar:0001493152-26-045386:0002143673": "2026-10-04T16:42:51+00:00",
   "edgar:0001493152-26-045457:0002141983": "2026-10-04T16:42:51+00:00",
   "edgar:0001493152-26-045532:0001828673": "2026-10-04T16:42:51+00:00",
   "edgar:0001493152-26-045574:0002033264": "2026-10-04T16:42:51+00:00",
+  "edgar:0001493152-26-045717:0002108671": "2026-10-06T11:59:33+00:00",
+  "edgar:0001493152-26-045770:0001517681": "2026-10-06T11:59:33+00:00",
   "edgar:0001520138-26-000404:0002137360": "2026-10-04T16:42:51+00:00",
   "edgar:0001628280-26-064097:0002141406": "2026-10-04T16:42:51+00:00",
+  "edgar:0001628280-26-064973:0001806540": "2026-10-06T11:59:33+00:00",
   "edgar:0001683168-26-007581:0001402328": "2026-10-04T16:42:51+00:00",
+  "edgar:0001753926-26-001899:0001844450": "2026-10-06T11:59:33+00:00",
+  "edgar:0001846069-26-000175:0001846069": "2026-10-06T11:59:33+00:00",
   "edgar:0001999371-26-021703:0001795351": "2026-10-04T16:42:51+00:00",
   "edgar:0001999371-26-021751:0001742912": "2026-10-04T16:42:51+00:00",
   "edgar:0001999371-26-021756:0002081107": "2026-10-04T16:42:51+00:00",
