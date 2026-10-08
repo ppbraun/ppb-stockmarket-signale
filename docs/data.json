@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T16:34:35.600118+00:00",
+  "generated_at": "2026-10-08T17:04:47.703406+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 9.4,
-      "priceEur": 302.64,
+      "reaction": 9.7,
+      "priceEur": 303.47,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "0Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.2,
-      "priceEur": 145.34,
+      "reaction": 1.7,
+      "priceEur": 145.99,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.6,
-      "priceEur": 138.66,
+      "reaction": -0.1,
+      "priceEur": 139.36,
       "description": "Die Target Corporation gehört zu den größten Einzelhändlern der USA und ist nach Walmart der zweitgrößte Discounter des Landes. Das Unternehmen hat seinen Sitz in Minneapolis,…",
       "politician": null,
       "track": null,
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.2,
-      "priceEur": 162.83,
+      "reaction": -0.6,
+      "priceEur": 163.81,
       "description": "RTX Corporation ist ein multinationaler Mischkonzern mit Hauptsitz im Arlington County. Das Unternehmen entwickelt und produziert Technologie im Bereich der Verteidigung und der…",
       "politician": null,
       "track": null,
@@ -239,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.6,
-      "priceEur": 127.1,
+      "reaction": -1.1,
+      "priceEur": 127.79,
       "description": "The Bank of New York Mellon Corporation ist ein weltweit tätiger Finanzdienstleister, der am 1. Juli 2007 aus der Bank of New York und der Mellon Financial Corporation entstand.…",
       "politician": null,
       "track": null,
@@ -274,9 +274,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.5,
-      "priceEur": 176.61,
-      "description": "Moderna, Inc. is an American pharmaceutical and biotechnology company based in Cambridge, Massachusetts, that focuses on RNA therapeutics, primarily mRNA vaccines. These vaccines…",
+      "reaction": 0.1,
+      "priceEur": 175.83,
+      "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -309,9 +309,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.9,
-      "priceEur": 26.86,
-      "description": null,
+      "reaction": 1.7,
+      "priceEur": 27.07,
+      "description": "MGM Resorts International is an American multinational hospitality, sports and entertainment company. It operates resorts in Las Vegas, Massachusetts, Michigan, Mississippi,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -339,119 +339,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "EBAY",
-      "name": "eBay Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.3,
-      "priceEur": 97.69,
-      "description": "eBay ist ein US-amerikanisches Unternehmen, das einen der größten Online-Marktplätze betreibt. Es wurde am 3. September 1995 von Pierre Omidyar im kalifornischen San José unter…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "YUM",
-      "name": "Yum! Brands",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.2,
-      "priceEur": 127.03,
-      "description": "Die Yum! Brands, Inc. ist die weltgrößte Unternehmensgruppe für Systemgastronomie mit mehr als 50.000 Restaurants in 150 Ländern. Die Hauptzentrale des Konzerns befindet sich in…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "9Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "FANG",
-      "name": "Diamondback Energy",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.2,
-      "priceEur": 169.89,
-      "description": "Diamondback Energy, Inc. ist ein US-amerikanisches Unternehmen, das in der Förderung von Erdöl, Erdgas und Flüssigerdgas tätig ist und seinen Hauptsitz in Midland, Texas hat. Alle…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "11Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "HOOD",
       "name": "Robinhood Markets",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.3,
-      "priceEur": 96.71,
+      "reaction": -0.9,
+      "priceEur": 95.55,
       "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
       "politician": null,
       "track": null,
@@ -485,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 64.04,
+      "reaction": -1.5,
+      "priceEur": 63.11,
       "description": "Hewlett Packard Enterprise (HPE) ist ein US-amerikanisches Informationstechnikunternehmen mit Sitz in Spring im Bundesstaat Texas. Es entstand im Zuge der Abspaltung des…",
       "politician": null,
       "track": null,
@@ -501,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -520,8 +414,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 643.6,
+      "reaction": -0.6,
+      "priceEur": 639.86,
       "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
@@ -555,8 +449,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 234.11,
+      "reaction": 0.2,
+      "priceEur": 234.5,
       "description": "Illumina, Inc. is an American biotechnology company, headquartered in San Diego, California. Incorporated on April 1, 1998, Illumina develops, manufactures, and markets integrated…",
       "politician": null,
       "track": null,
@@ -585,13 +479,118 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "VZ",
+      "name": "Verizon",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 41.27,
+      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "SNPS",
+      "name": "Synopsys",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 449.68,
+      "description": "Synopsys Inc. ist ein Technologie-Unternehmen in den Bereichen Halbleiter-Design-Software (EDA), IP-Core, Design-for-Manufacturing und Verifikation.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "6Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "T",
+      "name": "AT&T",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 22.14,
+      "description": "Die AT&T Inc. [ˌeɪtiːənˈtiː] ist ein nordamerikanischer Telekommunikationskonzern. AT&T stellt neben Telefon-, Daten- und Videotelekommunikation auch Mobilfunk und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -15.3,
-      "priceEur": 94.4,
+      "reaction": -15.5,
+      "priceEur": 94.22,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -606,7 +605,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -625,8 +624,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -6.4,
-      "priceEur": 23.84,
+      "reaction": -6.1,
+      "priceEur": 23.94,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -658,7 +657,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -9.8,
-      "priceEur": 70.08,
+      "priceEur": 70.1,
       "description": null,
       "politician": null,
       "track": null,
@@ -722,8 +721,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -26.6,
-      "priceEur": 3.02,
+      "reaction": -26.7,
+      "priceEur": 3.01,
       "description": null,
       "politician": null,
       "track": null,
@@ -755,8 +754,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -13.2,
-      "priceEur": 9.63,
+      "reaction": -12.9,
+      "priceEur": 9.66,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -787,8 +786,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -15.9,
-      "priceEur": 33.71,
+      "reaction": -15.7,
+      "priceEur": 33.81,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -819,8 +818,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -4.4,
-      "priceEur": 106.29,
+      "reaction": -4.2,
+      "priceEur": 106.54,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
@@ -833,7 +832,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
