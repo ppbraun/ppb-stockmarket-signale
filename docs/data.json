@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T17:04:48.184073+00:00",
+  "generated_at": "2026-10-10T17:34:23.677305+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
           "active": true
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -374,77 +374,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "DIS",
-      "name": "Walt Disney Company (The)",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 96.42,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [
-        "Glücksspiel"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "EVRG",
-      "name": "Evergy",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 72.25,
-      "description": "Evergy, Inc. is an American investor-owned utility (IOU) with publicly traded stock with headquarters in Topeka, Kansas, and in Kansas City, Missouri. The company was formed from…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
       "tk": "VZ",
       "name": "Verizon",
       "broker": true,
@@ -466,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -485,7 +414,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 68.93,
       "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
       "politician": null,
@@ -515,14 +444,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "NWS",
-      "name": "News Corp (Class B)",
+      "tk": "NEE",
+      "name": "NextEra Energy",
       "broker": true,
       "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 28.57,
-      "description": null,
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 69.05,
+      "description": "Die NextEra Energy, Inc. ist ein im S&P 500 gelistetes amerikanisches Energieunternehmen mit Firmensitz in Juno Beach, Florida, dessen Geschichte bis ins Jahr 1925 zurückreicht.",
       "politician": null,
       "track": null,
       "sig": {
@@ -535,7 +464,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -544,19 +474,54 @@
           "active": false
         }
       },
-      "topic": "Communication Services",
+      "topic": "Utilities",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "NEE",
-      "name": "NextEra Energy",
+      "tk": "ANET",
+      "name": "Arista Networks",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 69.05,
-      "description": "Die NextEra Energy, Inc. ist ein im S&P 500 gelistetes amerikanisches Energieunternehmen mit Firmensitz in Juno Beach, Florida, dessen Geschichte bis ins Jahr 1925 zurückreicht.",
+      "priceEur": 193.41,
+      "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MRVL",
+      "name": "Marvell Technology",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 245.65,
+      "description": "Marvell Technology Group ist ein US-amerikanischer fabless Hersteller von Speicher-, Telekommunikations- und Halbleiter-Produkten.",
       "politician": null,
       "track": null,
       "sig": {
@@ -579,7 +544,42 @@
           "active": false
         }
       },
-      "topic": "Utilities",
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MMM",
+      "name": "3M",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 142.75,
+      "description": "3M ist ein weltweit agierender US-amerikanischer Technologiekonzern mit Hauptsitz in Saint Paul im US-Bundesstaat Minnesota. Bei Verbrauchern ist 3M unter anderem durch seine…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "6Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -605,7 +605,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -703,7 +703,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -789,7 +789,7 @@
       "score": 0,
       "reaction": -13.3,
       "priceEur": 34.71,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
