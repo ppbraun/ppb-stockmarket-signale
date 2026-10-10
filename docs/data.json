@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T08:34:34.256373+00:00",
+  "generated_at": "2026-10-10T09:04:25.285148+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -7,12 +7,12 @@
       "pct": 100
     },
     {
-      "topic": "Fed-Zinspolitik",
-      "vol": 2,
-      "pct": 50
+      "topic": "Halbleiter / Chips",
+      "vol": 3,
+      "pct": 75
     },
     {
-      "topic": "Halbleiter / Chips",
+      "topic": "Fed-Zinspolitik",
       "vol": 2,
       "pct": 50
     },
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": 8.8,
       "priceEur": 300.41,
-      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -206,7 +206,7 @@
       "score": 3,
       "reaction": -1.2,
       "priceEur": 127.35,
-      "description": null,
+      "description": "The Bank of New York Mellon Corporation ist ein weltweit tätiger Finanzdienstleister, der am 1. Juli 2007 aus der Bank of New York und der Mellon Financial Corporation entstand.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -241,7 +241,7 @@
       "score": 3,
       "reaction": 14.5,
       "priceEur": 200.79,
-      "description": "Moderna, Inc. is an American pharmaceutical and biotechnology company based in Cambridge, Massachusetts, that focuses on RNA therapeutics, primarily mRNA vaccines. These vaccines…",
+      "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -311,7 +311,7 @@
       "score": 3,
       "reaction": -0.2,
       "priceEur": 104.1,
-      "description": null,
+      "description": "Duke Energy ist ein US-amerikanisches Energieversorger mit Sitz in Charlotte, North Carolina. Das Unternehmen ist im Aktienindex S&P 500 und im Dow Jones Utility Average gelistet.",
       "politician": null,
       "track": null,
       "sig": {
@@ -360,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -374,120 +374,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "HOOD",
-      "name": "Robinhood Markets",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 97.29,
-      "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "EVRG",
-      "name": "Evergy",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 72.25,
-      "description": "Evergy, Inc. is an American investor-owned utility (IOU) with publicly traded stock with headquarters in Topeka, Kansas, and in Kansas City, Missouri. The company was formed from…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "DIS",
-      "name": "Walt Disney Company (The)",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 96.42,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "14Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [
-        "Glücksspiel"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "DDOG",
       "name": "Datadog",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 261.7,
-      "description": null,
+      "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
       "politician": null,
       "track": null,
       "sig": {
@@ -501,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -520,9 +414,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 362.48,
-      "description": null,
+      "description": "Analog Devices Inc. ist ein US-amerikanischer Halbleiterhersteller mit Hauptsitz in Norwood bei Boston, Massachusetts. Das Unternehmen betreibt weltweit Niederlassungen.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -555,9 +449,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 142.75,
-      "description": "The 3M Company is an American multinational conglomerate operating in the fields of industry, worker safety, and consumer goods. Based in the Saint Paul suburb of Maplewood, the…",
+      "description": "3M ist ein weltweit agierender US-amerikanischer Technologiekonzern mit Hauptsitz in Saint Paul im US-Bundesstaat Minnesota. Bei Verbrauchern ist 3M unter anderem durch seine…",
       "politician": null,
       "track": null,
       "sig": {
@@ -571,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -581,6 +475,111 @@
         }
       },
       "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "VRSK",
+      "name": "Verisk Analytics",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 158.51,
+      "description": "Verisk Analytics ist ein US-amerikanisches Datenanalyse-Unternehmen mit Sitz in Jersey City.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "20Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "LDOS",
+      "name": "Leidos",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 108.58,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "VZ",
+      "name": "Verizon",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 37.17,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -671,7 +670,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -692,7 +691,7 @@
       "score": 1,
       "reaction": -18.0,
       "priceEur": 76.15,
-      "description": null,
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -757,7 +756,7 @@
       "score": 0,
       "reaction": -7.0,
       "priceEur": 10.3,
-      "description": "Li Auto Inc. is a Chinese electric vehicle manufacturer headquartered in Beijing, with manufacturing facilities in Changzhou. Founded by Li Xiang in 2015, the company is best…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -821,7 +820,7 @@
       "score": 1,
       "reaction": -0.1,
       "priceEur": 110.87,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
       "sig": {
@@ -833,7 +832,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "23Std"
         },
         "predict": {
           "active": false
