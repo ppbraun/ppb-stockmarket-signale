@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T13:34:32.372510+00:00",
+  "generated_at": "2026-10-10T14:04:40.301302+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -7,12 +7,12 @@
       "pct": 100
     },
     {
-      "topic": "Halbleiter / Chips",
-      "vol": 3,
-      "pct": 75
+      "topic": "Fed-Zinspolitik",
+      "vol": 2,
+      "pct": 50
     },
     {
-      "topic": "Fed-Zinspolitik",
+      "topic": "Halbleiter / Chips",
       "vol": 2,
       "pct": 50
     },
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -325,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -360,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -372,41 +372,6 @@
       "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "DDOG",
-      "name": "Datadog",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 261.7,
-      "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "12Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "VRSK",
@@ -484,7 +449,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 245.65,
       "description": "Marvell Technology Group ist ein US-amerikanischer fabless Hersteller von Speicher-, Telekommunikations- und Halbleiter-Produkten.",
       "politician": null,
@@ -514,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AFL",
-      "name": "Aflac",
+      "tk": "NVDA",
+      "name": "Nvidia",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 102.21,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "priceEur": 204.6,
+      "description": "Die Nvidia Corporation ist ein US-amerikanisches Unternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -534,7 +499,80 @@
           "src": "SEC"
         },
         "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
           "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "DIS",
+      "name": "Walt Disney Company (The)",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 96.42,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "20Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [
+        "Glücksspiel"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "XYZ",
+      "name": "Block, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 68.93,
+      "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -545,41 +583,7 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "NSC",
-      "name": "Norfolk Southern",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 283.59,
-      "description": "Die Norfolk Southern Railway ist eine US-amerikanische Class-1-Bahngesellschaft. Sie ist die Führungsgesellschaft der Bahnaktivitäten der Norfolk Southern Corporation und – neben…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -668,7 +672,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": false
@@ -734,7 +738,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
