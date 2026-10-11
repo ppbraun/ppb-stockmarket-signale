@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T17:04:48.741874+00:00",
+  "generated_at": "2026-10-11T17:34:34.898515+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -267,41 +267,6 @@
       "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "ACN",
-      "name": "Accenture",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 186.56,
-      "description": "Die Accenture Plc mit Sitz im irischen Dublin ist einer der weltweit größten Dienstleister im Bereich der Unternehmens- und Strategieberatung sowie Technologie und Outsourcing,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "VZ",
@@ -325,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -429,7 +394,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "2T"
         },
         "predict": {
           "active": false
@@ -464,7 +429,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -483,7 +448,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 68.93,
       "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
       "politician": null,
@@ -513,14 +478,49 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "NWS",
-      "name": "News Corp (Class B)",
+      "tk": "MNST",
+      "name": "Monster Beverage",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 38.94,
+      "description": "Monster Beverage ist ein US-amerikanischer Getränkehersteller. Das Unternehmen ist im Nasdaq gelistet.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "LDOS",
+      "name": "Leidos",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 28.57,
-      "description": null,
+      "priceEur": 108.58,
+      "description": "Leidos Holdings, früher unter dem Namen Science Applications International Corporation (SAIC) bekannt ist ein US-amerikanischer Softwarehersteller, der Lösungen zur…",
       "politician": null,
       "track": null,
       "sig": {
@@ -542,19 +542,19 @@
           "active": false
         }
       },
-      "topic": "Communication Services",
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "STLD",
-      "name": "Steel Dynamics",
+      "tk": "NVDA",
+      "name": "Nvidia",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 212.73,
-      "description": "Steel Dynamics (SDI) ist ein amerikanischer Stahlhersteller mit Sitz in Fort Wayne, Indiana. Der Stahl wird ausschließlich in Elektrostahlwerken erzeugt.",
+      "priceEur": 204.6,
+      "description": "Die Nvidia Corporation ist ein US-amerikanisches Unternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -567,7 +567,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -576,9 +577,9 @@
           "active": false
         }
       },
-      "topic": "Materials",
+      "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
