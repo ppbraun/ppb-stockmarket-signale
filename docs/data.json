@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T05:34:34.173989+00:00",
+  "generated_at": "2026-10-12T06:04:36.524850+00:00",
   "newsTopics": [
     {
       "topic": "Halbleiter / Chips",
@@ -182,7 +182,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -320,7 +320,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -369,74 +369,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "NSC",
-      "name": "Norfolk Southern",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 283.59,
-      "description": "Die Norfolk Southern Railway ist eine US-amerikanische Class-1-Bahngesellschaft. Sie ist die Führungsgesellschaft der Bahnaktivitäten der Norfolk Southern Corporation und – neben…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "WEC",
-      "name": "WEC Energy Group",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 92.58,
-      "description": "WEC Energy Group is an American energy company based in Milwaukee, Wisconsin. It provides electricity and natural gas to 4.4 million customers across four states.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "ACN",
       "name": "Accenture",
       "broker": true,
@@ -472,46 +404,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "MMM",
-      "name": "3M",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 142.75,
-      "description": "3M ist ein weltweit agierender US-amerikanischer Technologiekonzern mit Hauptsitz in Saint Paul im US-Bundesstaat Minnesota. Bei Verbrauchern ist 3M unter anderem durch seine…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "HSY",
       "name": "Hershey Company (The)",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 145.23,
       "description": null,
       "politician": null,
@@ -546,7 +444,7 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 28.57,
       "description": null,
       "politician": null,
@@ -575,6 +473,112 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
+      "tk": "DIS",
+      "name": "Walt Disney Company (The)",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 96.42,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [
+        "Glücksspiel"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "LDOS",
+      "name": "Leidos",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 108.58,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "VZ",
+      "name": "Verizon",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 37.17,
+      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "10Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -596,7 +600,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
