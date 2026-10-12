@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T10:04:35.001939+00:00",
+  "generated_at": "2026-10-12T10:34:19.288164+00:00",
   "newsTopics": [
     {
       "topic": "Halbleiter / Chips",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": 14.5,
       "priceEur": 200.79,
-      "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
+      "description": "Moderna, Inc. is an American pharmaceutical and biotechnology company based in Cambridge, Massachusetts, that focuses on RNA therapeutics, primarily mRNA vaccines. These vaccines…",
       "politician": null,
       "track": null,
       "sig": {
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -313,7 +313,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 37.17,
-      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
+      "description": "Verizon Communications Inc. is an American telecommunications company headquartered in New York City. It is the world's second-largest telecommunications company by revenue and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -348,7 +348,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 245.65,
-      "description": "Marvell Technology Group ist ein US-amerikanischer fabless Hersteller von Speicher-, Telekommunikations- und Halbleiter-Produkten.",
+      "description": "Marvell Technology, Inc. is an American company, headquartered in Santa Clara, California, which develops and produces semiconductors and related technology. Founded in 1995, the…",
       "politician": null,
       "track": null,
       "sig": {
@@ -362,7 +362,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -383,7 +383,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 97.29,
-      "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -418,7 +418,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 72.25,
-      "description": "Evergy, Inc. is an American investor-owned utility (IOU) with publicly traded stock with headquarters in Topeka, Kansas, and in Kansas City, Missouri. The company was formed from…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -452,7 +452,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 37.35,
-      "description": "Super Micro Computer, Inc., doing business as Supermicro, is an American information technology company based in San Jose, California. The company is one of the largest producers…",
+      "description": "Super Micro Computer, kurz Supermicro, ist ein Hersteller von Computern für Rechenzentren. Das Unternehmen wurde 1993 vom Ehepaar Charles und Chiu-Chu Liu Liang im kalifornischen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -480,14 +480,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AFL",
-      "name": "Aflac",
+      "tk": "STLD",
+      "name": "Steel Dynamics",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 102.21,
-      "description": "Aflac Incorporated is an American insurance company and is the largest provider of supplemental insurance in the United States. It was founded in 1955 and is based in Columbus,…",
+      "priceEur": 212.73,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -509,53 +509,19 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Materials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "LDOS",
-      "name": "Leidos",
+      "tk": "VRSN",
+      "name": "Verisign",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 108.58,
-      "description": "Leidos Holdings, Inc. is an American defense, aviation, information technology, and biomedical research company headquartered in Reston, Virginia, that provides scientific,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "ANET",
-      "name": "Arista Networks",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 193.41,
-      "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
+      "priceEur": 271.05,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -582,6 +548,40 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
+      "tk": "VRSK",
+      "name": "Verisk Analytics",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 158.51,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -603,7 +603,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -688,7 +688,7 @@
       "score": 1,
       "reaction": -18.0,
       "priceEur": 76.15,
-      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
