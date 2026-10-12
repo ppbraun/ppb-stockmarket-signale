@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T10:34:19.288164+00:00",
+  "generated_at": "2026-10-12T11:06:49.061508+00:00",
   "newsTopics": [
     {
       "topic": "Halbleiter / Chips",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": 14.5,
       "priceEur": 200.79,
-      "description": "Moderna, Inc. is an American pharmaceutical and biotechnology company based in Cambridge, Massachusetts, that focuses on RNA therapeutics, primarily mRNA vaccines. These vaccines…",
+      "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "23Std"
         },
         "predict": {
           "active": false
@@ -206,7 +206,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 186.56,
-      "description": "Accenture plc is a technology consulting company headquartered in Dublin, Ireland. Founded in 1989 in the United States, Accenture provides information technology and management…",
+      "description": "Die Accenture Plc mit Sitz im irischen Dublin ist einer der weltweit größten Dienstleister im Bereich der Unternehmens- und Strategieberatung sowie Technologie und Outsourcing,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -313,7 +313,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 37.17,
-      "description": "Verizon Communications Inc. is an American telecommunications company headquartered in New York City. It is the world's second-largest telecommunications company by revenue and…",
+      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -327,7 +327,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -348,7 +348,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 245.65,
-      "description": "Marvell Technology, Inc. is an American company, headquartered in Santa Clara, California, which develops and produces semiconductors and related technology. Founded in 1995, the…",
+      "description": "Marvell Technology Group ist ein US-amerikanischer fabless Hersteller von Speicher-, Telekommunikations- und Halbleiter-Produkten.",
       "politician": null,
       "track": null,
       "sig": {
@@ -383,7 +383,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 97.29,
-      "description": null,
+      "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -418,7 +418,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 72.25,
-      "description": null,
+      "description": "Evergy, Inc. is an American investor-owned utility (IOU) with publicly traded stock with headquarters in Topeka, Kansas, and in Kansas City, Missouri. The company was formed from…",
       "politician": null,
       "track": null,
       "sig": {
@@ -480,82 +480,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "STLD",
-      "name": "Steel Dynamics",
+      "tk": "LDOS",
+      "name": "Leidos",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 212.73,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "VRSN",
-      "name": "Verisign",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 271.05,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "VRSK",
-      "name": "Verisk Analytics",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 158.51,
-      "description": null,
+      "priceEur": 108.58,
+      "description": "Leidos Holdings, früher unter dem Namen Science Applications International Corporation (SAIC) bekannt ist ein US-amerikanischer Softwarehersteller, der Lösungen zur…",
       "politician": null,
       "track": null,
       "sig": {
@@ -578,6 +510,74 @@
         }
       },
       "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "NWS",
+      "name": "News Corp (Class B)",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 28.57,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "PANW",
+      "name": "Palo Alto Networks",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 373.71,
+      "description": "Palo Alto Networks, Inc. ist ein amerikanisches multinationales IT-Sicherheitsunternehmen mit Hauptsitz in Santa Clara, Kalifornien. Seine Kernprodukte sind eine Plattform, die…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -752,7 +752,7 @@
       "score": 0,
       "reaction": -7.0,
       "priceEur": 10.3,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -784,7 +784,7 @@
       "score": 0,
       "reaction": -13.3,
       "priceEur": 34.71,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
