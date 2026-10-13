@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T06:04:46.470084+00:00",
+  "generated_at": "2026-10-13T06:34:46.458705+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -65,8 +65,8 @@
       "market": "us",
       "score": 3,
       "reaction": 8.8,
-      "priceEur": null,
-      "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
+      "priceEur": 191.16,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -94,83 +94,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "VZ",
-      "name": "Verizon",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 2.7,
-      "priceEur": null,
-      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "9Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "MRVL",
-      "name": "Marvell Technology",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -3.4,
-      "priceEur": null,
-      "description": "Marvell Technology Group ist ein US-amerikanischer fabless Hersteller von Speicher-, Telekommunikations- und Halbleiter-Produkten.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "9Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "HOOD",
       "name": "Robinhood Markets",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": 0.2,
-      "priceEur": null,
+      "priceEur": 97.68,
       "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
       "politician": null,
       "track": null,
@@ -185,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -205,8 +135,8 @@
       "market": "us",
       "score": 2,
       "reaction": 0.7,
-      "priceEur": null,
-      "description": "Evergy, Inc. is an American investor-owned utility (IOU) with publicly traded stock with headquarters in Topeka, Kansas, and in Kansas City, Missouri. The company was formed from…",
+      "priceEur": 72.89,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -239,8 +169,8 @@
       "market": "us",
       "score": 2,
       "reaction": -4.5,
-      "priceEur": null,
-      "description": "Super Micro Computer, kurz Supermicro, ist ein Hersteller von Computern für Rechenzentren. Das Unternehmen wurde 1993 vom Ehepaar Charles und Chiu-Chu Liu Liang im kalifornischen…",
+      "priceEur": 35.76,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -254,7 +184,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -274,8 +204,8 @@
       "market": "us",
       "score": 2,
       "reaction": 0.3,
-      "priceEur": null,
-      "description": "Palo Alto Networks, Inc. ist ein amerikanisches multinationales IT-Sicherheitsunternehmen mit Hauptsitz in Santa Clara, Kalifornien. Seine Kernprodukte sind eine Plattform, die…",
+      "priceEur": 361.17,
+      "description": "Palo Alto Networks, Inc. is an American multinational cybersecurity company with headquarters in Santa Clara, California. The core product is a platform that includes advanced…",
       "politician": null,
       "track": null,
       "sig": {
@@ -289,7 +219,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -309,7 +239,7 @@
       "market": "us",
       "score": 2,
       "reaction": 0.0,
-      "priceEur": null,
+      "priceEur": 202.41,
       "description": "Die Nvidia Corporation ist ein US-amerikanisches Unternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
       "politician": null,
       "track": null,
@@ -324,7 +254,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -344,7 +274,7 @@
       "market": "us",
       "score": 2,
       "reaction": -0.5,
-      "priceEur": null,
+      "priceEur": 188.6,
       "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
       "politician": null,
       "track": null,
@@ -379,7 +309,7 @@
       "market": "us",
       "score": 2,
       "reaction": -0.5,
-      "priceEur": null,
+      "priceEur": 213.88,
       "description": "Steel Dynamics (SDI) ist ein amerikanischer Stahlhersteller mit Sitz in Fort Wayne, Indiana. Der Stahl wird ausschließlich in Elektrostahlwerken erzeugt.",
       "politician": null,
       "track": null,
@@ -394,7 +324,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -414,7 +344,7 @@
       "market": "us",
       "score": 2,
       "reaction": 0.0,
-      "priceEur": null,
+      "priceEur": 39.14,
       "description": "Monster Beverage ist ein US-amerikanischer Getränkehersteller. Das Unternehmen ist im Nasdaq gelistet.",
       "politician": null,
       "track": null,
@@ -429,7 +359,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -449,7 +379,7 @@
       "market": "us",
       "score": 2,
       "reaction": 0.0,
-      "priceEur": null,
+      "priceEur": 192.17,
       "description": "Die Accenture Plc mit Sitz im irischen Dublin ist einer der weltweit größten Dienstleister im Bereich der Unternehmens- und Strategieberatung sowie Technologie und Outsourcing,…",
       "politician": null,
       "track": null,
@@ -483,8 +413,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": null,
+      "reaction": 0.0,
+      "priceEur": 70.22,
       "description": "Die NextEra Energy, Inc. ist ein im S&P 500 gelistetes amerikanisches Energieunternehmen mit Firmensitz in Juno Beach, Florida, dessen Geschichte bis ins Jahr 1925 zurückreicht.",
       "politician": null,
       "track": null,
@@ -499,7 +429,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -513,48 +443,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VRSN",
-      "name": "Verisign",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": null,
-      "description": "Verisign ist ein US-amerikanisches Unternehmen mit Sitz in Reston, Virginia.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "DDOG",
       "name": "Datadog",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": null,
-      "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
+      "reaction": 0.0,
+      "priceEur": 256.94,
+      "description": "Datadog, Inc. is an American company that provides an observability service for cloud-scale applications, providing monitoring of servers, databases, tools, and services, through…",
       "politician": null,
       "track": null,
       "sig": {
@@ -582,13 +478,115 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "XYZ",
+      "name": "Block, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 68.71,
+      "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "4T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "AFL",
+      "name": "Aflac",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 103.65,
+      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "4T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "MMM",
+      "name": "3M",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 143.9,
+      "description": "3M ist ein weltweit agierender US-amerikanischer Technologiekonzern mit Hauptsitz in Saint Paul im US-Bundesstaat Minnesota. Bei Verbrauchern ist 3M unter anderem durch seine…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "4T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
       "reaction": -11.2,
-      "priceEur": null,
+      "priceEur": 99.08,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -603,7 +601,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": true
@@ -623,7 +621,7 @@
       "market": "cn",
       "score": 1,
       "reaction": -6.2,
-      "priceEur": null,
+      "priceEur": 23.9,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -655,7 +653,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -6.9,
-      "priceEur": null,
+      "priceEur": 72.37,
       "description": null,
       "politician": null,
       "track": null,
@@ -687,8 +685,8 @@
       "market": "cn",
       "score": 1,
       "reaction": -19.0,
-      "priceEur": null,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "priceEur": 75.4,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -719,7 +717,7 @@
       "market": "cn",
       "score": 1,
       "reaction": -24.6,
-      "priceEur": null,
+      "priceEur": 3.1,
       "description": null,
       "politician": null,
       "track": null,
@@ -732,7 +730,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -752,7 +750,7 @@
       "market": "cn",
       "score": 1,
       "reaction": -8.1,
-      "priceEur": null,
+      "priceEur": 10.2,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -765,7 +763,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -785,7 +783,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -13.6,
-      "priceEur": null,
+      "priceEur": 34.67,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -817,7 +815,7 @@
       "market": "cn",
       "score": 0,
       "reaction": 0.8,
-      "priceEur": null,
+      "priceEur": 112.16,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
