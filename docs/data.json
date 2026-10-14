@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T16:34:26.126766+00:00",
+  "generated_at": "2026-10-14T17:04:40.098501+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -13,6 +13,11 @@
     },
     {
       "topic": "Fed-Zinspolitik",
+      "vol": 1,
+      "pct": 25
+    },
+    {
+      "topic": "Schifffahrt / Lieferketten",
       "vol": 1,
       "pct": 25
     },
@@ -42,11 +47,6 @@
       "pct": 0
     },
     {
-      "topic": "Schifffahrt / Lieferketten",
-      "vol": 0,
-      "pct": 0
-    },
-    {
       "topic": "Krypto-Regulierung",
       "vol": 0,
       "pct": 0
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 11.8,
-      "priceEur": 196.23,
+      "reaction": 13.6,
+      "priceEur": 199.38,
       "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -99,79 +99,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -6.0,
-      "priceEur": 187.05,
+      "reaction": -6.4,
+      "priceEur": 186.41,
       "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "CSCO",
-      "name": "Cisco",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -1.1,
-      "priceEur": 102.43,
-      "description": "Cisco Systems, Inc. ist ein US-amerikanisches Unternehmen aus der Telekommunikationsbranche. Bekannt ist es vor allem für seine Router und Switches, die von einem wesentlichen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ANET",
-      "name": "Arista Networks",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -2.6,
-      "priceEur": 174.78,
-      "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
       "politician": null,
       "track": null,
       "sig": {
@@ -188,15 +118,15 @@
           "age": "2Std"
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "STT",
@@ -206,7 +136,7 @@
       "score": 2,
       "reaction": 1.6,
       "priceEur": 145.49,
-      "description": "State Street Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Boston. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -239,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.4,
-      "priceEur": 541.61,
+      "reaction": 0.2,
+      "priceEur": 540.57,
       "description": "Die Mastercard Inc. mit Sitz in Purchase, New York ist ein börsennotierter Zahlungsdienstleister und beschäftigte 2025 rund 32.800 Mitarbeiter. Mastercard ist neben Visa eine der…",
       "politician": null,
       "track": null,
@@ -274,9 +204,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.5,
-      "priceEur": 165.62,
-      "description": "Workday, Inc., is an American cloud-based provider of financial management, human capital management, and student information system software. The company was founded by former…",
+      "reaction": -0.6,
+      "priceEur": 165.43,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -309,9 +239,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.7,
-      "priceEur": 50.8,
-      "description": "Carvana Co. is an American online car retailer based in Tempe, Arizona. Carvana was named to the 2021 Fortune 500 list, one of the youngest companies to be added to the list.",
+      "reaction": -0.5,
+      "priceEur": 50.88,
+      "description": "Carvana ist ein US-amerikanisches Unternehmen, welches Gebrauchtwagen über das Internet verkauft. Carvana hat seinen Hauptsitz in Tempe, Arizona und wurde bereits als „Amazon für…",
       "politician": null,
       "track": null,
       "sig": {
@@ -345,7 +275,7 @@
       "market": "us",
       "score": 2,
       "reaction": 0.1,
-      "priceEur": 372.07,
+      "priceEur": 371.92,
       "description": "Intuitive Surgical ist ein US-amerikanisches Unternehmen der Medizintechnik mit Hauptsitz in Sunnyvale, CA.",
       "politician": null,
       "track": null,
@@ -360,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -379,8 +309,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 83.64,
+      "reaction": 0.3,
+      "priceEur": 83.85,
       "description": "Lululemon Athletica Inc. [ˈluːluˌlɛmən], gestaltet als lululemon athletica, ist ein kanadischer Einzelhändler für Sportbekleidung. Lululemon wurde in Kanada als Einzelhändler für…",
       "politician": null,
       "track": null,
@@ -395,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -414,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.0,
-      "priceEur": 128.63,
+      "reaction": -0.8,
+      "priceEur": 128.88,
       "description": "Everpure, Inc. is an American publicly traded technology company headquartered in Santa Clara, California, United States. While the company originally focused on developing…",
       "politician": null,
       "track": null,
@@ -449,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.9,
-      "priceEur": 48.97,
+      "reaction": 1.2,
+      "priceEur": 49.11,
       "description": "Edison International ist ein US-amerikanisches Unternehmen aus Kalifornien mit Firmensitz in Rosemead. Das Unternehmen ist im Aktienindex S&P 500 und im Dow Jones Utility Average…",
       "politician": null,
       "track": null,
@@ -465,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -484,8 +414,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 329.18,
+      "reaction": 0.1,
+      "priceEur": 329.42,
       "description": "Ciena Corporation ist ein Unternehmen für optische Netzwerksysteme und Software aus den Vereinigten Staaten. Das Unternehmen ist im S&P 500 gelistet. Der Sitz befindet sich in…",
       "politician": null,
       "track": null,
@@ -500,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -514,48 +444,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "SWKS",
-      "name": "Skyworks Solutions",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 67.93,
-      "description": "Skyworks Solutions ist ein US-amerikanisches Halbleiterunternehmen mit Hauptsitz in Woburn (Massachusetts). Skyworks stellt Halbleiter für Funkfrequenz- und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "MKC",
       "name": "McCormick & Company",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 40.04,
-      "description": "McCormick & Company ist ein US-amerikanisches Unternehmen mit Hauptsitz in Hunt Valley, Maryland. Das Unternehmen ist an der New Yorker Börse gelistet und im Aktienindex S&P 500…",
+      "reaction": -0.1,
+      "priceEur": 40.0,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -583,13 +479,118 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "BAC",
+      "name": "Bank of America",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 45.62,
+      "description": "The Bank of America Corporation is an American multinational bank and financial services holding company headquartered at the Bank of America Corporate Center in Charlotte, North…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "WTW",
+      "name": "Willis Towers Watson",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 265.94,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CRWD",
+      "name": "CrowdStrike",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 225.02,
+      "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -11.5,
-      "priceEur": 98.63,
+      "reaction": -11.1,
+      "priceEur": 99.07,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -604,7 +605,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -623,8 +624,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -6.9,
-      "priceEur": 23.71,
+      "reaction": -6.7,
+      "priceEur": 23.74,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -656,8 +657,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -6.3,
-      "priceEur": 72.76,
+      "reaction": -6.7,
+      "priceEur": 72.44,
       "description": null,
       "politician": null,
       "track": null,
@@ -689,9 +690,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -21.5,
-      "priceEur": 73.0,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "reaction": -21.4,
+      "priceEur": 73.08,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -721,8 +722,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -25.2,
-      "priceEur": 3.07,
+      "reaction": -25.4,
+      "priceEur": 3.06,
       "description": null,
       "politician": null,
       "track": null,
@@ -754,8 +755,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -9.5,
-      "priceEur": 10.03,
+      "reaction": -9.2,
+      "priceEur": 10.06,
       "description": null,
       "politician": null,
       "track": null,
@@ -788,8 +789,8 @@
       "market": "cn",
       "score": 0,
       "reaction": -13.5,
-      "priceEur": 34.67,
-      "description": null,
+      "priceEur": 34.65,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -820,8 +821,8 @@
       "market": "cn",
       "score": 0,
       "reaction": -0.6,
-      "priceEur": 110.45,
-      "description": null,
+      "priceEur": 110.48,
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
