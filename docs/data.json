@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:04:37.429757+00:00",
+  "generated_at": "2026-10-15T15:34:36.920715+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 22.1,
-      "priceEur": 213.96,
+      "reaction": 22.5,
+      "priceEur": 214.83,
       "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.0,
-      "priceEur": 194.83,
+      "reaction": -2.8,
+      "priceEur": 193.34,
       "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.8,
-      "priceEur": 153.22,
+      "reaction": 2.9,
+      "priceEur": 153.34,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.7,
-      "priceEur": 508.44,
+      "reaction": 2.0,
+      "priceEur": 510.1,
       "description": "MSCI Inc. ist ein in New York City ansässiger US-amerikanischer Finanzdienstleister, der Finanzdienstleistungen vor allem für das Investment Banking anbietet. Dies umfasst neben…",
       "politician": null,
       "track": null,
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.8,
-      "priceEur": 652.6,
+      "reaction": -0.5,
+      "priceEur": 654.88,
       "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -239,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -7.2,
-      "priceEur": 218.02,
+      "reaction": -7.0,
+      "priceEur": 218.38,
       "description": "Coherent Corp., vormals II-VI Incorporated, ist ein amerikanischer Hersteller von II-VI-Verbindungshalbleitern und Lasern mit Sitz in Pennsylvania. Es werden Zinkselenid für…",
       "politician": null,
       "track": null,
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "0Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -274,79 +274,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.5,
-      "priceEur": 880.37,
-      "description": "Die Costco Wholesale Corporation ist eine US-amerikanische Warenhauskette für zahlende Mitglieder mit Hauptsitz in Issaquah bei Seattle, Bundesstaat Washington. Das Unternehmen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "NTAP",
-      "name": "NetApp",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.2,
-      "priceEur": 192.09,
-      "description": "NetApp, Inc., zuvor bekannt als Network Appliance, Inc., ist ein US-amerikanisches Unternehmen, das im Bereich der Datenspeicherung, des Cloud Computing und des Datenmanagements…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "PFE",
-      "name": "Pfizer",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.6,
-      "priceEur": 26.49,
-      "description": "Pfizer Inc. ist ein US-amerikanischer, international aufgestellter und börsennotierter Pharma- und Biotechnologiekonzern mit Hauptsitz in New York. Pfizer war 2025 mit 62,6 Mrd.…",
+      "reaction": 0.6,
+      "priceEur": 881.64,
+      "description": "Costco Wholesale Corporation is an American multinational corporation that operates a chain of membership-only big-box warehouse club retail stores. As of 2025, Costco is the…",
       "politician": null,
       "track": null,
       "sig": {
@@ -363,50 +293,15 @@
           "age": "2Std"
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Consumer Staples",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "DELL",
-      "name": "Dell Technologies",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 2.0,
-      "priceEur": 418.28,
-      "description": "Dell Technologies Inc. ist ein US-amerikanischer Hersteller von Computern und Speichersystemen. Das Unternehmen hat seinen Hauptsitz in Round Rock, Texas.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "0Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "RL",
@@ -414,8 +309,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.3,
-      "priceEur": 347.26,
+      "reaction": 0.8,
+      "priceEur": 348.89,
       "description": "Die Ralph Lauren Corporation ist ein börsennotiertes Modeunternehmen mit Hauptsitz in New York City. Das 1967 von Ralph Lauren gegründete Unternehmen bietet unter anderem Kleidung…",
       "politician": null,
       "track": null,
@@ -449,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.4,
-      "priceEur": 176.59,
+      "reaction": 1.2,
+      "priceEur": 176.22,
       "description": "Palantir Technologies Inc. ist ein US-amerikanischer Anbieter von Software und Dienstleistungen der Systemanalyse, der auf die Auswertung großer Datenmengen und die Herstellung…",
       "politician": null,
       "track": null,
@@ -465,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -484,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 2719.15,
+      "reaction": 0.2,
+      "priceEur": 2724.82,
       "description": "AutoZone ist der zweitgrößte Händler von Kfz-Ersatzteilen in den Vereinigten Staaten mit Sitz in Memphis (Tennessee). Das Unternehmen wurde im Jahr 1979 unter dem Namen Auto Shack…",
       "politician": null,
       "track": null,
@@ -500,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -519,9 +414,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 276.42,
-      "description": null,
+      "reaction": -0.5,
+      "priceEur": 275.09,
+      "description": "Cboe Global Markets ist ein Finanzunternehmen mit Sitz in Chicago. Es betreibt die Chicagoer Optionsbörse, die größte amerikanische Börse für Finanzderivate, sowie die…",
       "politician": null,
       "track": null,
       "sig": {
@@ -554,8 +449,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 205.17,
+      "reaction": -0.7,
+      "priceEur": 203.76,
       "description": "Die Danaher Corporation ist ein transnationaler Mischkonzern aus den Vereinigten Staaten, der an der New Yorker Börse und im S&P 100 unter dem Börsensymbol DHR gelistet ist. Der…",
       "politician": null,
       "track": null,
@@ -584,13 +479,118 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "PG",
+      "name": "Procter & Gamble",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 141.74,
+      "description": "The Procter & Gamble Company [NYSE: PG] ist ein US-amerikanischer, in 70 Staaten vertretener Konsumgüter-Konzern mit Hauptsitz in Cincinnati im US-Bundesstaat Ohio.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "UBER",
+      "name": "Uber",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 62.89,
+      "description": "Uber steht für:Uber (Unternehmen), Vermittlungsdienst zur Personenbeförderung und Essensauslieferung Uber Cup, Weltmeisterschaft für Damen-Nationalmannschaften im Badminton",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "AFL",
+      "name": "Aflac",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 105.62,
+      "description": "Aflac Incorporated is an American insurance company and is the largest provider of supplemental insurance in the United States. It was founded in 1955 and is based in Columbus,…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1Std",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "20Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -11.5,
-      "priceEur": 98.42,
+      "reaction": -11.7,
+      "priceEur": 98.3,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -605,7 +605,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -624,8 +624,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -4.3,
-      "priceEur": 24.33,
+      "reaction": -4.5,
+      "priceEur": 24.29,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -638,7 +638,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "23Std"
         },
         "predict": {
           "active": true
@@ -657,8 +657,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -5.8,
-      "priceEur": 73.09,
+      "reaction": -5.3,
+      "priceEur": 73.47,
       "description": null,
       "politician": null,
       "track": null,
@@ -690,8 +690,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -21.3,
-      "priceEur": 73.14,
+      "reaction": -21.2,
+      "priceEur": 73.21,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -722,7 +722,7 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -24.4,
+      "reaction": -24.6,
       "priceEur": 3.1,
       "description": null,
       "politician": null,
@@ -736,7 +736,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -755,9 +755,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -7.0,
-      "priceEur": 10.3,
-      "description": null,
+      "reaction": -7.5,
+      "priceEur": 10.25,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -769,7 +769,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -788,9 +788,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -10.6,
-      "priceEur": 35.78,
-      "description": null,
+      "reaction": -10.7,
+      "priceEur": 35.75,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -820,8 +820,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 1.8,
-      "priceEur": 112.99,
+      "reaction": 1.7,
+      "priceEur": 112.87,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
