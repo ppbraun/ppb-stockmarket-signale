@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T17:34:52.008549+00:00",
+  "generated_at": "2026-10-15T18:04:51.159077+00:00",
   "newsTopics": [
     {
       "topic": "Schifffahrt / Lieferketten",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 21.1,
-      "priceEur": 212.23,
+      "reaction": 21.5,
+      "priceEur": 212.96,
       "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.0,
-      "priceEur": 192.82,
+      "reaction": -3.2,
+      "priceEur": 192.44,
       "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
       "politician": null,
       "track": null,
@@ -135,7 +135,7 @@
       "market": "us",
       "score": 3,
       "reaction": 3.4,
-      "priceEur": 154.18,
+      "priceEur": 154.11,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.9,
-      "priceEur": 509.76,
+      "reaction": 2.3,
+      "priceEur": 511.41,
       "description": "MSCI Inc. ist ein in New York City ansässiger US-amerikanischer Finanzdienstleister, der Finanzdienstleistungen vor allem für das Investment Banking anbietet. Dies umfasst neben…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.6,
-      "priceEur": 662.02,
+      "reaction": 0.3,
+      "priceEur": 660.35,
       "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
@@ -239,9 +239,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -6.7,
-      "priceEur": 219.1,
-      "description": null,
+      "reaction": -6.9,
+      "priceEur": 218.72,
+      "description": "Coherent Corp., vormals II-VI Incorporated, ist ein amerikanischer Hersteller von II-VI-Verbindungshalbleitern und Lasern mit Sitz in Pennsylvania. Es werden Zinkselenid für…",
       "politician": null,
       "track": null,
       "sig": {
@@ -274,9 +274,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.5,
-      "priceEur": 880.67,
-      "description": null,
+      "reaction": 0.6,
+      "priceEur": 881.31,
+      "description": "Die Costco Wholesale Corporation ist eine US-amerikanische Warenhauskette für zahlende Mitglieder mit Hauptsitz in Issaquah bei Seattle, Bundesstaat Washington. Das Unternehmen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -304,118 +304,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "DELL",
-      "name": "Dell Technologies",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -1.5,
-      "priceEur": 412.8,
-      "description": "Dell Technologies Inc. ist ein US-amerikanischer Hersteller von Computern und Speichersystemen. Das Unternehmen hat seinen Hauptsitz in Round Rock, Texas.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "VZ",
-      "name": "Verizon",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.6,
-      "priceEur": 39.96,
-      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "PFE",
-      "name": "Pfizer",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.6,
-      "priceEur": 26.41,
-      "description": "Pfizer Inc. ist ein US-amerikanischer, international aufgestellter und börsennotierter Pharma- und Biotechnologiekonzern mit Hauptsitz in New York. Pfizer war 2025 mit 62,6 Mrd.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "XYZ",
       "name": "Block, Inc.",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.6,
-      "priceEur": 70.61,
+      "reaction": 1.0,
+      "priceEur": 70.91,
       "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
       "politician": null,
       "track": null,
@@ -449,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 175.89,
+      "reaction": 0.4,
+      "priceEur": 176.38,
       "description": "Workday, Inc., is an American cloud-based provider of financial management, human capital management, and student information system software. The company was founded by former…",
       "politician": null,
       "track": null,
@@ -484,9 +379,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 480.97,
-      "description": "Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington. The company became influential in the rise of personal computers…",
+      "reaction": 0.1,
+      "priceEur": 481.66,
+      "description": "Die Microsoft Corporation [ˈmaɪ.kɹoʊ.sɒft] ist ein US-amerikanischer international tätiger Hard- und Softwareentwickler und ein Technologieunternehmen mit Sitz in Redmond, einer…",
       "politician": null,
       "track": null,
       "sig": {
@@ -519,9 +414,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 273.65,
-      "description": null,
+      "reaction": 0.2,
+      "priceEur": 274.09,
+      "description": "Cboe Global Markets ist ein Finanzunternehmen mit Sitz in Chicago. Es betreibt die Chicagoer Optionsbörse, die größte amerikanische Börse für Finanzderivate, sowie die…",
       "politician": null,
       "track": null,
       "sig": {
@@ -554,8 +449,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 150.4,
+      "reaction": -0.0,
+      "priceEur": 150.37,
       "description": null,
       "politician": null,
       "track": null,
@@ -584,13 +479,118 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "PANW",
+      "name": "Palo Alto Networks",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 329.14,
+      "description": "Palo Alto Networks, Inc. ist ein amerikanisches multinationales IT-Sicherheitsunternehmen mit Hauptsitz in Santa Clara, Kalifornien. Seine Kernprodukte sind eine Plattform, die…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "6Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "AZO",
+      "name": "AutoZone",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 2711.11,
+      "description": "AutoZone ist der zweitgrößte Händler von Kfz-Ersatzteilen in den Vereinigten Staaten mit Sitz in Memphis (Tennessee). Das Unternehmen wurde im Jahr 1979 unter dem Namen Auto Shack…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NTAP",
+      "name": "NetApp",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 191.93,
+      "description": "NetApp, Inc., zuvor bekannt als Network Appliance, Inc., ist ein US-amerikanisches Unternehmen, das im Bereich der Datenspeicherung, des Cloud Computing und des Datenmanagements…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -11.7,
-      "priceEur": 98.28,
+      "reaction": -11.6,
+      "priceEur": 98.35,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -624,8 +624,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -4.2,
-      "priceEur": 24.35,
+      "reaction": -4.1,
+      "priceEur": 24.39,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -657,8 +657,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -5.1,
-      "priceEur": 73.63,
+      "reaction": -5.0,
+      "priceEur": 73.71,
       "description": null,
       "politician": null,
       "track": null,
@@ -690,9 +690,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -21.2,
-      "priceEur": 73.19,
-      "description": null,
+      "reaction": -21.1,
+      "priceEur": 73.3,
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -722,8 +722,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -24.9,
-      "priceEur": 3.08,
+      "reaction": -24.8,
+      "priceEur": 3.09,
       "description": null,
       "politician": null,
       "track": null,
@@ -788,8 +788,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -11.1,
-      "priceEur": 35.59,
+      "reaction": -11.0,
+      "priceEur": 35.6,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -821,7 +821,7 @@
       "market": "cn",
       "score": 0,
       "reaction": 2.2,
-      "priceEur": 113.44,
+      "priceEur": 113.46,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
