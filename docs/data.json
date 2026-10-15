@@ -1,25 +1,30 @@
 {
-  "generated_at": "2026-10-14T18:34:36.285896+00:00",
+  "generated_at": "2026-10-15T05:04:48.425869+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 4,
+      "vol": 5,
       "pct": 100
     },
     {
       "topic": "Halbleiter / Chips",
       "vol": 3,
-      "pct": 75
+      "pct": 60
     },
     {
       "topic": "Fed-Zinspolitik",
+      "vol": 2,
+      "pct": 40
+    },
+    {
+      "topic": "KI-Infrastruktur",
       "vol": 1,
-      "pct": 25
+      "pct": 20
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 1,
-      "pct": 25
+      "pct": 20
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -33,11 +38,6 @@
     },
     {
       "topic": "Verteidigung / Rüstung",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "KI-Infrastruktur",
       "vol": 0,
       "pct": 0
     },
@@ -64,9 +64,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 14.4,
-      "priceEur": 200.71,
-      "description": "Moderna, Inc. is an American pharmaceutical and biotechnology company based in Cambridge, Massachusetts, that focuses on RNA therapeutics, primarily mRNA vaccines. These vaccines…",
+      "reaction": 15.2,
+      "priceEur": 202.14,
+      "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -75,12 +75,12 @@
         },
         "insider": {
           "active": true,
-          "age": "7T",
+          "age": "8T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -5.0,
-      "priceEur": 189.09,
+      "reaction": -4.2,
+      "priceEur": 190.68,
       "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
       "politician": null,
       "track": null,
@@ -110,12 +110,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -129,84 +129,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "MKC",
-      "name": "McCormick & Company",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.1,
-      "priceEur": 40.01,
-      "description": "McCormick & Company ist ein US-amerikanisches Unternehmen mit Hauptsitz in Hunt Valley, Maryland. Das Unternehmen ist an der New Yorker Börse gelistet und im Aktienindex S&P 500…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "11Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "BAC",
-      "name": "Bank of America",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.5,
-      "priceEur": 45.41,
-      "description": "The Bank of America Corporation is an American multinational bank and financial services holding company headquartered at the Bank of America Corporate Center in Charlotte, North…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "0Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "WTW",
       "name": "Willis Towers Watson",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.5,
-      "priceEur": 267.34,
-      "description": null,
+      "reaction": -0.2,
+      "priceEur": 265.38,
+      "description": "Willis Towers Watson ist ein globales multinationales Risikomanagement-, Versicherungsmakler- und Beratungsunternehmen mit Sitz im irischen Dublin und operativer Hauptzentrale im…",
       "politician": null,
       "track": null,
       "sig": {
@@ -215,12 +145,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -239,9 +169,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.6,
-      "priceEur": 223.67,
-      "description": "CrowdStrike Holdings, Inc. is an American cybersecurity technology company based in Austin, Texas. It provides endpoint security, threat intelligence, and cyberattack response…",
+      "reaction": -1.0,
+      "priceEur": 222.68,
+      "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -250,12 +180,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -274,9 +204,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.3,
-      "priceEur": 67.5,
-      "description": "Zoetis Inc. (/zō-EH-tis/), headquartered in Parsippany, New Jersey, is the largest producer of medicine and vaccinations for pets and livestock worldwide. The company's products…",
+      "reaction": -0.6,
+      "priceEur": 67.25,
+      "description": "Zoetis, Inc. ist ein US-amerikanischer Hersteller von Tierarzneimitteln und Impfstoffen für Haus- und Nutztiere. Zwei Drittel des Umsatzes entfallen auf den Bereich Nutztiere.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -285,12 +215,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -310,7 +240,7 @@
       "market": "us",
       "score": 2,
       "reaction": -0.5,
-      "priceEur": 179.53,
+      "priceEur": 179.52,
       "description": "Palantir Technologies Inc. ist ein US-amerikanischer Anbieter von Software und Dienstleistungen der Systemanalyse, der auf die Auswertung großer Datenmengen und die Herstellung…",
       "politician": null,
       "track": null,
@@ -325,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -344,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.5,
-      "priceEur": 90.02,
+      "reaction": -0.2,
+      "priceEur": 90.29,
       "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
       "politician": null,
       "track": null,
@@ -355,12 +285,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -379,8 +309,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.2,
-      "priceEur": 105.19,
+      "reaction": 0.5,
+      "priceEur": 105.59,
       "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
       "politician": null,
       "track": null,
@@ -390,12 +320,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1Std",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -414,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.6,
-      "priceEur": 167.82,
+      "reaction": 1.0,
+      "priceEur": 168.62,
       "description": "Workday, Inc., is an American cloud-based provider of financial management, human capital management, and student information system software. The company was founded by former…",
       "politician": null,
       "track": null,
@@ -430,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -448,9 +378,9 @@
       "name": "Williams-Sonoma, Inc.",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": 0.2,
-      "priceEur": 214.35,
+      "score": 1,
+      "reaction": 1.3,
+      "priceEur": 216.6,
       "description": "Williams-Sonoma, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in San Francisco, das spezielle Kochutensilien und andere Haushaltswaren sowie eine Auswahl an Lebensmittel,…",
       "politician": null,
       "track": null,
@@ -460,12 +390,11 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "7Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -476,7 +405,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "LULU",
@@ -484,9 +413,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 83.5,
-      "description": null,
+      "reaction": 0.7,
+      "priceEur": 84.05,
+      "description": "Lululemon Athletica Inc. [ˈluːluˌlɛmən], gestaltet als lululemon athletica, ist ein kanadischer Einzelhändler für Sportbekleidung. Lululemon wurde in Kanada als Einzelhändler für…",
       "politician": null,
       "track": null,
       "sig": {
@@ -495,12 +424,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -514,14 +443,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "SWKS",
-      "name": "Skyworks Solutions",
+      "tk": "ACN",
+      "name": "Accenture",
       "broker": true,
       "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 68.01,
-      "description": null,
+      "score": 2,
+      "reaction": -0.2,
+      "priceEur": 192.02,
+      "description": "Die Accenture Plc mit Sitz im irischen Dublin ist einer der weltweit größten Dienstleister im Bereich der Unternehmens- und Strategieberatung sowie Technologie und Outsourcing,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -530,11 +459,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -545,17 +475,17 @@
       },
       "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "ACN",
-      "name": "Accenture",
+      "tk": "MSFT",
+      "name": "Microsoft",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 192.48,
-      "description": "Accenture plc is a technology consulting company headquartered in Dublin, Ireland. Founded in 1989 in the United States, Accenture provides information technology and management…",
+      "priceEur": 476.72,
+      "description": "Die Microsoft Corporation [ˈmaɪ.kɹoʊ.sɒft] ist ein US-amerikanischer international tätiger Hard- und Softwareentwickler und ein Technologieunternehmen mit Sitz in Redmond, einer…",
       "politician": null,
       "track": null,
       "sig": {
@@ -569,7 +499,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -579,6 +509,76 @@
         }
       },
       "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "BALL",
+      "name": "Ball Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 53.98,
+      "description": "Die Ball Corporation, gegründet 1880 als Ball Brothers Glass Manufacturing Company, ist ein US-amerikanischer Mischkonzern mit Hauptsitz in Broomfield (Colorado). Ursprünglich ein…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Materials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "XYZ",
+      "name": "Block, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 67.75,
+      "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "9Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -588,8 +588,8 @@
       "broker": true,
       "market": "cn",
       "score": 3,
-      "reaction": -11.1,
-      "priceEur": 99.03,
+      "reaction": -10.9,
+      "priceEur": 99.3,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -599,12 +599,12 @@
         },
         "insider": {
           "active": true,
-          "age": "9T",
+          "age": "10T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -623,8 +623,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -6.8,
-      "priceEur": 23.72,
+      "reaction": -6.4,
+      "priceEur": 23.83,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -637,7 +637,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "16Std"
         },
         "predict": {
           "active": true
@@ -656,8 +656,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -6.8,
-      "priceEur": 72.37,
+      "reaction": -6.3,
+      "priceEur": 72.76,
       "description": null,
       "politician": null,
       "track": null,
@@ -670,7 +670,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -689,8 +689,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -21.8,
-      "priceEur": 72.75,
+      "reaction": -21.4,
+      "priceEur": 73.12,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -721,8 +721,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -26.3,
-      "priceEur": 3.03,
+      "reaction": -25.9,
+      "priceEur": 3.05,
       "description": null,
       "politician": null,
       "track": null,
@@ -735,7 +735,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -754,9 +754,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -9.4,
-      "priceEur": 10.04,
-      "description": null,
+      "reaction": -9.3,
+      "priceEur": 10.06,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -768,7 +768,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -787,9 +787,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -13.6,
-      "priceEur": 34.63,
-      "description": null,
+      "reaction": -13.3,
+      "priceEur": 34.73,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -819,8 +819,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -0.6,
-      "priceEur": 110.43,
+      "reaction": -0.5,
+      "priceEur": 110.52,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
