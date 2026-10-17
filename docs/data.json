@@ -1,35 +1,30 @@
 {
-  "generated_at": "2026-10-16T18:34:32.081717+00:00",
+  "generated_at": "2026-10-17T05:04:35.436983+00:00",
   "newsTopics": [
     {
-      "topic": "Energie / Öl & Gas",
-      "vol": 3,
+      "topic": "Zölle / Handelskonflikt",
+      "vol": 2,
       "pct": 100
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 2,
-      "pct": 67
+      "pct": 100
     },
     {
-      "topic": "Zölle / Handelskonflikt",
+      "topic": "Energie / Öl & Gas",
       "vol": 1,
-      "pct": 33
-    },
-    {
-      "topic": "Fed-Zinspolitik",
-      "vol": 1,
-      "pct": 33
-    },
-    {
-      "topic": "KI-Infrastruktur",
-      "vol": 1,
-      "pct": 33
+      "pct": 50
     },
     {
       "topic": "Cybersecurity",
       "vol": 1,
-      "pct": 33
+      "pct": 50
+    },
+    {
+      "topic": "Fed-Zinspolitik",
+      "vol": 0,
+      "pct": 0
     },
     {
       "topic": "Edelmetalle / Goldminen",
@@ -38,6 +33,11 @@
     },
     {
       "topic": "Verteidigung / Rüstung",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "KI-Infrastruktur",
       "vol": 0,
       "pct": 0
     },
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 8.2,
-      "priceEur": 188.95,
+      "reaction": 11.0,
+      "priceEur": 193.73,
       "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
@@ -75,12 +75,12 @@
         },
         "insider": {
           "active": true,
-          "age": "9T",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -99,9 +99,114 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.0,
-      "priceEur": 192.04,
+      "reaction": -2.0,
+      "priceEur": 194.16,
       "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "4T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "13Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "ABNB",
+      "name": "Airbnb",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": 4.0,
+      "priceEur": 154.36,
+      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "8Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "MSCI",
+      "name": "MSCI",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 1.5,
+      "priceEur": 505.71,
+      "description": "MSCI Inc. ist ein in New York City ansässiger US-amerikanischer Finanzdienstleister, der Finanzdienstleistungen vor allem für das Investment Banking anbietet. Dies umfasst neben…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "META",
+      "name": "Meta Platforms",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": -3.8,
+      "priceEur": 630.34,
+      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -124,111 +229,6 @@
           "active": false
         }
       },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "ABNB",
-      "name": "Airbnb",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": 2.9,
-      "priceEur": 152.83,
-      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "6Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "MSCI",
-      "name": "MSCI",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": 0.9,
-      "priceEur": 502.47,
-      "description": "MSCI Inc. ist ein in New York City ansässiger US-amerikanischer Finanzdienstleister, der Finanzdienstleistungen vor allem für das Investment Banking anbietet. Dies umfasst neben…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "META",
-      "name": "Meta Platforms",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": -4.3,
-      "priceEur": 627.24,
-      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
@@ -238,10 +238,45 @@
       "name": "Coherent Corp.",
       "broker": true,
       "market": "us",
-      "score": 3,
-      "reaction": -10.8,
-      "priceEur": 208.66,
+      "score": 2,
+      "reaction": -11.6,
+      "priceEur": 206.97,
       "description": "Coherent Corp., vormals II-VI Incorporated, ist ein amerikanischer Hersteller von II-VI-Verbindungshalbleitern und Lasern mit Sitz in Pennsylvania. Es werden Zinkselenid für…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "11Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "AAPL",
+      "name": "Apple Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": 0.4,
+      "priceEur": 305.22,
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -256,41 +291,6 @@
         "macro": {
           "active": true,
           "age": "2Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "AAPL",
-      "name": "Apple Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": 0.0,
-      "priceEur": 303.92,
-      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -309,8 +309,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.7,
-      "priceEur": 61.58,
+      "reaction": -1.9,
+      "priceEur": 61.46,
       "description": "Die Centene Corporation ist ein US-amerikanischer Anbieter von Versicherungsleistungen im Gesundheitswesen. Das Unternehmen spezialisiert sich auf Medicaid- und…",
       "politician": null,
       "track": null,
@@ -320,12 +320,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -339,48 +339,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "HRL",
-      "name": "Hormel Foods",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.4,
-      "priceEur": 18.01,
-      "description": "Hormel Foods ist ein US-amerikanischer Nahrungsmittelhersteller aus Austin (Minnesota). Vor allem bekannt ist Hormel als Produzent von Frühstücksfleisch der Marke Spam. Neben der…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "11Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "CRWD",
       "name": "CrowdStrike",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 202.43,
+      "reaction": -0.1,
+      "priceEur": 202.07,
       "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
       "politician": null,
       "track": null,
@@ -390,12 +355,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -414,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 792.99,
+      "reaction": -1.7,
+      "priceEur": 780.98,
       "description": "Micron Technology Inc. ist ein US-amerikanischer Hersteller von Speicherelementen für Computer mit Hauptsitz in Boise, Idaho, USA. Das Unternehmen belegte 2024 Platz 6 der größten…",
       "politician": null,
       "track": null,
@@ -425,12 +390,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -449,9 +414,44 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 700.9,
+      "reaction": 0.2,
+      "priceEur": 702.69,
       "description": "Das Biotechnologie-Unternehmen Regeneron Pharmaceuticals wurde 1988 gegründet und wird an der Nasdaq-Börse unter dem Symbol „REGN“ gehandelt. Regeneron Pharmaceuticals ist…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "18Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "RDDT",
+      "name": "Reddit",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 1.0,
+      "priceEur": 138.75,
+      "description": "Reddit ist ein Internetforum und Social-News-Aggregator. Auf der Social-Media-Website (Online-Community) können registrierte Benutzer Inhalte einstellen und mit anderen Nutzern…",
       "politician": null,
       "track": null,
       "sig": {
@@ -474,53 +474,19 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VTR",
-      "name": "Ventas",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 75.94,
-      "description": "Ventas may refer to:Ventas (company), a real estate investment trust (REIT), invests primarily in real estate serving the United States healthcare industry Ventas (Madrid), a ward…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "RDDT",
-      "name": "Reddit",
+      "tk": "SNPS",
+      "name": "Synopsys",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 137.32,
-      "description": "Reddit ist ein Internetforum und Social-News-Aggregator. Auf der Social-Media-Website (Online-Community) können registrierte Benutzer Inhalte einstellen und mit anderen Nutzern…",
+      "priceEur": 404.01,
+      "description": "Synopsys Inc. ist ein Technologie-Unternehmen in den Bereichen Halbleiter-Design-Software (EDA), IP-Core, Design-for-Manufacturing und Verifikation.",
       "politician": null,
       "track": null,
       "sig": {
@@ -534,7 +500,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -543,19 +509,19 @@
           "active": false
         }
       },
-      "topic": "Communication Services",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "TKO",
-      "name": "TKO Group Holdings",
+      "tk": "MO",
+      "name": "Altria",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 155.18,
-      "description": "TKO Group Holdings, Inc. (TKO) ist ein Medienkonglomerat, das von Endeavour Group Holdings im Rahmen einer Fusion zwischen World Wrestling Entertainment (WWE) und Zuffa, der…",
+      "priceEur": 66.75,
+      "description": "Altria Group, Inc., bis 2003 Philip Morris Companies Inc. genannt, ist ein US-amerikanischer, weltweit operierender Konzern.",
       "politician": null,
       "track": null,
       "sig": {
@@ -568,7 +534,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -577,9 +544,46 @@
           "active": false
         }
       },
-      "topic": "Communication Services",
+      "topic": "Consumer Staples",
+      "ethics": [
+        "Tabak"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NKE",
+      "name": "Nike, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 33.0,
+      "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "10Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -588,7 +592,7 @@
       "market": "cn",
       "score": 3,
       "reaction": -12.5,
-      "priceEur": 96.99,
+      "priceEur": 96.96,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -598,12 +602,12 @@
         },
         "insider": {
           "active": true,
-          "age": "11T",
+          "age": "12T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -621,9 +625,9 @@
       "name": "JD.com",
       "broker": true,
       "market": "cn",
-      "score": 2,
-      "reaction": -5.4,
-      "priceEur": 23.97,
+      "score": 1,
+      "reaction": -5.2,
+      "priceEur": 24.0,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -635,8 +639,7 @@
           "active": false
         },
         "macro": {
-          "active": true,
-          "age": "22Std"
+          "active": false
         },
         "predict": {
           "active": true
@@ -647,7 +650,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "PDD",
@@ -655,8 +658,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -6.8,
-      "priceEur": 71.97,
+      "reaction": -6.9,
+      "priceEur": 71.95,
       "description": null,
       "politician": null,
       "track": null,
@@ -687,8 +690,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -22.7,
-      "priceEur": 71.52,
+      "reaction": -23.0,
+      "priceEur": 71.22,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -701,7 +704,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -719,9 +722,9 @@
       "name": "NIO Inc.",
       "broker": true,
       "market": "cn",
-      "score": 1,
-      "reaction": -25.8,
-      "priceEur": 3.03,
+      "score": 0,
+      "reaction": -25.4,
+      "priceEur": 3.05,
       "description": null,
       "politician": null,
       "track": null,
@@ -733,8 +736,7 @@
           "active": false
         },
         "macro": {
-          "active": true,
-          "age": "19Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -745,16 +747,16 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
     },
     {
       "tk": "LI",
       "name": "Li Auto",
       "broker": true,
       "market": "cn",
-      "score": 1,
-      "reaction": -8.5,
-      "priceEur": 10.09,
+      "score": 0,
+      "reaction": -8.6,
+      "priceEur": 10.08,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -766,8 +768,7 @@
           "active": false
         },
         "macro": {
-          "active": true,
-          "age": "10Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -778,7 +779,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
     },
     {
       "tk": "TCOM",
@@ -818,8 +819,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 1.1,
-      "priceEur": 111.82,
+      "reaction": 1.3,
+      "priceEur": 112.02,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
