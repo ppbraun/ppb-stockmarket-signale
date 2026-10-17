@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T14:04:37.634426+00:00",
+  "generated_at": "2026-10-17T14:34:36.752885+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -241,7 +241,7 @@
       "score": 3,
       "reaction": -1.9,
       "priceEur": 61.46,
-      "description": null,
+      "description": "Die Centene Corporation ist ein US-amerikanischer Anbieter von Versicherungsleistungen im Gesundheitswesen. Das Unternehmen spezialisiert sich auf Medicaid- und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "23Std"
         },
         "predict": {
           "active": true
@@ -276,112 +276,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 50.39,
-      "description": "PayPal Holdings, Inc. is an American multinational financial technology company operating an online payments system in the majority of countries that support online money…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "5Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "PTC",
-      "name": "PTC Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 171.49,
-      "description": "PTC ist ein US-amerikanisches Technologieunternehmen mit Hauptsitz in Boston, Massachusetts. Das Unternehmen wurde 1985 gegründet und bietet weltweit Technologieplattformen und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "GILD",
-      "name": "Gilead Sciences",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 138.8,
-      "description": "Gilead Sciences, Inc. ist ein Pharmazie- und Biotechnologieunternehmen aus den Vereinigten Staaten mit Sitz in Foster City, Kalifornien. Das Unternehmen ist im S&P 500 gelistet.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "F",
-      "name": "Ford Motor Company",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 11.05,
-      "description": "Die Ford Motor Company mit Sitz im US-amerikanischen Dearborn ist der nach Volkswagen, Toyota, General Motors, Hyundai und Stellantis sechstgrößte Kraftfahrzeughersteller…",
+      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
       "sig": {
@@ -398,15 +293,15 @@
           "age": "6Std"
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "LYB",
@@ -484,7 +379,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 222.3,
       "description": "Williams-Sonoma, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in San Francisco, das spezielle Kochutensilien und andere Haushaltswaren sowie eine Auswahl an Lebensmittel,…",
       "politician": null,
@@ -500,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": false
@@ -519,7 +414,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 1012.47,
       "description": "Die TransDigm Group ist ein US-amerikanischer Flugzeugzulieferer mit Sitz in Cleveland.",
       "politician": null,
@@ -554,9 +449,44 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 105.58,
       "description": "Walmart Inc. ist ein weltweit tätiger US-amerikanischer Einzelhandelskonzern, der einen großen Teil des US-Marktes beherrscht. Walmart ist in der Liste Fortune Global 500 auf…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "GS",
+      "name": "Goldman Sachs",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 783.13,
+      "description": "Die Goldman Sachs Group, Inc. ist ein weltweit tätiges Investmentbanking- und Wertpapierhandelsunternehmen mit Sitz in New York City.",
       "politician": null,
       "track": null,
       "sig": {
@@ -579,9 +509,77 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CHD",
+      "name": "Church & Dwight",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 92.89,
+      "description": "Church & Dwight ist ein US-amerikanischer Hersteller von Haushaltswaren.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "PNR",
+      "name": "Pentair",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 47.49,
+      "description": "Pentair ist ein irischer Mischkonzern mit Sitz in Dublin und operativer Hauptzentrale in London. Das Unternehmen produziert unter anderem Komponenten und Gehäuse für den…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BABA",
@@ -702,7 +700,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": true
@@ -752,7 +750,7 @@
       "name": "Li Auto",
       "broker": true,
       "market": "cn",
-      "score": 0,
+      "score": 1,
       "reaction": -8.6,
       "priceEur": 10.08,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
@@ -766,7 +764,8 @@
           "active": false
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -777,7 +776,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
+      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "TCOM",
