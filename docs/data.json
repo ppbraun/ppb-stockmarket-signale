@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T10:34:23.820328+00:00",
+  "generated_at": "2026-10-18T11:04:30.382619+00:00",
   "newsTopics": [
     {
       "topic": "Schifffahrt / Lieferketten",
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -302,41 +302,6 @@
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "MRVL",
-      "name": "Marvell Technology",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 202.46,
-      "description": "Marvell Technology Group ist ein US-amerikanischer fabless Hersteller von Speicher-, Telekommunikations- und Halbleiter-Produkten.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "20Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "FIS",
@@ -395,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -484,7 +449,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 26.29,
       "description": "Pfizer Inc. ist ein US-amerikanischer, international aufgestellter und börsennotierter Pharma- und Biotechnologiekonzern mit Hauptsitz in New York. Pfizer war 2025 mit 62,6 Mrd.…",
       "politician": null,
@@ -500,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": false
@@ -514,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AFL",
-      "name": "Aflac",
+      "tk": "FERG",
+      "name": "Ferguson Enterprises",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 106.61,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "priceEur": 205.82,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -543,19 +508,19 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "PPG",
-      "name": "PPG Industries",
+      "tk": "BALL",
+      "name": "Ball Corporation",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 95.43,
-      "description": "PPG Industries ist ein US-amerikanischer Hersteller von Kunstglas- und Chemieprodukten mit Sitz in Pittsburgh, Pennsylvania im Hochhaus PPG Place. Das Unternehmen ist im S&P 500…",
+      "priceEur": 56.16,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -582,6 +547,41 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
+      "tk": "RDDT",
+      "name": "Reddit",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 138.75,
+      "description": "Reddit ist ein Internetforum und Social-News-Aggregator. Auf der Social-Media-Website (Online-Community) können registrierte Benutzer Inhalte einstellen und mit anderen Nutzern…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "23Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -603,7 +603,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
