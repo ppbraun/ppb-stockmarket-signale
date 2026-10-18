@@ -1,15 +1,10 @@
 {
-  "generated_at": "2026-10-18T16:42:48.829944+00:00",
+  "generated_at": "2026-10-18T17:04:35.725118+00:00",
   "newsTopics": [
     {
       "topic": "Cybersecurity",
       "vol": 2,
       "pct": 100
-    },
-    {
-      "topic": "Zölle / Handelskonflikt",
-      "vol": 1,
-      "pct": 50
     },
     {
       "topic": "Energie / Öl & Gas",
@@ -20,6 +15,11 @@
       "topic": "Schifffahrt / Lieferketten",
       "vol": 1,
       "pct": 50
+    },
+    {
+      "topic": "Zölle / Handelskonflikt",
+      "vol": 0,
+      "pct": 0
     },
     {
       "topic": "Fed-Zinspolitik",
@@ -206,7 +206,7 @@
       "score": 3,
       "reaction": 0.4,
       "priceEur": 305.22,
-      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
+      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
       "politician": null,
       "track": null,
       "sig": {
@@ -241,7 +241,7 @@
       "score": 3,
       "reaction": -1.9,
       "priceEur": 61.46,
-      "description": "Die Centene Corporation ist ein US-amerikanischer Anbieter von Versicherungsleistungen im Gesundheitswesen. Das Unternehmen spezialisiert sich auf Medicaid- und…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -276,7 +276,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 50.39,
-      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
+      "description": "PayPal Holdings, Inc. is an American multinational financial technology company operating an online payments system in the majority of countries that support online money…",
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "23Std"
         },
         "predict": {
           "active": true
@@ -302,76 +302,6 @@
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "TDG",
-      "name": "TransDigm Group",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 1012.47,
-      "description": "Die TransDigm Group ist ein US-amerikanischer Flugzeugzulieferer mit Sitz in Cleveland.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "BKNG",
-      "name": "Booking Holdings",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 145.25,
-      "description": "Die Booking Holdings Inc. ist ein US-amerikanisches Unternehmen mit Hauptsitz in Norwalk im US-Bundesstaat Connecticut. Das Unternehmen betreibt Online-Reiseportale und firmierte…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "GILD",
@@ -486,7 +416,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 105.58,
       "description": "Walmart Inc. ist ein weltweit tätiger US-amerikanischer Einzelhandelskonzern, der einen großen Teil des US-Marktes beherrscht. Walmart ist in der Liste Fortune Global 500 auf…",
       "politician": null,
@@ -521,9 +451,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 26.29,
-      "description": "Pfizer Inc. ist ein US-amerikanischer, international aufgestellter und börsennotierter Pharma- und Biotechnologiekonzern mit Hauptsitz in New York. Pfizer war 2025 mit 62,6 Mrd.…",
+      "description": "Pfizer Inc. is an American multinational pharmaceutical and biotechnology corporation headquartered at The Spiral in Manhattan, New York City. Founded in 1849 in New York by…",
       "politician": null,
       "track": null,
       "sig": {
@@ -551,14 +481,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AIG",
-      "name": "American International Group",
+      "tk": "AFL",
+      "name": "Aflac",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 71.75,
-      "description": "Die American International Group, Inc. (AIG) ist ein börsennotierter Versicherungskonzern mit Hauptsitz in New York City. Das Unternehmen war lange Zeit der größte…",
+      "priceEur": 106.61,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -583,6 +513,76 @@
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "MDT",
+      "name": "Medtronic",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 84.2,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PEP",
+      "name": "PepsiCo",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 116.85,
+      "description": "PepsiCo, Inc. ist ein US-amerikanischer Getränke- und Lebensmittelkonzern mit Sitz in Purchase im Bundesstaat New York. Dieser ist derzeit der größte Mitbewerber der Coca-Cola…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "11Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -691,7 +691,7 @@
       "score": 1,
       "reaction": -23.0,
       "priceEur": 71.22,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
       "politician": null,
       "track": null,
       "sig": {
@@ -755,7 +755,7 @@
       "score": 1,
       "reaction": -8.6,
       "priceEur": 10.08,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -788,7 +788,7 @@
       "score": 0,
       "reaction": -10.8,
       "priceEur": 35.55,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
