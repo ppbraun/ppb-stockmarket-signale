@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T07:34:27.668156+00:00",
+  "generated_at": "2026-10-18T08:04:40.888498+00:00",
   "newsTopics": [
     {
       "topic": "Schifffahrt / Lieferketten",
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -311,7 +311,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 33.0,
-      "description": null,
+      "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a…",
       "politician": null,
       "track": null,
       "sig": {
@@ -432,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -467,7 +467,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": false
@@ -481,14 +481,49 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "HST",
-      "name": "Host Hotels & Resorts",
+      "tk": "BAC",
+      "name": "Bank of America",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 45.53,
+      "description": "Die Bank of America Corporation ist eine US-amerikanische Großbank mit Hauptsitz in Charlotte, North Carolina. Das Unternehmen war seit Juli 2006 zeitweise das größte…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "11Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CSGP",
+      "name": "CoStar Group",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 21.3,
-      "description": "Host Hotels & Resorts ist eine amerikanische Immobiliengesellschaft (REIT) mit Sitz in Bethesda, im US-Bundesstaat Maryland, die sich auf Erwerb und Besitz von Luxushotels…",
+      "priceEur": 28.71,
+      "description": "Die CoStar Group ist ein US-amerikanischer Anbieter von Wirtschaftsinformationsdiensten für den Immobiliensektor mit Sitz in Washington, D.C.",
       "politician": null,
       "track": null,
       "sig": {
@@ -515,14 +550,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "FERG",
-      "name": "Ferguson Enterprises",
+      "tk": "BALL",
+      "name": "Ball Corporation",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 205.82,
-      "description": "Ferguson Enterprises Inc., headquartered in Newport News, Virginia and organized in Delaware, is the largest U.S. distributor of plumbing, heating, ventilation and air…",
+      "priceEur": 56.16,
+      "description": "Die Ball Corporation, gegründet 1880 als Ball Brothers Glass Manufacturing Company, ist ein US-amerikanischer Mischkonzern mit Hauptsitz in Broomfield (Colorado). Ursprünglich ein…",
       "politician": null,
       "track": null,
       "sig": {
@@ -544,41 +579,7 @@
           "active": false
         }
       },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "TTWO",
-      "name": "Take-Two Interactive",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 182.42,
-      "description": "Take 2 Interactive ist ein 1993 gegründeter Entwickler, Publisher und Distributor von Computerspielen mit Hauptsitz in New York, USA. Niederlassungen gibt es im Vereinigten…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
+      "topic": "Materials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -604,7 +605,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": true
@@ -765,7 +766,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
