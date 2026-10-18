@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T08:04:40.888498+00:00",
+  "generated_at": "2026-10-18T08:34:25.571369+00:00",
   "newsTopics": [
     {
       "topic": "Schifffahrt / Lieferketten",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -302,41 +302,6 @@
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "NKE",
-      "name": "Nike, Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 33.0,
-      "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "MO",
@@ -486,7 +451,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 45.53,
       "description": "Die Bank of America Corporation ist eine US-amerikanische Großbank mit Hauptsitz in Charlotte, North Carolina. Das Unternehmen war seit Juli 2006 zeitweise das größte…",
       "politician": null,
@@ -516,14 +481,49 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CSGP",
-      "name": "CoStar Group",
+      "tk": "PAYX",
+      "name": "Paychex",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 99.2,
+      "description": "Paychex, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in Rochester, New York.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "17Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "FERG",
+      "name": "Ferguson Enterprises",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 28.71,
-      "description": "Die CoStar Group ist ein US-amerikanischer Anbieter von Wirtschaftsinformationsdiensten für den Immobiliensektor mit Sitz in Washington, D.C.",
+      "priceEur": 205.82,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -545,19 +545,19 @@
           "active": false
         }
       },
-      "topic": "Real Estate",
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "BALL",
-      "name": "Ball Corporation",
+      "tk": "AIG",
+      "name": "American International Group",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 56.16,
-      "description": "Die Ball Corporation, gegründet 1880 als Ball Brothers Glass Manufacturing Company, ist ein US-amerikanischer Mischkonzern mit Hauptsitz in Broomfield (Colorado). Ursprünglich ein…",
+      "priceEur": 71.75,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -579,7 +579,7 @@
           "active": false
         }
       },
-      "topic": "Materials",
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -787,7 +787,7 @@
       "score": 0,
       "reaction": -10.8,
       "priceEur": 35.55,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -819,7 +819,7 @@
       "score": 0,
       "reaction": 0.0,
       "priceEur": 112.02,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
       "sig": {
