@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T09:04:46.893705+00:00",
+  "generated_at": "2026-10-19T09:34:30.385694+00:00",
   "newsTopics": [
     {
       "topic": "Cybersecurity",
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": true
@@ -234,41 +234,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "GILD",
-      "name": "Gilead Sciences",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 138.8,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "16Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "F",
       "name": "Ford Motor Company",
       "broker": true,
@@ -276,7 +241,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 11.05,
-      "description": null,
+      "description": "Die Ford Motor Company mit Sitz im US-amerikanischen Dearborn ist der nach Volkswagen, Toyota, General Motors, Hyundai und Stellantis sechstgrößte Kraftfahrzeughersteller…",
       "politician": null,
       "track": null,
       "sig": {
@@ -395,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -465,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -479,46 +444,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "SNPS",
-      "name": "Synopsys",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 404.01,
-      "description": "Synopsys Inc. ist ein Technologie-Unternehmen in den Bereichen Halbleiter-Design-Software (EDA), IP-Core, Design-for-Manufacturing und Verifikation.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "PAYX",
       "name": "Paychex",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 99.2,
       "description": "Paychex, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in Rochester, New York.",
       "politician": null,
@@ -548,14 +479,82 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "PTC",
-      "name": "PTC Inc.",
+      "tk": "PPG",
+      "name": "PPG Industries",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 171.49,
-      "description": "PTC ist ein US-amerikanisches Technologieunternehmen mit Hauptsitz in Boston, Massachusetts. Das Unternehmen wurde 1985 gegründet und bietet weltweit Technologieplattformen und…",
+      "priceEur": 95.43,
+      "description": "PPG Industries ist ein US-amerikanischer Hersteller von Kunstglas- und Chemieprodukten mit Sitz in Pittsburgh, Pennsylvania im Hochhaus PPG Place. Das Unternehmen ist im S&P 500…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Materials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "EXPE",
+      "name": "Expedia Group",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 256.78,
+      "description": "Expedia Group, Inc. is an American travel technology company that owns and operates travel fare aggregators and travel metasearch engines, including Expedia, Hotels.com, Vrbo,…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "P",
+      "name": "Everpure",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 110.2,
+      "description": "Everpure, Inc. is an American publicly traded technology company headquartered in Santa Clara, California, United States. While the company originally focused on developing…",
       "politician": null,
       "track": null,
       "sig": {
