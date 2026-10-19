@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T18:34:30.493883+00:00",
+  "generated_at": "2026-10-19T05:04:44.561869+00:00",
   "newsTopics": [
     {
       "topic": "Cybersecurity",
@@ -75,12 +75,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -98,7 +98,7 @@
       "name": "Progressive Corporation",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": -2.0,
       "priceEur": 194.16,
       "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
@@ -110,12 +110,11 @@
         },
         "insider": {
           "active": true,
-          "age": "5T",
+          "age": "6T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "2T"
+          "active": false
         },
         "predict": {
           "active": true
@@ -126,7 +125,7 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "ABNB",
@@ -145,12 +144,12 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -180,12 +179,12 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -215,7 +214,7 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
@@ -238,7 +237,7 @@
       "name": "Centene Corporation",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": -1.9,
       "priceEur": 61.46,
       "description": "Die Centene Corporation ist ein US-amerikanischer Anbieter von Versicherungsleistungen im Gesundheitswesen. Das Unternehmen spezialisiert sich auf Medicaid- und…",
@@ -250,12 +249,11 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "2T"
+          "active": false
         },
         "predict": {
           "active": true
@@ -266,7 +264,7 @@
       },
       "topic": "Health Care",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "PYPL",
@@ -285,7 +283,7 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
@@ -304,41 +302,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "MDT",
-      "name": "Medtronic",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 84.2,
-      "description": "Medtronic plc mit Hauptsitz in Dublin ist ein börsennotiertes Unternehmen auf dem Gebiet der Medizintechnik. Das Unternehmen ist in den Aktienindizes S&P 100 und S&P 500 sowie dem…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "PEP",
       "name": "PepsiCo",
       "broker": true,
@@ -355,12 +318,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -390,12 +353,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -425,12 +388,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -460,12 +423,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -479,80 +442,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "P",
-      "name": "Everpure",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 110.2,
-      "description": "Everpure, Inc. is an American publicly traded technology company headquartered in Santa Clara, California, United States. While the company originally focused on developing…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "CSGP",
-      "name": "CoStar Group",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 28.71,
-      "description": "Die CoStar Group ist ein US-amerikanischer Anbieter von Wirtschaftsinformationsdiensten für den Immobiliensektor mit Sitz in Washington, D.C.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "WSM",
       "name": "Williams-Sonoma, Inc.",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": null,
+      "score": 1,
+      "reaction": 0.0,
       "priceEur": 222.3,
       "description": "Williams-Sonoma, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in San Francisco, das spezielle Kochutensilien und andere Haushaltswaren sowie eine Auswahl an Lebensmittel,…",
       "politician": null,
@@ -563,12 +458,11 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "18Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -579,6 +473,109 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "AIG",
+      "name": "American International Group",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 71.75,
+      "description": "Die American International Group, Inc. (AIG) ist ein börsennotierter Versicherungskonzern mit Hauptsitz in New York City. Das Unternehmen war lange Zeit der größte…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "TDG",
+      "name": "TransDigm Group",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 1012.47,
+      "description": "Die TransDigm Group ist ein US-amerikanischer Flugzeugzulieferer mit Sitz in Cleveland.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "RDDT",
+      "name": "Reddit",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 138.75,
+      "description": "Reddit ist ein Internetforum und Social-News-Aggregator. Auf der Social-Media-Website (Online-Community) können registrierte Benutzer Inhalte einstellen und mit anderen Nutzern…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
@@ -586,7 +583,7 @@
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
-      "score": 3,
+      "score": 2,
       "reaction": -12.5,
       "priceEur": 96.96,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
@@ -598,12 +595,11 @@
         },
         "insider": {
           "active": true,
-          "age": "13T",
+          "age": "14T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "1T"
+          "active": false
         },
         "predict": {
           "active": true
@@ -614,7 +610,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "JD",
@@ -749,7 +745,7 @@
       "name": "Li Auto",
       "broker": true,
       "market": "cn",
-      "score": 1,
+      "score": 0,
       "reaction": -8.6,
       "priceEur": 10.08,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
@@ -763,8 +759,7 @@
           "active": false
         },
         "macro": {
-          "active": true,
-          "age": "1T"
+          "active": false
         },
         "predict": {
           "active": false
@@ -775,7 +770,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
     },
     {
       "tk": "TCOM",
