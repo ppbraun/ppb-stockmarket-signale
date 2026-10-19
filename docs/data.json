@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T11:04:42.556287+00:00",
+  "generated_at": "2026-10-19T11:34:40.634341+00:00",
   "newsTopics": [
     {
       "topic": "Cybersecurity",
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -325,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -479,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CDNS",
-      "name": "Cadence Design Systems",
+      "tk": "SNPS",
+      "name": "Synopsys",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 283.93,
-      "description": "Cadence Design Systems, Inc. ist ein US-amerikanischer Anbieter von EDA-Software mit Sitz in San José. Er gehört auf diesem Gebiet zu den größten Anbietern der Welt.",
+      "priceEur": 404.01,
+      "description": "Synopsys Inc. ist ein Technologie-Unternehmen in den Bereichen Halbleiter-Design-Software (EDA), IP-Core, Design-for-Manufacturing und Verifikation.",
       "politician": null,
       "track": null,
       "sig": {
@@ -513,14 +513,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "TDG",
-      "name": "TransDigm Group",
+      "tk": "PEP",
+      "name": "PepsiCo",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 1012.47,
-      "description": "Die TransDigm Group ist ein US-amerikanischer Flugzeugzulieferer mit Sitz in Cleveland.",
+      "priceEur": 116.85,
+      "description": "PepsiCo, Inc. ist ein US-amerikanischer Getränke- und Lebensmittelkonzern mit Sitz in Purchase im Bundesstaat New York. Dieser ist derzeit der größte Mitbewerber der Coca-Cola…",
       "politician": null,
       "track": null,
       "sig": {
@@ -533,7 +533,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -542,19 +543,19 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Consumer Staples",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "PPL",
-      "name": "PPL Corporation",
+      "tk": "CHD",
+      "name": "Church & Dwight",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 31.25,
-      "description": "PPL Corporation is an energy company headquartered in Allentown, Pennsylvania in the Lehigh Valley region of eastern Pennsylvania. The company is publicly traded on the New York…",
+      "priceEur": 92.89,
+      "description": "Church & Dwight ist ein US-amerikanischer Hersteller von Haushaltswaren.",
       "politician": null,
       "track": null,
       "sig": {
@@ -576,7 +577,7 @@
           "active": false
         }
       },
-      "topic": "Utilities",
+      "topic": "Consumer Staples",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -585,7 +586,7 @@
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
-      "score": 2,
+      "score": 3,
       "reaction": -12.5,
       "priceEur": 96.96,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
@@ -601,7 +602,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -612,7 +614,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "JD",
