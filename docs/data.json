@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T10:27:56.479836+00:00",
+  "generated_at": "2026-10-19T10:38:37.324936+00:00",
   "newsTopics": [
     {
       "topic": "Cybersecurity",
@@ -136,7 +136,7 @@
       "score": 3,
       "reaction": -3.8,
       "priceEur": 630.34,
-      "description": "Meta Platforms, Inc., headquartered in Menlo Park, California, is an American multinational technology company and is one of the Big Tech companies. Meta owns and operates several…",
+      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -171,7 +171,7 @@
       "score": 3,
       "reaction": 0.4,
       "priceEur": 305.22,
-      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -479,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "PPG",
-      "name": "PPG Industries",
+      "tk": "MDT",
+      "name": "Medtronic",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 95.43,
-      "description": "PPG Industries ist ein US-amerikanischer Hersteller von Kunstglas- und Chemieprodukten mit Sitz in Pittsburgh, Pennsylvania im Hochhaus PPG Place. Das Unternehmen ist im S&P 500…",
+      "priceEur": 84.2,
+      "description": "Medtronic plc mit Hauptsitz in Dublin ist ein börsennotiertes Unternehmen auf dem Gebiet der Medizintechnik. Das Unternehmen ist in den Aktienindizes S&P 100 und S&P 500 sowie dem…",
       "politician": null,
       "track": null,
       "sig": {
@@ -508,19 +508,19 @@
           "active": false
         }
       },
-      "topic": "Materials",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "EXE",
-      "name": "Expand Energy",
+      "tk": "SNPS",
+      "name": "Synopsys",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 83.01,
-      "description": "Expand Energy ist ein US-amerikanisches Mineralölunternehmen, das Erdöl, Schiefer- und Erdgas in Oklahoma, Texas, Louisiana, Pennsylvania und Wyoming fördert. Expand Energy ging…",
+      "priceEur": 404.01,
+      "description": "Synopsys Inc. ist ein Technologie-Unternehmen in den Bereichen Halbleiter-Design-Software (EDA), IP-Core, Design-for-Manufacturing und Verifikation.",
       "politician": null,
       "track": null,
       "sig": {
@@ -542,21 +542,19 @@
           "active": false
         }
       },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
+      "topic": "Information Technology",
+      "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "TTWO",
-      "name": "Take-Two Interactive",
+      "tk": "NKE",
+      "name": "Nike, Inc.",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 182.42,
-      "description": "Take 2 Interactive ist ein 1993 gegründeter Entwickler, Publisher und Distributor von Computerspielen mit Hauptsitz in New York, USA. Niederlassungen gibt es im Vereinigten…",
+      "priceEur": 33.0,
+      "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a…",
       "politician": null,
       "track": null,
       "sig": {
@@ -569,7 +567,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -578,9 +577,9 @@
           "active": false
         }
       },
-      "topic": "Communication Services",
+      "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -688,7 +687,7 @@
       "score": 1,
       "reaction": -23.0,
       "priceEur": 71.22,
-      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
