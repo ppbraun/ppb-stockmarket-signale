@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T05:05:01.263620+00:00",
+  "generated_at": "2026-10-21T05:34:33.719206+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -267,76 +267,6 @@
       "topic": "Real Estate",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "TER",
-      "name": "Teradyne",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.5,
-      "priceEur": 300.12,
-      "description": "Teradyne ist ein in North Reading beheimateter US-amerikanischer Hersteller von Testsystemen für Mikroprozessoren und weiteren elektronischen Bausteinen.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "DELL",
-      "name": "Dell Technologies",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.7,
-      "priceEur": 411.55,
-      "description": "Dell Technologies Inc. ist ein US-amerikanischer Hersteller von Computern und Speichersystemen. Das Unternehmen hat seinen Hauptsitz in Round Rock, Texas.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "6Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "SKYD",
@@ -430,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -465,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -484,7 +414,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 63.18,
       "description": "Public Service Electric and Gas Company (PSEG) ist ein US-amerikanischer Energieversorger mit Sitz in Newark, New Jersey.",
       "politician": null,
@@ -513,46 +443,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "KEYS",
-      "name": "Keysight Technologies",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 297.96,
-      "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "KMI",
       "name": "Kinder Morgan",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 29.93,
       "description": "Kinder Morgan ist ein US-amerikanisches Unternehmen mit Firmensitz in Houston, Texas. Es ist im Aktienindex S&P 500 gelistet.",
       "politician": null,
@@ -578,6 +474,111 @@
         }
       },
       "topic": "Energy",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "LLY",
+      "name": "Lilly (Eli)",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 1144.59,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "IVZ",
+      "name": "Invesco",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 25.66,
+      "description": "Invesco ist eine unabhängige Investmentgesellschaft mit rund 8600 Mitarbeitern und Standorten in 25 Ländern. Der Hauptsitz des Unternehmens ist in Hamilton auf den Bermudas; die…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MTB",
+      "name": "M&T Bank",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 194.69,
+      "description": "Die M&T Bank Corporation ist ein US-amerikanisches Finanzdienstleistungsunternehmen mit Hauptsitz in Buffalo im Bundesstaat New York. Das Unternehmen ist die Holdinggesellschaft…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "9Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
