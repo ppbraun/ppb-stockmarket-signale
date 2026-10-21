@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:04:51.275387+00:00",
+  "generated_at": "2026-10-21T14:34:43.094609+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 24.9,
-      "priceEur": 218.47,
+      "reaction": 25.1,
+      "priceEur": 218.74,
       "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 5.3,
-      "priceEur": 156.65,
+      "reaction": 5.4,
+      "priceEur": 156.69,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.8,
-      "priceEur": 631.46,
+      "reaction": -4.2,
+      "priceEur": 629.13,
       "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.3,
-      "priceEur": 303.49,
+      "reaction": -0.6,
+      "priceEur": 302.75,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.8,
-      "priceEur": 50.89,
+      "reaction": 1.3,
+      "priceEur": 51.15,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -239,9 +239,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 4.8,
-      "priceEur": 37.9,
-      "description": "Alexandria Real Estate Equities, Inc. is a real estate investment trust based in Pasadena, California that invests in office buildings and laboratories leased to tenants in the…",
+      "reaction": 4.6,
+      "priceEur": 37.81,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -269,83 +269,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "UBER",
-      "name": "Uber",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.9,
-      "priceEur": 60.8,
-      "description": "Uber steht für:Uber (Unternehmen), Vermittlungsdienst zur Personenbeförderung und Essensauslieferung Uber Cup, Weltmeisterschaft für Damen-Nationalmannschaften im Badminton",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "UNP",
-      "name": "Union Pacific Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.3,
-      "priceEur": 256.87,
-      "description": "Die Union Pacific Corporation ist ein börsennotiertes US-amerikanisches Unternehmen mit Sitz in Omaha, in Nebraska. Sie ist die Muttergesellschaft der Eisenbahngesellschaft Union…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "LLY",
       "name": "Lilly (Eli)",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.9,
-      "priceEur": 1132.5,
+      "reaction": -1.2,
+      "priceEur": 1128.73,
       "description": null,
       "politician": null,
       "track": null,
@@ -360,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -379,9 +309,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 224.3,
-      "description": "Williams-Sonoma, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in San Francisco, das spezielle Kochutensilien und andere Haushaltswaren sowie eine Auswahl an Lebensmittel,…",
+      "reaction": 0.2,
+      "priceEur": 224.97,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -414,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.3,
-      "priceEur": 159.6,
+      "reaction": -1.6,
+      "priceEur": 159.11,
       "description": "SBA Communications Corporation is a real estate investment trust which owns and operates wireless infrastructure in the United States, Canada, Central America, South America, and…",
       "politician": null,
       "track": null,
@@ -449,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.4,
-      "priceEur": 157.54,
+      "reaction": 1.1,
+      "priceEur": 157.16,
       "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
       "politician": null,
       "track": null,
@@ -465,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -484,9 +414,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 30.17,
-      "description": null,
+      "reaction": 0.1,
+      "priceEur": 30.2,
+      "description": "Kinder Morgan ist ein US-amerikanisches Unternehmen mit Firmensitz in Houston, Texas. Es ist im Aktienindex S&P 500 gelistet.",
       "politician": null,
       "track": null,
       "sig": {
@@ -500,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -519,8 +449,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 194.94,
+      "reaction": 0.2,
+      "priceEur": 195.35,
       "description": "Die M&T Bank Corporation ist ein US-amerikanisches Finanzdienstleistungsunternehmen mit Hauptsitz in Buffalo im Bundesstaat New York. Das Unternehmen ist die Holdinggesellschaft…",
       "politician": null,
       "track": null,
@@ -535,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -549,14 +479,49 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "KEYS",
-      "name": "Keysight Technologies",
+      "tk": "SKYD",
+      "name": "Skydance Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 6.16,
+      "description": "Skydance Corporation ist eine US-amerikanische multinationale Mediengruppe mit Hauptsitz in New York City. Das Unternehmen entstand 2019 durch den Zusammenschluss von Viacom und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "9Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "FERG",
+      "name": "Ferguson Enterprises",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 303.68,
-      "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
+      "priceEur": 202.62,
+      "description": "Ferguson Enterprises Inc., headquartered in Newport News, Virginia and organized in Delaware, is the largest U.S. distributor of plumbing, heating, ventilation and air…",
       "politician": null,
       "track": null,
       "sig": {
@@ -578,9 +543,44 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "IVZ",
+      "name": "Invesco",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 26.02,
+      "description": "Invesco ist eine unabhängige Investmentgesellschaft mit rund 8600 Mitarbeitern und Standorten in 25 Ländern. Der Hauptsitz des Unternehmens ist in Hamilton auf den Bermudas; die…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "16Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -588,8 +588,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -15.8,
-      "priceEur": 93.45,
+      "reaction": -16.6,
+      "priceEur": 92.62,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -621,8 +621,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -9.1,
-      "priceEur": 23.07,
+      "reaction": -9.9,
+      "priceEur": 22.85,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -653,8 +653,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -9.2,
-      "priceEur": 70.28,
+      "reaction": -9.9,
+      "priceEur": 69.74,
       "description": null,
       "politician": null,
       "track": null,
@@ -685,8 +685,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -24.2,
-      "priceEur": 70.27,
+      "reaction": -24.7,
+      "priceEur": 69.81,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -718,8 +718,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -27.2,
-      "priceEur": 2.98,
+      "reaction": -27.6,
+      "priceEur": 2.96,
       "description": null,
       "politician": null,
       "track": null,
@@ -751,8 +751,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -7.1,
-      "priceEur": 10.26,
+      "reaction": -7.9,
+      "priceEur": 10.17,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -783,8 +783,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -12.5,
-      "priceEur": 34.92,
+      "reaction": -13.0,
+      "priceEur": 34.75,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -815,8 +815,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -2.5,
-      "priceEur": 109.45,
+      "reaction": -2.7,
+      "priceEur": 109.19,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
