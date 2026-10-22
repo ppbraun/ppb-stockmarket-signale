@@ -1,21 +1,6 @@
 {
-  "generated_at": "2026-10-22T11:34:37.463251+00:00",
+  "generated_at": "2026-10-22T12:05:08.131011+00:00",
   "newsTopics": [
-    {
-      "topic": "Energie / Öl & Gas",
-      "vol": 4,
-      "pct": 100
-    },
-    {
-      "topic": "Schifffahrt / Lieferketten",
-      "vol": 2,
-      "pct": 50
-    },
-    {
-      "topic": "KI-Infrastruktur",
-      "vol": 1,
-      "pct": 25
-    },
     {
       "topic": "Zölle / Handelskonflikt",
       "vol": 0,
@@ -37,12 +22,27 @@
       "pct": 0
     },
     {
+      "topic": "KI-Infrastruktur",
+      "vol": 0,
+      "pct": 0
+    },
+    {
       "topic": "Halbleiter / Chips",
       "vol": 0,
       "pct": 0
     },
     {
+      "topic": "Energie / Öl & Gas",
+      "vol": 0,
+      "pct": 0
+    },
+    {
       "topic": "Gesundheit / FDA-Zulassungen",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Schifffahrt / Lieferketten",
       "vol": 0,
       "pct": 0
     },
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -276,7 +276,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 201.87,
-      "description": null,
+      "description": "Chevron Corporation ist ein weltweit operierender Energiekonzern. Er gehört zu den weltgrößten Ölkonzernen und ist nach eigenen Angaben der größte Produzent geothermischer Energie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -313,7 +313,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 361.37,
-      "description": null,
+      "description": "Analog Devices Inc. ist ein US-amerikanischer Halbleiterhersteller mit Hauptsitz in Norwood bei Boston, Massachusetts. Das Unternehmen betreibt weltweit Niederlassungen.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -327,7 +327,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -362,7 +362,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -397,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -432,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": false
@@ -467,7 +467,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -481,14 +481,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "HSY",
-      "name": "Hershey Company (The)",
+      "tk": "NTRS",
+      "name": "Northern Trust",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 149.38,
-      "description": null,
+      "priceEur": 148.57,
+      "description": "Northern Trust ist ein Finanzdienstleister aus den Vereinigten Staaten mit Sitz in Chicago, Illinois. Es hat sich auf Unternehmen, institutionelle Anleger und sehr vermögende…",
       "politician": null,
       "track": null,
       "sig": {
@@ -501,75 +501,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "CPRT",
-      "name": "Copart",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 24.55,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
           "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "BEN",
-      "name": "Franklin Resources",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 28.2,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -580,7 +513,75 @@
       },
       "topic": "Financials",
       "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "VRSN",
+      "name": "Verisign",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 273.5,
+      "description": "Verisign ist ein US-amerikanisches Unternehmen mit Sitz in Reston, Virginia.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "XYL",
+      "name": "Xylem Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 94.67,
+      "description": "Xylem Inc. ist ein US-amerikanisches Unternehmen, welches Anlagen zur Wasseraufbereitung sowie analytische Geräte herstellt. Es entstand 2011 aus der Abspaltung der Division ITT…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "BABA",
@@ -602,7 +603,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -668,7 +669,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -701,7 +702,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -754,7 +755,7 @@
       "score": 0,
       "reaction": -7.3,
       "priceEur": 10.24,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -786,7 +787,7 @@
       "score": 0,
       "reaction": -12.4,
       "priceEur": 34.99,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
