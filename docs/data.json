@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T17:04:39.941237+00:00",
+  "generated_at": "2026-10-22T17:34:26.366220+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -65,8 +65,113 @@
       "market": "us",
       "score": 3,
       "reaction": 5.5,
-      "priceEur": 157.35,
+      "priceEur": 157.32,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "6Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "META",
+      "name": "Meta Platforms",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": -12.2,
+      "priceEur": 577.78,
+      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "PYPL",
+      "name": "PayPal",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": 0.9,
+      "priceEur": 51.07,
+      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "6T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "ARE",
+      "name": "Alexandria Real Estate Equities",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": 6.1,
+      "priceEur": 38.46,
+      "description": "Alexandria Real Estate Equities, Inc. is a real estate investment trust based in Pasadena, California that invests in office buildings and laboratories leased to tenants in the…",
       "politician": null,
       "track": null,
       "sig": {
@@ -89,151 +194,9 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "META",
-      "name": "Meta Platforms",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": -12.2,
-      "priceEur": 577.62,
-      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "PYPL",
-      "name": "PayPal",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": 0.8,
-      "priceEur": 51.0,
-      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "6T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "ARE",
-      "name": "Alexandria Real Estate Equities",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": 6.5,
-      "priceEur": 38.62,
-      "description": "Alexandria Real Estate Equities, Inc. is a real estate investment trust based in Pasadena, California that invests in office buildings and laboratories leased to tenants in the…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Real Estate",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "CVX",
-      "name": "Chevron Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.4,
-      "priceEur": 201.51,
-      "description": "Chevron Corporation ist ein weltweit operierender Energiekonzern. Er gehört zu den weltgrößten Ölkonzernen und ist nach eigenen Angaben der größte Produzent geothermischer Energie…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "CRWD",
@@ -241,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.3,
-      "priceEur": 213.09,
+      "reaction": 1.0,
+      "priceEur": 212.55,
       "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
       "politician": null,
       "track": null,
@@ -257,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -276,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.0,
-      "priceEur": 155.98,
+      "reaction": 0.8,
+      "priceEur": 155.72,
       "description": null,
       "politician": null,
       "track": null,
@@ -311,9 +274,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 113.93,
-      "description": "Dollar Tree ist ein US-amerikanischer Betreiber von Billig-Gemischtwarenläden. Der Sitz des Unternehmens befindet sich in Chesapeake im US-Bundesstaat Virginia. Dollar Tree…",
+      "reaction": 0.2,
+      "priceEur": 114.21,
+      "description": "Dollar Tree, Inc., formerly known as Dollar Tree Stores, Inc., is an American multi-price-point chain of discount variety stores. Headquartered in Chesapeake, Virginia, it is a…",
       "politician": null,
       "track": null,
       "sig": {
@@ -346,9 +309,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.7,
-      "priceEur": 39.94,
-      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
+      "reaction": 0.6,
+      "priceEur": 39.87,
+      "description": "Verizon Communications Inc. is an American telecommunications company headquartered in New York City. It is the world's second-largest telecommunications company by revenue and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -362,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -381,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.3,
-      "priceEur": 154.32,
+      "reaction": -0.9,
+      "priceEur": 155.04,
       "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
       "politician": null,
       "track": null,
@@ -416,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.5,
-      "priceEur": 346.87,
+      "reaction": 0.1,
+      "priceEur": 348.73,
       "description": "Analog Devices Inc. ist ein US-amerikanischer Halbleiterhersteller mit Hauptsitz in Norwood bei Boston, Massachusetts. Das Unternehmen betreibt weltweit Niederlassungen.…",
       "politician": null,
       "track": null,
@@ -451,8 +414,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.0,
-      "priceEur": 147.18,
+      "reaction": 0.1,
+      "priceEur": 147.41,
       "description": "Northern Trust ist ein Finanzdienstleister aus den Vereinigten Staaten mit Sitz in Chicago, Illinois. Es hat sich auf Unternehmen, institutionelle Anleger und sehr vermögende…",
       "politician": null,
       "track": null,
@@ -467,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -481,47 +444,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CPRT",
-      "name": "Copart",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 25.95,
-      "description": "Copart, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in Dallas, Texas, das Online-Fahrzeugauktionen durchführt. Das Unternehmen bietet seine Dienstleistungen in den…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "XYL",
       "name": "Xylem Inc.",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 96.52,
+      "reaction": 0.1,
+      "priceEur": 96.58,
       "description": "Xylem Inc. ist ein US-amerikanisches Unternehmen, welches Anlagen zur Wasseraufbereitung sowie analytische Geräte herstellt. Es entstand 2011 aus der Abspaltung der Division ITT…",
       "politician": null,
       "track": null,
@@ -549,14 +478,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "VRSN",
-      "name": "Verisign",
+      "tk": "BEN",
+      "name": "Franklin Resources",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 269.67,
-      "description": "Verisign ist ein US-amerikanisches Unternehmen mit Sitz in Reston, Virginia.",
+      "priceEur": 28.0,
+      "description": "Franklin Templeton, Inc. ist eine Investmentgesellschaft mit Hauptsitz in San Mateo, Kalifornien. Das Unternehmen bietet Fonds und alternative Anlagen an, ist in mehr als 30…",
       "politician": null,
       "track": null,
       "sig": {
@@ -578,7 +507,76 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "MDT",
+      "name": "Medtronic",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 85.2,
+      "description": "Medtronic plc mit Hauptsitz in Dublin ist ein börsennotiertes Unternehmen auf dem Gebiet der Medizintechnik. Das Unternehmen ist in den Aktienindizes S&P 100 und S&P 500 sowie dem…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ERIE",
+      "name": "Erie Indemnity",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 226.97,
+      "description": "Erie Insurance Group, based in Erie, Pennsylvania, is a property and casualty insurance company offering auto, home, business and life insurance through a network of independent…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1Std",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -589,7 +587,7 @@
       "market": "cn",
       "score": 2,
       "reaction": -18.1,
-      "priceEur": 91.11,
+      "priceEur": 91.1,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -602,7 +600,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": true
@@ -635,7 +633,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": true
@@ -655,7 +653,7 @@
       "market": "cn",
       "score": 1,
       "reaction": -8.6,
-      "priceEur": 70.92,
+      "priceEur": 70.9,
       "description": null,
       "politician": null,
       "track": null,
@@ -687,8 +685,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -24.9,
-      "priceEur": 69.76,
+      "reaction": -25.0,
+      "priceEur": 69.67,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -720,8 +718,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -27.9,
-      "priceEur": 2.96,
+      "reaction": -28.0,
+      "priceEur": 2.95,
       "description": null,
       "politician": null,
       "track": null,
@@ -752,8 +750,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -6.9,
-      "priceEur": 10.31,
+      "reaction": -7.3,
+      "priceEur": 10.27,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -766,7 +764,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -817,8 +815,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -6.4,
-      "priceEur": 105.27,
+      "reaction": -6.3,
+      "priceEur": 105.47,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
