@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T08:34:49.960229+00:00",
+  "generated_at": "2026-10-22T09:04:31.461722+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -241,7 +241,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 213.05,
-      "description": null,
+      "description": "CrowdStrike Holdings, Inc. is an American cybersecurity technology company based in Austin, Texas. It provides endpoint security, threat intelligence, and cyberattack response…",
       "politician": null,
       "track": null,
       "sig": {
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -325,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -360,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -450,7 +450,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 100.14,
-      "description": null,
+      "description": "Paychex, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in Rochester, New York.",
       "politician": null,
       "track": null,
       "sig": {
@@ -464,7 +464,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -478,47 +478,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VRSN",
-      "name": "Verisign",
+      "tk": "ERIE",
+      "name": "Erie Indemnity",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 273.5,
-      "description": "Verisign, Inc. is an American company based in Reston, Virginia, that operates a diverse array of network infrastructure, including two of the Internet's thirteen root…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "AIG",
-      "name": "American International Group",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 72.77,
+      "priceEur": 217.3,
       "description": null,
       "politician": null,
       "track": null,
@@ -546,14 +512,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "CPRT",
-      "name": "Copart",
+      "tk": "AEP",
+      "name": "American Electric Power",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 24.55,
-      "description": "Copart, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in Dallas, Texas, das Online-Fahrzeugauktionen durchführt. Das Unternehmen bietet seine Dienstleistungen in den…",
+      "priceEur": 113.4,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -566,7 +532,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -575,9 +542,46 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Utilities",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CVX",
+      "name": "Chevron Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 201.87,
+      "description": "Chevron Corporation is an American multinational energy corporation predominantly specializing in oil and gas. The second-largest direct descendant of Standard Oil, and originally…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -665,7 +669,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -686,7 +690,7 @@
       "score": 2,
       "reaction": -24.3,
       "priceEur": 70.16,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -698,7 +702,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": true
