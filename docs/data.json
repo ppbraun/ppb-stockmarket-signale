@@ -1,6 +1,21 @@
 {
-  "generated_at": "2026-10-22T12:05:08.131011+00:00",
+  "generated_at": "2026-10-22T12:34:30.204386+00:00",
   "newsTopics": [
+    {
+      "topic": "Energie / Öl & Gas",
+      "vol": 4,
+      "pct": 100
+    },
+    {
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 2,
+      "pct": 50
+    },
+    {
+      "topic": "KI-Infrastruktur",
+      "vol": 1,
+      "pct": 25
+    },
     {
       "topic": "Zölle / Handelskonflikt",
       "vol": 0,
@@ -22,27 +37,12 @@
       "pct": 0
     },
     {
-      "topic": "KI-Infrastruktur",
-      "vol": 0,
-      "pct": 0
-    },
-    {
       "topic": "Halbleiter / Chips",
       "vol": 0,
       "pct": 0
     },
     {
-      "topic": "Energie / Öl & Gas",
-      "vol": 0,
-      "pct": 0
-    },
-    {
       "topic": "Gesundheit / FDA-Zulassungen",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "Schifffahrt / Lieferketten",
       "vol": 0,
       "pct": 0
     },
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
           "active": true
@@ -197,76 +197,6 @@
       "topic": "Real Estate",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "PAYX",
-      "name": "Paychex",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 100.14,
-      "description": "Paychex, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in Rochester, New York.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "21Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "AEP",
-      "name": "American Electric Power",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 113.4,
-      "description": "American Electric Power Company, Inc. (AEP) ist ein großes Energieunternehmen aus den Vereinigten Staaten mit Firmensitz in Columbus, Ohio. Das Unternehmen ist im Aktienindex S&P…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "21Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "CVX",
@@ -290,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -362,7 +292,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -467,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -486,7 +416,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 148.57,
       "description": "Northern Trust ist ein Finanzdienstleister aus den Vereinigten Staaten mit Sitz in Chicago, Illinois. Es hat sich auf Unternehmen, institutionelle Anleger und sehr vermögende…",
       "politician": null,
@@ -502,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "0Std"
         },
         "predict": {
           "active": false
@@ -516,46 +446,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VRSN",
-      "name": "Verisign",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 273.5,
-      "description": "Verisign ist ein US-amerikanisches Unternehmen mit Sitz in Reston, Virginia.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "XYL",
       "name": "Xylem Inc.",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 94.67,
       "description": "Xylem Inc. ist ein US-amerikanisches Unternehmen, welches Anlagen zur Wasseraufbereitung sowie analytische Geräte herstellt. Es entstand 2011 aus der Abspaltung der Division ITT…",
       "politician": null,
@@ -582,6 +478,108 @@
       "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "BEN",
+      "name": "Franklin Resources",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 28.2,
+      "description": "Franklin Templeton, Inc. ist eine Investmentgesellschaft mit Hauptsitz in San Mateo, Kalifornien. Das Unternehmen bietet Fonds und alternative Anlagen an, ist in mehr als 30…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "ERIE",
+      "name": "Erie Indemnity",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 217.3,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "CPRT",
+      "name": "Copart",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 24.55,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BABA",
@@ -636,7 +634,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
           "active": true
@@ -819,7 +817,7 @@
       "score": 0,
       "reaction": -2.4,
       "priceEur": 109.47,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
       "sig": {
