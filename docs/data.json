@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-22T19:02:13.848967+00:00",
+  "generated_at": "2026-10-23T05:04:45.351333+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 4,
+      "vol": 5,
       "pct": 100
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 2,
-      "pct": 50
+      "pct": 40
     },
     {
       "topic": "KI-Infrastruktur",
       "vol": 1,
-      "pct": 25
+      "pct": 20
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 4.5,
-      "priceEur": 155.87,
+      "reaction": 5.2,
+      "priceEur": 156.86,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -75,12 +75,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -13.0,
-      "priceEur": 572.44,
+      "reaction": -12.0,
+      "priceEur": 579.07,
       "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
@@ -110,7 +110,7 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
@@ -134,9 +134,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.6,
-      "priceEur": 50.9,
-      "description": "PayPal Holdings, Inc. is an American multinational financial technology company operating an online payments system in the majority of countries that support online money…",
+      "reaction": 1.5,
+      "priceEur": 51.35,
+      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
       "sig": {
@@ -145,12 +145,12 @@
         },
         "insider": {
           "active": true,
-          "age": "6T",
+          "age": "7T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -169,9 +169,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 6.5,
-      "priceEur": 38.63,
-      "description": null,
+      "reaction": 6.6,
+      "priceEur": 38.67,
+      "description": "Alexandria Real Estate Equities, Inc. is a real estate investment trust based in Pasadena, California that invests in office buildings and laboratories leased to tenants in the…",
       "politician": null,
       "track": null,
       "sig": {
@@ -180,12 +180,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "16Std"
         },
         "predict": {
           "active": true
@@ -199,83 +199,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "ADI",
-      "name": "Analog Devices",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.6,
-      "priceEur": 346.56,
-      "description": "Analog Devices Inc. ist ein US-amerikanischer Halbleiterhersteller mit Hauptsitz in Norwood bei Boston, Massachusetts. Das Unternehmen betreibt weltweit Niederlassungen.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "NTRS",
-      "name": "Northern Trust",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.1,
-      "priceEur": 147.03,
-      "description": "Northern Trust ist ein Finanzdienstleister aus den Vereinigten Staaten mit Sitz in Chicago, Illinois. Es hat sich auf Unternehmen, institutionelle Anleger und sehr vermögende…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "6Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "XYL",
       "name": "Xylem Inc.",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.5,
-      "priceEur": 96.98,
+      "reaction": 1.0,
+      "priceEur": 97.51,
       "description": "Xylem Inc. ist ein US-amerikanisches Unternehmen, welches Anlagen zur Wasseraufbereitung sowie analytische Geräte herstellt. Es entstand 2011 aus der Abspaltung der Division ITT…",
       "politician": null,
       "track": null,
@@ -285,7 +215,7 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
@@ -308,8 +238,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.4,
-      "priceEur": 85.56,
+      "reaction": 1.2,
+      "priceEur": 86.2,
       "description": "Medtronic plc mit Hauptsitz in Dublin ist ein börsennotiertes Unternehmen auf dem Gebiet der Medizintechnik. Das Unternehmen ist in den Aktienindizes S&P 100 und S&P 500 sowie dem…",
       "politician": null,
       "track": null,
@@ -319,12 +249,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -343,8 +273,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.2,
-      "priceEur": 105.6,
+      "reaction": 0.7,
+      "priceEur": 106.03,
       "description": "Paychex, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in Rochester, New York.",
       "politician": null,
       "track": null,
@@ -354,12 +284,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -378,8 +308,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.4,
-      "priceEur": 116.68,
+      "reaction": 0.3,
+      "priceEur": 116.59,
       "description": "American Electric Power Company, Inc. (AEP) ist ein großes Energieunternehmen aus den Vereinigten Staaten mit Firmensitz in Columbus, Ohio. Das Unternehmen ist im Aktienindex S&P…",
       "politician": null,
       "track": null,
@@ -389,12 +319,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -413,8 +343,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.3,
-      "priceEur": 202.49,
+      "reaction": 0.2,
+      "priceEur": 202.3,
       "description": "Chevron Corporation ist ein weltweit operierender Energiekonzern. Er gehört zu den weltgrößten Ölkonzernen und ist nach eigenen Angaben der größte Produzent geothermischer Energie…",
       "politician": null,
       "track": null,
@@ -424,12 +354,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -449,9 +379,9 @@
       "name": "Franklin Resources",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": -0.2,
-      "priceEur": 27.93,
+      "score": 1,
+      "reaction": 0.5,
+      "priceEur": 28.13,
       "description": "Franklin Templeton, Inc. ist eine Investmentgesellschaft mit Hauptsitz in San Mateo, Kalifornien. Das Unternehmen bietet Fonds und alternative Anlagen an, ist in mehr als 30…",
       "politician": null,
       "track": null,
@@ -461,12 +391,11 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "1Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -477,40 +406,6 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CPRT",
-      "name": "Copart",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 25.97,
-      "description": "Copart, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in Dallas, Texas, das Online-Fahrzeugauktionen durchführt. Das Unternehmen bietet seine Dienstleistungen in den…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
@@ -518,9 +413,9 @@
       "name": "Dollar Tree",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 115.38,
+      "score": 1,
+      "reaction": 1.4,
+      "priceEur": 116.95,
       "description": "Dollar Tree ist ein US-amerikanischer Betreiber von Billig-Gemischtwarenläden. Der Sitz des Unternehmens befindet sich in Chesapeake im US-Bundesstaat Virginia. Dollar Tree…",
       "politician": null,
       "track": null,
@@ -530,12 +425,11 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "1T"
+          "active": false
         },
         "predict": {
           "active": false
@@ -546,7 +440,7 @@
       },
       "topic": "Consumer Staples",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "VZ",
@@ -554,8 +448,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 40.25,
+      "reaction": 0.2,
+      "priceEur": 40.34,
       "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
       "politician": null,
       "track": null,
@@ -565,12 +459,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -584,13 +478,118 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "SBUX",
+      "name": "Starbucks",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": null,
+      "priceEur": 90.95,
+      "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "10Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "WTW",
+      "name": "Willis Towers Watson",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 296.46,
+      "description": "Willis Towers Watson ist ein globales multinationales Risikomanagement-, Versicherungsmakler- und Beratungsunternehmen mit Sitz im irischen Dublin und operativer Hauptzentrale im…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "16Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ACN",
+      "name": "Accenture",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 230.92,
+      "description": "Die Accenture Plc mit Sitz im irischen Dublin ist einer der weltweit größten Dienstleister im Bereich der Unternehmens- und Strategieberatung sowie Technologie und Outsourcing,…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "11Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -18.7,
-      "priceEur": 90.49,
+      "reaction": -18.4,
+      "priceEur": 90.87,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -603,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -622,8 +621,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -10.1,
-      "priceEur": 22.87,
+      "reaction": -9.9,
+      "priceEur": 22.92,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -636,7 +635,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -655,8 +654,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -9.2,
-      "priceEur": 70.45,
+      "reaction": -8.9,
+      "priceEur": 70.66,
       "description": null,
       "politician": null,
       "track": null,
@@ -669,7 +668,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -688,8 +687,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -25.6,
-      "priceEur": 69.09,
+      "reaction": -25.1,
+      "priceEur": 69.59,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -702,7 +701,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -720,10 +719,43 @@
       "name": "NIO Inc.",
       "broker": true,
       "market": "cn",
-      "score": 0,
-      "reaction": -28.3,
-      "priceEur": 2.94,
+      "score": 1,
+      "reaction": -28.0,
+      "priceEur": 2.95,
       "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": false
+        },
+        "macro": {
+          "active": true,
+          "age": "21Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "LI",
+      "name": "Li Auto",
+      "broker": true,
+      "market": "cn",
+      "score": 0,
+      "reaction": -7.6,
+      "priceEur": 10.24,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -748,46 +780,13 @@
       "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
     },
     {
-      "tk": "LI",
-      "name": "Li Auto",
-      "broker": true,
-      "market": "cn",
-      "score": 1,
-      "reaction": -7.7,
-      "priceEur": 10.22,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": false
-        },
-        "macro": {
-          "active": true,
-          "age": "22Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "TCOM",
       "name": "Trip.com Group",
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -11.9,
-      "priceEur": 35.27,
+      "reaction": -11.8,
+      "priceEur": 35.31,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -818,8 +817,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -6.2,
-      "priceEur": 105.51,
+      "reaction": -5.9,
+      "priceEur": 105.91,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
