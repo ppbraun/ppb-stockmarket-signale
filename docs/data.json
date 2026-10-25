@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T08:04:42.638099+00:00",
+  "generated_at": "2026-10-25T08:34:33.515720+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -269,76 +269,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "BAC",
-      "name": "Bank of America",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 45.17,
-      "description": "Die Bank of America Corporation ist eine US-amerikanische Großbank mit Hauptsitz in Charlotte, North Carolina. Das Unternehmen war seit Juli 2006 zeitweise das größte…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "17Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CRL",
-      "name": "Charles River Laboratories",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 308.56,
-      "description": "Charles River Laboratories ist ein US-amerikanisches Unternehmen, das Forschungs- und Analytikdienstleistungen für Pharmazieunternehmen und Forschungseinrichtungen anbietet.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "CRWD",
       "name": "CrowdStrike",
       "broker": true,
@@ -360,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -395,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": false
@@ -465,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -484,7 +414,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 39.9,
       "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
       "politician": null,
@@ -519,7 +449,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 393.06,
       "description": "Elevance Health ist ein US-amerikanisches Krankenversicherungsunternehmen mit Firmensitz in Indianapolis, Indiana. Das Unternehmen ist im Aktienindex S&P 500 gelistet und ist ein…",
       "politician": null,
@@ -549,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VLTO",
-      "name": "Veralto",
+      "tk": "HOOD",
+      "name": "Robinhood Markets",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 93.21,
-      "description": "Veralto Corporation is an American technology company headquartered in Waltham, Massachusetts. It produces products related to water analytics, water treatment, marking and…",
+      "priceEur": 84.94,
+      "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -569,7 +499,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -578,9 +509,79 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 50.65,
+      "description": "Hewlett Packard Enterprise (HPE) ist ein US-amerikanisches Informationstechnikunternehmen mit Sitz in Spring im Bundesstaat Texas. Es entstand im Zuge der Abspaltung des…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PEP",
+      "name": "PepsiCo",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 121.3,
+      "description": "PepsiCo, Inc. ist ein US-amerikanischer Getränke- und Lebensmittelkonzern mit Sitz in Purchase im Bundesstaat New York. Dieser ist derzeit der größte Mitbewerber der Coca-Cola…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "18Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -602,7 +603,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -687,7 +688,7 @@
       "score": 2,
       "reaction": -25.9,
       "priceEur": 68.97,
-      "description": null,
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -784,7 +785,7 @@
       "score": 0,
       "reaction": -11.3,
       "priceEur": 35.54,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
