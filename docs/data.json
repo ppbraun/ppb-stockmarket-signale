@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T09:34:11.107809+00:00",
+  "generated_at": "2026-10-25T10:04:50.811130+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -267,76 +267,6 @@
       "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "HOOD",
-      "name": "Robinhood Markets",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 84.94,
-      "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "15Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 50.65,
-      "description": "Hewlett Packard Enterprise (HPE) ist ein US-amerikanisches Informationstechnikunternehmen mit Sitz in Spring im Bundesstaat Texas. Es entstand im Zuge der Abspaltung des…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "PEP",
@@ -395,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -484,7 +414,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 73.35,
       "description": "Die NextEra Energy, Inc. ist ein im S&P 500 gelistetes amerikanisches Energieunternehmen mit Firmensitz in Juno Beach, Florida, dessen Geschichte bis ins Jahr 1925 zurückreicht.",
       "politician": null,
@@ -519,7 +449,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 355.83,
       "description": null,
       "politician": null,
@@ -549,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VLTO",
-      "name": "Veralto",
+      "tk": "CRWD",
+      "name": "CrowdStrike",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 93.21,
-      "description": "Veralto Corporation is an American technology company headquartered in Waltham, Massachusetts. It produces products related to water analytics, water treatment, marking and…",
+      "priceEur": 230.12,
+      "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -569,7 +499,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -578,9 +509,79 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "BAC",
+      "name": "Bank of America",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 45.17,
+      "description": "Die Bank of America Corporation ist eine US-amerikanische Großbank mit Hauptsitz in Charlotte, North Carolina. Das Unternehmen war seit Juli 2006 zeitweise das größte…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "19Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "INTU",
+      "name": "Intuit",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 306.79,
+      "description": "Intuit Inc. ist ein US-amerikanischer Hersteller von Standardanwendungssoftware aus Kalifornien mit rund 9.400 Mitarbeitern weltweit und einem Umsatz von ca. 6,7 Milliarden…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
