@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T10:05:00.617850+00:00",
+  "generated_at": "2026-10-26T10:34:30.908515+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": 3.0,
       "priceEur": 153.68,
-      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -136,7 +136,7 @@
       "score": 3,
       "reaction": 0.6,
       "priceEur": 50.94,
-      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
+      "description": "PayPal Holdings, Inc. is an American multinational financial technology company operating an online payments system in the majority of countries that support online money…",
       "politician": null,
       "track": null,
       "sig": {
@@ -206,7 +206,7 @@
       "score": 3,
       "reaction": -0.1,
       "priceEur": 310.66,
-      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -232,41 +232,6 @@
       "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "HOOD",
-      "name": "Robinhood Markets",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 84.94,
-      "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "9Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BAC",
@@ -311,7 +276,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 230.12,
-      "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
+      "description": "CrowdStrike Holdings, Inc. is an American cybersecurity technology company based in Austin, Texas. It provides endpoint security, threat intelligence, and cyberattack response…",
       "politician": null,
       "track": null,
       "sig": {
@@ -346,7 +311,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 201.94,
-      "description": "J.B. Hunt Transport Services, Inc. is an American transportation and logistics company based in Lowell, Arkansas. It was founded by Johnnie Bryan Hunt and Johnelle Hunt in…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -394,7 +359,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -464,7 +429,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -513,14 +478,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "INTU",
-      "name": "Intuit",
+      "tk": "VLTO",
+      "name": "Veralto",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 306.79,
-      "description": "Intuit Inc. ist ein US-amerikanischer Hersteller von Standardanwendungssoftware aus Kalifornien mit rund 9.400 Mitarbeitern weltweit und einem Umsatz von ca. 6,7 Milliarden…",
+      "priceEur": 93.21,
+      "description": "Veralto Corporation is an American technology company headquartered in Waltham, Massachusetts. It produces products related to water analytics, water treatment, marking and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -542,19 +507,19 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "ELV",
-      "name": "Elevance Health",
+      "tk": "TRV",
+      "name": "Travelers Companies (The)",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 393.06,
-      "description": "Elevance Health ist ein US-amerikanisches Krankenversicherungsunternehmen mit Firmensitz in Indianapolis, Indiana. Das Unternehmen ist im Aktienindex S&P 500 gelistet und ist ein…",
+      "priceEur": 355.83,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -576,7 +541,41 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "NEE",
+      "name": "NextEra Energy",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 73.35,
+      "description": "Die NextEra Energy, Inc. ist ein im S&P 500 gelistetes amerikanisches Energieunternehmen mit Firmensitz in Juno Beach, Florida, dessen Geschichte bis ins Jahr 1925 zurückreicht.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Utilities",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -600,7 +599,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -685,7 +684,7 @@
       "score": 1,
       "reaction": -25.9,
       "priceEur": 68.97,
-      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
