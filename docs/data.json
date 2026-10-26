@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T08:04:31.745294+00:00",
+  "generated_at": "2026-10-26T08:34:19.176922+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": 3.0,
       "priceEur": 153.68,
-      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
+      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
       "politician": null,
       "track": null,
       "sig": {
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -311,7 +311,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 105.4,
-      "description": "Blackstone Inc. is an American alternative investment management company based in New York City. It was founded in 1985 as a mergers and acquisitions firm by Peter Peterson and…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -478,14 +478,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "ELV",
-      "name": "Elevance Health",
+      "tk": "PEP",
+      "name": "PepsiCo",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 393.06,
-      "description": "Elevance Health ist ein US-amerikanisches Krankenversicherungsunternehmen mit Firmensitz in Indianapolis, Indiana. Das Unternehmen ist im Aktienindex S&P 500 gelistet und ist ein…",
+      "priceEur": 121.3,
+      "description": "PepsiCo, Inc. ist ein US-amerikanischer Getränke- und Lebensmittelkonzern mit Sitz in Purchase im Bundesstaat New York. Dieser ist derzeit der größte Mitbewerber der Coca-Cola…",
       "politician": null,
       "track": null,
       "sig": {
@@ -498,7 +498,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -507,19 +508,19 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Consumer Staples",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VLTO",
-      "name": "Veralto",
+      "tk": "CRM",
+      "name": "Salesforce",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 93.21,
-      "description": null,
+      "priceEur": 222.08,
+      "description": "Salesforce, Inc. mit Sitz in San Francisco (USA) ist ein börsennotiertes US-amerikanisches Softwareunternehmen, das Cloud-Computing-Produkte für Unternehmen anbietet. Das…",
       "politician": null,
       "track": null,
       "sig": {
@@ -532,7 +533,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -541,19 +543,19 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CRL",
-      "name": "Charles River Laboratories",
+      "tk": "INTU",
+      "name": "Intuit",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 308.56,
-      "description": null,
+      "priceEur": 306.79,
+      "description": "Intuit Inc. is an American financial technology company that develops financial software and services, including TurboTax and QuickBooks. Founded in 1983, the company is…",
       "politician": null,
       "track": null,
       "sig": {
@@ -575,7 +577,7 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -587,7 +589,7 @@
       "score": 2,
       "reaction": -20.1,
       "priceEur": 89.02,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -599,7 +601,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -684,7 +686,7 @@
       "score": 1,
       "reaction": -25.9,
       "priceEur": 68.97,
-      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -748,7 +750,7 @@
       "score": 0,
       "reaction": -8.2,
       "priceEur": 10.18,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -780,7 +782,7 @@
       "score": 0,
       "reaction": -11.3,
       "priceEur": 35.54,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -812,7 +814,7 @@
       "score": 0,
       "reaction": -5.9,
       "priceEur": 105.97,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
       "sig": {
