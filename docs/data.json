@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:04:54.956275+00:00",
+  "generated_at": "2026-10-26T16:34:44.733808+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.8,
-      "priceEur": 152.07,
+      "reaction": 1.9,
+      "priceEur": 152.1,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -13.1,
-      "priceEur": 573.19,
+      "reaction": -13.0,
+      "priceEur": 573.62,
       "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.0,
-      "priceEur": 49.16,
+      "reaction": -3.2,
+      "priceEur": 49.06,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -170,7 +170,7 @@
       "market": "us",
       "score": 3,
       "reaction": 0.3,
-      "priceEur": 91.33,
+      "priceEur": 91.32,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -205,8 +205,8 @@
       "market": "us",
       "score": 3,
       "reaction": -1.0,
-      "priceEur": 308.13,
-      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
+      "priceEur": 308.0,
+      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
       "politician": null,
       "track": null,
       "sig": {
@@ -234,49 +234,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "CRWD",
-      "name": "CrowdStrike",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 1.0,
-      "priceEur": 233.16,
-      "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "JBHT",
       "name": "J.B. Hunt",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": -0.9,
-      "priceEur": 201.63,
-      "description": "J.B. Hunt Transport Services, Inc. is an American transportation and logistics company based in Lowell, Arkansas. It was founded by Johnnie Bryan Hunt and Johnelle Hunt in…",
+      "priceEur": 201.64,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -308,9 +273,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.7,
-      "priceEur": 121.38,
-      "description": "PepsiCo, Inc. ist ein US-amerikanischer Getränke- und Lebensmittelkonzern mit Sitz in Purchase im Bundesstaat New York. Dieser ist derzeit der größte Mitbewerber der Coca-Cola…",
+      "reaction": -0.9,
+      "priceEur": 121.08,
+      "description": "PepsiCo, Inc. is an American multinational food and beverage corporation headquartered in Harrison, New York, in the hamlet of Purchase. PepsiCo's business encompasses all aspects…",
       "politician": null,
       "track": null,
       "sig": {
@@ -324,7 +289,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -343,8 +308,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 356.67,
+      "reaction": 0.1,
+      "priceEur": 357.58,
       "description": null,
       "politician": null,
       "track": null,
@@ -379,8 +344,8 @@
       "market": "us",
       "score": 2,
       "reaction": 0.1,
-      "priceEur": 73.52,
-      "description": null,
+      "priceEur": 73.54,
+      "description": "Die NextEra Energy, Inc. ist ein im S&P 500 gelistetes amerikanisches Energieunternehmen mit Firmensitz in Juno Beach, Florida, dessen Geschichte bis ins Jahr 1925 zurückreicht.",
       "politician": null,
       "track": null,
       "sig": {
@@ -413,9 +378,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.1,
-      "priceEur": 299.52,
-      "description": "Intuit Inc. is an American financial technology company that develops financial software and services, including TurboTax and QuickBooks. Founded in 1983, the company is…",
+      "reaction": -1.5,
+      "priceEur": 298.47,
+      "description": "Intuit Inc. ist ein US-amerikanischer Hersteller von Standardanwendungssoftware aus Kalifornien mit rund 9.400 Mitarbeitern weltweit und einem Umsatz von ca. 6,7 Milliarden…",
       "politician": null,
       "track": null,
       "sig": {
@@ -429,7 +394,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -448,8 +413,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.7,
-      "priceEur": 218.28,
+      "reaction": -0.9,
+      "priceEur": 217.82,
       "description": "Salesforce, Inc. mit Sitz in San Francisco (USA) ist ein börsennotiertes US-amerikanisches Softwareunternehmen, das Cloud-Computing-Produkte für Unternehmen anbietet. Das…",
       "politician": null,
       "track": null,
@@ -464,7 +429,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -478,74 +443,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VLTO",
-      "name": "Veralto",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 92.32,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "ELV",
-      "name": "Elevance Health",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 384.81,
-      "description": "Elevance Health ist ein US-amerikanisches Krankenversicherungsunternehmen mit Firmensitz in Indianapolis, Indiana. Das Unternehmen ist im Aktienindex S&P 500 gelistet und ist ein…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "BRK.B",
       "name": "Berkshire Hathaway",
       "broker": true,
@@ -553,7 +450,7 @@
       "score": 2,
       "reaction": null,
       "priceEur": null,
-      "description": "Berkshire Hathaway Inc. [ˈbɜːrkʃər ˈhæθəweɪ] ist eine 1955 gegründete US-amerikanische Holdinggesellschaft mit Sitz in Omaha, Nebraska, zu deren Konglomerat über 80 Unternehmen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -581,13 +478,117 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "HOOD",
+      "name": "Robinhood Markets",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 82.96,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "BAC",
+      "name": "Bank of America",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 45.5,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "DGX",
+      "name": "Quest Diagnostics",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 217.64,
+      "description": "Quest Diagnostics Inc. ist ein US-amerikanisches Unternehmen im Bereich der klinischen Labordiagnostik und Gesundheitsinformation. Der Hauptsitz befindet sich in Secaucus. Nach…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
       "reaction": -19.4,
-      "priceEur": 89.85,
+      "priceEur": 89.79,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -619,8 +620,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -11.3,
-      "priceEur": 22.59,
+      "reaction": -11.5,
+      "priceEur": 22.54,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -652,7 +653,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -10.2,
-      "priceEur": 69.82,
+      "priceEur": 69.81,
       "description": null,
       "politician": null,
       "track": null,
@@ -683,9 +684,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -24.5,
-      "priceEur": 70.27,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "reaction": -24.8,
+      "priceEur": 70.02,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -715,8 +716,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -28.4,
-      "priceEur": 2.95,
+      "reaction": -28.8,
+      "priceEur": 2.93,
       "description": null,
       "politician": null,
       "track": null,
@@ -747,9 +748,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -8.3,
-      "priceEur": 10.18,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "reaction": -8.5,
+      "priceEur": 10.14,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -779,8 +780,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -10.9,
-      "priceEur": 35.72,
+      "reaction": -11.0,
+      "priceEur": 35.67,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -811,8 +812,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -5.9,
-      "priceEur": 106.0,
+      "reaction": -6.0,
+      "priceEur": 105.88,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
