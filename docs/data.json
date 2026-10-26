@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T10:34:30.908515+00:00",
+  "generated_at": "2026-10-26T10:43:07.951776+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -101,7 +101,7 @@
       "score": 3,
       "reaction": -12.9,
       "priceEur": 574.13,
-      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -206,7 +206,7 @@
       "score": 3,
       "reaction": -0.1,
       "priceEur": 310.66,
-      "description": null,
+      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
       "track": null,
       "sig": {
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -276,7 +276,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 230.12,
-      "description": "CrowdStrike Holdings, Inc. is an American cybersecurity technology company based in Austin, Texas. It provides endpoint security, threat intelligence, and cyberattack response…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -345,7 +345,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 121.3,
-      "description": "PepsiCo, Inc. ist ein US-amerikanischer Getränke- und Lebensmittelkonzern mit Sitz in Purchase im Bundesstaat New York. Dieser ist derzeit der größte Mitbewerber der Coca-Cola…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -380,7 +380,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 222.08,
-      "description": "Salesforce, Inc. mit Sitz in San Francisco (USA) ist ein börsennotiertes US-amerikanisches Softwareunternehmen, das Cloud-Computing-Produkte für Unternehmen anbietet. Das…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -415,7 +415,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 39.9,
-      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
+      "description": "Verizon Communications Inc. is an American telecommunications company headquartered in New York City. It is the world's second-largest telecommunications company by revenue and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -478,14 +478,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VLTO",
-      "name": "Veralto",
+      "tk": "DGX",
+      "name": "Quest Diagnostics",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 93.21,
-      "description": "Veralto Corporation is an American technology company headquartered in Waltham, Massachusetts. It produces products related to water analytics, water treatment, marking and…",
+      "priceEur": 216.11,
+      "description": "Quest Diagnostics Inc. ist ein US-amerikanisches Unternehmen im Bereich der klinischen Labordiagnostik und Gesundheitsinformation. Der Hauptsitz befindet sich in Secaucus. Nach…",
       "politician": null,
       "track": null,
       "sig": {
@@ -507,19 +507,19 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "TRV",
-      "name": "Travelers Companies (The)",
+      "tk": "CRL",
+      "name": "Charles River Laboratories",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 355.83,
-      "description": null,
+      "priceEur": 308.56,
+      "description": "Charles River Laboratories ist ein US-amerikanisches Unternehmen, das Forschungs- und Analytikdienstleistungen für Pharmazieunternehmen und Forschungseinrichtungen anbietet.",
       "politician": null,
       "track": null,
       "sig": {
@@ -541,19 +541,19 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "NEE",
-      "name": "NextEra Energy",
+      "tk": "ELV",
+      "name": "Elevance Health",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 73.35,
-      "description": "Die NextEra Energy, Inc. ist ein im S&P 500 gelistetes amerikanisches Energieunternehmen mit Firmensitz in Juno Beach, Florida, dessen Geschichte bis ins Jahr 1925 zurückreicht.",
+      "priceEur": 393.06,
+      "description": "Elevance Health ist ein US-amerikanisches Krankenversicherungsunternehmen mit Firmensitz in Indianapolis, Indiana. Das Unternehmen ist im Aktienindex S&P 500 gelistet und ist ein…",
       "politician": null,
       "track": null,
       "sig": {
@@ -575,7 +575,7 @@
           "active": false
         }
       },
-      "topic": "Utilities",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -620,7 +620,7 @@
       "score": 1,
       "reaction": -11.0,
       "priceEur": 22.66,
-      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
