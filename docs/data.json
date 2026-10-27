@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T17:06:17.902275+00:00",
+  "generated_at": "2026-10-27T17:34:44.301586+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.8,
-      "priceEur": 151.09,
+      "reaction": 1.0,
+      "priceEur": 151.27,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -15.4,
-      "priceEur": 559.62,
+      "reaction": -15.5,
+      "priceEur": 558.91,
       "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
@@ -134,9 +134,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.5,
-      "priceEur": 50.11,
-      "description": "PayPal Holdings, Inc. is an American multinational financial technology company operating an online payments system in the majority of countries that support online money…",
+      "reaction": -1.6,
+      "priceEur": 50.06,
+      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
       "sig": {
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.4,
-      "priceEur": 91.78,
+      "reaction": 0.7,
+      "priceEur": 92.04,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -199,47 +199,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "AAPL",
-      "name": "Apple Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.6,
-      "priceEur": 310.32,
-      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "5T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
       "tk": "COST",
       "name": "Costco",
       "broker": true,
       "market": "us",
       "score": 3,
       "reaction": -1.3,
-      "priceEur": 889.57,
+      "priceEur": 889.67,
       "description": "Die Costco Wholesale Corporation ist eine US-amerikanische Warenhauskette für zahlende Mitglieder mit Hauptsitz in Issaquah bei Seattle, Bundesstaat Washington. Das Unternehmen…",
       "politician": null,
       "track": null,
@@ -268,48 +234,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "KKR",
-      "name": "KKR & Co.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.0,
-      "priceEur": 82.22,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "HSY",
       "name": "Hershey Company (The)",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 147.46,
+      "reaction": -0.4,
+      "priceEur": 147.02,
       "description": null,
       "politician": null,
       "track": null,
@@ -344,7 +275,7 @@
       "market": "us",
       "score": 2,
       "reaction": 0.0,
-      "priceEur": 319.7,
+      "priceEur": 319.71,
       "description": null,
       "politician": null,
       "track": null,
@@ -359,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -378,9 +309,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.3,
-      "priceEur": 31.66,
-      "description": null,
+      "reaction": -0.0,
+      "priceEur": 31.74,
+      "description": "Halliburton ist ein international agierender Konzern und führender Anbieter von technischen Dienstleistungen, Wartungsdiensten, Planungs- und Entwicklungsservices sowie Zulieferer…",
       "politician": null,
       "track": null,
       "sig": {
@@ -394,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -415,8 +346,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 399.12,
+      "reaction": 0.2,
+      "priceEur": 400.35,
       "description": "Intuitive Surgical ist ein US-amerikanisches Unternehmen der Medizintechnik mit Hauptsitz in Sunnyvale, CA.",
       "politician": null,
       "track": null,
@@ -450,8 +381,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.2,
-      "priceEur": 543.23,
+      "reaction": 0.1,
+      "priceEur": 544.43,
       "description": "MSCI Inc. ist ein in New York City ansässiger US-amerikanischer Finanzdienstleister, der Finanzdienstleistungen vor allem für das Investment Banking anbietet. Dies umfasst neben…",
       "politician": null,
       "track": null,
@@ -466,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -480,48 +411,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "RMD",
-      "name": "ResMed",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 224.14,
-      "description": "ResMed Inc. ist ein US-amerikanisches Unternehmen für medizinische Geräte mit Sitz in San Diego, Kalifornien. Es bietet in erster Linie über die Cloud anschließbare medizinische…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "LRCX",
       "name": "Lam Research",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 215.23,
-      "description": null,
+      "reaction": 0.3,
+      "priceEur": 215.92,
+      "description": "Lam Research Corporation ist ein Hersteller und Anbieter von verfahrenstechnischen Geräten und Anlagen für die Halbleiterindustrie. Das 1980 gegründete und im kalifornischen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -535,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -554,9 +451,44 @@
       "broker": true,
       "market": "us",
       "score": 2,
+      "reaction": 0.1,
+      "priceEur": 818.17,
+      "description": "Die Goldman Sachs Group, Inc. ist ein weltweit tätiges Investmentbanking- und Wertpapierhandelsunternehmen mit Sitz in New York City.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "T",
+      "name": "AT&T",
+      "broker": true,
+      "market": "us",
+      "score": 2,
       "reaction": null,
-      "priceEur": 817.66,
-      "description": null,
+      "priceEur": 18.78,
+      "description": "Die AT&T Inc. [ˌeɪtiːənˈtiː] ist ein nordamerikanischer Telekommunikationskonzern. AT&T stellt neben Telefon-, Daten- und Videotelekommunikation auch Mobilfunk und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -579,7 +511,76 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NSC",
+      "name": "Norfolk Southern",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 302.51,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "JBL",
+      "name": "Jabil",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 253.65,
+      "description": "Jabil Circuit Inc. ist ein US-amerikanischer Auftragshersteller für Elektronikartikel. Mit einem Umsatz von 34,7 Mrd. USD im Geschäftsjahr 2022/23 zählt er zu den größten…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -589,9 +590,9 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -20.3,
-      "priceEur": 89.13,
-      "description": null,
+      "reaction": -20.1,
+      "priceEur": 89.35,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -622,9 +623,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -11.4,
-      "priceEur": 22.66,
-      "description": "JD.com, Inc., also known as Jingdong Group, formerly called 360buy, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. The…",
+      "reaction": -11.0,
+      "priceEur": 22.74,
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -654,8 +655,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -10.6,
-      "priceEur": 69.71,
+      "reaction": -10.4,
+      "priceEur": 69.85,
       "description": null,
       "politician": null,
       "track": null,
@@ -686,8 +687,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -25.4,
-      "priceEur": 69.65,
+      "reaction": -25.2,
+      "priceEur": 69.87,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -718,8 +719,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -29.3,
-      "priceEur": 2.91,
+      "reaction": -29.0,
+      "priceEur": 2.93,
       "description": null,
       "politician": null,
       "track": null,
@@ -750,9 +751,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -10.1,
-      "priceEur": 10.0,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "reaction": -9.6,
+      "priceEur": 10.06,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -782,9 +783,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -12.2,
-      "priceEur": 35.32,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "reaction": -12.0,
+      "priceEur": 35.42,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -815,8 +816,8 @@
       "market": "cn",
       "score": 0,
       "reaction": -9.6,
-      "priceEur": 102.16,
-      "description": null,
+      "priceEur": 102.26,
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
