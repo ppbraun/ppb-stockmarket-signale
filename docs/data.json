@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T09:04:44.151394+00:00",
+  "generated_at": "2026-10-28T09:34:33.304315+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -8,6 +8,11 @@
     },
     {
       "topic": "KI-Infrastruktur",
+      "vol": 1,
+      "pct": 100
+    },
+    {
+      "topic": "Energie / Öl & Gas",
       "vol": 1,
       "pct": 100
     },
@@ -28,11 +33,6 @@
     },
     {
       "topic": "Halbleiter / Chips",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "Energie / Öl & Gas",
       "vol": 0,
       "pct": 0
     },
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -136,7 +136,7 @@
       "score": 3,
       "reaction": -1.1,
       "priceEur": 50.3,
-      "description": "PayPal Holdings, Inc. is an American multinational financial technology company operating an online payments system in the majority of countries that support online money…",
+      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
       "sig": {
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -276,113 +276,6 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 558.73,
-      "description": "Die Lockheed Martin Corporation [ˌlɔkʰidˈmɑɹtn̩] ist ein US-amerikanischer Rüstungs- und Technologiekonzern, der vor allem in der militärischen sowie zivilen Luftfahrt als auch in…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "9Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [
-        "Rüstung"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "HOOD",
-      "name": "Robinhood Markets",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 84.81,
-      "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CAT",
-      "name": "Caterpillar Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 639.74,
-      "description": "Die Caterpillar Inc. ist ein US-amerikanisches Maschinenbauunternehmen, das seinen Hauptsitz traditionell in Peoria, Illinois, seit 2022 aber in Irving im US-Bundesstaat Texas hat.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "12Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ROP",
-      "name": "Roper Technologies",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 389.67,
       "description": null,
       "politician": null,
       "track": null,
@@ -397,18 +290,20 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "10Std"
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "topic": "Industrials",
+      "ethics": [
+        "Rüstung"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "HPQ",
@@ -432,7 +327,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -453,7 +348,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 263.21,
-      "description": null,
+      "description": "Die US-amerikanische CME Group ist eine der weltgrößten Optionsbörsen und die größte Terminbörse der Welt, mit Sitz in Chicago im Bundesstaat Illinois, die am 12. Juli 2007 aus…",
       "politician": null,
       "track": null,
       "sig": {
@@ -467,7 +362,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -486,9 +381,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 174.91,
-      "description": null,
+      "description": "BD  ist eines der größten internationalen Medizintechnologie-Unternehmen. Es entwickelt, produziert und vertreibt medizinische Einmalartikel, Gerätesysteme und Reagenzien. BD…",
       "politician": null,
       "track": null,
       "sig": {
@@ -521,9 +416,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 161.93,
-      "description": "Allegion plc is an American Irish-domiciled provider of security products for homes and businesses.",
+      "description": "Allegion PLC ist ein in Dublin ansässiges Unternehmen der Sicherheitstechnik. Es ist international tätig, hat rund 12.300 Mitarbeiter und erwirtschaftete 2022 einen Umsatz von 3,3…",
       "politician": null,
       "track": null,
       "sig": {
@@ -537,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -556,7 +451,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 284.15,
       "description": null,
       "politician": null,
@@ -572,7 +467,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -582,6 +477,111 @@
         }
       },
       "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NFLX",
+      "name": "Netflix",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 56.07,
+      "description": "Netflix is an American subscription video on-demand over-the-top streaming media service. The service primarily distributes original and acquired films and television shows from…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NTRS",
+      "name": "Northern Trust",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 152.78,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "18Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CRWD",
+      "name": "CrowdStrike",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 240.38,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "15Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -626,7 +626,7 @@
       "score": 2,
       "reaction": -10.3,
       "priceEur": 22.93,
-      "description": null,
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -638,7 +638,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -656,7 +656,7 @@
       "name": "PDD Holdings (Pinduoduo)",
       "broker": true,
       "market": "cn",
-      "score": 0,
+      "score": 1,
       "reaction": -9.8,
       "priceEur": 70.31,
       "description": null,
@@ -670,7 +670,8 @@
           "active": false
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -681,7 +682,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
+      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BIDU",
@@ -789,7 +790,7 @@
       "score": 0,
       "reaction": -11.7,
       "priceEur": 35.51,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
