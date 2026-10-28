@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-28T15:34:45.561720+00:00",
+  "generated_at": "2026-10-28T16:05:28.496757+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 2,
+      "vol": 3,
       "pct": 100
     },
     {
-      "topic": "Zölle / Handelskonflikt",
-      "vol": 0,
-      "pct": 0
+      "topic": "Fed-Zinspolitik",
+      "vol": 1,
+      "pct": 33
     },
     {
-      "topic": "Fed-Zinspolitik",
+      "topic": "Zölle / Handelskonflikt",
       "vol": 0,
       "pct": 0
     },
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.3,
-      "priceEur": 149.65,
+      "reaction": -0.1,
+      "priceEur": 149.84,
       "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
       "politician": null,
       "track": null,
@@ -99,9 +99,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -17.0,
-      "priceEur": 550.17,
-      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
+      "reaction": -16.6,
+      "priceEur": 552.2,
+      "description": "Meta Platforms, Inc., headquartered in Menlo Park, California, is an American multinational technology company and is one of the Big Tech companies. Meta owns and operates several…",
       "politician": null,
       "track": null,
       "sig": {
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.4,
-      "priceEur": 50.21,
+      "reaction": -1.5,
+      "priceEur": 50.18,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.0,
-      "priceEur": 93.34,
+      "reaction": 2.2,
+      "priceEur": 93.52,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -204,9 +204,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 162.2,
-      "description": null,
+      "reaction": -0.0,
+      "priceEur": 162.16,
+      "description": "Allegion PLC ist ein in Dublin ansässiges Unternehmen der Sicherheitstechnik. Es ist international tätig, hat rund 12.300 Mitarbeiter und erwirtschaftete 2022 einen Umsatz von 3,3…",
       "politician": null,
       "track": null,
       "sig": {
@@ -234,118 +234,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "EFX",
-      "name": "Equifax",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.4,
-      "priceEur": 158.75,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ROP",
-      "name": "Roper Technologies",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.4,
-      "priceEur": 391.08,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "8Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "NDAQ",
-      "name": "Nasdaq, Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.1,
-      "priceEur": 94.51,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "5Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "PCG",
       "name": "PG&E Corporation",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.9,
-      "priceEur": 11.79,
+      "reaction": 1.3,
+      "priceEur": 11.83,
       "description": "Pacific Gas and Electric Company (PG&E) is an American investor-owned utility (IOU). The company is headquartered at Kaiser Center, in Oakland, California. PG&E provides natural…",
       "politician": null,
       "track": null,
@@ -379,9 +274,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 195.54,
-      "description": "Die Honeywell International Inc. ist ein US-amerikanischer Mischkonzern mit Sitz in Charlotte, North Carolina.",
+      "reaction": 0.4,
+      "priceEur": 196.55,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -395,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -414,9 +309,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.7,
-      "priceEur": 238.47,
-      "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
+      "reaction": 0.1,
+      "priceEur": 240.38,
+      "description": "CrowdStrike Holdings, Inc. is an American cybersecurity technology company based in Austin, Texas. It provides endpoint security, threat intelligence, and cyberattack response…",
       "politician": null,
       "track": null,
       "sig": {
@@ -449,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.0,
-      "priceEur": 175.67,
+      "reaction": -0.3,
+      "priceEur": 175.28,
       "description": null,
       "politician": null,
       "track": null,
@@ -484,9 +379,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 116.83,
-      "description": null,
+      "reaction": 0.5,
+      "priceEur": 117.46,
+      "description": "Oracle Corporation [ˈɔːɹəkl̩ ˌkɔːɹpəˈɹeɪʃn̩] ist ein US-amerikanischer Soft- und Hardwarehersteller mit Hauptsitz in Austin, Texas. Das Unternehmen ist spezialisiert auf die…",
       "politician": null,
       "track": null,
       "sig": {
@@ -500,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -519,9 +414,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 81.97,
-      "description": null,
+      "reaction": -0.3,
+      "priceEur": 81.76,
+      "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -554,9 +449,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 264.46,
-      "description": null,
+      "reaction": -0.5,
+      "priceEur": 263.11,
+      "description": "Die US-amerikanische CME Group ist eine der weltgrößten Optionsbörsen und die größte Terminbörse der Welt, mit Sitz in Chicago im Bundesstaat Illinois, die am 12. Juli 2007 aus…",
       "politician": null,
       "track": null,
       "sig": {
@@ -584,14 +479,118 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "HRL",
+      "name": "Hormel Foods",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 18.6,
+      "description": "Hormel Foods ist ein US-amerikanischer Nahrungsmittelhersteller aus Austin (Minnesota). Vor allem bekannt ist Hormel als Produzent von Frühstücksfleisch der Marke Spam. Neben der…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "18Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "VRSN",
+      "name": "Verisign",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 273.83,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "CAT",
+      "name": "Caterpillar Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 642.82,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -19.7,
-      "priceEur": 89.92,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "reaction": -19.6,
+      "priceEur": 90.04,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -603,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -622,8 +621,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -11.0,
-      "priceEur": 22.78,
+      "reaction": -10.9,
+      "priceEur": 22.82,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -655,8 +654,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -11.5,
-      "priceEur": 69.08,
+      "reaction": -11.3,
+      "priceEur": 69.27,
       "description": null,
       "politician": null,
       "track": null,
@@ -688,8 +687,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -24.3,
-      "priceEur": 70.75,
+      "reaction": -24.2,
+      "priceEur": 70.85,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -721,7 +720,7 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -28.9,
+      "reaction": -28.8,
       "priceEur": 2.94,
       "description": null,
       "politician": null,
@@ -735,7 +734,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -754,8 +753,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -8.7,
-      "priceEur": 10.18,
+      "reaction": -8.5,
+      "priceEur": 10.2,
       "description": null,
       "politician": null,
       "track": null,
@@ -787,8 +786,8 @@
       "market": "cn",
       "score": 0,
       "reaction": -13.6,
-      "priceEur": 34.79,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "priceEur": 34.8,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -819,8 +818,8 @@
       "market": "cn",
       "score": 0,
       "reaction": -10.9,
-      "priceEur": 100.89,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "priceEur": 100.91,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
