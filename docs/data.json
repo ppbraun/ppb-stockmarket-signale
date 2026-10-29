@@ -1,15 +1,20 @@
 {
-  "generated_at": "2026-10-28T19:34:36.028891+00:00",
+  "generated_at": "2026-10-29T06:04:34.580887+00:00",
   "newsTopics": [
     {
-      "topic": "Fed-Zinspolitik",
-      "vol": 2,
+      "topic": "Energie / Öl & Gas",
+      "vol": 3,
       "pct": 100
     },
     {
-      "topic": "Energie / Öl & Gas",
+      "topic": "Fed-Zinspolitik",
       "vol": 2,
-      "pct": 100
+      "pct": 67
+    },
+    {
+      "topic": "KI-Infrastruktur",
+      "vol": 1,
+      "pct": 33
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -23,11 +28,6 @@
     },
     {
       "topic": "Verteidigung / Rüstung",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "KI-Infrastruktur",
       "vol": 0,
       "pct": 0
     },
@@ -64,9 +64,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.7,
-      "priceEur": 149.05,
-      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
+      "reaction": -0.6,
+      "priceEur": 149.15,
+      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -75,12 +75,12 @@
         },
         "insider": {
           "active": true,
-          "age": "9T",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -17.2,
-      "priceEur": 548.6,
+      "reaction": -17.0,
+      "priceEur": 550.16,
       "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
       "politician": null,
       "track": null,
@@ -110,12 +110,12 @@
         },
         "insider": {
           "active": true,
-          "age": "7T",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.3,
-      "priceEur": 50.27,
+      "reaction": -0.3,
+      "priceEur": 50.79,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -145,12 +145,12 @@
         },
         "insider": {
           "active": true,
-          "age": "12T",
+          "age": "13T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -169,9 +169,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.4,
-      "priceEur": 92.84,
-      "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
+      "reaction": 1.3,
+      "priceEur": 92.7,
+      "description": "Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. It was founded in 1971 by Jerry Baldwin, Zev…",
       "politician": null,
       "track": null,
       "sig": {
@@ -180,12 +180,12 @@
         },
         "insider": {
           "active": true,
-          "age": "6T",
+          "age": "7T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -204,9 +204,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.1,
-      "priceEur": 162.0,
-      "description": "Allegion plc is an American Irish-domiciled provider of security products for homes and businesses.",
+      "reaction": 0.1,
+      "priceEur": 162.27,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -215,12 +215,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "16Std"
         },
         "predict": {
           "active": true
@@ -239,9 +239,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.2,
-      "priceEur": 566.91,
-      "description": "The Lockheed Martin Corporation is an American defense and aerospace manufacturer. It is headquartered in North Bethesda, Maryland, United States. The company was formed by the…",
+      "reaction": 0.0,
+      "priceEur": 565.66,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -250,12 +250,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -276,8 +276,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 884.22,
+      "reaction": -0.2,
+      "priceEur": 882.72,
       "description": "Costco Wholesale Corporation is an American multinational corporation that operates a chain of membership-only big-box warehouse club retail stores. As of 2025, Costco is the…",
       "politician": null,
       "track": null,
@@ -287,12 +287,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -306,83 +306,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "EFX",
-      "name": "Equifax",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.6,
-      "priceEur": 157.11,
-      "description": "Equifax Inc. is an American multinational consumer credit reporting agency headquartered in Atlanta, Georgia, and is one of the three largest consumer credit reporting agencies,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ROP",
-      "name": "Roper Technologies",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.2,
-      "priceEur": 393.69,
-      "description": "Roper Technologies ist ein US-amerikanischer Mischkonzern mit Sitz in Sarasota im Bundesstaat Florida.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "12Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "ARES",
       "name": "Ares Management",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.3,
-      "priceEur": 111.62,
+      "reaction": -0.1,
+      "priceEur": 111.22,
       "description": "Ares Management Corporation ist eine US-amerikanische Investmentgesellschaft, die in den Bereichen Privatkredite, Private Equity und Immobilien tätig ist. Das Unternehmen wurde…",
       "politician": null,
       "track": null,
@@ -392,12 +322,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -416,8 +346,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.2,
-      "priceEur": 29.05,
+      "reaction": 0.2,
+      "priceEur": 29.15,
       "description": "Die HP Inc. ist einer der größten US-amerikanischen PC- und Druckerhersteller, registriert in Wilmington, Delaware und mit der Unternehmenszentrale in Palo Alto, Kalifornien.",
       "politician": null,
       "track": null,
@@ -427,12 +357,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -451,8 +381,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 131.48,
+      "reaction": -1.1,
+      "priceEur": 129.83,
       "description": "Oracle Corporation [ˈɔːɹəkl̩ ˌkɔːɹpəˈɹeɪʃn̩] ist ein US-amerikanischer Soft- und Hardwarehersteller mit Hauptsitz in Austin, Texas. Das Unternehmen ist spezialisiert auf die…",
       "politician": null,
       "track": null,
@@ -462,12 +392,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -486,9 +416,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 643.57,
-      "description": null,
+      "reaction": -0.4,
+      "priceEur": 640.78,
+      "description": "Die Caterpillar Inc. ist ein US-amerikanisches Maschinenbauunternehmen, das seinen Hauptsitz traditionell in Peoria, Illinois, seit 2022 aber in Irving im US-Bundesstaat Texas hat.",
       "politician": null,
       "track": null,
       "sig": {
@@ -497,12 +427,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -521,8 +451,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 260.7,
+      "reaction": 0.2,
+      "priceEur": 261.32,
       "description": null,
       "politician": null,
       "track": null,
@@ -532,7 +462,7 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
@@ -551,14 +481,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VRSN",
-      "name": "Verisign",
+      "tk": "SLB",
+      "name": "Schlumberger",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 274.59,
-      "description": "Verisign, Inc. is an American company based in Reston, Virginia, that operates a diverse array of network infrastructure, including two of the Internet's thirteen root…",
+      "priceEur": 48.28,
+      "description": "SLB, formerly known as Schlumberger, is a multinational oilfield services company. Founded in France in 1926, the company is now incorporated as SLB N.V. in Willemstad, Curaçao,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -571,7 +501,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -580,9 +511,81 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "BLK",
+      "name": "BlackRock",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 1040.04,
+      "description": "BlackRock, Inc. is an American multinational investment company. Founded in 1988, initially as an enterprise risk management and fixed income institutional asset manager,…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "DGX",
+      "name": "Quest Diagnostics",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 220.62,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "16Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -590,8 +593,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -19.2,
-      "priceEur": 90.46,
+      "reaction": -19.0,
+      "priceEur": 90.69,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -604,7 +607,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "18Std"
         },
         "predict": {
           "active": true
@@ -622,9 +625,9 @@
       "name": "JD.com",
       "broker": true,
       "market": "cn",
-      "score": 2,
-      "reaction": -10.9,
-      "priceEur": 22.81,
+      "score": 1,
+      "reaction": -10.7,
+      "priceEur": 22.86,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -636,8 +639,7 @@
           "active": false
         },
         "macro": {
-          "active": true,
-          "age": "23Std"
+          "active": false
         },
         "predict": {
           "active": true
@@ -648,16 +650,16 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "PDD",
       "name": "PDD Holdings (Pinduoduo)",
       "broker": true,
       "market": "cn",
-      "score": 1,
-      "reaction": -11.1,
-      "priceEur": 69.41,
+      "score": 0,
+      "reaction": -10.9,
+      "priceEur": 69.58,
       "description": null,
       "politician": null,
       "track": null,
@@ -669,8 +671,7 @@
           "active": false
         },
         "macro": {
-          "active": true,
-          "age": "11Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -681,7 +682,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
     },
     {
       "tk": "BIDU",
@@ -689,9 +690,9 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -24.0,
-      "priceEur": 71.06,
-      "description": null,
+      "reaction": -23.6,
+      "priceEur": 71.41,
+      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
       "politician": null,
       "track": null,
       "sig": {
@@ -703,7 +704,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "18Std"
         },
         "predict": {
           "active": true
@@ -722,8 +723,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -28.4,
-      "priceEur": 2.96,
+      "reaction": -27.8,
+      "priceEur": 2.98,
       "description": null,
       "politician": null,
       "track": null,
@@ -736,7 +737,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -754,9 +755,9 @@
       "name": "Li Auto",
       "broker": true,
       "market": "cn",
-      "score": 0,
-      "reaction": -8.4,
-      "priceEur": 10.21,
+      "score": 1,
+      "reaction": -8.2,
+      "priceEur": 10.23,
       "description": null,
       "politician": null,
       "track": null,
@@ -768,7 +769,8 @@
           "active": false
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -779,16 +781,16 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
+      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "TCOM",
       "name": "Trip.com Group",
       "broker": true,
       "market": "cn",
-      "score": 0,
-      "reaction": -14.4,
-      "priceEur": 34.48,
+      "score": 1,
+      "reaction": -14.0,
+      "priceEur": 34.64,
       "description": null,
       "politician": null,
       "track": null,
@@ -800,7 +802,8 @@
           "active": false
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -811,7 +814,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
+      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "NTES",
@@ -819,8 +822,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -11.0,
-      "priceEur": 100.81,
+      "reaction": -10.8,
+      "priceEur": 101.01,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
