@@ -223,6 +223,14 @@
    "sic": "Operative Builders",
    "ts": "2026-10-09T18:19:43+00:00"
   },
+  "0002079000": {
+   "desc": "We take no responsibility for and can provide no assurance as to the reliability of, any other information that others may give you.",
+   "form": "S-1/A",
+   "loc": "ONTARIO, CA",
+   "name": "Duke Holding Inc.",
+   "sic": "Public Warehousing & Storage",
+   "ts": "2026-10-30T17:59:01+00:00"
+  },
   "0002083345": {
    "desc": "We are not making an offer to sell, or seeking offers to buy, these securities in any jurisdiction where the offer or sale is not permitted.",
    "form": "F-1/A",
@@ -610,15 +618,15 @@
   },
   "nasdaq:aspen neuroscience": {
    "exp": "30.10.2026",
-   "high": 17.0,
+   "high": 15.0,
    "low": 15.0,
    "price": null,
    "status": "upcoming"
   },
   "nasdaq:bambusa therapeutics": {
    "exp": "30.10.2026",
-   "high": 17.0,
-   "low": 15.0,
+   "high": 16.0,
+   "low": 16.0,
    "price": null,
    "status": "upcoming"
   },
@@ -658,11 +666,11 @@
    "status": "withdrawn"
   },
   "nasdaq:georgia banking": {
-   "exp": "29.10.2026",
+   "exp": null,
    "high": null,
    "low": null,
    "price": null,
-   "status": "upcoming"
+   "status": "priced"
   },
   "nasdaq:iambic therapeutics": {
    "exp": null,
@@ -721,11 +729,13 @@
    "status": "priced"
   }
  },
- "errors": {},
+ "errors": {
+  "edgar": "EDGAR F-1: HTTPSConnectionPool(host='www.sec.gov', port=443): Read timed out. (read timeout=30)"
+ },
  "fails": {
   "db": 0,
   "de": 0,
-  "edgar": 0,
+  "edgar": 1,
   "nasdaq": 0
  },
  "init": {
@@ -820,6 +830,7 @@
   "edgar:0001185185-26-004994:0002131303": "2026-10-27T10:29:13+00:00",
   "edgar:0001185185-26-005028:0002159516": "2026-10-28T11:17:18+00:00",
   "edgar:0001185185-26-005030:0002131303": "2026-10-28T11:17:18+00:00",
+  "edgar:0001185185-26-005084:0002091680": "2026-10-30T17:59:01+00:00",
   "edgar:0001193125-26-410774:0001653384": "2026-10-04T16:42:51+00:00",
   "edgar:0001193125-26-410790:0001921603": "2026-10-04T16:42:51+00:00",
   "edgar:0001193125-26-411550:0001424958": "2026-10-04T16:42:51+00:00",
@@ -950,9 +961,12 @@
   "edgar:0001213900-26-113844:0002114145": "2026-10-30T11:20:40+00:00",
   "edgar:0001213900-26-113906:0001879403": "2026-10-30T11:20:40+00:00",
   "edgar:0001213900-26-113954:0001793497": "2026-10-30T11:20:40+00:00",
+  "edgar:0001213900-26-114072:0002142627": "2026-10-30T17:59:01+00:00",
+  "edgar:0001213900-26-114238:0002079000": "2026-10-30T17:59:01+00:00",
   "edgar:0001214659-26-012562:0001350487": "2026-10-06T11:59:33+00:00",
   "edgar:0001214659-26-012563:0001350487": "2026-10-06T11:59:33+00:00",
   "edgar:0001398344-26-018998:0001976517": "2026-10-29T11:28:53+00:00",
+  "edgar:0001398344-26-019137:0001976517": "2026-10-30T17:59:01+00:00",
   "edgar:0001432353-26-000772:0001432353": "2026-10-09T18:19:39+00:00",
   "edgar:0001432353-26-000793:0001432353": "2026-10-14T15:09:12+00:00",
   "edgar:0001432353-26-000800:0001432353": "2026-10-15T09:49:58+00:00",
