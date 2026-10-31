@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T16:04:35.257519+00:00",
+  "generated_at": "2026-10-31T16:34:19.151600+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -278,7 +278,7 @@
       "score": 3,
       "reaction": -1.2,
       "priceEur": 308.47,
-      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -292,7 +292,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -306,109 +306,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "CINF",
-      "name": "Cincinnati Financial",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 162.18,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "13Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "MCO",
-      "name": "Moody's Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 442.09,
-      "description": "Moody's Corporation is an American business and financial services company. It is the holding company for Moody's Ratings, an American credit rating agency, and Moody's, an…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "FITB",
-      "name": "Fifth Third Bancorp",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 48.22,
-      "description": "Fifth Third Bancorp is a bank holding company headquartered in Cincinnati, Ohio. It is the parent company of Fifth Third Bank, which operates 1,087 branches and 2,400 automated…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
       "tk": "PLTR",
       "name": "Palantir Technologies",
       "broker": true,
@@ -416,7 +313,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 164.8,
-      "description": "Palantir Technologies Inc. ist ein US-amerikanischer Anbieter von Software und Dienstleistungen der Systemanalyse, der auf die Auswertung großer Datenmengen und die Herstellung…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -451,7 +348,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 244.11,
-      "description": "Jabil Circuit Inc. ist ein US-amerikanischer Auftragshersteller für Elektronikartikel. Mit einem Umsatz von 34,7 Mrd. USD im Geschäftsjahr 2022/23 zählt er zu den größten…",
+      "description": "Jabil Inc. is an American multinational manufacturing company involved in the design, engineering, and manufacturing of electronic circuit board assemblies and systems, along with…",
       "politician": null,
       "track": null,
       "sig": {
@@ -484,7 +381,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 232.37,
       "description": "NXP Semiconductors ist ein niederländischer Halbleiterhersteller. NXP ist der im Jahr 2006 ausgegliederte Halbleiterbereich der Royal Philips. NXP bietet Halbleiter und…",
       "politician": null,
@@ -519,9 +416,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 75.9,
-      "description": null,
+      "description": "Ventas may refer to:Ventas (company), a real estate investment trust (REIT), invests primarily in real estate serving the United States healthcare industry Ventas (Madrid), a ward…",
       "politician": null,
       "track": null,
       "sig": {
@@ -554,9 +451,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 48.1,
-      "description": null,
+      "description": "Schlumberger steht für:Schlumberger (Familie), elsässische Familie Schlumberger N.V., ehemalige Firmierung des Erdölexplorationsunternehmens SLB (Unternehmen) Schlumberger…",
       "politician": null,
       "track": null,
       "sig": {
@@ -570,7 +467,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -586,6 +483,111 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "RCL",
+      "name": "Royal Caribbean Group",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 274.95,
+      "description": "Die Royal Caribbean Group  ist ein Kreuzfahrtunternehmen mit Sitz in Monrovia und operativer Hauptzentrale in Miami. Das Unternehmen ist das weltweit zweitgrößte…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "HOOD",
+      "name": "Robinhood Markets",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 76.07,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NUE",
+      "name": "Nucor",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 245.14,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Materials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -593,7 +595,7 @@
       "score": 2,
       "reaction": -21.4,
       "priceEur": 87.75,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -734,7 +736,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": false
@@ -787,7 +789,7 @@
       "score": 0,
       "reaction": -11.7,
       "priceEur": 35.44,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
