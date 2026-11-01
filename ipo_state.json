@@ -737,12 +737,14 @@
    "status": "priced"
   }
  },
- "errors": {},
+ "errors": {
+  "nasdaq": "Nasdaq: Antwort ohne einen einzigen Eintrag"
+ },
  "fails": {
   "db": 0,
   "de": 0,
   "edgar": 0,
-  "nasdaq": 0
+  "nasdaq": 1
  },
  "init": {
   "db": true,
