@@ -1,15 +1,10 @@
 {
-  "generated_at": "2026-11-02T08:34:27.120449+00:00",
+  "generated_at": "2026-11-02T09:04:43.937822+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
       "vol": 2,
       "pct": 100
-    },
-    {
-      "topic": "KI-Infrastruktur",
-      "vol": 1,
-      "pct": 50
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -28,6 +23,11 @@
     },
     {
       "topic": "Verteidigung / Rüstung",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "KI-Infrastruktur",
       "vol": 0,
       "pct": 0
     },
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": -1.6,
       "priceEur": 147.14,
-      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
+      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -101,7 +101,7 @@
       "score": 3,
       "reaction": 0.5,
       "priceEur": 51.03,
-      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -136,7 +136,7 @@
       "score": 3,
       "reaction": 1.7,
       "priceEur": 92.78,
-      "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
+      "description": "Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. It was founded in 1971 by Jerry Baldwin, Zev…",
       "politician": null,
       "track": null,
       "sig": {
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": true
@@ -236,75 +236,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "FITB",
-      "name": "Fifth Third Bancorp",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 48.22,
-      "description": "Fifth Third Bancorp is a bank holding company headquartered in Cincinnati, Ohio. It is the parent company of Fifth Third Bank, which operates 1,087 branches and 2,400 automated…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "PLTR",
-      "name": "Palantir Technologies",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 164.8,
-      "description": "Palantir Technologies Inc. ist ein US-amerikanischer Anbieter von Software und Dienstleistungen der Systemanalyse, der auf die Auswertung großer Datenmengen und die Herstellung…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "BX",
       "name": "Blackstone Inc.",
       "broker": true,
@@ -312,7 +243,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 106.08,
-      "description": "Blackstone Inc. is an American alternative investment management company based in New York City. It was founded in 1985 as a mergers and acquisitions firm by Peter Peterson and…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -326,7 +257,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -361,7 +292,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -417,7 +348,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 11.8,
-      "description": "Pacific Gas and Electric Company (PG&E) is an American investor-owned utility (IOU). The company is headquartered at Kaiser Center, in Oakland, California. PG&E provides natural…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -431,7 +362,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -452,7 +383,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 25.81,
-      "description": "Die US-amerikanische Carnival Corporation ist das größte Kreuzfahrtunternehmen der Welt. Unter seinen Marken AIDA Cruises, Carnival Cruise Line, Costa Crociere, Cunard Line,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -485,7 +416,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 623.88,
       "description": null,
       "politician": null,
@@ -501,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -515,46 +446,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VTR",
-      "name": "Ventas",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 75.9,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "TXN",
       "name": "Texas Instruments",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 269.28,
       "description": null,
       "politician": null,
@@ -570,7 +467,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -584,6 +481,109 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "DDOG",
+      "name": "Datadog",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 210.59,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NUE",
+      "name": "Nucor",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 245.14,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Materials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "CINF",
+      "name": "Cincinnati Financial",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 162.18,
+      "description": "Cincinnati Financial Corporation offers property and casualty insurance, its main business, through The Cincinnati Insurance Company, The Cincinnati Indemnity Company and The…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -591,7 +591,7 @@
       "score": 1,
       "reaction": -21.4,
       "priceEur": 87.75,
-      "description": null,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -731,7 +731,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -752,7 +752,7 @@
       "score": 1,
       "reaction": -11.1,
       "priceEur": 9.87,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -764,7 +764,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -785,7 +785,7 @@
       "score": 0,
       "reaction": -11.7,
       "priceEur": 35.44,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
