@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-02T06:04:28.345666+00:00",
+  "generated_at": "2026-11-02T06:34:31.596232+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 2,
+      "vol": 3,
       "pct": 100
     },
     {
       "topic": "KI-Infrastruktur",
       "vol": 1,
-      "pct": 50
+      "pct": 33
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": -1.6,
       "priceEur": 147.14,
-      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
+      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
       "politician": null,
       "track": null,
       "sig": {
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -171,7 +171,7 @@
       "score": 3,
       "reaction": 1.2,
       "priceEur": 570.13,
-      "description": "The Lockheed Martin Corporation is an American defense and aerospace manufacturer. It is headquartered in North Bethesda, Maryland, United States. The company was formed by the…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -256,7 +256,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -312,7 +312,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 318.35,
-      "description": "Snap-on Incorporated is a United States designer, manufacturer, and marketer of high-end tools and equipment for professional use in the transportation industry, including the…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -340,74 +340,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "HLT",
-      "name": "Hilton Worldwide",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 319.48,
-      "description": "Hilton Worldwide Holdings ist ein US-amerikanisches Unternehmen mit Sitz in Tysons Corner, nahe Washington, D.C. Sie ist eine der größten Hotelketten weltweit.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "DAL",
-      "name": "Delta Air Lines",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 71.74,
-      "description": "Delta Air Lines, im Markenauftritt kurz Delta, ist eine US-amerikanische Fluggesellschaft mit Sitz in Atlanta und Mitglied der Luftfahrtallianz SkyTeam. Sie zählt zu den Major…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "WDC",
       "name": "Western Digital",
       "broker": true,
@@ -415,7 +347,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 327.7,
-      "description": null,
+      "description": "Western Digital Corporation ist ein US-amerikanischer Hersteller von Festplattenlaufwerken und Speicherprodukten mit Hauptsitz in San José (Kalifornien).",
       "politician": null,
       "track": null,
       "sig": {
@@ -443,48 +375,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "TXN",
-      "name": "Texas Instruments",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 269.28,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "NUE",
       "name": "Nucor",
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 245.14,
-      "description": "Nucor Corporation is an American company based in Charlotte, North Carolina, that produces steel and related products. It is the largest steel producer in the United States and…",
+      "description": "Die Nucor Corporation ist einer der größten Stahlproduzenten in den Vereinigten Staaten und der größte Betreiber von Mini-Mills, die in Elektrolichtbogenöfen Schrott zu neuem…",
       "politician": null,
       "track": null,
       "sig": {
@@ -516,9 +414,9 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 75.9,
-      "description": null,
+      "description": "Ventas may refer to:Ventas (company), a real estate investment trust (REIT), invests primarily in real estate serving the United States healthcare industry Ventas (Madrid), a ward…",
       "politician": null,
       "track": null,
       "sig": {
@@ -550,7 +448,7 @@
       "broker": true,
       "market": "us",
       "score": 1,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 162.18,
       "description": null,
       "politician": null,
@@ -575,6 +473,109 @@
         }
       },
       "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "FITB",
+      "name": "Fifth Third Bancorp",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 48.22,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "PLTR",
+      "name": "Palantir Technologies",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 164.8,
+      "description": "Palantir Technologies Inc. is an American publicly traded company that develops data integration and analytics software. Palantir is headquartered in Miami, Florida, and was…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "RCL",
+      "name": "Royal Caribbean Group",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 274.95,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -682,7 +683,7 @@
       "score": 1,
       "reaction": -26.6,
       "priceEur": 68.38,
-      "description": null,
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -812,7 +813,7 @@
       "score": 0,
       "reaction": -9.9,
       "priceEur": 101.72,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
       "sig": {
