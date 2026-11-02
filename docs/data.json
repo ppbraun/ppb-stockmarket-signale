@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T09:04:43.937822+00:00",
+  "generated_at": "2026-11-02T09:34:21.875947+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": -1.6,
       "priceEur": 147.14,
-      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": true
@@ -101,7 +101,7 @@
       "score": 3,
       "reaction": 0.5,
       "priceEur": 51.03,
-      "description": null,
+      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
       "sig": {
@@ -136,7 +136,7 @@
       "score": 3,
       "reaction": 1.7,
       "priceEur": 92.78,
-      "description": "Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. It was founded in 1971 by Jerry Baldwin, Zev…",
+      "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -208,7 +208,7 @@
       "score": 3,
       "reaction": -1.2,
       "priceEur": 308.47,
-      "description": null,
+      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
       "politician": null,
       "track": null,
       "sig": {
@@ -222,7 +222,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -234,41 +234,6 @@
       "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "BX",
-      "name": "Blackstone Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 106.08,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "GOOG",
@@ -313,7 +278,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 96.89,
-      "description": "Der United Parcel Service of America, Inc. (UPS) ist ein global tätiger US-amerikanischer Kurier-Express-Paket-Dienst.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -327,7 +292,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": false
@@ -383,7 +348,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 25.81,
-      "description": null,
+      "description": "Die US-amerikanische Carnival Corporation ist das größte Kreuzfahrtunternehmen der Welt. Unter seinen Marken AIDA Cruises, Carnival Cruise Line, Costa Crociere, Cunard Line,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -397,7 +362,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -418,7 +383,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 623.88,
-      "description": null,
+      "description": "Thermo Fisher Scientific Inc., kurz auch Thermo Fisher, ist ein US-amerikanisches Technologieunternehmen mit Sitz in Waltham, Massachusetts. Es beschreibt sich selbst als „der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -453,7 +418,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 269.28,
-      "description": null,
+      "description": "Die Texas Instruments Incorporated, häufig auch als TI bezeichnet, ist eines der größten US-amerikanischen Technologieunternehmen mit Sitz in Dallas, Texas. Der europäische…",
       "politician": null,
       "track": null,
       "sig": {
@@ -486,9 +451,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 210.59,
-      "description": null,
+      "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
       "politician": null,
       "track": null,
       "sig": {
@@ -516,13 +481,47 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "NUE",
-      "name": "Nucor",
+      "tk": "AMT",
+      "name": "American Tower",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 245.14,
+      "priceEur": 168.08,
+      "description": "American Tower ist ein US-amerikanischer Betreiber von Anlagen für die Drahtlos-Kommunikation.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Real Estate",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "VTR",
+      "name": "Ventas",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 75.9,
       "description": null,
       "politician": null,
       "track": null,
@@ -545,19 +544,19 @@
           "active": false
         }
       },
-      "topic": "Materials",
+      "topic": "Real Estate",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "CINF",
-      "name": "Cincinnati Financial",
+      "tk": "HLT",
+      "name": "Hilton Worldwide",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 162.18,
-      "description": "Cincinnati Financial Corporation offers property and casualty insurance, its main business, through The Cincinnati Insurance Company, The Cincinnati Indemnity Company and The…",
+      "priceEur": 319.48,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -579,7 +578,7 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Consumer Discretionary",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -591,7 +590,7 @@
       "score": 1,
       "reaction": -21.4,
       "priceEur": 87.75,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -785,7 +784,7 @@
       "score": 0,
       "reaction": -11.7,
       "priceEur": 35.44,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
