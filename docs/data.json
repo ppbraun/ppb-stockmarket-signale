@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T09:34:21.875947+00:00",
+  "generated_at": "2026-11-02T10:04:38.158827+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": -1.6,
       "priceEur": 147.14,
-      "description": null,
+      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -171,7 +171,7 @@
       "score": 3,
       "reaction": 1.2,
       "priceEur": 570.13,
-      "description": null,
+      "description": "Die Lockheed Martin Corporation [ˌlɔkʰidˈmɑɹtn̩] ist ein US-amerikanischer Rüstungs- und Technologiekonzern, der vor allem in der militärischen sowie zivilen Luftfahrt als auch in…",
       "politician": null,
       "track": null,
       "sig": {
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -257,7 +257,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -278,7 +278,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 96.89,
-      "description": null,
+      "description": "United Parcel Service, Inc. (UPS) is an American multinational shipping-and-receiving and supply chain management company founded in 1907. Originally known as the American…",
       "politician": null,
       "track": null,
       "sig": {
@@ -313,7 +313,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 11.8,
-      "description": null,
+      "description": "Pacific Gas and Electric Company (PG&E) is an American investor-owned utility (IOU). The company is headquartered at Kaiser Center, in Oakland, California. PG&E provides natural…",
       "politician": null,
       "track": null,
       "sig": {
@@ -327,7 +327,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -397,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -432,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -453,7 +453,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 210.59,
-      "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
+      "description": "Datadog, Inc. is an American company that provides an observability service for cloud-scale applications, providing monitoring of servers, databases, tools, and services, through…",
       "politician": null,
       "track": null,
       "sig": {
@@ -481,14 +481,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AMT",
-      "name": "American Tower",
+      "tk": "PLTR",
+      "name": "Palantir Technologies",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 168.08,
-      "description": "American Tower ist ein US-amerikanischer Betreiber von Anlagen für die Drahtlos-Kommunikation.",
+      "priceEur": 164.8,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -501,7 +501,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -510,18 +511,18 @@
           "active": false
         }
       },
-      "topic": "Real Estate",
+      "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VTR",
-      "name": "Ventas",
+      "tk": "FITB",
+      "name": "Fifth Third Bancorp",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 75.9,
+      "priceEur": 48.22,
       "description": null,
       "politician": null,
       "track": null,
@@ -538,25 +539,25 @@
           "active": false
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Real Estate",
+      "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "HLT",
-      "name": "Hilton Worldwide",
+      "tk": "LII",
+      "name": "Lennox International",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 319.48,
-      "description": null,
+      "priceEur": 307.98,
+      "description": "Lennox International Inc. is an American provider of climate control products for the heating, ventilation, and air conditioning (HVAC) and refrigeration markets. Based in…",
       "politician": null,
       "track": null,
       "sig": {
@@ -578,7 +579,7 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -590,7 +591,7 @@
       "score": 1,
       "reaction": -21.4,
       "priceEur": 87.75,
-      "description": null,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -730,7 +731,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -763,7 +764,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -784,7 +785,7 @@
       "score": 0,
       "reaction": -11.7,
       "priceEur": 35.44,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -816,7 +817,7 @@
       "score": 0,
       "reaction": -9.9,
       "priceEur": 101.72,
-      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
