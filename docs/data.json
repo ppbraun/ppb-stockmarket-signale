@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-02T15:04:39.329909+00:00",
+  "generated_at": "2026-11-02T15:34:45.878965+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 2,
+      "vol": 3,
       "pct": 100
     },
     {
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.8,
-      "priceEur": 153.13,
+      "reaction": 2.5,
+      "priceEur": 152.61,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.2,
-      "priceEur": 51.64,
+      "reaction": 3.0,
+      "priceEur": 52.09,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -134,9 +134,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.8,
-      "priceEur": 93.43,
-      "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
+      "reaction": 1.1,
+      "priceEur": 91.87,
+      "description": "Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. It was founded in 1971 by Jerry Baldwin, Zev…",
       "politician": null,
       "track": null,
       "sig": {
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.7,
-      "priceEur": 565.24,
+      "reaction": 1.0,
+      "priceEur": 566.89,
       "description": "The Lockheed Martin Corporation is an American defense and aerospace manufacturer. It is headquartered in North Bethesda, Maryland, United States. The company was formed by the…",
       "politician": null,
       "track": null,
@@ -206,8 +206,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.3,
-      "priceEur": 303.82,
+      "reaction": -2.4,
+      "priceEur": 303.59,
       "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
       "politician": null,
       "track": null,
@@ -222,7 +222,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -236,83 +236,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "SNA",
-      "name": "Snap-on",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 2.2,
-      "priceEur": 324.11,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "23Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "TMO",
-      "name": "Thermo Fisher Scientific",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -2.0,
-      "priceEur": 609.14,
-      "description": "Thermo Fisher Scientific Inc. is an American life science and clinical research company. It is a global supplier of analytical instruments, clinical development solutions,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "DDOG",
       "name": "Datadog",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -3.6,
-      "priceEur": 202.22,
+      "reaction": -4.9,
+      "priceEur": 199.4,
       "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
       "politician": null,
       "track": null,
@@ -346,8 +276,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.3,
-      "priceEur": 76.78,
+      "reaction": 1.7,
+      "priceEur": 77.03,
       "description": "Robinhood Markets, Inc. is an American financial services company based in Menlo Park, California. It provides an electronic trading platform that facilitates trades of stocks,…",
       "politician": null,
       "track": null,
@@ -362,7 +292,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -381,79 +311,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.7,
-      "priceEur": 11.67,
-      "description": "Pacific Gas and Electric Company (PG&E) is an American investor-owned utility (IOU). The company is headquartered at Kaiser Center, in Oakland, California. PG&E provides natural…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "18Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "AMT",
-      "name": "American Tower",
-      "broker": true,
-      "market": "us",
-      "score": 2,
       "reaction": -0.6,
-      "priceEur": 166.48,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "8Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "BX",
-      "name": "Blackstone Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.9,
-      "priceEur": 107.14,
-      "description": null,
+      "priceEur": 11.68,
+      "description": "Pacific Gas and Electric Company (PG&E) is an American investor-owned utility (IOU). The company is headquartered at Kaiser Center, in Oakland, California. PG&E provides natural…",
       "politician": null,
       "track": null,
       "sig": {
@@ -476,6 +336,76 @@
           "active": false
         }
       },
+      "topic": "Utilities",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "AMT",
+      "name": "American Tower",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -0.6,
+      "priceEur": 166.34,
+      "description": "American Tower ist ein US-amerikanischer Betreiber von Anlagen für die Drahtlos-Kommunikation.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "9Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Real Estate",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "BX",
+      "name": "Blackstone Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 2.1,
+      "priceEur": 108.43,
+      "description": "Blackstone Inc. is an American alternative investment management company based in New York City. It was founded in 1985 as a mergers and acquisitions firm by Peter Peterson and…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
@@ -486,9 +416,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 29.42,
-      "description": null,
+      "reaction": 0.8,
+      "priceEur": 29.67,
+      "description": "Kinder Morgan, Inc. is an American energy infrastructure company. It specializes in owning and controlling oil and gas pipelines and terminals.",
       "politician": null,
       "track": null,
       "sig": {
@@ -521,8 +451,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 254.06,
+      "reaction": -0.3,
+      "priceEur": 253.22,
       "description": null,
       "politician": null,
       "track": null,
@@ -537,7 +467,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -551,14 +481,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "MCO",
-      "name": "Moody's Corporation",
+      "tk": "CINF",
+      "name": "Cincinnati Financial",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 449.1,
-      "description": "Moody's Corporation is an American business and financial services company. It is the holding company for Moody's Ratings, an American credit rating agency, and Moody's, an…",
+      "priceEur": 161.38,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -585,13 +515,83 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
+      "tk": "WDC",
+      "name": "Western Digital",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 318.33,
+      "description": "Western Digital Corporation ist ein US-amerikanischer Hersteller von Festplattenlaufwerken und Speicherprodukten mit Hauptsitz in San José (Kalifornien).",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NUE",
+      "name": "Nucor",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 253.55,
+      "description": "Die Nucor Corporation ist einer der größten Stahlproduzenten in den Vereinigten Staaten und der größte Betreiber von Mini-Mills, die in Elektrolichtbogenöfen Schrott zu neuem…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Materials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 1,
       "reaction": -16.8,
-      "priceEur": 92.51,
+      "priceEur": 92.54,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -622,8 +622,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -7.4,
-      "priceEur": 23.53,
+      "reaction": -7.0,
+      "priceEur": 23.63,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -655,7 +655,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -4.9,
-      "priceEur": 73.73,
+      "priceEur": 73.71,
       "description": null,
       "politician": null,
       "track": null,
@@ -686,8 +686,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -24.8,
-      "priceEur": 69.79,
+      "reaction": -24.4,
+      "priceEur": 70.16,
       "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
       "politician": null,
       "track": null,
@@ -718,41 +718,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -29.5,
-      "priceEur": 2.89,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": false
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "LI",
-      "name": "Li Auto",
-      "broker": true,
-      "market": "cn",
-      "score": 1,
-      "reaction": -10.2,
-      "priceEur": 9.94,
+      "reaction": -29.2,
+      "priceEur": 2.9,
       "description": null,
       "politician": null,
       "track": null,
@@ -779,14 +746,47 @@
       "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "LI",
+      "name": "Li Auto",
+      "broker": true,
+      "market": "cn",
+      "score": 1,
+      "reaction": -9.7,
+      "priceEur": 9.99,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": false
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "TCOM",
       "name": "Trip.com Group",
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -8.6,
-      "priceEur": 36.54,
-      "description": null,
+      "reaction": -8.5,
+      "priceEur": 36.57,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -816,8 +816,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -8.7,
-      "priceEur": 102.62,
+      "reaction": -8.4,
+      "priceEur": 102.92,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
