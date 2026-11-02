@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-02T10:04:38.158827+00:00",
+  "generated_at": "2026-11-02T10:35:31.833966+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 2,
+      "vol": 1,
       "pct": 100
     },
     {
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": -1.6,
       "priceEur": 147.14,
-      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
+      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
       "politician": null,
       "track": null,
       "sig": {
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": true
@@ -171,7 +171,7 @@
       "score": 3,
       "reaction": 1.2,
       "priceEur": 570.13,
-      "description": "Die Lockheed Martin Corporation [ˌlɔkʰidˈmɑɹtn̩] ist ein US-amerikanischer Rüstungs- und Technologiekonzern, der vor allem in der militärischen sowie zivilen Luftfahrt als auch in…",
+      "description": "The Lockheed Martin Corporation is an American defense and aerospace manufacturer. It is headquartered in North Bethesda, Maryland, United States. The company was formed by the…",
       "politician": null,
       "track": null,
       "sig": {
@@ -222,7 +222,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -236,76 +236,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 249.03,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "UPS",
-      "name": "United Parcel Service",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 96.89,
-      "description": "United Parcel Service, Inc. (UPS) is an American multinational shipping-and-receiving and supply chain management company founded in 1907. Originally known as the American…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "20Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "PCG",
       "name": "PG&E Corporation",
       "broker": true,
@@ -313,7 +243,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 11.8,
-      "description": "Pacific Gas and Electric Company (PG&E) is an American investor-owned utility (IOU). The company is headquartered at Kaiser Center, in Oakland, California. PG&E provides natural…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -348,7 +278,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 25.81,
-      "description": "Die US-amerikanische Carnival Corporation ist das größte Kreuzfahrtunternehmen der Welt. Unter seinen Marken AIDA Cruises, Carnival Cruise Line, Costa Crociere, Cunard Line,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -453,7 +383,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 210.59,
-      "description": "Datadog, Inc. is an American company that provides an observability service for cloud-scale applications, providing monitoring of servers, databases, tools, and services, through…",
+      "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
       "politician": null,
       "track": null,
       "sig": {
@@ -486,7 +416,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 164.8,
       "description": null,
       "politician": null,
@@ -502,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -521,7 +451,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 48.22,
       "description": null,
       "politician": null,
@@ -550,14 +480,48 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "LII",
-      "name": "Lennox International",
+      "tk": "PRU",
+      "name": "Prudential Financial",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 104.23,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "AMT",
+      "name": "American Tower",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 307.98,
-      "description": "Lennox International Inc. is an American provider of climate control products for the heating, ventilation, and air conditioning (HVAC) and refrigeration markets. Based in…",
+      "priceEur": 168.08,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -579,8 +543,44 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Real Estate",
       "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "SLB",
+      "name": "Schlumberger",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 48.1,
+      "description": "SLB, formerly known as Schlumberger, is a multinational oilfield services company. Founded in France in 1926, the company is now incorporated as SLB N.V. in Willemstad, Curaçao,…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
