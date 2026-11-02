@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:01:52.777368+00:00",
+  "generated_at": "2026-11-02T13:34:28.650867+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -222,7 +222,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -236,41 +236,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "PLTR",
-      "name": "Palantir Technologies",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 164.8,
-      "description": "Palantir Technologies Inc. is an American publicly traded company that develops data integration and analytics software. Palantir is headquartered in Miami, Florida, and was…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "FITB",
       "name": "Fifth Third Bancorp",
       "broker": true,
@@ -278,7 +243,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 48.22,
-      "description": "Fifth Third Bancorp is a bank holding company headquartered in Cincinnati, Ohio. It is the parent company of Fifth Third Bank, which operates 1,087 branches and 2,400 automated…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -326,7 +291,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -347,7 +312,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 232.37,
-      "description": "NXP Semiconductors ist ein niederländischer Halbleiterhersteller. NXP ist der im Jahr 2006 ausgegliederte Halbleiterbereich der Royal Philips. NXP bietet Halbleiter und…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -417,7 +382,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 318.35,
-      "description": null,
+      "description": "Snap-on Incorporated is a United States designer, manufacturer, and marketer of high-end tools and equipment for professional use in the transportation industry, including the…",
       "politician": null,
       "track": null,
       "sig": {
@@ -452,7 +417,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 623.88,
-      "description": null,
+      "description": "Thermo Fisher Scientific Inc., kurz auch Thermo Fisher, ist ein US-amerikanisches Technologieunternehmen mit Sitz in Waltham, Massachusetts. Es beschreibt sich selbst als „der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -480,13 +445,83 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VTR",
-      "name": "Ventas",
+      "tk": "DDOG",
+      "name": "Datadog",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 210.59,
+      "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "HOOD",
+      "name": "Robinhood Markets",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 76.07,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "JBL",
+      "name": "Jabil",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 75.9,
+      "priceEur": 244.11,
       "description": null,
       "politician": null,
       "track": null,
@@ -509,53 +544,19 @@
           "active": false
         }
       },
-      "topic": "Real Estate",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "PH",
-      "name": "Parker Hannifin",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 805.42,
-      "description": "Parker-Hannifin Corporation, originally Parker Appliance Company, is an American multinational industrial manufacturing company specializing in motion and control technologies.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "DDOG",
-      "name": "Datadog",
+      "tk": "PCG",
+      "name": "PG&E Corporation",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 210.59,
-      "description": "Datadog ist ein US-amerikanisches Softwareunternehmen für Cloud-Anwendungen, das die Überwachung von Servern, Datenbanken, Tools und Diensten über eine…",
+      "priceEur": 11.8,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -569,7 +570,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -578,7 +579,7 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Utilities",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -622,7 +623,7 @@
       "score": 1,
       "reaction": -9.9,
       "priceEur": 22.99,
-      "description": "JD.com, Inc., also known as Jingdong Group, formerly called 360buy, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. The…",
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -751,7 +752,7 @@
       "score": 1,
       "reaction": -11.1,
       "priceEur": 9.87,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -763,7 +764,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -784,7 +785,7 @@
       "score": 0,
       "reaction": -11.7,
       "priceEur": 35.44,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -816,7 +817,7 @@
       "score": 0,
       "reaction": -9.9,
       "priceEur": 101.72,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
