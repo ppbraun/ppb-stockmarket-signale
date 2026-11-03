@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T19:34:43.158292+00:00",
+  "generated_at": "2026-11-03T19:57:27.376132+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.8,
-      "priceEur": 150.58,
+      "reaction": 0.5,
+      "priceEur": 150.22,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 3.9,
-      "priceEur": 52.7,
+      "reaction": 3.5,
+      "priceEur": 52.49,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.4,
-      "priceEur": 93.37,
+      "reaction": 2.2,
+      "priceEur": 93.21,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -170,8 +170,8 @@
       "market": "us",
       "score": 3,
       "reaction": 2.0,
-      "priceEur": 574.71,
-      "description": null,
+      "priceEur": 574.58,
+      "description": "Die Lockheed Martin Corporation [ˌlɔkʰidˈmɑɹtn̩] ist ein US-amerikanischer Rüstungs- und Technologiekonzern, der vor allem in der militärischen sowie zivilen Luftfahrt als auch in…",
       "politician": null,
       "track": null,
       "sig": {
@@ -206,9 +206,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.8,
-      "priceEur": 187.41,
-      "description": null,
+      "reaction": 0.6,
+      "priceEur": 187.14,
+      "description": "Générac ist der Name zweier französischer GemeindenGénérac (Gard) in der Region Okzitanien Générac (Gironde) in der Region Nouvelle-Aquitaine",
       "politician": null,
       "track": null,
       "sig": {
@@ -236,82 +236,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "JBHT",
-      "name": "J.B. Hunt",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.3,
-      "priceEur": 200.7,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "BIIB",
-      "name": "Biogen",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.2,
-      "priceEur": 223.7,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "EFX",
       "name": "Equifax",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.2,
-      "priceEur": 169.13,
+      "reaction": 0.0,
+      "priceEur": 168.76,
       "description": "Equifax ist ein 1899 gegründetes US-amerikanisches Finanzdienstleistungsunternehmen mit Hauptsitz in Atlanta im Bundesstaat Georgia. Das Unternehmen ist vor Experian und…",
       "politician": null,
       "track": null,
@@ -345,8 +276,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 153.33,
+      "reaction": -0.2,
+      "priceEur": 153.21,
       "description": "Die Intercontinental Currency Exchange (ICE) oder kurz Intercontinental Exchange ist ein Börsenbetreiber mit Sitz in Atlanta, USA, der auf den elektronischen Handel von Optionen…",
       "politician": null,
       "track": null,
@@ -381,7 +312,7 @@
       "market": "us",
       "score": 2,
       "reaction": -0.3,
-      "priceEur": 19.04,
+      "priceEur": 19.03,
       "description": "KeyBank ist ein US-amerikanisches Unternehmen mit Firmensitz in Cleveland, Ohio.",
       "politician": null,
       "track": null,
@@ -396,7 +327,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -416,7 +347,7 @@
       "market": "us",
       "score": 2,
       "reaction": -0.2,
-      "priceEur": 166.82,
+      "priceEur": 166.72,
       "description": "Morgan Stanley ist ein US-amerikanisches Investmentbanking- und Wertpapierhandelsunternehmen mit Hauptsitz in New York, hervorgegangen aus der Teilung von JP Morgan am 5.…",
       "politician": null,
       "track": null,
@@ -450,8 +381,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.3,
-      "priceEur": 243.65,
+      "reaction": -0.7,
+      "priceEur": 242.81,
       "description": "Erie Insurance Group, based in Erie, Pennsylvania, is a property and casualty insurance company offering auto, home, business and life insurance through a network of independent…",
       "politician": null,
       "track": null,
@@ -466,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -485,8 +416,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 329.06,
+      "reaction": -0.0,
+      "priceEur": 329.0,
       "description": "Die Chubb Limited ist ein international tätiger Schweizer Versicherungskonzern mit Kerngeschäft in den Bereichen Direkt- und Rückversicherungen und Sitz in Zürich.",
       "politician": null,
       "track": null,
@@ -520,8 +451,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 205.21,
+      "reaction": -0.3,
+      "priceEur": 204.62,
       "description": "Lam Research Corporation ist ein Hersteller und Anbieter von verfahrenstechnischen Geräten und Anlagen für die Halbleiterindustrie. Das 1980 gegründete und im kalifornischen…",
       "politician": null,
       "track": null,
@@ -550,14 +481,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "NTRS",
-      "name": "Northern Trust",
+      "tk": "PPG",
+      "name": "PPG Industries",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 154.76,
-      "description": "Northern Trust ist ein Finanzdienstleister aus den Vereinigten Staaten mit Sitz in Chicago, Illinois. Es hat sich auf Unternehmen, institutionelle Anleger und sehr vermögende…",
+      "priceEur": 108.26,
+      "description": "PPG Industries ist ein US-amerikanischer Hersteller von Kunstglas- und Chemieprodukten mit Sitz in Pittsburgh, Pennsylvania im Hochhaus PPG Place. Das Unternehmen ist im S&P 500…",
       "politician": null,
       "track": null,
       "sig": {
@@ -579,9 +510,78 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Materials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "CNP",
+      "name": "CenterPoint Energy",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 38.02,
+      "description": "CenterPoint Energy ist ein US-amerikanischer Strom- und Gasnetzbetreiber mit Unternehmenssitz in der CenterPoint Energy Plaza in Houston, Texas. Das Unternehmen ist im Aktienindex…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "8Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Utilities",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "FITB",
+      "name": "Fifth Third Bancorp",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 48.39,
+      "description": "Fifth Third Bancorp is a bank holding company headquartered in Cincinnati, Ohio. It is the parent company of Fifth Third Bank, which operates 1,087 branches and 2,400 automated…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "BABA",
@@ -589,8 +589,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -19.4,
-      "priceEur": 89.92,
+      "reaction": -19.5,
+      "priceEur": 89.79,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -622,8 +622,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -4.9,
-      "priceEur": 24.23,
+      "reaction": -5.1,
+      "priceEur": 24.2,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -656,7 +656,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -7.6,
-      "priceEur": 71.88,
+      "priceEur": 71.85,
       "description": null,
       "politician": null,
       "track": null,
@@ -687,8 +687,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -26.2,
-      "priceEur": 68.74,
+      "reaction": -26.3,
+      "priceEur": 68.68,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -719,8 +719,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -30.5,
-      "priceEur": 2.86,
+      "reaction": -30.7,
+      "priceEur": 2.85,
       "description": null,
       "politician": null,
       "track": null,
@@ -733,7 +733,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -752,7 +752,7 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -9.8,
+      "reaction": -9.9,
       "priceEur": 10.01,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
@@ -786,7 +786,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -7.3,
-      "priceEur": 37.2,
+      "priceEur": 37.19,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -817,8 +817,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -7.8,
-      "priceEur": 103.99,
+      "reaction": -7.9,
+      "priceEur": 103.91,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
