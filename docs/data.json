@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T12:34:19.954471+00:00",
+  "generated_at": "2026-11-03T13:04:53.585180+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -201,41 +201,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "DHR",
-      "name": "Danaher Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 203.25,
-      "description": "Die Danaher Corporation ist ein transnationaler Mischkonzern aus den Vereinigten Staaten, der an der New Yorker Börse und im S&P 100 unter dem Börsensymbol DHR gelistet ist. Der…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "TRMB",
       "name": "Trimble Inc.",
       "broker": true,
@@ -243,7 +208,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 58.7,
-      "description": null,
+      "description": "Trimble Inc. is an American software, hardware, and services technology company that was founded in 1978. Its headquarters is in Westminster, Colorado. It is publicly traded on…",
       "politician": null,
       "track": null,
       "sig": {
@@ -313,7 +278,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 136.35,
-      "description": null,
+      "description": "D.R. Horton, Inc. ist ein US-amerikanisches Bau- und Immobilienunternehmen mit Sitz in Arlington (Texas). Gegründet wurde die Firma 1978 von Donald R. Horton in Fort Worth. Seit…",
       "politician": null,
       "track": null,
       "sig": {
@@ -347,7 +312,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 165.59,
-      "description": "Morgan Stanley is an American multinational investment bank and financial services company. It is headquartered at 1585 Broadway in Midtown Manhattan, New York City, with offices…",
+      "description": "Morgan Stanley ist ein US-amerikanisches Investmentbanking- und Wertpapierhandelsunternehmen mit Hauptsitz in New York, hervorgegangen aus der Teilung von JP Morgan am 5.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -431,7 +396,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -466,7 +431,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -485,9 +450,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 59.59,
-      "description": "Die Fortive Corporation ist ein US-amerikanischer Mischkonzern, dessen Tochterunternehmen mehrheitlich auf den Maschinen- und Messinstrumentenbau fokussiert sind. Fortive entstand…",
+      "description": "Fortive Corporation is an American industrial technology conglomerate company headquartered in Everett, Washington. The company specializes in providing essential technologies for…",
       "politician": null,
       "track": null,
       "sig": {
@@ -515,14 +480,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CNP",
-      "name": "CenterPoint Energy",
+      "tk": "APP",
+      "name": "AppLovin",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 38.03,
-      "description": null,
+      "priceEur": 204.04,
+      "description": "AppLovin Corporation is an American mobile technology company headquartered in Palo Alto, California. Founded in 2012, the company helps developers market, monetize, analyze and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -535,7 +500,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -544,19 +510,54 @@
           "active": false
         }
       },
-      "topic": "Utilities",
+      "topic": "Communication Services",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "EFX",
-      "name": "Equifax",
+      "tk": "KMB",
+      "name": "Kimberly-Clark",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 96.51,
+      "description": "Kimberly-Clark Corporation is an American multinational consumer goods and personal care corporation that produces mostly paper-based consumer products. The company manufactures…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "EXE",
+      "name": "Expand Energy",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 171.64,
-      "description": "Equifax Inc. is an American multinational consumer credit reporting agency headquartered in Atlanta, Georgia, and is one of the three largest consumer credit reporting agencies,…",
+      "priceEur": 79.76,
+      "description": "Expand Energy ist ein US-amerikanisches Mineralölunternehmen, das Erdöl, Schiefer- und Erdgas in Oklahoma, Texas, Louisiana, Pennsylvania und Wyoming fördert. Expand Energy ging…",
       "politician": null,
       "track": null,
       "sig": {
@@ -578,8 +579,10 @@
           "active": false
         }
       },
-      "topic": "Industrials",
-      "ethics": [],
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
@@ -623,7 +626,7 @@
       "score": 2,
       "reaction": -7.7,
       "priceEur": 23.45,
-      "description": "JD.com, Inc., also known as Jingdong Group, formerly called 360buy, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. The…",
+      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -732,7 +735,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -753,7 +756,7 @@
       "score": 1,
       "reaction": -9.9,
       "priceEur": 9.97,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -765,7 +768,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "23Std"
         },
         "predict": {
           "active": false
