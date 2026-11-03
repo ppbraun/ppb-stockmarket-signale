@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-11-03T15:34:23.201523+00:00",
+  "generated_at": "2026-11-03T16:05:52.610592+00:00",
   "newsTopics": [
-    {
-      "topic": "Energie / Öl & Gas",
-      "vol": 3,
-      "pct": 100
-    },
-    {
-      "topic": "Cybersecurity",
-      "vol": 1,
-      "pct": 33
-    },
     {
       "topic": "Zölle / Handelskonflikt",
       "vol": 0,
@@ -42,6 +32,11 @@
       "pct": 0
     },
     {
+      "topic": "Energie / Öl & Gas",
+      "vol": 0,
+      "pct": 0
+    },
+    {
       "topic": "Gesundheit / FDA-Zulassungen",
       "vol": 0,
       "pct": 0
@@ -55,6 +50,11 @@
       "topic": "Krypto-Regulierung",
       "vol": 0,
       "pct": 0
+    },
+    {
+      "topic": "Cybersecurity",
+      "vol": 0,
+      "pct": 0
     }
   ],
   "tickers": [
@@ -64,9 +64,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.6,
-      "priceEur": 150.37,
-      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
+      "reaction": 1.0,
+      "priceEur": 150.87,
+      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 3.6,
-      "priceEur": 52.53,
+      "reaction": 3.7,
+      "priceEur": 52.57,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.9,
-      "priceEur": 92.93,
+      "reaction": 2.3,
+      "priceEur": 93.28,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -169,9 +169,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.1,
-      "priceEur": 575.2,
-      "description": "Die Lockheed Martin Corporation [ˌlɔkʰidˈmɑɹtn̩] ist ein US-amerikanischer Rüstungs- und Technologiekonzern, der vor allem in der militärischen sowie zivilen Luftfahrt als auch in…",
+      "reaction": 2.4,
+      "priceEur": 576.62,
+      "description": "The Lockheed Martin Corporation is an American defense and aerospace manufacturer. It is headquartered in North Bethesda, Maryland, United States. The company was formed by the…",
       "politician": null,
       "track": null,
       "sig": {
@@ -201,111 +201,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "KMB",
-      "name": "Kimberly-Clark",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.8,
-      "priceEur": 96.1,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CRWD",
-      "name": "CrowdStrike",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 3.0,
-      "priceEur": 222.76,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ACN",
-      "name": "Accenture",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -3.6,
-      "priceEur": 225.13,
-      "description": "Accenture plc is a technology consulting company headquartered in Dublin, Ireland. Founded in 1989 in the United States, Accenture provides information technology and management…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "KVUE",
       "name": "Kenvue",
       "broker": true,
@@ -313,7 +208,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 17.27,
-      "description": null,
+      "description": "Kenvue Inc. is an American consumer health company. Formerly the Consumer Healthcare division of Johnson & Johnson, Kenvue owns well-known brands such as Aveeno, Band-Aid,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -327,7 +222,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -347,8 +242,8 @@
       "market": "us",
       "score": 2,
       "reaction": 0.0,
-      "priceEur": 65.01,
-      "description": "Die Bio-Techne Corporation ist ein US-amerikanisches Biotechnologieunternehmen mit Hauptsitz in Minneapolis, Minnesota. Es entwickelt und vertreibt Reagenzien, Analysegeräte und…",
+      "priceEur": 65.02,
+      "description": "Bio-Techne Corporation is an American life sciences company that develops, manufactures and sells life science reagents, instruments and services for the research, diagnostic, and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -362,7 +257,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -381,8 +276,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.4,
-      "priceEur": 47.0,
+      "reaction": 0.7,
+      "priceEur": 47.11,
       "description": "Schlumberger steht für:Schlumberger (Familie), elsässische Familie Schlumberger N.V., ehemalige Firmierung des Erdölexplorationsunternehmens SLB (Unternehmen) Schlumberger…",
       "politician": null,
       "track": null,
@@ -397,7 +292,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -418,8 +313,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.7,
-      "priceEur": 223.82,
+      "reaction": 1.1,
+      "priceEur": 224.84,
       "description": "Das Adjektiv biogen, synonym auch organogen bedeutet „biologischen oder organischen Ursprungs“, „durch Leben“ bzw. „Lebewesen entstanden“.",
       "politician": null,
       "track": null,
@@ -453,8 +348,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.9,
-      "priceEur": 189.53,
+      "reaction": 2.1,
+      "priceEur": 189.89,
       "description": "Générac ist der Name zweier französischer GemeindenGénérac (Gard) in der Region Okzitanien Générac (Gironde) in der Region Nouvelle-Aquitaine",
       "politician": null,
       "track": null,
@@ -487,8 +382,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 296.85,
+      "reaction": -0.4,
+      "priceEur": 295.7,
       "description": "F5, Inc. is an American technology company specializing in multicloud application delivery, API security, online fraud prevention, zero trust access, and enterprise AI workload…",
       "politician": null,
       "track": null,
@@ -503,7 +398,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": false
@@ -522,9 +417,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 30.99,
-      "description": "Halliburton ist ein international agierender Konzern und führender Anbieter von technischen Dienstleistungen, Wartungsdiensten, Planungs- und Entwicklungsservices sowie Zulieferer…",
+      "reaction": -0.3,
+      "priceEur": 30.89,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -559,9 +454,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 145.33,
-      "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
+      "reaction": 1.3,
+      "priceEur": 147.15,
+      "description": "Qualcomm Incorporated is an American multinational technology corporation headquartered in San Diego, California. The company develops and designs technologies for global…",
       "politician": null,
       "track": null,
       "sig": {
@@ -589,14 +484,117 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "DLTR",
+      "name": "Dollar Tree",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 120.71,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "TPR",
+      "name": "Tapestry, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 107.0,
+      "description": "Tapestry, Inc. is an American holding company based in New York City which is the parent company of Coach New York and Kate Spade New York. Originally named Coach, Inc., the…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "DHR",
+      "name": "Danaher Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 207.36,
+      "description": "Die Danaher Corporation ist ein transnationaler Mischkonzern aus den Vereinigten Staaten, der an der New Yorker Börse und im S&P 100 unter dem Börsensymbol DHR gelistet ist. Der…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -19.5,
-      "priceEur": 89.79,
-      "description": null,
+      "reaction": -19.4,
+      "priceEur": 89.92,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -628,7 +626,7 @@
       "market": "cn",
       "score": 2,
       "reaction": -5.0,
-      "priceEur": 24.22,
+      "priceEur": 24.21,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -660,8 +658,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -7.4,
-      "priceEur": 72.04,
+      "reaction": -7.7,
+      "priceEur": 71.79,
       "description": null,
       "politician": null,
       "track": null,
@@ -692,9 +690,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -26.2,
-      "priceEur": 68.74,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "reaction": -25.8,
+      "priceEur": 69.08,
+      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
       "politician": null,
       "track": null,
       "sig": {
@@ -724,7 +722,7 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -30.1,
+      "reaction": -30.0,
       "priceEur": 2.88,
       "description": null,
       "politician": null,
@@ -738,7 +736,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -757,8 +755,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -10.1,
-      "priceEur": 9.98,
+      "reaction": -10.0,
+      "priceEur": 10.0,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -790,8 +788,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -7.3,
-      "priceEur": 37.19,
+      "reaction": -7.0,
+      "priceEur": 37.32,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -822,9 +820,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -8.1,
-      "priceEur": 103.63,
-      "description": null,
+      "reaction": -7.9,
+      "priceEur": 103.88,
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
