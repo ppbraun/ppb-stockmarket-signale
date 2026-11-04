@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T10:04:38.329337+00:00",
+  "generated_at": "2026-11-04T11:04:42.882180+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -171,7 +171,7 @@
       "score": 3,
       "reaction": 1.5,
       "priceEur": 571.6,
-      "description": "The Lockheed Martin Corporation is an American defense and aerospace manufacturer. It is headquartered in North Bethesda, Maryland, United States. The company was formed by the…",
+      "description": "Die Lockheed Martin Corporation [ˌlɔkʰidˈmɑɹtn̩] ist ein US-amerikanischer Rüstungs- und Technologiekonzern, der vor allem in der militärischen sowie zivilen Luftfahrt als auch in…",
       "politician": null,
       "track": null,
       "sig": {
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -201,76 +201,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "MRK",
-      "name": "Merck & Co.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 129.41,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "13Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CME",
-      "name": "CME Group",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 271.99,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "12Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "SO",
       "name": "Southern Company",
       "broker": true,
@@ -278,7 +208,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 83.86,
-      "description": null,
+      "description": "Southern Company ist ein US-amerikanisches Energieunternehmen mit Sitz in Atlanta, Georgia. Das Unternehmen ist im Aktienindex S&P 500 und im Dow Jones Utility Average gelistet…",
       "politician": null,
       "track": null,
       "sig": {
@@ -292,7 +222,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -327,7 +257,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -362,7 +292,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -397,7 +327,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -409,40 +339,6 @@
       "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "GNRC",
-      "name": "Generac",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 187.21,
-      "description": "Générac ist der Name zweier französischer GemeindenGénérac (Gard) in der Region Okzitanien Générac (Gironde) in der Region Nouvelle-Aquitaine",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "IBKR",
@@ -466,7 +362,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -485,9 +381,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 240.94,
-      "description": "Teradyne, Inc. is an American automatic test equipment (ATE) designer and manufacturer based in North Reading, Massachusetts. Its high-profile customers include Samsung, Qualcomm,…",
+      "description": "Teradyne ist ein in North Reading beheimateter US-amerikanischer Hersteller von Testsystemen für Mikroprozessoren und weiteren elektronischen Bausteinen.",
       "politician": null,
       "track": null,
       "sig": {
@@ -501,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -520,9 +416,79 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 1007.71,
-      "description": "Sandisk Corporation is an American multinational computer semiconductor company based in Milpitas, California.",
+      "description": "SanDisk ist ein multinationales Unternehmen mit Sitz in Milpitas, Kalifornien, das Flash-Speicher-Produkte wie Speicherkarten, USB-Sticks und Solid-State-Drives herstellt. 2016…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "HAS",
+      "name": "Hasbro",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 105.53,
+      "description": "Hasbro ist ein US-amerikanischer Spielwarenhersteller mit Sitz in Pawtucket, Rhode Island in den USA. Die Firmenbezeichnung setzt sich als Akronym zusammen aus den Namen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "BA",
+      "name": "Boeing",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 155.03,
+      "description": "The Boeing Company ist ein US-amerikanischer Hersteller von Luft- und Raumfahrttechnik. Er war im Jahr 2020 der zweitgrößte Produzent innerhalb seiner Branche. Zu den Produkten…",
       "politician": null,
       "track": null,
       "sig": {
@@ -545,19 +511,19 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "HAS",
-      "name": "Hasbro",
+      "tk": "CAT",
+      "name": "Caterpillar Inc.",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 105.53,
-      "description": "Hasbro ist ein US-amerikanischer Spielwarenhersteller mit Sitz in Pawtucket, Rhode Island in den USA. Die Firmenbezeichnung setzt sich als Akronym zusammen aus den Namen…",
+      "priceEur": 558.13,
+      "description": "Die Caterpillar Inc. ist ein US-amerikanisches Maschinenbauunternehmen, das seinen Hauptsitz traditionell in Peoria, Illinois, seit 2022 aber in Irving im US-Bundesstaat Texas hat.",
       "politician": null,
       "track": null,
       "sig": {
@@ -571,7 +537,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -580,7 +546,42 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MDLZ",
+      "name": "Mondelez International",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 58.25,
+      "description": "Mondelez International ist ein börsennotierter US-amerikanischer Lebensmittelkonzern mit Sitz in Chicago, Illinois, der überwiegend auf Markenprodukte in den Bereichen Snacks und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "19Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -604,7 +605,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -637,7 +638,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": true
@@ -734,7 +735,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": false
@@ -788,7 +789,7 @@
       "score": 0,
       "reaction": -7.7,
       "priceEur": 37.02,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
