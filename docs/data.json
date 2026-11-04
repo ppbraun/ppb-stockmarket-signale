@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T09:34:27.505067+00:00",
+  "generated_at": "2026-11-04T10:04:38.329337+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -201,111 +201,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "PNR",
-      "name": "Pentair",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 62.38,
-      "description": "Pentair plc (PNR) is an American water treatment company incorporated in Ireland with tax residency in UK, with its main U.S. office in Golden Valley, Minnesota. Pentair was…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "22Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "MAA",
-      "name": "Mid-America Apartment Communities",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 104.96,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "PG",
-      "name": "Procter & Gamble",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 144.97,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "7Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "MRK",
       "name": "Merck & Co.",
       "broker": true,
@@ -313,7 +208,42 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 129.41,
-      "description": "Merck & Co., wie es aus namensrechtlichen Gründen nur in den USA und Kanada genannt wird, oder Merck Sharp & Dohme ist ein US-amerikanisches, weltweit operierendes und…",
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "13Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CME",
+      "name": "CME Group",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 271.99,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -336,41 +266,6 @@
           "active": false
         }
       },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CME",
-      "name": "CME Group",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 271.99,
-      "description": "Die US-amerikanische CME Group ist eine der weltgrößten Optionsbörsen und die größte Terminbörse der Welt, mit Sitz in Chicago im Bundesstaat Illinois, die am 12. Juli 2007 aus…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "11Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
@@ -383,7 +278,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 83.86,
-      "description": "Southern Company ist ein US-amerikanisches Energieunternehmen mit Sitz in Atlanta, Georgia. Das Unternehmen ist im Aktienindex S&P 500 und im Dow Jones Utility Average gelistet…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -432,7 +327,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -453,7 +348,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 284.48,
-      "description": null,
+      "description": "Die FedEx Corporation ist ein weltweit operierendes US-amerikanisches Kurier- und Logistikunternehmen mit Sitz in Memphis, Tennessee. Die Luftfracht-Division FedEx Express belegt…",
       "politician": null,
       "track": null,
       "sig": {
@@ -486,9 +381,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 870.7,
-      "description": null,
+      "description": "Das Biotechnologie-Unternehmen Regeneron Pharmaceuticals wurde 1988 gegründet und wird an der Nasdaq-Börse unter dem Symbol „REGN“ gehandelt. Regeneron Pharmaceuticals ist…",
       "politician": null,
       "track": null,
       "sig": {
@@ -502,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -520,10 +415,10 @@
       "name": "Generac",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": null,
+      "score": 1,
+      "reaction": 0.0,
       "priceEur": 187.21,
-      "description": null,
+      "description": "Générac ist der Name zweier französischer GemeindenGénérac (Gard) in der Region Okzitanien Générac (Gironde) in der Region Nouvelle-Aquitaine",
       "politician": null,
       "track": null,
       "sig": {
@@ -539,7 +434,7 @@
           "active": false
         },
         "predict": {
-          "active": true
+          "active": false
         },
         "buzz": {
           "active": false
@@ -547,7 +442,7 @@
       },
       "topic": "Industrials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "IBKR",
@@ -555,9 +450,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 69.29,
-      "description": null,
+      "description": "Interactive Brokers (IB) ist ein US-amerikanisches multinationales Brokerunternehmen mit Unternehmenssitz in Greenwich, Connecticut und internationalen Büros in der Schweiz,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -571,7 +466,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -581,6 +476,111 @@
         }
       },
       "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "TER",
+      "name": "Teradyne",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 240.94,
+      "description": "Teradyne, Inc. is an American automatic test equipment (ATE) designer and manufacturer based in North Reading, Massachusetts. Its high-profile customers include Samsung, Qualcomm,…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "12Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "SNDK",
+      "name": "Sandisk",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 1007.71,
+      "description": "Sandisk Corporation is an American multinational computer semiconductor company based in Milpitas, California.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "HAS",
+      "name": "Hasbro",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 105.53,
+      "description": "Hasbro ist ein US-amerikanischer Spielwarenhersteller mit Sitz in Pawtucket, Rhode Island in den USA. Die Firmenbezeichnung setzt sich als Akronym zusammen aus den Namen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "23Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -604,7 +604,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -637,7 +637,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -755,7 +755,7 @@
       "score": 1,
       "reaction": -9.8,
       "priceEur": 10.02,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -788,7 +788,7 @@
       "score": 0,
       "reaction": -7.7,
       "priceEur": 37.02,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -820,7 +820,7 @@
       "score": 0,
       "reaction": -7.8,
       "priceEur": 103.97,
-      "description": null,
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
