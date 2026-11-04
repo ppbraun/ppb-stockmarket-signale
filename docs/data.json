@@ -1,8 +1,13 @@
 {
-  "generated_at": "2026-11-04T18:05:00.013662+00:00",
+  "generated_at": "2026-11-04T18:34:35.121617+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
+      "vol": 1,
+      "pct": 100
+    },
+    {
+      "topic": "Halbleiter / Chips",
       "vol": 1,
       "pct": 100
     },
@@ -37,11 +42,6 @@
       "pct": 0
     },
     {
-      "topic": "Halbleiter / Chips",
-      "vol": 0,
-      "pct": 0
-    },
-    {
       "topic": "Gesundheit / FDA-Zulassungen",
       "vol": 0,
       "pct": 0
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 7.5,
-      "priceEur": 159.46,
+      "reaction": 7.3,
+      "priceEur": 159.05,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 6.7,
-      "priceEur": 53.69,
+      "reaction": 6.6,
+      "priceEur": 53.63,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 6.9,
-      "priceEur": 96.66,
+      "reaction": 6.3,
+      "priceEur": 96.18,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -170,7 +170,7 @@
       "market": "us",
       "score": 3,
       "reaction": -5.3,
-      "priceEur": 529.31,
+      "priceEur": 528.96,
       "description": "Die Lockheed Martin Corporation [ˌlɔkʰidˈmɑɹtn̩] ist ein US-amerikanischer Rüstungs- und Technologiekonzern, der vor allem in der militärischen sowie zivilen Luftfahrt als auch in…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -206,8 +206,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 12.7,
-      "priceEur": 18.42,
+      "reaction": 13.1,
+      "priceEur": 18.49,
       "description": null,
       "politician": null,
       "track": null,
@@ -222,7 +222,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -241,8 +241,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.9,
-      "priceEur": 143.22,
+      "reaction": 0.8,
+      "priceEur": 143.16,
       "description": null,
       "politician": null,
       "track": null,
@@ -257,7 +257,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -271,118 +271,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "KKR",
-      "name": "KKR & Co.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.7,
-      "priceEur": 90.29,
-      "description": "KKR & Co. Inc. mit Sitz in New York City ist eine börsennotierte Beteiligungsgesellschaft. Gegründet wurde KKR 1976 von Jerome Kohlberg, Jr., Henry Kravis und George R. Roberts.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "5Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "DUK",
-      "name": "Duke Energy",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.1,
-      "priceEur": 115.21,
-      "description": "Duke Energy ist ein US-amerikanisches Energieversorger mit Sitz in Charlotte, North Carolina. Das Unternehmen ist im Aktienindex S&P 500 und im Dow Jones Utility Average gelistet.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "GNRC",
-      "name": "Generac",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.7,
-      "priceEur": 165.0,
-      "description": "Générac ist der Name zweier französischer GemeindenGénérac (Gard) in der Region Okzitanien Générac (Gironde) in der Region Nouvelle-Aquitaine",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "LH",
       "name": "Labcorp",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 325.03,
+      "reaction": 0.2,
+      "priceEur": 325.5,
       "description": "Labcorp Holdings Inc., operating under the brand name Labcorp, headquartered in Burlington, North Carolina, provides laboratory services used for diagnosis and healthcare…",
       "politician": null,
       "track": null,
@@ -397,7 +292,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -416,9 +311,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 89.13,
-      "description": "Best Buy ist ein US-amerikanisches Unternehmen mit Firmensitz in Richfield, Minnesota.",
+      "reaction": -0.0,
+      "priceEur": 89.04,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -432,7 +327,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -467,7 +362,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -486,9 +381,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 360.72,
-      "description": null,
+      "reaction": -0.3,
+      "priceEur": 359.54,
+      "description": "Analog Devices Inc. ist ein US-amerikanischer Halbleiterhersteller mit Hauptsitz in Norwood bei Boston, Massachusetts. Das Unternehmen betreibt weltweit Niederlassungen.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -502,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -521,8 +416,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 130.67,
+      "reaction": 0.4,
+      "priceEur": 131.24,
       "description": "EOG Resources ist ein Unternehmen aus den Vereinigten Staaten mit Sitz in Houston, Texas. EOG stand ursprünglich für Enron Oil & Gas. Das Unternehmen ist im Aktienindex S&P 500…",
       "politician": null,
       "track": null,
@@ -537,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -558,9 +453,114 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 293.69,
+      "reaction": 0.5,
+      "priceEur": 295.15,
       "description": "Die Royal Caribbean Group  ist ein Kreuzfahrtunternehmen mit Sitz in Monrovia und operativer Hauptzentrale in Miami. Das Unternehmen ist das weltweit zweitgrößte…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "6Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "VLTO",
+      "name": "Veralto",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 103.95,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PRU",
+      "name": "Prudential Financial",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 112.65,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": null,
+      "priceEur": 256.53,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -577,15 +577,15 @@
           "age": "5Std"
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Energy",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "BABA",
@@ -593,8 +593,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -14.4,
-      "priceEur": 94.79,
+      "reaction": -14.2,
+      "priceEur": 95.0,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -607,7 +607,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -626,8 +626,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -2.2,
-      "priceEur": 24.74,
+      "reaction": -2.1,
+      "priceEur": 24.76,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -659,8 +659,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -4.1,
-      "priceEur": 73.99,
+      "reaction": -4.0,
+      "priceEur": 74.1,
       "description": null,
       "politician": null,
       "track": null,
@@ -692,8 +692,8 @@
       "market": "cn",
       "score": 2,
       "reaction": -22.1,
-      "priceEur": 71.94,
-      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
+      "priceEur": 71.97,
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -705,7 +705,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -757,8 +757,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -6.0,
-      "priceEur": 10.35,
+      "reaction": -5.9,
+      "priceEur": 10.37,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -771,7 +771,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -790,9 +790,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -4.4,
-      "priceEur": 38.05,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "reaction": -4.3,
+      "priceEur": 38.1,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -822,8 +822,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -3.9,
-      "priceEur": 107.54,
+      "reaction": -3.7,
+      "priceEur": 107.71,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
