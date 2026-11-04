@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T13:04:37.925983+00:00",
+  "generated_at": "2026-11-04T13:34:27.169185+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -201,76 +201,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "CVNA",
-      "name": "Carvana",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 63.76,
-      "description": "Carvana ist ein US-amerikanisches Unternehmen, welches Gebrauchtwagen über das Internet verkauft. Carvana hat seinen Hauptsitz in Tempe, Arizona und wurde bereits als „Amazon für…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "MA",
-      "name": "Mastercard",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 578.92,
-      "description": "Die Mastercard Inc. mit Sitz in Purchase, New York ist ein börsennotierter Zahlungsdienstleister und beschäftigte 2025 rund 32.800 Mitarbeiter. Mastercard ist neben Visa eine der…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "NUE",
       "name": "Nucor",
       "broker": true,
@@ -467,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -481,46 +411,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "MCO",
-      "name": "Moody's Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 450.57,
-      "description": "Moody's Corporation is an American business and financial services company. It is the holding company for Moody's Ratings, an American credit rating agency, and Moody's, an…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "SPGI",
       "name": "S&P Global",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 416.88,
       "description": "S&P Global Inc. ist ein börsennotierter, US-amerikanischer Finanzdienstleistungskonzern mit Sitz in New York City im Bundesstaat New York. Das Unternehmen beschäftigt ca. 22.500…",
       "politician": null,
@@ -536,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -555,7 +451,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 542.43,
       "description": "Seagate Technology ist ein Hersteller von Festplattenlaufwerken und Bandlaufwerken mit Sitz in Dublin und operativer Hauptzentrale in Cupertino, Kalifornien. Seagate ist das…",
       "politician": null,
@@ -581,6 +477,111 @@
         }
       },
       "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "BRK.B",
+      "name": "Berkshire Hathaway",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": null,
+      "description": "Berkshire Hathaway Inc. [ˈbɜːrkʃər ˈhæθəweɪ] ist eine 1955 gegründete US-amerikanische Holdinggesellschaft mit Sitz in Omaha, Nebraska, zu deren Konglomerat über 80 Unternehmen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "18Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ADP",
+      "name": "Automatic Data Processing",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 264.79,
+      "description": "Automatic Data Processing, Inc. ist ein amerikanisches Unternehmen aus Roseland im US-Bundesstaat New Jersey.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "21Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "KKR",
+      "name": "KKR & Co.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 85.87,
+      "description": "KKR & Co. Inc. mit Sitz in New York City ist eine börsennotierte Beteiligungsgesellschaft. Gegründet wurde KKR 1976 von Jerome Kohlberg, Jr., Henry Kravis und George R. Roberts.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "14Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -702,7 +703,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
