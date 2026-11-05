@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T18:34:31.866406+00:00",
+  "generated_at": "2026-11-05T19:04:37.074193+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -64,9 +64,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.6,
-      "priceEur": 149.78,
-      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
+      "reaction": 0.9,
+      "priceEur": 150.19,
+      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 3.9,
-      "priceEur": 52.5,
+      "reaction": 3.2,
+      "priceEur": 52.15,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 5.3,
-      "priceEur": 95.65,
+      "reaction": 4.9,
+      "priceEur": 95.27,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -7.3,
-      "priceEur": 519.88,
+      "reaction": -7.9,
+      "priceEur": 516.57,
       "description": "Die Lockheed Martin Corporation [ˌlɔkʰidˈmɑɹtn̩] ist ein US-amerikanischer Rüstungs- und Technologiekonzern, der vor allem in der militärischen sowie zivilen Luftfahrt als auch in…",
       "politician": null,
       "track": null,
@@ -206,8 +206,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 21.1,
-      "priceEur": 19.87,
+      "reaction": 20.5,
+      "priceEur": 19.78,
       "description": null,
       "politician": null,
       "track": null,
@@ -222,7 +222,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -241,9 +241,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.2,
-      "priceEur": 140.87,
-      "description": "Die Target Corporation gehört zu den größten Einzelhändlern der USA und ist nach Walmart der zweitgrößte Discounter des Landes. Das Unternehmen hat seinen Sitz in Minneapolis,…",
+      "reaction": -1.1,
+      "priceEur": 140.98,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -276,8 +276,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.4,
-      "priceEur": 248.82,
+      "reaction": -5.6,
+      "priceEur": 243.21,
       "description": null,
       "politician": null,
       "track": null,
@@ -312,8 +312,8 @@
       "market": "us",
       "score": 3,
       "reaction": 1.1,
-      "priceEur": 221.12,
-      "description": null,
+      "priceEur": 221.15,
+      "description": "Republic Services ist ein US-amerikanisches Entsorgungsunternehmen mit Hauptsitz in Phoenix im US-Bundesstaat Arizona.",
       "politician": null,
       "track": null,
       "sig": {
@@ -376,118 +376,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "NUE",
-      "name": "Nucor",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.4,
-      "priceEur": 223.42,
-      "description": "Die Nucor Corporation ist einer der größten Stahlproduzenten in den Vereinigten Staaten und der größte Betreiber von Mini-Mills, die in Elektrolichtbogenöfen Schrott zu neuem…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "YUM",
-      "name": "Yum! Brands",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.2,
-      "priceEur": 146.13,
-      "description": "Die Yum! Brands, Inc. ist eine der weltgrößten Unternehmensgruppen für Systemgastronomie mit mehr als 44.000 Restaurants in 151 Ländern und Gebieten. Die Hauptzentrale des…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "21Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "NRG",
-      "name": "NRG Energy",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.2,
-      "priceEur": 71.94,
-      "description": "NRG Energy ist ein US-amerikanischer Energieversorger mit Firmensitz in Houston. Das Unternehmen ist an der NYSE gelistet. Mit einer installierten Leistung von 53,5 GW in 19…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "5Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "EMR",
       "name": "Emerson Electric",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 144.92,
+      "reaction": 0.2,
+      "priceEur": 145.19,
       "description": "Emerson Electric Company ist ein multinationaler Konzern mit Sitz in Ferguson im US-Bundesstaat Missouri. Das Fortune-500-Unternehmen bietet Ingenieurdienstleistungen und Produkte…",
       "politician": null,
       "track": null,
@@ -502,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -521,8 +416,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 1237.6,
+      "reaction": -0.5,
+      "priceEur": 1231.61,
       "description": null,
       "politician": null,
       "track": null,
@@ -556,8 +451,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 122.65,
+      "reaction": -0.1,
+      "priceEur": 122.55,
       "description": null,
       "politician": null,
       "track": null,
@@ -586,13 +481,118 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "TKO",
+      "name": "TKO Group Holdings",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 167.5,
+      "description": "TKO Group Holdings, Inc. (TKO) ist ein Medienkonglomerat, das von Endeavour Group Holdings im Rahmen einer Fusion zwischen World Wrestling Entertainment (WWE) und Zuffa, der…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "DPZ",
+      "name": "Domino's",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 302.08,
+      "description": "Domino’s Pizza ist eine im Jahr 1960 gegründete internationale Schnellrestaurantkette, die auf die Herstellung und Lieferung von Pizza spezialisiert ist.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "QCOM",
+      "name": "Qualcomm",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 139.88,
+      "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -14.4,
-      "priceEur": 95.11,
+      "reaction": -14.5,
+      "priceEur": 95.04,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -605,7 +605,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -624,8 +624,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -0.0,
-      "priceEur": 25.39,
+      "reaction": 0.1,
+      "priceEur": 25.42,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -658,7 +658,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -3.7,
-      "priceEur": 74.62,
+      "priceEur": 74.59,
       "description": null,
       "politician": null,
       "track": null,
@@ -690,7 +690,7 @@
       "market": "cn",
       "score": 1,
       "reaction": -24.4,
-      "priceEur": 70.11,
+      "priceEur": 70.14,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -721,8 +721,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -31.7,
-      "priceEur": 2.8,
+      "reaction": -31.5,
+      "priceEur": 2.81,
       "description": null,
       "politician": null,
       "track": null,
@@ -754,8 +754,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -5.1,
-      "priceEur": 10.5,
+      "reaction": -5.0,
+      "priceEur": 10.51,
       "description": null,
       "politician": null,
       "track": null,
@@ -786,8 +786,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -2.5,
-      "priceEur": 38.97,
+      "reaction": -2.4,
+      "priceEur": 38.98,
       "description": null,
       "politician": null,
       "track": null,
@@ -818,8 +818,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": 0.1,
-      "priceEur": 112.41,
+      "reaction": 0.2,
+      "priceEur": 112.57,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
@@ -832,7 +832,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": false
