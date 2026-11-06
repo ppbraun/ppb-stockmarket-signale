@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-06T11:04:33.623206+00:00",
+  "generated_at": "2026-11-06T11:34:25.127848+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 3,
+      "vol": 2,
       "pct": 100
     },
     {
       "topic": "Zölle / Handelskonflikt",
       "vol": 1,
-      "pct": 33
+      "pct": 50
     },
     {
       "topic": "Fed-Zinspolitik",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": 1.8,
       "priceEur": 151.58,
-      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
+      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
       "politician": null,
       "track": null,
       "sig": {
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "0Std"
         },
         "predict": {
           "active": true
@@ -243,7 +243,7 @@
       "score": 3,
       "reaction": -5.8,
       "priceEur": 242.5,
-      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -278,7 +278,7 @@
       "score": 3,
       "reaction": 1.6,
       "priceEur": 222.22,
-      "description": "Republic Services ist ein US-amerikanisches Entsorgungsunternehmen mit Hauptsitz in Phoenix im US-Bundesstaat Arizona.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -313,7 +313,7 @@
       "score": 3,
       "reaction": -3.9,
       "priceEur": 231.83,
-      "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -327,7 +327,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "0Std"
         },
         "predict": {
           "active": true
@@ -341,76 +341,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "MCK",
-      "name": "McKesson",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 955.1,
-      "description": "Die McKesson Corporation ist ein US-amerikanisches Unternehmen mit Hauptsitz in Irving, Texas.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "16Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ZBRA",
-      "name": "Zebra Technologies",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 286.57,
-      "description": "Zebra Technologies ist ein US-amerikanischer Anbieter von Geräten und Software zur Datenerfassung und -verarbeitung. Zebra entwickelt und vertreibt Barcode-Scanner,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "17Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "AJG",
       "name": "Arthur J. Gallagher & Co.",
       "broker": true,
@@ -418,7 +348,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 256.69,
-      "description": null,
+      "description": "Arthur J. Gallagher & Co. ist ein international tätiges US-amerikanisches Dienstleistungsunternehmen. Es wurde 1927 von Arthur J. Gallagher in Chicago gegründet und hat heute…",
       "politician": null,
       "track": null,
       "sig": {
@@ -467,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -486,9 +416,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 100.51,
-      "description": "Ameren Corporation is an American power company created December 31, 1997, by the merger of Union Electric Company of St. Louis, Missouri and the neighboring Central Illinois…",
+      "description": "Ameren ist ein US-amerikanisches Unternehmen mit Firmensitz in St. Louis im US-amerikanischen Bundesstaat Missouri. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
       "politician": null,
       "track": null,
       "sig": {
@@ -516,48 +446,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "FFIV",
-      "name": "F5, Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 277.74,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "TER",
       "name": "Teradyne",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 189.54,
-      "description": null,
+      "description": "Teradyne ist ein in North Reading beheimateter US-amerikanischer Hersteller von Testsystemen für Mikroprozessoren und weiteren elektronischen Bausteinen.",
       "politician": null,
       "track": null,
       "sig": {
@@ -585,6 +481,111 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "ADP",
+      "name": "Automatic Data Processing",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 273.65,
+      "description": "Automatic Data Processing, Inc. ist ein amerikanisches Unternehmen aus Roseland im US-Bundesstaat New Jersey.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ISRG",
+      "name": "Intuitive Surgical",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 417.43,
+      "description": "Intuitive Surgical, Inc. is an American biotechnology company that develops, manufactures, and markets robotic products designed to improve clinical outcomes of patients through…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "18Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "HONA",
+      "name": "Honeywell Aerospace",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 133.28,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -592,7 +593,7 @@
       "score": 2,
       "reaction": -13.3,
       "priceEur": 96.28,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -604,7 +605,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -702,7 +703,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -735,7 +736,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -801,7 +802,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -822,7 +823,7 @@
       "score": 1,
       "reaction": 0.4,
       "priceEur": 112.76,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
