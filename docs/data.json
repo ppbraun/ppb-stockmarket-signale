@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T19:04:37.008614+00:00",
+  "generated_at": "2026-11-08T19:34:17.923116+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -222,7 +222,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -243,7 +243,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 631.04,
-      "description": null,
+      "description": "FICO, originally Fair, Isaac and Company, is an American data analytics company based in Bozeman, Montana, focused on credit scoring services. It was founded by Bill Fair and Earl…",
       "politician": null,
       "track": null,
       "sig": {
@@ -269,78 +269,6 @@
       "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "EMR",
-      "name": "Emerson Electric",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 145.41,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "DIS",
-      "name": "Walt Disney Company (The)",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 104.57,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "6Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [
-        "Glücksspiel"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "META",
@@ -385,7 +313,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 86.48,
-      "description": "Colgate-Palmolive ist ein multinationaler, börsennotierter Konzern mit Stammsitz in New York City.",
+      "description": "The Colgate-Palmolive Company, commonly known as Colgate-Palmolive, is an American multinational consumer products company headquartered on Park Avenue in Midtown Manhattan, New…",
       "politician": null,
       "track": null,
       "sig": {
@@ -399,7 +327,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -420,7 +348,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 204.0,
-      "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
+      "description": "The Progressive Corporation is an American insurance company headquartered in Mayfield, Ohio. It was co-founded in 1937 by Jack Green and Joseph M. Lewis. The company insures…",
       "politician": null,
       "track": null,
       "sig": {
@@ -482,48 +410,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AVY",
-      "name": "Avery Dennison",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 167.29,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "AZO",
       "name": "AutoZone",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 2880.76,
-      "description": "AutoZone, Inc., doing business as AutoZone, is an American retailer of aftermarket automotive parts and accessories, the largest in the United States. Founded in 1979, AutoZone…",
+      "description": "AutoZone ist der zweitgrößte Händler von Kfz-Ersatzteilen in den Vereinigten Staaten mit Sitz in Memphis (Tennessee). Das Unternehmen wurde im Jahr 1979 unter dem Namen Auto Shack…",
       "politician": null,
       "track": null,
       "sig": {
@@ -556,7 +450,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 119.79,
       "description": "Dollar General ist eine US-amerikanische Warenhauskette mit Sitz in Goodlettsville, Tennessee, die Anfang 2023 über 170.000 Mitarbeiter in 19.104 Filialen beschäftigte. Gegründet…",
       "politician": null,
@@ -582,6 +476,110 @@
         }
       },
       "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "SBAC",
+      "name": "SBA Communications",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 169.66,
+      "description": "SBA Communications Corporation is a real estate investment trust which owns and operates wireless infrastructure in the United States, Canada, Central America, South America, and…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "11Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Real Estate",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MDLZ",
+      "name": "Mondelez International",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 59.13,
+      "description": "Mondelez International ist ein börsennotierter US-amerikanischer Lebensmittelkonzern mit Sitz in Chicago, Illinois, der überwiegend auf Markenprodukte in den Bereichen Snacks und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "QCOM",
+      "name": "Qualcomm",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 148.15,
+      "description": "Qualcomm Incorporated is an American multinational technology corporation headquartered in San Diego, California. The company develops and designs technologies for global…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -759,7 +757,7 @@
       "score": 0,
       "reaction": 1.0,
       "priceEur": 11.22,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -791,7 +789,7 @@
       "score": 0,
       "reaction": -1.1,
       "priceEur": 39.74,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
