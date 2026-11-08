@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T11:34:26.344219+00:00",
+  "generated_at": "2026-11-08T11:40:23.790436+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -222,7 +222,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -304,76 +304,6 @@
       "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "DG",
-      "name": "Dollar General",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 119.79,
-      "description": "Dollar General ist eine US-amerikanische Warenhauskette mit Sitz in Goodlettsville, Tennessee, die Anfang 2023 über 170.000 Mitarbeiter in 19.104 Filialen beschäftigte. Gegründet…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "21Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ADI",
-      "name": "Analog Devices",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 325.63,
-      "description": "Analog Devices Inc. ist ein US-amerikanischer Halbleiterhersteller mit Hauptsitz in Norwood bei Boston, Massachusetts. Das Unternehmen betreibt weltweit Niederlassungen.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "ROP",
@@ -486,9 +416,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 373.02,
-      "description": "Marriott International, Inc. is an American multinational company that operates, franchises, and licenses lodging brands that include hotel, residential, and timeshare properties.…",
+      "description": "Marriott International, Inc. ist ein börsennotiertes US-amerikanisches Hotelunternehmen mit Sitz in Bethesda, Maryland, das mehrere Hotelketten betreibt, konzessioniert und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -521,9 +451,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 222.38,
-      "description": "NXP Semiconductors N.V. is a Dutch semiconductor manufacturing and design company with headquarters in Eindhoven, Netherlands. It is the second-largest European semiconductor…",
+      "description": "NXP Semiconductors ist ein niederländischer Halbleiterhersteller. NXP ist der im Jahr 2006 ausgegliederte Halbleiterbereich der Royal Philips. NXP bietet Halbleiter und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -551,14 +481,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "COF",
-      "name": "Capital One",
+      "tk": "REGN",
+      "name": "Regeneron Pharmaceuticals",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 180.81,
-      "description": "Capital One Financial Corporation is an American bank holding company headquartered in Tysons, Virginia, with operations in the United States, Canada, and the United Kingdom. It…",
+      "priceEur": 809.99,
+      "description": "Das Biotechnologie-Unternehmen Regeneron Pharmaceuticals wurde 1988 gegründet und wird an der Nasdaq-Börse unter dem Symbol „REGN“ gehandelt. Regeneron Pharmaceuticals ist…",
       "politician": null,
       "track": null,
       "sig": {
@@ -580,7 +510,76 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "DAL",
+      "name": "Delta Air Lines",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 78.1,
+      "description": "Delta Air Lines, im Markenauftritt kurz Delta, ist eine US-amerikanische Fluggesellschaft mit Sitz in Atlanta und Mitglied der Luftfahrtallianz SkyTeam. Sie zählt zu den Major…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "LII",
+      "name": "Lennox International",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 306.29,
+      "description": "Lennox wurde 1895 in Marshalltown, Iowa (USA) von Dave Lennox gegründet, der den ersten genieteten Heizungsofen der Welt erfand und vertrieb. Heute befindet sich der…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
