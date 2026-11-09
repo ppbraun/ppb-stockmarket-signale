@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:04:21.763195+00:00",
+  "generated_at": "2026-11-09T08:34:30.158938+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -63,7 +63,7 @@
       "name": "Airbnb",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 3,
       "reaction": 13.7,
       "priceEur": 170.17,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
@@ -79,7 +79,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -90,7 +91,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "LMT",
@@ -114,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -151,7 +152,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -186,7 +187,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -277,7 +278,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 158.33,
-      "description": "Generac Holdings Inc., commonly referred to as Generac, is an American manufacturer of backup power generation products for residential, light commercial, and industrial markets.…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -395,7 +396,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -416,7 +417,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 546.49,
-      "description": "Meta Platforms, Inc. ist ein börsennotierter US-amerikanischer Technologiekonzern mit Schwerpunkt auf sozialen Netzwerken, Extended-Reality-Produkten und Künstlicher Intelligenz.…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -430,7 +431,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -451,7 +452,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 75.1,
-      "description": "Die CVS Health Corporation ist ein Einzelhandelsunternehmen der Pharmaziebranche in den Vereinigten Staaten. Der Unternehmenssitz befindet sich in Woonsocket, Rhode Island. Das…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -479,48 +480,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CBOE",
-      "name": "Cboe Global Markets",
+      "tk": "GRMN",
+      "name": "Garmin",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 316.41,
-      "description": "Cboe Global Markets ist ein Finanzunternehmen mit Sitz in Chicago. Es betreibt die Chicagoer Optionsbörse, die größte amerikanische Börse für Finanzderivate, sowie die…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "AZO",
-      "name": "AutoZone",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 2880.76,
-      "description": "AutoZone, Inc., doing business as AutoZone, is an American retailer of aftermarket automotive parts and accessories, the largest in the United States. Founded in 1979, AutoZone…",
+      "priceEur": 255.77,
+      "description": "Garmin Ltd. is an American multinational technology company based in Olathe, Kansas. The company designs, develops, manufactures, markets, and distributes GPS-enabled products and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -547,13 +514,47 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "EL",
-      "name": "Estée Lauder Companies (The)",
+      "tk": "TSCO",
+      "name": "Tractor Supply",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 98.58,
+      "priceEur": 32.56,
+      "description": "Tractor Supply Company, founded in 1938, is an American chain store that sells home improvement, agriculture, lawn and garden maintenance, livestock, equine and pet care equipment…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "UAL",
+      "name": "United Airlines Holdings",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 100.98,
       "description": null,
       "politician": null,
       "track": null,
@@ -576,7 +577,7 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -588,7 +589,7 @@
       "score": 1,
       "reaction": -12.2,
       "priceEur": 98.03,
-      "description": null,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -750,7 +751,7 @@
       "score": 0,
       "reaction": 1.0,
       "priceEur": 11.22,
-      "description": "Li Auto Inc. is a Chinese electric vehicle manufacturer headquartered in Beijing, with manufacturing facilities in Changzhou. Founded by Li Xiang in 2015, the company is best…",
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -782,7 +783,7 @@
       "score": 0,
       "reaction": -1.1,
       "priceEur": 39.74,
-      "description": "Trip.com Group Limited is a multinational travel agency headquartered in Shanghai, China. It was the largest online travel service in the world in 2017.",
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -814,7 +815,7 @@
       "score": 0,
       "reaction": 2.7,
       "priceEur": 115.94,
-      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
