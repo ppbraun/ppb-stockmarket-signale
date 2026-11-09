@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T09:34:29.923703+00:00",
+  "generated_at": "2026-11-09T10:04:39.300976+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -187,7 +187,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -208,75 +208,6 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 631.04,
-      "description": "FICO, originally Fair, Isaac and Company, is an American data analytics company based in Bozeman, Montana, focused on credit scoring services. It was founded by Bill Fair and Earl…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "GNRC",
-      "name": "Generac",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 158.33,
-      "description": "Générac ist der Name zweier französischer GemeindenGénérac (Gard) in der Region Okzitanien Générac (Gironde) in der Region Nouvelle-Aquitaine",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "DASH",
-      "name": "DoorDash",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 160.92,
       "description": null,
       "politician": null,
       "track": null,
@@ -291,18 +222,18 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "5Std"
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "CRWD",
@@ -326,7 +257,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -347,7 +278,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 145.41,
-      "description": "Emerson Electric Company ist ein multinationaler Konzern mit Sitz in Ferguson im US-Bundesstaat Missouri. Das Fortune-500-Unternehmen bietet Ingenieurdienstleistungen und Produkte…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -431,7 +362,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -479,46 +410,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "MCO",
-      "name": "Moody's Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 452.91,
-      "description": "Moody's Corporation is an American business and financial services company. It is the holding company for Moody's Ratings, an American credit rating agency, and Moody's, an…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "AXP",
       "name": "American Express",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 287.5,
       "description": "Die American Express Company, abgekürzt oft Amex, AmEx, AX oder Amexco, ist ein US-amerikanischer weltweiter Anbieter von Finanzdienstleistungen. Der Firmensitz befindet sich im…",
       "politician": null,
@@ -553,9 +450,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 308.2,
-      "description": "Sherwin-Williams is an American paints and coatings company based in Cleveland, Ohio. It is primarily engaged in the manufacture, distribution, and sale of paints, coatings, floor…",
+      "description": "Sherwin-Williams ist ein weltweit aktives Unternehmen in der Beschichtungsbranche mit einer über 150-jährigen Tradition. Gegründet von Henry Sherwin und Edward Williams im Jahr…",
       "politician": null,
       "track": null,
       "sig": {
@@ -581,6 +478,110 @@
       "topic": "Materials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "APO",
+      "name": "Apollo Global Management",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 104.57,
+      "description": "Apollo Global Management ist ein US-amerikanisches Private-Equity-Unternehmen mit Sitz in New York City. Es ist als Investment- und Beteiligungsunternehmen tätig und wird zu den…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MCK",
+      "name": "McKesson",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 950.15,
+      "description": "McKesson Corporation is an American publicly traded company that distributes pharmaceuticals and provides health information technology, medical supplies, and health management…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "13Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PCAR",
+      "name": "Paccar",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 91.34,
+      "description": "Paccar Inc. ist einer der größten Lkw-Hersteller aus den Vereinigten Staaten. 2018 belegte das Unternehmen weltweit den 7. Platz für Nutzfahrzeuge mit einem zulässigen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BABA",
@@ -752,7 +753,7 @@
       "score": 0,
       "reaction": 1.0,
       "priceEur": 11.22,
-      "description": "Li Auto Inc. is a Chinese electric vehicle manufacturer headquartered in Beijing, with manufacturing facilities in Changzhou. Founded by Li Xiang in 2015, the company is best…",
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -784,7 +785,7 @@
       "score": 0,
       "reaction": -1.1,
       "priceEur": 39.74,
-      "description": null,
+      "description": "Trip.com Group Limited is a multinational travel agency headquartered in Shanghai, China. It was the largest online travel service in the world in 2017.",
       "politician": null,
       "track": null,
       "sig": {
@@ -816,7 +817,7 @@
       "score": 0,
       "reaction": 2.7,
       "priceEur": 115.94,
-      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
