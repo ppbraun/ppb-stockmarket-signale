@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T14:04:29.794901+00:00",
+  "generated_at": "2026-11-09T14:34:32.643211+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 13.7,
-      "priceEur": 170.17,
+      "reaction": 15.1,
+      "priceEur": 172.26,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -9.9,
-      "priceEur": 507.91,
+      "reaction": -9.7,
+      "priceEur": 509.52,
       "description": "Die Lockheed Martin Corporation [ˌlɔkʰidˈmɑɹtn̩] ist ein US-amerikanischer Rüstungs- und Technologiekonzern, der vor allem in der militärischen sowie zivilen Luftfahrt als auch in…",
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -136,8 +136,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -5.8,
-      "priceEur": 243.94,
+      "reaction": -5.9,
+      "priceEur": 243.5,
       "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
       "politician": null,
       "track": null,
@@ -152,7 +152,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -171,8 +171,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -4.2,
-      "priceEur": 232.24,
+      "reaction": 0.4,
+      "priceEur": 243.46,
       "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
       "politician": null,
       "track": null,
@@ -206,8 +206,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 631.04,
+      "reaction": 0.1,
+      "priceEur": 631.55,
       "description": "FICO, originally Fair, Isaac and Company, is an American data analytics company based in Bozeman, Montana, focused on credit scoring services. It was founded by Bill Fair and Earl…",
       "politician": null,
       "track": null,
@@ -236,13 +236,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "BMY",
-      "name": "Bristol Myers Squibb",
+      "tk": "CL",
+      "name": "Colgate-Palmolive",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 55.66,
+      "reaction": 0.5,
+      "priceEur": 86.87,
       "description": null,
       "politician": null,
       "track": null,
@@ -257,7 +257,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -266,19 +266,19 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Consumer Staples",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CL",
-      "name": "Colgate-Palmolive",
+      "tk": "NVDA",
+      "name": "Nvidia",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 86.48,
-      "description": "The Colgate-Palmolive Company, commonly known as Colgate-Palmolive, is an American multinational consumer products company headquartered on Park Avenue in Midtown Manhattan, New…",
+      "reaction": -7.6,
+      "priceEur": 154.42,
+      "description": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on…",
       "politician": null,
       "track": null,
       "sig": {
@@ -301,41 +301,6 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "NVDA",
-      "name": "Nvidia",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 167.17,
-      "description": "Die Nvidia Corporation ist ein US-amerikanisches Unternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "0Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
@@ -346,9 +311,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 222.38,
-      "description": "NXP Semiconductors ist ein niederländischer Halbleiterhersteller. NXP ist der im Jahr 2006 ausgegliederte Halbleiterbereich der Royal Philips. NXP bietet Halbleiter und…",
+      "reaction": 0.9,
+      "priceEur": 224.4,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -362,7 +327,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -381,8 +346,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 353.96,
+      "reaction": 0.4,
+      "priceEur": 355.25,
       "description": null,
       "politician": null,
       "track": null,
@@ -397,7 +362,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -416,8 +381,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 73.61,
+      "reaction": 0.2,
+      "priceEur": 73.76,
       "description": "Skyworks Solutions ist ein US-amerikanisches Halbleiterunternehmen mit Hauptsitz in Woburn (Massachusetts). Skyworks stellt Halbleiter für Funkfrequenz- und…",
       "politician": null,
       "track": null,
@@ -451,78 +416,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 40.92,
-      "description": "Verizon Communications Inc. is an American telecommunications company headquartered in New York City. It is the world's second-largest telecommunications company by revenue and…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "BSX",
-      "name": "Boston Scientific",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 38.29,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "DASH",
-      "name": "DoorDash",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 160.92,
-      "description": "DoorDash, Inc. is an American company operating online food ordering and food delivery. It trades under the symbol DASH. With a 56% market share, DoorDash is the largest food…",
+      "reaction": -0.6,
+      "priceEur": 40.69,
+      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -545,19 +441,89 @@
           "active": false
         }
       },
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "DASH",
+      "name": "DoorDash",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 1.2,
+      "priceEur": 162.78,
+      "description": "DoorDash Inc. ist ein US-amerikanischer On-Demand-Lieferservice, der Mahlzeiten von Restaurants an Verbraucher liefert. Die Fahrer des Lieferservices, Dasher genannt, nutzen dabei…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
       "topic": "Consumer Discretionary",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "HBAN",
-      "name": "Huntington Bancshares",
+      "tk": "ABT",
+      "name": "Abbott Laboratories",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 98.52,
+      "description": "Abbott Laboratories ist ein weltweit operierender, als Standardwert geltender und im S&P 100 als auch im Dow Jones Global Titans 50 gelisteter US-amerikanischer Pharmakonzern mit…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MCO",
+      "name": "Moody's Corporation",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 13.86,
-      "description": null,
+      "priceEur": 454.57,
+      "description": "Moody's Corporation is an American business and financial services company. It is the holding company for Moody's Ratings, an American credit rating agency, and Moody's, an…",
       "politician": null,
       "track": null,
       "sig": {
@@ -584,13 +550,47 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
+      "tk": "IR",
+      "name": "Ingersoll Rand",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 76.23,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -12.2,
-      "priceEur": 98.03,
+      "reaction": -14.8,
+      "priceEur": 95.12,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -622,8 +622,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": 2.1,
-      "priceEur": 26.07,
+      "reaction": -0.2,
+      "priceEur": 25.46,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -653,9 +653,9 @@
       "name": "PDD Holdings (Pinduoduo)",
       "broker": true,
       "market": "cn",
-      "score": 0,
-      "reaction": -4.5,
-      "priceEur": 74.37,
+      "score": 1,
+      "reaction": -6.9,
+      "priceEur": 72.49,
       "description": null,
       "politician": null,
       "track": null,
@@ -667,7 +667,8 @@
           "active": false
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -678,7 +679,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
+      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BIDU",
@@ -686,9 +687,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -21.4,
-      "priceEur": 73.33,
-      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
+      "reaction": -23.3,
+      "priceEur": 71.56,
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -718,8 +719,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -26.3,
-      "priceEur": 3.04,
+      "reaction": -27.7,
+      "priceEur": 2.98,
       "description": null,
       "politician": null,
       "track": null,
@@ -752,8 +753,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 1.0,
-      "priceEur": 11.22,
+      "reaction": -1.4,
+      "priceEur": 10.96,
       "description": null,
       "politician": null,
       "track": null,
@@ -784,9 +785,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -1.1,
-      "priceEur": 39.74,
-      "description": "Trip.com Group Limited is a multinational travel agency headquartered in Shanghai, China. It was the largest online travel service in the world in 2017.",
+      "reaction": -1.9,
+      "priceEur": 39.41,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -816,8 +817,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 2.7,
-      "priceEur": 115.94,
+      "reaction": 2.5,
+      "priceEur": 115.71,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
