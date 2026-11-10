@@ -1,20 +1,15 @@
 {
-  "generated_at": "2026-11-09T19:34:32.918881+00:00",
+  "generated_at": "2026-11-10T06:04:39.897526+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 3,
+      "vol": 4,
       "pct": 100
-    },
-    {
-      "topic": "Schifffahrt / Lieferketten",
-      "vol": 2,
-      "pct": 67
     },
     {
       "topic": "KI-Infrastruktur",
       "vol": 1,
-      "pct": 33
+      "pct": 25
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -47,6 +42,11 @@
       "pct": 0
     },
     {
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 0,
+      "pct": 0
+    },
+    {
       "topic": "Krypto-Regulierung",
       "vol": 0,
       "pct": 0
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 15.5,
-      "priceEur": 172.39,
+      "reaction": 13.9,
+      "priceEur": 170.01,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -75,12 +75,12 @@
         },
         "insider": {
           "active": true,
-          "age": "5T",
+          "age": "6T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -6.9,
-      "priceEur": 523.96,
+      "reaction": -6.6,
+      "priceEur": 525.5,
       "description": "Die Lockheed Martin Corporation [ˌlɔkʰidˈmɑɹtn̩] ist ein US-amerikanischer Rüstungs- und Technologiekonzern, der vor allem in der militärischen sowie zivilen Luftfahrt als auch in…",
       "politician": null,
       "track": null,
@@ -110,12 +110,12 @@
         },
         "insider": {
           "active": true,
-          "age": "13T",
+          "age": "14T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -136,8 +136,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -4.5,
-      "priceEur": 246.64,
+      "reaction": -3.7,
+      "priceEur": 248.62,
       "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
       "politician": null,
       "track": null,
@@ -147,12 +147,12 @@
         },
         "insider": {
           "active": true,
-          "age": "6T",
+          "age": "7T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -171,8 +171,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.1,
-      "priceEur": 239.28,
+      "reaction": -1.4,
+      "priceEur": 238.48,
       "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
       "politician": null,
       "track": null,
@@ -182,12 +182,12 @@
         },
         "insider": {
           "active": true,
-          "age": "5T",
+          "age": "6T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -205,9 +205,9 @@
       "name": "Fair Isaac",
       "broker": true,
       "market": "us",
-      "score": 3,
-      "reaction": 1.2,
-      "priceEur": 636.86,
+      "score": 2,
+      "reaction": 2.7,
+      "priceEur": 646.62,
       "description": "FICO, originally Fair, Isaac and Company, is an American data analytics company based in Bozeman, Montana, focused on credit scoring services. It was founded by Bill Fair and Earl…",
       "politician": null,
       "track": null,
@@ -217,12 +217,11 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "14Std"
+          "active": false
         },
         "predict": {
           "active": true
@@ -232,112 +231,8 @@
         }
       },
       "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "UPS",
-      "name": "United Parcel Service",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.2,
-      "priceEur": 99.27,
-      "description": "United Parcel Service, Inc. (UPS) is an American multinational shipping-and-receiving and supply chain management company founded in 1907. Originally known as the American…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "5Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "PGR",
-      "name": "Progressive Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.3,
-      "priceEur": 203.61,
-      "description": "Die Progressive Corporation ist ein US-amerikanischer Versicherungskonzern mit Sitz in Mayfield Village, Ohio. Progressive ist einer der größten Anbieter von Sachversicherungen in…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "NXPI",
-      "name": "NXP Semiconductors",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.2,
-      "priceEur": 231.14,
-      "description": "NXP Semiconductors N.V. is a Dutch semiconductor manufacturing and design company with headquarters in Eindhoven, Netherlands. It is the second-largest European semiconductor…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "GM",
@@ -345,9 +240,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 79.89,
-      "description": "Die General Motors Company (GMC) ist ein global operierender US-amerikanischer Automobilkonzern, dem weltweit mehrere Marken gehören. Die 2009 mit US-amerikanischer/kanadischer…",
+      "reaction": 0.3,
+      "priceEur": 80.1,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -356,12 +251,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -380,9 +275,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.3,
-      "priceEur": 949.11,
-      "description": "Die McKesson Corporation ist ein US-amerikanisches Unternehmen mit Hauptsitz in Irving, Texas.",
+      "reaction": -0.6,
+      "priceEur": 946.46,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -391,12 +286,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -415,8 +310,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.0,
-      "priceEur": 270.95,
+      "reaction": -0.4,
+      "priceEur": 269.87,
       "description": "Automatic Data Processing, Inc. ist ein amerikanisches Unternehmen aus Roseland im US-Bundesstaat New Jersey.",
       "politician": null,
       "track": null,
@@ -426,12 +321,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -451,7 +346,7 @@
       "market": "us",
       "score": 2,
       "reaction": 0.1,
-      "priceEur": 87.52,
+      "priceEur": 87.5,
       "description": "Colgate-Palmolive ist ein multinationaler, börsennotierter Konzern mit Stammsitz in New York City.",
       "politician": null,
       "track": null,
@@ -461,12 +356,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -485,8 +380,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 55.9,
+      "reaction": -0.7,
+      "priceEur": 55.52,
       "description": "Bristol-Myers Squibb Company, doing business as Bristol Myers Squibb, is an American multinational pharmaceutical company headquartered in Princeton, New Jersey. The company's…",
       "politician": null,
       "track": null,
@@ -496,12 +391,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -520,8 +415,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 106.09,
+      "reaction": 0.3,
+      "priceEur": 106.42,
       "description": null,
       "politician": null,
       "track": null,
@@ -531,12 +426,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -557,9 +452,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 828.95,
-      "description": null,
+      "reaction": -0.8,
+      "priceEur": 821.91,
+      "description": "Das Biotechnologie-Unternehmen Regeneron Pharmaceuticals wurde 1988 gegründet und wird an der Nasdaq-Börse unter dem Symbol „REGN“ gehandelt. Regeneron Pharmaceuticals ist…",
       "politician": null,
       "track": null,
       "sig": {
@@ -568,12 +463,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -587,13 +482,116 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "DHI",
+      "name": "D. R. Horton",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 139.03,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "COF",
+      "name": "Capital One",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 177.42,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "LRCX",
+      "name": "Lam Research",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 197.72,
+      "description": "Lam Research Corporation ist ein Hersteller und Anbieter von verfahrenstechnischen Geräten und Anlagen für die Halbleiterindustrie. Das 1980 gegründete und im kalifornischen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "11Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -15.7,
-      "priceEur": 93.97,
+      "reaction": -15.5,
+      "priceEur": 94.15,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -606,7 +604,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "15Std"
         },
         "predict": {
           "active": true
@@ -625,8 +623,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -0.8,
-      "priceEur": 25.26,
+      "reaction": -0.4,
+      "priceEur": 25.36,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -657,8 +655,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -7.6,
-      "priceEur": 71.73,
+      "reaction": -7.4,
+      "priceEur": 71.92,
       "description": null,
       "politician": null,
       "track": null,
@@ -671,7 +669,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -690,8 +688,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -22.5,
-      "priceEur": 72.07,
+      "reaction": -22.2,
+      "priceEur": 72.39,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -722,8 +720,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -26.0,
-      "priceEur": 3.04,
+      "reaction": -25.9,
+      "priceEur": 3.05,
       "description": null,
       "politician": null,
       "track": null,
@@ -733,7 +731,7 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
@@ -758,7 +756,7 @@
       "score": 0,
       "reaction": -0.6,
       "priceEur": 11.02,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -790,7 +788,7 @@
       "score": 0,
       "reaction": -1.8,
       "priceEur": 39.35,
-      "description": "Trip.com Group Limited is a multinational travel agency headquartered in Shanghai, China. It was the largest online travel service in the world in 2017.",
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -820,8 +818,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 2.9,
-      "priceEur": 115.85,
+      "reaction": 2.8,
+      "priceEur": 115.83,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
