@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T14:04:44.968711+00:00",
+  "generated_at": "2026-11-10T14:34:33.544021+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 13.9,
-      "priceEur": 170.01,
+      "reaction": 13.4,
+      "priceEur": 169.21,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -6.6,
-      "priceEur": 525.5,
+      "reaction": -6.5,
+      "priceEur": 525.94,
       "description": "Die Lockheed Martin Corporation [ˌlɔkʰidˈmɑɹtn̩] ist ein US-amerikanischer Rüstungs- und Technologiekonzern, der vor allem in der militärischen sowie zivilen Luftfahrt als auch in…",
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -136,8 +136,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.7,
-      "priceEur": 248.62,
+      "reaction": -4.9,
+      "priceEur": 245.69,
       "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
       "politician": null,
       "track": null,
@@ -171,8 +171,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.4,
-      "priceEur": 238.48,
+      "reaction": -1.0,
+      "priceEur": 239.42,
       "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
       "politician": null,
       "track": null,
@@ -187,7 +187,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -206,9 +206,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 97.78,
-      "description": null,
+      "reaction": -0.5,
+      "priceEur": 97.28,
+      "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -241,9 +241,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 347.86,
-      "description": null,
+      "reaction": 1.0,
+      "priceEur": 351.48,
+      "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -276,9 +276,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 291.01,
-      "description": "Die Stryker Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Kalamazoo, Michigan. Das Unternehmen stellt orthopädische und chirurgische Implantate und…",
+      "reaction": -0.6,
+      "priceEur": 289.29,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -292,7 +292,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -306,49 +306,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "ADI",
-      "name": "Analog Devices",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 352.6,
-      "description": "Analog Devices Inc. ist ein US-amerikanischer Halbleiterhersteller mit Hauptsitz in Norwood bei Boston, Massachusetts. Das Unternehmen betreibt weltweit Niederlassungen.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "NXPI",
       "name": "NXP Semiconductors",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 229.09,
-      "description": "NXP Semiconductors ist ein niederländischer Halbleiterhersteller. NXP ist der im Jahr 2006 ausgegliederte Halbleiterbereich der Royal Philips. NXP bietet Halbleiter und…",
+      "reaction": -2.0,
+      "priceEur": 224.43,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -381,8 +346,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 192.31,
+      "reaction": -0.7,
+      "priceEur": 191.02,
       "description": "BD  ist eines der größten internationalen Medizintechnologie-Unternehmen. Es entwickelt, produziert und vertreibt medizinische Einmalartikel, Gerätesysteme und Reagenzien. BD…",
       "politician": null,
       "track": null,
@@ -397,7 +362,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -416,8 +381,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 166.33,
+      "reaction": -0.1,
+      "priceEur": 166.09,
       "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
       "politician": null,
       "track": null,
@@ -432,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -451,9 +416,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 153.19,
-      "description": "Qualcomm Incorporated is an American multinational technology corporation headquartered in San Diego, California. The company develops and designs technologies for global…",
+      "reaction": -2.0,
+      "priceEur": 150.08,
+      "description": "Qualcomm Incorporated ist ein US-amerikanischer Halbleiterhersteller und Anbieter von Produkten für Mobilfunkkommunikation mit Sitz in San Diego, Kalifornien. Qualcomm war 2024…",
       "politician": null,
       "track": null,
       "sig": {
@@ -467,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -486,9 +451,78 @@
       "broker": true,
       "market": "us",
       "score": 2,
+      "reaction": -1.1,
+      "priceEur": 481.53,
+      "description": "Die Microsoft Corporation [ˈmaɪ.kɹoʊ.sɒft] ist ein US-amerikanischer international tätiger Hard- und Softwareentwickler und ein Technologieunternehmen mit Sitz in Redmond, einer…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "NI",
+      "name": "NiSource",
+      "broker": true,
+      "market": "us",
+      "score": 1,
       "reaction": null,
-      "priceEur": 487.07,
-      "description": "Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington. The company became influential in the rise of personal computers…",
+      "priceEur": 40.17,
+      "description": "NiSource ist ein Energieunternehmen aus den Vereinigten Staaten mit Firmensitz in Merrillville, Indiana. Das Unternehmen ist im Aktienindex S&P 500 und im Dow Jones Utility…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Utilities",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "GILD",
+      "name": "Gilead Sciences",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 151.6,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -511,18 +545,18 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "MRSH",
-      "name": "Marsh McLennan",
+      "tk": "ADP",
+      "name": "Automatic Data Processing",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 182.59,
+      "priceEur": 268.68,
       "description": null,
       "politician": null,
       "track": null,
@@ -536,41 +570,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "EBAY",
-      "name": "eBay Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 108.08,
-      "description": "eBay ist ein US-amerikanisches Unternehmen, das einen der größten Online-Marktplätze betreibt. Es wurde am 3. September 1995 von Pierre Omidyar im kalifornischen San José unter…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
           "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -579,9 +580,9 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Industrials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -589,8 +590,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -15.5,
-      "priceEur": 94.15,
+      "reaction": -16.1,
+      "priceEur": 93.45,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -622,8 +623,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -0.4,
-      "priceEur": 25.36,
+      "reaction": -0.3,
+      "priceEur": 25.39,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -654,8 +655,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -7.4,
-      "priceEur": 71.92,
+      "reaction": -7.2,
+      "priceEur": 72.06,
       "description": null,
       "politician": null,
       "track": null,
@@ -668,7 +669,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -687,8 +688,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -22.2,
-      "priceEur": 72.39,
+      "reaction": -22.9,
+      "priceEur": 71.72,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -719,8 +720,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -25.9,
-      "priceEur": 3.05,
+      "reaction": -27.0,
+      "priceEur": 3.0,
       "description": null,
       "politician": null,
       "track": null,
@@ -754,9 +755,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -0.6,
-      "priceEur": 11.02,
-      "description": null,
+      "reaction": 2.7,
+      "priceEur": 11.39,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -787,9 +788,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -1.8,
-      "priceEur": 39.35,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "reaction": -1.0,
+      "priceEur": 39.67,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -819,8 +820,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": 2.8,
-      "priceEur": 115.83,
+      "reaction": 2.2,
+      "priceEur": 115.08,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
