@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T07:04:37.329581+00:00",
+  "generated_at": "2026-11-10T07:34:30.962584+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -173,7 +173,7 @@
       "score": 3,
       "reaction": -1.4,
       "priceEur": 238.48,
-      "description": null,
+      "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
       "politician": null,
       "track": null,
       "sig": {
@@ -201,111 +201,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "ADP",
-      "name": "Automatic Data Processing",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.4,
-      "priceEur": 269.87,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CL",
-      "name": "Colgate-Palmolive",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.1,
-      "priceEur": 87.5,
-      "description": "The Colgate-Palmolive Company, commonly known as Colgate-Palmolive, is an American multinational consumer products company headquartered on Park Avenue in Midtown Manhattan, New…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "6Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "BMY",
-      "name": "Bristol Myers Squibb",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.7,
-      "priceEur": 55.52,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "4T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "DIS",
       "name": "Walt Disney Company (The)",
       "broker": true,
@@ -327,7 +222,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -399,7 +294,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -420,7 +315,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 121.4,
-      "description": "PulteGroup, Inc. is an American residential home-construction company based in Atlanta, Georgia, United States. As of 2023, the company is the third-largest home-construction…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -434,7 +329,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -455,7 +350,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 487.07,
-      "description": "Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington. The company became influential in the rise of personal computers…",
+      "description": "Die Microsoft Corporation [ˈmaɪ.kɹoʊ.sɒft] ist ein US-amerikanischer international tätiger Hard- und Softwareentwickler und ein Technologieunternehmen mit Sitz in Redmond, einer…",
       "politician": null,
       "track": null,
       "sig": {
@@ -488,9 +383,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 942.11,
-      "description": null,
+      "description": "Equinix, Inc. ist eine US-amerikanische Aktiengesellschaft, die netzbetreiberunabhängige Rechenzentrums- und Interconnection-Dienstleistungen anbietet. Das Unternehmen ist in…",
       "politician": null,
       "track": null,
       "sig": {
@@ -523,9 +418,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 315.68,
-      "description": null,
+      "description": "Charles River Laboratories ist ein US-amerikanisches Unternehmen, das Forschungs- und Analytikdienstleistungen für Pharmazieunternehmen und Forschungseinrichtungen anbietet.",
       "politician": null,
       "track": null,
       "sig": {
@@ -558,7 +453,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 166.33,
       "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
       "politician": null,
@@ -588,6 +483,111 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "BBY",
+      "name": "Best Buy",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 94.95,
+      "description": "Best Buy ist ein US-amerikanisches Unternehmen mit Firmensitz in Richfield, Minnesota.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "16Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "DD",
+      "name": "DuPont",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 138.61,
+      "description": "Dupont oder Du Pont ist der Name folgender Orte in den Vereinigten Staaten:Dupont (Indiana), im Jefferson County Dupont (Louisiana), im Pointe Coupee Parish Dupont (Ohio), im…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "16Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "EL",
+      "name": "Estée Lauder Companies (The)",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 101.1,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -607,7 +607,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -672,7 +672,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -759,7 +759,7 @@
       "score": 0,
       "reaction": -0.6,
       "priceEur": 11.02,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -791,7 +791,7 @@
       "score": 0,
       "reaction": -1.8,
       "priceEur": 39.35,
-      "description": null,
+      "description": "Trip.com Group Limited is a multinational travel agency headquartered in Shanghai, China. It was the largest online travel service in the world in 2017.",
       "politician": null,
       "track": null,
       "sig": {
@@ -823,7 +823,7 @@
       "score": 0,
       "reaction": 2.8,
       "priceEur": 115.83,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
       "sig": {
