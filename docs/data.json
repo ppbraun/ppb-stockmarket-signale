@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T08:04:36.491345+00:00",
+  "generated_at": "2026-11-10T08:34:27.856632+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -173,7 +173,7 @@
       "score": 3,
       "reaction": -1.4,
       "priceEur": 238.48,
-      "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
+      "description": "Amazon most often refers to:Amazon (company), an American multinational technology and retail company Amazon rainforest, a rainforest covering most of the Amazon basin Amazon…",
       "politician": null,
       "track": null,
       "sig": {
@@ -187,7 +187,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -201,76 +201,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "PHM",
-      "name": "PulteGroup",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 121.4,
-      "description": "PulteGroup, Inc. is an American residential home-construction company based in Atlanta, Georgia, United States. As of 2023, the company is the third-largest home-construction…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "18Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "MSFT",
-      "name": "Microsoft",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 487.07,
-      "description": "Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington. The company became influential in the rise of personal computers…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "EQIX",
       "name": "Equinix",
       "broker": true,
@@ -278,7 +208,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 942.11,
-      "description": null,
+      "description": "Equinix Inc., is an American multinational internet and data center company headquartered in Redwood City, California. It specialized in internet connectivity and data center…",
       "politician": null,
       "track": null,
       "sig": {
@@ -313,7 +243,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 315.68,
-      "description": "Charles River Laboratories ist ein US-amerikanisches Unternehmen, das Forschungs- und Analytikdienstleistungen für Pharmazieunternehmen und Forschungseinrichtungen anbietet.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -348,7 +278,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 166.33,
-      "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -362,7 +292,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -383,7 +313,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 94.95,
-      "description": "Best Buy ist ein US-amerikanisches Unternehmen mit Firmensitz in Richfield, Minnesota.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -467,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -481,46 +411,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "FFIV",
-      "name": "F5, Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 283.88,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "AMGN",
       "name": "Amgen",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 415.65,
       "description": null,
       "politician": null,
@@ -555,9 +451,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 97.78,
-      "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -585,6 +481,110 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
+      "tk": "ACN",
+      "name": "Accenture",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 227.26,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "18Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "DAL",
+      "name": "Delta Air Lines",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 82.02,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "9Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "EW",
+      "name": "Edwards Lifesciences",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 93.55,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -604,7 +604,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": true
@@ -669,7 +669,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -690,7 +690,7 @@
       "score": 1,
       "reaction": -22.2,
       "priceEur": 72.39,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
       "politician": null,
       "track": null,
       "sig": {
