@@ -1,28 +1,33 @@
 {
-  "generated_at": "2026-11-10T19:34:36.201684+00:00",
+  "generated_at": "2026-11-11T06:04:38.193140+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 7,
+      "vol": 8,
       "pct": 100
+    },
+    {
+      "topic": "Fed-Zinspolitik",
+      "vol": 1,
+      "pct": 12
     },
     {
       "topic": "Edelmetalle / Goldminen",
       "vol": 1,
-      "pct": 14
+      "pct": 12
     },
     {
       "topic": "Halbleiter / Chips",
       "vol": 1,
-      "pct": 14
+      "pct": 12
+    },
+    {
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 1,
+      "pct": 12
     },
     {
       "topic": "Zölle / Handelskonflikt",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "Fed-Zinspolitik",
       "vol": 0,
       "pct": 0
     },
@@ -38,11 +43,6 @@
     },
     {
       "topic": "Gesundheit / FDA-Zulassungen",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "Schifffahrt / Lieferketten",
       "vol": 0,
       "pct": 0
     },
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 11.7,
-      "priceEur": 166.43,
+      "reaction": 11.9,
+      "priceEur": 166.67,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -75,12 +75,12 @@
         },
         "insider": {
           "active": true,
-          "age": "6T",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -98,9 +98,9 @@
       "name": "Lockheed Martin",
       "broker": true,
       "market": "us",
-      "score": 3,
-      "reaction": -4.4,
-      "priceEur": 536.99,
+      "score": 2,
+      "reaction": -4.2,
+      "priceEur": 537.83,
       "description": "Die Lockheed Martin Corporation [ˌlɔkʰidˈmɑɹtn̩] ist ein US-amerikanischer Rüstungs- und Technologiekonzern, der vor allem in der militärischen sowie zivilen Luftfahrt als auch in…",
       "politician": null,
       "track": null,
@@ -109,13 +109,11 @@
           "active": false
         },
         "insider": {
-          "active": true,
-          "age": "14T",
-          "src": "SEC"
+          "active": false
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -128,7 +126,7 @@
       "ethics": [
         "Rüstung"
       ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "TPL",
@@ -136,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.7,
-      "priceEur": 248.26,
+      "reaction": -5.0,
+      "priceEur": 244.9,
       "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
       "politician": null,
       "track": null,
@@ -147,12 +145,12 @@
         },
         "insider": {
           "active": true,
-          "age": "7T",
+          "age": "8T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -171,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.1,
-      "priceEur": 241.14,
+      "reaction": 0.1,
+      "priceEur": 241.55,
       "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
       "politician": null,
       "track": null,
@@ -182,12 +180,12 @@
         },
         "insider": {
           "active": true,
-          "age": "6T",
+          "age": "7T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -206,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 97.63,
+      "reaction": 0.5,
+      "priceEur": 98.05,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -217,12 +215,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -241,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.4,
-      "priceEur": 351.94,
+      "reaction": 2.0,
+      "priceEur": 354.16,
       "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
       "politician": null,
       "track": null,
@@ -252,12 +250,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -276,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.3,
-      "priceEur": 286.75,
+      "reaction": -0.4,
+      "priceEur": 289.18,
       "description": null,
       "politician": null,
       "track": null,
@@ -287,12 +285,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -306,48 +304,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "IRM",
-      "name": "Iron Mountain",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.6,
-      "priceEur": 98.92,
-      "description": "Iron Mountain steht für:Iron Mountain (Michigan), Kleinstadt in den USA Iron Mountain Inc., Dienstleister für Informationsmanagement",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "8Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "AEP",
       "name": "American Electric Power",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 113.81,
+      "reaction": 0.3,
+      "priceEur": 114.0,
       "description": "American Electric Power Company, Inc. (AEP) ist ein großes Energieunternehmen aus den Vereinigten Staaten mit Firmensitz in Columbus, Ohio. Das Unternehmen ist im Aktienindex S&P…",
       "politician": null,
       "track": null,
@@ -357,12 +320,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -381,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 174.78,
+      "reaction": -0.2,
+      "priceEur": 174.64,
       "description": "Capital One Financial Corp. ist ein US-amerikanisches Unternehmen mit Sitz in McLean, Virginia. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
       "politician": null,
       "track": null,
@@ -392,12 +355,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -416,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 109.76,
+      "reaction": 0.3,
+      "priceEur": 110.15,
       "description": "eBay ist ein US-amerikanisches Unternehmen, das einen der größten Online-Marktplätze betreibt. Es wurde am 3. September 1995 von Pierre Omidyar im kalifornischen San José unter…",
       "politician": null,
       "track": null,
@@ -427,7 +390,7 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
@@ -451,9 +414,44 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.0,
-      "priceEur": 116.64,
+      "reaction": -0.2,
+      "priceEur": 116.46,
       "description": "PulteGroup, Inc. ist ein US-amerikanisches Bauunternehmen, das sich auf den Bau von privaten Eigenheimen spezialisiert hat. PulteGroup ist eines der umsatzstärksten Unternehmen in…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "14Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "EL",
+      "name": "Estée Lauder Companies (The)",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.4,
+      "priceEur": 101.15,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -476,88 +474,19 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "GD",
-      "name": "General Dynamics",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 328.58,
-      "description": "General Dynamics (GD) ist ein US-amerikanischer Rüstungskonzern. Das Unternehmen ist an der New York Stock Exchange mit dem Kürzel GD gelistet. CEO ist Phebe Novakovic.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "EL",
-      "name": "Estée Lauder Companies (The)",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 100.71,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "11Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Consumer Staples",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "EW",
-      "name": "Edwards Lifesciences",
+      "tk": "HCA",
+      "name": "HCA Healthcare",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 92.33,
-      "description": "Edwards Lifesciences mit Hauptsitz in Irvine, Kalifornien, und Edwards Lifesciences Services GmbH mit Sitz in Unterschleißheim ist ein Unternehmen auf dem Gebiet der…",
+      "priceEur": 449.81,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -584,13 +513,83 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
+      "tk": "FIS",
+      "name": "Fidelity National Information Services",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 25.25,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MSI",
+      "name": "Motorola Solutions",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 470.29,
+      "description": "Motorola Solutions ist ein börsennotierter amerikanischer Hersteller von sicherheitskritischen Kommunikationslösungen für Behörden und Organisationen mit Sicherheitsaufgaben (BOS)…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -17.7,
-      "priceEur": 91.54,
+      "reaction": -17.6,
+      "priceEur": 91.6,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -603,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -622,8 +621,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -0.9,
-      "priceEur": 25.2,
+      "reaction": -0.7,
+      "priceEur": 25.25,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -654,8 +653,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -9.0,
-      "priceEur": 70.55,
+      "reaction": -8.7,
+      "priceEur": 70.8,
       "description": null,
       "politician": null,
       "track": null,
@@ -668,7 +667,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -687,8 +686,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -23.9,
-      "priceEur": 70.66,
+      "reaction": -23.4,
+      "priceEur": 71.08,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -719,8 +718,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -29.3,
-      "priceEur": 2.9,
+      "reaction": -28.7,
+      "priceEur": 2.92,
       "description": null,
       "politician": null,
       "track": null,
@@ -730,12 +729,12 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -754,9 +753,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": 0.8,
-      "priceEur": 11.16,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "reaction": 0.6,
+      "priceEur": 11.14,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -768,7 +767,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -788,8 +787,8 @@
       "market": "cn",
       "score": 0,
       "reaction": -1.7,
-      "priceEur": 39.3,
-      "description": null,
+      "priceEur": 39.31,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -820,7 +819,7 @@
       "market": "cn",
       "score": 0,
       "reaction": 1.6,
-      "priceEur": 114.16,
+      "priceEur": 114.17,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
