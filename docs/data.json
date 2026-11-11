@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T07:34:33.418937+00:00",
+  "generated_at": "2026-11-11T08:04:33.620420+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -171,7 +171,7 @@
       "score": 3,
       "reaction": 0.5,
       "priceEur": 98.05,
-      "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
+      "description": "Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. It was founded in 1971 by Jerry Baldwin, Zev…",
       "politician": null,
       "track": null,
       "sig": {
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -269,76 +269,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "MSI",
-      "name": "Motorola Solutions",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 470.29,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "8Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "DHR",
-      "name": "Danaher Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 210.55,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "12Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "FDX",
       "name": "FedEx",
       "broker": true,
@@ -395,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -413,7 +343,7 @@
       "name": "Emerson Electric",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 3,
       "reaction": 0.0,
       "priceEur": 149.4,
       "description": "Emerson Electric Company ist ein multinationaler Konzern mit Sitz in Ferguson im US-Bundesstaat Missouri. Das Fortune-500-Unternehmen bietet Ingenieurdienstleistungen und Produkte…",
@@ -433,7 +363,7 @@
           "age": "10Std"
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
@@ -441,7 +371,7 @@
       },
       "topic": "Industrials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "SWK",
@@ -451,7 +381,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 103.83,
-      "description": "Die Stanley Black & Decker Corporation ist ein börsennotiertes US-amerikanisches Unternehmen mit Sitz in New Britain im US-Bundesstaat Connecticut. Das Unternehmen Stanley Works…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -465,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -484,9 +414,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 120.94,
-      "description": "Tapestry, Inc. is an American holding company based in New York City which is the parent company of Coach New York and Kate Spade New York. Originally named Coach, Inc., the…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -500,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -514,13 +444,48 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CSGP",
-      "name": "CoStar Group",
+      "tk": "SCHW",
+      "name": "Charles Schwab Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 82.96,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "HST",
+      "name": "Host Hotels & Resorts",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 27.05,
+      "priceEur": 23.12,
       "description": null,
       "politician": null,
       "track": null,
@@ -548,14 +513,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "SCHW",
-      "name": "Charles Schwab Corporation",
+      "tk": "GNRC",
+      "name": "Generac",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 3,
       "reaction": null,
-      "priceEur": 82.96,
-      "description": null,
+      "priceEur": 162.1,
+      "description": "Generac Holdings Inc., commonly referred to as Generac, is an American manufacturer of backup power generation products for residential, light commercial, and industrial markets.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -569,7 +534,42 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "14Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "INTU",
+      "name": "Intuit",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 303.58,
+      "description": "Intuit Inc. is an American financial technology company that develops financial software and services, including TurboTax and QuickBooks. Founded in 1983, the company is…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -578,7 +578,7 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -688,7 +688,7 @@
       "score": 1,
       "reaction": -23.4,
       "priceEur": 71.08,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine…",
       "politician": null,
       "track": null,
       "sig": {
