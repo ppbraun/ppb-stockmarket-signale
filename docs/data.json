@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T16:34:31.102403+00:00",
+  "generated_at": "2026-11-12T17:04:39.407224+00:00",
   "newsTopics": [
     {
       "topic": "Halbleiter / Chips",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 10.0,
-      "priceEur": 165.82,
+      "reaction": 9.5,
+      "priceEur": 165.11,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -99,9 +99,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.4,
-      "priceEur": 254.46,
-      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
+      "reaction": -1.9,
+      "priceEur": 255.84,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -134,9 +134,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.4,
-      "priceEur": 243.22,
-      "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
+      "reaction": -0.2,
+      "priceEur": 243.79,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.1,
-      "priceEur": 98.66,
+      "reaction": -0.5,
+      "priceEur": 98.31,
       "description": "Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. It was founded in 1971 by Jerry Baldwin, Zev…",
       "politician": null,
       "track": null,
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 5.3,
-      "priceEur": 370.11,
+      "reaction": 4.4,
+      "priceEur": 367.0,
       "description": null,
       "politician": null,
       "track": null,
@@ -240,7 +240,7 @@
       "market": "us",
       "score": 3,
       "reaction": 1.2,
-      "priceEur": 177.17,
+      "priceEur": 177.18,
       "description": null,
       "politician": null,
       "track": null,
@@ -269,49 +269,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "KMI",
-      "name": "Kinder Morgan",
+      "tk": "DHR",
+      "name": "Danaher Corporation",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.4,
-      "priceEur": 29.13,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "RCL",
-      "name": "Royal Caribbean Group",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.2,
-      "priceEur": 298.75,
-      "description": null,
+      "reaction": 0.2,
+      "priceEur": 211.98,
+      "description": "Die Danaher Corporation ist ein transnationaler Mischkonzern aus den Vereinigten Staaten, der an der New Yorker Börse und im S&P 100 unter dem Börsensymbol DHR gelistet ist. Der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -334,76 +299,6 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "MSFT",
-      "name": "Microsoft",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.6,
-      "priceEur": 476.63,
-      "description": "Die Microsoft Corporation [ˈmaɪ.kɹoʊ.sɒft] ist ein US-amerikanischer international tätiger Hard- und Softwareentwickler und ein Technologieunternehmen mit Sitz in Redmond, einer…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "DHR",
-      "name": "Danaher Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 211.61,
-      "description": "Die Danaher Corporation ist ein transnationaler Mischkonzern aus den Vereinigten Staaten, der an der New Yorker Börse und im S&P 100 unter dem Börsensymbol DHR gelistet ist. Der…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
@@ -414,9 +309,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 111.28,
-      "description": null,
+      "reaction": -0.3,
+      "priceEur": 110.83,
+      "description": "Prudential Financial, Inc. ist ein US-amerikanisches Versicherungs- und Finanzunternehmen mit Sitz in Newark im US-Bundesstaat New Jersey. Das 1875 gegründete Unternehmen ist im…",
       "politician": null,
       "track": null,
       "sig": {
@@ -449,9 +344,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 291.96,
-      "description": null,
+      "reaction": -0.2,
+      "priceEur": 291.54,
+      "description": "Die FedEx Corporation ist ein weltweit operierendes US-amerikanisches Kurier- und Logistikunternehmen mit Sitz in Memphis, Tennessee. Die Luftfracht-Division FedEx Express belegt…",
       "politician": null,
       "track": null,
       "sig": {
@@ -465,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -484,9 +379,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 205.3,
-      "description": null,
+      "reaction": 0.5,
+      "priceEur": 206.37,
+      "description": "CrowdStrike Holdings, Inc. is an American cybersecurity technology company based in Austin, Texas. It provides endpoint security, threat intelligence, and cyberattack response…",
       "politician": null,
       "track": null,
       "sig": {
@@ -500,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -519,8 +414,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 122.92,
+      "reaction": -0.2,
+      "priceEur": 122.7,
       "description": null,
       "politician": null,
       "track": null,
@@ -554,8 +449,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 263.63,
+      "reaction": 0.0,
+      "priceEur": 263.65,
       "description": "Garmin Ltd. is an American multinational technology company based in Olathe, Kansas. The company designs, develops, manufactures, markets, and distributes GPS-enabled products and…",
       "politician": null,
       "track": null,
@@ -570,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -584,13 +479,116 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "JKHY",
+      "name": "Jack Henry & Associates",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 158.67,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "DXCM",
+      "name": "Dexcom",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 73.18,
+      "description": "Dexcom, Inc. is an American multinational healthcare company that develops, manufactures, produces and distributes a line of continuous glucose monitoring (CGM) systems for…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "9Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "EW",
+      "name": "Edwards Lifesciences",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 95.5,
+      "description": "Edwards Lifesciences mit Hauptsitz in Irvine, Kalifornien, und Edwards Lifesciences Services GmbH mit Sitz in Unterschleißheim ist ein Unternehmen auf dem Gebiet der…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -23.8,
-      "priceEur": 85.73,
+      "reaction": -23.9,
+      "priceEur": 85.61,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -603,7 +601,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -622,8 +620,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -3.8,
-      "priceEur": 24.74,
+      "reaction": -3.9,
+      "priceEur": 24.72,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -636,7 +634,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -656,7 +654,7 @@
       "market": "cn",
       "score": 1,
       "reaction": -11.6,
-      "priceEur": 69.39,
+      "priceEur": 69.38,
       "description": null,
       "politician": null,
       "track": null,
@@ -689,8 +687,8 @@
       "market": "cn",
       "score": 1,
       "reaction": -25.3,
-      "priceEur": 70.17,
-      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in internet services and artificial intelligence. It holds a leading share of China's search engine market…",
+      "priceEur": 70.21,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -720,7 +718,7 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -33.3,
+      "reaction": -33.4,
       "priceEur": 2.77,
       "description": null,
       "politician": null,
@@ -755,8 +753,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -4.9,
-      "priceEur": 10.65,
+      "reaction": -5.3,
+      "priceEur": 10.6,
       "description": null,
       "politician": null,
       "track": null,
@@ -769,7 +767,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -788,9 +786,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -3.3,
-      "priceEur": 39.12,
-      "description": null,
+      "reaction": -3.4,
+      "priceEur": 39.1,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -822,7 +820,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -2.4,
-      "priceEur": 111.06,
+      "priceEur": 111.07,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
