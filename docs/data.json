@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T08:04:38.135820+00:00",
+  "generated_at": "2026-11-12T08:34:29.527104+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -171,7 +171,7 @@
       "score": 3,
       "reaction": 0.4,
       "priceEur": 98.76,
-      "description": "Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. It was founded in 1971 by Jerry Baldwin, Zev…",
+      "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -206,7 +206,7 @@
       "score": 3,
       "reaction": 4.3,
       "priceEur": 365.05,
-      "description": null,
+      "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -232,76 +232,6 @@
       "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "DHR",
-      "name": "Danaher Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 211.48,
-      "description": "Danaher Corporation is an American healthcare company headquartered in Washington, D.C.. It develops products used for advances in biotechnology, life sciences, and diagnostics.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "11Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ANET",
-      "name": "Arista Networks",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 176.76,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "HSY",
@@ -381,7 +311,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 468.34,
-      "description": "Die Microsoft Corporation [ˈmaɪ.kɹoʊ.sɒft] ist ein US-amerikanischer international tätiger Hard- und Softwareentwickler und ein Technologieunternehmen mit Sitz in Redmond, einer…",
+      "description": "Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington. The company became influential in the rise of personal computers…",
       "politician": null,
       "track": null,
       "sig": {
@@ -395,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -416,7 +346,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 491.62,
-      "description": null,
+      "description": "Vertex Pharmaceuticals ist ein US-amerikanisches biopharmazeutisches Unternehmen mit Sitz in Boston (Massachusetts). Das Unternehmen entwickelt Medikamente zur Behandlung von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -451,7 +381,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 295.91,
-      "description": null,
+      "description": "Cadence Design Systems, Inc. ist ein US-amerikanischer Anbieter von EDA-Software mit Sitz in San José. Er gehört auf diesem Gebiet zu den größten Anbietern der Welt.",
       "politician": null,
       "track": null,
       "sig": {
@@ -479,83 +409,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "GDDY",
-      "name": "GoDaddy",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 102.04,
-      "description": "GoDaddy Inc. is an American publicly traded Internet domain registry, domain registrar and web hosting company headquartered in Tempe, Arizona, and incorporated under the Delaware…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "ITW",
       "name": "Illinois Tool Works",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 259.48,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "10Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "BDX",
-      "name": "Becton Dickinson",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 192.79,
-      "description": "BD  ist eines der größten internationalen Medizintechnologie-Unternehmen. Es entwickelt, produziert und vertreibt medizinische Einmalartikel, Gerätesysteme und Reagenzien. BD…",
+      "description": "Illinois Tool Works (ITW) ist ein US-amerikanisches Unternehmen mit Firmensitz in Glenview, Illinois. ITW ist im Aktienindex S&P 500 gelistet. Zur ITW-Gruppe gehören in 56 Ländern…",
       "politician": null,
       "track": null,
       "sig": {
@@ -578,9 +439,147 @@
           "active": false
         }
       },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "BDX",
+      "name": "Becton Dickinson",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 192.79,
+      "description": "BD  ist eines der größten internationalen Medizintechnologie-Unternehmen. Es entwickelt, produziert und vertreibt medizinische Einmalartikel, Gerätesysteme und Reagenzien. BD…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "12Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
       "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "INCY",
+      "name": "Incyte",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 109.89,
+      "description": "Incyte Inc. ist ein US-amerikanisches Pharmaunternehmen mit Sitz in Wilmington, Delaware. Das Unternehmen vertreibt das durch die U.S. Food and Drug Administration (FDA) geprüfte…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "JKHY",
+      "name": "Jack Henry & Associates",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 158.08,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "PRU",
+      "name": "Prudential Financial",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 110.58,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BABA",
@@ -602,7 +601,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -635,7 +634,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -689,7 +688,7 @@
       "score": 1,
       "reaction": -23.4,
       "priceEur": 71.68,
-      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in internet services and artificial intelligence. It holds a leading share of China's search engine market…",
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -735,7 +734,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": false
@@ -801,7 +800,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": false
