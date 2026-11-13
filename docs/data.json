@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T10:34:17.474382+00:00",
+  "generated_at": "2026-11-13T11:04:37.607845+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": -2.7,
       "priceEur": 253.75,
-      "description": null,
+      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
       "politician": null,
       "track": null,
       "sig": {
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -267,41 +267,6 @@
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "ADP",
-      "name": "Automatic Data Processing",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 277.88,
-      "description": "Automatic Data Processing, Inc. ist ein amerikanisches Unternehmen aus Roseland im US-Bundesstaat New Jersey.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "KLAC",
@@ -325,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -346,7 +311,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 106.98,
-      "description": null,
+      "description": "Blackstone Inc. is an American alternative investment management company based in New York City. It was founded in 1985 as a mergers and acquisitions firm by Peter Peterson and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -360,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -395,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -430,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -465,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -484,7 +449,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 274.71,
       "description": "Ecolab Inc. ist ein weltweit führender Anbieter von Produkten und Dienstleistungen im Bereich der industriellen Reinigung und Hygiene für Hotels, Restaurants, Brauereien,…",
       "politician": null,
@@ -514,14 +479,49 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "TDY",
-      "name": "Teledyne Technologies",
+      "tk": "BA",
+      "name": "Boeing",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 154.82,
+      "description": "The Boeing Company ist ein US-amerikanischer Hersteller von Luft- und Raumfahrttechnik. Er war im Jahr 2020 der zweitgrößte Produzent innerhalb seiner Branche. Zu den Produkten…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "17Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MAR",
+      "name": "Marriott International",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 584.4,
-      "description": null,
+      "priceEur": 383.23,
+      "description": "Marriott International, Inc. ist ein börsennotiertes US-amerikanisches Hotelunternehmen mit Sitz in Bethesda, Maryland, das mehrere Hotelketten betreibt, konzessioniert und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -535,6 +535,41 @@
         },
         "macro": {
           "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "SMCI",
+      "name": "Supermicro",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 24.36,
+      "description": "Super Micro Computer, kurz Supermicro, ist ein Hersteller von Computern für Rechenzentren. Das Unternehmen wurde 1993 vom Ehepaar Charles und Chiu-Chu Liu Liang im kalifornischen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -545,41 +580,7 @@
       },
       "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "IDXX",
-      "name": "Idexx Laboratories",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 629.93,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -700,7 +701,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -755,7 +756,7 @@
       "score": 0,
       "reaction": -5.8,
       "priceEur": 10.55,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
