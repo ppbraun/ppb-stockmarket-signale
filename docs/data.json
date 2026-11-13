@@ -1,25 +1,35 @@
 {
-  "generated_at": "2026-11-13T17:04:46.379244+00:00",
+  "generated_at": "2026-11-13T17:34:34.542303+00:00",
   "newsTopics": [
     {
-      "topic": "Fed-Zinspolitik",
-      "vol": 1,
-      "pct": 100
-    },
-    {
-      "topic": "KI-Infrastruktur",
-      "vol": 1,
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 3,
       "pct": 100
     },
     {
       "topic": "Halbleiter / Chips",
-      "vol": 1,
-      "pct": 100
+      "vol": 2,
+      "pct": 67
     },
     {
-      "topic": "Schifffahrt / Lieferketten",
+      "topic": "Energie / Öl & Gas",
+      "vol": 2,
+      "pct": 67
+    },
+    {
+      "topic": "Fed-Zinspolitik",
       "vol": 1,
-      "pct": 100
+      "pct": 33
+    },
+    {
+      "topic": "KI-Infrastruktur",
+      "vol": 1,
+      "pct": 33
+    },
+    {
+      "topic": "Cybersecurity",
+      "vol": 1,
+      "pct": 33
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -37,22 +47,12 @@
       "pct": 0
     },
     {
-      "topic": "Energie / Öl & Gas",
-      "vol": 0,
-      "pct": 0
-    },
-    {
       "topic": "Gesundheit / FDA-Zulassungen",
       "vol": 0,
       "pct": 0
     },
     {
       "topic": "Krypto-Regulierung",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "Cybersecurity",
       "vol": 0,
       "pct": 0
     }
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.4,
-      "priceEur": 239.15,
+      "reaction": -2.0,
+      "priceEur": 240.0,
       "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.6,
-      "priceEur": 96.41,
+      "reaction": -2.4,
+      "priceEur": 96.65,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 3.1,
-      "priceEur": 363.06,
+      "reaction": 3.4,
+      "priceEur": 364.2,
       "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
       "politician": null,
       "track": null,
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.9,
-      "priceEur": 170.4,
+      "reaction": -2.3,
+      "priceEur": 171.53,
       "description": "Générac ist der Name zweier französischer GemeindenGénérac (Gard) in der Region Okzitanien Générac (Gironde) in der Region Nouvelle-Aquitaine",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -203,9 +203,9 @@
       "name": "Block, Inc.",
       "broker": true,
       "market": "us",
-      "score": 3,
-      "reaction": 2.2,
-      "priceEur": 76.08,
+      "score": 2,
+      "reaction": 3.1,
+      "priceEur": 76.75,
       "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
       "politician": null,
       "track": null,
@@ -223,7 +223,7 @@
           "age": "14Std"
         },
         "predict": {
-          "active": true
+          "active": false
         },
         "buzz": {
           "active": false
@@ -231,7 +231,7 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "ABNB",
@@ -239,9 +239,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.6,
-      "priceEur": 168.17,
-      "description": null,
+      "reaction": 2.7,
+      "priceEur": 168.32,
+      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -269,14 +269,84 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "P",
-      "name": "Everpure",
+      "tk": "COHR",
+      "name": "Coherent Corp.",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 2.0,
-      "priceEur": 95.37,
-      "description": "Everpure, Inc. is an American publicly traded technology company headquartered in Santa Clara, California, United States. While the company originally focused on developing…",
+      "reaction": 0.0,
+      "priceEur": 192.74,
+      "description": "Coherent Corp., vormals II-VI Incorporated, ist ein amerikanischer Hersteller von II-VI-Verbindungshalbleitern und Lasern mit Sitz in Pennsylvania. Es werden Zinkselenid für…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ALL",
+      "name": "Allstate",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -0.4,
+      "priceEur": 241.88,
+      "description": "Allstate steht für:Allstate (Automarke), Automarke des Versandhändlers Sears Allstate (Unternehmen), Versicherungsunternehmen aus Northbrook, Illinois Allstate 400 at the…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "EFX",
+      "name": "Equifax",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -0.2,
+      "priceEur": 169.92,
+      "description": "Equifax ist ein 1899 gegründetes US-amerikanisches Finanzdienstleistungsunternehmen mit Hauptsitz in Atlanta im Bundesstaat Georgia. Das Unternehmen ist vor Experian und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -299,111 +369,6 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "COHR",
-      "name": "Coherent Corp.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.2,
-      "priceEur": 192.39,
-      "description": "Coherent Corp., vormals II-VI Incorporated, ist ein amerikanischer Hersteller von II-VI-Verbindungshalbleitern und Lasern mit Sitz in Pennsylvania. Es werden Zinkselenid für…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ALL",
-      "name": "Allstate",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.3,
-      "priceEur": 242.15,
-      "description": "Allstate steht für:Allstate (Automarke), Automarke des Versandhändlers Sears Allstate (Unternehmen), Versicherungsunternehmen aus Northbrook, Illinois Allstate 400 at the…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "23Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "EFX",
-      "name": "Equifax",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.3,
-      "priceEur": 169.89,
-      "description": "Equifax ist ein 1899 gegründetes US-amerikanisches Finanzdienstleistungsunternehmen mit Hauptsitz in Atlanta im Bundesstaat Georgia. Das Unternehmen ist vor Experian und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
@@ -414,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.3,
-      "priceEur": 175.45,
+      "reaction": -0.4,
+      "priceEur": 175.22,
       "description": "Universal Health Services, Inc. (UHS) ist ein US-amerikanisches Gesundheitsdienstleistungsunternehmen, welches hauptsächlich Krankenhäuser und psychiatrische Einrichtungen…",
       "politician": null,
       "track": null,
@@ -449,8 +414,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.2,
-      "priceEur": 472.64,
+      "reaction": 0.1,
+      "priceEur": 473.9,
       "description": "Die Microsoft Corporation [ˈmaɪ.kɹoʊ.sɒft] ist ein US-amerikanischer international tätiger Hard- und Softwareentwickler und ein Technologieunternehmen mit Sitz in Redmond, einer…",
       "politician": null,
       "track": null,
@@ -465,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -479,47 +444,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "RMD",
-      "name": "ResMed",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 217.61,
-      "description": "ResMed Inc. ist ein US-amerikanisches Unternehmen für medizinische Geräte mit Sitz in San Diego, Kalifornien. Es bietet in erster Linie über die Cloud anschließbare medizinische…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1Std",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "ADP",
       "name": "Automatic Data Processing",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 279.45,
+      "reaction": -0.0,
+      "priceEur": 279.42,
       "description": "Automatic Data Processing, Inc. ist ein amerikanisches Unternehmen aus Roseland im US-Bundesstaat New Jersey.",
       "politician": null,
       "track": null,
@@ -548,14 +479,84 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "STE",
-      "name": "Steris",
+      "tk": "WYNN",
+      "name": "Wynn Resorts",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 237.85,
-      "description": "Steris plc is an American-Irish-based medical equipment company specializing in sterilization and surgical products for the US healthcare system. Steris is operationally…",
+      "priceEur": 76.57,
+      "description": "Wynn Resorts ist ein börsennotierter US-amerikanischer Konzern der Hotel- und Unterhaltungsindustrie. Das Unternehmen betreibt mehrere Hotels mit angeschlossenen Spielkasinos. Das…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "UNP",
+      "name": "Union Pacific Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 275.57,
+      "description": "Die Union Pacific Corporation ist ein börsennotiertes US-amerikanisches Unternehmen mit Sitz in Omaha, in Nebraska. Sie ist die Muttergesellschaft der Eisenbahngesellschaft Union…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "11Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "VRSN",
+      "name": "Verisign",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 282.57,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -571,15 +572,15 @@
           "active": false
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "BABA",
@@ -587,8 +588,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -24.7,
-      "priceEur": 84.94,
+      "reaction": -24.6,
+      "priceEur": 85.06,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -601,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -620,8 +621,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -2.9,
-      "priceEur": 25.04,
+      "reaction": -2.7,
+      "priceEur": 25.09,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -653,8 +654,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -9.8,
-      "priceEur": 70.95,
+      "reaction": -9.5,
+      "priceEur": 71.15,
       "description": null,
       "politician": null,
       "track": null,
@@ -686,8 +687,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -25.7,
-      "priceEur": 70.0,
+      "reaction": -25.4,
+      "priceEur": 70.26,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -719,8 +720,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -36.5,
-      "priceEur": 2.64,
+      "reaction": -36.3,
+      "priceEur": 2.65,
       "description": null,
       "politician": null,
       "track": null,
@@ -753,8 +754,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -6.0,
-      "priceEur": 10.55,
+      "reaction": -6.1,
+      "priceEur": 10.54,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -785,8 +786,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -3.2,
-      "priceEur": 39.29,
+      "reaction": -3.1,
+      "priceEur": 39.31,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -818,8 +819,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -3.4,
-      "priceEur": 110.2,
+      "reaction": -3.2,
+      "priceEur": 110.39,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
