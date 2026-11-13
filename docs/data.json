@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-13T10:04:43.243307+00:00",
+  "generated_at": "2026-11-13T10:34:17.474382+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 4,
+      "vol": 3,
       "pct": 100
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 3,
-      "pct": 75
+      "pct": 100
     },
     {
       "topic": "Fed-Zinspolitik",
       "vol": 2,
-      "pct": 50
+      "pct": 67
     },
     {
       "topic": "Halbleiter / Chips",
       "vol": 2,
-      "pct": 50
+      "pct": 67
     },
     {
       "topic": "KI-Infrastruktur",
       "vol": 1,
-      "pct": 25
+      "pct": 33
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": -2.7,
       "priceEur": 253.75,
-      "description": "The Texas Pacific Land Corporation is a publicly traded real estate operating company with its administrative office in Dallas, Texas. Owning over 880,000 acres (3,600 km2) in 20…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -241,7 +241,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 74.24,
-      "description": "Block, Inc. is an American technology company and financial services provider for consumers and merchants. Founded in 2009 by Jack Dorsey, it is the U.S. market leader in…",
+      "description": "Block, Inc., bis 10. Dezember 2021 Square, Inc., ist ein US-amerikanisches Finanzdienstleistungs- und Mobile-Payment-Unternehmen mit Hauptsitz in San Francisco. Das Unternehmen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -267,78 +267,6 @@
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "CVX",
-      "name": "Chevron Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 195.25,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "5Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "STT",
-      "name": "State Street Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 156.76,
-      "description": "State Street Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Boston. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "12Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "ADP",
@@ -383,7 +311,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 141.96,
-      "description": "KLA Corporation ist ein weltweites Unternehmen aus den Vereinigten Staaten, das Geräte zur Waferinspektion und Halbleiter-Produktionsüberwachung herstellt. Der Hauptsitz des…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -418,7 +346,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 106.98,
-      "description": "Blackstone Inc. is an American alternative investment management company based in New York City. It was founded in 1985 as a mergers and acquisitions firm by Peter Peterson and…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -432,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -467,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -481,46 +409,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "PNW",
-      "name": "Pinnacle West Capital",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 96.59,
-      "description": "Pinnacle West Capital ist ein US-amerikanisches Unternehmen mit Unternehmenssitz in Arizona. Das Unternehmen ist im Aktienindex S&P 500 gelistet. Als Holdingunternehmen betreibt…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "DUK",
       "name": "Duke Energy",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 116.05,
       "description": "Duke Energy ist ein US-amerikanisches Energieversorger mit Sitz in Charlotte, North Carolina. Das Unternehmen ist im Aktienindex S&P 500 und im Dow Jones Utility Average gelistet.",
       "politician": null,
@@ -555,7 +449,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 99.36,
       "description": "Everpure, Inc. is an American publicly traded technology company headquartered in Santa Clara, California, United States. While the company originally focused on developing…",
       "politician": null,
@@ -585,6 +479,109 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "ECL",
+      "name": "Ecolab",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 274.71,
+      "description": "Ecolab Inc. ist ein weltweit führender Anbieter von Produkten und Dienstleistungen im Bereich der industriellen Reinigung und Hygiene für Hotels, Restaurants, Brauereien,…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "17Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Materials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "TDY",
+      "name": "Teledyne Technologies",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 584.4,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "IDXX",
+      "name": "Idexx Laboratories",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 629.93,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -604,7 +601,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -637,7 +634,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": true
@@ -670,7 +667,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": false
