@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:04:35.019242+00:00",
+  "generated_at": "2026-11-13T19:34:30.978858+00:00",
   "newsTopics": [
     {
       "topic": "Schifffahrt / Lieferketten",
@@ -65,7 +65,7 @@
       "market": "us",
       "score": 3,
       "reaction": -1.9,
-      "priceEur": 240.34,
+      "priceEur": 240.28,
       "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
       "politician": null,
       "track": null,
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.0,
-      "priceEur": 97.04,
+      "reaction": -2.2,
+      "priceEur": 96.87,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 3.2,
-      "priceEur": 363.68,
+      "reaction": 3.4,
+      "priceEur": 364.44,
       "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
       "politician": null,
       "track": null,
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.1,
-      "priceEur": 171.84,
+      "reaction": -1.9,
+      "priceEur": 172.19,
       "description": "Générac ist der Name zweier französischer GemeindenGénérac (Gard) in der Region Okzitanien Générac (Gironde) in der Region Nouvelle-Aquitaine",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -204,113 +204,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 2.9,
-      "priceEur": 168.57,
+      "reaction": 3.1,
+      "priceEur": 169.0,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "UNP",
-      "name": "Union Pacific Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.4,
-      "priceEur": 274.58,
-      "description": "Die Union Pacific Corporation ist ein börsennotiertes US-amerikanisches Unternehmen mit Sitz in Omaha, in Nebraska. Sie ist die Muttergesellschaft der Eisenbahngesellschaft Union…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "12Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "VRSN",
-      "name": "Verisign",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.2,
-      "priceEur": 283.02,
-      "description": "Verisign ist ein US-amerikanisches Unternehmen mit Sitz in Reston, Virginia.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "WFC",
-      "name": "Wells Fargo",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.2,
-      "priceEur": 77.39,
-      "description": "Wells Fargo ist ein US-amerikanisches Finanzdienstleistungsunternehmen mit Sitz in San Francisco, mit Verbraucherfinanzierungs-Tochterunternehmen, die in Kanada, den Nördlichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -327,15 +223,15 @@
           "age": "4Std"
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "MET",
@@ -343,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 92.09,
+      "reaction": -0.2,
+      "priceEur": 92.06,
       "description": "Metropolitan Life Insurance Company (MetLife) ist ein US-amerikanisches Versicherungsunternehmen mit Firmensitz in New York City. Das Unternehmen ist im Aktienindex S&P 100…",
       "politician": null,
       "track": null,
@@ -378,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.8,
-      "priceEur": 97.32,
+      "reaction": 1.8,
+      "priceEur": 98.24,
       "description": "Everpure, Inc. is an American publicly traded technology company headquartered in Santa Clara, California, United States. While the company originally focused on developing…",
       "politician": null,
       "track": null,
@@ -413,8 +309,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 385.37,
+      "reaction": -0.2,
+      "priceEur": 385.18,
       "description": "Die Visa Inc. ist eine Aktiengesellschaft und neben Mastercard eine der beiden großen Firmen für Zahlungskarten und beschäftigt rund 31.600 Mitarbeiter. Visa vergibt weltweit…",
       "politician": null,
       "track": null,
@@ -448,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.1,
-      "priceEur": 998.2,
+      "reaction": -0.2,
+      "priceEur": 997.35,
       "description": "Die Costco Wholesale Corporation ist eine US-amerikanische Warenhauskette für zahlende Mitglieder mit Hauptsitz in Issaquah bei Seattle, Bundesstaat Washington. Das Unternehmen…",
       "politician": null,
       "track": null,
@@ -464,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -483,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": null,
-      "priceEur": 58.18,
+      "reaction": 0.1,
+      "priceEur": 58.23,
       "description": "A. O. Smith Corporation is an American manufacturer of both residential and commercial water heaters and boilers, and the largest manufacturer and marketer of water heaters in…",
       "politician": null,
       "track": null,
@@ -518,8 +414,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 292.38,
+      "reaction": 0.2,
+      "priceEur": 292.84,
       "description": "Cadence Design Systems, Inc. ist ein US-amerikanischer Anbieter von EDA-Software mit Sitz in San José. Er gehört auf diesem Gebiet zu den größten Anbietern der Welt.",
       "politician": null,
       "track": null,
@@ -553,8 +449,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 24.2,
+      "reaction": 0.2,
+      "priceEur": 24.24,
       "description": "Super Micro Computer, kurz Supermicro, ist ein Hersteller von Computern für Rechenzentren. Das Unternehmen wurde 1993 vom Ehepaar Charles und Chiu-Chu Liu Liang im kalifornischen…",
       "politician": null,
       "track": null,
@@ -583,13 +479,116 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "PPG",
+      "name": "PPG Industries",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 111.29,
+      "description": "PPG Industries ist ein US-amerikanischer Hersteller von Kunstglas- und Chemieprodukten mit Sitz in Pittsburgh, Pennsylvania im Hochhaus PPG Place. Das Unternehmen ist im S&P 500…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Materials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "CSCO",
+      "name": "Cisco",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 86.64,
+      "description": "Cisco Systems, Inc. ist ein US-amerikanisches Unternehmen aus der Telekommunikationsbranche. Bekannt ist es vor allem für seine Router und Switches, die von einem wesentlichen…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CHD",
+      "name": "Church & Dwight",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 101.97,
+      "description": "Church & Dwight ist ein US-amerikanischer Hersteller von Haushaltswaren.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
       "reaction": -24.7,
-      "priceEur": 85.02,
+      "priceEur": 84.99,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -602,7 +601,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -622,7 +621,7 @@
       "market": "cn",
       "score": 2,
       "reaction": -2.5,
-      "priceEur": 25.14,
+      "priceEur": 25.15,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -654,8 +653,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -9.6,
-      "priceEur": 71.14,
+      "reaction": -9.5,
+      "priceEur": 71.23,
       "description": null,
       "politician": null,
       "track": null,
@@ -687,8 +686,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -25.2,
-      "priceEur": 70.46,
+      "reaction": -25.3,
+      "priceEur": 70.35,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -720,8 +719,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -36.2,
-      "priceEur": 2.66,
+      "reaction": -36.7,
+      "priceEur": 2.63,
       "description": null,
       "politician": null,
       "track": null,
@@ -754,8 +753,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -6.2,
-      "priceEur": 10.54,
+      "reaction": -6.3,
+      "priceEur": 10.52,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -787,8 +786,8 @@
       "market": "cn",
       "score": 1,
       "reaction": -3.2,
-      "priceEur": 39.28,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "priceEur": 39.3,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -819,8 +818,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -3.3,
-      "priceEur": 110.28,
+      "reaction": -3.2,
+      "priceEur": 110.41,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
