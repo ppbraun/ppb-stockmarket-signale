@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T14:04:29.413310+00:00",
+  "generated_at": "2026-11-14T14:34:20.513086+00:00",
   "newsTopics": [
     {
       "topic": "Halbleiter / Chips",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": true
@@ -276,7 +276,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 195.75,
-      "description": "Die TE Connectivity, eine frühere Sparte der Tyco International, die unter dem Namen Tyco Electronics bekannt war, ist ein international tätiger irischer Konzern mit…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -311,7 +311,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 205.04,
-      "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
+      "description": "CrowdStrike Holdings, Inc. is an American cybersecurity technology company based in Austin, Texas. It provides endpoint security, threat intelligence, and cyberattack response…",
       "politician": null,
       "track": null,
       "sig": {
@@ -346,7 +346,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 368.67,
-      "description": "UnitedHealth ist ein US-amerikanischer börsennotierter Versicherungskonzern mit Firmensitz in Minnetonka, Minnesota. Das Unternehmen ist im Aktienindex S&P 500 gelistet und wurde…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -430,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -479,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VMRK",
-      "name": "Vivmark Residential",
+      "tk": "ROL",
+      "name": "Rollins, Inc.",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 58.11,
-      "description": "Vivmark Residential, based in Arlington, Virginia, and Chicago, Illinois, is a real estate investment trust that invests in apartments. As of August 2026, the company owned or had…",
+      "priceEur": 35.18,
+      "description": "Rollins, Inc. is a North American pest control company serving residential and commercial clients. Operating globally through its wholly owned subsidiaries, the company provides…",
       "politician": null,
       "track": null,
       "sig": {
@@ -508,19 +508,19 @@
           "active": false
         }
       },
-      "topic": "Real Estate",
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "DOC",
-      "name": "Healthpeak Properties",
+      "tk": "DAL",
+      "name": "Delta Air Lines",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 18.08,
-      "description": "Healthpeak Properties, Inc. is an American real estate investment trust that invests in senior housing, life science labs, and medical offices. As of December 31, 2025, the…",
+      "priceEur": 78.04,
+      "description": "Delta Air Lines, im Markenauftritt kurz Delta, ist eine US-amerikanische Fluggesellschaft mit Sitz in Atlanta und Mitglied der Luftfahrtallianz SkyTeam. Sie zählt zu den Major…",
       "politician": null,
       "track": null,
       "sig": {
@@ -533,7 +533,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -542,19 +543,19 @@
           "active": false
         }
       },
-      "topic": "Real Estate",
+      "topic": "Industrials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CSGP",
-      "name": "CoStar Group",
+      "tk": "IR",
+      "name": "Ingersoll Rand",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 28.01,
-      "description": "Die CoStar Group ist ein US-amerikanischer Anbieter von Wirtschaftsinformationsdiensten für den Immobiliensektor mit Sitz in Washington, D.C.",
+      "priceEur": 76.96,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -576,7 +577,7 @@
           "active": false
         }
       },
-      "topic": "Real Estate",
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -588,7 +589,7 @@
       "score": 2,
       "reaction": -24.3,
       "priceEur": 85.4,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -786,7 +787,7 @@
       "score": 0,
       "reaction": -2.8,
       "priceEur": 39.43,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -818,7 +819,7 @@
       "score": 1,
       "reaction": -3.1,
       "priceEur": 110.55,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
