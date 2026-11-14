@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-11-14T12:34:16.273732+00:00",
+  "generated_at": "2026-11-14T13:04:26.704817+00:00",
   "newsTopics": [
-    {
-      "topic": "Schifffahrt / Lieferketten",
-      "vol": 3,
-      "pct": 100
-    },
     {
       "topic": "Halbleiter / Chips",
       "vol": 2,
-      "pct": 67
+      "pct": 100
     },
     {
       "topic": "Energie / Öl & Gas",
       "vol": 2,
-      "pct": 67
+      "pct": 100
+    },
+    {
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 2,
+      "pct": 100
     },
     {
       "topic": "Fed-Zinspolitik",
       "vol": 1,
-      "pct": 33
+      "pct": 50
     },
     {
       "topic": "KI-Infrastruktur",
       "vol": 1,
-      "pct": 33
+      "pct": 50
     },
     {
       "topic": "Cybersecurity",
       "vol": 1,
-      "pct": 33
+      "pct": 50
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -241,7 +241,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 258.55,
-      "description": "Johnson & Johnson ist ein weltweit tätiger US-amerikanischer Pharmazie- und Konsumgüterhersteller mit Hauptsitz in New Brunswick im US-Bundesstaat New Jersey. Das Unternehmen ist…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -304,76 +304,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "ICE",
-      "name": "Intercontinental Exchange",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 161.52,
-      "description": "Die Intercontinental Currency Exchange (ICE) oder kurz Intercontinental Exchange ist ein Börsenbetreiber mit Sitz in Atlanta, USA, der auf den elektronischen Handel von Optionen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "NXPI",
-      "name": "NXP Semiconductors",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 239.86,
-      "description": "NXP Semiconductors ist ein niederländischer Halbleiterhersteller. NXP ist der im Jahr 2006 ausgegliederte Halbleiterbereich der Royal Philips. NXP bietet Halbleiter und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "11Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "NKE",
       "name": "Nike, Inc.",
       "broker": true,
@@ -381,7 +311,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 34.37,
-      "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -465,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -479,46 +409,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "PFG",
-      "name": "Principal Financial Group",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 102.74,
-      "description": "Die Principal Financial Group ist ein US-amerikanisches börsennotiertes multinationales Finanzinvestitionsmanagement- und Versicherungsunternehmen mit Hauptsitz in Des Moines…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "CRWD",
       "name": "CrowdStrike",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 205.04,
       "description": "Crowdstrike Holdings, Inc. mit Sitz in Austin in Texas ist ein börsennotiertes US-amerikanisches Unternehmen für Informationssicherheit und Cybersicherheitstechnologie.…",
       "politician": null,
@@ -534,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -553,7 +449,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 368.67,
       "description": "UnitedHealth ist ein US-amerikanischer börsennotierter Versicherungskonzern mit Firmensitz in Minnetonka, Minnesota. Das Unternehmen ist im Aktienindex S&P 500 gelistet und wurde…",
       "politician": null,
@@ -569,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -581,6 +477,109 @@
       "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ROL",
+      "name": "Rollins, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 35.18,
+      "description": "Rollins, Inc. is a North American pest control company serving residential and commercial clients. Operating globally through its wholly owned subsidiaries, the company provides…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "JPM",
+      "name": "JPMorgan Chase",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 313.24,
+      "description": "Die JPMorgan Chase & Co. ist eine US-amerikanische Bank mit Sitz in New York City. Mit einer Bilanzsumme von über 2.600 Mrd. US-Dollar ist sie die größte Bank der USA und laut…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "9Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "RMD",
+      "name": "ResMed",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 216.73,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BABA",
@@ -788,7 +787,7 @@
       "score": 0,
       "reaction": -2.8,
       "priceEur": 39.43,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
