@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T11:55:22.480598+00:00",
+  "generated_at": "2026-11-14T12:04:29.959523+00:00",
   "newsTopics": [
     {
       "topic": "Schifffahrt / Lieferketten",
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -241,7 +241,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 258.55,
-      "description": null,
+      "description": "Johnson & Johnson ist ein weltweit tätiger US-amerikanischer Pharmazie- und Konsumgüterhersteller mit Hauptsitz in New Brunswick im US-Bundesstaat New Jersey. Das Unternehmen ist…",
       "politician": null,
       "track": null,
       "sig": {
@@ -276,7 +276,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 195.75,
-      "description": null,
+      "description": "Die TE Connectivity, eine frühere Sparte der Tyco International, die unter dem Namen Tyco Electronics bekannt war, ist ein international tätiger irischer Konzern mit…",
       "politician": null,
       "track": null,
       "sig": {
@@ -302,41 +302,6 @@
       "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "CRWD",
-      "name": "CrowdStrike",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 205.04,
-      "description": "CrowdStrike Holdings, Inc. is an American cybersecurity technology company based in Austin, Texas. It provides endpoint security, threat intelligence, and cyberattack response…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "14Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "CVX",
@@ -486,7 +451,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 34.37,
       "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a…",
       "politician": null,
@@ -516,14 +481,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "ROP",
-      "name": "Roper Technologies",
+      "tk": "CHD",
+      "name": "Church & Dwight",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 434.29,
-      "description": null,
+      "priceEur": 102.24,
+      "description": "Church & Dwight ist ein US-amerikanischer Hersteller von Haushaltswaren.",
       "politician": null,
       "track": null,
       "sig": {
@@ -537,6 +502,41 @@
         },
         "macro": {
           "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "PLTR",
+      "name": "Palantir Technologies",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 152.0,
+      "description": "Palantir Technologies Inc. ist ein US-amerikanischer Anbieter von Software und Dienstleistungen der Systemanalyse, der auf die Auswertung großer Datenmengen und die Herstellung…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "18Std"
         },
         "predict": {
           "active": false
@@ -547,16 +547,16 @@
       },
       "topic": "Information Technology",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "RMD",
-      "name": "ResMed",
+      "tk": "EL",
+      "name": "Estée Lauder Companies (The)",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 216.73,
+      "priceEur": 101.11,
       "description": null,
       "politician": null,
       "track": null,
@@ -570,7 +570,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -579,9 +580,9 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Consumer Staples",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -591,7 +592,7 @@
       "score": 2,
       "reaction": -24.3,
       "priceEur": 85.4,
-      "description": null,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -821,7 +822,7 @@
       "score": 1,
       "reaction": -3.1,
       "priceEur": 110.55,
-      "description": null,
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
