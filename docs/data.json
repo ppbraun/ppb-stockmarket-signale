@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T08:04:35.178539+00:00",
+  "generated_at": "2026-11-14T08:34:20.859973+00:00",
   "newsTopics": [
     {
       "topic": "Halbleiter / Chips",
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": true
@@ -206,7 +206,7 @@
       "score": 3,
       "reaction": 3.1,
       "priceEur": 169.0,
-      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -232,76 +232,6 @@
       "topic": "Consumer Discretionary",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "APO",
-      "name": "Apollo Global Management",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 111.72,
-      "description": "Apollo Global Management ist ein US-amerikanisches Private-Equity-Unternehmen mit Sitz in New York City. Es ist als Investment- und Beteiligungsunternehmen tätig und wird zu den…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "16Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ICE",
-      "name": "Intercontinental Exchange",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 161.52,
-      "description": "Die Intercontinental Currency Exchange (ICE) oder kurz Intercontinental Exchange ist ein Börsenbetreiber mit Sitz in Atlanta, USA, der auf den elektronischen Handel von Optionen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "JNJ",
@@ -325,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -360,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -484,7 +414,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 198.96,
       "description": "Chevron Corporation ist ein weltweit operierender Energiekonzern. Er gehört zu den weltgrößten Ölkonzernen und ist nach eigenen Angaben der größte Produzent geothermischer Energie…",
       "politician": null,
@@ -516,14 +446,49 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "DOC",
-      "name": "Healthpeak Properties",
+      "tk": "IT",
+      "name": "Gartner",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 173.86,
+      "description": "Gartner steht für:Gartner Inc., US-amerikanisches Marktforschungsunternehmen Gartner KG, österreichisches Logistikunternehmen Josef Gartner GmbH, deutscher Hochhausfassadenbauer,…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "13Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "LYV",
+      "name": "Live Nation Entertainment",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 18.08,
-      "description": "Healthpeak Properties, Inc. is an American real estate investment trust that invests in senior housing, life science labs, and medical offices. As of December 31, 2025, the…",
+      "priceEur": 161.46,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -545,19 +510,19 @@
           "active": false
         }
       },
-      "topic": "Real Estate",
+      "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "IT",
-      "name": "Gartner",
+      "tk": "EBAY",
+      "name": "eBay Inc.",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 173.86,
-      "description": "Gartner steht für:Gartner Inc., US-amerikanisches Marktforschungsunternehmen Gartner KG, österreichisches Logistikunternehmen Josef Gartner GmbH, deutscher Hochhausfassadenbauer,…",
+      "priceEur": 109.41,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -571,7 +536,42 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PLTR",
+      "name": "Palantir Technologies",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 152.0,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -758,7 +758,7 @@
       "score": 0,
       "reaction": -6.2,
       "priceEur": 10.53,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
