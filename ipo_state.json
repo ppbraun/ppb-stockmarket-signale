@@ -941,13 +941,11 @@
    "status": "upcoming"
   }
  },
- "errors": {
-  "edgar": "EDGAR 424B4: HTTPSConnectionPool(host='www.sec.gov', port=443): Read timed out. (read timeout=30)"
- },
+ "errors": {},
  "fails": {
   "db": 0,
   "de": 0,
-  "edgar": 1,
+  "edgar": 0,
   "nasdaq": 0
  },
  "init": {
