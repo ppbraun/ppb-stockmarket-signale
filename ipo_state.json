@@ -615,6 +615,14 @@
    "name": "Cashlin",
    "ts": "2026-10-16T09:43:09+00:00"
   },
+  "0002156248": {
+   "desc": "To the extent cash or assets in our business are located in Hong Kong or held by B&T HK, such cash or assets may not be available to fund operations or for other use outside of Hong Kong due to interventions in or the imposition of restrictions and limitations by the PRC government on the ability of B&T Cayman, B&T...",
+   "form": "F-1",
+   "loc": "HONG KONG",
+   "name": "B & T Global Holding Ltd.",
+   "sic": "Wholesale-Professional & Commercial Equipment & Supplies",
+   "ts": "2026-11-16T13:35:14+00:00"
+  },
   "0002156369": {
    "desc": "Our independent registered public accounting firm is Onestop Assurance PAC, which is headquartered in Singapore and is subject to inspection by the PCAOB on a regular basis.",
    "form": "S-1",
@@ -877,6 +885,13 @@
    "price": 18.0,
    "status": "priced"
   },
+  "nasdaq:modern mining technology": {
+   "exp": null,
+   "high": 4.25,
+   "low": 4.25,
+   "price": 4.25,
+   "status": "priced"
+  },
   "nasdaq:narragansett bancorp": {
    "exp": null,
    "high": 10.0,
@@ -927,27 +942,27 @@
    "status": "priced"
   },
   "nasdaq:vvardis": {
-   "exp": "13.11.2026",
-   "high": 24.0,
-   "low": 21.0,
-   "price": null,
-   "status": "upcoming"
+   "exp": null,
+   "high": 18.0,
+   "low": 18.0,
+   "price": 18.0,
+   "status": "priced"
   },
   "nasdaq:windward bio group": {
-   "exp": "13.11.2026",
-   "high": 18.0,
-   "low": 16.0,
-   "price": null,
-   "status": "upcoming"
+   "exp": null,
+   "high": 17.0,
+   "low": 17.0,
+   "price": 17.0,
+   "status": "priced"
   }
  },
  "errors": {
-  "edgar": "EDGAR 424B4: HTTPSConnectionPool(host='www.sec.gov', port=443): Read timed out. (read timeout=30)"
+  "edgar": "EDGAR S-1: HTTPSConnectionPool(host='www.sec.gov', port=443): Read timed out. (read timeout=30)"
  },
  "fails": {
   "db": 0,
   "de": 0,
-  "edgar": 1,
+  "edgar": 2,
   "nasdaq": 0
  },
  "init": {
@@ -1062,6 +1077,7 @@
   "edgar:0001140361-26-043309:0001907709": "2026-11-12T13:43:01+00:00",
   "edgar:0001140361-26-043327:0001907709": "2026-11-13T13:02:12+00:00",
   "edgar:0001140361-26-043816:0000032604": "2026-11-14T12:06:55+00:00",
+  "edgar:0001140361-26-043938:0001907709": "2026-11-16T13:35:14+00:00",
   "edgar:0001171520-26-000307:0002153476": "2026-10-15T09:49:58+00:00",
   "edgar:0001171520-26-000318:0002158764": "2026-11-03T12:44:16+00:00",
   "edgar:0001171520-26-000334:0002153476": "2026-11-14T12:06:55+00:00",
@@ -1191,6 +1207,7 @@
   "edgar:0001193125-26-458849:0001064642": "2026-11-13T13:02:12+00:00",
   "edgar:0001193125-26-460345:0001635073": "2026-11-14T12:06:55+00:00",
   "edgar:0001193125-26-460699:0001424958": "2026-11-14T12:06:55+00:00",
+  "edgar:0001193125-26-461203:0002145089": "2026-11-16T13:35:14+00:00",
   "edgar:0001206774-26-000546:0001969995": "2026-10-04T16:42:51+00:00",
   "edgar:0001213900-26-105563:0002080023": "2026-10-04T16:42:51+00:00",
   "edgar:0001213900-26-105817:0001848275": "2026-10-04T16:42:51+00:00",
@@ -1309,6 +1326,7 @@
   "edgar:0001213900-26-119791:0001173313": "2026-11-14T12:06:55+00:00",
   "edgar:0001213900-26-119795:0001967822": "2026-11-14T12:06:55+00:00",
   "edgar:0001213900-26-119865:0002108686": "2026-11-14T12:06:55+00:00",
+  "edgar:0001213900-26-119934:0001928561": "2026-11-16T13:35:14+00:00",
   "edgar:0001214659-26-012562:0001350487": "2026-10-06T11:59:33+00:00",
   "edgar:0001214659-26-012563:0001350487": "2026-10-06T11:59:33+00:00",
   "edgar:0001224608-26-000086:0001224608": "2026-11-14T12:06:55+00:00",
@@ -1418,6 +1436,9 @@
   "edgar:0001493152-26-051694:0002158099": "2026-11-14T12:06:55+00:00",
   "edgar:0001493152-26-051855:0001854963": "2026-11-14T12:06:55+00:00",
   "edgar:0001493152-26-051860:0002023153": "2026-11-14T12:06:55+00:00",
+  "edgar:0001493152-26-051945:0001689873": "2026-11-16T13:35:14+00:00",
+  "edgar:0001493152-26-051974:0001378140": "2026-11-16T13:35:14+00:00",
+  "edgar:0001493152-26-051984:0002156248": "2026-11-16T13:35:14+00:00",
   "edgar:0001516912-26-000060:0001516912": "2026-10-10T11:08:31+00:00",
   "edgar:0001520138-26-000404:0002137360": "2026-10-04T16:42:51+00:00",
   "edgar:0001520138-26-000418:0001840102": "2026-10-10T11:08:31+00:00",
