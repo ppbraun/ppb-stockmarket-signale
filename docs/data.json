@@ -1,6 +1,11 @@
 {
-  "generated_at": "2026-11-16T16:04:55.640893+00:00",
+  "generated_at": "2026-11-16T16:34:41.383784+00:00",
   "newsTopics": [
+    {
+      "topic": "Energie / Öl & Gas",
+      "vol": 2,
+      "pct": 100
+    },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 2,
@@ -8,11 +13,6 @@
     },
     {
       "topic": "Halbleiter / Chips",
-      "vol": 1,
-      "pct": 50
-    },
-    {
-      "topic": "Energie / Öl & Gas",
       "vol": 1,
       "pct": 50
     },
@@ -65,7 +65,7 @@
       "market": "us",
       "score": 3,
       "reaction": -3.3,
-      "priceEur": 237.68,
+      "priceEur": 237.63,
       "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.2,
-      "priceEur": 99.54,
+      "reaction": -0.4,
+      "priceEur": 99.0,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.1,
-      "priceEur": 259.82,
+      "reaction": -0.3,
+      "priceEur": 258.68,
       "description": "Johnson & Johnson ist ein weltweit tätiger US-amerikanischer Pharmazie- und Konsumgüterhersteller mit Hauptsitz in New Brunswick im US-Bundesstaat New Jersey. Das Unternehmen ist…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -164,82 +164,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "DAL",
-      "name": "Delta Air Lines",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 1.2,
-      "priceEur": 79.25,
-      "description": "Delta Air Lines, im Markenauftritt kurz Delta, ist eine US-amerikanische Fluggesellschaft mit Sitz in Atlanta und Mitglied der Luftfahrtallianz SkyTeam. Sie zählt zu den Major…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "TEL",
-      "name": "TE Connectivity",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -1.1,
-      "priceEur": 194.35,
-      "description": "Die TE Connectivity, eine frühere Sparte der Tyco International, die unter dem Namen Tyco Electronics bekannt war, ist ein international tätiger irischer Konzern mit…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
       "tk": "FICO",
       "name": "Fair Isaac",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.4,
-      "priceEur": 656.23,
+      "reaction": -0.2,
+      "priceEur": 652.9,
       "description": "FICO, originally Fair, Isaac and Company, is an American data analytics company based in Bozeman, Montana, focused on credit scoring services. It was founded by Bill Fair and Earl…",
       "politician": null,
       "track": null,
@@ -271,10 +202,10 @@
       "name": "Rockwell Automation",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": -3.3,
-      "priceEur": 353.49,
-      "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
+      "score": 3,
+      "reaction": -3.4,
+      "priceEur": 353.03,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -287,7 +218,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -298,7 +230,7 @@
       },
       "topic": "Industrials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "KO",
@@ -306,9 +238,44 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.6,
-      "priceEur": 90.66,
+      "reaction": 0.2,
+      "priceEur": 90.33,
       "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "BAC",
+      "name": "Bank of America",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -1.2,
+      "priceEur": 45.76,
+      "description": "Die Bank of America Corporation ist eine US-amerikanische Großbank mit Hauptsitz in Charlotte, North Carolina. Das Unternehmen war seit Juli 2006 zeitweise das größte…",
       "politician": null,
       "track": null,
       "sig": {
@@ -331,41 +298,6 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "BAC",
-      "name": "Bank of America",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -1.2,
-      "priceEur": 45.78,
-      "description": "Die Bank of America Corporation ist eine US-amerikanische Großbank mit Hauptsitz in Charlotte, North Carolina. Das Unternehmen war seit Juli 2006 zeitweise das größte…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "14Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
@@ -376,8 +308,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.7,
-      "priceEur": 288.61,
+      "reaction": -1.6,
+      "priceEur": 288.72,
       "description": "Die Royal Caribbean Group  ist ein Kreuzfahrtunternehmen mit Sitz in Monrovia und operativer Hauptzentrale in Miami. Das Unternehmen ist das weltweit zweitgrößte…",
       "politician": null,
       "track": null,
@@ -392,7 +324,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -411,9 +343,44 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.3,
-      "priceEur": 108.34,
+      "reaction": -1.5,
+      "priceEur": 108.13,
       "description": "eBay ist ein US-amerikanisches Unternehmen, das einen der größten Online-Marktplätze betreibt. Es wurde am 3. September 1995 von Pierre Omidyar im kalifornischen San José unter…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "5Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "APO",
+      "name": "Apollo Global Management",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -0.6,
+      "priceEur": 110.34,
+      "description": "Apollo Global Management ist ein US-amerikanisches Private-Equity-Unternehmen mit Sitz in New York City. Es ist als Investment- und Beteiligungsunternehmen tätig und wird zu den…",
       "politician": null,
       "track": null,
       "sig": {
@@ -436,41 +403,6 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "APO",
-      "name": "Apollo Global Management",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.6,
-      "priceEur": 110.31,
-      "description": "Apollo Global Management ist ein US-amerikanisches Private-Equity-Unternehmen mit Sitz in New York City. Es ist als Investment- und Beteiligungsunternehmen tätig und wird zu den…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
       "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
@@ -481,8 +413,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 34.57,
+      "reaction": -0.4,
+      "priceEur": 34.45,
       "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a…",
       "politician": null,
       "track": null,
@@ -516,8 +448,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 1008.0,
+      "reaction": 0.1,
+      "priceEur": 1008.66,
       "description": "Die Costco Wholesale Corporation ist eine US-amerikanische Warenhauskette für zahlende Mitglieder mit Hauptsitz in Issaquah bei Seattle, Bundesstaat Washington. Das Unternehmen…",
       "politician": null,
       "track": null,
@@ -532,7 +464,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -546,14 +478,49 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "PCG",
-      "name": "PG&E Corporation",
+      "tk": "AMD",
+      "name": "Advanced Micro Devices",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 466.64,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "GL",
+      "name": "Globe Life",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 12.34,
-      "description": "Pacific Gas and Electric Company (PG&E) is an American investor-owned utility (IOU). The company is headquartered at Kaiser Center, in Oakland, California. PG&E provides natural…",
+      "priceEur": 145.75,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -575,9 +542,44 @@
           "active": false
         }
       },
-      "topic": "Utilities",
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "BX",
+      "name": "Blackstone Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 106.91,
+      "description": "Blackstone Inc. is an American alternative investment management company based in New York City. It was founded in 1985 as a mergers and acquisitions firm by Peter Peterson and…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -586,7 +588,7 @@
       "market": "cn",
       "score": 2,
       "reaction": -26.3,
-      "priceEur": 83.47,
+      "priceEur": 83.49,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -599,7 +601,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -618,8 +620,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -2.4,
-      "priceEur": 25.27,
+      "reaction": -2.5,
+      "priceEur": 25.23,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -650,8 +652,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -9.9,
-      "priceEur": 71.12,
+      "reaction": -10.0,
+      "priceEur": 71.01,
       "description": null,
       "politician": null,
       "track": null,
@@ -682,8 +684,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -27.3,
-      "priceEur": 68.77,
+      "reaction": -28.0,
+      "priceEur": 68.05,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -715,8 +717,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -39.1,
-      "priceEur": 2.54,
+      "reaction": -39.5,
+      "priceEur": 2.53,
       "description": null,
       "politician": null,
       "track": null,
@@ -750,8 +752,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -5.2,
-      "priceEur": 10.68,
+      "reaction": -5.6,
+      "priceEur": 10.64,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -782,7 +784,7 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -1.0,
+      "reaction": -1.1,
       "priceEur": 40.29,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
@@ -815,7 +817,7 @@
       "market": "cn",
       "score": 0,
       "reaction": -2.3,
-      "priceEur": 111.84,
+      "priceEur": 111.81,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
