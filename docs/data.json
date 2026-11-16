@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-16T09:04:56.547750+00:00",
+  "generated_at": "2026-11-16T09:34:41.983649+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 3,
+      "vol": 2,
       "pct": 100
     },
     {
-      "topic": "Fed-Zinspolitik",
-      "vol": 1,
-      "pct": 33
+      "topic": "Schifffahrt / Lieferketten",
+      "vol": 2,
+      "pct": 100
     },
     {
       "topic": "KI-Infrastruktur",
       "vol": 1,
-      "pct": 33
-    },
-    {
-      "topic": "Schifffahrt / Lieferketten",
-      "vol": 1,
-      "pct": 33
+      "pct": 50
     },
     {
       "topic": "Cybersecurity",
       "vol": 1,
-      "pct": 33
+      "pct": 50
     },
     {
       "topic": "Zölle / Handelskonflikt",
+      "vol": 0,
+      "pct": 0
+    },
+    {
+      "topic": "Fed-Zinspolitik",
       "vol": 0,
       "pct": 0
     },
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -162,40 +162,6 @@
       "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "IT",
-      "name": "Gartner",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": 0.0,
-      "priceEur": 173.86,
-      "description": "Gartner steht für:Gartner Inc., US-amerikanisches Marktforschungsunternehmen Gartner KG, österreichisches Logistikunternehmen Josef Gartner GmbH, deutscher Hochhausfassadenbauer,…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "ROK",
@@ -412,7 +378,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 300.93,
-      "description": null,
+      "description": "Public Storage ist ein Real-Estate-Investment-Trust aus den Vereinigten Staaten mit Firmensitz in Glendale, Kalifornien. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
       "politician": null,
       "track": null,
       "sig": {
@@ -474,48 +440,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CVX",
-      "name": "Chevron Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 198.96,
-      "description": "Chevron Corporation ist ein weltweit operierender Energiekonzern. Er gehört zu den weltgrößten Ölkonzernen und ist nach eigenen Angaben der größte Produzent geothermischer Energie…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "PLTR",
       "name": "Palantir Technologies",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 152.0,
       "description": "Palantir Technologies Inc. ist ein US-amerikanischer Anbieter von Software und Dienstleistungen der Systemanalyse, der auf die Auswertung großer Datenmengen und die Herstellung…",
       "politician": null,
@@ -545,14 +475,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "LYV",
-      "name": "Live Nation Entertainment",
+      "tk": "IR",
+      "name": "Ingersoll Rand",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 161.46,
-      "description": "Live Nation Entertainment ist ein US-amerikanisches Medienunternehmen mit Sitz in Beverly Hills im US-Bundesstaat Kalifornien. Das 2005 unter dem Namen CCE Spinco vom US-Konzern…",
+      "priceEur": 76.96,
+      "description": "Ingersoll-Rand ist ein international tätiger Mischkonzern mit Sitz in Davidson im Bundesstaat North Carolina, USA.",
       "politician": null,
       "track": null,
       "sig": {
@@ -574,7 +504,75 @@
           "active": false
         }
       },
-      "topic": "Communication Services",
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "ROL",
+      "name": "Rollins, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 35.18,
+      "description": "Rollins, Inc. is a North American pest control company serving residential and commercial clients. Operating globally through its wholly owned subsidiaries, the company provides…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "KKR",
+      "name": "KKR & Co.",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 88.72,
+      "description": "KKR & Co. Inc. mit Sitz in New York City ist eine börsennotierte Beteiligungsgesellschaft. Gegründet wurde KKR 1976 von Jerome Kohlberg, Jr., Henry Kravis und George R. Roberts.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -683,7 +681,7 @@
       "score": 1,
       "reaction": -25.0,
       "priceEur": 70.7,
-      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in internet services and artificial intelligence. It holds a leading share of China's search engine market…",
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
