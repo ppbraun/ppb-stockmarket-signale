@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T14:04:47.107058+00:00",
+  "generated_at": "2026-11-16T14:34:37.903928+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -10,11 +10,6 @@
       "topic": "Schifffahrt / Lieferketten",
       "vol": 2,
       "pct": 100
-    },
-    {
-      "topic": "KI-Infrastruktur",
-      "vol": 1,
-      "pct": 50
     },
     {
       "topic": "Cybersecurity",
@@ -42,6 +37,11 @@
       "pct": 0
     },
     {
+      "topic": "KI-Infrastruktur",
+      "vol": 0,
+      "pct": 0
+    },
+    {
       "topic": "Halbleiter / Chips",
       "vol": 0,
       "pct": 0
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.5,
-      "priceEur": 241.28,
+      "reaction": -3.3,
+      "priceEur": 236.89,
       "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
       "politician": null,
       "track": null,
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.7,
-      "priceEur": 96.31,
+      "reaction": -0.7,
+      "priceEur": 98.33,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 258.55,
+      "reaction": 1.3,
+      "priceEur": 261.82,
       "description": "Johnson & Johnson ist ein weltweit tätiger US-amerikanischer Pharmazie- und Konsumgüterhersteller mit Hauptsitz in New Brunswick im US-Bundesstaat New Jersey. Das Unternehmen ist…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -164,50 +164,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "CVX",
-      "name": "Chevron Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 198.96,
-      "description": "Chevron Corporation ist ein weltweit operierender Energiekonzern. Er gehört zu den weltgrößten Ölkonzernen und ist nach eigenen Angaben der größte Produzent geothermischer Energie…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "ICE",
       "name": "Intercontinental Exchange",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 161.52,
+      "reaction": 0.5,
+      "priceEur": 162.26,
       "description": "Die Intercontinental Currency Exchange (ICE) oder kurz Intercontinental Exchange ist ein Börsenbetreiber mit Sitz in Atlanta, USA, der auf den elektronischen Handel von Optionen…",
       "politician": null,
       "track": null,
@@ -222,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2T"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -241,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 157.68,
+      "reaction": 1.6,
+      "priceEur": 160.26,
       "description": null,
       "politician": null,
       "track": null,
@@ -257,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -276,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 78.04,
+      "reaction": 1.4,
+      "priceEur": 79.14,
       "description": "Delta Air Lines, im Markenauftritt kurz Delta, ist eine US-amerikanische Fluggesellschaft mit Sitz in Atlanta und Mitglied der Luftfahrtallianz SkyTeam. Sie zählt zu den Major…",
       "politician": null,
       "track": null,
@@ -292,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -311,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 195.75,
+      "reaction": -2.0,
+      "priceEur": 191.76,
       "description": "Die TE Connectivity, eine frühere Sparte der Tyco International, die unter dem Namen Tyco Electronics bekannt war, ist ein international tätiger irischer Konzern mit…",
       "politician": null,
       "track": null,
@@ -345,8 +308,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 651.64,
+      "reaction": 1.0,
+      "priceEur": 658.14,
       "description": "FICO, originally Fair, Isaac and Company, is an American data analytics company based in Bozeman, Montana, focused on credit scoring services. It was founded by Bill Fair and Earl…",
       "politician": null,
       "track": null,
@@ -379,8 +342,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 364.15,
+      "reaction": -2.3,
+      "priceEur": 355.94,
       "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
       "politician": null,
       "track": null,
@@ -413,8 +376,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 89.8,
+      "reaction": 1.0,
+      "priceEur": 90.68,
       "description": null,
       "politician": null,
       "track": null,
@@ -429,7 +392,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -448,8 +411,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.0,
-      "priceEur": 46.16,
+      "reaction": -0.5,
+      "priceEur": 45.96,
       "description": "Die Bank of America Corporation ist eine US-amerikanische Großbank mit Hauptsitz in Charlotte, North Carolina. Das Unternehmen war seit Juli 2006 zeitweise das größte…",
       "politician": null,
       "track": null,
@@ -483,8 +446,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 292.5,
+      "reaction": 0.2,
+      "priceEur": 293.05,
       "description": "Die Royal Caribbean Group  ist ein Kreuzfahrtunternehmen mit Sitz in Monrovia und operativer Hauptzentrale in Miami. Das Unternehmen ist das weltweit zweitgrößte…",
       "politician": null,
       "track": null,
@@ -513,14 +476,49 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "WY",
-      "name": "Weyerhaeuser",
+      "tk": "EBAY",
+      "name": "eBay Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 109.41,
+      "description": "eBay ist ein US-amerikanisches Unternehmen, das einen der größten Online-Marktplätze betreibt. Es wurde am 3. September 1995 von Pierre Omidyar im kalifornischen San José unter…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MPWR",
+      "name": "Monolithic Power Systems",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 18.83,
-      "description": "Weyerhaeuser ist einer der größten internationalen Forstwirtschaftskonzerne. Das Unternehmen bewirtschaftet eine Fläche von 9,9 Millionen Hektar Wald, wovon 4,3 Millionen sich in…",
+      "priceEur": 1180.74,
+      "description": "Monolithic Power Systems, Inc. (MPS) ist ein US-amerikanischer fabless Halbleiterhersteller, der Integrierte Schaltkreise für Systeme bereitstellt, die in Cloud-Computing,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -542,19 +540,19 @@
           "active": false
         }
       },
-      "topic": "Real Estate",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "UNH",
-      "name": "UnitedHealth Group",
+      "tk": "IT",
+      "name": "Gartner",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 368.67,
-      "description": "UnitedHealth ist ein US-amerikanischer börsennotierter Versicherungskonzern mit Firmensitz in Minnetonka, Minnesota. Das Unternehmen ist im Aktienindex S&P 500 gelistet und wurde…",
+      "priceEur": 174.46,
+      "description": "Gartner steht für:Gartner Inc., US-amerikanisches Marktforschungsunternehmen Gartner KG, österreichisches Logistikunternehmen Josef Gartner GmbH, deutscher Hochhausfassadenbauer,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -576,7 +574,7 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -586,8 +584,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -24.3,
-      "priceEur": 85.4,
+      "reaction": -26.4,
+      "priceEur": 83.01,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -619,8 +617,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -2.1,
-      "priceEur": 25.25,
+      "reaction": -3.0,
+      "priceEur": 25.02,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -651,8 +649,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -9.2,
-      "priceEur": 71.45,
+      "reaction": -8.9,
+      "priceEur": 71.63,
       "description": null,
       "politician": null,
       "track": null,
@@ -683,8 +681,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -25.0,
-      "priceEur": 70.7,
+      "reaction": -26.0,
+      "priceEur": 69.73,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -715,9 +713,9 @@
       "name": "NIO Inc.",
       "broker": true,
       "market": "cn",
-      "score": 1,
-      "reaction": -37.0,
-      "priceEur": 2.62,
+      "score": 2,
+      "reaction": -39.0,
+      "priceEur": 2.54,
       "description": null,
       "politician": null,
       "track": null,
@@ -731,7 +729,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "7Std"
         },
         "predict": {
           "active": false
@@ -742,7 +741,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "LI",
@@ -750,8 +749,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -6.2,
-      "priceEur": 10.53,
+      "reaction": -4.6,
+      "priceEur": 10.71,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -782,8 +781,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -2.8,
-      "priceEur": 39.43,
+      "reaction": -1.0,
+      "priceEur": 40.16,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -814,8 +813,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -3.1,
-      "priceEur": 110.55,
+      "reaction": -2.1,
+      "priceEur": 111.69,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
