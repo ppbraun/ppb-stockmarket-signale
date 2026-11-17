@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-17T14:34:23.751743+00:00",
+  "generated_at": "2026-11-17T15:05:04.989549+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 2,
+      "vol": 3,
       "pct": 100
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 2,
-      "pct": 100
+      "pct": 67
     },
     {
       "topic": "Halbleiter / Chips",
       "vol": 1,
-      "pct": 50
+      "pct": 33
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -4.6,
-      "priceEur": 234.57,
+      "reaction": -4.4,
+      "priceEur": 235.59,
       "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
       "politician": null,
       "track": null,
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.2,
-      "priceEur": 98.15,
+      "reaction": -0.7,
+      "priceEur": 98.92,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.3,
-      "priceEur": 253.48,
+      "reaction": -2.0,
+      "priceEur": 254.82,
       "description": "Johnson & Johnson ist ein weltweit tätiger US-amerikanischer Pharmazie- und Konsumgüterhersteller mit Hauptsitz in New Brunswick im US-Bundesstaat New Jersey. Das Unternehmen ist…",
       "politician": null,
       "track": null,
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.8,
-      "priceEur": 351.47,
+      "reaction": -2.6,
+      "priceEur": 356.87,
       "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
       "politician": null,
       "track": null,
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.2,
-      "priceEur": 116.4,
+      "reaction": 0.0,
+      "priceEur": 116.87,
       "description": "Walmart Inc. ist ein weltweit tätiger US-amerikanischer Einzelhandelskonzern, der einen großen Teil des US-Marktes beherrscht. Walmart ist in der Liste Fortune Global 500 auf…",
       "politician": null,
       "track": null,
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -234,47 +234,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "FICO",
-      "name": "Fair Isaac",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -0.5,
-      "priceEur": 647.8,
-      "description": "FICO, originally Fair, Isaac and Company, is an American data analytics company based in Bozeman, Montana, focused on credit scoring services. It was founded by Bill Fair and Earl…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
       "tk": "TPR",
       "name": "Tapestry, Inc.",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.2,
-      "priceEur": 119.32,
+      "reaction": 0.2,
+      "priceEur": 121.25,
       "description": "Tapestry, Inc. is an American holding company based in New York City which is the parent company of Coach New York and Kate Spade New York. Originally named Coach, Inc., the…",
       "politician": null,
       "track": null,
@@ -308,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.5,
-      "priceEur": 254.2,
+      "reaction": -0.4,
+      "priceEur": 254.9,
       "description": null,
       "politician": null,
       "track": null,
@@ -343,8 +309,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.4,
-      "priceEur": 256.58,
+      "reaction": -0.2,
+      "priceEur": 257.78,
       "description": "Cardinal Health ist ein Pharmazieunternehmen in den Vereinigten Staaten mit Firmensitz in Dublin, Ohio und international tätig. Das Unternehmen ist im Finanzindex S&P 500…",
       "politician": null,
       "track": null,
@@ -359,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -378,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -0.5,
-      "priceEur": 98.02,
+      "reaction": -0.9,
+      "priceEur": 97.91,
       "description": "Die Nasdaq, Inc. mit Sitz in New York ist einer der größten internationalen Börsenbetreiber, der im Februar 2008 aus der Fusion von NASDAQ und OMX entstand. Zur Nasdaq, Inc…",
       "politician": null,
       "track": null,
@@ -413,8 +379,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.0,
-      "priceEur": 483.34,
+      "reaction": -1.1,
+      "priceEur": 483.78,
       "description": "Vertex Pharmaceuticals ist ein US-amerikanisches biopharmazeutisches Unternehmen mit Sitz in Boston (Massachusetts). Das Unternehmen entwickelt Medikamente zur Behandlung von…",
       "politician": null,
       "track": null,
@@ -429,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": false
@@ -450,7 +416,7 @@
       "score": 2,
       "reaction": null,
       "priceEur": null,
-      "description": "Berkshire Hathaway Inc. [ˈbɜːrkʃər ˈhæθəweɪ] ist eine 1955 gegründete US-amerikanische Holdinggesellschaft mit Sitz in Omaha, Nebraska, zu deren Konglomerat über 80 Unternehmen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -464,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -483,8 +449,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 461.56,
+      "reaction": -1.1,
+      "priceEur": 457.74,
       "description": "Advanced Micro Devices, Inc. (AMD) ist ein US-amerikanisches Unternehmen der Halbleiterindustrie mit Hauptsitz in Santa Clara, Kalifornien. AMD entwickelt und vertreibt…",
       "politician": null,
       "track": null,
@@ -499,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -513,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "APTV",
-      "name": "Aptiv",
+      "tk": "NKE",
+      "name": "Nike, Inc.",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 34.17,
-      "description": "Aptiv ist ein Automobilzulieferer mit Sitz in Saint Helier auf Jersey und operativer Hauptzentrale in Schaffhausen. Gemessen am Umsatz des Jahres 2020 liegt das Unternehmen auf…",
+      "priceEur": 35.77,
+      "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a…",
       "politician": null,
       "track": null,
       "sig": {
@@ -533,7 +499,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -544,17 +511,17 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CHD",
-      "name": "Church & Dwight",
+      "tk": "SKYD",
+      "name": "Skydance",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 103.27,
-      "description": null,
+      "priceEur": 6.4,
+      "description": "Skydance Corporation ist eine US-amerikanische multinationale Mediengruppe mit Hauptsitz in New York City. Das Unternehmen entstand 2019 durch den Zusammenschluss von Viacom und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -576,7 +543,41 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
+      "topic": "Communication Services",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "DD",
+      "name": "DuPont",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 138.48,
+      "description": "Dupont oder Du Pont ist der Name folgender Orte in den Vereinigten Staaten:Dupont (Indiana), im Jefferson County Dupont (Louisiana), im Pointe Coupee Parish Dupont (Ohio), im…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -586,8 +587,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -29.3,
-      "priceEur": 80.03,
+      "reaction": -29.5,
+      "priceEur": 80.02,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -600,7 +601,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -619,8 +620,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -7.8,
-      "priceEur": 23.86,
+      "reaction": -9.4,
+      "priceEur": 23.5,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -652,8 +653,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -10.1,
-      "priceEur": 70.97,
+      "reaction": -9.3,
+      "priceEur": 71.78,
       "description": null,
       "politician": null,
       "track": null,
@@ -684,9 +685,9 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -30.1,
-      "priceEur": 66.04,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "reaction": -30.5,
+      "priceEur": 65.89,
+      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in internet services and artificial intelligence. It holds a leading share of China's search engine market…",
       "politician": null,
       "track": null,
       "sig": {
@@ -717,8 +718,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -38.5,
-      "priceEur": 2.57,
+      "reaction": -37.7,
+      "priceEur": 2.61,
       "description": null,
       "politician": null,
       "track": null,
@@ -752,8 +753,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -6.8,
-      "priceEur": 10.5,
+      "reaction": -6.2,
+      "priceEur": 10.6,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -766,7 +767,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -785,8 +786,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -2.3,
-      "priceEur": 39.78,
+      "reaction": -2.4,
+      "priceEur": 39.82,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -817,8 +818,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -5.0,
-      "priceEur": 108.79,
+      "reaction": -4.6,
+      "priceEur": 109.48,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
