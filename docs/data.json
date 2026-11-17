@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T18:04:45.397051+00:00",
+  "generated_at": "2026-11-17T18:34:42.463217+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -65,7 +65,7 @@
       "market": "us",
       "score": 3,
       "reaction": -5.0,
-      "priceEur": 233.98,
+      "priceEur": 233.94,
       "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.2,
-      "priceEur": 98.36,
+      "reaction": -1.0,
+      "priceEur": 98.58,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -135,7 +135,7 @@
       "market": "us",
       "score": 3,
       "reaction": -2.1,
-      "priceEur": 254.47,
+      "priceEur": 254.55,
       "description": "Johnson & Johnson ist ein weltweit tätiger US-amerikanischer Pharmazie- und Konsumgüterhersteller mit Hauptsitz in New Brunswick im US-Bundesstaat New Jersey. Das Unternehmen ist…",
       "politician": null,
       "track": null,
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.4,
-      "priceEur": 353.65,
+      "reaction": -2.9,
+      "priceEur": 355.71,
       "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
       "politician": null,
       "track": null,
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -204,8 +204,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.6,
-      "priceEur": 116.13,
+      "reaction": -0.4,
+      "priceEur": 116.34,
       "description": "Walmart Inc. ist ein weltweit tätiger US-amerikanischer Einzelhandelskonzern, der einen großen Teil des US-Marktes beherrscht. Walmart ist in der Liste Fortune Global 500 auf…",
       "politician": null,
       "track": null,
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -239,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -1.0,
-      "priceEur": 253.44,
+      "reaction": -0.8,
+      "priceEur": 253.92,
       "description": null,
       "politician": null,
       "track": null,
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -269,83 +269,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "EQIX",
-      "name": "Equinix",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.4,
-      "priceEur": 943.1,
-      "description": "Equinix Inc., is an American multinational internet and data center company headquartered in Redwood City, California. It specialized in internet connectivity and data center…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "AFL",
-      "name": "Aflac",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.7,
-      "priceEur": 117.24,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1Std",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "18Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "DVN",
       "name": "Devon Energy",
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -0.6,
-      "priceEur": 40.17,
+      "reaction": -0.5,
+      "priceEur": 40.22,
       "description": "Devon Energy Corp. ist ein US-amerikanisches Unternehmen mit Firmensitz in Oklahoma City. Das Unternehmen ist im Aktienindex S&P 500 an der New Yorker Börse gelistet. Devon Energy…",
       "politician": null,
       "track": null,
@@ -360,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -376,48 +306,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "GILD",
-      "name": "Gilead Sciences",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.5,
-      "priceEur": 155.07,
-      "description": "Gilead Sciences, Inc. ist ein Pharmazie- und Biotechnologieunternehmen aus den Vereinigten Staaten mit Sitz in Foster City, Kalifornien. Das Unternehmen ist im S&P 500 gelistet.…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "BKR",
       "name": "Baker Hughes",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.1,
-      "priceEur": 43.43,
+      "reaction": 0.0,
+      "priceEur": 43.42,
       "description": "Baker Hughes ist eine der führenden Erdöl-Service-Gesellschaften der Welt. Sie entstand 1987 aus der Fusion von Baker International und der Hughes Tool Company. Der Hauptsitz der…",
       "politician": null,
       "track": null,
@@ -451,8 +346,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 1.7,
-      "priceEur": 62.81,
+      "reaction": 2.1,
+      "priceEur": 63.04,
       "description": "Uber steht für:Uber (Unternehmen), Vermittlungsdienst zur Personenbeförderung und Essensauslieferung Uber Cup, Weltmeisterschaft für Damen-Nationalmannschaften im Badminton",
       "politician": null,
       "track": null,
@@ -467,7 +362,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -486,8 +381,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 33.92,
+      "reaction": 0.1,
+      "priceEur": 33.96,
       "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon. It is the world's largest supplier of athletic shoes and apparel and a…",
       "politician": null,
       "track": null,
@@ -502,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "0Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -521,9 +416,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 102.88,
-      "description": null,
+      "reaction": -0.2,
+      "priceEur": 102.72,
+      "description": "Church & Dwight ist ein US-amerikanischer Hersteller von Haushaltswaren.",
       "politician": null,
       "track": null,
       "sig": {
@@ -537,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -556,8 +451,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 258.82,
+      "reaction": 0.1,
+      "priceEur": 259.05,
       "description": "Arthur J. Gallagher & Co. ist ein international tätiges US-amerikanisches Dienstleistungsunternehmen. Es wurde 1927 von Arthur J. Gallagher in Chicago gegründet und hat heute…",
       "politician": null,
       "track": null,
@@ -572,7 +467,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -586,13 +481,116 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "RCL",
+      "name": "Royal Caribbean Group",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 284.94,
+      "description": "Die Royal Caribbean Group  ist ein Kreuzfahrtunternehmen mit Sitz in Monrovia und operativer Hauptzentrale in Miami. Das Unternehmen ist das weltweit zweitgrößte…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "6Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "WTW",
+      "name": "Willis Towers Watson",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 304.21,
+      "description": "Willis Towers Watson ist ein globales multinationales Risikomanagement-, Versicherungsmakler- und Beratungsunternehmen mit Sitz im irischen Dublin und operativer Hauptzentrale im…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "IRM",
+      "name": "Iron Mountain",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 100.93,
+      "description": "Iron Mountain steht für:Iron Mountain (Michigan), Kleinstadt in den USA Iron Mountain Inc., Dienstleister für Informationsmanagement",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Real Estate",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -30.3,
-      "priceEur": 79.08,
+      "reaction": -29.9,
+      "priceEur": 79.51,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -624,8 +622,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -9.2,
-      "priceEur": 23.55,
+      "reaction": -8.7,
+      "priceEur": 23.68,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -657,8 +655,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -10.3,
-      "priceEur": 70.99,
+      "reaction": -10.1,
+      "priceEur": 71.09,
       "description": null,
       "politician": null,
       "track": null,
@@ -689,8 +687,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -31.1,
-      "priceEur": 65.28,
+      "reaction": -31.0,
+      "priceEur": 65.42,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -703,7 +701,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -722,8 +720,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -38.4,
-      "priceEur": 2.58,
+      "reaction": -37.8,
+      "priceEur": 2.6,
       "description": null,
       "politician": null,
       "track": null,
@@ -738,7 +736,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -757,9 +755,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -6.4,
-      "priceEur": 10.57,
-      "description": null,
+      "reaction": -5.8,
+      "priceEur": 10.64,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -790,8 +788,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -2.6,
-      "priceEur": 39.75,
+      "reaction": -2.4,
+      "priceEur": 39.83,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -822,8 +820,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -4.8,
-      "priceEur": 109.22,
+      "reaction": -4.4,
+      "priceEur": 109.68,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
