@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-17T11:08:30.987861+00:00",
+  "generated_at": "2026-11-17T11:34:23.374642+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 2,
+      "vol": 3,
       "pct": 100
     },
     {
       "topic": "Schifffahrt / Lieferketten",
       "vol": 2,
-      "pct": 100
+      "pct": 67
     },
     {
       "topic": "Halbleiter / Chips",
       "vol": 1,
-      "pct": 50
+      "pct": 33
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -136,7 +136,7 @@
       "score": 3,
       "reaction": -1.1,
       "priceEur": 256.54,
-      "description": null,
+      "description": "Johnson & Johnson ist ein weltweit tätiger US-amerikanischer Pharmazie- und Konsumgüterhersteller mit Hauptsitz in New Brunswick im US-Bundesstaat New Jersey. Das Unternehmen ist…",
       "politician": null,
       "track": null,
       "sig": {
@@ -171,7 +171,7 @@
       "score": 3,
       "reaction": -4.4,
       "priceEur": 349.47,
-      "description": null,
+      "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": true
@@ -236,41 +236,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "EQIX",
-      "name": "Equinix",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 947.04,
-      "description": "Equinix Inc., is an American multinational internet and data center company headquartered in Redwood City, California. It specialized in internet connectivity and data center…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "YUM",
       "name": "Yum! Brands",
       "broker": true,
@@ -278,7 +243,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 147.29,
-      "description": "Die Yum! Brands, Inc. ist eine der weltgrößten Unternehmensgruppen für Systemgastronomie mit mehr als 44.000 Restaurants in 151 Ländern und Gebieten. Die Hauptzentrale des…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -313,7 +278,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 152.15,
-      "description": "Gilead Sciences, Inc. ist ein Pharmazie- und Biotechnologieunternehmen aus den Vereinigten Staaten mit Sitz in Foster City, Kalifornien. Das Unternehmen ist im S&P 500 gelistet.…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -348,7 +313,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 116.29,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -418,7 +383,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 145.86,
-      "description": "Emerson Electric Co., commonly known as Emerson, is an American multinational corporation headquartered in St. Louis, Missouri. The Fortune 500 company manufactures and delivers a…",
+      "description": "Emerson Electric Company ist ein multinationaler Konzern mit Sitz in Ferguson im US-Bundesstaat Missouri. Das Fortune-500-Unternehmen bietet Ingenieurdienstleistungen und Produkte…",
       "politician": null,
       "track": null,
       "sig": {
@@ -432,7 +397,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -467,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -486,7 +451,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 63.55,
       "description": "Uber Technologies, Inc. is an American multinational transportation company that provides ride-hailing services, courier services, food delivery, and freight transport. It is…",
       "politician": null,
@@ -516,14 +481,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "SKYD",
-      "name": "Skydance",
+      "tk": "MRK",
+      "name": "Merck & Co.",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 6.39,
-      "description": "Skydance Corporation is an American multinational entertainment and media conglomerate. Founded on August 7, 2025, it was formed through the merger of Paramount Global and…",
+      "priceEur": 131.16,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -536,7 +501,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "13Std"
         },
         "predict": {
           "active": false
@@ -545,19 +511,19 @@
           "active": false
         }
       },
-      "topic": "Communication Services",
+      "topic": "Health Care",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VRSK",
-      "name": "Verisk Analytics",
+      "tk": "SNA",
+      "name": "Snap-on",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 193.17,
-      "description": "Verisk Analytics ist ein US-amerikanisches Datenanalyse-Unternehmen mit Sitz in Jersey City.",
+      "priceEur": 331.39,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -584,6 +550,41 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
+      "tk": "NKE",
+      "name": "Nike, Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 34.74,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -603,7 +604,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -736,7 +737,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -757,7 +758,7 @@
       "score": 1,
       "reaction": -6.9,
       "priceEur": 10.49,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
