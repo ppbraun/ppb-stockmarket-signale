@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T10:34:24.325917+00:00",
+  "generated_at": "2026-11-18T11:04:39.535037+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -136,7 +136,7 @@
       "score": 3,
       "reaction": -2.5,
       "priceEur": 253.62,
-      "description": "Johnson & Johnson ist ein weltweit tätiger US-amerikanischer Pharmazie- und Konsumgüterhersteller mit Hauptsitz in New Brunswick im US-Bundesstaat New Jersey. Das Unternehmen ist…",
+      "description": "Johnson & Johnson (J&J) is an American multinational pharmaceutical, biotechnology, and medical technologies corporation headquartered in New Brunswick, New Jersey. The company is…",
       "politician": null,
       "track": null,
       "sig": {
@@ -171,7 +171,7 @@
       "score": 3,
       "reaction": -2.8,
       "priceEur": 356.05,
-      "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -206,7 +206,7 @@
       "score": 3,
       "reaction": -0.7,
       "priceEur": 116.04,
-      "description": "Walmart Inc. ist ein weltweit tätiger US-amerikanischer Einzelhandelskonzern, der einen großen Teil des US-Marktes beherrscht. Walmart ist in der Liste Fortune Global 500 auf…",
+      "description": "Walmart Inc. is an American multinational omnichannel retail corporation that operates a chain of hypermarkets, discount department stores, grocery stores, pharmacies, and gas…",
       "politician": null,
       "track": null,
       "sig": {
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -376,76 +376,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "F",
-      "name": "Ford Motor Company",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 10.32,
-      "description": "Die Ford Motor Company mit Sitz im US-amerikanischen Dearborn ist der nach Volkswagen, Toyota, General Motors, Hyundai und Stellantis sechstgrößte Kraftfahrzeughersteller…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "11Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "BAC",
-      "name": "Bank of America",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 44.99,
-      "description": "Die Bank of America Corporation ist eine US-amerikanische Großbank mit Hauptsitz in Charlotte, North Carolina. Das Unternehmen war seit Juli 2006 zeitweise das größte…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "META",
       "name": "Meta Platforms",
       "broker": true,
@@ -481,48 +411,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "HCA",
-      "name": "HCA Healthcare",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 456.08,
-      "description": "HCA Healthcare, Inc. is an American global for-profit operator of health care facilities that was founded in 1968. It is based in Nashville, Tennessee, and, as of May 2020, owned…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "WSM",
       "name": "Williams-Sonoma, Inc.",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 227.55,
-      "description": "Williams-Sonoma, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in San Francisco, das spezielle Kochutensilien und andere Haushaltswaren sowie eine Auswahl an Lebensmittel,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -536,7 +432,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": false
@@ -555,9 +451,79 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 108.37,
-      "description": "Incyte Corporation is an American multinational pharmaceutical company with headquarters in Wilmington, Delaware. The company currently operates manufacturing and R&D locations in…",
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "21Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ETN",
+      "name": "Eaton Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 306.77,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "6Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CBRE",
+      "name": "CBRE Group",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 118.95,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -580,7 +546,42 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Real Estate",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "TRMB",
+      "name": "Trimble Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 48.79,
+      "description": "Trimble Inc. is an American software, hardware, and services technology company that was founded in 1978. Its headquarters is in Westminster, Colorado. It is publicly traded on…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "20Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -604,7 +605,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -637,7 +638,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -690,7 +691,7 @@
       "score": 2,
       "reaction": -31.7,
       "priceEur": 64.75,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in internet services and artificial intelligence. It holds a leading share of China's search engine market…",
       "politician": null,
       "track": null,
       "sig": {
@@ -702,7 +703,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -758,7 +759,7 @@
       "score": 1,
       "reaction": -6.8,
       "priceEur": 10.53,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -770,7 +771,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -823,7 +824,7 @@
       "score": 0,
       "reaction": -5.1,
       "priceEur": 108.85,
-      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
+      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
       "sig": {
