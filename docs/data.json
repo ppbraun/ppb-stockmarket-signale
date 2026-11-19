@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T07:04:36.439401+00:00",
+  "generated_at": "2026-11-19T07:34:37.116129+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -206,7 +206,7 @@
       "score": 3,
       "reaction": -0.8,
       "priceEur": 116.12,
-      "description": "Walmart Inc. is an American multinational omnichannel retail corporation that operates a chain of hypermarkets, discount department stores, grocery stores, pharmacies, and gas…",
+      "description": "Walmart Inc. ist ein weltweit tätiger US-amerikanischer Einzelhandelskonzern, der einen großen Teil des US-Marktes beherrscht. Walmart ist in der Liste Fortune Global 500 auf…",
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -325,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -360,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": true
@@ -409,41 +409,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "INCY",
-      "name": "Incyte",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 107.4,
-      "description": "Incyte Inc. ist ein US-amerikanisches Pharmaunternehmen mit Sitz in Wilmington, Delaware. Das Unternehmen vertreibt das durch die U.S. Food and Drug Administration (FDA) geprüfte…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "14Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "MRNA",
       "name": "Moderna",
       "broker": true,
@@ -465,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -479,81 +444,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "TWLO",
-      "name": "Twilio",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 178.64,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "16Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "RMD",
-      "name": "ResMed",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 221.2,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "ISRG",
       "name": "Intuitive Surgical",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 383.8,
       "description": "Intuitive Surgical ist ein US-amerikanisches Unternehmen der Medizintechnik mit Hauptsitz in Sunnyvale, CA.",
       "politician": null,
@@ -569,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -579,6 +475,109 @@
         }
       },
       "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "VRSN",
+      "name": "Verisign",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 280.01,
+      "description": "Verisign ist ein US-amerikanisches Unternehmen mit Sitz in Reston, Virginia.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "AJG",
+      "name": "Arthur J. Gallagher & Co.",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 257.31,
+      "description": "Arthur J. Gallagher & Co. ist ein international tätiges US-amerikanisches Dienstleistungsunternehmen. Es wurde 1927 von Arthur J. Gallagher in Chicago gegründet und hat heute…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "RDDT",
+      "name": "Reddit",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 85.79,
+      "description": "Reddit ist ein Internetforum und Social-News-Aggregator. Auf der Social-Media-Website (Online-Community) können registrierte Benutzer Inhalte einstellen und mit anderen Nutzern…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "17Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Communication Services",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -602,7 +601,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -701,7 +700,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -736,7 +735,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -757,7 +756,7 @@
       "score": 0,
       "reaction": -7.3,
       "priceEur": 10.49,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -789,7 +788,7 @@
       "score": 0,
       "reaction": -4.0,
       "priceEur": 39.25,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
