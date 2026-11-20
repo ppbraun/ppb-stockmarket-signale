@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T12:04:32.927291+00:00",
+  "generated_at": "2026-11-20T12:34:39.544865+00:00",
   "newsTopics": [
     {
       "topic": "Energie / Öl & Gas",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -241,7 +241,7 @@
       "score": 3,
       "reaction": -3.0,
       "priceEur": 51.28,
-      "description": "PayPal Holdings, Inc. is an American multinational financial technology company operating an online payments system in the majority of countries that support online money…",
+      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
       "sig": {
@@ -276,7 +276,7 @@
       "score": 3,
       "reaction": -1.3,
       "priceEur": 367.68,
-      "description": null,
+      "description": "Tyler Technologies, Inc. is an American technology company based in Plano, Texas, that provides proprietary software to the U.S. public sector. Tyler Technologies has offices in…",
       "politician": null,
       "track": null,
       "sig": {
@@ -325,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -444,14 +444,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "ICE",
-      "name": "Intercontinental Exchange",
+      "tk": "FANG",
+      "name": "Diamondback Energy",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": 0.0,
-      "priceEur": 155.46,
-      "description": "Die Intercontinental Currency Exchange (ICE) oder kurz Intercontinental Exchange ist ein Börsenbetreiber mit Sitz in Atlanta, USA, der auf den elektronischen Handel von Optionen…",
+      "priceEur": 160.82,
+      "description": "Diamondback Energy, Inc. ist ein US-amerikanisches Unternehmen, das in der Förderung von Erdöl, Erdgas und Flüssigerdgas tätig ist und seinen Hauptsitz in Midland, Texas hat. Alle…",
       "politician": null,
       "track": null,
       "sig": {
@@ -465,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -474,54 +474,21 @@
           "active": false
         }
       },
-      "topic": "Financials",
-      "ethics": [],
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AKAM",
-      "name": "Akamai Technologies",
+      "tk": "BRK.B",
+      "name": "Berkshire Hathaway",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 83.43,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "9Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "AMD",
-      "name": "Advanced Micro Devices",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 445.04,
-      "description": null,
+      "priceEur": null,
+      "description": "Berkshire Hathaway Inc. [ˈbɜːrkʃər ˈhæθəweɪ] ist eine 1955 gegründete US-amerikanische Holdinggesellschaft mit Sitz in Omaha, Nebraska, zu deren Konglomerat über 80 Unternehmen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -544,19 +511,19 @@
           "active": false
         }
       },
-      "topic": "Information Technology",
+      "topic": "Financials",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "FANG",
-      "name": "Diamondback Energy",
+      "tk": "BX",
+      "name": "Blackstone Inc.",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 160.82,
-      "description": "Diamondback Energy, Inc. ist ein US-amerikanisches Unternehmen, das in der Förderung von Erdöl, Erdgas und Flüssigerdgas tätig ist und seinen Hauptsitz in Midland, Texas hat. Alle…",
+      "priceEur": 105.52,
+      "description": "Blackstone Inc. is an American alternative investment management company based in New York City. It was founded in 1985 as a mergers and acquisitions firm by Peter Peterson and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -570,7 +537,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -579,10 +546,43 @@
           "active": false
         }
       },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PPL",
+      "name": "PPL Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 31.58,
+      "description": "PPL Corporation is an energy company headquartered in Allentown, Pennsylvania in the Lehigh Valley region of eastern Pennsylvania. The company is publicly traded on the New York…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "19Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Utilities",
+      "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
@@ -739,7 +739,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -760,7 +760,7 @@
       "score": 1,
       "reaction": -9.4,
       "priceEur": 10.23,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -772,7 +772,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -793,7 +793,7 @@
       "score": 1,
       "reaction": -5.8,
       "priceEur": 38.45,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -805,7 +805,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -838,7 +838,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
