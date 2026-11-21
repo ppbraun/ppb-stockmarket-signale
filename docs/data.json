@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T17:34:34.914389+00:00",
+  "generated_at": "2026-11-21T18:04:27.527735+00:00",
   "newsTopics": [
     {
       "topic": "Halbleiter / Chips",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -171,7 +171,7 @@
       "score": 3,
       "reaction": -10.1,
       "priceEur": 329.33,
-      "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "23Std"
         },
         "predict": {
           "active": true
@@ -206,7 +206,7 @@
       "score": 3,
       "reaction": -8.3,
       "priceEur": 48.49,
-      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
+      "description": "PayPal Holdings, Inc. is an American multinational financial technology company operating an online payments system in the majority of countries that support online money…",
       "politician": null,
       "track": null,
       "sig": {
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -241,7 +241,7 @@
       "score": 3,
       "reaction": -6.0,
       "priceEur": 155.01,
-      "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
+      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
       "politician": null,
       "track": null,
       "sig": {
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -276,7 +276,7 @@
       "score": 3,
       "reaction": -0.9,
       "priceEur": 177.43,
-      "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -311,7 +311,7 @@
       "score": 3,
       "reaction": 3.7,
       "priceEur": 32.52,
-      "description": "General Mills ist ein US-amerikanisches Unternehmen der Nahrungsmittelindustrie und gehört mit einem Umsatz von 18,9 Mrd. US-Dollar (2022) zu den 500 umsatzstärksten Konzernen der…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -444,13 +444,83 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "HD",
-      "name": "Home Depot (The)",
+      "tk": "APO",
+      "name": "Apollo Global Management",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": 0.0,
-      "priceEur": 308.5,
+      "priceEur": 101.15,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "GM",
+      "name": "General Motors",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 71.62,
+      "description": "General Motors Company (GM) is an American multinational automotive manufacturing company headquartered in Detroit, Michigan, United States. The company is most known for owning…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "20Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ORCL",
+      "name": "Oracle Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 92.07,
       "description": null,
       "politician": null,
       "track": null,
@@ -474,19 +544,19 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "IDXX",
-      "name": "Idexx Laboratories",
+      "tk": "CSCO",
+      "name": "Cisco",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 615.3,
-      "description": "IDEXX Laboratories ist ein US-amerikanisches multinationales Unternehmen, das sich auf Entwicklung, Herstellung und den Vertrieb von Produkten und Dienstleistungen für Heimtiere,…",
+      "priceEur": 82.48,
+      "description": "Cisco Systems, Inc., doing business as Cisco, is an American multinational technology conglomerate corporation that develops, manufactures, and sells hardware, software,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -500,7 +570,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -509,77 +579,7 @@
           "active": false
         }
       },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ISRG",
-      "name": "Intuitive Surgical",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 363.1,
-      "description": "Intuitive Surgical ist ein US-amerikanisches Unternehmen der Medizintechnik mit Hauptsitz in Sunnyvale, CA.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "APO",
-      "name": "Apollo Global Management",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 101.15,
-      "description": "Apollo Global Management ist ein US-amerikanisches Private-Equity-Unternehmen mit Sitz in New York City. Es ist als Investment- und Beteiligungsunternehmen tätig und wird zu den…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "3Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -603,7 +603,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -702,7 +702,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": true
@@ -735,7 +735,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
@@ -756,7 +756,7 @@
       "score": 1,
       "reaction": -16.3,
       "priceEur": 9.45,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -789,7 +789,7 @@
       "score": 1,
       "reaction": -9.7,
       "priceEur": 36.87,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -801,7 +801,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -822,7 +822,7 @@
       "score": 1,
       "reaction": -20.8,
       "priceEur": 90.86,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": "NetEase, Inc. is a Chinese Internet technology company. Its businesses include video games, news aggregation, music streaming, advertising, email, and e-commerce. It was founded…",
       "politician": null,
       "track": null,
       "sig": {
@@ -834,7 +834,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": false
