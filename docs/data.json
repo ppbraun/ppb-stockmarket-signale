@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T13:13:08.047509+00:00",
+  "generated_at": "2026-11-21T13:34:24.066775+00:00",
   "newsTopics": [
     {
       "topic": "Halbleiter / Chips",
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -360,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -448,7 +448,7 @@
       "name": "Stryker Corporation",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": 0.0,
       "priceEur": 282.08,
       "description": "Die Stryker Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Kalamazoo, Michigan. Das Unternehmen stellt orthopädische und chirurgische Implantate und…",
@@ -465,41 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "RMD",
-      "name": "ResMed",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 214.4,
-      "description": "ResMed Inc. ist ein US-amerikanisches Unternehmen für medizinische Geräte mit Sitz in San Diego, Kalifornien. Es bietet in erster Linie über die Cloud anschließbare medizinische…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -509,53 +475,18 @@
         }
       },
       "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "KEYS",
-      "name": "Keysight Technologies",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 237.95,
-      "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "21Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "MS",
-      "name": "Morgan Stanley",
+      "tk": "C",
+      "name": "Citigroup",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 150.75,
-      "description": "Morgan Stanley ist ein US-amerikanisches Investmentbanking- und Wertpapierhandelsunternehmen mit Hauptsitz in New York, hervorgegangen aus der Teilung von JP Morgan am 5.…",
+      "priceEur": 100.66,
+      "description": "Die Citigroup Inc. ist ein Finanzdienstleister mit Hauptsitz in New York, der im Oktober 1998 durch die Fusion der Citicorp und der Travelers Group entstand. Im Zuge der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -570,6 +501,76 @@
         "macro": {
           "active": true,
           "age": "16Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ORCL",
+      "name": "Oracle Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 92.07,
+      "description": "Oracle Corporation [ˈɔːɹəkl̩ ˌkɔːɹpəˈɹeɪʃn̩] ist ein US-amerikanischer Soft- und Hardwarehersteller mit Hauptsitz in Austin, Texas. Das Unternehmen ist spezialisiert auf die…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "7Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MET",
+      "name": "MetLife",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 87.05,
+      "description": "Metropolitan Life Insurance Company (MetLife) ist ein US-amerikanisches Versicherungsunternehmen mit Firmensitz in New York City. Das Unternehmen ist im Aktienindex S&P 100…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -668,7 +669,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": false
@@ -767,7 +768,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
