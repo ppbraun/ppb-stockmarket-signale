@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T13:04:37.508445+00:00",
+  "generated_at": "2026-11-21T13:13:08.047509+00:00",
   "newsTopics": [
     {
       "topic": "Halbleiter / Chips",
@@ -430,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -479,14 +479,48 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "FTNT",
-      "name": "Fortinet",
+      "tk": "RMD",
+      "name": "ResMed",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 214.4,
+      "description": "ResMed Inc. ist ein US-amerikanisches Unternehmen für medizinische Geräte mit Sitz in San Diego, Kalifornien. Es bietet in erster Linie über die Cloud anschließbare medizinische…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "KEYS",
+      "name": "Keysight Technologies",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 113.34,
-      "description": "Fortinet ist ein US-amerikanisches multinationales Unternehmen mit Sitz in Sunnyvale (Kalifornien). Das Unternehmen entwickelt und vertreibt Software, Appliances und Dienste auf…",
+      "priceEur": 237.95,
+      "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -500,7 +534,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -514,49 +548,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "HD",
-      "name": "Home Depot (The)",
+      "tk": "MS",
+      "name": "Morgan Stanley",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 308.5,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "9Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "DIS",
-      "name": "Walt Disney Company (The)",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 107.35,
-      "description": null,
+      "priceEur": 150.75,
+      "description": "Morgan Stanley ist ein US-amerikanisches Investmentbanking- und Wertpapierhandelsunternehmen mit Hauptsitz in New York, hervorgegangen aus der Teilung von JP Morgan am 5.…",
       "politician": null,
       "track": null,
       "sig": {
@@ -579,10 +578,8 @@
           "active": false
         }
       },
-      "topic": "Communication Services",
-      "ethics": [
-        "Glücksspiel"
-      ],
+      "topic": "Financials",
+      "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
@@ -737,7 +734,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "23Std"
         },
         "predict": {
           "active": false
