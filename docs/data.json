@@ -1,25 +1,30 @@
 {
-  "generated_at": "2026-11-20T19:34:23.386245+00:00",
+  "generated_at": "2026-11-21T06:04:40.700320+00:00",
   "newsTopics": [
     {
-      "topic": "Energie / Öl & Gas",
-      "vol": 3,
+      "topic": "Halbleiter / Chips",
+      "vol": 2,
       "pct": 100
     },
     {
       "topic": "Fed-Zinspolitik",
       "vol": 1,
-      "pct": 33
+      "pct": 50
     },
     {
       "topic": "Edelmetalle / Goldminen",
       "vol": 1,
-      "pct": 33
+      "pct": 50
     },
     {
-      "topic": "Halbleiter / Chips",
+      "topic": "KI-Infrastruktur",
       "vol": 1,
-      "pct": 33
+      "pct": 50
+    },
+    {
+      "topic": "Energie / Öl & Gas",
+      "vol": 1,
+      "pct": 50
     },
     {
       "topic": "Zölle / Handelskonflikt",
@@ -28,11 +33,6 @@
     },
     {
       "topic": "Verteidigung / Rüstung",
-      "vol": 0,
-      "pct": 0
-    },
-    {
-      "topic": "KI-Infrastruktur",
       "vol": 0,
       "pct": 0
     },
@@ -64,9 +64,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -8.6,
-      "priceEur": 225.24,
-      "description": "Amazon most often refers to:Amazon (company), an American multinational technology and retail company Amazon rainforest, a rainforest covering most of the Amazon basin Amazon…",
+      "reaction": -8.8,
+      "priceEur": 224.59,
+      "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
       "politician": null,
       "track": null,
       "sig": {
@@ -75,12 +75,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -5.5,
-      "priceEur": 94.09,
+      "reaction": -5.8,
+      "priceEur": 93.84,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -110,12 +110,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "1T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -134,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -5.1,
-      "priceEur": 246.82,
+      "reaction": -5.3,
+      "priceEur": 246.11,
       "description": "Johnson & Johnson ist ein weltweit tätiger US-amerikanischer Pharmazie- und Konsumgüterhersteller mit Hauptsitz in New Brunswick im US-Bundesstaat New Jersey. Das Unternehmen ist…",
       "politician": null,
       "track": null,
@@ -145,12 +145,12 @@
         },
         "insider": {
           "active": true,
-          "age": "7T",
+          "age": "8T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -9.7,
-      "priceEur": 330.55,
+      "reaction": -10.1,
+      "priceEur": 329.33,
       "description": "Rockwell Automation, Inc. ist ein amerikanischer Hersteller von Automatisierungs- und Informationslösungen für die industrielle Produktion, es ist der Rechtsnachfolger der…",
       "politician": null,
       "track": null,
@@ -180,12 +180,12 @@
         },
         "insider": {
           "active": true,
-          "age": "7T",
+          "age": "8T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -203,9 +203,9 @@
       "name": "Alphabet Inc. (Class C)",
       "broker": true,
       "market": "us",
-      "score": 3,
-      "reaction": -4.8,
-      "priceEur": 243.77,
+      "score": 2,
+      "reaction": -6.1,
+      "priceEur": 240.22,
       "description": null,
       "politician": null,
       "track": null,
@@ -215,15 +215,15 @@
         },
         "insider": {
           "active": true,
-          "age": "4T",
+          "age": "5T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "5Std"
         },
         "predict": {
-          "active": true
+          "active": false
         },
         "buzz": {
           "active": false
@@ -231,7 +231,7 @@
       },
       "topic": "Communication Services",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "PYPL",
@@ -239,9 +239,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -7.1,
-      "priceEur": 49.1,
-      "description": "PayPal Holdings, Inc. is an American multinational financial technology company operating an online payments system in the majority of countries that support online money…",
+      "reaction": -8.3,
+      "priceEur": 48.49,
+      "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
       "sig": {
@@ -250,12 +250,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -274,8 +274,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -5.0,
-      "priceEur": 156.68,
+      "reaction": -6.0,
+      "priceEur": 155.01,
       "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
       "politician": null,
       "track": null,
@@ -285,12 +285,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -309,9 +309,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -2.5,
-      "priceEur": 174.6,
-      "description": "Moderna, Inc. is an American pharmaceutical and biotechnology company based in Cambridge, Massachusetts, that focuses on RNA therapeutics, primarily mRNA vaccines. These vaccines…",
+      "reaction": -0.9,
+      "priceEur": 177.43,
+      "description": "Moderna, Inc. ist ein in Cambridge im US-Bundesstaat Massachusetts ansässiges Biotechnologieunternehmen, das sich auf die Entdeckung und Entwicklung von Arzneimitteln auf der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -320,12 +320,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -344,8 +344,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 4.1,
-      "priceEur": 32.67,
+      "reaction": 3.7,
+      "priceEur": 32.52,
       "description": "General Mills ist ein US-amerikanisches Unternehmen der Nahrungsmittelindustrie und gehört mit einem Umsatz von 18,9 Mrd. US-Dollar (2022) zu den 500 umsatzstärksten Konzernen der…",
       "politician": null,
       "track": null,
@@ -355,12 +355,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "11Std"
         },
         "predict": {
           "active": true
@@ -374,83 +374,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "BRK.B",
-      "name": "Berkshire Hathaway",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": null,
-      "description": "Berkshire Hathaway Inc. [ˈbɜːrkʃər ˈhæθəweɪ] ist eine 1955 gegründete US-amerikanische Holdinggesellschaft mit Sitz in Omaha, Nebraska, zu deren Konglomerat über 80 Unternehmen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "9Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": -2.0,
-      "priceEur": 37.48,
-      "description": "Hewlett Packard Enterprise (HPE) ist ein US-amerikanisches Informationstechnikunternehmen mit Sitz in Spring im Bundesstaat Texas. Es entstand im Zuge der Abspaltung des…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "ANET",
       "name": "Arista Networks",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": -1.5,
-      "priceEur": 151.88,
+      "reaction": -1.1,
+      "priceEur": 152.52,
       "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
       "politician": null,
       "track": null,
@@ -465,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -484,9 +414,149 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 25.59,
+      "reaction": -0.6,
+      "priceEur": 25.44,
       "description": "Die HP Inc. ist einer der größten US-amerikanischen PC- und Druckerhersteller, registriert in Wilmington, Delaware und mit der Unternehmenszentrale in Palo Alto, Kalifornien.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "12Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "PLD",
+      "name": "Prologis",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": -0.5,
+      "priceEur": 111.47,
+      "description": "Prologis, Inc. ist ein börsennotiertes Immobilienunternehmen in der Rechtsform eines Real Estate Investment Trusts (REIT) und ist als globaler Eigentümer, Betreiber und Entwickler…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "16Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Real Estate",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "GM",
+      "name": "General Motors",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 71.62,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "8Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "JBHT",
+      "name": "J.B. Hunt",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": null,
+      "priceEur": 198.85,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "12Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "GEN",
+      "name": "Gen Digital",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 26.56,
+      "description": "Gen Digital Inc. ist ein US-amerikanischer Entwickler von Sicherheitssoftware für Privatanwender. Der Hauptsitz des Unternehmens liegt in Tempe im Bundesstaat Arizona; und seit…",
       "politician": null,
       "track": null,
       "sig": {
@@ -514,83 +584,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "PLD",
-      "name": "Prologis",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 112.07,
-      "description": "Prologis, Inc. ist ein börsennotiertes Immobilienunternehmen in der Rechtsform eines Real Estate Investment Trusts (REIT) und ist als globaler Eigentümer, Betreiber und Entwickler…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "5Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Real Estate",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ALGN",
-      "name": "Align Technology",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 141.48,
-      "description": "Align Technology, Inc. is an American manufacturer of 3D digital scanners and Invisalign clear aligners used in orthodontics and restorative workflow. It was founded in 1997 and…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -34.6,
-      "priceEur": 74.17,
-      "description": null,
+      "reaction": -35.0,
+      "priceEur": 73.78,
+      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
       "sig": {
@@ -602,7 +603,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -621,8 +622,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -12.1,
-      "priceEur": 22.8,
+      "reaction": -12.6,
+      "priceEur": 22.66,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -635,7 +636,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -654,8 +655,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -3.0,
-      "priceEur": 76.7,
+      "reaction": -3.7,
+      "priceEur": 76.14,
       "description": null,
       "politician": null,
       "track": null,
@@ -668,7 +669,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -687,8 +688,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -39.8,
-      "priceEur": 57.0,
+      "reaction": -40.5,
+      "priceEur": 56.32,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -719,9 +720,9 @@
       "name": "NIO Inc.",
       "broker": true,
       "market": "cn",
-      "score": 2,
-      "reaction": -46.1,
-      "priceEur": 2.26,
+      "score": 1,
+      "reaction": -46.7,
+      "priceEur": 2.23,
       "description": null,
       "politician": null,
       "track": null,
@@ -730,13 +731,11 @@
           "active": false
         },
         "insider": {
-          "active": true,
-          "age": "14T",
-          "src": "SEC"
+          "active": false
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -747,7 +746,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "LI",
@@ -755,8 +754,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -14.6,
-      "priceEur": 9.65,
+      "reaction": -16.3,
+      "priceEur": 9.45,
       "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
@@ -769,7 +768,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "16Std"
         },
         "predict": {
           "active": false
@@ -788,8 +787,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -8.8,
-      "priceEur": 37.21,
+      "reaction": -9.7,
+      "priceEur": 36.87,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -802,7 +801,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
@@ -821,8 +820,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -20.6,
-      "priceEur": 91.03,
+      "reaction": -20.8,
+      "priceEur": 90.86,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
@@ -835,7 +834,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "7Std"
         },
         "predict": {
           "active": false
