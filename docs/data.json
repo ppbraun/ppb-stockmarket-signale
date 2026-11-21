@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T13:34:24.066775+00:00",
+  "generated_at": "2026-11-21T14:04:33.485429+00:00",
   "newsTopics": [
     {
       "topic": "Halbleiter / Chips",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "8Std"
         },
         "predict": {
           "active": true
@@ -325,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -395,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -444,117 +444,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "SYK",
-      "name": "Stryker Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 282.08,
-      "description": "Die Stryker Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Kalamazoo, Michigan. Das Unternehmen stellt orthopädische und chirurgische Implantate und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "16Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "C",
-      "name": "Citigroup",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 100.66,
-      "description": "Die Citigroup Inc. ist ein Finanzdienstleister mit Hauptsitz in New York, der im Oktober 1998 durch die Fusion der Citicorp und der Travelers Group entstand. Im Zuge der…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "16Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "ORCL",
-      "name": "Oracle Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 92.07,
-      "description": "Oracle Corporation [ˈɔːɹəkl̩ ˌkɔːɹpəˈɹeɪʃn̩] ist ein US-amerikanischer Soft- und Hardwarehersteller mit Hauptsitz in Austin, Texas. Das Unternehmen ist spezialisiert auf die…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "7Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "MET",
       "name": "MetLife",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 87.05,
       "description": "Metropolitan Life Insurance Company (MetLife) ist ein US-amerikanisches Versicherungsunternehmen mit Firmensitz in New York City. Das Unternehmen ist im Aktienindex S&P 100…",
       "politician": null,
@@ -580,6 +475,110 @@
         }
       },
       "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CL",
+      "name": "Colgate-Palmolive",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 89.82,
+      "description": "Colgate-Palmolive ist ein multinationaler, börsennotierter Konzern mit Stammsitz in New York City.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "12Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "CBOE",
+      "name": "Cboe Global Markets",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 325.49,
+      "description": "Cboe Global Markets ist ein Finanzunternehmen mit Sitz in Chicago. Es betreibt die Chicagoer Optionsbörse, die größte amerikanische Börse für Finanzderivate, sowie die…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "DASH",
+      "name": "DoorDash",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 138.85,
+      "description": "DoorDash Inc. ist ein US-amerikanischer On-Demand-Lieferservice, der Mahlzeiten von Restaurants an Verbraucher liefert. Die Fahrer des Lieferservices, Dasher genannt, nutzen dabei…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "4Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -636,7 +635,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -702,7 +701,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -801,7 +800,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -834,7 +833,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
