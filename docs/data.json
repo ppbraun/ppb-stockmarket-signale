@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T19:04:35.521402+00:00",
+  "generated_at": "2026-11-22T19:34:27.721725+00:00",
   "newsTopics": [
     {
       "topic": "Halbleiter / Chips",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "23Std"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -409,41 +409,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "KEYS",
-      "name": "Keysight Technologies",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 237.95,
-      "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1T"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "APO",
       "name": "Apollo Global Management",
       "broker": true,
@@ -479,46 +444,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CBOE",
-      "name": "Cboe Global Markets",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 325.49,
-      "description": "Cboe Global Markets ist ein Finanzunternehmen mit Sitz in Chicago. Es betreibt die Chicagoer Optionsbörse, die größte amerikanische Börse für Finanzderivate, sowie die…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Financials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "CSCO",
       "name": "Cisco",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 82.48,
       "description": "Cisco Systems, Inc. ist ein US-amerikanisches Unternehmen aus der Telekommunikationsbranche. Bekannt ist es vor allem für seine Router und Switches, die von einem wesentlichen…",
       "politician": null,
@@ -548,14 +479,84 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "VRSK",
-      "name": "Verisk Analytics",
+      "tk": "BAC",
+      "name": "Bank of America",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 42.8,
+      "description": "Die Bank of America Corporation ist eine US-amerikanische Großbank mit Hauptsitz in Charlotte, North Carolina. Das Unternehmen war seit Juli 2006 zeitweise das größte…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "IDXX",
+      "name": "Idexx Laboratories",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 615.3,
+      "description": "IDEXX Laboratories ist ein US-amerikanisches multinationales Unternehmen, das sich auf Entwicklung, Herstellung und den Vertrieb von Produkten und Dienstleistungen für Heimtiere,…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "REG",
+      "name": "Regency Centers",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 183.89,
-      "description": "Verisk Analytics ist ein US-amerikanisches Datenanalyse-Unternehmen mit Sitz in Jersey City.",
+      "priceEur": 67.01,
+      "description": "Regency Centers Corporation is a real estate investment trust based in Jacksonville, Florida, and is one of the largest operators of shopping centers with grocery stores as anchor…",
       "politician": null,
       "track": null,
       "sig": {
@@ -577,7 +578,7 @@
           "active": false
         }
       },
-      "topic": "Industrials",
+      "topic": "Real Estate",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
@@ -601,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": true
