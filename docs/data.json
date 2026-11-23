@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T12:34:22.278247+00:00",
+  "generated_at": "2026-11-23T13:04:52.685876+00:00",
   "newsTopics": [
     {
       "topic": "Halbleiter / Chips",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -267,78 +267,6 @@
       "topic": "Consumer Staples",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "DIS",
-      "name": "Walt Disney Company (The)",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 107.35,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "7Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [
-        "Glücksspiel"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "CL",
-      "name": "Colgate-Palmolive",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 89.82,
-      "description": "The Colgate-Palmolive Company, commonly known as Colgate-Palmolive, is an American multinational consumer products company headquartered on Park Avenue in Midtown Manhattan, New…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "4Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "ANET",
@@ -362,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -467,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -486,9 +414,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 42.29,
-      "description": "Verizon Communications Inc. is an American telecommunications company headquartered in New York City. It is the world's second-largest telecommunications company by revenue and…",
+      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -502,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "10Std"
         },
         "predict": {
           "active": false
@@ -516,14 +444,49 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "CBOE",
-      "name": "Cboe Global Markets",
+      "tk": "TJX",
+      "name": "TJX Companies",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 127.04,
+      "description": "TJX Companies ist ein in Nordamerika, Australien und Europa agierender Einzelhandel­skonzern mit Hauptsitz in Framingham/Massachusetts in den Vereinigten Staaten. Der Konzern ist…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "KEYS",
+      "name": "Keysight Technologies",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 325.49,
-      "description": null,
+      "priceEur": 237.95,
+      "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -537,6 +500,41 @@
         },
         "macro": {
           "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "C",
+      "name": "Citigroup",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 100.66,
+      "description": "Die Citigroup Inc. ist ein Finanzdienstleister mit Hauptsitz in New York, der im Oktober 1998 durch die Fusion der Citicorp und der Travelers Group entstand. Im Zuge der…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -547,17 +545,17 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "TJX",
-      "name": "TJX Companies",
+      "tk": "GEN",
+      "name": "Gen Digital",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 127.04,
-      "description": null,
+      "priceEur": 26.56,
+      "description": "Gen Digital Inc. ist ein US-amerikanischer Entwickler von Sicherheitssoftware für Privatanwender. Der Hauptsitz des Unternehmens liegt in Tempe im Bundesstaat Arizona; und seit…",
       "politician": null,
       "track": null,
       "sig": {
@@ -571,7 +569,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "1T"
         },
         "predict": {
           "active": false
@@ -580,7 +578,7 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -604,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -754,7 +752,7 @@
       "score": 1,
       "reaction": -16.3,
       "priceEur": 9.45,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -787,7 +785,7 @@
       "score": 0,
       "reaction": -9.7,
       "priceEur": 36.87,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
