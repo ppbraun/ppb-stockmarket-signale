@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T15:35:55.527754+00:00",
+  "generated_at": "2026-11-23T16:04:40.389912+00:00",
   "newsTopics": [
     {
       "topic": "Halbleiter / Chips",
@@ -64,8 +64,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -4.7,
-      "priceEur": 235.76,
+      "reaction": -4.8,
+      "priceEur": 235.49,
       "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
       "politician": null,
       "track": null,
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -99,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.4,
-      "priceEur": 96.64,
+      "reaction": -3.7,
+      "priceEur": 96.38,
       "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
       "politician": null,
       "track": null,
@@ -135,7 +135,7 @@
       "market": "us",
       "score": 3,
       "reaction": -5.1,
-      "priceEur": 248.0,
+      "priceEur": 247.98,
       "description": "Johnson & Johnson ist ein weltweit tätiger US-amerikanischer Pharmazie- und Konsumgüterhersteller mit Hauptsitz in New Brunswick im US-Bundesstaat New Jersey. Das Unternehmen ist…",
       "politician": null,
       "track": null,
@@ -169,8 +169,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -6.3,
-      "priceEur": 49.77,
+      "reaction": -6.1,
+      "priceEur": 49.89,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -204,9 +204,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.7,
-      "priceEur": 159.59,
-      "description": null,
+      "reaction": -3.3,
+      "priceEur": 160.2,
+      "description": "Airbnb, Inc. is an American company operating an online marketplace for short-and-long-term homestays, experiences and services in various countries and regions. It acts as a…",
       "politician": null,
       "track": null,
       "sig": {
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": true
@@ -239,9 +239,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 1.0,
-      "priceEur": 31.85,
-      "description": "General Mills ist ein US-amerikanisches Unternehmen der Nahrungsmittelindustrie und gehört mit einem Umsatz von 18,9 Mrd. US-Dollar (2022) zu den 500 umsatzstärksten Konzernen der…",
+      "reaction": 1.8,
+      "priceEur": 32.09,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -274,9 +274,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.7,
-      "priceEur": 152.66,
-      "description": "Die Target Corporation gehört zu den größten Einzelhändlern der USA und ist nach Walmart der zweitgrößte Discounter des Landes. Das Unternehmen hat seinen Sitz in Minneapolis,…",
+      "reaction": 0.9,
+      "priceEur": 153.01,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -304,82 +304,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "CARR",
-      "name": "Carrier Global",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 2.1,
-      "priceEur": 48.05,
-      "description": "Carrier Global Corporation is an American multinational heating, ventilation, and air conditioning (HVAC), refrigeration, and fire and security equipment corporation based in Palm…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "CSCO",
-      "name": "Cisco",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 88.28,
-      "description": "Cisco Systems, Inc. ist ein US-amerikanisches Unternehmen aus der Telekommunikationsbranche. Bekannt ist es vor allem für seine Router und Switches, die von einem wesentlichen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "13Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "DIS",
       "name": "Walt Disney Company (The)",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": 1.3,
-      "priceEur": 109.47,
+      "priceEur": 109.52,
       "description": null,
       "politician": null,
       "track": null,
@@ -415,9 +346,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.8,
-      "priceEur": 89.63,
-      "description": null,
+      "reaction": 1.1,
+      "priceEur": 89.89,
+      "description": "Colgate-Palmolive ist ein multinationaler, börsennotierter Konzern mit Stammsitz in New York City.",
       "politician": null,
       "track": null,
       "sig": {
@@ -450,8 +381,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": 0.8,
-      "priceEur": 286.36,
+      "reaction": 0.4,
+      "priceEur": 285.24,
       "description": "Die Stryker Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Kalamazoo, Michigan. Das Unternehmen stellt orthopädische und chirurgische Implantate und…",
       "politician": null,
       "track": null,
@@ -484,8 +415,8 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 159.53,
+      "reaction": -0.5,
+      "priceEur": 158.72,
       "description": "Morgan Stanley ist ein US-amerikanisches Investmentbanking- und Wertpapierhandelsunternehmen mit Hauptsitz in New York, hervorgegangen aus der Teilung von JP Morgan am 5.…",
       "politician": null,
       "track": null,
@@ -514,47 +445,13 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "GM",
-      "name": "General Motors",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 73.85,
-      "description": "Die General Motors Company (GMC) ist ein global operierender US-amerikanischer Automobilkonzern, dem weltweit mehrere Marken gehören. Die 2009 mit US-amerikanischer/kanadischer…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "3T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
       "tk": "ELV",
       "name": "Elevance Health",
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
-      "priceEur": 357.28,
+      "reaction": -2.0,
+      "priceEur": 349.98,
       "description": "Elevance Health ist ein US-amerikanisches Krankenversicherungsunternehmen mit Firmensitz in Indianapolis, Indiana. Das Unternehmen ist im Aktienindex S&P 500 gelistet und ist ein…",
       "politician": null,
       "track": null,
@@ -583,13 +480,116 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
+      "tk": "RMD",
+      "name": "ResMed",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 217.59,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1Std",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "ISRG",
+      "name": "Intuitive Surgical",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 378.07,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "KEYS",
+      "name": "Keysight Technologies",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 262.37,
+      "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "3T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -30.4,
-      "priceEur": 79.39,
+      "reaction": -30.6,
+      "priceEur": 79.08,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -602,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -621,8 +621,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -11.4,
-      "priceEur": 23.08,
+      "reaction": -11.7,
+      "priceEur": 23.0,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -653,8 +653,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -0.4,
-      "priceEur": 79.13,
+      "reaction": -0.9,
+      "priceEur": 78.73,
       "description": null,
       "politician": null,
       "track": null,
@@ -685,8 +685,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -36.4,
-      "priceEur": 60.54,
+      "reaction": -36.5,
+      "priceEur": 60.42,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -750,9 +750,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -13.1,
-      "priceEur": 9.86,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "reaction": -13.3,
+      "priceEur": 9.84,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -783,8 +783,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -9.0,
-      "priceEur": 37.3,
+      "reaction": -9.2,
+      "priceEur": 37.24,
       "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
@@ -815,8 +815,8 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -18.7,
-      "priceEur": 93.68,
+      "reaction": -19.0,
+      "priceEur": 93.34,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
