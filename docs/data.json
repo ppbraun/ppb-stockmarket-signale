@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T12:04:28.948183+00:00",
+  "generated_at": "2026-11-24T12:34:19.525142+00:00",
   "newsTopics": [
     {
       "topic": "Fed-Zinspolitik",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": -2.8,
       "priceEur": 97.23,
-      "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
+      "description": "Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. It was founded in 1971 by Jerry Baldwin, Zev…",
       "politician": null,
       "track": null,
       "sig": {
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -206,7 +206,7 @@
       "score": 3,
       "reaction": 1.7,
       "priceEur": 32.06,
-      "description": "General Mills ist ein US-amerikanisches Unternehmen der Nahrungsmittelindustrie und gehört mit einem Umsatz von 18,9 Mrd. US-Dollar (2022) zu den 500 umsatzstärksten Konzernen der…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "7Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -241,7 +241,7 @@
       "score": 3,
       "reaction": 1.4,
       "priceEur": 153.75,
-      "description": "Die Target Corporation gehört zu den größten Einzelhändlern der USA und ist nach Walmart der zweitgrößte Discounter des Landes. Das Unternehmen hat seinen Sitz in Minneapolis,…",
+      "description": "Target Corporation is an American retail corporation and discount department store chain headquartered in Minneapolis, Minnesota, United States. Target operates small-format and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -304,41 +304,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "CRM",
-      "name": "Salesforce",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 169.54,
-      "description": "Salesforce, Inc. is ein amerikanisches Unternehmen für Unternehmenssoftware mit Sitz in San Francisco (USA). Bekannt ist das Unternehmen vor allem für Software im Bereich…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "13Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "V",
       "name": "Visa Inc.",
       "broker": true,
@@ -346,7 +311,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 374.26,
-      "description": "Die Visa Inc. ist eine Aktiengesellschaft und neben Mastercard eine der beiden großen Firmen für Zahlungskarten und beschäftigt rund 31.600 Mitarbeiter. Visa vergibt weltweit…",
+      "description": "Visa Inc. is an American multinational payment card services corporation headquartered in San Francisco, California, United States. It facilitates electronic funds transfers…",
       "politician": null,
       "track": null,
       "sig": {
@@ -360,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -464,7 +429,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "1Std"
         },
         "predict": {
           "active": false
@@ -483,7 +448,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 72.81,
       "description": "Die CVS Health Corporation ist ein Einzelhandelsunternehmen der Pharmaziebranche in den Vereinigten Staaten. Der Unternehmenssitz befindet sich in Woonsocket, Rhode Island. Das…",
       "politician": null,
@@ -499,7 +464,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -513,13 +478,48 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "ACGL",
-      "name": "Arch Capital Group",
+      "tk": "MSI",
+      "name": "Motorola Solutions",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 484.39,
+      "description": "Motorola Solutions ist ein börsennotierter amerikanischer Hersteller von sicherheitskritischen Kommunikationslösungen für Behörden und Organisationen mit Sicherheitsaufgaben (BOS)…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "12Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "WMB",
+      "name": "Williams Companies",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 99.31,
+      "priceEur": 59.81,
       "description": null,
       "politician": null,
       "track": null,
@@ -542,18 +542,18 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Energy",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "RMD",
-      "name": "ResMed",
+      "tk": "HSY",
+      "name": "Hershey Company (The)",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 218.83,
+      "priceEur": 157.75,
       "description": null,
       "politician": null,
       "track": null,
@@ -567,7 +567,8 @@
           "src": "SEC"
         },
         "macro": {
-          "active": false
+          "active": true,
+          "age": "23Std"
         },
         "predict": {
           "active": false
@@ -576,9 +577,9 @@
           "active": false
         }
       },
-      "topic": "Health Care",
+      "topic": "Consumer Staples",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -588,7 +589,7 @@
       "score": 2,
       "reaction": -31.0,
       "priceEur": 78.65,
-      "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -600,7 +601,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -732,7 +733,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -753,7 +754,7 @@
       "score": 1,
       "reaction": -13.8,
       "priceEur": 9.78,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -765,7 +766,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -786,7 +787,7 @@
       "score": 0,
       "reaction": -8.4,
       "priceEur": 37.57,
-      "description": null,
+      "description": "Trip.com Group Limited is a multinational travel agency headquartered in Shanghai, China. It was the largest online travel service in the world in 2017.",
       "politician": null,
       "track": null,
       "sig": {
@@ -818,7 +819,7 @@
       "score": 0,
       "reaction": -18.1,
       "priceEur": 94.34,
-      "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
