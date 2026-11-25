@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T14:04:41.452801+00:00",
+  "generated_at": "2026-11-25T14:34:31.829523+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -59,48 +59,13 @@
   ],
   "tickers": [
     {
-      "tk": "SBUX",
-      "name": "Starbucks",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": -2.8,
-      "priceEur": 97.04,
-      "description": "Starbucks Corp. ist ein auf Kaffeeprodukte spezialisiertes, international tätiges US-amerikanisches Einzelhandelsunternehmen und Franchisegeber. Das Unternehmen hat seinen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "10Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
       "tk": "JNJ",
       "name": "Johnson & Johnson",
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.3,
-      "priceEur": 252.18,
+      "reaction": -2.7,
+      "priceEur": 253.5,
       "description": "Johnson & Johnson ist ein weltweit tätiger US-amerikanischer Pharmazie- und Konsumgüterhersteller mit Hauptsitz in New Brunswick im US-Bundesstaat New Jersey. Das Unternehmen ist…",
       "politician": null,
       "track": null,
@@ -115,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -134,8 +99,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -3.3,
-      "priceEur": 51.24,
+      "reaction": -3.9,
+      "priceEur": 50.92,
       "description": "PayPal [ˈpeɪˌpæl] ist ein börsennotierter Betreiber eines Online-Bezahldienstes, der zur Begleichung von Mittel- und Kleinbeträgen zum Beispiel beim Ein- und Verkauf im…",
       "politician": null,
       "track": null,
@@ -169,8 +134,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -4.4,
-      "priceEur": 158.16,
+      "reaction": -5.2,
+      "priceEur": 156.75,
       "description": "Airbnb ist ein 2008 im kalifornischen Silicon Valley gegründetes US-amerikanisches Unternehmen, das unter dem gleichen Namen ein Online-Portal zur Vermittlung, Buchung und…",
       "politician": null,
       "track": null,
@@ -185,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -204,9 +169,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 3.2,
-      "priceEur": 32.46,
-      "description": "General Mills ist ein US-amerikanisches Unternehmen der Nahrungsmittelindustrie und gehört mit einem Umsatz von 18,9 Mrd. US-Dollar (2022) zu den 500 umsatzstärksten Konzernen der…",
+      "reaction": 5.1,
+      "priceEur": 33.04,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -239,9 +204,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 6.2,
-      "priceEur": 160.59,
-      "description": "Die Target Corporation gehört zu den größten Einzelhändlern der USA und ist nach Walmart der zweitgrößte Discounter des Landes. Das Unternehmen hat seinen Sitz in Minneapolis,…",
+      "reaction": 5.8,
+      "priceEur": 160.07,
+      "description": "Target Corporation is an American retail corporation and discount department store chain headquartered in Minneapolis, Minnesota, United States. Target operates small-format and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -255,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -274,8 +239,8 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": -5.9,
-      "priceEur": 141.73,
+      "reaction": -13.9,
+      "priceEur": 129.58,
       "description": "Die Nvidia Corporation ist ein US-amerikanisches Technologieunternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
       "politician": null,
       "track": null,
@@ -290,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -309,114 +274,9 @@
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 167.4,
+      "reaction": -2.3,
+      "priceEur": 163.5,
       "description": "Die Agilent Technologies, Inc., kurz auch Agilent, ist ein US-amerikanisches Technologieunternehmen mit Sitz in Santa Clara, Kalifornien, das analytische Messgeräte herstellt.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "7Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "DTE",
-      "name": "DTE Energy",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": 0.0,
-      "priceEur": 125.6,
-      "description": "DTE Energy ist ein US-amerikanischer Versorger mit Sitz in Detroit. Im Geschäftsjahr 2025 lieferte DTE Energy rund 51,8 Millionen MWh an elektrischer Energie. Das Unternehmen…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "11Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "CNC",
-      "name": "Centene Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": 0.0,
-      "priceEur": 58.7,
-      "description": "Die Centene Corporation ist ein US-amerikanischer Anbieter von Versicherungsleistungen im Gesundheitswesen. Das Unternehmen spezialisiert sich auf Medicaid- und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "22Std"
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "COIN",
-      "name": "Coinbase",
-      "broker": true,
-      "market": "us",
-      "score": 3,
-      "reaction": 0.0,
-      "priceEur": 93.36,
-      "description": "Die Coinbase, auch Coinbase-Transaktion, ist die erste Transaktion, die in einen Block einer Blockchain geschrieben wird. Während reguläre Transaktionen im Abschnitt „Inputs“…",
       "politician": null,
       "track": null,
       "sig": {
@@ -439,19 +299,19 @@
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "MGM",
-      "name": "MGM Resorts",
+      "tk": "DTE",
+      "name": "DTE Energy",
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": 0.0,
-      "priceEur": 31.31,
-      "description": "MGM Resorts International is an American multinational hospitality, sports and entertainment company. It operates resorts in Las Vegas, Massachusetts, Michigan, Mississippi,…",
+      "reaction": -0.0,
+      "priceEur": 125.56,
+      "description": "DTE Energy ist ein US-amerikanischer Versorger mit Sitz in Detroit. Im Geschäftsjahr 2025 lieferte DTE Energy rund 51,8 Millionen MWh an elektrischer Energie. Das Unternehmen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -465,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -474,89 +334,19 @@
           "active": false
         }
       },
-      "topic": "Consumer Discretionary",
+      "topic": "Utilities",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "AMCR",
-      "name": "Amcor",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 40.77,
-      "description": "Amcor Limited ist ein globales Verpackungsunternehmen. Es entwickelt und produziert flexible Verpackungen, starre Behälter, Spezialkartons, Verschlüsse und Dienstleistungen für…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "5Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Materials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "D",
-      "name": "Dominion Energy",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 61.38,
-      "description": "Dominion Energy, Inc. ist ein US-amerikanisches Unternehmen mit Firmensitz in Richmond. Das Unternehmen ist in den Aktienindices S&P 500, Dow Jones Composite Average sowie im Dow…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "18Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "PODD",
-      "name": "Insulet Corporation",
+      "tk": "CNC",
+      "name": "Centene Corporation",
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": null,
-      "priceEur": 128.28,
-      "description": null,
+      "reaction": -1.9,
+      "priceEur": 57.6,
+      "description": "Die Centene Corporation ist ein US-amerikanischer Anbieter von Versicherungsleistungen im Gesundheitswesen. Das Unternehmen spezialisiert sich auf Medicaid- und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -584,13 +374,222 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
+      "tk": "COIN",
+      "name": "Coinbase",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": -4.3,
+      "priceEur": 89.34,
+      "description": "Die Coinbase, auch Coinbase-Transaktion, ist die erste Transaktion, die in einen Block einer Blockchain geschrieben wird. Während reguläre Transaktionen im Abschnitt „Inputs“…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "MGM",
+      "name": "MGM Resorts",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": -0.8,
+      "priceEur": 31.04,
+      "description": "MGM Resorts International is an American multinational hospitality, sports and entertainment company. It operates resorts in Las Vegas, Massachusetts, Michigan, Mississippi,…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "18Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "PODD",
+      "name": "Insulet Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 3,
+      "reaction": 0.4,
+      "priceEur": 128.76,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "22Std"
+        },
+        "predict": {
+          "active": true
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+    },
+    {
+      "tk": "KEYS",
+      "name": "Keysight Technologies",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 237.43,
+      "description": "Keysight Technologies ist ein US-amerikanischer Messgeräte-Hersteller. Das Unternehmen ist die 2014 von Agilent Technologies ausgegliederte elektronische Messgeräte-Sparte und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "KIM",
+      "name": "Kimco Realty",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 23.64,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Real Estate",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "INTU",
+      "name": "Intuit",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 249.17,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -32.0,
-      "priceEur": 77.41,
+      "reaction": -34.1,
+      "priceEur": 74.97,
       "description": "Alibaba Group Holding Limited, branded as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June…",
       "politician": null,
       "track": null,
@@ -603,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -622,8 +621,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -9.7,
-      "priceEur": 23.47,
+      "reaction": -10.1,
+      "priceEur": 23.38,
       "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
       "politician": null,
       "track": null,
@@ -636,7 +635,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "20Std"
         },
         "predict": {
           "active": true
@@ -655,8 +654,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": 0.3,
-      "priceEur": 79.56,
+      "reaction": 0.2,
+      "priceEur": 79.44,
       "description": null,
       "politician": null,
       "track": null,
@@ -669,7 +668,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": false
@@ -688,8 +687,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -39.0,
-      "priceEur": 57.93,
+      "reaction": -41.1,
+      "priceEur": 55.94,
       "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
@@ -702,7 +701,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "4Std"
         },
         "predict": {
           "active": true
@@ -721,8 +720,8 @@
       "broker": true,
       "market": "cn",
       "score": 2,
-      "reaction": -43.9,
-      "priceEur": 2.35,
+      "reaction": -44.3,
+      "priceEur": 2.34,
       "description": null,
       "politician": null,
       "track": null,
@@ -756,9 +755,9 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -13.8,
-      "priceEur": 9.76,
-      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
+      "reaction": -9.2,
+      "priceEur": 10.28,
+      "description": "Li Auto Inc. is a Chinese electric vehicle manufacturer headquartered in Beijing, with manufacturing facilities in Changzhou. Founded by Li Xiang in 2015, the company is best…",
       "politician": null,
       "track": null,
       "sig": {
@@ -789,9 +788,9 @@
       "broker": true,
       "market": "cn",
       "score": 0,
-      "reaction": -9.2,
-      "priceEur": 37.15,
-      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
+      "reaction": -10.8,
+      "priceEur": 36.48,
+      "description": "Trip.com Group Limited is a multinational travel agency headquartered in Shanghai, China. It was the largest online travel service in the world in 2017.",
       "politician": null,
       "track": null,
       "sig": {
@@ -821,8 +820,8 @@
       "broker": true,
       "market": "cn",
       "score": 1,
-      "reaction": -20.3,
-      "priceEur": 91.61,
+      "reaction": -19.8,
+      "priceEur": 92.21,
       "description": "NetEase, Inc., ist eines der führenden chinesischen Internettechnologieunternehmen.",
       "politician": null,
       "track": null,
