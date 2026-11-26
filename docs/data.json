@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T14:34:41.824446+00:00",
+  "generated_at": "2026-11-26T14:40:20.472757+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -7,14 +7,14 @@
       "pct": 100
     },
     {
-      "topic": "Energie / Öl & Gas",
+      "topic": "Fed-Zinspolitik",
       "vol": 2,
       "pct": 29
     },
     {
-      "topic": "Fed-Zinspolitik",
-      "vol": 1,
-      "pct": 14
+      "topic": "Energie / Öl & Gas",
+      "vol": 2,
+      "pct": 29
     },
     {
       "topic": "Halbleiter / Chips",
@@ -171,7 +171,7 @@
       "score": 3,
       "reaction": -2.8,
       "priceEur": 163.18,
-      "description": null,
+      "description": "Die Agilent Technologies, Inc., kurz auch Agilent, ist ein US-amerikanisches Technologieunternehmen mit Sitz in Santa Clara, Kalifornien, das analytische Messgeräte herstellt.",
       "politician": null,
       "track": null,
       "sig": {
@@ -206,7 +206,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 125.98,
-      "description": null,
+      "description": "DTE Energy ist ein US-amerikanischer Versorger mit Sitz in Detroit. Im Geschäftsjahr 2025 lieferte DTE Energy rund 51,8 Millionen MWh an elektrischer Energie. Das Unternehmen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -241,7 +241,7 @@
       "score": 3,
       "reaction": 0.6,
       "priceEur": 59.2,
-      "description": null,
+      "description": "Die Centene Corporation ist ein US-amerikanischer Anbieter von Versicherungsleistungen im Gesundheitswesen. Das Unternehmen spezialisiert sich auf Medicaid- und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -416,7 +416,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 179.41,
-      "description": null,
+      "description": "Coherent Corp., vormals II-VI Incorporated, ist ein amerikanischer Hersteller von II-VI-Verbindungshalbleitern und Lasern mit Sitz in Pennsylvania. Es werden Zinkselenid für…",
       "politician": null,
       "track": null,
       "sig": {
@@ -444,117 +444,12 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "WSM",
-      "name": "Williams-Sonoma, Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 194.23,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "1Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "HD",
-      "name": "Home Depot (The)",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 330.37,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "5Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "VZ",
-      "name": "Verizon",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 43.24,
-      "description": "Verizon Communications Inc. is an American telecommunications company headquartered in New York City. It is the world's second-largest telecommunications company by revenue and…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "21Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Communication Services",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "AAPL",
       "name": "Apple Inc.",
       "broker": true,
       "market": "us",
       "score": 3,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 325.17,
       "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
       "politician": null,
@@ -584,6 +479,110 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
+      "tk": "ADP",
+      "name": "Automatic Data Processing",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 289.64,
+      "description": "Automatic Data Processing, Inc. ist ein amerikanisches Unternehmen aus Roseland im US-Bundesstaat New Jersey.",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ZBH",
+      "name": "Zimmer Biomet",
+      "broker": true,
+      "market": "us",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 100.65,
+      "description": "Zimmer Biomet Holdings, Inc. ist ein US-amerikanisches Medizintechnik-Unternehmen, das weltweit zu den größten Anbietern von orthopädischen Implantaten gehört. Der Hauptsitz des…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": false
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Health Care",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+    },
+    {
+      "tk": "BG",
+      "name": "Bunge Global",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 80.61,
+      "description": "Bunge Global ist ein international tätiges Unternehmen des Agribusiness. Der Firmensitz befindet sich in Genf, die Hauptverwaltung befindet sich jedoch in Chesterfield im…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "19Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Staples",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
       "tk": "BABA",
       "name": "Alibaba Group Holding",
       "broker": true,
@@ -603,7 +602,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -690,7 +689,7 @@
       "score": 2,
       "reaction": -39.0,
       "priceEur": 58.06,
-      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in internet services and artificial intelligence. It holds a leading share of China's search engine market…",
+      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
       "politician": null,
       "track": null,
       "sig": {
@@ -758,7 +757,7 @@
       "score": 1,
       "reaction": -4.3,
       "priceEur": 10.86,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -770,7 +769,7 @@
         },
         "macro": {
           "active": true,
-          "age": "8Std"
+          "age": "9Std"
         },
         "predict": {
           "active": false
