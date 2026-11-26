@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-26T16:04:46.492272+00:00",
+  "generated_at": "2026-11-26T16:34:31.630877+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
-      "vol": 7,
+      "vol": 6,
       "pct": 100
     },
     {
       "topic": "Energie / Öl & Gas",
       "vol": 2,
-      "pct": 29
+      "pct": 33
     },
     {
       "topic": "Fed-Zinspolitik",
       "vol": 1,
-      "pct": 14
+      "pct": 17
     },
     {
       "topic": "Halbleiter / Chips",
       "vol": 1,
-      "pct": 14
+      "pct": 17
     },
     {
       "topic": "Edelmetalle / Goldminen",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "11Std"
+          "age": "12Std"
         },
         "predict": {
           "active": true
@@ -325,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -360,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -430,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -465,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -479,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "SYK",
-      "name": "Stryker Corporation",
+      "tk": "AMGN",
+      "name": "Amgen",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 303.33,
-      "description": "Die Stryker Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Kalamazoo, Michigan. Das Unternehmen stellt orthopädische und chirurgische Implantate und…",
+      "priceEur": 427.55,
+      "description": "Das Biotechnologieunternehmen Amgen wurde 1980 als AMGen gegründet. Amgen ist mit ca. 20.000 Mitarbeitern eines der weltweit größten Biotechnologieunternehmen mit einem…",
       "politician": null,
       "track": null,
       "sig": {
@@ -500,7 +500,7 @@
         },
         "macro": {
           "active": true,
-          "age": "19Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -514,48 +514,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "ZBH",
-      "name": "Zimmer Biomet",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 100.28,
-      "description": "Zimmer Biomet Holdings, Inc. ist ein US-amerikanisches Medizintechnik-Unternehmen, das weltweit zu den größten Anbietern von orthopädischen Implantaten gehört. Der Hauptsitz des…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "VZ",
-      "name": "Verizon",
+      "tk": "XOM",
+      "name": "ExxonMobil",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 43.08,
-      "description": "Die Verizon Communications Inc. [və.ˈɹaɪ.zən], oder kurz Verizon, ist ein US-amerikanischer Telekommunikationskonzern mit Hauptsitz in New York City. Mit dem Tochterunternehmen…",
+      "priceEur": 144.04,
+      "description": "Die Exxon Mobil Corporation, kurz ExxonMobil, ist ein US-amerikanischer Mineralölkonzern, der 1999 durch den Zusammenschluss von Exxon und Mobil Oil entstanden ist. ExxonMobil…",
       "politician": null,
       "track": null,
       "sig": {
@@ -569,7 +535,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
@@ -578,7 +544,44 @@
           "active": false
         }
       },
-      "topic": "Communication Services",
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MCHP",
+      "name": "Microchip Technology",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 52.53,
+      "description": "Microchip Technology Inc. ist ein amerikanischer Halbleiterhersteller aus Chandler (Arizona).",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "16Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -736,7 +739,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": false
