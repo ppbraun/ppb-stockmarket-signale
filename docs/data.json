@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-26T18:04:27.130673+00:00",
+  "generated_at": "2026-11-26T18:34:29.470113+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
-      "vol": 6,
+      "vol": 7,
       "pct": 100
     },
     {
       "topic": "Energie / Öl & Gas",
       "vol": 3,
-      "pct": 50
+      "pct": 43
     },
     {
       "topic": "Fed-Zinspolitik",
       "vol": 1,
-      "pct": 17
+      "pct": 14
     },
     {
       "topic": "Halbleiter / Chips",
       "vol": 1,
-      "pct": 17
+      "pct": 14
     },
     {
       "topic": "Edelmetalle / Goldminen",
@@ -80,7 +80,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -220,7 +220,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -276,7 +276,7 @@
       "score": 3,
       "reaction": 1.4,
       "priceEur": 222.71,
-      "description": "Amazon most often refers to:Amazon (company), an American multinational technology and retail company Amazon rainforest, a rainforest covering most of the Amazon basin Amazon…",
+      "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -325,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -360,7 +360,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -395,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -430,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "1Std"
         },
         "predict": {
           "active": true
@@ -465,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -479,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "BG",
-      "name": "Bunge Global",
+      "tk": "AMGN",
+      "name": "Amgen",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 80.32,
-      "description": "Bunge Global ist ein international tätiges Unternehmen des Agribusiness. Der Firmensitz befindet sich in Genf, die Hauptverwaltung befindet sich jedoch in Chesterfield im…",
+      "priceEur": 427.55,
+      "description": "Das Biotechnologieunternehmen Amgen wurde 1980 als AMGen gegründet. Amgen ist mit ca. 20.000 Mitarbeitern eines der weltweit größten Biotechnologieunternehmen mit einem…",
       "politician": null,
       "track": null,
       "sig": {
@@ -500,7 +500,7 @@
         },
         "macro": {
           "active": true,
-          "age": "22Std"
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -509,19 +509,19 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "PCG",
-      "name": "PG&E Corporation",
+      "tk": "CRL",
+      "name": "Charles River Laboratories",
       "broker": true,
       "market": "us",
       "score": 1,
       "reaction": null,
-      "priceEur": 12.99,
-      "description": "Pacific Gas and Electric Company (PG&E) is an American investor-owned utility (IOU). The company is headquartered at Kaiser Center, in Oakland, California. PG&E provides natural…",
+      "priceEur": 302.58,
+      "description": "Charles River Laboratories ist ein US-amerikanisches Unternehmen, das Forschungs- und Analytikdienstleistungen für Pharmazieunternehmen und Forschungseinrichtungen anbietet.",
       "politician": null,
       "track": null,
       "sig": {
@@ -543,18 +543,18 @@
           "active": false
         }
       },
-      "topic": "Utilities",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "HSY",
-      "name": "Hershey Company (The)",
+      "tk": "MPWR",
+      "name": "Monolithic Power Systems",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 166.35,
+      "priceEur": 1088.5,
       "description": null,
       "politician": null,
       "track": null,
@@ -569,7 +569,7 @@
         },
         "macro": {
           "active": true,
-          "age": "20Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
@@ -578,7 +578,7 @@
           "active": false
         }
       },
-      "topic": "Consumer Staples",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -736,7 +736,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": false
