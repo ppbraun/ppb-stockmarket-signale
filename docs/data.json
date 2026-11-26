@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T16:34:31.630877+00:00",
+  "generated_at": "2026-11-26T17:04:39.079845+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -8,8 +8,8 @@
     },
     {
       "topic": "Energie / Öl & Gas",
-      "vol": 2,
-      "pct": 33
+      "vol": 3,
+      "pct": 50
     },
     {
       "topic": "Fed-Zinspolitik",
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": true
@@ -276,7 +276,7 @@
       "score": 3,
       "reaction": 1.4,
       "priceEur": 222.71,
-      "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -395,7 +395,7 @@
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -416,7 +416,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 323.99,
-      "description": "Apple Inc. [ˈæpəlˌɪŋk] ist ein US-amerikanischer Hard- und Softwareentwickler und ein Technologieunternehmen, das Computer, Smartphones, Tablets und Unterhaltungselektronik sowie…",
+      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online…",
       "politician": null,
       "track": null,
       "sig": {
@@ -430,7 +430,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -451,7 +451,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 94.51,
-      "description": "Die Coinbase, auch Coinbase-Transaktion, ist die erste Transaktion, die in einen Block einer Blockchain geschrieben wird. Während reguläre Transaktionen im Abschnitt „Inputs“…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -465,7 +465,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -479,14 +479,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "AMGN",
-      "name": "Amgen",
+      "tk": "EXE",
+      "name": "Expand Energy",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 427.55,
-      "description": "Das Biotechnologieunternehmen Amgen wurde 1980 als AMGen gegründet. Amgen ist mit ca. 20.000 Mitarbeitern eines der weltweit größten Biotechnologieunternehmen mit einem…",
+      "priceEur": 79.06,
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -500,7 +500,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "21Std"
         },
         "predict": {
           "active": false
@@ -509,19 +509,56 @@
           "active": false
         }
       },
-      "topic": "Health Care",
-      "ethics": [],
+      "topic": "Energy",
+      "ethics": [
+        "Fossile Energie"
+      ],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "XOM",
-      "name": "ExxonMobil",
+      "tk": "EMR",
+      "name": "Emerson Electric",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 144.04,
-      "description": "Die Exxon Mobil Corporation, kurz ExxonMobil, ist ein US-amerikanischer Mineralölkonzern, der 1999 durch den Zusammenschluss von Exxon und Mobil Oil entstanden ist. ExxonMobil…",
+      "priceEur": 143.26,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "1T"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "SYK",
+      "name": "Stryker Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 303.33,
+      "description": "Die Stryker Corporation ist ein US-amerikanisches Unternehmen mit Firmensitz in Kalamazoo, Michigan. Das Unternehmen stellt orthopädische und chirurgische Implantate und…",
       "politician": null,
       "track": null,
       "sig": {
@@ -544,44 +581,7 @@
           "active": false
         }
       },
-      "topic": "Energy",
-      "ethics": [
-        "Fossile Energie"
-      ],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "MCHP",
-      "name": "Microchip Technology",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 52.53,
-      "description": "Microchip Technology Inc. ist ein amerikanischer Halbleiterhersteller aus Chandler (Arizona).",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "16Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
+      "topic": "Health Care",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
@@ -605,7 +605,7 @@
         },
         "macro": {
           "active": true,
-          "age": "18Std"
+          "age": "19Std"
         },
         "predict": {
           "active": true
@@ -638,7 +638,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "22Std"
         },
         "predict": {
           "active": true
@@ -772,7 +772,7 @@
         },
         "macro": {
           "active": true,
-          "age": "10Std"
+          "age": "11Std"
         },
         "predict": {
           "active": false
