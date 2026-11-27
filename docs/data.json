@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-26T19:34:35.603833+00:00",
+  "generated_at": "2026-11-27T06:04:50.084808+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
-      "vol": 8,
+      "vol": 7,
       "pct": 100
     },
     {
       "topic": "Energie / Öl & Gas",
       "vol": 2,
-      "pct": 25
+      "pct": 29
     },
     {
       "topic": "Fed-Zinspolitik",
       "vol": 1,
-      "pct": 12
+      "pct": 14
     },
     {
       "topic": "Halbleiter / Chips",
       "vol": 1,
-      "pct": 12
+      "pct": 14
     },
     {
       "topic": "Edelmetalle / Goldminen",
@@ -75,12 +75,12 @@
         },
         "insider": {
           "active": true,
-          "age": "7T",
+          "age": "8T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "4Std"
+          "age": "14Std"
         },
         "predict": {
           "active": true
@@ -110,12 +110,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -145,12 +145,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -168,7 +168,7 @@
       "name": "DTE Energy",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": 0.0,
       "priceEur": 125.52,
       "description": "DTE Energy ist ein US-amerikanischer Versorger mit Sitz in Detroit. Im Geschäftsjahr 2025 lieferte DTE Energy rund 51,8 Millionen MWh an elektrischer Energie. Das Unternehmen…",
@@ -180,12 +180,11 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "1T"
+          "active": false
         },
         "predict": {
           "active": true
@@ -196,14 +195,14 @@
       },
       "topic": "Utilities",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "CNC",
       "name": "Centene Corporation",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": 0.6,
       "priceEur": 58.99,
       "description": "Die Centene Corporation ist ein US-amerikanischer Anbieter von Versicherungsleistungen im Gesundheitswesen. Das Unternehmen spezialisiert sich auf Medicaid- und…",
@@ -215,12 +214,11 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "4Std"
+          "active": false
         },
         "predict": {
           "active": true
@@ -231,7 +229,7 @@
       },
       "topic": "Health Care",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "PODD",
@@ -250,12 +248,12 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "15Std"
+          "age": "1T"
         },
         "predict": {
           "active": true
@@ -285,7 +283,7 @@
         },
         "insider": {
           "active": true,
-          "age": "2T",
+          "age": "3T",
           "src": "SEC"
         },
         "macro": {
@@ -320,12 +318,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -343,7 +341,7 @@
       "name": "Keurig Dr Pepper",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": 0.0,
       "priceEur": 32.46,
       "description": "Keurig Dr Pepper, Inc., bis 2018 Keurig Green Mountain, Inc., ist ein 1981 unter dem Namen Green Mountain Coffee Roasters, Inc (GMCR) gegründeter Hersteller von Spezialkaffee und…",
@@ -355,12 +353,11 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "6Std"
+          "active": false
         },
         "predict": {
           "active": true
@@ -371,7 +368,7 @@
       },
       "topic": "Consumer Staples",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
       "tk": "COHR",
@@ -390,7 +387,7 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
@@ -425,12 +422,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -460,12 +457,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "3Std"
+          "age": "5Std"
         },
         "predict": {
           "active": true
@@ -479,48 +476,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "MTD",
-      "name": "Mettler Toledo",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 1516.67,
-      "description": "Die US-amerikanische Unternehmensgruppe Mettler Toledo mit Sitz in Columbus, Ohio und operativer Hauptzentrale in Greifensee ist spezialisiert auf Präzisionswaagen für den…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Health Care",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
-    },
-    {
-      "tk": "MCHP",
-      "name": "Microchip Technology",
+      "tk": "CPAY",
+      "name": "Corpay",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": null,
-      "priceEur": 52.53,
-      "description": "Microchip Technology Inc. ist ein amerikanischer Halbleiterhersteller aus Chandler (Arizona).",
+      "priceEur": 413.97,
+      "description": "Corpay, Inc., headquartered in Atlanta, Georgia, provides payments and spend management systems and services that control expense-related purchasing and payment processes. The…",
       "politician": null,
       "track": null,
       "sig": {
@@ -529,46 +492,12 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "19Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "AFL",
-      "name": "Aflac",
-      "broker": true,
-      "market": "us",
-      "score": 1,
-      "reaction": null,
-      "priceEur": 116.18,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
+          "age": "12Std"
         },
         "predict": {
           "active": false
@@ -579,7 +508,77 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "EBAY",
+      "name": "eBay Inc.",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 105.28,
+      "description": "eBay ist ein US-amerikanisches Unternehmen, das einen der größten Online-Marktplätze betreibt. Es wurde am 3. September 1995 von Pierre Omidyar im kalifornischen San José unter…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "13Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "BAC",
+      "name": "Bank of America",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 44.23,
+      "description": "Die Bank of America Corporation ist eine US-amerikanische Großbank mit Hauptsitz in Charlotte, North Carolina. Das Unternehmen war seit Juli 2006 zeitweise das größte…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Financials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -601,7 +600,7 @@
         },
         "macro": {
           "active": true,
-          "age": "21Std"
+          "age": "7Std"
         },
         "predict": {
           "active": true
@@ -634,7 +633,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "9Std"
         },
         "predict": {
           "active": true
@@ -652,7 +651,7 @@
       "name": "PDD Holdings (Pinduoduo)",
       "broker": true,
       "market": "cn",
-      "score": 1,
+      "score": 0,
       "reaction": 0.6,
       "priceEur": 79.65,
       "description": null,
@@ -666,8 +665,7 @@
           "active": false
         },
         "macro": {
-          "active": true,
-          "age": "1T"
+          "active": false
         },
         "predict": {
           "active": false
@@ -678,7 +676,7 @@
       },
       "topic": "Consumer Discretionary",
       "ethics": [],
-      "why": "Live-Signal: erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Insider-Filing vorhanden, aber (noch) keine weiteren Signale."
     },
     {
       "tk": "BIDU",
@@ -700,7 +698,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1T"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -730,12 +728,12 @@
         },
         "insider": {
           "active": true,
-          "age": "3T",
+          "age": "4T",
           "src": "SEC"
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -768,7 +766,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "8Std"
         },
         "predict": {
           "active": false
@@ -830,7 +828,7 @@
         },
         "insider": {
           "active": true,
-          "age": "1T",
+          "age": "2T",
           "src": "SEC"
         },
         "macro": {
