@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T13:34:31.602198+00:00",
+  "generated_at": "2026-11-27T14:04:53.141013+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "9Std"
+          "age": "0Std"
         },
         "predict": {
           "active": true
@@ -325,7 +325,7 @@
         },
         "macro": {
           "active": true,
-          "age": "2Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -343,7 +343,7 @@
       "name": "Coinbase",
       "broker": true,
       "market": "us",
-      "score": 3,
+      "score": 2,
       "reaction": 0.0,
       "priceEur": 94.51,
       "description": "Die Coinbase, auch Coinbase-Transaktion, ist die erste Transaktion, die in einen Block einer Blockchain geschrieben wird. Während reguläre Transaktionen im Abschnitt „Inputs“…",
@@ -363,7 +363,7 @@
           "age": "8Std"
         },
         "predict": {
-          "active": true
+          "active": false
         },
         "buzz": {
           "active": false
@@ -371,7 +371,7 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "SYK",
@@ -409,14 +409,84 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "WMB",
-      "name": "Williams Companies",
+      "tk": "PTC",
+      "name": "PTC Inc.",
       "broker": true,
       "market": "us",
       "score": 2,
       "reaction": 0.0,
-      "priceEur": 60.55,
-      "description": "Williams Companies ist ein US-amerikanischer Erdgas-Pipelinebetreiber mit Firmensitz in Tulsa, Oklahoma. Gegründet wurde das Unternehmen 1908 in Fort Smith, Arkansas. Es ist im…",
+      "priceEur": 178.59,
+      "description": "PTC ist ein US-amerikanisches Technologieunternehmen mit Hauptsitz in Boston, Massachusetts. Das Unternehmen wurde 1985 gegründet und bietet weltweit Technologieplattformen und…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "3Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "RL",
+      "name": "Ralph Lauren Corporation",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": 0.0,
+      "priceEur": 365.11,
+      "description": "Die Ralph Lauren Corporation ist ein börsennotiertes Modeunternehmen mit Hauptsitz in New York City. Das 1967 von Ralph Lauren gegründete Unternehmen bietet unter anderem Kleidung…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "2T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "22Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "MCHP",
+      "name": "Microchip Technology",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 52.53,
+      "description": "Microchip Technology Inc. ist ein amerikanischer Halbleiterhersteller aus Chandler (Arizona).",
       "politician": null,
       "track": null,
       "sig": {
@@ -439,19 +509,19 @@
           "active": false
         }
       },
-      "topic": "Energy",
+      "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "V",
-      "name": "Visa Inc.",
+      "tk": "AFL",
+      "name": "Aflac",
       "broker": true,
       "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 386.69,
-      "description": "Die Visa Inc. ist eine Aktiengesellschaft und neben Mastercard eine der beiden großen Firmen für Zahlungskarten und beschäftigt rund 31.600 Mitarbeiter. Visa vergibt weltweit…",
+      "score": 1,
+      "reaction": null,
+      "priceEur": 116.18,
+      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
       "politician": null,
       "track": null,
       "sig": {
@@ -464,8 +534,7 @@
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "7Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -476,17 +545,17 @@
       },
       "topic": "Financials",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
-      "tk": "LH",
-      "name": "Labcorp",
+      "tk": "MTD",
+      "name": "Mettler Toledo",
       "broker": true,
       "market": "us",
-      "score": 2,
+      "score": 1,
       "reaction": null,
-      "priceEur": 336.17,
-      "description": "Labcorp Holdings Inc., operating under the brand name Labcorp, headquartered in Burlington, North Carolina, provides laboratory services used for diagnosis and healthcare…",
+      "priceEur": 1516.67,
+      "description": "Die US-amerikanische Unternehmensgruppe Mettler Toledo mit Sitz in Columbus, Ohio und operativer Hauptzentrale in Greifensee ist spezialisiert auf Präzisionswaagen für den…",
       "politician": null,
       "track": null,
       "sig": {
@@ -499,8 +568,7 @@
           "src": "SEC"
         },
         "macro": {
-          "active": true,
-          "age": "11Std"
+          "active": false
         },
         "predict": {
           "active": false
@@ -511,77 +579,7 @@
       },
       "topic": "Health Care",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "PTC",
-      "name": "PTC Inc.",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 178.59,
-      "description": "PTC ist ein US-amerikanisches Technologieunternehmen mit Hauptsitz in Boston, Massachusetts. Das Unternehmen wurde 1985 gegründet und bietet weltweit Technologieplattformen und…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "2Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "RL",
-      "name": "Ralph Lauren Corporation",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": null,
-      "priceEur": 365.11,
-      "description": "Die Ralph Lauren Corporation ist ein börsennotiertes Modeunternehmen mit Hauptsitz in New York City. Das 1967 von Ralph Lauren gegründete Unternehmen bietet unter anderem Kleidung…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "2T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "21Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Discretionary",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
     },
     {
       "tk": "BABA",
@@ -603,7 +601,7 @@
         },
         "macro": {
           "active": true,
-          "age": "14Std"
+          "age": "15Std"
         },
         "predict": {
           "active": true
@@ -689,7 +687,7 @@
       "score": 2,
       "reaction": -39.0,
       "priceEur": 57.85,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in internet services and artificial intelligence. It holds a leading share of China's search engine market…",
       "politician": null,
       "track": null,
       "sig": {
@@ -769,7 +767,7 @@
         },
         "macro": {
           "active": true,
-          "age": "5Std"
+          "age": "6Std"
         },
         "predict": {
           "active": false
