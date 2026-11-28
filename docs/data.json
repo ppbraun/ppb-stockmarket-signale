@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T12:04:49.815828+00:00",
+  "generated_at": "2026-11-28T12:34:22.708278+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": 4.0,
       "priceEur": 32.72,
-      "description": "General Mills ist ein US-amerikanisches Unternehmen der Nahrungsmittelindustrie und gehört mit einem Umsatz von 18,9 Mrd. US-Dollar (2022) zu den 500 umsatzstärksten Konzernen der…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "0Std"
         },
         "predict": {
           "active": true
@@ -150,7 +150,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "3Std"
         },
         "predict": {
           "active": true
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "6Std"
+          "age": "0Std"
         },
         "predict": {
           "active": true
@@ -255,7 +255,7 @@
         },
         "macro": {
           "active": true,
-          "age": "12Std"
+          "age": "13Std"
         },
         "predict": {
           "active": true
@@ -302,41 +302,6 @@
       "topic": "Information Technology",
       "ethics": [],
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "ANET",
-      "name": "Arista Networks",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 159.47,
-      "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "11Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Information Technology",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "VST",
@@ -450,7 +415,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 646.68,
-      "description": null,
+      "description": "FICO, originally Fair, Isaac and Company, is an American data analytics company based in Bozeman, Montana, focused on credit scoring services. It was founded by Bill Fair and Earl…",
       "politician": null,
       "track": null,
       "sig": {
@@ -482,7 +447,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 347.74,
       "description": "Die Chubb Limited ist ein international tätiger Schweizer Versicherungskonzern mit Kerngeschäft in den Bereichen Direkt- und Rückversicherungen und Sitz in Zürich.",
       "politician": null,
@@ -512,14 +477,14 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
-      "tk": "AFL",
-      "name": "Aflac",
+      "tk": "ES",
+      "name": "Eversource Energy",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 116.31,
-      "description": "Aflac Incorporated ist ein US-amerikanisches Versicherungsunternehmen mit Sitz in Columbus, Georgia. Aflac ist im S&P 500 gelistet und hat einen Börsenwert von 24 Milliarden…",
+      "priceEur": 66.64,
+      "description": "Eversource Energy is a publicly traded, Fortune 500 energy company headquartered in Springfield, Massachusetts with additional corporate offices in Hartford, Connecticut, and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -535,25 +500,25 @@
           "active": false
         },
         "predict": {
-          "active": false
+          "active": true
         },
         "buzz": {
           "active": false
         }
       },
-      "topic": "Financials",
+      "topic": "Utilities",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "TSN",
-      "name": "Tyson Foods",
+      "tk": "WM",
+      "name": "Waste Management",
       "broker": true,
       "market": "us",
-      "score": 1,
+      "score": 2,
       "reaction": null,
-      "priceEur": 57.68,
-      "description": "Tyson Foods, Inc. ist ein US-amerikanisches Unternehmen der Nahrungsmittelindustrie mit Hauptsitz in Springdale, Arkansas. Das Unternehmen ist im Aktienindex S&P 500 gelistet.",
+      "priceEur": 224.96,
+      "description": "Waste Management (WM) ist ein 1968 von Wayne Huizenga, Dean Buntrock und Larry Beck gegründetes US-amerikanisches Unternehmen mit Firmensitz in Houston, Texas, das im Bereich der…",
       "politician": null,
       "track": null,
       "sig": {
@@ -566,7 +531,43 @@
           "src": "SEC"
         },
         "macro": {
+          "active": true,
+          "age": "15Std"
+        },
+        "predict": {
           "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "KMB",
+      "name": "Kimberly-Clark",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 99.58,
+      "description": null,
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "15Std"
         },
         "predict": {
           "active": false
@@ -577,7 +578,7 @@
       },
       "topic": "Consumer Staples",
       "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing."
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
     },
     {
       "tk": "BABA",
@@ -634,7 +635,7 @@
         },
         "macro": {
           "active": true,
-          "age": "17Std"
+          "age": "18Std"
         },
         "predict": {
           "active": true
