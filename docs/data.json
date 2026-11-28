@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T13:34:24.322778+00:00",
+  "generated_at": "2026-11-28T13:49:57.670611+00:00",
   "newsTopics": [
     {
       "topic": "Zölle / Handelskonflikt",
@@ -66,7 +66,7 @@
       "score": 3,
       "reaction": 4.0,
       "priceEur": 32.72,
-      "description": "General Mills, Inc. is an American multinational manufacturer and marketer of branded consumer foods sold through retail stores. Founded on the banks of the Mississippi River at…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -101,7 +101,7 @@
       "score": 3,
       "reaction": -8.8,
       "priceEur": 137.35,
-      "description": "Die Nvidia Corporation ist ein US-amerikanisches Technologieunternehmen und einer der größten Entwickler von Grafik­prozessoren und Chipsätzen für Personal Computer, Server und…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -115,7 +115,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -136,7 +136,7 @@
       "score": 3,
       "reaction": 5.4,
       "priceEur": 231.93,
-      "description": "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer, global agierender Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als…",
+      "description": "Amazon most often refers to:Amazon (company), an American multinational technology and retail company Amazon rainforest, a rainforest covering most of the Amazon basin Amazon…",
       "politician": null,
       "track": null,
       "sig": {
@@ -185,7 +185,7 @@
         },
         "macro": {
           "active": true,
-          "age": "1Std"
+          "age": "2Std"
         },
         "predict": {
           "active": true
@@ -206,7 +206,7 @@
       "score": 3,
       "reaction": 14.1,
       "priceEur": 204.24,
-      "description": "Coherent Corp. is an American manufacturer of optical materials and semiconductors. As of 2023, the company had 26,622 employees. Its stock is listed on the New York Stock…",
+      "description": "Coherent Corp., vormals II-VI Incorporated, ist ein amerikanischer Hersteller von II-VI-Verbindungshalbleitern und Lasern mit Sitz in Pennsylvania. Es werden Zinkselenid für…",
       "politician": null,
       "track": null,
       "sig": {
@@ -241,7 +241,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 156.95,
-      "description": "Target Corporation is an American retail corporation and discount department store chain headquartered in Minneapolis, Minnesota, United States. Target operates small-format and…",
+      "description": "Die Target Corporation gehört zu den größten Einzelhändlern der USA und ist nach Walmart der zweitgrößte Discounter des Landes. Das Unternehmen hat seinen Sitz in Minneapolis,…",
       "politician": null,
       "track": null,
       "sig": {
@@ -276,7 +276,7 @@
       "score": 3,
       "reaction": 0.0,
       "priceEur": 385.57,
-      "description": null,
+      "description": "Tyler Technologies, Inc. is an American technology company based in Plano, Texas, that provides proprietary software to the U.S. public sector. Tyler Technologies has offices in…",
       "politician": null,
       "track": null,
       "sig": {
@@ -290,7 +290,7 @@
         },
         "macro": {
           "active": true,
-          "age": "16Std"
+          "age": "17Std"
         },
         "predict": {
           "active": true
@@ -304,110 +304,6 @@
       "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit + aktiver Prediction-Market-Bezug."
     },
     {
-      "tk": "ES",
-      "name": "Eversource Energy",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 66.64,
-      "description": null,
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": false
-        },
-        "predict": {
-          "active": true
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Utilities",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + aktiver Prediction-Market-Bezug."
-    },
-    {
-      "tk": "WM",
-      "name": "Waste Management",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 224.96,
-      "description": "Waste Management (WM) ist ein 1968 von Wayne Huizenga, Dean Buntrock und Larry Beck gegründetes US-amerikanisches Unternehmen mit Firmensitz in Houston, Texas, das im Bereich der…",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "16Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Industrials",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
-      "tk": "KMB",
-      "name": "Kimberly-Clark",
-      "broker": true,
-      "market": "us",
-      "score": 2,
-      "reaction": 0.0,
-      "priceEur": 99.58,
-      "description": "Die Kimberly-Clark Corporation mit Sitz in Dallas (USA) ist einer der führenden Hygieneartikelhersteller der Welt.",
-      "politician": null,
-      "track": null,
-      "sig": {
-        "congress": {
-          "active": false
-        },
-        "insider": {
-          "active": true,
-          "age": "1T",
-          "src": "SEC"
-        },
-        "macro": {
-          "active": true,
-          "age": "16Std"
-        },
-        "predict": {
-          "active": false
-        },
-        "buzz": {
-          "active": false
-        }
-      },
-      "topic": "Consumer Staples",
-      "ethics": [],
-      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
-    },
-    {
       "tk": "RDDT",
       "name": "Reddit",
       "broker": true,
@@ -415,7 +311,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 85.63,
-      "description": "Reddit ist ein Internetforum und Social-News-Aggregator. Auf der Social-Media-Website (Online-Community) können registrierte Benutzer Inhalte einstellen und mit anderen Nutzern…",
+      "description": "Reddit is an American social news website, news aggregator, forum and social media platform. Registered users submit content to the site such as links, text posts, images, and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -450,7 +346,7 @@
       "score": 2,
       "reaction": 0.0,
       "priceEur": 32.21,
-      "description": "MGM Resorts International is an American multinational hospitality, sports and entertainment company. It operates resorts in Las Vegas, Massachusetts, Michigan, Mississippi,…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -482,7 +378,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 98.52,
       "description": null,
       "politician": null,
@@ -516,7 +412,7 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 111.94,
       "description": null,
       "politician": null,
@@ -551,9 +447,9 @@
       "broker": true,
       "market": "us",
       "score": 2,
-      "reaction": null,
+      "reaction": 0.0,
       "priceEur": 87.87,
-      "description": null,
+      "description": "O'Reilly Automotive, Inc., doing business as O'Reilly Auto Parts, is an American automotive part retailer that provides automotive parts, tools, supplies, equipment, and…",
       "politician": null,
       "track": null,
       "sig": {
@@ -568,6 +464,111 @@
         "macro": {
           "active": true,
           "age": "22Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Consumer Discretionary",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "FDX",
+      "name": "FedEx",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 284.38,
+      "description": "Die FedEx Corporation ist ein weltweit operierendes US-amerikanisches Kurier- und Logistikunternehmen mit Sitz in Memphis, Tennessee. Die Luftfracht-Division FedEx Express belegt…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "22Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Industrials",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "ANET",
+      "name": "Arista Networks",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 159.47,
+      "description": "Arista Networks ist ein US-amerikanischer Netzwerktechnik-Hersteller. Er wurde 2004 durch Andreas von Bechtolsheim und David Cheriton gegründet und ging 2014 an die NYSE. Die…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "13Std"
+        },
+        "predict": {
+          "active": false
+        },
+        "buzz": {
+          "active": false
+        }
+      },
+      "topic": "Information Technology",
+      "ethics": [],
+      "why": "Live-Signal: aktuelles SEC-Form-4-Insider-Filing + erhöhte Nachrichtenaufmerksamkeit."
+    },
+    {
+      "tk": "DASH",
+      "name": "DoorDash",
+      "broker": true,
+      "market": "us",
+      "score": 2,
+      "reaction": null,
+      "priceEur": 153.24,
+      "description": "DoorDash Inc. ist ein US-amerikanischer On-Demand-Lieferservice, der Mahlzeiten von Restaurants an Verbraucher liefert. Die Fahrer des Lieferservices, Dasher genannt, nutzen dabei…",
+      "politician": null,
+      "track": null,
+      "sig": {
+        "congress": {
+          "active": false
+        },
+        "insider": {
+          "active": true,
+          "age": "1T",
+          "src": "SEC"
+        },
+        "macro": {
+          "active": true,
+          "age": "2Std"
         },
         "predict": {
           "active": false
@@ -621,7 +622,7 @@
       "score": 3,
       "reaction": -4.0,
       "priceEur": 24.96,
-      "description": "JD.com Inc. ist ein chinesisches Internetunternehmen, das die gleichnamige Online-Handelsplattform JD.com betreibt. Es wurde 1998 als JD Multimedia von Richard Liu gegründet und…",
+      "description": null,
       "politician": null,
       "track": null,
       "sig": {
@@ -688,7 +689,7 @@
       "score": 2,
       "reaction": -39.0,
       "priceEur": 57.94,
-      "description": "Baidu ist ein chinesisches Unternehmen, das die gleichnamige Websuchmaschine betreibt. Eine Besonderheit ist die Möglichkeit zur Suche nach MP3-Dateien. Laut der Statistik von…",
+      "description": "Baidu, Inc. is a Chinese multinational technology company specializing in internet services and artificial intelligence. It holds a leading share of China's search engine market…",
       "politician": null,
       "track": null,
       "sig": {
@@ -735,7 +736,7 @@
         },
         "macro": {
           "active": true,
-          "age": "13Std"
+          "age": "14Std"
         },
         "predict": {
           "active": false
@@ -756,7 +757,7 @@
       "score": 1,
       "reaction": 0.1,
       "priceEur": 11.34,
-      "description": null,
+      "description": "Li Auto, auch bekannt als Li Xiang, ist ein chinesischer Hersteller von Kraftfahrzeugen mit alternativer Antriebstechnik. Li Auto verfügt über Anlagen und Stätten in den Bereichen…",
       "politician": null,
       "track": null,
       "sig": {
@@ -789,7 +790,7 @@
       "score": 0,
       "reaction": -9.3,
       "priceEur": 37.14,
-      "description": null,
+      "description": "Trip.com Group Limited, früher Ctrip.com International, ist ein chinesisches Unternehmen, welches Reisedienstleistungen, die Reservierung von Unterkünften,…",
       "politician": null,
       "track": null,
       "sig": {
